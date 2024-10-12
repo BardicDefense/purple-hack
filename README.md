@@ -673,6 +673,7 @@ If there's an encounter, 1d100 roll on the appropriate encounter table.
 ### 4. Loop: Decide Direction
 
 PCs have "movement points" (MP) equal to miles per day (per-turn move rate/5, in miles) divided by hex size:
+
 | Armour | Normal | Encumbered |
 |--------|--------|------------|
 | Unarmored | 4 | 3 | 
