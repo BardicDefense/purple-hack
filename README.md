@@ -101,7 +101,7 @@ Each class is different to balance them out a bit!
 
 ## Note Your Saving Throw
 
-*You'll need to roll this number or lower to succeed.*
+*You'll need to roll this number or higher to succeed.*
 
 - Cleric: 14 (+2 vs poison & paralysis)
 - Druid: 14 (+2 vs fire & lightning)
