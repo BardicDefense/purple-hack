@@ -596,7 +596,7 @@ Each new dungeon room or hex **explored and mapped** per session grants (10 * Du
 
 **Philanthropy:** Donate money to the poor/church/Crown/guild/tavern to earn 1 XP per 5sp spent. A Paladin's required charity tithe does not obtain this XP.
 
-On gaining the requisite number of experience points, a character may increase in level after completing a period of **training**. The cost of training is 1,500sp times the character's current level, and will take one day times the character's current level. For example, to advance from 2<sup>nd</sup> level to 3<sup>rd</sup> level, a character must spend 3,000sp and two days. These training requirements are replaced for Magic-Users with spell research procedures.
+On gaining the requisite number of experience points, a character may increase in level after completing a period of **training**. The cost of training is 1,000sp times the character's current level, and will take one day times the character's current level. For example, to advance from 2<sup>nd</sup> level to 3<sup>rd</sup> level, a character must spend 2,000sp and two days. These training requirements are replaced for Magic-Users with spell research procedures.
 
 ## Healing
 
