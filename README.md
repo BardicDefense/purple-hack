@@ -741,7 +741,7 @@ When a character is hit, the amount of damage is deducted from their hit points.
 
 Even after returning to 1 or more hp, the character will remain in a coma for 1d6 turns and must rest for a minimum of one week before resuming any sort of strenuous activity, mental or physical.
 
-Characters who are slain may be raised from the dead if a Cleric of sufficient level is available to perform the casting.
+Characters who are slain may be raised from the dead if a Cleric of sufficient level is available to perform the casting. Each time a character is brought back from the dead, their CON score is reduced by one point.
 
 ## Attacking from Behind
 
