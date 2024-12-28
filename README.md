@@ -282,73 +282,74 @@ or lower each.
 
 # Armor, Weapons, and Equipment
 > [!NOTE]
-> 100cp=10sp=2ep=1gp
+> 100cp=10sp=1gp
+> *=1 slot    **=2 slots    ***=3 slots
 
 ## Armor
 
-| Armor             | AC   | Slots | Cost   |
-|-------------------|------|-------|--------|
-| Shield            | 1    | 1     | 15sp   |
-| Leather or Furs   | 12   | 1     | 10sp   |
-| Ring              | 13   | 2     | 30sp   |
-| Scale/Lamellar    | 14   | 2     | 45sp   |
-| Chainmail         | 15   | 2     | 75sp   |
-| Splint            | 16   | 3     | 80sp   |
-| Plate             | 17   | 3     | 400sp  |
+| Armor             | AC   | Cost   |
+|-------------------|------|--------|
+| *Shield            | 1    | 20sp   |
+| *Leather or Furs   | 12   | 80sp   |
+| **Ring             | 13   | 130sp   |
+| **Scale/Lamellar   | 14   | 180sp   |
+| **Chainmail        | 15   | 280sp   |
+| ***Splint          | 16   | 580sp   |
+| ***Plate           | 17   | 850sp  |
 
 ## Weapons
 
 ### Melee Weapons
 
-| Weapon Type               | Damage   | Slots | Cost   |
-|---------------------------|----------|-------|--------|
-| Axe, battle¹²             | 1d8     | 1     | 5sp    |
-| Axe, hand³⁴               | 1d6     | 1     | 1sp    |
-| Club                      | 1d4     | 1     | 2cp    |
-| Dagger³⁴                  | 1d4     | 1     | 2sp    |
-| Flail (two-handed)        | 1d6+1   | 2     | 8sp    |
-| Hammer, war               | 1d4+1   | 1     | 7sp    |
-| Lance                     | 2d4+1   | 1     | 6sp    |
-| Mace, heavy               | 1d6+1   | 1     | 10sp   |
-| Morningstar               | 2d4     | 1     | 5sp    |
-| Pick, heavy               | 1d6+1   | 1     | 8sp    |
-| Polearm (two-handed)      | 1d8+1   | 2     | 10sp   |
-| Spear¹²³                  | 1d6     | 1     | 1sp    |
-| Staff                     | 1d6     | 1     | 4cp    |
-| Sword, bastard¹²          | 2d4     | 1     | 25sp   |
-| Longsword (or scimitar)   | 1d8     | 1     | 15sp   |
-| Shortsword⁴               | 1d6     | 1     | 8sp    |
-| Two-handed Sword          | 1d10    | 2     | 30sp   |
-| Trident (two-handed)      | 1d6+1   | 2     | 6sp    |
+| Weapon Type               | Damage  | Cost   |
+|---------------------------|---------|--------|
+| *Axe, battle¹             | 1d8     | 90sp   |
+| *Axe, hand²³              | 1d6     | 12sp   |
+| *Club                     | 1d4     | 5sp    |
+| *Dagger²³                 | 1d4     | 12sp   |
+| **Flail†                  | 1d6+1   | 24sp   |
+| *Hammer, war              | 1d6     | 21sp   |
+| **Lance†                  | 2d4+1   | 60sp   |
+| **Mace, heavy†            | 1d6+1   | 75sp   |
+| *Morningstar              | 2d4     | 40sp   |
+| **Pick, heavy†            | 1d6+1   | 30sp   |
+| **Polearm†                | 1d8+1   | 90sp   |
+| *Spear¹²³                 | 1d6     | 20sp   |
+| *Staff                    | 1d6     | 8sp    |
+| *Sword, bastard¹          | 2d4     | 60sp   |
+| *Longsword (or scimitar)  | 1d8     | 50sp   |
+| *Shortsword³              | 1d6     | 25sp   |
+| **Greatsword†             | 1d10    | 75sp   |
+| **Trident†                | 1d6+1   | 25sp   |
 
-¹Weapon can be used either one- or two-handed.
+†Two-handed weapon
 
-²When wielded two-handed, gain +1 damage.
+¹Weapon can be used either one- or two-handed. When wielded two-handed, gain +1 damage.
 
-³Can be used as a melee or missile weapon.
+²Can be used as a melee or missile weapon.
 
-⁴Can be dual-wielded for a +1 bonus to hit.
+³Can be dual-wielded for a +1 bonus to hit.
+
+*Note: You can get a weapon "silvered" for 3x its base cost.*
 
 ### Missile Weapons
 
-| Weapon               | Damage          | Rate of Fire* | Range†      | Slots | Cost   |
-|----------------------|-----------------|----------------|-------------|-------|--------|
-| Arrows (20)          | 1d6             | By weapon      | By weapon   | 1     | 2sp    |
-| Axe, hand            | 1d6             | 1              | 10ft        | 1     | 1sp    |
-| Bolts, heavy (20)    | 1d6+1           | By weapon      | By weapon   | 1     | 2sp    |
-| Bolts, light (20)    | 1d4+1           | By weapon      | By weapon   | 1     | 2sp    |
-| Bow, long            | Arrows          | 2              | 70ft        | 2     | 60sp   |
-| Bow, short           | Arrows          | 2              | 50ft        | 2     | 15sp   |
-| Crossbow, heavy      | Bolts, heavy    | ½              | 80ft        | 2     | 20sp   |
-| Crossbow, light      | Bolts, light    | 1              | 60 ft       | 2     | 12sp   |
-| Dagger               | 1d4             | 1              | 10ft        | 1     | 2sp    |
-| Dart                 | 1d3             | 3              | 15ft        | 1/3   | 2cp    |
-| Javelin              | 1d6             | 1              | 20ft        | 1     | 5cp    |
-| Sling                | Stones, sling    | 1              | 40ft        | 1     | 2cp    |
-| Spear                | 1d6             | 1              | 20ft        | 1     | 1sp    |
-| Stones, sling (20)   | 1d4             | By weapon      | By weapon   | 1     | 0sp    |
-
-*Rate of fire is the number of times that a missile weapon can be fired during a single combat round. Longbows and shortbows can be fired two times during a combat round, while a heavy crossbow can be fired only once in a round and must then be reloaded for a full round before it can be fired again.
+| Weapon                | Damage          | Range†      | Cost    |
+|-----------------------|-----------------|-------------|---------|
+| *Arrows (20)          | 1d6             | By weapon   | 20sp    |
+| *Axe, hand            | 1d6             | 10ft        | 12sp    |
+| *Bolts, heavy (20)    | 1d6+1           | By weapon   | 20sp    |
+| *Bolts, light (20)    | 1d4+1           | By weapon   | 20sp    |
+| **Bow, long           | Arrows          | 70ft        | 60sp    |
+| **Bow, short          | Arrows          | 50ft        | 40sp    |
+| **Crossbow, heavy     | Bolts, heavy    | 80ft        | 75sp    |
+| **Crossbow, light     | Bolts, light    | 60ft        | 50sp    |
+| *Dagger               | 1d4             | 10ft        | 12sp    |
+| *Dart                 | 1d3             | 15ft        | 3sp     |
+| *Javelin              | 1d6             | 20ft        | 8sp     |
+| *Sling                | Stones, sling   | 40ft        | 1sp     |
+| *Spear                | 1d6             | 20ft        | 20sp    |
+| *Stones, sling (20)   | 1d4             | By weapon   | 0sp     |
 
 †Shooting or throwing beyond this range is at a -2 penalty to hit. The weapon cannot reach farther than twice this range. Outdoors, these range increments are tripled.
 
@@ -358,39 +359,44 @@ or lower each.
 
 | Clothing                          | Cost   |
 |-----------------------------------|--------|
-| Belt                              | 2cp    |
-| Boots, high                       | 2sp    |
-| Boots, low                        | 1sp    |
-| *Cloak                            | 5cp    |
-| *Clothing, cold weather           | 10sp   |
-| Hat                               | 7cp    |
-| Robe                              | 6cp    |
+| Belt                              | 1sp    |
+| Boots, high                       | 12sp   |
+| Boots, low                        | 10sp   |
+| *Cloak                            | 32sp   |
+| *Clothing, cold weather           | 40sp   |
+| *Clothing, common, set            | 30sp   |
+| *Clothing, fine, set              | 90sp   |
+| *Clothing, traveling, set         | 60sp   |
+| Hat                               | 4sp    |
+| Robe                              | 18sp   |
 
 ### Herbs
 
 | Herbs                             | Cost   |
 |-----------------------------------|--------|
-| Garlic, bulb                      | 5cp    |
+| Garlic, bulb                      | 1cp    |
 | *Wolfsbane sprig                  | 1sp    |
 
 ### Livestock
 
 | Livestock                         | Cost   |
 |-----------------------------------|--------|
-| Chicken                           | 3cp    |
-| Cow                               | 10sp   |
-| Dog, guard/war                   | 25sp   |
-| Dog, hunting                      | 17sp   |
-| Donkey                            | 8sp    |
-| Goat                              | 1sp    |
+| Chicken                           | 6cp    |
+| Cow                               | 60sp   |
+| Dog, guard/war                    | 65sp   |
+| Dog, hunting                      | 35sp   |
+| Donkey                            | 70sp   |
+| Goat                              | 5sp    |
 | Hawk                              | 40sp   |
-| Horse, draft                      | 30sp   |
-| Horse, riding                     | 40sp   |
-| Mule                              | 20sp   |
-| Ox                                | 15sp   |
-| Pig                               | 3sp    |
-| Pony                              | 15sp   |
-| Rabbit                            | 5cp    |
+| Horse, draft                      | 150sp  |
+| Horse, riding                     | 100sp  |
+| Horse, war, trained               | 300sp  |
+| Mule                              | 90sp   |
+| Ox                                | 120sp  |
+| Pidgeon                           | 2cp    |
+| Pig                               | 10sp   |
+| Pony                              | 75sp   |
+| Rabbit                            | 1cp    |
 | Sheep                             | 2sp    |
 | Songbird                          | 4cp    |
 
@@ -398,9 +404,9 @@ or lower each.
 
 | Equipment & Items                 | Cost   |
 |-----------------------------------|--------|
-| Backpack, leather (10 slots)      | 3sp    |
+| Backpack, leather (10 slots)      | 10sp   |
+| *Bedroll/blanket                  | 5sp    |
 | **Pole, 10'                       | 3cp    |
-| *Bedroll/blanket                  | 2sp    |
 | Bell, miniature                   | 3sp    |
 | *Manacles                         | 10sp   |
 | *Marbles (bag of 20)              | 1sp    |
