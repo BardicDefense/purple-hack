@@ -1,5 +1,5 @@
 # Purple Hack
-> *A fair-use amalgamation of OD&D (Attributes, Combat, & Cleric Spell Progression - ref. Swords & Wizardry), AD&amp;D 1e (Spells & Classes - ref. OSRIC), AD&D 2e (Thief - ref. For Gold & Glory), B/X (Procedures - ref. Old-School Essentials) and other RPGs into a single ruleset for personal use. The design goal is to combine some meaningful character creation choices from AD&D/OSRIC with the class descriptions, unified saving throw & quick combat of Swords & Wizardry, plus some procedures from B/X and some other sources that I enjoy. Much of this is copied & pasted from the above sources; this is not intended to be original work, but a tribute & home game "house rules" set. Please don't sue me. :grimacing:*
+> *The following are "house rules" and clarifications. Everything not covered below is used as-written in OSE Advanced.*
 
 # Table of Contents
 - [Character Creation Quickstart](#character-creation-quickstart)
@@ -72,32 +72,42 @@
 
 Roll 3d6 down the line for Str, Dex, Con, Int, Wis, and Cha. You can swap one set of stats.
 
+## Choose a Character Race & Note Any Abilities
+
+Note that non-humans cannot be Paladins or Rangers. Some non-human races have level caps in some classes or multi-classes, noted by a parenthesis after the class name.
+
+- **Humans**: The most flexible & common. Can be any single classes.
+- **Dwarf**: +1 Con, -1 Cha. Requires Con 9. Infravision 60'. Con bonus to saving throws vs magic & poison (7-10: +2; 11-14: +3; 15-17: +4; 18: +5). Stone senses (2-in-6). Thieves: +3 Open Locks, +3 Find/Remove Traps, -1 Move Silently, -1 Climb Walls. *Can be Cleric (8), Fighter (10), Thief (9), or Fighter/Thief.*
+- **Elf**: +1 Dex, -1 Con. Requires Dex 7, Int 9. Infravision 60’. 90% resistance to sleep and charm spells. 4-in-6 chance to find secret doors (instead of 2-in-6). 2-in-6 Listening at Doors. Immune to ghoul paralysis. Thieves: +1 Pick Pockets, +1 Find/Remove Traps, +1 Move Silently, +2 Hide in Shadows, -1 Climb Walls, +1 Detect Noise, +2 Read Languages. *Can be Cleric (7), Druid (8), Fighter (7), Magic-User (11), Ranger (11), Thief (10), Fighter/Magic-User, Fighter/Thief, Magic-User/Thief, or Fighter/Magic-User/Thief.*
+- **Half-Elf**: Requires Cha 9, Con 9. Infravision 60’. 30% resistance to sleep and charm spells. 3-in-6 chance to find secret doors. *Can be Cleric (5), Fighter (8), Magic-User (8), Thief (12), Cleric/Fighter, Cleric/Magic-User, Fighter/Magic-User, Fighter/Thief, Magic-User/Thief, Cleric/Fighter/Magic-User, or Fighter/Magic-User/Thief.*
+- **Halfling**: -1 Str, +1 Dex. Requires Con 9, Dex 9. Con bonus to saving throws vs magic & poison (7-10: +2; 11-14: +3; 15-17: +4; 18: +5). +1 bonus to missile weapon attacks. 2-in-6 Listening at Doors. +2 AC vs large enemies. Thieves: +1 Pick Pockets, +1 Open Locks, +1 Find/Remove Traps, +3 Move Silently, +3 Hide in Shadows, -3 Climb Walls, +1 Detect Noise, -1 Read Languages. *Can be Fighter (6), Druid (6), Thief (8), or Fighter/Thief.*
+
 ## Choose Your Class & Note Hit Die & Special Abilities
 *Note: Depending on your race selection, you might be able to multi-class.*
 
-| Class        | Required Stats | Description                                     | Prime Attribute | Hit Die | 1<sup>st</sup> Level Special Abilities |
+| Class        | Required Stats | Description                                     | Prime Requisite | Hit Die | 1<sup>st</sup> Level Special Abilities |
 |--------------|----------------|-------------------------------------------------|------------------|---------|----------------------------------------|
-| Cleric       | Wis 9          | You're an armored warrior priest(ess) who does battle against the foes of your god. | Wis              | 1d8    | Turn Undead (spells later)            |
-| Druid        | Wis 12 Cha 15  | You probably wear Birkenstocks and talk to animals (and can turn into one later). | Wis + Cha        | 1d8    | Spell Casting                         |
-| Fighter      | Str 9 Con 7    | You're the swashbuckling Viking samurai highlander badass backbone of the front line. | Str              | 1d10   | Fighting the Unskilled, Parry, Strength Bonuses |
-| Magic-User   | Int 9          | You're a wizard, Harry.                          | Int              | 1d4    | Spell Casting                         |
-| Paladin      | Str 12 Con 9 Int 9 Wis 13 Cha 17 | You're a paragon of righteousness sworn to be Lawful, a knight in shining armor (halfway between fighter & cleric). | Str              | 1d10   | Paladin Vows, Lay on Hands, Cure Disease, Detect Evil, Protection from Evil |
-| Ranger       | Str 13 Con 14 Int 13 Wis 14 | You're a defender of the poor, a servant who protects civilization from the evil forces that lurk in the wilderness. | Str              | 2d8*   | Lone Ranger; Tracking; Alertness; +1 damage vs evil humanoids |
-| Thief        | Dex 9          | You're the figure in the shadows, the cunning expert in scouting, stealth, and delicacy. | Dex              | 1d6    | Backstab, Thieving Skills             |
+| Cleric       | None          | You're an armored warrior priest(ess) who does battle against the foes of your god. | Wis              | 1d8    | Turn Undead (spells later)            |
+| Druid        | None  | You probably wear Birkenstocks and talk to animals (and can turn into one later). | Wis        | 1d8    | Spell Casting, Identification                         |
+| Fighter      | None   | You're the swashbuckling Viking samurai highlander badass backbone of the front line. | Str              | 1d10   | Fighting the Unskilled, Parry, Strength Bonuses |
+| Magic-User   | None          | You're a wizard, Harry.                          | Int              | 1d4    | Spell Casting                         |
+| Paladin      | Cha 9 | You're a paragon of righteousness sworn to be Lawful, a knight in shining armor (halfway between fighter & cleric). | Str + Wis              | 1d10   | Paladin Vows, Laying on Hands |
+| Ranger       | Con 9, Wis 9 | You're a defender of the poor, a servant who protects civilization from the evil forces that lurk in the wilderness. | Str              | 1d8*   | Awareness, Foraging & Hunting, Limited Possessions, Ranger Stealth, Tracking |
+| Thief        | None         | You're the figure in the shadows, the cunning expert in scouting, stealth, and delicacy. | Dex              | 1d6    | Backstab, Thieving Skills             |
 
-*1d8/level thereafter
+*Starts with 8hp+Con mod, rolls normally thereafter
 
 ## You Start at Level 1; Note XP Needed for Level 2
 
 Each class is different to balance them out a bit!
 
-- Cleric: 1,550XP
+- Cleric: 1,500XP
 - Druid: 2,000XP
-- Fighter: 1,900XP
-- Magic-User: 2,400XP
-- Paladin: 2,550XP
+- Fighter: 2,000XP
+- Magic-User: 2,500XP
+- Paladin: 2,750XP
 - Ranger: 2,250XP
-- Thief: 1,250XP
+- Thief: 1,200XP
 
 ## Note Your Saving Throw
 
@@ -106,28 +116,10 @@ Each class is different to balance them out a bit!
 - Cleric: 14 (+2 vs poison & paralysis)
 - Druid: 14 (+2 vs fire & lightning)
 - Fighter: 15 (+1 vs everything but spells)
-- Magic-User: 13 (+2 vs spells)
+- Magic-User: 14 (+2 vs spells)
 - Paladin: 12
-- Ranger: 15
+- Ranger: 14
 - Thief: 14 (+2 vs devices incl. magical)
-
-## Choose Alignment
-
-Druids must start as Neutral; Paladins & Rangers must be Lawful; Thieves must be Neutral or Chaotic; Clerics must be Lawful or Chaotic.
-
-- **Lawful (1-3)**: You believe in goodness, justice, truth, and order; will protect others; act for the good of the group.
-- **Neutral (4-5)**: You believe in balance, will cooperate if there's no drawback, treat others like they treat you.
-- **Chaotic (6)**: Evil rules, law drools. Screw these shmucks.
-
-## Choose a Character Race & Note Any Abilities
-
-Note that non-humans cannot be Paladins or Rangers. Some non-human races have level caps in some classes or multi-classes, noted by a parenthesis after the class name.
-
-- **Humans**: The most flexible & common. Can be any single classes. Can dual-class later but not multi-class from 1st level.
-- **Dwarf**: +1 Con, -1 Cha. Requires 8 Str, 12 Con. Infravision 60'. +1 to hit vs goblins, half-orcs, hobgoblins, and orcs. +4 on saving throws vs magic. Stone senses. Thieves: +3 Open Locks, +3 Find/Remove Traps, -1 Move Silently, -1 Climb Walls. *Can be Cleric (8), Fighter (Str 18: 9, Str 17: 8, Str 16-: 7), Thief, or Fighter/Thief.*
-- **Elf**: +1 Dex, -1 Con. Requires 7 Dex, 8 Con, 8 Int, 8 Cha. Infravision 60'. 90% resistance to *sleep* and *charm* spells. +1 to hit with bows. 4-in-6 chance to find secret doors (instead of 2-in-6). 2-in-6 Listening at Doors. Immune to ghoul paralysis. Thieves: +1 Pick Pockets, +1 Find/Remove Traps, +1 Move Silently, +2 Hide in Shadows, -1 Climb Walls, +1 Detect Noise, +2 Read Languages. *Can be Cleric (7), Fighter (Str 18: 7, Str 17: 6, Str 16-: 5), Magic-User (Int 18: 11, Int 17: 10, Int 16-: 9), Thief, Fighter/Magic-User, Fighter/Thief, Magic-User/Thief, or Fighter/Magic-User/Thief.*
-- **Half-Elf**: Requires 6 Dex, 6 Con, 4 Int. Infravision 60'. 30% resistance to *sleep* and *charm* spells. 4-in-6 chance to find secret doors. *Can be Cleric (5), Fighter (Str 18: 8, Str 17: 7, Str 16-: 6), Magic-User (Int 18: 8, Int 17: 7, Int 16-: 6), Thief, Cleric/Fighter, Cleric/Magic-User, Fighter/Magic-User, Fighter/Thief, Magic-User/Thief, Cleric/Fighter/Magic-User, or Fighter/Magic-User/Thief.*
-- **Halfling**: -1 Str, +1 Dex. Requires 6 Str, 8 Dex, 10 Con, 6 Int. +4 on saving throws vs magic, +1 bonus to missile weapon attacks. 2-in-6 Listening at Doors. Thieves: +1 Pick Pockets, +1 Open Locks, +1 Find/Remove Traps, +3 Move Silently, +3 Hide in Shadows, -3 Climb Walls, +1 Detect Noise, -1 Read Languages. *Can be Fighter (4), Druid (6), Thief, or Fighter/Thief.*
 
 ## Note Your Ability Score Modifiers
 
@@ -200,41 +192,26 @@ Roll your hit die (reroll 1s & 2s). Add your Con modifier if you have one!
 | 16-17   | +1            | 6     | 9       |
 | 18      | +2            | 7     | 10      |
 
-## Roll Quick Equipment
-**(Or roll 3d6*10sp and go shopping!)**
-
-*We're using "item slot" encumbrance. Most things are 1 slot, but 2h weapons and medium armor are 2, heavy armor is 3, and coins & gems stack to 500 in a slot. If you cross the line marked on your character sheet, you're encumbered.*
-
-- You start with: a backpack, tinderbox, waterskin, rations x3, torches x3, 3d6sp.
-- Armor based on class. Magic-Users have no armor or shield (but get 4d6sp). Thief & Druid get leather armor. Others roll 1d6:
-  - 1-2=Leather (AC 12)
-  - 3-4=Ring (AC 13)
-  - 5=Scale (AC 14)
-  - 6=Chainmail (AC 15)
-- Choose a weapon option (Clerics can only wield blunt weapons; Druids only wooden; Magic-Users only daggers, staves & darts; dwarves & halflings can't use large two-handed weapons):
-  - Option A: One melee weapon & a shield (+1 AC)
-  - Option B: One two-handed weapon (+1 damage)
-  - Option C: Two one-handed weapons (+1 to hit)
-  - Option D: One melee weapon & one ranged weapon (plus ammo)
-- Roll 1d12 twice on the gear table below.
-- Go shopping with your 3d6sp, if you want.
-  - If you're a cleric, be sure to buy a holy symbol!
-  - Make a note on your sheet which slots belong to which containers you have (backpack, sacks, etc.). Small sacks require one hand to carry, large sacks require two hands.
-
-## Adventuring Gear Table
-
-| 1d12 | Gear                          | 1d12 | Gear                          |
-|------|-------------------------------|------|-------------------------------|
-| 1    | Crowbar                       | 7    | 50' rope                     |
-| 2    | Hammer (small) + iron spikes x12 | 8    | 50' rope + Grappling hook    |
-| 3    | Holy water                    | 9    | Twine (100' ball)            |
-| 4    | Lantern + Oil flask x3        | 10   | Vial, glass x3               |
-| 5    | Hand mirror                   | 11   | Mallet + stakes x3           |
-| 6    | Pole, 10'                     | 12   | Wolfsbane sprig              |
-
 ## Note Your XP Bonus (If Any)
 
-+5% XP (cumulative) bonus for each of the following: Prime Attribute(s) 13+, Wis 13+, Cha 13+.
++5% XP (cumulative) bonus for each of the following: Prime Requisite(s) 13+, Wis 13+, Cha 13+.
+
+## Choose Alignment
+
+Druids must start as Neutral; Paladins & Rangers must be Lawful; Thieves must be Neutral or Chaotic; Clerics must be Lawful or Chaotic.
+
+- **Lawful (1-3)**: You believe in goodness, justice, truth, and order; will protect others; act for the good of the group.
+- **Neutral (4-5)**: You believe in balance, will cooperate if there's no drawback, treat others like they treat you.
+- **Chaotic (6)**: Evil rules, law drools. Screw these shmucks.
+
+## Buy Equipment
+Roll 8d6 and multiply the number by 10. That’s your starting silver pieces (sp).
+
+We’re using “item slot” encumbrance. Most things are 1 slot, but 2h weapons and medium armor are 2, heavy armor is 3, and coins & gems stack to 500 in a slot. If you cross the line marked on your character sheet, you’re encumbered.
+
+If you’re a cleric, be sure to buy a holy symbol! If you’re a thief, you’ll want lockpicks. A magic-user needs a book to use as a spellbook.
+
+Make a note on your sheet which slots belong to which containers you have (backpack, sacks, etc.). Small sacks require one hand to carry, large sacks require two hands.
 
 ## Note Your Movement Speed
 
@@ -246,19 +223,20 @@ The first number is your exploration speed, the second is your speed in combat.
 | Ring, Scale, Chainmail   | 90' (30')      | 60' (20')      |
 | Splint, Plate            | 60' (20')      | 30' (10')      |
 
-
 ## Check Any Special Abilities You Have
 
-- **Alertness**: A party with a Ranger is unlikely to be surprised, with only a 1-in-6 chance. A ranger surprises on 3-in-6.
+- **Awareness**: Rangers are only surprised on a roll of 1-in-6. A ranger may be able to act in the surprise round while their companions are surprised.
 - **Backstab**: When attacking with surprise from behind, the Thief gains +4 to hit and inflicts double damage.
-- **Cure Disease**: A Paladin can cure disease by touch once per week (more often at higher levels) and is immune to disease.
-- **Detect Evil**: A Paladin may detect evil at any range up to 60', provided he or she concentrates on doing so in the right general direction.
 - **Fighting the Unskilled**: Against creatures with 1 hit die or less, a Fighter makes one attack per level each round.
-- **Lay on Hands**: A Paladin can "lay on hands" once per day to cure 2hp per Paladin level.
-- **Lone Ranger**: Until 8<sup>th</sup> Level & the title "Ranger Knight," a Ranger may not hire or accept followers of any kind. A maximum of three rangers may travel or operate together at any one time. Rangers travel light and may not keep more treasure than they (or their steed) can carry.
-- **Paladin Vows**: Paladins may own 1 suit of magic armor, 1 magic shield, and up to 3 magic weapons, but no more than 4 additional magic items. Paladins must give away 10% of any treasure received to some Lawful Good cause, and if any remains after paying costs (like maintaining equipment or paying servants' wages), that surplus must likewise be donated. Paladins will not associate with characters who are not Lawful save under very exceptional circumstances.
-- **Parry**: Fighters with a Dexterity score of 14 or better can parry instead of attacking to penalize incoming attacks at the following rate: Dex 14-15=-1 to hit, Dex 16-17=-2 to hit, Dex 18=-3 to hit.
+- **Foraging & Hunting:** A party with a ranger succeeds at foraging with a 2-in-6 chance and is twice as effective while hunting.
+- **Identification:** Druids can identify all plants and animals and can discern pure water.
+- **Laying on Hands**: A Paladin can "lay on hands" once per day to cure 2hp per Paladin level.
+- **Limited Possessions:** Rangers travel light and may not keep more treasure than they (or their steed) can carry.
+- **Paladin Vows**: Paladins may own 1 suit of magic armor, 1 magic shield, and 1 magical melee weapon, but no more than 4 additional magic items. Paladins must give away 10% of any treasure received to some Lawful Good cause.
+- **Parry**: Fighters with a Dexterity score of 13 or better can parry instead of attacking to penalize incoming attacks at the following rate: Dex 13-15=-1 to hit, Dex 16-17=-2 to hit, Dex 18=-3 to hit. (Declared during declaration phase.)
 - **Protection from Evil**: A Paladin radiates an aura within a 10' radius, equivalent to the clerical spell *protection from evil*.
+- **Ranger Stealth:** In the wilderness, a ranger has a 3-in-6 chance of hiding and a 3-in-6 chance of moving silently.
+- **Strength Bonuses:** Only fighters receive bonuses to hit and to damage based on their Str score.
 - **Thieving Skills**: You're preternaturally good at some things. Roll the number listed or lower on 1d20 to succeed. At 1<sup>st</sup> level, you have 12 points to add to your skills (no more than 6 to one single skill). You'll also add your Dex mod to * skills. If you wear armor other than padded or leather while attempting the * skills or Climb Walls, you have a penalty equal to the number of slots the armor takes. Note: These Thieving Skills are also modified by your race.
   -   *Pick Pockets: 3
   -   *Open Locks: 2
@@ -268,8 +246,8 @@ The first number is your exploration speed, the second is your speed in combat.
   -   Climb Walls: 12
   -   Detect Noise: 3
   -   Read Languages: 0
-- **Tracking**: Rangers are able to track other creatures, with a base chance of 90% (modifiers in full rules).
-- **Turn Undead**: Clerics present their holy symbol in an attempt to "turn" the undead, causing the foul monsters to flee. Higher-level chaotic clerics may choose to control the undead instead of turning them. Roll 1d20, and if the number is equal to or greater than the number below, 2d6 creatures of the targeted type are turned and depart, not returning for 3d4 rounds: Skeleton (10), Zombie (13), Ghoul (16), Shadow (19), Wight (20).
+- **Tracking**: Rangers are able to track other creatures, with a starting base chance of 20% (modifiers in full rules).
+- **Turn Undead**: Clerics present their holy symbol in an attempt to "turn" the undead, causing the foul monsters to flee. Roll 2d6, and if the number is equal to or greater than the number below, 2d6 creatures of the targeted type are turned and depart, not returning for 3d4 rounds: Skeleton (7), Zombie (9), Ghoul (11).
 
 ## If You're A Magic-User, Roll for Spells
 
@@ -286,15 +264,16 @@ Read Magic & Detect Magic will always be your first spells; the rest will be ran
 Note that you can learn many more spells than this! These are just the "basics" any self-respecting Magic-User might be expected to know.
 
 1. **Charm Person.** Target thinks you're their bestie and might do what you say. Lasts longer vs dumb targets.
-2. **Detect Magic.** You see nearby enchanted stuff glow for 2 minutes/level.
-3. **Hold Portal**: Keep a door closed for 2 minutes/level.
-4. **Light**: 20' radius light cast on an object or eyeballs (it'll blind a baddie!). Lasts 10 min per level.
-5. **Magic Missile**: Auto-hit for 1d4+1 damage. More missiles as you level.
-6. **Protection from Evil**: Against creatures of another alignment, you get +2 to saving throws and they get -2 to attack you for 2 minutes/level. Summoned & conjured creatures can't touch you.
-7. **Read Languages**: You can read 2 things written in any language.
-8. **Read Magic**: For 2 minutes/level, you can read magical scrolls, spellbooks, & inscriptions not written by you. Once you've read something once, you can read it again without recasting this spell.
-9. **Shield**: A frontal shield that gives you +1 on saving throws vs frontal attacks, AC 18 vs thrown weapons, AC 17 vs missiles, and AC 16 vs other attacks. *Magic missiles* can't penetrate it.
-10. **Sleep**: Magically puts creatures to sleep in a 15' radius. You'll want to read the actual description for this one.
+2. **Detect Magic.** You see nearby enchanted stuff glow for 2 turns.
+3. **Hold Portal**: Keep a door closed for 2d6 turns.
+4. **Light**: 15' radius light cast on an object or eyeballs (it'll blind a baddie!). Lasts 6 turns + 1 per level.
+5. **Magic Missile**: Auto-hit for 1d6+1 damage. More missiles as you level.
+6. **Protection from Evil**: Against creatures of another alignment, you get +1 to saving throws and they get -1 to attack you for 6 turns. Enchanted, constructed, and summoned creatures can't touch you.
+7. **Read Languages**: You can read any written language for 2 turns.
+8. **Read Magic**: For 1 turn, you can read magical scrolls, spellbooks, & inscriptions not written by you. Once you've read something once, you can read it again without recasting this spell.
+9. **Shield**: A frontal shield that gives you AC 17 vs missile attacks, and AC 15 vs other attacks. *Magic missiles* can't penetrate it.
+10. **Sleep**: Magically puts creatures to sleep, either one 4+1HD creature or 2d8 hit dice of creatures of 4HD
+or lower each.
 
 ## Note a Motivation or Motto
 
