@@ -406,93 +406,102 @@ or lower each.
 |-----------------------------------|--------|
 | Backpack, leather (10 slots)      | 10sp   |
 | *Bedroll/blanket                  | 5sp    |
-| **Pole, 10'                       | 3cp    |
 | Bell, miniature                   | 3sp    |
-| *Manacles                         | 10sp   |
-| *Marbles (bag of 20)              | 1sp    |
-| *Bolt case (holds 20 bolts)       | 1sp    |
-| *Paper/parchment (6 sheets)       | 3sp    |
-| ***Box, iron, large (10 slots)    | 28sp   |
-| **Box, iron, small (5 slots)      | 9sp    |
-| *Caltrops, bag of 20              | 10     |
+| *Bolt case (holds 20 bolts)       | 5sp    |
+| *Book, leatherbound, 32pgs        | 30sp   |
+| ***Box, iron, large (10 slots)    | 52sp   |
+| **Box, iron, small (5 slots)      | 18sp   |
+| *Caltrops, bag of 20              | 10sp   |
 | *Candles x10                      | 1sp    |
-| *Chain, 10'                       | 10sp   |
+| *Chain, 10'                       | 45sp   |
 | Chalk x10 sticks                  | 1sp    |
-| *Chest, wooden, large             | 10sp   |
-| *Chest, wooden, small             | 5sp    |
+| *Chest, wooden, large             | 20sp   |
+| *Chest, wooden, small             | 10sp   |
 | *Chisel                           | 3sp    |
-| *Crowbar                          | 2sp    |
-| *Grappling Hook                   | 10sp   |
-| *Hammer, small                    | 2sp    |
+| *Crowbar                          | 12sp   |
+| *Grappling Hook                   | 16sp   |
+| *Hammer, small                    | 5sp    |
 | *Ink, vial                        | 1sp    |
 | *Lantern, bullseye                | 12sp   |
 | *Lantern, hooded                  | 7sp    |
-| *Mallet & stakes x3               | 1sp    |
-| *Mirror, small, steel             | 10sp   |
-| *Oil, flask of                    | 1sp    |
-| *Padlock                          | 7sp    |
-| *Rope, 50'                        | 3sp    |
-| *Sledgehammer                     | 3sp    |
-| *Scrollcase, leather              | 2sp    |
-| *Spikes, iron x12                 | 4sp    |
-| *Tent                             | 10sp   |
-| *Thieves' picks & tools           | 30sp   |
-| *Tinderbox (flint & steel)       | 1sp    |
+| *Mallet & stakes x3               | 3sp    |
+| *Marbles (bag of 20)              | 1sp    |
+| *Mirror, small, steel             | 2sp    |
+| *Oil, flask of                    | 2sp    |
+| *Padlock                          | 6sp    |
+| *Paper/parchment (6 sheets)       | 6sp    |
+| **Pole, 10'                       | 3sp    |
+| Pouch, belt, (1 slot, 4 max)      | 5cp    |
+| Quill                             | 3cp    |
+| *Quiver (holds 20 arrows)         | 3sp    |
+| *Rope, hempen, 50'                | 13sp   |
+| Sack, large (10 slots)            | 3sp    |
+| Sack, small (5 slots)             | 2sp    |
+| *Saw                              | 12sp   |
+| **Sledgehammer                    | 9sp    |
+| **Spade/shovel                    | 10sp   |
+| *Scrollcase, leather              | 6sp    |
+| *Spikes, iron x12                 | 12sp   |
+| **Tent                            | 20sp   |
+| *Thieves' picks & tools           | 12sp   |
+| *Tinderbox (flint & steel)        | 6cp    |
 | *Torch x3                         | 1sp    |
-| *Twine (100' ball)                | 1sp    |
+| *Twine (100' ball)                | 3sp    |
 | *Vial, glass x3                   | 3sp    |
-| *Water/wineskin (2 pints)         | 1sp    |
+| Whistle                           | 2sp    |
+| *Water/wineskin (2 pints)         | 3sp    |
 
 ### Provisions
 
-| Provisions                        | Cost   |
-|-----------------------------------|--------|
+| Provisions                       | Cost   |
+|----------------------------------|--------|
 | *Ale, pint                       | 1cp    |
-| *Mead, pint                      | 5cp    |
 | *Beer, small, pint               | 2cp    |
-| *Rations, iron, 3 days           | 6sp    |
-| *Food, merchant's meal           | 1cp    |
-| *Rations, standard, 3 days       | 3sp    |
-| *Food, rich meal                 | 1sp    |
-| *Wine, pint, good                | 1sp    |
-| **Grain, horse meal, 1 day       | 1cp    |
-| *Wine, pint, watered             | 5cp    |
+| *Bread, 1lb, wheat               | 1sp    |
+| *Food, merchant's meal           | 5cp    |
+| *Food, rich meal                 | 3sp    |
+| **Grain, horse meal, 1 day       | 2sp    |
+| *Mead, pint                      | 5cp    |
+| *Rations, iron, 3 days           | 9sp    |
+| *Rations, standard, 3 days       | 6sp    |
+| *Wine, pint, good                | 7cp    |
 
 ### Religious Items
 
 | Religious Items                  | Cost   |
-|-----------------------------------|--------|
+|----------------------------------|--------|
 | Beads, Prayer                    | 1sp    |
-| Holy symbol, wooden              | 7cp    |
-| Holy symbol, iron                | 1sp    |
-| *Holy water, vial                | 25sp   |
+| Holy symbol, iron                | 5sp    |
 | Holy symbol, silver              | 50sp   |
+| Holy symbol, wooden              | 1sp    |
+| *Holy water, vial                | 25sp   |
 | Incense, blessed, 1 stick        | 1sp    |
 
 ### Tack & Harness
 
 | Tack & Harness                   | Cost   |
-|-----------------------------------|--------|
+|----------------------------------|--------|
 | Barding, horse (AC 15)           | 250sp  |
 | Dog armor (AC 14)                | 25sp   |
-| Saddle, bit, bridle, blanket     | 23sp   |
-| Saddle bags, large               | 4sp    |
+| Saddle, bit, bridle, blanket     | 75sp   |
+| Saddle bags, large               | 10sp   |
 
 ### Transport
 
 | Transport                        | Cost   |
-|-----------------------------------|--------|
+|----------------------------------|--------|
 | Barge (or Raft), small           | 50sp   |
 | Boat, small                      | 75sp   |
 | Boat, long                       | 150sp  |
-| Cart                             | 50sp   |
+| Cart                             | 40sp   |
+| Galley, large                    | 25,000sp|
 | Galley, small                    | 10,000sp|
 | Ship, merchant, large            | 15,000sp|
 | Ship, merchant, small            | 5,000sp |
 | Ship, war                        | 20,000sp|
-| Galley, large                    | 25,000sp|
+| Wagon                            | 1,200sp |
 
-**Caltrops**: Small metal spikes sufficient to cover a 5' × 5' area. Creatures moving through the area have a 2-in-6 chance of treading on a spike. Victims suffer a 50% reduction of movement rate for 24 hours (or until they receive magical healing).
+**Caltrops**: Small metal spikes sufficient to cover a 5' × 5' area. Creatures moving through have a 2-in-6 chance of treading on a spike for a 50% penalty to movement rate for 24 hours (or until magically healed). 
 
 **Candle**: Burn for 30min, 10' radius.
 
