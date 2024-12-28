@@ -519,37 +519,60 @@ or lower each.
 
 # How to Play
 
+## Combat
+**Attacking from Behind:** There are only two ways for most people to get behind someone during combat. One is to surprise an opponent and attack from behind during the surprise action. The other is to attack an opponent from behind when an ally is attacking from the front. Thieves and Assassins can get behind a target during normal combat if they successfully hide in shadows, even if no one is attacking the target from the front.
+
+**Blocking:** A defender effectively blocks an area about five feet across, and enemies cannot move through this area without first killing the defender.
+
+**Cover:** Cover bonuses are as follows: 25% cover: +1 AC; 50% cover: +2 AC; 75% cover: +3 AC; 90% cover +4 AC. Firing into a melee is considered 50% cover if firing past a dwarf or halfling, and 90% cover if firing past a human, elf, or half-elf.
+
+**Damage & Death:** When a character’s hit points reach 0, the character is unconscious and must make a saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, succeeding on a 1-in-6 chance.
+
+Even after returning to 1 or more hp, the character will remain in a coma for 1d6 turns and must rest for a minimum of one week before resuming any sort of strenuous activity, mental or physical.
+
+Characters who are slain may be raised from the dead if a Cleric of sufficient level is available to perform the casting. Each time a character is brought back from the dead, their CON score is reduced by one point.
+
+**Grappling:** The attackers (or attacker) make individual to-hit rolls. The grapple is resolved among those who hit: Each combatant rolls their total hit dice. If the sum of the attackers’ dice is higher than the defender’s total, the defender is completely pinned and can be killed in the next round unless help arrives or the defender wins initiative and breaks loose. If the sums are exactly equal, everyone is struggling, and none of them can attack with a weapon. If the defender wins, the
+attackers are beaten back and stunned for a number of rounds equal to the number of points by which the defender beat them. Breaking free of a grapple requires another HD contest.
+
+**Invisible Opponents:** Attacks against an invisible opponent have a –4 penalty. Powerful magical monsters, or monsters with more than 11 hit dice, will usually be able to see invisible creatures normally. 
+
+**Order of Combat:** All combat phases for a side take place simultaneously and are resolved in whatever order that side desires.
+
+**Prone or Stunned Opponent:** Attacks against a prone or stunned opponent negate shield & Dex bonuses to AC, and melee attacks are made at +4 to hit.
+
+**Spacing & the Second Rank:** Only daggers, shortswords, spears, and polearms can be used three-abreast in a 10’ area. All other one-handed weapons require five feet of room (two-abreast in a 10’ area), and non-thrusting two-handed weapons require a full 10’ space to wield.
+
+Spears and polearms in the second rank of a battle formation can attack by reaching through the first rank.
+
+**Two-Handed Weapons and Two-Weapon Fighting:** Fighting two-handed grants a +1 to damage rolls (except for weapons that can only be used two-handed, where this is already taken into account in the weapon’s damage), and fighting with an eligible weapon in each hand gives a +1 to hit.
+
+**Life Energy Levels & Level Drain:** If a drained character is multi-classed or dual-classed, then the highest level of experience attained by that character is lost. If the character has two equal levels, then the level lost should be determined randomly.
+
+## Dual Classing
+
+Dual-classed characters are humans who elect to change irrevocably from one class to another. In order to change class, the character must have a minimum attribute score of 16 in the Prime Requisite of the new class, and must qualify in terms of normal ability score requirements and alignment restrictions.
+
+The character retains his or her hit points. He or she can use the particular abilities of the original class, but doing so will cause the character to forfeit all experience points from that adventure (as determined by the referee). This restriction applies until the character has advanced in the new class to a level at least one higher than was attained in the original class.
+
+When the character begins the process of learning a new class, he or she gains the abilities of the new class as a first level member of that class, and all experience is applied to progressing in the new class. The character gains no additional hit points until reaching a level in the new class one higher than in the original class, after which time the character's hit points advance as per the new class. A dual-classed character can never gain more than 9 full hit dice, no matter how many total levels are gained.
+
+Unlike multi-class characters, dual-classed characters cannot perform the functions of several different classes simultaneously. So, for example, an elven Fighter/Magic-User could cast arcane spells while wearing armor, but a human dual-classed Fighter and Magic-User would have to remove his or her armor to do the same thing.
+
 ## Dungeon Exploration
 
-Many D&D adventures will involve the characters exploring some enclosed area, be it the dungeons beneath a castle or temple, a system of natural caves and caverns, an abandoned mine, the sewers beneath a city, an enemy fortress, a wizard's tower, or a shrine to some dark god. For convenience, and by tradition, these enclosed locations are collectively called "dungeons", which thus refers not just to a set of man-made tunnels but to any indoor adventure location. Indoor/dungeon adventures tend to have similar characteristics and thus the same set of procedures and suggested resolution mechanics applies to most "dungeon" adventures. Some terms to know:
+**Listening at Doors:** Takes 1 turn of straining in utter silence to hear subtle sounds beyond a closed door (or down a hallway).
 
-### Movement During Dungeon Exploration
+**Mapping:** Maps are usually best made simply: boxes and lines are sufficient to keep you from getting lost. The players' map represents an actual in-game object. If the players at the table are making a map, then a character must also be making one. This has several corollaries: the party must have light (they can only map what they see) and mapping supplies (something to write with and something to write on), they must be moving slowly and methodically (no more than standard exploration speed), and measuring the size of a room takes time. Perhaps most importantly, if something happens to the map in-game, it happens to the players' map as well! If the mapping character dies and his or her body is left behind, if the characters are captured and stripped of their equipment, or if a jet of acid or a green slime destroys the map, the referee should confiscate it. If the party wants backup copies, the players must actually draw them. If the entire party dies in the dungeon, the only way their maps will survive is if copies were left on the surface.
 
-Is at the per-turn rate on your character sheet (the first, large number), and the party is limited to the speed of its slowest member. This slow, cautious move rate allows characters to make a map of their progress, observe their surroundings, hear monsters approaching, and have a chance to surprise them. When passing through familiar areas or following a map, characters can move at up to three times the normal per-turn move rate. Characters fleeing from an encounter may run at ten times their normal per-turn move rate. No mapping is possible while fleeing in this manner, the characters are automatically surprised by any monsters, and the party must rest for a turn at the end of the pursuit.
+**Open a Stuck or Locked Door:** Upon discovering that a door is stuck, a character may make an open doors check to pull the door open as swiftly and quietly as possible. Each character may only try once. On a failure, the party may decide to work with crowbars or other tools to wrench the door open anyway. This takes a turn and will trigger a wandering monster check. Locked doors need keys, Thieves' tools and a Thief, or a battering ram (or axes). Any failed attempt to open a stuck or locked door will prevent surprise on any creature on the other side of the door. You should also know: Doors tend to close on their own. Iron spikes are invaluable for keeping doors open or closed.
 
-### Marching Order 
+Search for Traps or Secret Doors: It's usually best to do this free-form and narratively (tell the referee what you're doing to search). A careful examination of a 10'x10' area or 10' section of wall takes one turn. Multiple characters can search/examine different areas simultaneously. There's a 2-in-6 standard chance of success (4-in-6 for elves and 3-in-6 for half-elves).
 
-The players should establish the party's "marching order," i.e. which characters are in front, bringing up the rear, and in the middle. In a standard 10' wide dungeon corridor, up to three characters may walk abreast, depending on the weapons they're carrying (see Combat: Spacing & the Second Rank).
 
-### Wandering Monster Checks
 
-Every third turn (see "Time") (usually), the referee rolls to see if any wandering monsters are encountered (typically a 1-in-6 chance). Excessive noise (like smashing in a door) can lead to additional checks.
 
-### Listening at Doors
 
-PCs can strain in utter silence to hear anything beyond a closed door (or down a hallway). The base chance is 1-in-6, though elves and halflings have a 2-in-6 chance, and Thieves can have much higher chances. To listen intently takes a turn.
-
-### Open a Stuck or Locked Door
-
-Upon discovering that a door is stuck, a character may make an open doors check to pull the door open as swiftly and quietly as possible. Each character may only try once. On a failure, the party may decide to work with crowbars or other tools to wrench the door open anyway. This takes a turn and will trigger a wandering monster check. Locked doors need keys, Thieves' tools and a Thief, or a battering ram (or axes). Any failed attempt to open a stuck or locked door will prevent surprise on any creature on the other side of the door. You should also know: Doors tend to close on their own. Iron spikes are invaluable for keeping doors open or closed.
-
-### Mapping
-
-Maps are usually best made simply: boxes and lines are sufficient to keep you from getting lost. The players' map represents an actual in-game object. If the players at the table are making a map, then a character must also be making one. This has several corollaries: the party must have light (they can only map what they see) and mapping supplies (something to write with and something to write on), they must be moving slowly and methodically (no more than standard exploration speed), and measuring the size of a room takes time. Perhaps most importantly, if something happens to the map in-game, it happens to the players' map as well! If the mapping character dies and his or her body is left behind, if the characters are captured and stripped of their equipment, or if a jet of acid or a green slime destroys the map, the referee should confiscate it. If the party wants backup copies, the players must actually draw them. If the entire party dies in the dungeon, the only way their maps will survive is if copies were left on the surface.
-
-### Search for Traps or Secret Doors
-
-It's usually best to do this free-form and narratively (tell the referee what you're doing to search). A careful examination of a 10'x10' area or 10' section of wall takes one turn. Multiple characters can search/examine different areas simultaneously. There's a 2-in-6 standard chance of success (4-in-6 for elves and half-elves). Traps neither avoided nor disarmed have a 2-in-6 chance of triggering on interaction by a character.
 
 ### The Party Caller
 
@@ -701,72 +724,6 @@ Game time is measured while dungeon crawling in turns (a significant span of tim
 
 ---
 
-# Combat
-
-## Initiative & Order of Battle
-
-When the party of adventurers comes into contact with enemies, the order of events is as follows:
-
-1. **Check for Surprise:** The referee determines if a surprise roll is required, and if so, both sides roll 1d6 to see if they are surprised by the sudden encounter. On a 1 or a 2, the side is surprised.
-2. **Declare Spells:** This is not an option for a group that was surprised; they have to wait until the beginning of the next round. Any character who is going to cast a spell must say so before the initiative roll. If an enemy damages the spellcaster before the spell goes off, the spell's casting is disturbed and the spell is lost. As the round proceeds, the spell caster may elect not to cast the spell without losing it, but may not substitute another action. A Fighter parrying or Cleric or Paladin turning undead must declare it during this phase.
-3. **Determine Initiative:** Each side rolls a d6 and the side with the highest result is the winner. One roll is made for each side, not for each individual. If this is the first round and one group was surprised, the other side gets to go first automatically, without having to roll a die. Ties are re-rolled.
-4. **Movement and Missile Fire:** Each combatant on the side that won initiative may move, and may fire any missile weapons. Then the losers of the initiative roll may move or fire missile weapons. Darts may fire a second time at the end of this phase. *Note: A Fighter making multiple melee attacks may make their first attack immediately after moving.*
-5. **Melee Combat and Spells:** Each combatant on the side that won initiative makes any melee attacks (if in melee range) or casts spells. Spells take effect immediately. Losers of the initiative then make their attacks and cast spells.
-6. **The round is complete.** Any remaining attacks are resolved (Fighters, bows, darts, etc.). Repeat from step 2 (Declare Spells) until combat is complete.
-
-## Damage & Death
-
-When a character is hit, the amount of damage is deducted from their hit points. When hit points reach 0, the character is unconscious and must make a saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, succeeding on a 1-in-6 chance.
-
-Even after returning to 1 or more hp, the character will remain in a coma for 1d6 turns and must rest for a minimum of one week before resuming any sort of strenuous activity, mental or physical.
-
-Characters who are slain may be raised from the dead if a Cleric of sufficient level is available to perform the casting. Each time a character is brought back from the dead, their CON score is reduced by one point.
-
-## Attacking from Behind
-
-Any attack made from behind has a to-hit bonus of +2, or +4 if made by a Thief or Assassin. There are only two ways for most people to get behind someone during combat. One is to surprise an opponent and attack from behind during the surprise action. The other is to attack an opponent from behind when an ally is attacking from the front. Thieves and Assassins can get behind a target during normal combat if they successfully hide in shadows, even if no one is attacking the target from the front.
-
-## Cover
-
-Cover is protection behind something that can block incoming attacks, such as a wall or arrow slit. Cover bonuses are as follows: 25% cover: +1 AC; 50% cover: +2 AC; 75% cover: +3 AC; 90% cover: +4 AC. Firing into a melee is considered 50% cover if firing past a dwarf or halfling, and 90% cover if firing past a human, elf, or half-elf.
-
-## Grappling
-
-The attackers (or attacker) make individual to-hit rolls. The grapple is resolved among those who hit: Each combatant rolls their total hit dice. If the sum of the attackers' dice is higher than the defender's total, the defender is completely pinned and can be killed in the next round unless help arrives or the defender wins initiative and breaks loose. If the sums are exactly equal, everyone is struggling, and none of them can attack with a weapon. If the defender wins, the attackers are beaten back and stunned for a number of rounds equal to the number of points by which the defender beat them. Breaking free of a grapple requires another HD contest.
-
-## Invisible Opponents
-
-Attacks against an invisible opponent have a -4 penalty. Powerful magical monsters, or monsters with more than 11 hit dice, will usually be able to see invisible creatures normally.
-
-## Morale
-
-Certain monsters, such as mindless or undead creatures, are fearless and always fight to the death. The majority, however, will not continue to fight a hopeless battle; they will seek to retreat, flee, or surrender. Morale checks are made when a side loses its first casualty and again when they lose half their number in combat to death or incapacitation. Creatures make morale checks individually, not as an entire side.
-
-## Movement Within Melee
-
-A defender effectively blocks an area about five feet across, and enemies cannot move through this area without first killing the defender. A character in melee (within 5') can make a fighting withdrawal, moving backwards at up to half their encounter movement rate. There must be a clear path for this movement. A character in melee can also make a full retreat, turning and fleeing from melee, moving up to their full encounter movement rate. The character may not attack this round; the opponent gains a +2 bonus to all attacks against the character and ignores any shield AC bonus.
-
-## Prone or Stunned Opponent
-
-Attacks against a prone or stunned opponent negate the shield & Dex bonuses, and are made at +4 to hit.
-
-## Spacing & the Second Rank
-
-Only shortswords, spears, and polearms can be used three-abreast in a 10' area. All other one-handed weapons require five feet of room (two-abreast in a 10' area), and non-thrusting two-handed weapons require a full 10' space to wield. Spears and polearms in the second rank of a battle formation can attack by reaching through the first rank.
-
-## Subdual Damage
-
-A weapon may be used to beat down, rather than kill, an opponent. Players must announce the intention to deal subdual damage before attacking, and all damage done to an opponent the players wish to subdue must be subdual damage (not lethal). Not all weapons can deal subdual damage. Subdual damage does not kill, and such points are recovered at a rate of 1hp/hour.
-
-## Two-Handed Weapons & Two-Weapon Fighting
-
-Just as shields improve armor class by 1, fighting two-handed grants a +1 to damage rolls (except for weapons that can only be used two-handed, where this is already taken into account in the weapon's damage), and fighting with a weapon in each hand gives a +1 to hit. (Note that fighting with two weapons does not actually give two separate attacks; it just increases the likelihood of landing a successful blow.)
-
-## Life Energy Levels & Level Drain
-
-Certain monsters, magic items and spells have the power to drain "life energy levels," perform a "level drain," or an "energy drain." If a PC is drained of a life energy level, he or she loses one complete level of experience and is placed at the beginning point of the new level. The appropriate hit die is rolled and subtracted from the PC's current hp.
-
-If the character is multi-classed or dual-classed, then the highest level of experience attained by that character is lost. If the character has two equal levels, then the level lost should be determined randomly. A PC drained below level 1 is slain (and may rise as some kind of undead creature). NPCs lose a level or hit die, as applicable.
 
 # Multi-Classing & Dual-Classing
 
@@ -784,17 +741,7 @@ The abilities of a class are gained as soon as a new level is achieved in that c
 
 If a multi-classed character reaches the point where one class is "capped," and the character cannot advance in that class any more, the character still gains only a new hit die when both (or all three) levels would have been reached.
 
-## Dual Classing
 
-Dual-classed characters are humans who elect to change irrevocably from one class to another. Humans are more flexible and can generally become more skilled in any one class than non-humans, but lacking the innate talents of the other races, they can only focus upon one class at a time.
-
-In order to change class, the character must have a minimum attribute score of 16 in the Prime Attribute of the new class, and must qualify in terms of normal ability score requirements and alignment restrictions.
-
-The character retains his or her hit points. He or she can use the particular abilities of the original class, but doing so will cause the character to forfeit all experience points from that adventure (as determined by the referee). This restriction applies until the character has advanced in the new class to a level at least one higher than was attained in the original class.
-
-When the character begins the process of learning a new class, he or she gains the abilities of the new class as a first level member of that class, and all experience is applied to progressing in the new class. The character gains no additional hit points until reaching a level in the new class one higher than in the original class, after which time the character's hit points advance as per the new class. A character can never gain more than 9 full hit dice, no matter how many total levels are gained.
-
-Unlike multi-class characters, dual-classed characters cannot perform the functions of several different classes simultaneously. So, for example, an elven Fighter/Magic-User could cast arcane spells while wearing armor, but a human dual-classed Fighter and Magic-User would have to remove his or her armor to do the same thing.
 
 # Classes
 
