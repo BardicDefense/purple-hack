@@ -800,28 +800,3 @@ Each hex costs a number of MP to move **into**. Clear = 1, Rough = 2, Very Rough
 
 ---
 
-
-# Multi-Classing & Dual-Classing
-
-## Multi-classing
-
-Multi-classing, which is an option available only to non-human characters, is simultaneous advancement from 1st level in two or more different classes. Multi-class characters begin with a single hit die. Each multi-class hit die is calculated by rolling the appropriate die for each class, adding any Constitution modifier, and averaging the result. A multi-classed character is limited to a total of 9 hit dice no matter what combination of classes is used. After reaching 9 HD, the character gains only 1 hit point per additional level.
-
-A multi-classed character acts with the abilities of both (or all three) classes at once, and is subject to all the limitations of each class at once. The more restrictive of any two class requirements applies to multi-classed Dwarves. The less restrictive of any two class requirements applies to multi-classed Elves and Half-Elves. However, Cleric/Fighters may use edged weapons, and elven Fighter/Magic-Users may cast arcane spells while armored. Wearing armor other than padded or leather while attempting Thief skills incurs a penalty equal to the number of slots the armor takes.
-
-Any experience points received are divided evenly among all the classes of a multi-classed character and tracked separately, even when the character can no longer advance in one or more classes. Multi-classed characters do not receive bonuses to experience points, regardless of their Attribute scores.
-
-The saving throw of a multi-classed character is the best available from the different choices, including any bonuses from a character class.
-
-The abilities of a class are gained as soon as a new level is achieved in that class, but a new hit die is not gained until the character has advanced a level in all classes. In other words, a dwarven Fighter/Thief would not gain a "Thief" hit die at level 1/2; instead, the character would receive a second multi-class hit die (the averaged result of the roll of a d10 and a d4) after reaching 2nd level as a Fighter also.
-
-If a multi-classed character reaches the point where one class is "capped," and the character cannot advance in that class any more, the character still gains only a new hit die when both (or all three) levels would have been reached.
-
-
-
-
-
-## Spell Lists
-
-The spell lists & spells are as in [*OSRIC*](https://osricrpg.com/files/osric_core_rules.pdf).
-
