@@ -24,6 +24,8 @@
   * [Thief Changes](#thief-changes)
 - [Wilderness Exploration](#wilderness-exploration)
 - [Camping in the Wilds](#camping-in-the-wilds)
+- [To-Hit Bonuses by Class](#to-hit-bonuses-by-class)
+- [Saving Throw Table](#saving-throw-table)
 - [Hirelings](#hirelings)
 
 # Character Creation Quickstart
@@ -774,5 +776,94 @@ Each hex costs a number of MP to move **into**. Clear = 1, Rough = 2, Very Rough
 
 ## 4. Check foraging (1-in-6), mark off supplies, mark off calendar
 
----
+# Camping in the Wilds
+
+## Building a Fire
+
+Given a means of producing flame (e.g. a tinderbox, magic) and a stash of wood (either gathered from the forest or carried in packs), a character may attempt to build a fire.
+
+**Good conditions:** In favourable conditions, with decent wood and a relatively dry campsite, fire-building automatically succeeds.
+
+**Bad conditions:** In more troublesome circumstances, the basic chance of successfully getting a fire going is 4-in-6. The referee may reduce the chance of success to account for extreme cold or damp.
+
+## Fetching Water
+
+Finding water to drink is assumed to always be successful unless in an exceptionally dry environment, when it is only found while successfully foraging. 
+
+## Cooking
+
+Given a fire, cooking pots, and ingredients (e.g. foraged food, standard rations, hunted game), someone may cook a meal. The cook should make a WIS or DEX check. 
+
+**If the check succeeds:** An especially tasty dish is produced. Those who eat the meal gain a +1 bonus to any CON checks required to rest (see below), due to their hearty supper.
+
+**If the check fails:** A palatable but not exemplary dish is produced. A natural 20 denotes a ruined meal (burned, spilled, etc.) that is utterly inedible.
+
+## Camaraderie
+
+Time spent around the fireside with one’s companions may lift the spirits and induce restful sleep. A character may attempt to entertain their comrades with music, song, stirring tales, jokes, and so forth. The character should make a CHA check.
+
+**If the check succeeds:** All characters gain a +1 bonus to any CON checks required to rest (see below).
+
+**If the check fails:** The attempt to entertain falls flat and may lead to ridicule or discord.
+
+## Rest Checks
+
+When camping in the wild, characters’ ability to get a good night’s rest is determined by their equipment (whether they have a bedroll and/or tent), their warmth (whether they have a fire burning), and the season. See the Sleeping in the Wilds table. Non-ideal circumstances require PCs to make a CON check. 
+
+**If the check succeeds:** The character gets a good night’s sleep and regains 1hp overnight.
+
+**If the check fails:** The character fails to get a good night’s sleep and suffers the following penalties: 
+
+- Hit point loss: If the character’s current hit point total is greater than 1, they suffer 1 point of damage, due to fatigue.
+- Difficulty memorizing spells: For each spell the character attempts to memorize, there is a 1-in-6 chance of failure. If the roll fails, the character is unable to memorize this spell—the spell memorization slot remains empty.
+
+## Sleeping in the Wilds
+
+| Fire     | Bed             | Winter            | Spring            | Summer            | Autumn            |
+|----------|-----------------|-------------------|-------------------|-------------------|-------------------|
+| No fire  | No bedding      | Automatic failure | 2x CON check      | CON check         | 2x CON check      |
+| No fire  | Bedroll or tent | Automatic failure | CON check         | Good night's rest | CON check         |
+| No fire  | Bedroll & tent  | 2x CON check      | CON check         | Good night's rest | CON check         |
+| Campfire | No bedding      | Automatic failure | 2x CON check      | CON check         | 2x CON check      |
+| Campfire | Bedroll or tent | 2x CON check      | Good night's rest | Good night's rest | Good night's rest |
+| Campfire | Bedroll & tent  | CON check         | Good night's rest | Good night's rest | Good night's rest |
+
+# To-Hit Bonuses by Class
+
+|   Level   |   Cleric   |   Druid   |   Fighter   |   Magic-User   |   Paladin   |   Ranger   |   Thief   |
+|-----------|------------|-----------|-------------|----------------|-------------|------------|-----------|
+|   1       |   0        |   0       |   0         |   0            |   0         |   0        |   0       |
+|   2       |   0        |   0       |   +1        |   0            |   +1        |   +1       |   0       |
+|   3       |   +1       |   +1      |   +2        |   0            |   +1        |   +1       |   +1      |
+|   4       |   +1       |   +1      |   +3        |   0            |   +2        |   +2       |   +1      |
+|   5       |   +2       |   +2      |   +4        |   0            |   +2        |   +2       |   +2      |
+|   6       |   +2       |   +2      |   +5        |   +1           |   +3        |   +3       |   +2      |
+|   7       |   +3       |   +3      |   +6        |   +1           |   +4        |   +4       |   +3      |
+|   8       |   +3       |   +3      |   +7        |   +1           |   +5        |   +5       |   +3      |
+|   9       |   +4       |   +4      |   +8        |   +2           |   +5        |   +5       |   +4      |
+|   10      |   +5       |   +5      |   +9        |   +2           |   +6        |   +6       |   +5      |
+|   11      |   +5       |   +5      |   +10       |   +3           |   +7        |   +7       |   +5      |
+|   12      |   +6       |   +6      |   +11       |   +3           |   +7        |   +7       |   +6      |
+|   13      |   +7       |   +7      |   +12       |   +4           |   +8        |   +8       |   +7      |
+|   14      |   +7       |   +7      |   +13       |   +5           |   +9        |   +9       |   +7      |
+
+# Saving Throw Table
+
+|   Level   |   Cleric   |   Druid   |   Fighter   |   Magic-User   |   Paladin   |   Ranger   |   Thief   |
+|-----------|------------|-----------|-------------|----------------|-------------|------------|-----------|
+|   1       |   14       |   14      |   15        |   14           |   12        |   14       |   14      |
+|   2       |   13       |   13      |   14        |   13           |   12        |   13       |   14      |
+|   3       |   13       |   13      |   14        |   13           |   11        |   13       |   13      |
+|   4       |   12       |   12      |   13        |   12           |   10        |   12       |   13      |
+|   5       |   11       |   11      |   13        |   12           |   10        |   12       |   12      |
+|   6       |   11       |   11      |   12        |   12           |   10        |   11       |   12      |
+|   7       |   10       |   10      |   12        |   11           |   9         |   11       |   11      |
+|   8       |   10       |   10      |   11        |   11           |   8         |   10       |   11      |
+|   9       |   9        |   9       |   10        |   10           |   7         |   10       |   10      |
+|   10      |   8        |   8       |   9         |   10           |   7         |   9        |   10      |
+|   11      |   8        |   8       |   8         |   9            |   6         |   8        |   9       |
+|   12      |   7        |   7       |   7         |   9            |   5         |   7        |   9       |
+|   13      |   6        |   6       |   6         |   9            |   4         |   6        |   8       |
+|   14      |   6        |   6       |   6         |   8            |   4         |   6        |   8       |
+
 
