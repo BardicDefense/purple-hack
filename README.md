@@ -866,4 +866,131 @@ When camping in the wild, characters’ ability to get a good night’s rest is 
 |   13      |   6        |   6       |   6         |   9            |   4         |   6        |   8       |
 |   14      |   6        |   6       |   6         |   8            |   4         |   6        |   8       |
 
+# Hirelings 
 
+## Standard Hirelings
+
+Short-term services of simple craftsmen and laborers are relatively easily procured, but it is harder to find individuals willing to take service for longer than a few days, especially if considerable travel is involved.
+
+| Hireling | Daily Rate | Monthly Rate |
+|---------------------------------------|------|-------|
+| Carpenter, Mason, Servant             | 11sp | 200sp |
+| Groom, Laborer, Linkboy, Pack Handler | 6sp  | 120sp |
+| Cook, Leatherer, Tailor               | 10sp | 200sp |
+| Limner                                | 9sp  | 180sp |
+| Teamster                              | 7sp  | 140sp |
+
+**Carpenter**: Skilled in the working of wood, a carpenter might be retained to construct anything from a table to a palisade. Their expertise is also invaluable for the manufacturing of shields and similar items.
+
+**Cook**: Familiar with the preparation of various types of food, and sometimes also knows a little herblore.
+
+**Groom**: Proficient in the care of horses, an attentive groom can usually tell a good mount from a bad; also known as an ostler or stable hand.
+
+**Laborer**: Essentially unskilled, laborers are suitable for only the most menial sorts of work; this category includes bearers and porters, each of which is able to carry up to 12 slots of items, or twice that if a pole or other contrivance is utilized.
+
+**Leatherer**: Capable of producing a wide range of leather goods, such as packs, belts or riding gear; a leatherer is indispensable for the making of scabbards, sheathes, shields and the other leather components of arms and armor.
+
+**Limner**: Adept in the painting of signs and the illumination of heraldic devices, among other similar tasks.
+
+**Linkboy**: Usually hired to bear a lantern or torch, a linkboy is typically (but not always) a youth.
+
+**Mason**: Expert in the working of stone or plaster, masons are essential for the construction of many significant buildings and fortifications.
+
+**Pack Handler:** Practiced in the burdening, handling and unburdening of various pack animals.
+
+**Servant**: Typically serving as valets, butlers, maids, messengers or simple lackeys, servants are expected to look to the needs of their master.
+
+**Tailor**: Accomplished in the repair and making of clothes or other cloth items; the services of a tailor are also required for the production of various types of textile based armor and coverings.
+
+**Teamster**: Experienced drivers of carts and wagons, teamsters are usually experts at loading and unloading their vehicles, as well as handling the animals with which they are familiar.
+
+## Mercenaries/Men-at-Arms
+
+Mercenaries are as on pgs. 112-113 of *OSE Advanced.* The majority of regular men-at-arms are zero-level characters with 1d4+3 hit points. The following additional mercenaries are available (and in some cases required):
+
+**Captain**: Equivalent to a 5th- to 8th-level fighter (1-4=5th, 5-7=6th, 8-9=7th, 0=8th). A captain may lead 20 men at arms and one lieutenant per level of experience, plus any necessary sergeants; the monthly wage demanded by a captain is equal to his level x 100sp.
+
+**Lieutenant**: Equivalent to a 2nd- (1-7) or 3rd- (8-0) level fighter. A lieutenant may lead ten men at arms per level of experience, plus any necessary sergeants. A lieutenant serving under a captain extends the number of troops the captain can effectively command and control. The monthly wage demanded by a lieutenant is equal to his level x 100sp.
+
+**Sergeant**: Equivalent to a 1st-level fighter. A sergeant can lead up to ten men independently or in service to a lieutenant or captain. In any given company, there must be one sergeant for every five to ten men at arms. The monthly wage required by a sergeant is ten times that of the troop type he leads.
+
+A player character fighter of the appropriate level may serve as a sergeant, lieutenant or captain, as might an allied non-player character fighter or retainer. A character of a related class, such as ranger or paladin, might also suffice if the circumstances warrant.
+
+## Expert Hirelings/Specialists
+
+Obtaining the services of very skilled craftsmen and other professional servitors typically involves the expenditure of considerable time and resources. Whilst it is possible to retain such hirelings for short periods, few will agree to a term of less than a month and most expect to serve considerably longer.
+
+| Specialist | Monthly Wage |
+|-----------------------------|---------|
+| Alchemist                   | 1,000sp |
+| Animal Trainer              | 500sp   |
+| Armorer                     | 500sp\* |
+| Blacksmith                  | 220sp   |
+| Engineer (Architect)        | 500sp\* |
+| Engineer (Artillerist)      | 300sp   |
+| Engineer (Miner or Sapper)  | 300sp   |
+| Jeweler/Gemcutter           | 200sp\* |
+| Sage                        | Special |
+| Scribe                      | 200sp   |
+| Ship Crew                   | 120sp   |
+| Ship Captain                | 500sp   |
+| Spy                         | Special |
+| Steward/Castellan           | Special |
+| Weaponsmith                 | 300sp\* |
+
+_\*Cost does not include all remuneration or special fees.
+
+**Alchemist**: Identify potions and substances. Based on a sample or recipe, an alchemist can produce a potion at twice the normal speed and for half the normal cost (see _OSE Advanced, Magical Research, p126_). An alchemist may also research new potions, but this takes twice as long and costs twice as much as normal.
+
+**Animal Trainer**: Specialized trainers are required for exotic animals or larger numbers of normal animals. A trainer can have up to six animals under their care at a time. It will take a minimum of one uninterrupted month to teach an animal the first new behavior or trick. After this first month, an animal has become accustomed to the trainer and can be taught additional behaviors at twice the rate (two weeks per behavior).
+
+**Armorer**: Required for the production and maintenance of armor and shields; for every 60 men at arms or barded warhorses present, there must be at least one armorer available. Each must be provided with a workroom, forge, and assistants at an additional cost (~400sp). An armorer can use spare time (prorated based on number of supported troops) to make additional armor, helmets, or shields at 25% of their usual cost. Per month, an armorer can make three shields or one suit of armor.
+
+**Blacksmith:** Essential for the basic maintenance of a stronghold and any resident soldiery; for every blacksmith retained the needs of up to one hundred and twenty men or horses can be met, but there must be at least one in every stronghold and a workroom and forge must be provided for each (~400sp). Besides the usual duties (horseshoes, nails, hinges, etc.) a hired smith can turn out some basic weaponry each month: 30 arrowheads or quarrel tips, or 10 spear heads, or 5 morningstars, or 2 flails or polearm heads.
+
+**Engineer (Architect)**: Necessary for the successful construction of any but the most simple of surface structures. An architect requires payment by the month, even for short projects, and expects to receive an additional sum equal to 10% of the total building costs. Unless the construction site was approved by an architect, there is a 75% chance that any structure will collapse in 1d100 months.
+
+**Engineer (Artillerist)**: Mandatory for the construction and correct operation of siege weapons, such as the trebuchet or ballista. No such engines can be made or properly used without the services of such an individual. If employment is for short term only, say a few months or less, then rates of pay and costs will be increased from 10% to 60%.
+
+**Engineer (Miner or Sapper)**: Indispensable for the overseeing of any mining operations, underground construction, or siege and counter siege works that involve trenches, fortifications, assault towers and other similar siege devices.
+
+**Jeweler/Gemcutter**: Able to speedily and accurately appraise the value of most gems, jewelry and other precious objects, a jeweler is also capable of repairing, enhancing or newly creating ornamented items and jewelry. The total value of the materials can be increased by from 10% to 40%, depending on the skill of the jeweler. Likewise, a gemcutter might well increase the value of a rough or poorly cut stone (those under 5,000sp base value), or the stone might be ruined in the process. Note that jeweler/gemcutters cannot be held responsible for damage. Dwarven jeweler/gemcutters add 20% to skill level determination rolls, but cost twice as much to employ.
+
+| Jeweler Skill Level |     |
+|-----|-----|
+| 01-20 | Fair—10% increase 90% likely |
+| 21-50 | Good—20% increase 50% likely, +10% otherwise |
+| 51-75 | Superior—30% increase 60% likely, +10% otherwise |
+| 76-90 | Excellent—40% increase 70% likely, +10% otherwise |
+| 91-00 | Masterful—40% increase 60% likely, +20% otherwise |
+
+| Gemcutter Skill Level |     |
+|-----|-----|
+| 01-30 | Shaky—d12, one roll, 1 improves, 10-12 ruins stone |
+| 31-60 | fair—d12, one roll, 1-2 improves, 12 ruins |
+| 61-90 | good—d12, one roll, 1-3 improves, 12 ruins |
+| 91-00 | Superb—d20,1-5 improves, 20 ruins stone |
+
+_Note: Giving a gem to a jeweler/gemcutter to improve counts as “spending” it for XP purposes; you gain XP equal to the gem’s original value. Note any increase in value as “profit” in your inventory (e.g., “ring \[200 sp profit\]”) and log it as mercantile income for the month if/when sold._
+
+**Sage**: A person with a degree of knowledge on just about everything, a lot of knowledge in a few specific fields, and authoritative knowledge in his or her special fields of study. Each sage specializes in one or more minor fields of study, and a handful of special categories within a major field of study. Only fighters, paladins, rangers, and thieves are able to hire a sage, though anyone can consult one; a sage will only accept service on a permanent, lifetime basis. As a sage will bring nothing save thinking ability and knowledge, an offer of employment must consider the following:
+
+|     |     |
+| --- | --- |
+| Support & Salary per Month | 200 to 1200sp |
+| Research Grants per Month | 200 to 1200sp |
+| Initial Material Expenditure | 20,000sp minimum\* |
+
+_\*A 20,000sp expenditure will allow the sage to operate at 50% of normal efficiency, and for each additional 1,000sp thereafter, the sage will add 1% to efficiency until 90% is reached (upon expenditure of 60,000sp). After 90%, to achieve 100% efficiency the cost per 1% is 4,000sp (for the obviously erudite and rare tomes, special supplies and equipment, etc. - assuming such are available, of course). All told, expenditures must be 100,000sp for 100% sage efficiency in specific and exacting question areas._
+
+**Scribe**: Practiced in the art of writing, a typical scribe is expected to keep records, write letters and copy documents. Others may possess additional skills, such as cartography, counterfeiting, cryptography, illuminating or the ability to write, read or otherwise comprehend more than one language. Such accomplished individuals might command up to ten times the standard wage.
+
+**Ship Crew**: Skilled workers who can handle a ship. Sailors can fight to defend their ship, typically being equipped with a sword, shield, and leather armor.
+
+**Ship’s Captain**: A captain is required for any large ship, is skilled like a sailor, and has an intimate knowledge of the particular coasts they frequent.
+
+**Spy**: Recruited to secretly watch the actions of others and gather information, fees may vary wildly, from perhaps a mere hundred silver pieces to many thousands, depending on the individual and the difficulty of what is asked.
+
+**Steward/Castellan**: Responsible for the administration of a stronghold in the absence or inability of a player character, a steward holds a position of great prestige and trust. Whilst serving within the stronghold, a steward is capable of leading forty men at arms and two lieutenants for every level of experience he possesses, as well as the necessary number of sergeants. The monthly wage due to a steward is equal to his level x 100sp. A retainer of an appropriate class and level could be appointed as steward.
+
+**Weaponsmith**: Required for the production and maintenance of weaponry; for every sixty men at arms present, there must be at least one weaponsmith available. Each must be provided with a workroom, forge, and assistants at an additional cost (~400sp). A weaponsmith can use spare time (prorated based on number of supported troops) to make additional weapons at a rate of five weapons per month at 25% of their usual cost.
