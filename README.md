@@ -4,52 +4,27 @@
 # Table of Contents
 - [Character Creation Quickstart](#character-creation-quickstart)
 - [Armor, Weapons, and Equipment](#armor-weapons-and-equipment)
-  * [Armor](#armor)
-  * [Weapons](#weapons)
-  * [Equipment](#equipment)
 - [How to Play](#how-to-play)
+  * [Combat](#combat)
+  * [Dual-Classing](#dual-classing)
   * [Dungeon Exploration](#dungeon-exploration)
   * [Equipment Wear & Tear](#equipment-wear--tear)
   * [Falling](#falling)
+  * [Fighter Changes](#fighter-changes)
   * [Gaining Experience & Levels](#gaining-experience--levels)
   * [Healing](#healing)
-  * [Hirelings & Retainers](#hirelings--retainers)
   * [Light & Vision](#light--vision)
+  * [Magic & Spells](#magic--spells)
+  * [Magic-User Changes](#magic-user-changes)
+  * [Multi-Classing](#multi-classing)
   * [NPC Spellcasting](#npc-spellcasting)
-  * [Wilderness Exploration](#wilderness-exploration)
+  * [Retainers](#retainers)
   * [Saving Throws](#saving-throws)
-  * [Time](#time)
-- [Combat](#combat)
-  * [Initiative & Order of Battle](#initiative--order-of-battle)
-  * [Damage & Death](#damage--death)
-  * [Attacking from Behind](#attacking-from-behind)
-  * [Cover](#cover)
-  * [Grappling](#grappling)
-  * [Invisible Opponents](#invisible-opponents)
-  * [Morale](#morale)
-  * [Movement Within Melee](#movement-within-melee)
-  * [Prone or Stunned Opponent](#prone-or-stunned-opponent)
-  * [Spacing & the Second Rank](#spacing--the-second-rank)
-  * [Subdual Damage](#subdual-damage)
-  * [Two-Handed Weapons & Two-Weapon Fighting](#two-handed-weapons--two-weapon-fighting)
-  * [Life Energy Levels & Level Drain](#life-energy-levels--level-drain)
-- [Multi-Classing & Dual-Classing](#multi-classing--dual-classing)
-  * [Multi-classing](#multi-classing)
-  * [Dual Classing](#dual-classing)
-- [Classes](#classes)
-  * [Cleric](#cleric)
-  * [Druid](#druid)
-  * [Fighter](#fighter)
-  * [Magic-User](#magic-user)
-  * [Paladin](#paladin)
-  * [Ranger](#ranger)
-  * [Thief](#thief)
-- [Magic & Spells](#magic--spells)
-  * [Creating Magic Items](#creating-magic-items)
-  * [Memorizing Spells](#memorizing-spells)
-  * [Scribing Scrolls](#scribing-scrolls)
-  * [Spell Scrolls](#spell-scrolls)
-  * [Spell Lists](#spell-lists)
+  * [Strongholds & Domains](#strongholds--domains)
+  * [Thief Changes](#thief-changes)
+- [Wilderness Exploration](#wilderness-exploration)
+- [Camping in the Wilds](#camping-in-the-wilds)
+- [Hirelings](#hirelings)
 
 # Character Creation Quickstart
 
@@ -283,6 +258,7 @@ or lower each.
 # Armor, Weapons, and Equipment
 > [!NOTE]
 > 100cp=10sp=1gp
+> 
 > *=1 slot    **=2 slots    ***=3 slots
 
 ## Armor
@@ -549,7 +525,7 @@ Spears and polearms in the second rank of a battle formation can attack by reach
 
 **Life Energy Levels & Level Drain:** If a drained character is multi-classed or dual-classed, then the highest level of experience attained by that character is lost. If the character has two equal levels, then the level lost should be determined randomly.
 
-## Dual Classing
+## Dual-Classing
 
 Dual-classed characters are humans who elect to change irrevocably from one class to another. In order to change class, the character must have a minimum attribute score of 16 in the Prime Requisite of the new class, and must qualify in terms of normal ability score requirements and alignment restrictions.
 
@@ -710,7 +686,7 @@ Monster Saving Throws are as follows:
 | 11 HD      | 4            |
 | 12+ HD     | 3            |
 
-## Strongholds and Domains
+## Strongholds & Domains
 
 Strongholds and domains are as in OSE Advanced, with clarifications and detailed procedures as in [ACKS](https://alexmooney.github.io/ACKS_SRD/Chapter07.html#strongholds-and-domains).
 
