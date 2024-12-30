@@ -938,7 +938,7 @@ Obtaining the services of very skilled craftsmen and other professional servitor
 | Steward/Castellan           | Special |
 | Weaponsmith                 | 300sp\* |
 
-_\*Cost does not include all remuneration or special fees.
+*\*Cost does not include all remuneration or special fees.*
 
 **Alchemist**: Identify potions and substances. Based on a sample or recipe, an alchemist can produce a potion at twice the normal speed and for half the normal cost (see _OSE Advanced, Magical Research, p126_). An alchemist may also research new potions, but this takes twice as long and costs twice as much as normal.
 
@@ -971,7 +971,7 @@ _\*Cost does not include all remuneration or special fees.
 | 61-90 | good—d12, one roll, 1-3 improves, 12 ruins |
 | 91-00 | Superb—d20,1-5 improves, 20 ruins stone |
 
-_Note: Giving a gem to a jeweler/gemcutter to improve counts as “spending” it for XP purposes; you gain XP equal to the gem’s original value. Note any increase in value as “profit” in your inventory (e.g., “ring \[200 sp profit\]”) and log it as mercantile income for the month if/when sold._
+*Note: Giving a gem to a jeweler/gemcutter to improve counts as “spending” it for XP purposes; you gain XP equal to the gem’s original value. Note any increase in value as “profit” in your inventory (e.g., “ring \[200 sp profit\]”) and log it as mercantile income for the month if/when sold.*
 
 **Sage**: A person with a degree of knowledge on just about everything, a lot of knowledge in a few specific fields, and authoritative knowledge in his or her special fields of study. Each sage specializes in one or more minor fields of study, and a handful of special categories within a major field of study. Only fighters, paladins, rangers, and thieves are able to hire a sage, though anyone can consult one; a sage will only accept service on a permanent, lifetime basis. As a sage will bring nothing save thinking ability and knowledge, an offer of employment must consider the following:
 
@@ -981,7 +981,7 @@ _Note: Giving a gem to a jeweler/gemcutter to improve counts as “spending” i
 | Research Grants per Month | 200 to 1200sp |
 | Initial Material Expenditure | 20,000sp minimum\* |
 
-_\*A 20,000sp expenditure will allow the sage to operate at 50% of normal efficiency, and for each additional 1,000sp thereafter, the sage will add 1% to efficiency until 90% is reached (upon expenditure of 60,000sp). After 90%, to achieve 100% efficiency the cost per 1% is 4,000sp (for the obviously erudite and rare tomes, special supplies and equipment, etc. - assuming such are available, of course). All told, expenditures must be 100,000sp for 100% sage efficiency in specific and exacting question areas._
+*\*A 20,000sp expenditure will allow the sage to operate at 50% of normal efficiency, and for each additional 1,000sp thereafter, the sage will add 1% to efficiency until 90% is reached (upon expenditure of 60,000sp). After 90%, to achieve 100% efficiency the cost per 1% is 4,000sp (for the obviously erudite and rare tomes, special supplies and equipment, etc. - assuming such are available, of course). All told, expenditures must be 100,000sp for 100% sage efficiency in specific and exacting question areas.*
 
 **Scribe**: Practiced in the art of writing, a typical scribe is expected to keep records, write letters and copy documents. Others may possess additional skills, such as cartography, counterfeiting, cryptography, illuminating or the ability to write, read or otherwise comprehend more than one language. Such accomplished individuals might command up to ten times the standard wage.
 
