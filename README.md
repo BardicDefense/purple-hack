@@ -1,5 +1,5 @@
 # Purple Hack
-> *The following are "house rules" and clarifications. Everything not covered below is used as-written in OSE Advanced.*
+> *The following are "house rules" and clarifications. Everything not covered below is used as-written in* OSE Advanced. *It's called "Purple Hack" because the folder I keep the printed version in at home is purple. Good enough!*
 
 # Table of Contents
 - [Character Creation Quickstart](#character-creation-quickstart)
