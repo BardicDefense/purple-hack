@@ -784,7 +784,7 @@ Given a means of producing flame (e.g. a tinderbox, magic) and a stash of wood (
 
 **Good conditions:** In favourable conditions, with decent wood and a relatively dry campsite, fire-building automatically succeeds.
 
-**Bad conditions:** In more troublesome circumstances, the basic chance of successfully getting a fire going is 4-in-6. The referee may reduce the chance of success to account for extreme cold or damp.
+**Bad conditions:** In more troublesome circumstances, the basic chance of the party successfully getting a fire going is 4-in-6, though "Dwarves can make a fire almost anywhere out of almost anything, wind or no wind" and will automatically succeed. However, the referee may reduce the chance of success to account for extreme cold or damp.
 
 ## Fetching Water
 
