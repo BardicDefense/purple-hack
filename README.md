@@ -664,7 +664,34 @@ Sages not employed by a PC will often charge around 100sp to identify a potion, 
 
 Retainers cost 50sp on initial hire (+50sp to request a class), plus ½ share of treasure. Will be level 1d3, but cannot be higher than the hiring PC’s level.
 
-Retainers come with a starting equipment pack. Porters/torchbearers come with no equipment. Loyalty is checked after each adventure/session. If a success is rolled, the retainer’s loyalty increases by one to a maximum of 11. On a failure, the retainer departs. Equipment purchased by the PC is kept by the PC.
+Loyalty is checked after each adventure/session. If a success is rolled, the retainer’s loyalty increases by one to a maximum of 11. On a failure, the retainer departs. 
+
+Porters/torchbearers come with no equipment.  Equipment purchased by the PC is kept by the PC. Retainers come with a starting equipment pack: a backpack, tinderbox, waterskin, rations x3, torches x3, 3d6sp, and the following:
+
+- Armor based on class. Magic-Users have no armor or shield (but get 4d6sp). Thief & Druid get leather armor. Others roll 1d6:
+  - 1-2=Leather (AC 12)
+  - 3-4=Ring (AC 13)
+  - 5=Scale (AC 14)
+  - 6=Chainmail (AC 15)
+- Choose a weapon option (Clerics can only wield blunt weapons; Druids only wooden; Magic-Users only daggers, staves & darts; dwarves & halflings can't use large two-handed weapons):
+  - Option A: One melee weapon & a shield (+1 AC)
+  - Option B: One two-handed weapon (+1 damage)
+  - Option C: Two one-handed weapons (+1 to hit)
+  - Option D: One melee weapon & one ranged weapon (plus ammo)
+- Roll 1d12 twice on the gear table below.
+- Go shopping with your 3d6sp, if you want.
+  - Clerics will need a holy symbol; thieves need thieves' tools; magic-users need a book to serve as their spellbook.
+
+## Adventuring Gear Table
+
+| 1d12 | Gear                          | 1d12 | Gear                          |
+|------|-------------------------------|------|-------------------------------|
+| 1    | Crowbar                       | 7    | 50' rope                     |
+| 2    | Hammer (small) + iron spikes x12 | 8    | 50' rope + Grappling hook    |
+| 3    | Holy water                    | 9    | Twine (100' ball)            |
+| 4    | Lantern + Oil flask x3        | 10   | Vial, glass x3               |
+| 5    | Hand mirror                   | 11   | Mallet + stakes x3           |
+| 6    | Pole, 10'                     | 12   | Wolfsbane sprig              |
 
 ## Saving Throws
 
