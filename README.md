@@ -468,20 +468,24 @@ or lower each.
 
 | Transport                        | Cost   |
 |----------------------------------|--------|
-| Barge (or Raft), small           | 50sp   |
-| Boat, small                      | 75sp   |
-| Boat, long                       | 150sp  |
-| Cart                             | 40sp   |
-| Galley, large                    | 25,000sp|
-| Galley, small                    | 10,000sp|
-| Ship, merchant, large            | 15,000sp|
-| Ship, merchant, small            | 5,000sp |
-| Ship, war                        | 20,000sp|
+| Barge (or Raft), small (500st per 10'sq)      | 50sp per 10'sq  |
+| Boat, river (400st)              | 4,000sp |
+| Boat, sailing (600st)            | 2,000sp |
+| Canoe (60st)                     | 75sp    |
+| Cart, small                      | 40sp    |
+| Cart, large                      | 75sp    |
+| Galley, large (4,000st)          | 25,000sp|
+| Galley, small (2,000st)          | 10,000sp|
+| Ship, merchant, large (30,000st) | 15,000sp|
+| Ship, merchant, small (10,000st) | 5,000sp |
+| Ship, war (6,000st)              | 20,000sp|
 | Wagon                            | 1,200sp |
 
 **Caltrops**: Small metal spikes sufficient to cover a 5' × 5' area. Creatures moving through have a 2-in-6 chance of treading on a spike for a 50% penalty to movement rate for 24 hours (or until magically healed). 
 
 **Candle**: Burn for 30min, 10' radius.
+
+**Cart**: Open, two-wheeled vehicle. A small cart may be pulled by one or two mules. If pulled by only one mule, it can transport up to 40 stone at 60' per turn, or up to 60 stone at 30' per turn. If pulled by two mules, it can transport up to 80 stone at 60' per turn, or up to 120 stone at 30' per turn. A large cart is pulled by one or two draft horses. 2 mules or riding horses can be substituted for 1 heavy horse. If the cart is pulled by only one heavy horse, it can transport up to 80 stone at 60' per turn, or up to 120 stone at 30' per turn. If pulled by 2 heavy horses, it can transport up to 160 stone at 60' per turn, or up to 240 stone at 30' per turn. Carts may only move through deserts, mountains, forests, or swamps if a road is available.
 
 **Holy symbols**: Wooden symbols incur -1 penalty to Turn Undead check; silver symbols receive +1 bonus.
 
@@ -492,6 +496,8 @@ or lower each.
 **Oil**: Fuels lantern 4 hours. Poured on ground and lit burns for 1 turn. Thrown on monster (roll to hit) & set on fire does 1d6 damage each round for two rounds.
 
 **Torches**: Burn for 1 hour, 30' radius.
+
+**Wagon**: A four-wheeled, open vehicle for transporting heavy loads. Generally, two or four draft horses draw a wagon. Two mules or riding horses can be substituted for one draft horse. If the wagon is pulled by two draft horses, it can transport up to 160 stone at 60' per turn, or 320 stone at 30' per turn. If the wagon is pulled by four draft horses, it can transport up to 320 stone at 60' per turn, or up to 640 stone at 30' per turn. A wagon can move at a similar speed and conditions as a cart.
 
 ---
 
