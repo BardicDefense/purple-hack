@@ -345,7 +345,7 @@ or lower each.
 | *Clothing, common, set            | 30sp   |
 | *Clothing, fine, set              | 90sp   |
 | *Clothing, traveling, set         | 60sp   |
-| Gloves, thick, leather            | 10sp   |
+| *Gloves, thick, leather            | 10sp   |
 | Hat                               | 4sp    |
 | Robe                              | 18sp   |
 
