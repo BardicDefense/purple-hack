@@ -372,7 +372,7 @@ or lower each.
 | Horse, war, trained               | 300sp  |
 | Mule                              | 90sp   |
 | Ox                                | 120sp  |
-| Pidgeon                           | 2cp    |
+| Pigeon                            | 2cp    |
 | Pig                               | 10sp   |
 | Pony                              | 75sp   |
 | Rabbit                            | 1cp    |
