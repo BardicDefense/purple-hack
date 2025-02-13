@@ -175,6 +175,9 @@ If you’re a cleric, be sure to buy a holy symbol! If you’re a thief, you’l
 
 Make a note on your sheet which slots belong to which containers you have (backpack, sacks, etc.). Small sacks require one hand to carry, large sacks require two hands.
 
+## The Gygax Pack
+For 106sp, you can buy the standard equipment recommended by Gary Gygax: a backpack, a dagger, 50’ of rope, a 10’ pole, 12 iron spikes, a small sack, a wineskin filled with wine, a lantern, three flasks of oil, a vial of holy water, and 3 days of iron rations.
+
 ## Note Your Movement Speed
 
 The first number is your exploration speed, the second is your speed in combat.
