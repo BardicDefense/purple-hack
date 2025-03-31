@@ -1,6 +1,6 @@
 # Purple Hack
 
-> _The following are "house rules" and clarifications, a mish-mash of D&D Basic/Expert a la OSE, and a fantastic ruleset called Simulacrum. Rampant stealing has occured below, and is intended only for use in my own home games._
+> _The following are "house rules" and clarifications, a mish-mash of D&D Basic/Expert a la OSE, and a fantastic ruleset called [Simulacrum](https://osrsimulacrum.blogspot.com/2021/06/simulacrum-beta-release.html). Rampant stealing has occured below, and is intended only for use in my own home games._
 
 # Table of Contents
 
@@ -100,7 +100,7 @@ The default save is Hard (14+ to succeed); instant-death effects are usually Dau
 
 ## Choose Languages
 
-You start play knowing your native language(s). Additionally, roll 1d6. On a 5, you gain one more language. On a 6, you gain two more langauges. Mages also know Mithric (the language of magic), plus one additional language of their choice.
+You start play knowing your native language(s). Additionally, roll 1d6. On a 5, you gain one more language. On a 6, you gain two more languages. Mages also know Mithric (the language of magic), plus one additional language of their choice.
 
 ## Choose Feat(s)
 
@@ -165,20 +165,9 @@ Sample skills include: Acrobatics, Blindfighting, Climbing, Disguise, Etiquette,
 
 ## Buy Equipment
 
-Roll 6d6 and multiply the number by 10. That’s your starting silver pieces (sp). See the [equipment](#armor-weapons-and-equipment) list for things to buy.
+Roll 6d6 and multiply the number by 10. That’s your starting silver pieces (sp). See the [equipment](#armor-weapons-and-equipment) list for things to buy or choose a [fast pack](#fast-packs).
 
-We’re using “item slot” encumbrance. The following base gear is automatically added to your character for free and does not count against your slots:
-
-- One weapon (+ 20 arrows/bolts if missile weapon)
-- Backpack, pouches, waterskin, tinderbox, bedroll
-- Misc tiny items (within reason); worn items/clothing
-
-All other carried objects take up slots, measuring both weight and awkwardness. Assuming proper carrying gear, you can carry 10 + your Str mod in slots.
 If you plan to cast Turn Undead, be sure to buy a holy symbol! If you’re a thief, you’ll want lockpicks. A magic-user needs a book to use as a spellbook.
-
-## The Gygax Pack
-
-For 106sp, you can buy the standard equipment recommended by Gary Gygax: a backpack, a dagger, 50’ of rope, a 10’ pole, 12 iron spikes, a small sack, a wineskin filled with wine, a lantern, three flasks of oil, a vial of holy water, and 3 days of iron rations.
 
 ## Note a Motivation or Motto
 
@@ -207,8 +196,40 @@ _Why is your character risking their life for adventure? This can be one word, o
 >
 > \*=1 slot \*\*=2 slots \*\*\*=3 slots
 
-- **Armor (worn)**: light = 1 slot, medium = 2 slots, heavy = 3 slots + bulky (auto-encumbers; see below).
-  Medium items (most things) are 1 slot, but 2h weapons and medium armor are 2, and heavy armor is 3. Small items (like chalk or candles) or bundles (like torches) fit three to a slot, and coins & gems stack to 500 in a slot.
+## Item Slots
+
+We’re using “item slot” encumbrance, measuring both weight and awkwardness.
+
+Assuming proper carrying gear, you can carry 10 + your Str mod slots of items. Medium items (most things) are 1 slot, but 2h weapons and medium armor are 2, and heavy armor is 3 and is bulky (see below). Small items (like chalk or potions) or bundles (like torches) fit three to a slot, and coins & gems stack to 500 in a slot. A typical body (willing or unconscious), fills 9 slots, before gear, and is bulky.
+
+## Encumbrance Effects
+
+| Slots Over | Encumbrance Level | Combat Speed | Hex Point Allowance |
+| :--------: | :---------------: | :----------: | :-----------------: |
+|     0      |        --         |     Full     |         --          |
+|    1-3     |       Light       |     -25%     |         -1          |
+|    4-6     |      Medium       |     -50%     |         -2          |
+|    7-10    |       Heavy       |     -75%     |         -3          |
+|    11+     |     Immobile      |      0       |         N/A         |
+
+Each encumbrance level also raises the difficulty of applicable tasks, such as climbing, by one level.
+**Bulky**: Bulky items, such as worn heavy armor, impose a greater encumbrance than just item points. Each automatically adds one encumbrance level _after_ calculating the bearer's item slot load.
+
+## Basic Gear
+
+The following base gear is automatically added to your character for free and does not count against your slots:
+
+- One weapon of your choice (+ 20 arrows/bolts if missile weapon)
+- Backpack, pouches, waterskin, tinderbox, bedroll
+- Misc tiny items (within reason); worn items/clothing
+
+After this, you can have whatever basic gear you wish (within reason, as determined by the referee), which does fill slots normally. Some common basic adventuring items include:
+
+**Caltrops, bag\***: Small metal spikes sufficient to cover a 5' × 5' area. Creatures moving through have a 2-in-6 chance of treading on a spike for a 50% penalty to movement rate for 24 hours (or until magically healed). Intelligent creatures can move cautiously through areas with known caltrops, which requires their entire Movement Phase to travel 5', but eliminates any risk of impalement.
+
+## Fast Packs
+
+For 106sp, you can buy the standard equipment recommended by Gary Gygax: 50’ of rope, a 10’ pole, 12 iron spikes, a small sack, a lantern, three flasks of oil, a vial of holy water, and 3 days of iron rations.
 
 ## Armor
 
@@ -222,7 +243,7 @@ _Why is your character risking their life for adventure? This can be one word, o
 | \*\*\*Splint       | 16  | 580sp |
 | \*\*\*Plate        | 17  | 850sp |
 
-Heavy (3-slot) armor also auto-encumbers (see below).
+Heavy armor (3 slot) requires minimum 9 Str to wear. A Shield also provides a +2 save bonus vs non-gaseous breath weapons.
 
 ## Weapons
 
@@ -430,10 +451,6 @@ _Note: You can get a weapon "silvered" for 3x its base cost._
 | Ship, merchant, small (10,000st)         | 5,000sp        |
 | Ship, war (6,000st)                      | 20,000sp       |
 | Wagon                                    | 1,200sp        |
-
-**Caltrops**: Small metal spikes sufficient to cover a 5' × 5' area. Creatures moving through have a 2-in-6 chance of treading on a spike for a 50% penalty to movement rate for 24 hours (or until magically healed).
-
-**Candle**: Burn for 30min, 10' radius.
 
 **Cart**: Open, two-wheeled vehicle. A small cart may be pulled by one or two mules. If pulled by only one mule, it can transport up to 40 stone at 60' per turn, or up to 60 stone at 30' per turn. If pulled by two mules, it can transport up to 80 stone at 60' per turn, or up to 120 stone at 30' per turn. A large cart is pulled by one or two draft horses. 2 mules or riding horses can be substituted for 1 heavy horse. If the cart is pulled by only one heavy horse, it can transport up to 80 stone at 60' per turn, or up to 120 stone at 30' per turn. If pulled by 2 heavy horses, it can transport up to 160 stone at 60' per turn, or up to 240 stone at 30' per turn. Carts may only move through deserts, mountains, forests, or swamps if a road is available.
 
