@@ -193,8 +193,6 @@ _Why is your character risking their life for adventure? This can be one word, o
 
 > [!NOTE]
 > 100cp=10sp=1gp
->
-> \*=1 slot \*\*=2 slots \*\*\*=3 slots
 
 ## Item Slots
 
@@ -248,7 +246,7 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 - **Scrollcase (M)**: Each holds up to 10 spell levels in spell scrolls.
 - **Shovel (L)**: Excavating tool doubles as an improvised medium weapon.
 - **Sledgehammer (L)**: Excavating tool doubles as an improvised medium weapon.
-- **Torch (M)** Burns for 1 hour, illuminating a 40' radius. Will remain lit if dropped to the ground or thrown. Can be used as a small weapon without dousing it; some targets take further damage due to the fire. Also useful to burn away rot grubs, green slime, and webs.
+- **Torch (M)**: Burns for 1 hour, illuminating a 40' radius. Will remain lit if dropped to the ground or thrown. Can be used as a small weapon without dousing it; some targets take further damage due to the fire. Also useful to burn away rot grubs, green slime, and webs.
 - **Twine ball (100') (S)**: Can hold no more than 10 lbs of weight before snapping.
 - **Vial (S)**: Glass. Holds 4 oz of liquid.
 
@@ -263,17 +261,17 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 
 ## Armor
 
-| Armor              | AC  | Cost  |
-| ------------------ | --- | ----- |
-| \*Shield           | +1  | 20sp  |
-| \*Leather or Furs  | 12  | 80sp  |
-| \*\*Ring           | 13  | 130sp |
-| \*\*Scale/Lamellar | 14  | 180sp |
-| \*\*Chainmail      | 15  | 280sp |
-| \*\*\*Splint       | 16  | 580sp |
-| \*\*\*Plate        | 17  | 850sp |
+| Armor               | AC  | Cost  |
+| ------------------- | --- | ----- |
+| Shield (M)          | +1  | 20sp  |
+| Leather or Furs (M) | 12  | 80sp  |
+| Ring (L)            | 13  | 130sp |
+| Scale/Lamellar (L)  | 14  | 180sp |
+| Chainmail (L)       | 15  | 280sp |
+| Splint (L\*)        | 16  | 580sp |
+| Plate (L\*)         | 17  | 850sp |
 
-Heavy armor (3 slot) requires minimum 9 Str to wear. A Shield also provides a +2 save bonus vs non-gaseous breath weapons.
+\*Heavy armor (L\* = 3 slot) requires minimum 9 Str to wear. A Shield also provides a +2 save bonus vs non-gaseous breath weapons.
 
 ## Weapons
 
@@ -312,166 +310,52 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 ## Equipment
 
-### Clothing
+\*=S, 1 slot \*\*= M, 1 slot \*\*\*= L, 2 slots
 
-| Clothing                   | Cost |
-| -------------------------- | ---- |
-| Belt                       | 1sp  |
-| Boots, high                | 12sp |
-| Boots, low                 | 10sp |
-| \*Cloak                    | 32sp |
-| \*Clothing, cold weather   | 40sp |
-| \*Clothing, common, set    | 30sp |
-| \*Clothing, fine, set      | 90sp |
-| \*Clothing, traveling, set | 60sp |
-| \*Gloves, thick, leather   | 10sp |
-| Hat                        | 4sp  |
-| Robe                       | 18sp |
-
-### Herbs
-
-| Herbs             | Cost |
-| ----------------- | ---- |
-| Garlic, bulb      | 1cp  |
-| \*Wolfsbane sprig | 1sp  |
-
-### Livestock
-
-| Livestock           | Cost  |
-| ------------------- | ----- |
-| Chicken             | 6cp   |
-| Cow                 | 60sp  |
-| Dog, guard/war      | 65sp  |
-| Dog, hunting        | 35sp  |
-| Donkey              | 70sp  |
-| Goat                | 5sp   |
-| Hawk                | 40sp  |
-| Horse, draft        | 150sp |
-| Horse, riding       | 100sp |
-| Horse, war, trained | 300sp |
-| Mule                | 90sp  |
-| Ox                  | 120sp |
-| Pigeon              | 2cp   |
-| Pig                 | 10sp  |
-| Pony                | 75sp  |
-| Rabbit              | 1cp   |
-| Sheep               | 2sp   |
-| Songbird            | 4cp   |
-
-### Miscellaneous Equipment & Items
-
-| Equipment & Items                 | Cost |
-| --------------------------------- | ---- |
-| Backpack, leather (10 slots)      | 10sp |
-| \*Bedroll/blanket                 | 5sp  |
-| Bell, miniature                   | 3sp  |
-| \*Bolt case (holds 20 bolts)      | 5sp  |
-| \*Book, leatherbound, 32pgs       | 30sp |
-| \*\*\*Box, iron, large (10 slots) | 52sp |
-| \*\*Box, iron, small (5 slots)    | 18sp |
-| \*Caltrops, bag of 20             | 10sp |
-| \*Candles x10                     | 1sp  |
-| \*Chain, 10'                      | 45sp |
-| Chalk x10 sticks                  | 1sp  |
-| \*Chest, wooden, large            | 20sp |
-| \*Chest, wooden, small            | 10sp |
-| \*Chisel                          | 3sp  |
-| \*Crowbar                         | 12sp |
-| \*Grappling Hook                  | 16sp |
-| \*Hammer, small                   | 5sp  |
-| \*Ink, vial                       | 1sp  |
-| \*Lantern, bullseye               | 12sp |
-| \*Lantern, hooded                 | 7sp  |
-| \*Mallet & stakes x3              | 3sp  |
-| \*Marbles (bag of 20)             | 1sp  |
-| \*Mirror, small, steel            | 2sp  |
-| \*Oil, flask of                   | 2sp  |
-| \*Padlock                         | 6sp  |
-| \*Paper/parchment (6 sheets)      | 6sp  |
-| \*\*Pole, 10'                     | 3sp  |
-| Pouch, belt, (1 slot, 4 max)      | 5cp  |
-| Quill                             | 3cp  |
-| \*Quiver (holds 20 arrows)        | 3sp  |
-| \*Rope, hempen, 50'               | 13sp |
-| Sack, large (10 slots)            | 3sp  |
-| Sack, small (5 slots)             | 2sp  |
-| \*Saw                             | 12sp |
-| \*\*Sledgehammer                  | 9sp  |
-| \*\*Spade/shovel                  | 10sp |
-| \*Scrollcase, leather             | 6sp  |
-| \*Spikes, iron x12                | 12sp |
-| \*\*Tent                          | 20sp |
-| \*Thieves' picks & tools          | 12sp |
-| \*Tinderbox (flint & steel)       | 6cp  |
-| \*Torch x3                        | 1sp  |
-| \*Twine (100' ball)               | 3sp  |
-| \*Vial, glass x3 12,              | 3sp  |
-| Whistle                           | 2sp  |
-| \*Water/wineskin (2 pints)        | 3sp  |
-
-### Provisions
-
-| Provisions                   | Cost |
-| ---------------------------- | ---- |
-| \*Ale, pint                  | 1cp  |
-| \*Beer, small, pint          | 2cp  |
-| \*Bread, 1lb, wheat          | 1sp  |
-| \*Food, merchant's meal      | 5cp  |
-| \*Food, rich meal            | 3sp  |
-| \*\*Grain, horse meal, 1 day | 2sp  |
-| \*Mead, pint                 | 5cp  |
-| \*Rations, iron, 3 days      | 9sp  |
-| \*Rations, standard, 3 days  | 6sp  |
-| \*Wine, pint, good           | 7cp  |
-
-### Religious Items
-
-| Religious Items           | Cost |
-| ------------------------- | ---- |
-| Beads, Prayer             | 1sp  |
-| Holy symbol, iron         | 5sp  |
-| Holy symbol, silver       | 50sp |
-| Holy symbol, wooden       | 1sp  |
-| \*Holy water, vial        | 25sp |
-| Incense, blessed, 1 stick | 1sp  |
-
-### Tack & Harness
-
-| Tack & Harness               | Cost  |
-| ---------------------------- | ----- |
-| Barding, horse (AC 15)       | 250sp |
-| Dog armor (AC 14)            | 25sp  |
-| Saddle, bit, bridle, blanket | 75sp  |
-| Saddle bags, large           | 10sp  |
-
-### Transport
-
-| Transport                                | Cost           |
-| ---------------------------------------- | -------------- |
-| Barge (or Raft), small (500st per 10'sq) | 50sp per 10'sq |
-| Boat, river (400st)                      | 4,000sp        |
-| Boat, sailing (600st)                    | 2,000sp        |
-| Canoe (60st)                             | 75sp           |
-| Cart, small                              | 40sp           |
-| Cart, large                              | 75sp           |
-| Galley, large (4,000st)                  | 25,000sp       |
-| Galley, small (2,000st)                  | 10,000sp       |
-| Ship, merchant, large (30,000st)         | 15,000sp       |
-| Ship, merchant, small (10,000st)         | 5,000sp        |
-| Ship, war (6,000st)                      | 20,000sp       |
-| Wagon                                    | 1,200sp        |
-
-**Cart**: Open, two-wheeled vehicle. A small cart may be pulled by one or two mules. If pulled by only one mule, it can transport up to 40 stone at 60' per turn, or up to 60 stone at 30' per turn. If pulled by two mules, it can transport up to 80 stone at 60' per turn, or up to 120 stone at 30' per turn. A large cart is pulled by one or two draft horses. 2 mules or riding horses can be substituted for 1 heavy horse. If the cart is pulled by only one heavy horse, it can transport up to 80 stone at 60' per turn, or up to 120 stone at 30' per turn. If pulled by 2 heavy horses, it can transport up to 160 stone at 60' per turn, or up to 240 stone at 30' per turn. Carts may only move through deserts, mountains, forests, or swamps if a road is available.
+| Item                          | Cost |
+| ----------------------------- | ---- |
+| \*Acid, vial                  | 50sp |
+| Arrowhead, silver             | 5sp  |
+| \*\*Book, leatherbound, 32pgs | 30sp |
+| \*\*\*Chain, 10'              | 45sp |
+| Garlic, bulb                  | 1cp  |
+| Holy symbol, iron             | 5sp  |
+| Holy symbol, silver           | 50sp |
+| Holy symbol, wooden           | 1sp  |
+| \*Holy water vial             | 25sp |
+| \*\*Mapping kit               | 10sp |
+| \*Mirror, small, steel        | 2sp  |
+| \*\*\*Tent                    | 20sp |
+| \*\*Thieves' picks & tools    | 12sp |
+| \*Wolfsbane sprig             | 1sp  |
 
 **Holy symbols**: Wooden symbols incur -1 penalty to Turn Undead check; silver symbols receive +1 bonus.
 
 **Holy water**: Cause 2d4 damage when thrown on most undead.
 
-**Lantern**: Bullseye 60' beam 10' wide, hooded 30' radius.
+### Animals & Mounts
 
-\*\*
+| Animal        | Cost  | Size | Combat Speed | Daily Hex Pts | Item Slot Limit |
+| ------------- | ----- | ---- | ------------ | ------------- | --------------- |
+| Donkey/Pony   | 70sp  | L    | 50           | 5             | 20              |
+| Dog, hunting  | 35sp  |
+| Dog, war      | 65sp  |
+| Hawk          | 40sp  |
+| Horse, draft  | 150sp |
+| Horse, riding | 100sp |
+| Horse, war    | 300sp |
+| Mule          | 90sp  |
+| Ox            | 120sp |
 
-**Torches**: Burn for 1 hour, 30' radius.
+| Item              | Cost    |
+| ----------------- | ------- |
+| Barding           | x4      |
+| Cart              | 50sp    |
+| \*\*Feed, per day | 2sp     |
+| Stabling, per day | 1sp     |
+| Wagon             | 1,200sp |
+
+**Cart**: Open, two-wheeled vehicle. A small cart may be pulled by one or two mules. If pulled by only one mule, it can transport up to 40 stone at 60' per turn, or up to 60 stone at 30' per turn. If pulled by two mules, it can transport up to 80 stone at 60' per turn, or up to 120 stone at 30' per turn. A large cart is pulled by one or two draft horses. 2 mules or riding horses can be substituted for 1 heavy horse. If the cart is pulled by only one heavy horse, it can transport up to 80 stone at 60' per turn, or up to 120 stone at 30' per turn. If pulled by 2 heavy horses, it can transport up to 160 stone at 60' per turn, or up to 240 stone at 30' per turn. Carts may only move through deserts, mountains, forests, or swamps if a road is available.
 
 **Wagon**: A four-wheeled, open vehicle for transporting heavy loads. Generally, two or four draft horses draw a wagon. Two mules or riding horses can be substituted for one draft horse. If the wagon is pulled by two draft horses, it can transport up to 160 stone at 60' per turn, or 320 stone at 30' per turn. If the wagon is pulled by four draft horses, it can transport up to 320 stone at 60' per turn, or up to 640 stone at 30' per turn. A wagon can move at a similar speed and conditions as a cart.
 
