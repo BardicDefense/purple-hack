@@ -83,6 +83,7 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 - **Specialist**: Choose one school you can already access. You have one additional spell slot at each spell level, to fill with a spell from this school. When you gain a level, you learn one extra random new spell from this school. Spells from this school are easier to bind.
 
 **Starting Spells**: Mages start with one random 1st-level spell from each school to which they have access. Specialists then select one extra 1st-level spell of their choice from their specialty school. Mages can prepare a limited number of spells each day, and gain further spell slots as they gain levels (see [Magic & Spells](#magic-spells)).
+
 **New Spells**: Mages learn one random new spell each time they gain a level. You also gain access to a new school of your choice at each name level. When this happens, you learn random spells of that school, one at each spell level you can cast.
 
 ## Note Your Saving Throw Bonus
@@ -164,7 +165,7 @@ Sample skills include: Acrobatics, Blindfighting, Climbing, Disguise, Etiquette,
 
 ## Buy Equipment
 
-Roll 8d6 and multiply the number by 10. That’s your starting silver pieces (sp).
+Roll 6d6 and multiply the number by 10. That’s your starting silver pieces (sp). See the [equipment](#armor-weapons-and-equipment) list for things to buy.
 
 We’re using “item slot” encumbrance. The following base gear is automatically added to your character for free and does not count against your slots:
 
@@ -172,6 +173,7 @@ We’re using “item slot” encumbrance. The following base gear is automatica
 - Backpack, pouches, waterskin, tinderbox, bedroll
 - Misc tiny items (within reason); worn items/clothing
 
+All other carried objects take up slots, measuring both weight and awkwardness. Assuming proper carrying gear, you can carry 10 + your Str mod in slots.
 If you plan to cast Turn Undead, be sure to buy a holy symbol! If you’re a thief, you’ll want lockpicks. A magic-user needs a book to use as a spellbook.
 
 ## The Gygax Pack
@@ -204,8 +206,6 @@ _Why is your character risking their life for adventure? This can be one word, o
 > 100cp=10sp=1gp
 >
 > \*=1 slot \*\*=2 slots \*\*\*=3 slots
-
-All other carried objects take up slots, measuring both weight and awkwardness. Assuming proper carrying gear, you can carry 10 + your Str mod in slots. Item slots are as follows:
 
 - **Armor (worn)**: light = 1 slot, medium = 2 slots, heavy = 3 slots + bulky (auto-encumbers; see below).
   Medium items (most things) are 1 slot, but 2h weapons and medium armor are 2, and heavy armor is 3. Small items (like chalk or candles) or bundles (like torches) fit three to a slot, and coins & gems stack to 500 in a slot.
