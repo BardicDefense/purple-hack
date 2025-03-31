@@ -200,7 +200,7 @@ _Why is your character risking their life for adventure? This can be one word, o
 
 We’re using “item slot” encumbrance, measuring both weight and awkwardness.
 
-Assuming proper carrying gear, you can carry 10 + your Str mod slots of items. Medium items (most things) are 1 slot, but 2h weapons and medium armor are 2, and heavy armor is 3 and is bulky (see below). Small items (like chalk or potions) or bundles (like torches) fit three to a slot, and coins & gems stack to 500 in a slot. A typical body (willing or unconscious), fills 9 slots, before gear, and is bulky.
+Assuming proper carrying gear, you can carry 10 + your Str mod slots of items. **Medium** items (most things) are 1 slot. **Large** items like 2h weapons and medium armor are 2 slots. Heavy armor takes 3 slots and is bulky (see below). **Small** items (like chalk or potions) fit four to a slot, and coins & gems stack to 500 in a slot. A typical body (willing or unconscious), fills 9 slots, before gear, and is bulky.
 
 ## Encumbrance Effects
 
@@ -213,6 +213,7 @@ Assuming proper carrying gear, you can carry 10 + your Str mod slots of items. M
 |    11+     |     Immobile      |      0       |         N/A         |
 
 Each encumbrance level also raises the difficulty of applicable tasks, such as climbing, by one level.
+
 **Bulky**: Bulky items, such as worn heavy armor, impose a greater encumbrance than just item points. Each automatically adds one encumbrance level _after_ calculating the bearer's item slot load.
 
 ## Basic Gear
@@ -220,22 +221,44 @@ Each encumbrance level also raises the difficulty of applicable tasks, such as c
 The following base gear is automatically added to your character for free and does not count against your slots:
 
 - One weapon of your choice (+ 20 arrows/bolts if missile weapon)
-- Backpack, pouches, waterskin, tinderbox, bedroll
+- Backpack, pouches, waterskin, tinderbox (for lighting torches or small fires), bedroll
 - Misc tiny items (within reason); worn items/clothing
 
-After this, you can have whatever basic gear you wish (within reason, as determined by the referee), which does fill slots normally. Some common basic adventuring items include:
+After this, you can have whatever basic gear you wish (within reason, as determined by the referee), which does fill slots normally. Some common basic adventuring items include but are not limited to (size listed after each):
 
-**Caltrops, bag\***: Small metal spikes sufficient to cover a 5' × 5' area. Creatures moving through have a 2-in-6 chance of treading on a spike for a 50% penalty to movement rate for 24 hours (or until magically healed). Intelligent creatures can move cautiously through areas with known caltrops, which requires their entire Movement Phase to travel 5', but eliminates any risk of impalement.
+- **Caltrops, bag (M)**: Small metal spikes sufficient to cover a 5' × 5' area. Creatures moving through have a 2-in-6 chance of treading on a spike for a 50% penalty to movement rate for 24 hours (or until magically healed). Intelligent creatures can move cautiously through areas with known caltrops, which requires their entire Movement Phase to travel 5', but eliminates any risk of impalement.
+- **Candle (S)**: Dimly illuminates a 5' radius, and burns for 4 hours.
+- **Chalk (S)**: Useful for marking trails in dungeons.
+- **Crowbar (M)**: Makes it easier to force open doors, and doubles as an improvised medium weapon.
+- **Hammer (S)**: Doubles as an improvised small weapon.
+- **Iron spike (S)**: One of these can be hammered in to block one typical door.
+- **Lantern (M)**: A lantern can be closed to hide its light, burns one flask of lamp oil every 4 hours, and illuminates a 20' radius.
+- **Oil flask (M)**: Fuels lantern 4 hours. Poured on ground and lit burns for 1 turn. Thrown on monster (roll to hit) & set on fire does 1d6 damage each round for two rounds.
+- **Pickaxe (L)**: This excavating tool doubles as an improvised medium weapon.
+- **Pole, 10' (L)**: Often used to prod potential dangers at a safe distance. When wielded during cautious exploration, has a 2-in-6 chance of setting off most traps.
+- **Rations, iron (M)**: One day of food and water. Also called trail rations. As long as kept dry, will keep almost indefinitely.
+- **Rations, standard (L)**: One day of food and water. Fresh, and will not keep for more than 1d4 days, fewer if in poor conditions like high heat. The type of rations that hunting provides. More appealing to monsters than iron rations if dropped during pursuit.
+- **Rope, hemp (L)**: Can hold the weight of roughly three human-sized beings. 50' long. Comes with grapnel.
+- **Scrollcase (M)**: Each holds up to 10 spell levels in spell scrolls.
+- **Shovel (L)**: Excavating tool doubles as an improvised medium weapon.
+- **Sledgehammer (L)**: Excavating tool doubles as an improvised medium weapon.
+- **Torch (M)** Burns for 1 hour, illuminating a 40' radius. Will remain lit if dropped to the ground or thrown. Can be used as a small weapon without dousing it; some targets take further damage due to the fire. Also useful to burn away rot grubs, green slime, and webs.
+- **Vial (S)**: Glass. Holds 4 oz of liquid.
 
 ## Fast Packs
 
-For 106sp, you can buy the standard equipment recommended by Gary Gygax: 50’ of rope, a 10’ pole, 12 iron spikes, a small sack, a lantern, three flasks of oil, a vial of holy water, and 3 days of iron rations.
+- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), and Iron rations (M) x2.
+- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike (S), Crowbar (M), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp).
+- **The Cautious** (6 slots): Candle (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Iron rations (M), 10' pole (L).
+- **The Delver** (6 slots): Candle x3 (S), Hammer (S), Iron rations (M), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
+- **The Scholar** (6 slots, 10sp cost): Chalk (S), Vial x3 (S), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp), Scrollcase (M).
+- **The Torchbearer** (6 slots): Iron rations (M), Oil flask (M), Torches x4 (M).
 
 ## Armor
 
 | Armor              | AC  | Cost  |
 | ------------------ | --- | ----- |
-| \*Shield           | 1   | 20sp  |
+| \*Shield           | +1  | 20sp  |
 | \*Leather or Furs  | 12  | 80sp  |
 | \*\*Ring           | 13  | 130sp |
 | \*\*Scale/Lamellar | 14  | 180sp |
@@ -249,34 +272,11 @@ Heavy armor (3 slot) requires minimum 9 Str to wear. A Shield also provides a +2
 
 ### Melee Weapons
 
-| Weapon Type               | Damage | Cost |
-| ------------------------- | ------ | ---- |
-| \*Axe, battle¹            | 1d8    | 90sp |
-| \*Axe, hand²³             | 1d6    | 12sp |
-| \*Club                    | 1d4    | 5sp  |
-| \*Dagger²³                | 1d4    | 12sp |
-| \*\*Flail†                | 1d6+1  | 24sp |
-| \*Hammer, war             | 1d6    | 21sp |
-| \*\*Lance†                | 2d4+1  | 60sp |
-| \*\*Mace, heavy†          | 1d6+1  | 75sp |
-| \*Morningstar             | 2d4    | 40sp |
-| \*\*Pick, heavy†          | 1d6+1  | 30sp |
-| \*\*Polearm†              | 1d8+1  | 90sp |
-| \*Spear¹²³                | 1d6    | 20sp |
-| \*Staff                   | 1d6    | 8sp  |
-| \*Sword, bastard¹         | 2d4    | 60sp |
-| \*Longsword (or scimitar) | 1d8    | 50sp |
-| \*Shortsword³             | 1d6    | 25sp |
-| \*\*Greatsword†           | 1d10   | 75sp |
-| \*\*Trident†              | 1d6+1  | 25sp |
+Weapons are divided into three basic damage categories: small, medium, and large.
 
-†Two-handed weapon
-
-¹Weapon can be used either one- or two-handed. When wielded two-handed, gain +1 damage.
-
-²Can be used as a melee or missile weapon.
-
-³Can be dual-wielded for a +1 bonus to hit.
+- **Small** weapons deal 1d4 damage, are one-handed, and include knives, daggers, and small handaxes. Can be dual-wielded for +1 to hit (doesn't grant additional attacks). Average cost: 12sp.
+- **Medium** weapons deal 1d6+1 damage, are one-handed, and include most swords, spears, maces, flails, and battle axes. Can be wielded two-handed, which adds +1 damage. Average cost: 20sp.
+- **Large** weapons deal 1d8+3 damage, are two-handed, and include polearms and pikes, as well as large swords, spears, axes, and maces. A minimum Str of 9 is required to wield large weapons. Average cost: 75sp.
 
 _Note: You can get a weapon "silvered" for 3x its base cost._
 
@@ -396,7 +396,7 @@ _Note: You can get a weapon "silvered" for 3x its base cost._
 | \*Tinderbox (flint & steel)       | 6cp  |
 | \*Torch x3                        | 1sp  |
 | \*Twine (100' ball)               | 3sp  |
-| \*Vial, glass x3                  | 3sp  |
+| \*Vial, glass x3 12,              | 3sp  |
 | Whistle                           | 2sp  |
 | \*Water/wineskin (2 pints)        | 3sp  |
 
@@ -460,7 +460,7 @@ _Note: You can get a weapon "silvered" for 3x its base cost._
 
 **Lantern**: Bullseye 60' beam 10' wide, hooded 30' radius.
 
-**Oil**: Fuels lantern 4 hours. Poured on ground and lit burns for 1 turn. Thrown on monster (roll to hit) & set on fire does 1d6 damage each round for two rounds.
+\*\*
 
 **Torches**: Burn for 1 hour, 30' radius.
 
