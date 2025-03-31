@@ -200,7 +200,13 @@ _Why is your character risking their life for adventure? This can be one word, o
 
 We’re using “item slot” encumbrance, measuring both weight and awkwardness.
 
-Assuming proper carrying gear, you can carry 10 + your Str mod slots of items. **Medium** items (most things) are 1 slot. **Large** items like 2h weapons and medium armor are 2 slots. Heavy armor takes 3 slots and is bulky (see below). **Small** items (like chalk or potions) fit four to a slot, and coins & gems stack to 500 in a slot. A typical body (willing or unconscious), fills 9 slots, before gear, and is bulky.
+Assuming proper carrying gear, you can carry 10 + your Str mod slots of items. \*\*
+
+- **Small** items (like chalk or potions) fit four to a slot.
+- Medium\*\* items (most things) are 1 slot.
+- **Large** items like 2h weapons and medium armor are 2 slots. Heavy armor takes 3 slots and is bulky (see below).
+
+Coins & gems stack 500 to a slot. A typical body (willing or unconscious), fills 9 slots, before gear, and is bulky.
 
 ## Encumbrance Effects
 
