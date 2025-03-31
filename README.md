@@ -200,10 +200,10 @@ _Why is your character risking their life for adventure? This can be one word, o
 
 We’re using “item slot” encumbrance, measuring both weight and awkwardness.
 
-Assuming proper carrying gear, you can carry 10 + your Str mod slots of items. \*\*
+Assuming proper carrying gear, you can carry 10 + your Str mod slots of items.
 
 - **Small** items (like chalk or potions) fit four to a slot.
-- Medium\*\* items (most things) are 1 slot.
+- **Medium** items (most things) are 1 slot.
 - **Large** items like 2h weapons and medium armor are 2 slots. Heavy armor takes 3 slots and is bulky (see below).
 
 Coins & gems stack 500 to a slot. A typical body (willing or unconscious), fills 9 slots, before gear, and is bulky.
@@ -249,9 +249,10 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 - **Shovel (L)**: Excavating tool doubles as an improvised medium weapon.
 - **Sledgehammer (L)**: Excavating tool doubles as an improvised medium weapon.
 - **Torch (M)** Burns for 1 hour, illuminating a 40' radius. Will remain lit if dropped to the ground or thrown. Can be used as a small weapon without dousing it; some targets take further damage due to the fire. Also useful to burn away rot grubs, green slime, and webs.
+- **Twine ball (100') (S)**: Can hold no more than 10 lbs of weight before snapping.
 - **Vial (S)**: Glass. Holds 4 oz of liquid.
 
-## Fast Packs
+## Quick Packs
 
 - **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), and Iron rations (M) x2.
 - **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike (S), Crowbar (M), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp).
@@ -288,24 +289,26 @@ _Note: You can get a weapon "silvered" for 3x its base cost._
 
 ### Missile Weapons
 
-| Weapon               | Damage        | Range†    | Cost |
-| -------------------- | ------------- | --------- | ---- |
-| \*Arrows (20)        | 1d6           | By weapon | 20sp |
-| \*Axe, hand          | 1d6           | 10ft      | 12sp |
-| \*Bolts, heavy (20)  | 1d6+1         | By weapon | 20sp |
-| \*Bolts, light (20)  | 1d4+1         | By weapon | 20sp |
-| \*\*Bow, long        | Arrows        | 70ft      | 60sp |
-| \*\*Bow, short       | Arrows        | 50ft      | 40sp |
-| \*\*Crossbow, heavy  | Bolts, heavy  | 80ft      | 75sp |
-| \*\*Crossbow, light  | Bolts, light  | 60ft      | 50sp |
-| \*Dagger             | 1d4           | 10ft      | 12sp |
-| \*Dart               | 1d3           | 15ft      | 3sp  |
-| \*Javelin            | 1d6           | 20ft      | 8sp  |
-| \*Sling              | Stones, sling | 40ft      | 1sp  |
-| \*Spear              | 1d6           | 20ft      | 20sp |
-| \*Stones, sling (20) | 1d4           | By weapon | 0sp  |
+Missile weapons have a rate of fire of 1 shot per attack (except for small thrown weapons with the marksman feat). Loading does not require an action if ammunition is readily at hand (except for heavy crossbows, which require an action to load). All missile weapons have three range brackets (Short, Medium, Far). Attacks made against targets at a given range apply the attack penalty listed.
 
-†Shooting or throwing beyond this range is at a -2 penalty to hit. The weapon cannot reach farther than twice this range. Outdoors, these range increments are tripled.
+| Weapon                  | Size & Damage | Hands | S:0 | M:-4 | F:-8 |
+| ----------------------- | :-----------: | :---: | :-: | :--: | :--: |
+| Bow, short\*            |       M       |   2   | 45' | 90'  | 180' |
+| Bow, long\* (req 9 Str) |       M       |   2   | 90' | 180' | 360' |
+| Crossbow, light         |       M       |   2   | 45' | 90'  | 180' |
+| Crossbow, heavy\*\*     |       L       |   2   | 90' | 180' | 360' |
+| Fire Oil/Holy Water     |    \*\*\*     |   1   | 10' | 20'  | 30'  |
+| Javelin/Spear           |      M†       |   1   | 20' | 40'  | 60'  |
+| Sling                   |       S       |   1   | 45' | 90'  | 180' |
+| Small thrown weapon     |      S†       |   1   | 10' | 20'  | 30'  |
+
+\*If fired indoors, halve all ranges.
+
+\*\*+2 attack bonus, reload requires action.
+
+\*\*\*See costed equipment list below for details.
+
+†Plus user's Str modifier.
 
 ## Equipment
 
