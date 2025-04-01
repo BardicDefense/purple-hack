@@ -6,9 +6,8 @@
 
 - [Character Creation Quickstart](#character-creation-quickstart)
 - [Armor, Weapons, and Equipment](#armor-weapons-and-equipment)
-- [How to Play](#how-to-play)
-  - [Combat](#combat)
-  - [Dual-Classing](#dual-classing)
+- [Combat](#combat)
+- [General Adventuring](#general-adventuring)
   - [Dungeon Exploration](#dungeon-exploration)
   - [Equipment Wear & Tear](#equipment-wear--tear)
   - [Falling](#falling)
@@ -157,7 +156,7 @@ It's assumed that characters possess all the skills and knowledge appropriate to
 Concretely, skills might, depending on the circumstances, allow you to:
 
 - Avoid what might otherwise involve a roll.
-- Lower the difficulty of a task or negate penalties.
+- Lower the difficulty of a check or negate penalties.
 - Lessen the consequences of failure.
 - Gain information not obvious to the average observer.
 
@@ -250,15 +249,6 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 - **Twine ball (100') (S)**: Can hold no more than 10 lbs of weight before snapping.
 - **Vial (S)**: Glass. Holds 4 oz of liquid.
 
-## Quick Packs
-
-- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), and Iron rations (M) x2.
-- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike (S), Crowbar (M), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp).
-- **The Cautious** (6 slots): Candle (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Iron rations (M), 10' pole (L).
-- **The Delver** (6 slots): Candle x3 (S), Hammer (S), Iron rations (M), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
-- **The Scholar** (6 slots, 10sp cost): Chalk (S), Vial x3 (S), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp), Scrollcase (M).
-- **The Torchbearer** (6 slots): Iron rations (M), Oil flask (M), Torches x4 (M).
-
 ## Armor
 
 | Armor               | AC  | Cost  |
@@ -308,7 +298,7 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 †Plus user's Str modifier.
 
-## Equipment
+## Costed Items
 
 \*=S, 1 slot \*\*= M, 1 slot \*\*\*= L, 2 slots
 
@@ -316,7 +306,7 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 | ----------------------------- | ---- |
 | \*Acid, vial                  | 50sp |
 | Arrowhead, silver             | 5sp  |
-| \*\*Book, leatherbound, 32pgs | 30sp |
+| \*\*Book, leatherbound, 64pgs | 30sp |
 | \*\*\*Chain, 10'              | 45sp |
 | Garlic, bulb                  | 1cp  |
 | Holy symbol, iron             | 5sp  |
@@ -324,28 +314,50 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 | Holy symbol, wooden           | 1sp  |
 | \*Holy water vial             | 25sp |
 | \*\*Mapping kit               | 10sp |
-| \*Mirror, small, steel        | 2sp  |
+| \*Mirror, small, bronze       | 2sp  |
+| \*Rope, silk, 50'             | 50sp |
 | \*\*\*Tent                    | 20sp |
 | \*\*Thieves' picks & tools    | 12sp |
 | \*Wolfsbane sprig             | 1sp  |
 
-**Holy symbols**: Wooden symbols incur -1 penalty to Turn Undead check; silver symbols receive +1 bonus.
+**Acid, vial**: Can splash contents on a target within 5' or hurl it as a small thrown weapon; it shatters on impact. A hit deals 1d6+1 acid damage. A vial can also be used to open most mundane locks in 1 turn.
 
-**Holy water**: Cause 2d4 damage when thrown on most undead.
+**Garlic**: Repels vampires.
 
-### Animals & Mounts
+**Holy symbols**: Wooden symbols incur -1 penalty to Turn Undead hit dice roll; silver symbols receive +1 bonus.
+
+**Holy water**: Can splash contents onto an undead creature within 5' or hurl it as a small thrown weapon; it shatters on impact. Causes 2d4 damage when thrown on most undead.
+
+**Mapping kit**: A cased roll of parchment plus quills and vials of ink, sufficient to map all but the largest areas.
+
+**Rope, silk**: Lighter and stronger than hemp, can bear the weight of five human-sized beings. Comes with grapnel.
+
+**Tent**: Protects against adverse weather when adventuring in the wilds. See [sleeping in the wilds](#sleeping-in-the-wilds).
+
+**Wolfsbane**: If a lycanthrope is hit by wolfsbane, it must make a Very Hard (17+) save or run away in fear. The sprig must be swung or thrown as a weapon.
+
+## Quick Packs
+
+- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), and Iron rations (M) x2.
+- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike (S), Crowbar (M), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp).
+- **The Cautious** (6 slots): Candle (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Iron rations (M), 10' pole (L).
+- **The Delver** (6 slots): Candle x3 (S), Hammer (S), Iron rations (M), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
+- **The Scholar** (6 slots, 10sp cost): Chalk (S), Vial x3 (S), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp), Scrollcase (M).
+- **The Torchbearer** (6 slots): Iron rations (M), Oil flask (M), Torches x4 (M).
+
+## Animals & Mounts
 
 | Animal        | Cost  | Size | Combat Speed | Daily Hex Pts | Item Slot Limit |
 | ------------- | ----- | ---- | ------------ | ------------- | --------------- |
 | Donkey/Pony   | 70sp  | L    | 50           | 5             | 20              |
-| Dog, hunting  | 35sp  |
-| Dog, war      | 65sp  |
-| Hawk          | 40sp  |
-| Horse, draft  | 150sp |
-| Horse, riding | 100sp |
-| Horse, war    | 300sp |
-| Mule          | 90sp  |
-| Ox            | 120sp |
+| Dog, hunting  | 35sp  | M    | 50           | -             | -               |
+| Dog, war      | 65sp  | M    | 50           | -             | -               |
+| Hawk          | 40sp  | S    | 80           | -             | -               |
+| Horse, draft  | 150sp | L    | 50           | 5             | 25              |
+| Horse, riding | 100sp | L    | 80           | 6             | 20              |
+| Horse, war    | 300sp | L    | 65           | 5             | 25              |
+| Mule          | 90sp  | L    | 65           | 5             | 30              |
+| Ox            | 120sp | L    | 50           | 4             | 30              |
 
 | Item              | Cost    |
 | ----------------- | ------- |
@@ -355,17 +367,55 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 | Stabling, per day | 1sp     |
 | Wagon             | 1,200sp |
 
-**Cart**: Open, two-wheeled vehicle. A small cart may be pulled by one or two mules. If pulled by only one mule, it can transport up to 40 stone at 60' per turn, or up to 60 stone at 30' per turn. If pulled by two mules, it can transport up to 80 stone at 60' per turn, or up to 120 stone at 30' per turn. A large cart is pulled by one or two draft horses. 2 mules or riding horses can be substituted for 1 heavy horse. If the cart is pulled by only one heavy horse, it can transport up to 80 stone at 60' per turn, or up to 120 stone at 30' per turn. If pulled by 2 heavy horses, it can transport up to 160 stone at 60' per turn, or up to 240 stone at 30' per turn. Carts may only move through deserts, mountains, forests, or swamps if a road is available.
+**Barding**: Animal armor. The cost is equal to four times the cost of a normal human-sized armor set of the same type. Encumbers a mount just as armor does for characters.
 
-**Wagon**: A four-wheeled, open vehicle for transporting heavy loads. Generally, two or four draft horses draw a wagon. Two mules or riding horses can be substituted for one draft horse. If the wagon is pulled by two draft horses, it can transport up to 160 stone at 60' per turn, or 320 stone at 30' per turn. If the wagon is pulled by four draft horses, it can transport up to 320 stone at 60' per turn, or up to 640 stone at 30' per turn. A wagon can move at a similar speed and conditions as a cart.
+**Cart**: Open, two-wheeled vehicle. Must travel on a road. Pulled by 1-2 beasts of burden. Capacity: 2x of the animals drawing it.
+
+**Encumbrance**: A rider counts against a mount's item slot limit at a rate of 3 slots per the rider's size level, starting at Tiny (so 9 slots for a Medium rider), plus the rider's own carried slots, if any. A mount can carry no more than two typical riders. An animal, cart, or wagon 1 point over its item limit gains one encumbrance level. Every 3 slots past that adds another (or every 8 points past for a cart or wagon).
+
+**Wagon**: A four-wheeled, road-bound open vehicle for heavy loads. Pulled by 4-6 beasts of burden. Capacity: 2x of the animals drawing it.
+
+**War**: An animal not trained for comat may panic in battle. If wounded, its owner must make a Hard (14+) check to keep it under control.
 
 ---
 
-# How to Play
+# Checks & Saves
 
-## Combat
+**Checks** are a single roll against a target number, used to resole situations with interesting stakes that would either be too tedious or difficult to describe, or involve a strong element of chance. Even if it comes down to a die roll, players will be rewarded for thinking the action through, and sometimes penalized for not. For example, if a player thinks to first apply some lamp oil to the chain and gearing responsible for raising a stuck gate, this would reduce the difficulty.
+
+First, the referee decides how difficult a check is:
+
+| Difficulty Level | Result Needed |
+| :--------------: | :-----------: |
+|     Moderate     |      8+       |
+|     Daunting     |      11+      |
+|       Hard       |      14+      |
+|    Very Hard     |      17+      |
+|      Heroic      |      20+      |
+
+The player rolls 1d20 (unless success or failure would not be obvious, in which case the referee rolls instead, in secret). If an ability score modifier is relevant, the check will note this (e.g. "Hard (Con x2)" means apply double the character's Con mod). If the modified total equals or exceeds the result needed, the check succeeds. Rolling under indicates failure. A natural 20 is not an automatic success for a check.
+
+**Saving throws** or **saves** represent an attempt to resist a notable threat, such as magic, poison, or disease. A creature can always choose to fail a saving throw. A save is a check with any relevant ability score listed as normal (e.g. "Save: Hard (Con)"). The default save is Hard (14+). The exception is saves for instant-death effects (known as "death saves"); their default save is Daunting (11+). Unlike a regular check, a natural 20 always saves, and a natural 1 always fails. See also [item saving throws](#item-saving-throws).
+
+**Check Bonuses**: Characters gain +1 to regular checks at each name level.
+
+**Save Bonuses**: Characters gain a +1 save bonus for every 2 full Hit Dice they have.
+
+# Combat
+
+Each combat round is 10 seconds and has seven steps, taken in the following order:
+
+- **Declarations**: All spellcasting and combat stances for the round must be declared _before_ anything else in the round happens.
+- **Missile**: Combatants with readied missile weapons can fire. Players who chose the Dash combat stance fire first, then all remaining missile attacks from all sides are resolved simultaneously.
+- **Initiative**: 1d12 is rolled by each side involved, with the side that rolled the highest winning (re-roll ties).
+- **Movement**: Everyone on the side that won initiative for the round can move, followed by any movement by the losing side.
+- **Melee**: Combatants that did not fire a missile weapon can attack with melee weapons (or take a miscellaneous action). Players who chose the Dash combat stance act first, and then all remaining actions from all sides are resolved simultaneously.
+- **Magic**: Spells are canceled if desired, and then all spells declared and not disrupted are cast.
+- **Morale**: The referee may need to make morale checks for opponents, retainers, and other NPCs.
 
 **Attacking from Behind:** There are only two ways for most people to get behind someone during combat. One is to surprise an opponent and attack from behind during the surprise action. The other is to attack an opponent from behind when an ally is attacking from the front. Thieves and Assassins can get behind a target during normal combat if they successfully hide in shadows, even if no one is attacking the target from the front.
+
+**Backstab:** When attacking with surprise, from behind, with a melee weapon, the attack is made at +4 to hit and inflicts double damage. At levels 6-8, damage is tripled; at levels 9-12, damage is quadrupled; at level 13+, damage is quintupled. Damage modifiers (such as those pertaining to strength or magic) are not multiplied.
 
 **Blocking:** A defender effectively blocks an area about five feet across, and enemies cannot move through this area without first killing the defender.
 
@@ -394,15 +444,11 @@ Spears and polearms in the second rank of a battle formation can attack by reach
 
 **Life Energy Levels & Level Drain:** If a drained character is multi-classed or dual-classed, then the highest level of experience attained by that character is lost. If the character has two equal levels, then the level lost should be determined randomly.
 
-## Dual-Classing
+# General Adventuring
 
-Dual-classed characters are humans who elect to change irrevocably from one class to another. In order to change class, the character must have a minimum attribute score of 16 in the Prime Requisite of the new class, and must qualify in terms of normal ability score requirements and alignment restrictions.
+## Climbing
 
-The character retains his or her hit points. He or she can use the particular abilities of the original class, but doing so will cause the character to forfeit all experience points from that adventure (as determined by the referee). This restriction applies until the character has advanced in the new class to a level at least one higher than was attained in the original class.
-
-When the character begins the process of learning a new class, he or she gains the abilities of the new class as a first level member of that class, and all experience is applied to progressing in the new class. The character gains no additional hit points until reaching a level in the new class one higher than in the original class, after which time the character's hit points advance as per the new class. A dual-classed character can never gain more than 9 full hit dice, no matter how many total levels are gained.
-
-Unlike multi-class characters, dual-classed characters cannot perform the functions of several different classes simultaneously. So, for example, an elven Fighter/Magic-User could cast arcane spells while wearing armor, but a human dual-classed Fighter and Magic-User would have to remove his or her armor to do the same thing.
+## Downtime & Lifestyle
 
 ## Dungeon Exploration
 
@@ -422,19 +468,7 @@ Items can be repaired by an appropriate craftsman, costing 10% of the item's ori
 
 Magic weapons and armor take ½ notches instead of full notches.
 
-## Falling
-
-Damage from falling is determined as follows: Falls of less than 5 ft do no damage in game terms, falls of up to 10 ft cause 1d6 damage, falls of up to 20 ft cause 3d6 damage, falls of up to 30 ft cause 6d6, 40 ft is 10d6, 50 ft is 15d6, and falls of over 50 ft cause 20d6 points of damage.
-
-## Fighter Changes
-
-**Bonus Attacks:** Fighters with melee weapons attack once per round at 1st to 6th levels (1/1 attacks); at 7th to 12th levels, they attack thrice every two rounds (3/2 attacks); and at 13th or higher levels they attack twice per round (2/1 attacks). A partial additional attack (e.g. 3/2 attacks) means that the extra attack is taken on odd-numbered rounds in the combat sequence, hence two attacks on the first round, one on the second, two on the third and one on the fourth, if applicable.
-
-**Fighting the Unskilled:** Against creatures with 1 (8-sided) hit die or less, a Fighter makes one attack per level each round. A Fighter exercising multiple attacks departs from the normal initiative procedure. The Fighter will automatically attack first in the round unless fighting an opponent with multiple attacks of its own (in which case initiative should be rolled as normal). The Fighter’s second attack in any given melee round will come in their usual place, and any further attacks will come last in the sequence.
-
-**High Level Auto-Hit:** If a Fighter of extremely high level or with many bonuses “to hit” actually requires a negative roll to hit his or her target, the negative number needed may be converted to a positive and applied as additional damage to the automatic hit. Thus, for example, a 14th level Fighter with 18 strength and a +5 sword has a total to-hit bonus of +20. Against an AC 18 dragon, this would be an automatic hit plus 2 additional damage (20 to-hit – AC 18).
-
-## Gaining Experience & Levels
+## Experience
 
 You gain experience primarily through recovering treasure and then **spending it**. 1sp spent = 1XP. A Paladin’s required charity tithe does not obtain this XP, nor does sp spent on mundane equipment or on monthly upkeep costs. Money spent on acquiring retainers and repairing equipment does count towards XP. In general, you can flavor this spending as martial training, carousing, philanthropy, greasing palms, investing in local faction relations, or any number of other in-world expenditures, limited only by your imagination.
 
@@ -463,13 +497,29 @@ A character may earn XP from **magical research** or magic item creation if the 
 
 Each new dungeon room or hex **explored and mapped** grants (10 x Dungeon Level) XP (or 10 x number of hexes from the nearest known settlement XP) per character. Each hex or room past the fifth in a given delve or adventure begins to grant cumulative XP (i.e. room #6=20XP x Dungeon Level, room #7=30XP x Dungeon Level, etc.). Once the party returns to safety to heal and restock, the counter resets. A room can only be “explored” once, ever.
 
+## Falling
+
+Damage from falling is determined as follows: Falls of less than 5 ft do no damage in game terms, falls of up to 10 ft cause 1d6 damage, falls of up to 20 ft cause 3d6 damage, falls of up to 30 ft cause 6d6, 40 ft is 10d6, 50 ft is 15d6, and falls of over 50 ft cause 20d6 points of damage.
+
+## Fatigue
+
 ## Healing
 
 A character will recover 1hp by resting overnight in a safe and comfortable location, and 1d3 hp per day of uninterrupted rest. 30 days of rest will return any character to full hp.
 
+## Hiding
+
+## Item Saving Throws
+
+## Jumping
+
+## Lifting
+
 ## Light & Vision
 
 A party needs one light source for approximately every three members of the party. For every missing light source, PCs incur a -1 penalty to attack, up to -4. Note that light sources can be seen from much further away than the illumination they shed for those holding them. Approaching light will warn intelligent creatures of the approach of surface-dwellers, perhaps giving them a chance to prepare.
+
+## Lockpicking
 
 ## Magic & Spells
 
@@ -487,45 +537,15 @@ In extreme cases (such as when a character casts a spell from a scroll well abov
 
 A character must be of the correct class to cast a spell from a scroll. Thus, only Clerics or Paladins may cast spells from clerical scrolls, only Druids or Rangers from druidic ones, and so on. (Exception: Thieves may attempt to cast arcane and phantasmal spells from scrolls.)
 
-## Magic-User Changes
-
-**Acquiring New Spells:** A Magic-User will automatically receive one new spell of the highest level he or she may cast when reaching a new level of spell (i.e. upon reaching 3rd level, the Magic-User will automatically receive one 2nd-level spell; upon reaching 5th level, one 3rd-level spell). The rest must be found and copied into the mage’s spellbook from dungeons or musty libraries in the world, or painstakingly researched.
-
-To copy a spell from a scroll (or spellbook), the mage must first be able to read the spell (i.e. by casting read magic). If the mage understands the spell (see table below), he or she may then transcribe the spell into his or her own spellbook, which takes 1 hour per level of the spell. If the spell is on a scroll, this process always erases the scroll. If the roll to understand the spell fails, the Magic-User may attempt to understand it again if a) they gain a level, or b) they come across a different instance of the spell. To research a new spell, the player should describe in detail the spell they wish to create and the effects it has. The referee will then decide if the spell can be created and, if so, what the spell level will be. The Magic-User and Illusionist spells in OSE are “pre-approved” and have been invented in the world already. To research, the Magic-User must spend two weeks and 2,000sp per level of the spell. If the research fails (see the table), the money and time invested are lost. Future attempts require half the money and time investment (i.e. 2nd try: 1 week+ 1,000sp per spell level, 3rd try: 3 days+500sp, etc.).
-
-| Intelligence Score | Chance to Understand Spells | Chance of Successful Research |
-| ------------------ | --------------------------- | ----------------------------- |
-| 9                  | 35%                         | 40%                           |
-| 10-12              | 45%                         | 50%                           |
-| 13-14              | 55%                         | 70%                           |
-| 15-16              | 65%                         | 75%                           |
-| 17                 | 75%                         | 85%                           |
-| 18                 | 85%                         | 90%                           |
-| 19+                | 90%                         | 95%                           |
-
-**Creating Magical Items:** Magic-Users can create spell scrolls at any level.
-
-**Understanding Spells:** A Magic-User can understand a limited number of spells per level, based on his or her Intelligence score (see Character Creation pages). For example, a Magic-User of 3rd level with an Intelligence of 14 can understand and have in his or her spellbook a maximum of 24 spells in total.
-
-## Multi-Classing
-
-The following clarifications apply to the rules for Multiple Classes on pg. 15 of OSE Advanced.
-
-Multi-classing is available only to non-human characters.
-
-Cleric/Fighters may use edged weapons. Fighter/Magic-Users may cast spells while armored. Wearing armor other than padded or leather while attempting \* Thief skills incurs a penalty equal to the number of slots the armor takes.
-
-Any experience points received are divided evenly among all the classes of a multi-classed character and tracked separately, even when the character can no longer advance in one or more classes.
-
-Multi-classed characters do not receive bonuses to experience points, regardless of their Attribute scores.
-
-The saving throw of a multi-classed character is the best available from the different choices, including any bonuses from a character class.
+## Moving Silently
 
 ## NPC Spellcasting
 
 Non-player characters may be hired to cast spells or perform other services. As a rough guideline, the cost for an NPC spellcaster to perform such service is often sp equal to 10% of the XP required for a caster to attain the level needed to cast the spell (e.g. _raise dead_ requires a Cleric to attain 7<sup>th</sup> level, which takes 55,000XP, so the spell would cost 5,500sp).
 
 Sages not employed by a PC will often charge around 100sp to identify a potion, or 200sp to identify a magical item.
+
+## Perception Checks
 
 ## Retainers
 
@@ -560,58 +580,19 @@ Porters/torchbearers come with no equipment. Equipment purchased by the PC is ke
 | 5    | Hand mirror                      | 11   | Mallet + stakes x3        |
 | 6    | Pole, 10'                        | 12   | Wolfsbane sprig           |
 
-## Saving Throws
-
-To make a saving throw, roll a d20. If the result is equal to or higher than the character's saving throw target number, the saving throw succeeds.
-
-Monster Saving Throws are as follows:
-
-| Hit Dice | Saving Throw |
-| -------- | ------------ |
-| <1 HD    | 18           |
-| 1 HD     | 17           |
-| 2 HD     | 16           |
-| 3 HD     | 14           |
-| 4 HD     | 13           |
-| 5 HD     | 12           |
-| 6 HD     | 11           |
-| 7 HD     | 9            |
-| 8 HD     | 8            |
-| 9 HD     | 6            |
-| 10 HD    | 5            |
-| 11 HD    | 4            |
-| 12+ HD   | 3            |
-
 ## Strongholds & Domains
 
 Strongholds and domains are as in OSE Advanced, with clarifications and detailed procedures as in [ACKS](https://alexmooney.github.io/ACKS_SRD/Chapter07.html#strongholds-and-domains).
 
-## Thief Changes
+## Swimming
 
-**Backstab:** When attacking with surprise, from behind, with a melee weapon, the attack is made at +4 to hit and inflicts double damage. At levels 6-8, damage is tripled; at levels 9-12, damage is quadrupled; at level 13+, damage is quintupled. Damage modifiers (such as those pertaining to strength or magic) are not multiplied.
+## Time
 
-**Thieving Skills:** Thieves are preternaturally good at certain skills. Roll the number listed or lower on a 1d20 to succeed. Add your Dex mod to \* skills. At 1st level, you have 12 points to distribute among your skills (no more than 6 to one single skill). At each level, you gain an additional 6 points to distribute (no more than 3 to a single skill each level). No skill can be raised above 19, including adjustments for dexterity, race, and armor. The referee will always roll Move Silently, Hide in Shadows, and Detect Noise checks. The starting values are as follows:
-
-- \*Pick Pockets: 3
-- \*Open Locks: 2
-- \*Find/Remove Traps: 1
-- \*Move Silently: 2
-- \*Hide in Shadows: 1
-- Climb Walls: 12
-- Detect Noise: 3
-- Read Languages: 0
-- **Pick Pockets:** If the Thief’s pick pockets check fails by 4 or more, then his or her attempt has been discovered and the intended victim will almost always take hostile action.
-- **Open Locks:** Thieves can pick any mechanical locking mechanism requiring keys and/or finesse to unlock. Picking a lock takes 1 turn. Failure indicates the attempt is impossible until the Thief increases in experience level. Picking locks requires suitable tools. Improvised tools and stressful or awkward positions apply penalties as set by the referee.
-- **Find/Remove Traps:** Thieves’ expertise with small, complex mechanisms allows them to find and remove treasure traps or other small traps with accessible mechanics. Other classes do not have the expertise to attempt this feat. On a dice roll of 20 the trap is automatically sprung. Removing or disarming a trap requires suitable tools. Improvised tools and stressful or awkward positions apply penalties as set by the referee. Thieves can detect and remove magical traps, but the chance of success is halved. PCs of all classes may try to find or remove any trap by describing their actions (e.g. poking a dagger in a lock, pouring water over a floor, etc.). In this way, it is possible to find, bypass, or disable traps without a roll.
-- **Move Silently:** Thieves have the skill to move completely silently. A Thief who fails their roll to move silently is still assumed to be moving quietly; thus, the normal surprise rules apply.
-- **Hide in Shadows:** Some shadow must be present for this ability to be used, but if the check is successful the Thief is effectively invisible until he makes an attack or moves from the shadows. The ability can also be used to blend in with a crowd of people rather than disappear into shadows. Infravision does not reveal a hidden Thief.
-- **Climb Walls:** A Thief can scale sheer walls and surfaces without any gear, cling to ceilings, and perform other feats of climbing that would normally be impossible. The check is normally repeated every 10 feet.
-- **Detect Noise:** Replaces Listening at Doors and its base 1-in-6 chance (2-in-6 chance for elves & halflings).
-- **Read Languages:** The Thief may attempt to read languages and ciphers of a non-magical nature only.
+## Trap Detection
 
 # Wilderness Exploration
 
-Each day, roll 1d4, 1d6, 1d8, 1d12, 1d100.
+Each day, roll 1d4, 1d6, 1d8, 1d12, 1d100. (TK Add Hunting)
 
 ## 1. Check for Encounters
 
