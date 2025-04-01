@@ -279,16 +279,16 @@ _Note: You can get a weapon "silvered" for 3x its base cost._
 
 Missile weapons have a rate of fire of 1 shot per attack (except for small thrown weapons with the marksman feat). Loading does not require an action if ammunition is readily at hand (except for heavy crossbows, which require an action to load). All missile weapons have three range brackets (Short, Medium, Far). Attacks made against targets at a given range apply the attack penalty listed.
 
-| Weapon                  | Size & Damage | Hands | S:0 | M:-4 | F:-8 |
-| ----------------------- | :-----------: | :---: | :-: | :--: | :--: |
-| Bow, short\*            |       M       |   2   | 45' | 90'  | 180' |
-| Bow, long\* (req 9 Str) |       M       |   2   | 90' | 180' | 360' |
-| Crossbow, light         |       M       |   2   | 45' | 90'  | 180' |
-| Crossbow, heavy\*\*     |       L       |   2   | 90' | 180' | 360' |
-| Fire Oil/Holy Water     |    \*\*\*     |   1   | 10' | 20'  | 30'  |
-| Javelin/Spear           |      M†       |   1   | 20' | 40'  | 60'  |
-| Sling                   |       S       |   1   | 45' | 90'  | 180' |
-| Small thrown weapon     |      S†       |   1   | 10' | 20'  | 30'  |
+| Weapon                  | Size & Damage | Cost | Hands | S:0 | M:-4 | F:-8 |
+| ----------------------- | :-----------: | :--: | :---: | :-: | :--: | :--: |
+| Bow, short\*            |       M       | 40sp |   2   | 45' | 90'  | 180' |
+| Bow, long\* (req 9 Str) |       M       | 60sp |   2   | 90' | 180' | 360' |
+| Crossbow, light         |       M       | 50sp |   2   | 45' | 90'  | 180' |
+| Crossbow, heavy\*\*     |       L       | 75sp |   2   | 90' | 180' | 360' |
+| Holy Water              |    \*\*\*     | 25sp |   1   | 10' | 20'  | 30'  |
+| Javelin/Spear           |      M†       | 16sp |   1   | 20' | 40'  | 60'  |
+| Sling                   |       S       | 1sp  |   1   | 45' | 90'  | 180' |
+| Small thrown weapon     |      S†       | 12sp |   1   | 10' | 20'  | 30'  |
 
 \*If fired indoors, halve all ranges.  
 \*\*+2 attack bonus, reload requires action.  
@@ -297,25 +297,23 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 ## Costed Items
 
-\* = Small (1/4 slot) • \*\* = Medium (1 slot) • \*\*\* = Large (2 slots)
-
 | Item                          | Cost |
 | ----------------------------- | ---- |
-| \*Acid, vial                  | 50sp |
+| Acid, vial (S)                | 50sp |
 | Arrowhead, silver             | 5sp  |
-| \*\*Book, leatherbound, 64pgs | 30sp |
-| \*\*\*Chain, 10'              | 45sp |
+| Book, leatherbound, 64pgs (M) | 30sp |
+| Chain, 10' (L)                | 45sp |
 | Garlic, bulb                  | 1cp  |
 | Holy symbol, iron             | 5sp  |
 | Holy symbol, silver           | 50sp |
 | Holy symbol, wooden           | 1sp  |
-| \*Holy water vial             | 25sp |
-| \*\*Mapping kit               | 10sp |
-| \*Mirror, small, bronze       | 2sp  |
-| \*Rope, silk, 50'             | 50sp |
-| \*\*\*Tent                    | 20sp |
-| \*\*Thieves' picks & tools    | 12sp |
-| \*Wolfsbane sprig             | 1sp  |
+| Holy water vial (S)           | 25sp |
+| Mapping kit (M)               | 10sp |
+| Mirror, small, bronze (S)     | 2sp  |
+| Rope, silk, 50' (M)           | 50sp |
+| Tent (L)                      | 20sp |
+| Thieves' picks & tools (M)    | 12sp |
+| Wolfsbane sprig (S)           | 1sp  |
 
 **Acid, vial**: Can splash contents on a target within 5' or hurl it as a small thrown weapon; it shatters on impact. A hit deals 1d6+1 acid damage. A vial can also be used to open most mundane locks in 1 turn.
 
@@ -345,23 +343,23 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 ## Animals & Mounts
 
 | Animal        | Cost  | Size | Combat Speed | Daily Hex Pts | Item Slot Limit |
-| ------------- | ----- | ---- | ------------ | ------------- | --------------- |
-| Donkey/Pony   | 70sp  | L    | 50           | 5             | 20              |
-| Dog, hunting  | 35sp  | M    | 50           | -             | -               |
-| Dog, war      | 65sp  | M    | 50           | -             | -               |
-| Hawk          | 40sp  | S    | 80           | -             | -               |
-| Horse, draft  | 150sp | L    | 50           | 5             | 25              |
-| Horse, riding | 100sp | L    | 80           | 6             | 20              |
-| Horse, war    | 300sp | L    | 65           | 5             | 25              |
-| Mule          | 90sp  | L    | 65           | 5             | 30              |
-| Ox            | 120sp | L    | 50           | 4             | 30              |
+| ------------- | :---: | :--: | :----------: | :-----------: | :-------------: |
+| Donkey/Pony   | 70sp  |  L   |      50      |       5       |       20        |
+| Dog, hunting  | 35sp  |  M   |      50      |       -       |        -        |
+| Dog, war      | 65sp  |  M   |      50      |       -       |        -        |
+| Hawk          | 40sp  |  S   |      80      |       -       |        -        |
+| Horse, draft  | 150sp |  L   |      50      |       5       |       25        |
+| Horse, riding | 100sp |  L   |      80      |       6       |       20        |
+| Horse, war    | 300sp |  L   |      65      |       5       |       25        |
+| Mule          | 90sp  |  L   |      65      |       5       |       30        |
+| Ox            | 120sp |  L   |      50      |       4       |       30        |
 
-| Item              | Cost    |
-| ----------------- | ------- |
-| Barding           | x4      |
-| Cart              | 50sp    |
-| \*\*Feed, per day | 2sp     |
-| Stabling, per day | 1sp     |
+| Item              |  Cost   |
+| ----------------- | :-----: |
+| Barding           |   x4    |
+| Cart              |  50sp   |
+| \*\*Feed, per day |   2sp   |
+| Stabling, per day |   1sp   |
 | Wagon             | 1,200sp |
 
 **Barding**: Animal armor. The cost is equal to four times the cost of a normal human-sized armor set of the same type and provides the same AC benefit. Encumbers a mount just as armor does for characters.
@@ -397,6 +395,8 @@ The player rolls 1d20 (unless success or failure would not be obvious, in which 
 **Check Bonuses**: Characters gain +1 to regular checks at each name level.
 
 **Save Bonuses**: Characters gain a +1 save bonus for every 2 full Hit Dice they have.
+
+---
 
 # Combat
 
@@ -452,61 +452,165 @@ Missile attacks use all relevant modifiers above, except the bonus for being on 
 - Target is at medium range: -4
 - Target is at long range: -8
 
-A miss is generally presumed to hit no other target.
-**Crossbows** can be fired while kneeling or prone.
-**Firing into Melee**: To pick a target that is in melee, the target must be one or more sizes larger than all those with which it is in melee (unless the attacker is a warrior with the marksman feat). Otherwise, the attacker randomly rolls to see who in that melee (friend or foe) they roll their attack against. A target's melee opponents do not provide it cover.
-**Holding Fire**: Instead of firing in the Missile Phase, an attacker can choose to wait until the end of any other Phase. This allows the use of thrown weapons "on the run" at the end of the Movement Phase at short range, just before being locked in melee.
-**Magic Devices**: Ranged effects and spells from magic items are treated as missile attacks, except for line of sight.
-**Poor Conditions**: If in very windy conditions, or if the target is above the attacker, long-range missile attacks cannot be made. If both, medium-range missile attacks also cannot be made.
+A miss is generally presumed to hit no other target. Other considerations:
 
----
+- **Crossbows** can be fired while kneeling or prone.
+- **Firing into Melee**: To pick a target that is in melee, the target must be one or more sizes larger than all those with which it is in melee (unless the attacker is a warrior with the marksman feat). Otherwise, the attacker randomly rolls to see who in that melee (friend or foe) they roll their attack against. A target's melee opponents do not provide it cover.
+- **Holding Fire**: Instead of firing in the Missile Phase, an attacker can choose to wait until the end of any other Phase. This allows the use of thrown weapons "on the run" at the end of the Movement Phase at short range, just before being locked in melee.
+- **Magic Devices**: Ranged effects and spells from magic items are treated as missile attacks, except for line of sight.
+- **Poor Conditions**: If in very windy conditions, or if the target is above the attacker, long-range missile attacks cannot be made. If both, medium-range missile attacks also cannot be made.
 
-**Attacking from Behind:** There are only two ways for most people to get behind someone during combat. One is to surprise an opponent and attack from behind during the surprise action. The other is to attack an opponent from behind when an ally is attacking from the front. Thieves and Assassins can get behind a target during normal combat if they successfully hide in shadows, even if no one is attacking the target from the front.
+### Movement Phase
 
-**Backstab:** When attacking with surprise, from behind, with a melee weapon, the attack is made at +4 to hit and inflicts double damage. At levels 6-8, damage is tripled; at levels 9-12, damage is quadrupled; at level 13+, damage is quintupled. Damage modifiers (such as those pertaining to strength or magic) are not multiplied.
+In an encounter, a creature can move once per round up to its combat speed (for unencumbered PCs, this is 40'). One can move through creatures that allow it and aren't in a tight formation. Modifications include:
 
-**Blocking:** A defender effectively blocks an area about five feet across, and enemies cannot move through this area without first killing the defender.
+- **Backwards Movement** applies a x2 movement cost penalty (e.g. 5' of clear terrain costs 10' of movement).
+- **Charging**: An attacker with a lance, pike, large spear, or similar large pole weapon and no more than lightly encumbered can charge. So too can creatures with large horns/tusks. A charge must be in a straight line from at least 30' away, in non-difficult terrain, and not uphill. The attacker's first strike on the round it makes the charge adds two weapon dice if it hits.
+- **Difficult Terrain** applies a x2 movement cost penalty (or x3 if moving backward).
+- **Encumbrance**: Being encumbered reduces your combat speed.
+- **Holding Movement**: A combatant on the side that won initiative can choose to move after the enemy in the round.
+- **Jumping** ends your move that round.
+- **Prone**: To stand up, a prone creature must use all their movement for the round.
+- **Set vs. Charge**: If armed with a pike, spiked polearm, or large spear, a combatant not prone or locked in melee can choose not to move that round and instead hold their weapon firm, braced against the ground. A set combatant attacks first against the first charge made against them (even if the attacker has the Dash stance), and adds two weapon dice if it hits.
 
-**Cover:** Cover bonuses are as follows: 25% cover: +1 AC; 50% cover: +2 AC; 75% cover: +3 AC; 90% cover +4 AC. Firing into a melee is considered 50% cover if firing past a dwarf or halfling, and 90% cover if firing past a human, elf, or half-elf.
+#### Locked in Melee
 
-**Damage & Death:** When a character’s hit points reach 0, the character is unconscious and must make a saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, succeeding on a 1-in-6 chance.
+A creature within 5 feet of one or more enemies (three or more if it has the Whirlwind feat) is **locked** in melee with those enemies. Locked combatants cannot use missile weapons or leave thier location unless they make a fighting withdrawal or flee.  
+**Blind** creatures can only lock opponents in melee if surrounding them.  
+**Flight and Teleportation** allow one to leave melee without penalty, even if surrounded.  
+**Invisible** creatures are not locked unless their melee opponents can see them or otherwise fully ignore invisibility, or are surrounding them.  
+**Prone** creatures cannot lock opponents in melee.  
+**Size**: A creature more than two sizes large than any of their melee opponents is not locked, even if surrounded.
+
+#### Fighting withdrawal
+
+A creature locked in melee can move out of that melee if they didn't make a missile attack that round, but all their movement for the round must be backwards (applying the standard x2 movement cost penalty). They can take no actions that round.
+
+#### Fleeing
+
+A fleeing creature can move as normal, but must leave the melee they're in. However, any enemy with which they were in melee prior to fleeing may first choose to take its attack(s) for the round against the fleeing creature, instead of in the Melee Phase. Such attacks gain the +2 rear attack bonus, while the fleeing creature loses all shield and stance AC bonuses.
+
+#### Running
+
+If a combatant did not act in the Missile Phase and commits to taking no actions this round, they may **run**. This raises their movement this round by 50% (rounded down to the nearest 5'), or by 100% with the Running skill.
+
+### Melee Phase
+
+In the Melee Phase, a combatant can take one action: a single attack against an opponent with which they are in melee, or a single non-attack action. All actions in this phase are simultaneous, not affecting any other action that phase, unless specifically stated otherwise. Considerations include:
+
+- **Dash**: Choosing this combat stance allows a PC to act first that round, instead of simultaneously.
+- **Grappling:** The attackers (or attacker) make individual to-hit rolls. The grapple is resolved among those who hit: Each combatant rolls their total hit dice. If the sum of the attackers’ dice is higher than the defender’s total, the defender is grappled. If the sums are exactly equal, everyone is struggling, and none of them can attack with a weapon. If the defender wins, the attackers are beaten back and stunned for a number of rounds equal to the number of points by which the defender beat them. Breaking free of a grapple requires another HD contest; all currently grappling together are counted as automatically having hit.
+- **Polearms** (spears, pikes, etc.) in the second rank of a battle formation can attack by reaching through the first rank.
+- **Spacing & the Second Rank:** Only daggers, shortswords, spears, and polearms can be used three-abreast in a 10’ area. All other one-handed weapons require five feet of room (two-abreast in a 10’ area), and non-thrusting two-handed weapons require a full 10’ space to wield.
+- **Two-weapon fighting**: A combatant can use two melee weapons at once, which grants a +1 attack bonus (but no additional attacks).
+
+#### Dealing Damage
+
+An attacker's Strength modifier is applied to melee and thrown weapon attack damage. Modifiers cannot drop a successful attack below 1 point of damage. Ar successful charge or set vs. charge adds two weapon dice to the attack. Attacks against helpless targets automatically deal maximum damage.
+
+An **unarmed strike** deals 1d2 damage (a critical hit does 4 damage), plus the attacker's Strength modifier. Weapon dice do not apply.
+
+If a PC rolls a natural 20 on an attack, a **critical hit** is scored: the attack deals its maximum possible damage. However, you cannot score a critical hit if you can only hit by rolling a 20. The critical hit range is increased by 4 for all attacks from behind against a surprised target.
+
+### Magic Phase
+
+If a caster wants to cancel a spell they're casting that hasn't been disrupted by having been attacked or jostled, they must do so before any spells are resolved.
+
+After spells are canceled, spells still being cast are revealed and cast in the order of their **casting time**, which is equal to their spell level, unless stated otherwise. Spells with the same casting time are cast simultaneously, unless stated otherwise. For each instance of the Quickcast feat that they have, a mage reduces their spells' casting times by 1. Other feats raise a spell's level, raising its casting time to match. Spells cast from scrolls add 2 to their casting time.
+
+### Morale Phase
+
+Monsters and NPCs (but not PCs) have a **Morale threshold** between 1 and 20, representing how likely they are to fight or flee; the lower the threshold, the better.
+
+Creatures with a Morale of 20 only fight if cornered and always flee if able, while those with a Morale of 1 never retreat unwillingly, but can be convinced to (if intelligent), and are still susceptible to magical fear. A score of -- means the creature ignores the Morale rules altogether, just like PCs.
+
+The refere makes a Morale checke ro--rolling 1d20, applying any situational modifiers (light fatigue gives -2, heavy fatigue gives -4, etc.)--at the end of a round for each of the following that occured that round:
+
+- Half or more of the side present at the battle's start has been incapacitated or killed.
+- The last of the side (or its only member) was reduced to 1/4 or less of its full Hit Point total.
+- A group with a Morale of 12 or higher that has any of its members killed during the surprise round.
+- Any other unusually trying circumstance, at the referee's discretion.
+  If the roll is lower than the Morale threshold, the check fails: the creature or side attempts to flee.
+
+## Escaping an Encounter
+
+If a side has none of its members locked in melee after the movement of that side for the round has been resolved (whether or not the other side has moved yet), that side can choose to try to escape the encounter.
+
+If the enemy follows, **pursuit checks** are made. The referee rolls 1d12 for each group of enemies with a different combat speed, while the players roll 1d12 for their entire party. Apply any relevant modifiers. If only some of the PCs have modifiers, only those PCs apply them, giving them a result different from their base party result.
+
+|             Fleeing Side              |             Modifier             |
+| :-----------------------------------: | :------------------------------: |
+|               Is faster               | +1 per 5' of combat speed faster |
+|             Is invisible              |           Auto escape            |
+|     Drops caltrops or flaming oil     |                +4                |
+| Drops desirable items (food/treasure) |             +2 or +4             |
+|          Is lightly fatigued          |                -2                |
+
+|    Pursuing Side    |             Modifier             |
+| :-----------------: | :------------------------------: |
+|      Is faster      | +1 per 5' of combat speed faster |
+| Has senses hindered |                -4                |
+| Is lightly fatigued |                -2                |
+
+**Faster Side** assumes that side can use their full speed, which isn't a given.
+**Hindered Senses** usually involves difficulties using one's primary tracking sense. Hunting dogs compensate for some of these instances.
+
+Each individual in a pursuit has one **pursuit action** each pursuit round. However, neither mapping nor spellcasting can occur.
+
+- **Dropping Items**: Any pursued as their action can drop items to apply a bonus to their side's pursuit check. Dropping desirable items like food or treasure can be effective, but this depends on how the pursuers view what is dropped, how much is dropped, and how many pursuers there are compared to what is dropped; the referee must arbitrate this. If enough food is dropped & desired, iron rations (+2) are always less effective than fresh rations (+4).
+- **Missile Attacks**: After each pursuit check, if the pursuit is not over, then missile attacks can be mde by those who have not used their action. Assume a range of 20'.
+
+### Ending Pursuit
+
+A side automatically wins if they are either six points of modifiers or more ahead of all their opponents, or score a higher result than the other side twice in a row.
+
+If the pursuers catch the fleeing side, a new combat round begins in the Melee Phase, with the two sides locked in melee, positioning and so on to be determined by the referee.
+
+## Death
+
+When a player character’s hit points reach 0, the character is unconscious and must make a Daunting (11+) Con saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, requiring a successful Very Hard (17+) check.
 
 Even after returning to 1 or more hp, the character will remain in a coma for 1d6 turns and must rest for a minimum of one week before resuming any sort of strenuous activity, mental or physical.
 
-Characters who are slain may be raised from the dead if a Cleric of sufficient level is available to perform the casting. Each time a character is brought back from the dead, their CON score is reduced by one point.
+Characters who are slain may be raised from the dead if a Mage of sufficient level is available to perform the casting. Each time a character is brought back from the dead, their CON score is reduced by one point.
 
-**Grappling:** The attackers (or attacker) make individual to-hit rolls. The grapple is resolved among those who hit: Each combatant rolls their total hit dice. If the sum of the attackers’ dice is higher than the defender’s total, the defender is completely pinned and can be killed in the next round unless help arrives or the defender wins initiative and breaks loose. If the sums are exactly equal, everyone is struggling, and none of them can attack with a weapon. If the defender wins, the
-attackers are beaten back and stunned for a number of rounds equal to the number of points by which the defender beat them. Breaking free of a grapple requires another HD contest.
-
-**Invisible Opponents:** Attacks against an invisible opponent have a –4 penalty. Powerful magical monsters, or monsters with more than 11 hit dice, will usually be able to see invisible creatures normally.
-
-**Order of Combat:** All combat phases for a side take place simultaneously and are resolved in whatever order that side desires.
-
-**Prone or Stunned Opponent:** Attacks against a prone or stunned opponent negate shield & Dex bonuses to AC, and melee attacks are made at +4 to hit.
-
-**Spacing & the Second Rank:** Only daggers, shortswords, spears, and polearms can be used three-abreast in a 10’ area. All other one-handed weapons require five feet of room (two-abreast in a 10’ area), and non-thrusting two-handed weapons require a full 10’ space to wield.
-
-Spears and polearms in the second rank of a battle formation can attack by reaching through the first rank.
-
-**Two-Handed Weapons and Two-Weapon Fighting:** Fighting two-handed grants a +1 to damage rolls (except for weapons that can only be used two-handed, where this is already taken into account in the weapon’s damage), and fighting with an eligible weapon in each hand gives a +1 to hit.
-
-**Life Energy Levels & Level Drain:** If a drained character is multi-classed or dual-classed, then the highest level of experience attained by that character is lost. If the character has two equal levels, then the level lost should be determined randomly.
+---
 
 # General Adventuring
 
 ## Climbing
 
+No roll is required for simple climbs, like a basic rope or tree. A more difficult climb might require a Moderate (Dex) check. A climber must make one check before every 40' section to be climbed or portion thereof. A failed check indicates a fall from halfway up that section.
+
+Base climbing speed is 5' per round. Add 5' if the climber has the Climbing skill or is using rope (not cumulative).
+
+The following each raise the difficulty by one level: high winds, extreme cold, smooth surfaces, slippery surfaces, each encumbrance level. The aid of appropriate equipment--a rope and grapnel, or pitons and a hammer--will lower the difficulty.
+
+## Doors
+
+Along with puddles, the bane of adventurers' existence.
+
+### Listening at Doors
+
+While exceptions can occur, it's assumed that player characters cannot hear through the typical dungeon door. If the situation is such that noise would carry through the door, the referee will notify players that they hear something without the need of the players to ask.
+
+### Spotting Secret Doors
+
+Requires a Perception check, with the difficulty based on how well-concealed the door is. During cautious exploration, this is a group check made automatically by the referee in secret for each secret door within 10'.
+
+A character can also actively search a 10' square area for secret doors. This takes one turn; more than one person cannot search the same area at the same time.
+
+Spotting the average secret door is Very Hard (17+) during cautious exploration, and Daunting (11+) via an active search. Finding one does not necessarily reveal how it opens. Describing narratively how one is searching might bypass the Perception check if the searching technique would logically reveal the door.
+
+### Stuck Doors
+
+Upon discovering that a door is stuck, a character may attempt a Strength check to pull the door open as swiftly and quietly as possible. Only the strongest character in the party may attempt (representing the party's best efforts). On a failure, the party may decide to work with crowbars or other tools to wrench the door open anyway. This takes a turn and will trigger a wandering monster check.
+
+Locked doors need keys, thieves' tools and someone trained in lockpicking, or a battering ram (or axes). Any failed attempt to open a stuck or locked door will prevent surprise on any creature on the other side of the door.
+
+You should also know: Doors tend to close on their own. Iron spikes are invaluable for keeping doors open or closed (it takes a round and some noise to hammer a spike in).
+
 ## Downtime & Lifestyle
-
-## Dungeon Exploration
-
-**Listening at Doors:** Takes 1 turn of straining in utter silence to hear subtle sounds beyond a closed door (or down a hallway).
-
-**Mapping:** Maps are usually best made simply: boxes and lines are sufficient to keep you from getting lost. The players' map represents an actual in-game object. If the players at the table are making a map, then a character must also be making one. This has several corollaries: the party must have light (they can only map what they see) and mapping supplies (something to write with and something to write on), they must be moving slowly and methodically (no more than standard exploration speed), and measuring the size of a room takes time. Perhaps most importantly, if something happens to the map in-game, it happens to the players' map as well! If the mapping character dies and his or her body is left behind, if the characters are captured and stripped of their equipment, or if a jet of acid or a green slime destroys the map, the referee should confiscate it. If the party wants backup copies, the players must actually draw them. If the entire party dies in the dungeon, the only way their maps will survive is if copies were left on the surface.
-
-**Open a Stuck or Locked Door:** Upon discovering that a door is stuck, a character may make an open doors check to pull the door open as swiftly and quietly as possible. Each character may only try once. On a failure, the party may decide to work with crowbars or other tools to wrench the door open anyway. This takes a turn and will trigger a wandering monster check. Locked doors need keys, Thieves' tools and a Thief, or a battering ram (or axes). Any failed attempt to open a stuck or locked door will prevent surprise on any creature on the other side of the door. You should also know: Doors tend to close on their own. Iron spikes are invaluable for keeping doors open or closed.
-
-Search for Traps or Secret Doors: It's usually best to do this free-form and narratively (tell the referee what you're doing to search). A careful examination of a 10'x10' area or 10' section of wall takes one turn. Multiple characters can search/examine different areas simultaneously. There's a 2-in-6 standard chance of success (4-in-6 for elves and 3-in-6 for half-elves).
 
 ## Equipment Wear & Tear
 
@@ -545,27 +649,75 @@ A character may earn XP from **magical research** or magic item creation if the 
 
 Each new dungeon room or hex **explored and mapped** grants (10 x Dungeon Level) XP (or 10 x number of hexes from the nearest known settlement XP) per character. Each hex or room past the fifth in a given delve or adventure begins to grant cumulative XP (i.e. room #6=20XP x Dungeon Level, room #7=30XP x Dungeon Level, etc.). Once the party returns to safety to heal and restock, the counter resets. A room can only be “explored” once, ever.
 
+The table blow indicates what a character's XP total needs to reach to advance to each level:
+
+| Level | Total XP | Warrior Hit Dice | Mage Hit Dice |
+| :---: | :------: | :--------------: | :-----------: |
+|   1   |    0     |       1d8        |      1d6      |
+|   2   |  2,000   |       2d8        |      2d6      |
+|   3   |  4,000   |       3d8        |      3d6      |
+|   4   |  8,000   |       4d8        |      4d6      |
+|   5   |  16,000  |       5d8        |      5d6      |
+|   6   |  32,000  |       6d8        |      6d6      |
+|   7   |  64,000  |       7d8        |      7d6      |
+|   8   | 120,000  |       8d8        |      8d6      |
+|   9   | 240,000  |       9d8        |      9d6      |
+|  10   | 360,000  |      9d8+2       |     9d6+2     |
+
+Each level beyond 10 requires an additional 120,000XP and adds only a flat 2HP per level, with no Con modifier being applied.
+
 ## Falling
 
 Damage from falling is determined as follows: Falls of less than 5 ft do no damage in game terms, falls of up to 10 ft cause 1d6 damage, falls of up to 20 ft cause 3d6 damage, falls of up to 30 ft cause 6d6, 40 ft is 10d6, 50 ft is 15d6, and falls of over 50 ft cause 20d6 points of damage.
 
 ## Fatigue
 
+Fatigue represents a serious depletion of body, mind, or spirit.
+
+| Fatigue Level |                  Effect                  |
+| :-----------: | :--------------------------------------: |
+|     Light     | -2 to attacks, checks, and Morale checks |
+|     Heavy     |  Raise above to -4, halve all movement   |
+|  Exhaustion   |      Halve HP, halve movement again      |
+
+Possession four or more levels of fatigue results in death. Fatigue levels from different sources stack.
+
+A character exposed to any of the causes of fatigue below gains one fatigue level at the increments listed next to each cause (e.g. every full day without water applies one level).
+
+| Cause of Fatigue  | Fatigue Level Increments |
+| :---------------: | :----------------------: |
+| Unable to breathe |  30 seconds (3 rounds)   |
+|   Lack of water   |       Days 1/2/3/4       |
+|   Lack of sleep   |     Days 2/4/8/--\*      |
+|   Lack of food    |     Days 2/10/20/30      |
+
+\*A lack of sleep can only apply up to three fatigue levels, i.e. it cannot kill you alone.
+
+Per positive Con modifier point, a character can ignore 30 seconds without air, or one day of a lack of water, sleep, and/or food.
+
+If total exposure to a cause of fatigue is avoided (e.g. a bit of water drank, a fitful nap here or there), the current fatigue level increment is doubled.
+
 ## Healing
 
-A character will recover 1hp by resting overnight in a safe and comfortable location, and 1d3 hp per day of uninterrupted rest. 30 days of rest will return any character to full hp.
-
-## Hiding
+A character will recover 1 HP by resting overnight in a safe and comfortable location, and HP equal to their level per day of uninterrupted rest. 30 days of rest will return any character to full HP.
 
 ## Item Saving Throws
 
 ## Jumping
 
+A long jump lets you safely clear 10 feet (20, with the Jumping skill), if you run at least 10 feet first (if not, halve the result).
+
+With a 10-foot run, a vertical high jump gives you a reach with your hands of about 5 feet (a standing high jump gives you a reach of about 3 feet). If encumbered, apply the combat speed penalty to your jump distance.
+
+In combat, a jump ends your move.
+
 ## Lifting
+
+The encumbrance rules are the standard way to measure how much a PC can carry around (see p. 30). However, to quickly calculate the maximum a character can lift or push, use their Strength × 15 in pounds.
 
 ## Light & Vision
 
-A party needs one light source for approximately every three members of the party. For every missing light source, PCs incur a -1 penalty to attack, up to -4. Note that light sources can be seen from much further away than the illumination they shed for those holding them. Approaching light will warn intelligent creatures of the approach of surface-dwellers, perhaps giving them a chance to prepare.
+A party needs one light source for approximately every three members of the party. For every missing light source, PCs incur a -1 penalty to attack, up to -4. Note that light sources can be seen from much further away than the illumination they shed for those holding them. Approaching light will warn intelligent creatures of the approach of surface-dwellers, perhaps giving them a chance to prepare; creatures around a corner can see a light source whose radius projects around that corner, while two corners between prevent its detection.
 
 ## Lockpicking
 
@@ -585,6 +737,10 @@ In extreme cases (such as when a character casts a spell from a scroll well abov
 
 A character must be of the correct class to cast a spell from a scroll. Thus, only Clerics or Paladins may cast spells from clerical scrolls, only Druids or Rangers from druidic ones, and so on. (Exception: Thieves may attempt to cast arcane and phantasmal spells from scrolls.)
 
+## Mapping
+
+**Mapping:** Maps are usually best made simply: boxes and lines are sufficient to keep you from getting lost. The players' map represents an actual in-game object. If the players at the table are making a map, then a character must also be making one. This has several corollaries: the party must have light (they can only map what they see) and mapping supplies (something to write with and something to write on), they must be moving slowly and methodically (no more than standard exploration speed), and measuring the size of a room takes time. Perhaps most importantly, if something happens to the map in-game, it happens to the players' map as well! If the mapping character dies and his or her body is left behind, if the characters are captured and stripped of their equipment, or if a jet of acid or a green slime destroys the map, the referee should confiscate it. If the party wants backup copies, the players must actually draw them. If the entire party dies in the dungeon, the only way their maps will survive is if copies were left on the surface.
+
 ## Moving Silently
 
 ## NPC Spellcasting
@@ -603,36 +759,26 @@ The downside is that readied items are vulnerable to destruction. If a creature 
 
 ## Retainers
 
-Retainers cost 50sp on initial hire (+50sp to request a class), plus ½ share of treasure. Will be level 1d3, but cannot be higher than the hiring PC’s level.
+Retainers cost 50sp on initial hire (+50sp to request a class), plus ½ share of treasure. They will be level 1d3, but cannot be higher than the hiring PC’s level. Retainers' starting Morale typically ranges from 18 (the craven) to 6 (the elite), and can be randomly determined with a 2d6+6 roll.
 
-Loyalty is checked after each adventure/session. If a success is rolled, the retainer’s loyalty increases by one to a maximum of 11. On a failure, the retainer departs.
+Loyalty is checked after each adventure/session, if the retainer is reduced to 1/4 or less of its full HP total, or if their loyalty is severely tested. If a success is rolled, the retainer’s Morale threshold decreases by one to a minimum of 6. On a failure, the retainer departs.
 
-Porters/torchbearers come with no equipment. Equipment purchased by the PC is kept by the PC. Retainers come with a starting equipment pack: a backpack, tinderbox, waterskin, rations x3, torches x3, 3d6sp, and the following:
+Porters/torchbearers come with no equipment. Equipment purchased by the PC is kept by the PC. Retainers come with the same basic starting equipment as PCs, but no starting silver. Specializations & feats are rolled randomly, and no skills are included.
 
-- Armor based on class. Magic-Users have no armor or shield (but get 4d6sp). Thief & Druid get leather armor. Others roll 1d6:
-  - 1-2=Leather (AC 12)
-  - 3-4=Ring (AC 13)
-  - 5=Scale (AC 14)
-  - 6=Chainmail (AC 15)
-- Choose a weapon option (Clerics can only wield blunt weapons; Druids only wooden; Magic-Users only daggers, staves & darts; dwarves & halflings can't use large two-handed weapons):
-  - Option A: One melee weapon & a shield (+1 AC)
-  - Option B: One two-handed weapon (+1 damage)
-  - Option C: Two one-handed weapons (+1 to hit)
-  - Option D: One melee weapon & one ranged weapon (plus ammo)
-- Roll 1d12 twice on the gear table below.
-- Go shopping with your 3d6sp, if you want.
-  - Clerics will need a holy symbol; thieves need thieves' tools; magic-users need a book to serve as their spellbook.
+Armor is based on class. Mages roll 1d6; Warriors roll 1d6+1:
 
-## Adventuring Gear Table
+- 1=No armor (AC 9)
+- 2-3=Leather (AC 12)
+- 4-5=Ring (AC 13)
+- 6=Scale (AC 14)
+- 7=Chainmail (AC 15)
 
-| 1d12 | Gear                             | 1d12 | Gear                      |
-| ---- | -------------------------------- | ---- | ------------------------- |
-| 1    | Crowbar                          | 7    | 50' rope                  |
-| 2    | Hammer (small) + iron spikes x12 | 8    | 50' rope + Grappling hook |
-| 3    | Holy water                       | 9    | Twine (100' ball)         |
-| 4    | Lantern + Oil flask x3           | 10   | Vial, glass x3            |
-| 5    | Hand mirror                      | 11   | Mallet + stakes x3        |
-| 6    | Pole, 10'                        | 12   | Wolfsbane sprig           |
+Choose a weapon option:
+
+- Option A: One medium melee weapon & a shield
+- Option B: One large weapon
+- Option C: Two medium one-handed weapons (+1 to hit)
+- Option D: One medium melee weapon & one ranged weapon (plus ammo)
 
 ## Strongholds & Domains
 
@@ -640,9 +786,19 @@ Strongholds and domains are as in OSE Advanced, with clarifications and detailed
 
 ## Swimming
 
-## Time
+All characters can swim, barring an unusual background. Assuming no current, a land-dweller swims at half their combat speed, and can do so for hours equal to 1/4 their Con score (3/4 speed and 1/2 Con with the Swimming skill); round down. If lightly encumbered, halve the amount of time a character can swim. Higher encumbrance (or wearing medium or heavy armour) causes one to sink and begin to drown if in deep enough water (see [Fatigue](#fatigue)).
 
 ## Trap Detection
+
+Spotting a trap is a Perception check. A character can actively search a 10' square for traps. This takes 1 turn; only one person can search a given square at any one time. Subtle but ultimately visible traps and triggers (such as tripwires) should be automatically detected by this; a failed search usually does not trigger traps.
+
+How well a trap is concealed determines the difficulty. The average concealed trap is Very Hard (17+) to spot during cautious exploration, or Daunting (11+) if actively being searched for and not visible.
+
+**10-foot Poles**: Prodding ahead with one or more of these and using cautious exploration gives a 2-in-6 chance of triggering area traps (safely, unless the trap specifies otherwise).
+
+**Area Traps**: Traps that are triggered by moving into a map square (e.g. pit traps, but not trapped doors) are area traps. During cautious exploration, a separate group check is automatically made for each area trap trigger within 10 feet.
+
+---
 
 # Wilderness Exploration
 
