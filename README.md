@@ -400,6 +400,26 @@ The player rolls 1d20 (unless success or failure would not be obvious, in which 
 
 # Combat
 
+## Surprise
+
+If a creature is not in combat, the opportunity exists to surprise it. Some creatures can naturally reliably ambush prey. Others can do so via careful planning or magical effects. Once combat has begun, true surprise is impossible; at best, an attacker could achieve a rear attack. There are two major ways for characters to surprise enemies: laying an ambush, and moving silently to backstab a target.
+
+### Ambushes
+
+No check is required to set an ambush; either the circumstances exist for one to be set, or it's impossible (e.g., there's no available cover). Instead, the targets make a check to see if they notice before it's too late.
+
+A typical ambush requires a Hard (14+) group Perception check to detect if the ambushers are visually concealed (camouflage, heavy cover, or invisibility). This rises to Very Hard (17+) if most noise is drowned out as well (e.g., high winds or other strong ambient noise)--Heroic (20+) if the ambushers are magically silenced. Some creatures have innate surprise abilities, which override the values above. If the party is outdoors and has one or more members with the Fieldcraft feat for the terrain they're in, the difficulty of their group check to notice an ambush is one level lower than normal.
+
+If the detection roll fails, the group is surprised (see below). If the roll succeeds, the group realizes they are about to be ambushed; what this means depends on the circumstances, especially the terrain and relative placement of the ambushers and targets.
+
+### Backstab
+
+A move silently check is needed to move behind a target and launch a surprise attack. Failure means that the attempt has been noticed, and the target can react as appropriate. Success means the target is surprised (see below).
+
+### Effects of Surprise
+
+Surprise lasts one round. In that round, those that are surprised cannot move, act, or apply Dex-based AC modifiers, and attacks on them gain a +4 bonus. Attacks against surprised targets from behind also ignore any shield modifiers, and raise the chance for a critical hit. Killing surprised foes might force a Morale check.
+
 ## Attacking
 
 To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceed's the target's Armor Class (AC), the attack hits. The most common attack modifiers are:
@@ -713,6 +733,16 @@ A party needs one light source for approximately every three members of the part
 
 ## Lockpicking
 
+Characters with the proper tools and either the Lockpicking feat or skill can attempt to pick locks. This is a Dex check, the difficulty scaling with the locks' complexity. If a character's lockpicking ability is from a feat rather than a skill, the difficulty should be a level lower.
+
+A lockpicking attempt requires 1 turn. If a character fails, they can try again, but after two failed attempts, the character cannot try that lock again until they gain a level.
+
+### Trapped Locs
+
+Noticing a trap on a lock requires a successful Perception check (having the Lockpicking feat reduces the difficulty to notice such traps by one level). Only an active search for traps can reveal such traps without triggering them. In the case of multiple traps on a single lock, the referee will roll a separate Per check for each trap.
+
+A successful lockpicking attempt disarms all detected traps in addition to opening the lock, but undetected traps will be set off automatically before any lockpicking roll is made, unless specified otherwise.
+
 ## Magic & Spells
 
 **Creating Magic Items:** Potions are created by alchemists, with the more powerful potions usually requiring the help of a Magic-User. A Magic-User seeking to create potions must employ an alchemist. A Magic-User must be 9th level to create potions on their own, and 11th level to create other magic items.
@@ -731,9 +761,25 @@ A character must be of the correct class to cast a spell from a scroll. Thus, on
 
 ## Mapping
 
-**Mapping:** Maps are usually best made simply: boxes and lines are sufficient to keep you from getting lost. The players' map represents an actual in-game object. If the players at the table are making a map, then a character must also be making one. This has several corollaries: the party must have light (they can only map what they see) and mapping supplies (something to write with and something to write on), they must be moving slowly and methodically (no more than standard exploration speed), and measuring the size of a room takes time. Perhaps most importantly, if something happens to the map in-game, it happens to the players' map as well! If the mapping character dies and his or her body is left behind, if the characters are captured and stripped of their equipment, or if a jet of acid or a green slime destroys the map, the referee should confiscate it. If the party wants backup copies, the players must actually draw them. If the entire party dies in the dungeon, the only way their maps will survive is if copies were left on the surface.
+Maps are usually best made simply: boxes and lines are sufficient to keep you from getting lost. The players' map represents an actual in-game object. If the players at the table are making a map, then a character must also be making one and have the tools to do so. This has several corollaries: the party must have light (they can only map what they see) and mapping supplies (something to write with and something to write on), and they must be moving at a cautious exploration rate. Perhaps most importantly, a map being actively made is a fragile item (see [item saving throws](#item-saving-throws))--if something happens to the map in-game, it happens to the players' map as well! If the party wants backup copies, the players must actually draw them. If the entire party dies in the dungeon, the only way their maps will survive is if copies were left on the surface.
 
-## Moving Silently
+## Moving Silentlty
+
+enAnyone can attempt to sneak. A check is called for when attempting movement that normally attracts attention, such as slipping past a guard, or maneuvering behind a target for a surprise attack.
+
+Moving silently requires a successful Dex check, the difficulty of which is set by the referee, and which is rolled in secret by the referee.
+
+A move silently attempt reduces your movement to 1/4 (normally, to 10' per round). Every additional 10' per round added to that movement rate raises the difficulty by one level.
+
+ersvWhile a failed move silently check will alert the enemy in some fashion, it does not necessarily give away your position, let alone imply a bumbling, noisy disaster.
+
+**Alert Enemies**: The attention of most intelligent undead (e.g., skeletons, zombies) and constructs (e.g. golems) never wavers. As such, the difficulty of move silently checks against them is one difficulty higher.
+
+**Armor**: If wearing non-magical medium or heavy armor, increase the difficulty by one level.
+
+**Group Checks**: If a group attempts to sneak together, this is a group check, with the difficulty based on the group's least stealthy member.
+
+**Surprise**: Moving silently can be used to set up surprise attacks.
 
 ## NPC Spellcasting
 
