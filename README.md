@@ -164,7 +164,7 @@ Sample skills include: Acrobatics, Blindfighting, Climbing, Disguise, Etiquette,
 
 ## Buy Equipment
 
-Roll 6d6 and multiply the number by 10. That’s your starting silver pieces (sp). See the [equipment](#armor-weapons-and-equipment) list for things to buy or choose a [fast pack](#fast-packs).
+Roll 6d6 and multiply the number by 10. That’s your starting silver pieces (sp). See the [equipment](#armor-weapons-and-equipment) list for things to buy (don't forget armor!) or choose a [quick pack](#quick-packs). Make a note (an asterisk is a good way) of what items you're declaring as "readied" (see [readied items](#readied-items)).
 
 If you plan to cast Turn Undead, be sure to buy a holy symbol! If you’re a thief, you’ll want lockpicks. A magic-user needs a book to use as a spellbook.
 
@@ -189,9 +189,6 @@ _Why is your character risking their life for adventure? This can be one word, o
 ---
 
 # Armor, Weapons, and Equipment
-
-> [!NOTE]
-> 100cp=10sp=1gp
 
 ## Item Slots
 
@@ -251,6 +248,9 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 
 ## Armor
 
+> [!NOTE]
+> 100cp=10sp=1gp
+
 | Armor               | AC  | Cost  |
 | ------------------- | --- | ----- |
 | Shield (M)          | +1  | 20sp  |
@@ -290,17 +290,14 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 | Sling                   |       S       |   1   | 45' | 90'  | 180' |
 | Small thrown weapon     |      S†       |   1   | 10' | 20'  | 30'  |
 
-\*If fired indoors, halve all ranges.
-
-\*\*+2 attack bonus, reload requires action.
-
-\*\*\*See costed equipment list below for details.
-
+\*If fired indoors, halve all ranges.  
+\*\*+2 attack bonus, reload requires action.  
+\*\*\*See costed equipment list below for details.  
 †Plus user's Str modifier.
 
 ## Costed Items
 
-\*=S, 1 slot \*\*= M, 1 slot \*\*\*= L, 2 slots
+\* = Small (1/4 slot) • \*\* = Medium (1 slot) • \*\*\* = Large (2 slots)
 
 | Item                          | Cost |
 | ----------------------------- | ---- |
@@ -338,8 +335,8 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 ## Quick Packs
 
-- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), and Iron rations (M) x2.
-- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike (S), Crowbar (M), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp).
+- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes x2 (S), Hammer (S), Lantern (M), Oil flask x2 (M), Holy water vial (S, 25sp), and Iron rations x2 (M).
+- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike (S), Crowbar (M), Iron rations (M), Oil flask (M), Lantern (M), and a Mapping kit (M, 10sp).
 - **The Cautious** (6 slots): Candle (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Iron rations (M), 10' pole (L).
 - **The Delver** (6 slots): Candle x3 (S), Hammer (S), Iron rations (M), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
 - **The Scholar** (6 slots, 10sp cost): Chalk (S), Vial x3 (S), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp), Scrollcase (M).
@@ -367,15 +364,15 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 | Stabling, per day | 1sp     |
 | Wagon             | 1,200sp |
 
-**Barding**: Animal armor. The cost is equal to four times the cost of a normal human-sized armor set of the same type. Encumbers a mount just as armor does for characters.
+**Barding**: Animal armor. The cost is equal to four times the cost of a normal human-sized armor set of the same type and provides the same AC benefit. Encumbers a mount just as armor does for characters.
 
-**Cart**: Open, two-wheeled vehicle. Must travel on a road. Pulled by 1-2 beasts of burden. Capacity: 2x of the animals drawing it.
+**Cart**: Open, road-bound, two-wheeled vehicle. Pulled by 1-2 beasts of burden. Capacity: 2x of the animals drawing it.
 
 **Encumbrance**: A rider counts against a mount's item slot limit at a rate of 3 slots per the rider's size level, starting at Tiny (so 9 slots for a Medium rider), plus the rider's own carried slots, if any. A mount can carry no more than two typical riders. An animal, cart, or wagon 1 point over its item limit gains one encumbrance level. Every 3 slots past that adds another (or every 8 points past for a cart or wagon).
 
-**Wagon**: A four-wheeled, road-bound open vehicle for heavy loads. Pulled by 4-6 beasts of burden. Capacity: 2x of the animals drawing it.
+**Wagon**: Open, four-wheeled, road-bound vehicle for heavy loads. Pulled by 4-6 beasts of burden. Capacity: 2x of the animals drawing it.
 
-**War**: An animal not trained for comat may panic in battle. If wounded, its owner must make a Hard (14+) check to keep it under control.
+**War**: An animal not trained for combat may panic in battle. If it's wounded, its owner must make a Hard (14+) check to keep it from fleeing or tossing its rider.
 
 ---
 
@@ -403,15 +400,66 @@ The player rolls 1d20 (unless success or failure would not be obvious, in which 
 
 # Combat
 
+## Attacking
+
+To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceed's the target's Armor Class (AC), the attack hits. The most common attack modifiers are:
+
+- Attacker is striking from the rear: +2
+- Target is surprised: +4 (replaces above)
+- Attacker declared an offensive stance: +2
+- Attacker cannot see target: -4
+- Attacker is fatigued: -2 (light) or -4 (heavy)
+- Attacker is on a mount, target is upright: +2
+- Attacker is using improvised weapon: -2
+- Target is prone, attacker is in melee: +4
+
+For PCs, a natural 20 is always a hit. The attack is also a critical hit, unless the attacker could only hit by rolling a natural 20. Melee and short-range missile attacks against sleeping, paralyzed, willing, and similar targets always hit and deal maximum damage. Such targets include PCs at 0hp.
+
+## Combat Phases
+
 Each combat round is 10 seconds and has seven steps, taken in the following order:
 
 - **Declarations**: All spellcasting and combat stances for the round must be declared _before_ anything else in the round happens.
 - **Missile**: Combatants with readied missile weapons can fire. Players who chose the Dash combat stance fire first, then all remaining missile attacks from all sides are resolved simultaneously.
-- **Initiative**: 1d12 is rolled by each side involved, with the side that rolled the highest winning (re-roll ties).
+- **Initiative**: 1d12 is rolled by each side involved, with the side that rolled the highest winning (re-roll ties). Only determines movement order, not action order.
 - **Movement**: Everyone on the side that won initiative for the round can move, followed by any movement by the losing side.
 - **Melee**: Combatants that did not fire a missile weapon can attack with melee weapons (or take a miscellaneous action). Players who chose the Dash combat stance act first, and then all remaining actions from all sides are resolved simultaneously.
 - **Magic**: Spells are canceled if desired, and then all spells declared and not disrupted are cast.
 - **Morale**: The referee may need to make morale checks for opponents, retainers, and other NPCs.
+
+### Declaration Phase
+
+Any character not surprised or casting a spell must pick a stance. A character casting a spell must pick the exact spell at this time, and cannot do anything else that round (i.e., no moves, attacks, actions, etc.).
+
+**Combat Stances**
+
+- **Offensive**: +2 attack bonus
+- **Defensive**: +2 Armor Class
+- **Dash**: Your action occurs before those of the enemy (exceptions: charging a set opponent; attacking a pike/spear wall; grapple attempts)
+- **Guard**: Pick a 5' square. If you remain within 10' of it and can move freely, the first two enemies you are in the way of that try to move up to or make a ranged attack against anything in that square must engage you instead. Enemies already within 5' of the square or whom you are not in the way of are unaffected. Additionally, if an enemy can't be locked in melee, you cannot block its move.
+  The effects of a stance last only for that round. Monsters and NPCs do not use stances.
+
+### Missile Phase
+
+Missile attacks can be made if you have a ranged weapon readied at the start of the round, are not locked in melee, and the target is not blocked (by one or more creatures along direct line of sight, unless the target is one or more sizes larger than any blockers).
+
+Missile attacks use all relevant modifiers above, except the bonus for being on a mount or the target being prone. Missile-specific modifiers include:
+
+- Target is prone, attacker is at range: -2
+- Firing from a moving or unsteady position: -4
+- Low visibility (gloom, smoke, fog, etc.): -2
+- Target has cover: -2 (half cover) or -4 (heavy cover)
+- Target is at medium range: -4
+- Target is at long range: -8
+
+A miss is generally presumed to hit no other target.
+**Crossbows** can be fired while kneeling or prone.
+**Firing into Melee**: To pick a target that is in melee, the target must be one or more sizes larger than all those with which it is in melee (unless the attacker is a warrior with the marksman feat). Otherwise, the attacker randomly rolls to see who in that melee (friend or foe) they roll their attack against. A target's melee opponents do not provide it cover.
+**Holding Fire**: Instead of firing in the Missile Phase, an attacker can choose to wait until the end of any other Phase. This allows the use of thrown weapons "on the run" at the end of the Movement Phase at short range, just before being locked in melee.
+**Magic Devices**: Ranged effects and spells from magic items are treated as missile attacks, except for line of sight.
+**Poor Conditions**: If in very windy conditions, or if the target is above the attacker, long-range missile attacks cannot be made. If both, medium-range missile attacks also cannot be made.
+
+---
 
 **Attacking from Behind:** There are only two ways for most people to get behind someone during combat. One is to surprise an opponent and attack from behind during the surprise action. The other is to attack an opponent from behind when an ally is attacking from the front. Thieves and Assassins can get behind a target during normal combat if they successfully hide in shadows, even if no one is attacking the target from the front.
 
@@ -546,6 +594,12 @@ Non-player characters may be hired to cast spells or perform other services. As 
 Sages not employed by a PC will often charge around 100sp to identify a potion, or 200sp to identify a magical item.
 
 ## Perception Checks
+
+## Readied Items
+
+Small, easily accessible items (e.g., sheathed daggers, wands, or potions) on your character can be declared as **readied**. A scroll in a scroll case, or something buried in your backpack, could not be readied. A readied item takes no action to draw. For example, you could take out a readied wand and fire it in the same Missile Phase.
+
+The downside is that readied items are vulnerable to destruction. If a creature fails certain types of saving throws (most notably, against an area-effect attack), most readied items then have to make saves of their own to avoid destruction. See [item saving throws](#item-saving-throws) for more details.
 
 ## Retainers
 
