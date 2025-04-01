@@ -610,8 +610,6 @@ Locked doors need keys, thieves' tools and someone trained in lockpicking, or a 
 
 You should also know: Doors tend to close on their own. Iron spikes are invaluable for keeping doors open or closed (it takes a round and some noise to hammer a spike in).
 
-## Downtime & Lifestyle
-
 ## Equipment Wear & Tear
 
 Equipment can be worn down! If you are hit by an attack where the attacker rolled a 20, your armor gains a **notch** of damage. Each notch reduces your AC total by 1. Weapons gain a notch when you roll a 1 on an attack with them. Each weapon notch reduces by one step the damage die you roll with that weapon (i.e. d10 > d8 > d6 > d4 > 1).
@@ -699,7 +697,7 @@ If total exposure to a cause of fatigue is avoided (e.g. a bit of water drank, a
 
 ## Healing
 
-A character will recover 1 HP by resting overnight in a safe and comfortable location, and HP equal to their level per day of uninterrupted rest. 30 days of rest will return any character to full HP.
+Natural healing rates are dependent on the [lifestyle](#upkeep-lifestyle) you lead. A character leading a Comfortable lifestyle will recover 1 HP by resting overnight in a safe and comfortable location, and HP equal to their level per day of uninterrupted rest. A Poor lifestyle reduces your healing rate from daily to every two days, and a Wealthy lifestyle doubles your healing rate. 30 days of rest will return any character to full HP.
 
 ## Item Saving Throws
 
@@ -797,6 +795,22 @@ How well a trap is concealed determines the difficulty. The average concealed tr
 **10-foot Poles**: Prodding ahead with one or more of these and using cautious exploration gives a 2-in-6 chance of triggering area traps (safely, unless the trap specifies otherwise).
 
 **Area Traps**: Traps that are triggered by moving into a map square (e.g. pit traps, but not trapped doors) are area traps. During cautious exploration, a separate group check is automatically made for each area trap trigger within 10 feet.
+
+## Upkeep & Lifestyle
+
+At the end of every in-game month, player characters must pay upkeep equivalent to a percentage of their current XP total in sp, which does not count towards XP (for example, a 1st-level character with 1,500 XP would pay 15sp at the end of a month, which would set their lifestyle to "Comfortable" for the following month. This is an abstraction of buying food, shelter, entertainment, and generally living the lifestyle of an adventurer.
+
+There are three lifestyles: Poor, Comfortable, and Wealthy. A Poor lifestyle gives you threadbare clothing, simple food and lodgings, and a livable though uncomfortable experience. Comfortable gives you good food, well-kept lodging, respectable conditions and your basic needs readily met. A Wealthy lifestyle is the life of luxury: a spacious home, sumptuous table fare, skilled and fashionable tailors, servants, and other attendants to meet your every need.
+
+Your lifestyle choice can have in-game consequences. Living rough might help you avoid notice, but you're unlikely to make important connections doing so. Maintaining a luxurious lifestyle will let you access and befriend the rich and powerful, but you run the risk of attracting thieves, deceit, intrigue, and treachery.
+
+Also, your healing rates during downtime are affected by your lifestyle (see [healing](#healing)).
+
+|  Lifestyle  | % of XP in sp |
+| :---------: | :-----------: |
+|    Poor     |     0.5%      |
+| Comfortable |      1%       |
+|   Wealthy   |      2%       |
 
 ---
 
