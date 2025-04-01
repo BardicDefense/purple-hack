@@ -749,6 +749,14 @@ Sages not employed by a PC will often charge around 100sp to identify a potion, 
 
 ## Perception Checks
 
+Perception checks are always made in secret by the referee. There's no requirement for players to constantly state that they're doing basic investigative tasks that are repetitive and/or obvious, like "I'm looking at the floor" or "I'm listening for noises." The slow pace of cautious exploration accounts for these.
+
+However, sometimes a scenario involves something unusually subtle or a creature has the abilities or has taken the effort to evade typical scrutiny, and calling out a specific action might be required.
+
+Overall, checks aren't made just to use one's eyes or ears or otherwise notice the obvious. A Perception check only occurs when the rules call for one (e.g. looking for traps or secret doors), or if the referee decides one is needed.
+
+For a group Perception check, the referee applies the group's average Per modifier, if any, rounding normally. For checks by individuals with a positive Per modifier, _twice_ the searcher's bonus is applied.
+
 ## Readied Items
 
 Small, easily accessible items (e.g., sheathed daggers, wands, or potions) on your character can be declared as **readied**. A scroll in a scroll case, or something buried in your backpack, could not be readied. A readied item takes no action to draw. For example, you could take out a readied wand and fire it in the same Missile Phase.
@@ -798,7 +806,7 @@ How well a trap is concealed determines the difficulty. The average concealed tr
 
 ## Upkeep & Lifestyle
 
-At the end of every in-game month, player characters must pay upkeep equivalent to a percentage of their current XP total in sp, which does not count towards XP (for example, a 1st-level character with 1,500 XP would pay 15sp at the end of a month, which would set their lifestyle to "Comfortable" for the following month. This is an abstraction of buying food, shelter, entertainment, and generally living the lifestyle of an adventurer.
+At the end of every in-game month, player characters must pay upkeep equivalent to a percentage of their current XP total in sp, which does not count towards XP (for example, a 1st-level character with 1,500 XP would pay 15sp at the end of a month, which would set their lifestyle to "Comfortable" for the following month). This is an abstraction of buying food, shelter, entertainment, and generally living the lifestyle of an adventurer.
 
 There are three lifestyles: Poor, Comfortable, and Wealthy. A Poor lifestyle gives you threadbare clothing, simple food and lodgings, and a livable though uncomfortable experience. Comfortable gives you good food, well-kept lodging, respectable conditions and your basic needs readily met. A Wealthy lifestyle is the life of luxury: a spacious home, sumptuous table fare, skilled and fashionable tailors, servants, and other attendants to meet your every need.
 
