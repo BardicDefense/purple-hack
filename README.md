@@ -680,6 +680,21 @@ Natural healing rates are dependent on the [lifestyle](#upkeep-lifestyle) you le
 
 ## Item Saving Throws
 
+Generally, only creatures make saving throws. However, some items are especially fragile, and some rare effects (like area-effect attacks or puddings/oozes) specifically target objects. A failed item save results in the item's destruction, while a successful save results in no damage or effect.
+
+If a creature must make a saving throw and it passes, no item carried by that creature needs to make a save unless the effect specifies otherwise.
+
+**Fragile items** can be almost anything (not including weapons, armor, or typical adventuring gear), but most notably include potions, scrolls, and wands that have been **readied** (kept close at hand, so that they're usable in combat without requiring an action to draw). The price of having such useful items at hand for immediate use is that they're vulnerable to destruction. For example, a potion in a backpack is not available for drinking in combat, but at the same time, if its owner is hit by a fireball, the potion is safe. Fragile items are the exception rather than the rule, and tend to be consumable, creating a risk to their use.
+
+- **Area-effect Attacks**: Affect any item that's both fragile and readied. Daunting (11+) save.
+- **Bashing Containers**: Potions in a container require a Hard (14+) save, while scrolls, wands, and gemstones require a Moderate (8+) save.
+- **Disintegration**: Affects all readied items, fragile or not. Very Hard (17+) save, Hard (14+) if the item is magical.
+- **Falls**: Affects carried potions (readied or not), requires a fall of at least 20' onto a hard surface. Hard (14+) save, -1 penalty for each additional full 10' fallen over 20'.
+- **Magic Items**: Any that provide magic attack, save, or AC bonuses apply this modifier to any save such items are forced to make.
+- **Shields**: If used to provide a save bonus against a breath weapon attack, and the shield's wielder fails their save, the shield must save as well. The save is Moderate (8+).
+- **Water**: Affects paper and papyrus, Heroic (20+) save. Standard spellbooks (with vellum pages and magical inks) and scrolls in scroll cases always pass their save.
+- **Other Cases**: Cases not covered above are a Hard (14+) save.
+
 ## Jumping
 
 A long jump lets you safely clear 10 feet (20, with the Jumping skill), if you run at least 10 feet first (if not, halve the result).
