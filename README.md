@@ -737,7 +737,7 @@ Characters with the proper tools and either the Lockpicking feat or skill can at
 
 A lockpicking attempt requires 1 turn. If a character fails, they can try again, but after two failed attempts, the character cannot try that lock again until they gain a level.
 
-### Trapped Locs
+### Trapped Locks
 
 Noticing a trap on a lock requires a successful Perception check (having the Lockpicking feat reduces the difficulty to notice such traps by one level). Only an active search for traps can reveal such traps without triggering them. In the case of multiple traps on a single lock, the referee will roll a separate Per check for each trap.
 
@@ -745,33 +745,51 @@ A successful lockpicking attempt disarms all detected traps in addition to openi
 
 ## Magic & Spells
 
+### Preparing & Casting
+
+**Preparing Spells:** Spell preparation can occur no more than once every 24 hours, requires at least 4 hours of uninterrupted rest immediately prior, and no fatigue levels from exhaustion or lack of sleep. One interrupted hour of study is then needed to prepare all spells chosen, no matter how many, but can prepare no more than two uses of the same spell at any one time (altering a spell with a feat does not make it a "different" spell). Spells, once cast, are lost from the casting character's memory and cannot be reused until the caster prepares them again.
+
+**Spell Disruption**: If, between declaring a spell and casting it, the caster is hit by an attack or the like (even if no damage is dealt), or fails a saving throw, the spell is disrupted: it fails and its spell slot is emptied with no other effect. Note that only spells being cast can be disrupted. Spell effects from a rod, staff, wand, etc. and spell-like innate creature abilities are immune to disruption.
+
+### Gaining New Spells
+
+Casters learn one random spell each time they gain a level from a random school they can access (plus another spell if a specialist). If the caster has just gained access to a new spell level, the spell(s) are from that level. They can also gain access to new spells via the following methods:
+
+- **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 week + 100sp per level of the spell, and a successful Moderate (Arc x2) check, rolled at the end of the binding period; apply +2 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
+- **Research**: Casters can research new spells. These can be variants of spells the caster already knows--a Hard (Arc) check--spells the caster has witnessed being cast--a Very Hard (Arc) check--or spells the caster has only heard of--a Heroic (Arc) check. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 1d4+1 x 50sp in materials and 1 week.
+
+### Scrolls
+
+Spells can be bound to scrolls; each holds one spell. Holding it with both hands and reading from it aloud casts its spell, disintegrating the scroll.
+
+A spell on a scroll is not a prepared spell and can be cast even if the caster does not own the spell or isn't able to cast spells at that spell's level. The caster must still have access to the school to which the spell belongs, however. Spells on scrolls can't be modified through feats, though a caster can scribe a modified spell, and spells can't be prepared from scrolls.
+
+For the purposes of range and so on, a scroll spell is treated as if the reader is casting it normally or is the minimum level required to cast it normally, whichever is higher.
+
+Scrolls may be scribed by anyone who has the ability to both read scrolls and to cast the spell being scribed. It costs 500sp and one week per level of the spell, which can be broken up into multiple sessions. This is a Moderate (Arc x2) check, rolled in secret by the referee at the end of the week. On a roll of a 1, the referee rerolls: a result of 1-10 means that a cursed scroll has been created.
+
+### Mage Spell Progression Table
+
+This shows the number of spells of a given spell level that a mage can prepare per day (also known as their spell slots). If the mage is a specialist, they add one to each level's spell slot total, but the extra spell must be from the school specialized in. If a spell is level-adjusted through feats, that spell is treated in all ways as a spell of the level to which it has been modified.
+
+| Mage Level |  1  |  2  |  3  |  4  |  5  |  6  |
+| :--------: | :-: | :-: | :-: | :-: | :-: | :-: |
+|     1      |  2  |     |     |     |     |     |
+|     2      |  3  |     |     |     |     |     |
+
 **Creating Magic Items:** Potions are created by alchemists, with the more powerful potions usually requiring the help of a Magic-User. A Magic-User seeking to create potions must employ an alchemist. A Magic-User must be 9th level to create potions on their own, and 11th level to create other magic items.
-
-**Memorizing Spells:** Spell memorization requires a minimum rest period of 4 hours, which must be spent in a quiet place without interruption. Once this period has expired, it takes fifteen minutes per level to memorize spells; in other words, a character memorizing one 3rd, two 2nd and four 1st level spells would require a further (45+30+30+15+15+15+15=) two hours and forty-five minutes of memorization time. Spells, once cast, are lost from the casting character's memory and cannot be reused until the caster memorizes them again. (Exception: It is possible to memorize the same spell twice or even more times if the caster has sufficient spell slots.)
-
-**Scribing Scrolls:** Scrolls may be created by Clerics or Magic-Users at a cost of 500sp per level of the spell, and require a full week of work for each spell level. Magically-infused inks brewed by alchemists are the main component of this cost, and these may not be readily available ou tside large cities. A character cannot scribe a scroll based off another scroll.
-
-**Spell Scrolls:** It is not possible to memorize a spell from a scroll, although magic users may copy the spell from the scroll into their spell books, if they understand the spell. This process always erases the scroll. This is the primary means by which magic users will acquire new spells for their spell books.
-
-Alternatively, the spell may be cast directly from the scroll, in which case the scroll is erased as the spell is cast. In this case, it is not necessary for the caster to know the spell beforehand, and indeed it is possible to cast a spell from a scroll even if the caster does not know the spell or is of insufficient level to use the magic.
-
-In extreme cases (such as when a character casts a spell from a scroll well above the level he or she could normally memorize) the referee will assign a chance that the spell will fail.
-
-A character must be of the correct class to cast a spell from a scroll. Thus, only Clerics or Paladins may cast spells from clerical scrolls, only Druids or Rangers from druidic ones, and so on. (Exception: Thieves may attempt to cast arcane and phantasmal spells from scrolls.)
 
 ## Mapping
 
 Maps are usually best made simply: boxes and lines are sufficient to keep you from getting lost. The players' map represents an actual in-game object. If the players at the table are making a map, then a character must also be making one and have the tools to do so. This has several corollaries: the party must have light (they can only map what they see) and mapping supplies (something to write with and something to write on), and they must be moving at a cautious exploration rate. Perhaps most importantly, a map being actively made is a fragile item (see [item saving throws](#item-saving-throws))--if something happens to the map in-game, it happens to the players' map as well! If the party wants backup copies, the players must actually draw them. If the entire party dies in the dungeon, the only way their maps will survive is if copies were left on the surface.
 
-## Moving Silentlty
+## Moving Silently
 
-enAnyone can attempt to sneak. A check is called for when attempting movement that normally attracts attention, such as slipping past a guard, or maneuvering behind a target for a surprise attack.
+Anyone can attempt to sneak. A check is called for when attempting movement that normally attracts attention, such as slipping past a guard, or maneuvering behind a target for a surprise attack.
 
-Moving silently requires a successful Dex check, the difficulty of which is set by the referee, and which is rolled in secret by the referee.
+Moving silently requires a successful Dex check, the difficulty of which is set by the referee, and which is rolled in secret by the referee. While a failed move silently check will alert the enemy in some fashion, it does not necessarily give away your position, let alone imply a bumbling, noisy disaster.
 
 A move silently attempt reduces your movement to 1/4 (normally, to 10' per round). Every additional 10' per round added to that movement rate raises the difficulty by one level.
-
-ersvWhile a failed move silently check will alert the enemy in some fashion, it does not necessarily give away your position, let alone imply a bumbling, noisy disaster.
 
 **Alert Enemies**: The attention of most intelligent undead (e.g., skeletons, zombies) and constructs (e.g. golems) never wavers. As such, the difficulty of move silently checks against them is one difficulty higher.
 
