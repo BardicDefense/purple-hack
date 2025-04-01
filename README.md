@@ -620,32 +620,11 @@ Magic weapons and armor take ½ notches instead of full notches.
 
 ## Experience
 
-You gain experience primarily through recovering treasure and then **spending it**. 1sp spent = 1XP. A Paladin’s required charity tithe does not obtain this XP, nor does sp spent on mundane equipment or on monthly upkeep costs. Money spent on acquiring retainers and repairing equipment does count towards XP. In general, you can flavor this spending as martial training, carousing, philanthropy, greasing palms, investing in local faction relations, or any number of other in-world expenditures, limited only by your imagination.
+You gain experience primarily through recovering treasure and then **spending it**. 1sp spent = 1XP. Money spent on purchasing or repairing equipment and on monthly upkeep costs does not count toward XP. Money spent on acquiring retainers and personally conducted magical research does count towards XP. In general, you can flavor this spending as martial training, carousing, philanthropy, greasing palms, investing in local faction relations, or any number of other in-world expenditures, limited only by your imagination.
 
-A character receives 1 XP per 2sp spent **constructing a stronghold** to secure a domain. The XP is earned when the stronghold is completed. If the character ever loses the stronghold, the XP earned from its construction is lost. This may result in the loss of class levels. The character can regain the lost XP by retaking the stronghold intact. If the stronghold is partially destroyed when re-captured, the character regains XP equal to its reduced value.
+XP from magical research is earned when the research is completed, based on its monthly cost (always calculated as at least one month, even if the research only takes a week). Failing at magical research does earn XP.
 
-A character may earn XP from **domain and mercantile income** if the activity was managed by the character personally and if the net income earned in any month exceeds the character’s monthly sp threshold (see table below). Domain and mercantile funds must be tracked separately from “normal” adventuring funds and from each other. If domain or mercantile income exceeds the character’s sp threshold, the character earns XP equal to the difference.
-
-A character may earn XP from **magical research** or magic item creation if the research was conducted by the character personally and if the cost exceeds the character’s sp threshold (see table below). The XP is earned when the research is completed, based on its monthly cost (always calculated as at least one month, even if the research only takes a week). If this monthly cost exceeds the character’s sp threshold, the character earns XP equal to the difference per month of research. Failing at magical research does earn XP.
-
-| Class Level | sp Threshold |
-| ----------- | ------------ |
-| 1           | 25           |
-| 2           | 75           |
-| 3           | 150          |
-| 4           | 300          |
-| 5           | 650          |
-| 6           | 1,250        |
-| 7           | 2,500        |
-| 8           | 5,000        |
-| 9           | 12,000       |
-| 10          | 18,000       |
-| 11          | 40,000       |
-| 12          | 60,000       |
-| 13          | 150,000      |
-| 14          | 425,000      |
-
-Each new dungeon room or hex **explored and mapped** grants (10 x Dungeon Level) XP (or 10 x number of hexes from the nearest known settlement XP) per character. Each hex or room past the fifth in a given delve or adventure begins to grant cumulative XP (i.e. room #6=20XP x Dungeon Level, room #7=30XP x Dungeon Level, etc.). Once the party returns to safety to heal and restock, the counter resets. A room can only be “explored” once, ever.
+Each new dungeon room or hex **explored and mapped** grants 10 XP per character. Each hex or room past the fifth in a given delve or adventure begins to grant cumulative XP (i.e. room #6=20XP, room #7=30XP, etc.). The referee can optionally multiply this per-room number by the dungeon's level or hex's distance from civilization to account for the party's growth & added difficulty. Once the party returns to safety to heal and restock, the counter resets. A room or hex can only ever be “explored” for XP in this way once.
 
 The table blow indicates what a character's XP total needs to reach to advance to each level:
 
@@ -725,7 +704,7 @@ A party needs one light source for approximately every three members of the part
 
 **Memorizing Spells:** Spell memorization requires a minimum rest period of 4 hours, which must be spent in a quiet place without interruption. Once this period has expired, it takes fifteen minutes per level to memorize spells; in other words, a character memorizing one 3rd, two 2nd and four 1st level spells would require a further (45+30+30+15+15+15+15=) two hours and forty-five minutes of memorization time. Spells, once cast, are lost from the casting character's memory and cannot be reused until the caster memorizes them again. (Exception: It is possible to memorize the same spell twice or even more times if the caster has sufficient spell slots.)
 
-**Scribing Scrolls:** Scrolls may be created by Clerics or Magic-Users at a cost of 500sp per level of the spell, and require a full week of work for each spell level. Magically-infused inks brewed by alchemists are the main component of this cost, and these may not be readily available outside large cities. A character cannot scribe a scroll based off another scroll.
+**Scribing Scrolls:** Scrolls may be created by Clerics or Magic-Users at a cost of 500sp per level of the spell, and require a full week of work for each spell level. Magically-infused inks brewed by alchemists are the main component of this cost, and these may not be readily available ou tside large cities. A character cannot scribe a scroll based off another scroll.
 
 **Spell Scrolls:** It is not possible to memorize a spell from a scroll, although magic users may copy the spell from the scroll into their spell books, if they understand the spell. This process always erases the scroll. This is the primary means by which magic users will acquire new spells for their spell books.
 
