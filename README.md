@@ -430,7 +430,19 @@ Surprise lasts one round. In that round, those that are surprised cannot move, a
 
 ## Reactions
 
-Some encounters are essentially pre-determined due to the nature of the creatures or the encounter itself.
+Some encounters are essentially pre-determined due to the nature of the creatures or the encounter itself, and will end up in combat no matter what (e.g., intelligent undead and sentinels like golems will almost always attack).
+
+However, when any creatures are encountered, if their nature or the circumstances don't automatically dictate their behavior, the referee _always_ rolls to see how they react to the players _before_ actions are taken.
+
+If the players do not immediately attack, the referee rolls on the Reaction Table, applying -2 to the roll if the creatures encountered are Evil, and rerolling Hostile results if the creatures are Good:
+
+| 2d6  |                    Behavior                     |
+| :--: | :---------------------------------------------: |
+|  2   |                     Hostile                     |
+| 3-6  |       Unfriendly (unintelligent: Hostile)       |
+| 7-8  |                Neutral/uncertain                |
+| 9-11 |                  Unthreatening                  |
+|  12  | Actively helpful (unintelligent: Unthreatening) |
 
 ## Attacking
 
@@ -914,6 +926,18 @@ Choose a weapon option:
 - Option B: One large weapon
 - Option C: Two medium one-handed weapons (+1 to hit)
 - Option D: One medium melee weapon & one ranged weapon (plus ammo)
+
+If appropriate, the referee can choose to roll on the Offer Reaction Table below--applying modifiers based on party reputation, the mission description, or lavish or miserly rates of pay if desired--to decide the potential retainer's reaction:
+
+| 2d6  |  Reaction to Offer   |
+| :--: | :------------------: |
+|  2   | Hostilely declines\* |
+| 3-5  |       Declines       |
+| 6-11 |       Accepts        |
+|  12  | Eagerly accepts\*\*  |
+
+\* The reaction is so bad that the NPC spreads negative rumors about the PC and/or party, resulting in a -2 on further hiring rolls on this table if the PC and/or party attempt further recruitment in this area.  
+\*\* Permanent -1 bonus to the retainer's Morale threshold.
 
 ## Strongholds & Domains
 
