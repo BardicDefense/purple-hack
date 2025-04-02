@@ -68,7 +68,7 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 
 1d8 Hit Die (8hp+Con mod at 1st level). Receive attack bonus of +1 every level, starting at level 1, stopping at +15 at level 15. Can use any weapon or armor, so long as they meet its strength minimum, if any (see [equipment](#armor-weapons-and-equipment)). Every name level, warriors add an extra weapon die of damage to their armed combat attacks and an additional feat. At 1st level, warriors select one style, reflecting their preferred manner of fighting:
 
-- **Arcanist**: You can read Mithric and gain access to two schools of magic of your choice. You can cast spells in armor as well as when being jostled. You cannot create or cast from scrolls, though you can copy spells from them. You have half the spell slots of a mage of your same level. You start with a spellbook and spells the same way a mage does, but no schools or spells are automatically acquired through gaining levels. The source of your power must be defined.
+- **Arcanist**: You can read Mithric and gain access to two schools of magic of your choice. You can cast spells in armor as well as when being jostled. You cannot create or cast from scrolls, though you can copy spells from them. You have half the spell slots of a mage of your same level (rounded down, to a minimum of 1 slot). You start with a spellbook and spells the same way a mage does, but no schools or spells are automatically acquired through gaining levels. The source of your power must be defined.
 - **Hordeslayer**: If you kill an opponent with an attack, you can immediately make a bonus attack of the same kind (melee or ranged). You can make a maximum number of melee bonus attacks per round equal to your level, and a maximum number of missile bonus attacks equal to your number of name levels plus 1.
 - **Smiter**: Once per combat encounter, you can declare a smite after you score a hit, melee or ranged, which doubles the number of damage dice rolled. If a smite was announced on a critical hit, the extra weapon dice do not automatically deal maximum damage.
 
@@ -640,7 +640,7 @@ You should also know: Doors tend to close on their own. Iron spikes are invaluab
 
 ## Equipment Wear & Tear
 
-Equipment can be worn down! If you are hit by an attack where the attacker rolled a 20, your armor gains a **notch** of damage. Each notch reduces your AC total by 1. Weapons gain a notch when you roll a 1 on an attack with them. Each weapon notch reduces by one step the damage die you roll with that weapon (i.e. d8 > d6 > d4 > 1).
+Equipment can be worn down! If you are hit by an attack where the attacker rolled a 20, your armor gains a **notch** of damage (usually denoted by an x on your character sheet next to the weapon). Each notch reduces your AC total by 1. Weapons gain a notch when you roll a 1 on an attack with them. Each weapon notch reduces by one step the damage die you roll with that weapon (i.e. d8 > d6 > d4 > 1).
 
 Items can be repaired by an appropriate craftsman, costing 10% of the item's original price per notch. Armor and weapons can take no more than 10 notches of damage before they're destroyed.
 
@@ -648,7 +648,7 @@ Magic weapons and armor take ½ notches instead of full notches.
 
 ## Experience & Leveling
 
-You gain experience primarily through recovering treasure and then **spending it**. 1sp spent = 1XP. Money spent on purchasing or repairing equipment and on monthly upkeep costs does not count toward XP. Money spent on acquiring retainers and personally conducted magical research does count towards XP. In general, you can flavor this spending as martial training, carousing, philanthropy, greasing palms, investing in local faction relations, or any number of other in-world expenditures, limited only by your imagination.
+You gain experience primarily through recovering treasure and then **spending it**. 1sp spent = 1XP. Money spent on purchasing or repairing equipment, spellcasting services, and on monthly upkeep costs does not count toward XP. Money spent on acquiring retainers and personally conducted magical research does count towards XP. In general, you can flavor this spending as martial training, carousing, philanthropy, greasing palms, investing in local faction relations, or any number of other in-world expenditures, limited only by your imagination.
 
 XP from magical research is earned when the research is completed. Failing at magical research does earn XP.
 
@@ -725,11 +725,7 @@ If a creature must make a saving throw and it passes, no item carried by that cr
 
 ## Jumping
 
-A long jump lets you safely clear 10 feet (20, with the Jumping skill), if you run at least 10 feet first (if not, halve the result).
-
-With a 10-foot run, a vertical high jump gives you a reach with your hands of about 5 feet (a standing high jump gives you a reach of about 3 feet). If encumbered, apply the combat speed penalty to your jump distance.
-
-In combat, a jump ends your move.
+A long jump lets you safely clear 10 feet (20, with the Jumping skill), if you run at least 10 feet first (if not, halve the result). With a 10-foot run, a vertical high jump gives you a reach with your hands of about 5 feet (a standing high jump gives you a reach of about 3 feet). If encumbered, apply the combat speed penalty to your jump distance. In combat, a jump ends your move.
 
 ## Lifting
 
@@ -752,12 +748,6 @@ Noticing a trap on a lock requires a successful Perception check (having the Loc
 A successful lockpicking attempt disarms all detected traps in addition to opening the lock, but undetected traps will be set off automatically before any lockpicking roll is made, unless specified otherwise.
 
 ## Magic & Spells
-
-### Preparing & Casting
-
-**Preparing Spells:** Spell preparation can occur no more than once every 24 hours, requires at least 4 hours of uninterrupted rest immediately prior, and no fatigue levels from exhaustion or lack of sleep. One interrupted hour of study is then needed to prepare all spells chosen, no matter how many, but can prepare no more than two uses of the same spell at any one time (altering a spell with a feat does not make it a "different" spell). Spells, once cast, are lost from the casting character's memory and cannot be reused until the caster prepares them again.
-
-**Spell Disruption**: If, between declaring a spell and casting it, the caster is hit by an attack or the like (even if no damage is dealt), or fails a saving throw, the spell is disrupted: it fails and its spell slot is emptied with no other effect. Note that only spells being cast can be disrupted. Spell effects from a rod, staff, wand, etc. and spell-like innate creature abilities are immune to disruption.
 
 ### Gaining New Spells
 
@@ -793,6 +783,12 @@ This shows the number of spells of a given spell level that a mage can prepare p
 |     19     |  6  |  6  |  5  |  4  |  3  |  2  |
 |     20     |  6  |  6  |  5  |  4  |  3  |  2  |
 
+### Preparing & Casting
+
+**Preparing Spells:** Spell preparation can occur no more than once every 24 hours, requires at least 4 hours of uninterrupted rest immediately prior, and no fatigue levels from exhaustion or lack of sleep. One interrupted hour of study is then needed to prepare all spells chosen, no matter how many, but can prepare no more than two uses of the same spell at any one time (altering a spell with a feat does not make it a "different" spell). Spells, once cast, are lost from the casting character's memory and cannot be reused until the caster prepares them again.
+
+**Spell Disruption**: If, between declaring a spell and casting it, the caster is hit by an attack or the like (even if no damage is dealt), or fails a saving throw, the spell is disrupted: it fails and its spell slot is emptied with no other effect. Note that only spells being cast can be disrupted. Spell effects from a rod, staff, wand, etc. and spell-like innate creature abilities are immune to disruption.
+
 ### The Schools of Magic
 
 All spells belong to one of eight schools of magic. A caster can only learn spells from schools to which they have access. A caster gains access to a new school of their choice at every name level, learning random spells belonging to that school, one at each level they can cast. The schools are:
@@ -818,7 +814,7 @@ Scrolls may be scribed by anyone who has the ability to both read scrolls and to
 
 **Creating Magic Items:** Potions are created by alchemists, with the more powerful potions usually requiring the help of a Magic-User. A Magic-User seeking to create potions must employ an alchemist. A Magic-User must be 9th level to create potions on their own, and 11th level to create other magic items.
 
-### Spells
+### Spell List
 
 Spells are as in [_Simulacrum_](https://osrsimulacrum.blogspot.com/2021/06/simulacrum-beta-release.html).
 
@@ -834,17 +830,25 @@ Moving silently requires a successful Dex check, the difficulty of which is set 
 
 A move silently attempt reduces your movement to 1/4 (normally, to 10' per round). Every additional 10' per round added to that movement rate raises the difficulty by one level.
 
-**Alert Enemies**: The attention of most intelligent undead (e.g., skeletons, zombies) and constructs (e.g. golems) never wavers. As such, the difficulty of move silently checks against them is one difficulty higher.
-
-**Armor**: If wearing non-magical medium or heavy armor, increase the difficulty by one level.
-
-**Group Checks**: If a group attempts to sneak together, this is a group check, with the difficulty based on the group's least stealthy member.
-
-**Surprise**: Moving silently can be used to set up surprise attacks.
+- **Alert Enemies**: The attention of most intelligent undead (e.g., skeletons, zombies) and constructs (e.g. golems) never wavers. As such, the difficulty of move silently checks against them is one difficulty higher.
+- **Armor**: If wearing non-magical medium or heavy armor, increase the difficulty by one level.
+- **Group Checks**: If a group attempts to sneak together, this is a group check, with the difficulty based on the group's least stealthy member.
+- **Surprise**: Moving silently can be used to set up surprise attacks.
 
 ## NPC Spellcasting
 
-Non-player characters may be hired to cast spells or perform other services. As a rough guideline, the cost for an NPC spellcaster to perform such service is often sp equal to 10% of the XP required for a caster to attain the level needed to cast the spell (e.g. _raise dead_ requires a Cleric to attain 7<sup>th</sup> level, which takes 55,000XP, so the spell would cost 5,500sp).
+Non-player characters may be hired to cast spells or perform other services. As a general guideline, spells cost _roughly_ the following, and will be subject to a host of in-the-fiction considerations:
+
+| Spell Level | Cost per Casting |
+| :---------: | :--------------: |
+|     1st     |       50sp       |
+|     2nd     |      100sp       |
+|     3rd     |      250sp       |
+|     4th     |      500sp       |
+|     5th     |      1000sp      |
+|     6th     |     2500sp+      |
+
+Paying for spellcasting services does not count towards XP.
 
 Sages not employed by a PC will often charge around 100sp to identify a potion, or 200sp to identify a magical item.
 
@@ -866,15 +870,15 @@ The downside is that readied items are vulnerable to destruction. If a creature 
 
 ## Retainers
 
-Retainers cost 50sp on initial hire (+50sp to request a class), plus ½ share of treasure. They will be level 1d3, but cannot be higher than the hiring PC’s level. Retainers' starting Morale typically ranges from 18 (the craven) to 6 (the elite), and can be randomly determined with a 2d6+6 roll.
+Retainers cost 50sp on initial hire (+50sp to request a class), plus ½ share of treasure. They will be level 1d3, but cannot be higher than the hiring PC’s level. Retainers' starting Morale typically ranges from 18 (the craven) to 6 (the elite), and can be randomly determined at hiring with a 2d6+6 roll.
 
-Loyalty is checked after each adventure/session, if the retainer is reduced to 1/4 or less of its full HP total, or if their loyalty is severely tested. If a success is rolled, the retainer’s Morale threshold decreases by one to a minimum of 6. On a failure, the retainer departs.
+Loyalty is checked with a Morale roll after each adventure, if the retainer is reduced to 1/4 or less of its full HP total, or if their loyalty is severely tested. If a success is rolled, the retainer’s Morale threshold decreases by one to a minimum of 6. On a failure, the retainer departs.
 
-Porters/torchbearers come with no equipment. Equipment purchased by the PC is kept by the PC. Retainers come with the same basic starting equipment as PCs, but no starting silver. Specializations & feats are rolled randomly, and no skills are included.
+Porters/torchbearers come with no equipment. Equipment purchased by the PC is kept by the PC. Retainers come with the same basic starting equipment as PCs, but no starting silver. Stats, specializations & feats are rolled randomly, and no skills are included (but can be chosen if a player ends up playing the retainer as a replacement for a lost PC, for example).
 
-Armor is based on class. Mages roll 1d6; Warriors roll 1d6+1:
+Starting armor is based on class. Mages roll 1d6-1; Warriors roll 1d6+1:
 
-- 1=No armor (AC 9)
+- 0-1=No armor (AC 9)
 - 2-3=Leather (AC 12)
 - 4-5=Ring (AC 13)
 - 6=Scale (AC 14)
@@ -925,73 +929,83 @@ Also, your healing rates during downtime are affected by your lifestyle (see [he
 
 # Wilderness Exploration
 
-Each day, roll 1d4, 1d6, 1d8, 1d12, 1d100. (TK Add Hunting)
+In a campaign where the journey is as important as the destination (or where there isn't even necessarily a main destination _per se_), overland movement comes into play.
 
-## 1. Check for Encounters
+Travel overland is measured in 6-mile hexes. **Hex points** are spent to travel through hexes, and all player characters have a base hex point allowance of **four per day**, which can be modified by mounts, encumbrance, and fatigue (applied before encumbrance). A party travels at the rate of its slowest member.
 
-**1d6** for encounter chance:
+The base cost in hex points to enter a hex depends on its terrain type. Unlisted terrain features like great rivers, canyons, etc. can further raise the cost.
 
-- City, clear, grassland, settled 1-in-6
-- Air, barren, forest, hills, ocean, river, desert 2-in-6
-- Jungle, mountains, swamp 3-in-6
+|        Terrain Type         | Entry Cost |
+| :-------------------------: | :--------: |
+|  Plains, steppe, farmland   |     1      |
+| Hills, woods, desert, rough |     2      |
+|  Mountains, jungle, swamps  |     4      |
 
-If there's an encounter, 1d100 roll on the appropriate encounter table.
+Terrain factors can affect the base entry cost of a hex:
 
-**1d8** for lair (1), tracks (2), or normal (3-8)
+|       Terrain Modifiers        | Cost Modifier |
+| :----------------------------: | :-----------: |
+| Heavy rain/deep snow/thick fog |      +1       |
+|      Temperature extremes      |      +1       |
+| Good roads or excellent trails |      -1       |
 
-**1d4** for Encounter time: Morning (4a-10a), Daytime (10a-4p), Evening (4p-10p), Night (10p-4a)
+The good roads bonus can apply once per day; at least two hexes of good roads must be covered that day.
 
-## 2. Check for Lost Chance - 1d12 (1d10 in adverse conditions)
+A party may choose one of two optional march types each day, reflecting its priorities: either caution or speed.
 
-| 1d12 | Clear, Grasslands           |
-| ---- | --------------------------- |
-| 1    | Veer 1 hex clockwise        |
-| 2    | Veer 1 hex counterclockwise |
-| 3-12 | Not lost                    |
+- **Cautious March**: Reduce the party's hex allowance by one, and apply a +1 bonus to all rolls for overland random encounters, and the party has a better chance of tactically favorable encounters.
+- **Forced March**: Add one to the party's hex allowance, but gain one fatigue level at day's end. Can be kept up until a marcher is heavily fatigued. A day of full rest is required to remove one level of forced march fatigue from most creatures.
 
-| 1d12 | Barren, Hills, Forest, Mountains |
-| ---- | -------------------------------- |
-| 1    | Veer 1 hex clockwise             |
-| 2    | Veer 1 hex counterclockwise      |
-| 3    | Veer 2 hexes clockwise           |
-| 4    | Veer 2 hexes counterclockwise    |
-| 5-12 | Not lost                         |
+## Entering a Hex
 
-| 1d12 | Desert, Jungle, Swamp         |
-| ---- | ----------------------------- |
-| 1    | Veer 1 hex clockwise          |
-| 2    | Veer 1 hex counterclockwise   |
-| 3    | Veer 2 hexes clockwise        |
-| 4    | Veer 2 hexes counterclockwise |
-| 5    | Move backwards 1 hex          |
-| 6    | Lose a day of travel          |
-| 7-12 | Not lost                      |
+If a party wants to enter a hex, but lacks some of the points needed, they points they do have are spent towards entering it, but the party ends the day in their current hex. The party only enters the new hex once its full hex point cost is paid.
 
-## 3. Loop: Describe Surroundings & Decide Direction
+### Navigation and Getting Lost
 
-PCs have "movement points" (MP) equal to miles per day (per-turn move rate/5, in miles) divided by hex size:
+If the party has never been to a hex they've just entered, the party makes a **navigation check** by rolling 1d12. Subtract the hex's base Entry Cost, and another -6 if there's thick fog, a blizzard, a sandstorm, or the like in the hex. Remove up to 2 points of these penalties if the party has any members with the Fieldcraft feat for that hex's terrain type. This check is skipped if the party has a respectable map or knowledgeable guide, or if there is a road, trail, coastline, or river in the current hex they can logically follow to their next hex. The party is assumed to map any hex passed through.
 
-| Armour    | Normal | Encumbered |
-| --------- | ------ | ---------- |
-| Unarmored | 4      | 3          |
-| Light     | 3      | 2          |
-| Heavy     | 2      | 1          |
+On a result of 1 or less, the check fails & the party is lost. To leave the hex, the party must spend hex points equal to the amount they spent to enter it originally, and then make a new navigation check. Failure means that the party is still lost.
 
-_+1 MP if on a road all day_
+### Searching
 
-Each hex costs a number of MP to move **into**. Clear = 1, Rough = 2, Very Rough = 3. One MP may "roll over" to the next day, and PCs may "force march" to gain 1 additional MP, but must rest the next full day.
+Entering a hex allows a party to determine its features. There are two types: **overt** and **hidden**.
 
-## 4. Check foraging (1-in-6), mark off supplies, mark off calendar
+Overt features require no special effort to find. Hidden features may or may not exist, but can only be found if the party searches the hex, moving off the beaten path to seek out points of interest there. A hex may have both types.
 
-# Camping in the Wilds
+Searching a hex requires spending the same number of hex points that it cost to enter the hex, and, like entering a hex, is only complete when the full hex point cost is paid. The party then makes another navigation check; failure means the party is lost, which is resolved normally. Success reveals one hidden feature in the hex, if any.
 
-## Building a Fire
+## Hunting
+
+In the wilderness, the party can stop and hunt for food. Hunting must be the sole activity that day (i.e. no resting or travelling), and generates a random encounter check for that hex. So long as the hex has game, hunting always feeds the party for the day, even if the hunting check fails; if successful, it also provides 1 additional standard ration for every point over the result needed.
+
+Hunting is a Daunting (11+) check, though the Fieldcraft feat lowers the difficulty in favored terrain to Moderate (8+). However, some hexes may be more or less difficult, others might require a character with Fieldcraft and the matching favored terrain to hunt in at all, while still others are too barren for any hunter.
+
+## Random Encounters
+
+One random encounter check (aka "wandering monster check") is made each time a navigation check is made. One check is also made if the party enters a wilderness hex without need of a navigation check (i.e. they have a map), or if the party isn't lost but does not leave the wilderness hex they are in that day.
+
+To make a check, the referee rolls 1d12, subtracts the hex's base entry cost, and applies all relevant modifiers to the roll:
+
+|                            Situation                             | Modifier |
+| :--------------------------------------------------------------: | :------: |
+|                    Hex is unusually dangerous                    | -1 or -2 |
+|                   Hex is safe (e.g. patrolled)                   |    +1    |
+| Party has 1+ members with Fieldcraft for that hex's terrain type |    +1    |
+|              Players are moving at a cautious march              |    +1    |
+
+On a result of 1 or less, an encounter occurs.
+
+If the party spends the night in the wilderness, make an additional random encounter check. Subtract 1 if the party keeps a fire big enough to see by going through the night (although fire scares off some of the creatures that notice it, like bears or wolves). If an encounter occurs, the referee randomly rolls to see on whose watch (if any) the encounter takes place.
+
+## Camping in the Wilds
+
+### Building a Fire
 
 Given a means of producing flame (e.g. a tinderbox, magic) and a stash of wood (either gathered from the forest or carried in packs), a character may attempt to build a fire.
 
 **Good conditions:** In favourable conditions, with decent wood and a relatively dry campsite, fire-building automatically succeeds.
 
-**Bad conditions:** In more troublesome circumstances, the basic chance of the party successfully getting a fire going is 4-in-6, though "Dwarves can make a fire almost anywhere out of almost anything, wind or no wind" and will automatically succeed. However, the referee may reduce the chance of success to account for extreme cold or damp.
+**Bad conditions:** In more troublesome circumstances, getting a fire going requires a Moderate (8+) check, though "Dwarves can make a fire almost anywhere out of almost anything, wind or no wind" and will automatically succeed. However, the referee may reduce the chance of success to account for extreme cold or damp.
 
 ## Fetching Water
 
