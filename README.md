@@ -158,7 +158,7 @@ A mage can combine multiple feats on a spell. The spell adjustments from these s
 
 Skills represent specialized knowledge of or training in a particular field. All characters select two skills at 1st level, and another at each name level.
 
-It's assumed that characters possess all the skills and knowledge appropriate to their background, along with a host of everyman abilities that nearly all posses, such as climbing, hiding, or moving silently. Skills for adventurers' purposes are almost always specialized (like reading lips) or non-intuitive (like lockpicking), and reflect special training, deep knowledge, or intense & focused practice in that particular narrow area. Broad interaction (e.g. Conversation), social skills that achieve a result otherwise possible only through roleplay (e.g. Deception or Intimidation), skills that boil down a non-linear non-standard task down to a simple roll (e.g. Dungeoneering or Investigation) or skills that allow for ready identification of magical items cannot be taken.
+It's assumed that characters possess all the skills and knowledge appropriate to their background, along with a host of everyman abilities that nearly all posses, such as climbing, hiding, or moving silently. Skills for adventurers' purposes are almost always specialized (like reading lips) or non-intuitive (like lockpicking), and reflect special training, deep knowledge, or intense & focused practice in that particular narrow area. Broad interaction (e.g. Conversation), social skills that achieve a result otherwise possible only through roleplay (e.g. Deception or Intimidation), skills that boil down a non-linear non-standard task down to a simple roll (e.g. Dungeoneering or Investigation) or skills that allow for ready identification of magical items cannot be taken. **Skills are largely meant to measure a proficiency over and above what one could reasonably be expected to have, NOT to define what is possible!**
 
 Concretely, skills might, depending on the circumstances, allow you to:
 
@@ -850,7 +850,7 @@ Non-player characters may be hired to cast spells or perform other services. As 
 
 Paying for spellcasting services does not count towards XP.
 
-Sages not employed by a PC will often charge around 100sp to identify a potion, or 200sp to identify a magical item.
+Sages or alchemists not employed by a PC will often charge around 100sp to identify a potion (which takes an hour or so), or 200+sp to identify a magical item (which can take upwards of a week).
 
 ## Perception Checks
 
@@ -861,6 +861,20 @@ However, sometimes a scenario involves something unusually subtle or a creature 
 Overall, checks aren't made just to use one's eyes or ears or otherwise notice the obvious. A Perception check only occurs when the rules call for one (e.g. looking for traps or secret doors), or if the referee decides one is needed.
 
 For a group Perception check, the referee applies the group's average Per modifier, if any, rounding normally. For checks by individuals with a positive Per modifier, _twice_ the searcher's bonus is applied.
+
+## Random Encounters
+
+Random encounters occur in almost all dungeon areas. These are typically monsters inclined to hostility (you're in their home) and with no treasure (it's back in their bedroom). To make a check, the referee rolls 1d12 at the end of the appropriate turn: on a 2 or less, an encounter occurs.
+
+If an area doesn't have a preset encounter rate, how often the referee checks to see if a random encounter occurs varies, based on the nature of the area being explored:
+
+- Organized defenders, alert sounded: every turn
+- Organized defenders, no alert sounded: every 2 turns
+- No organized defenders: every 3 turns
+
+Even if players hide somewhere (e.g. a disused storeroom), the encounter roll is still made. Only if the hiding place is exceptional are encounter checks avoided.
+
+**Noisy**: If the party makes an unusual amount of noise while exploring (yelling, spiking a door; combats do not count), their next encounter check is made at -4, and the party cannot surprise creatures so encountered except via unusual means.
 
 ## Readied Items
 
@@ -1078,17 +1092,17 @@ Short-term services of simple craftsmen and laborers are relatively easily procu
 
 Mercenaries are as on pgs. 112-113 of _OSE Advanced._ The majority of regular men-at-arms are zero-level characters with 1d4+3 hit points. The following additional mercenaries are available (and in some cases required):
 
-**Captain**: Equivalent to a 5th- to 8th-level fighter (1-4=5th, 5-7=6th, 8-9=7th, 0=8th). A captain may lead 20 men at arms and one lieutenant per level of experience, plus any necessary sergeants; the monthly wage demanded by a captain is equal to his level x 100sp.
+**Captain**: Equivalent to a 5th- to 8th-level warrior (1-4=5th, 5-7=6th, 8-9=7th, 0=8th). A captain may lead 20 men at arms and one lieutenant per level of experience, plus any necessary sergeants; the monthly wage demanded by a captain is equal to his level x 100sp.
 
-**Lieutenant**: Equivalent to a 2nd- (1-7) or 3rd- (8-0) level fighter. A lieutenant may lead ten men at arms per level of experience, plus any necessary sergeants. A lieutenant serving under a captain extends the number of troops the captain can effectively command and control. The monthly wage demanded by a lieutenant is equal to his level x 100sp.
+**Lieutenant**: Equivalent to a 2nd- (1-7) or 3rd- (8-0) level warrior. A lieutenant may lead ten men at arms per level of experience, plus any necessary sergeants. A lieutenant serving under a captain extends the number of troops the captain can effectively command and control. The monthly wage demanded by a lieutenant is equal to his level x 100sp.
 
-**Sergeant**: Equivalent to a 1st-level fighter. A sergeant can lead up to ten men independently or in service to a lieutenant or captain. In any given company, there must be one sergeant for every five to ten men at arms. The monthly wage required by a sergeant is ten times that of the troop type he leads.
+**Sergeant**: Equivalent to a 1st-level warrior. A sergeant can lead up to ten men independently or in service to a lieutenant or captain. In any given company, there must be one sergeant for every five to ten men at arms. The monthly wage required by a sergeant is ten times that of the troop type he leads.
 
-A player character fighter of the appropriate level may serve as a sergeant, lieutenant or captain, as might an allied non-player character fighter or retainer. A character of a related class, such as ranger or paladin, might also suffice if the circumstances warrant.
+A player character warrior of the appropriate level may serve as a sergeant, lieutenant or captain, as might an allied non-player character fighter or retainer.
 
 ## Expert Hirelings/Specialists
 
-Obtaining the services of very skilled craftsmen and other professional servitors typically involves the expenditure of considerable time and resources. Whilst it is possible to retain such hirelings for short periods, few will agree to a term of less than a month and most expect to serve considerably longer.
+Obtaining the services of very skilled craftsmen and other professional servitors typically involves the expenditure of considerable time and resources. While it is possible to retain such hirelings for short periods, few will agree to a term of less than a month and most expect to serve considerably longer.
 
 | Specialist                 | Monthly Wage |
 | -------------------------- | ------------ |
