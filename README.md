@@ -221,11 +221,12 @@ Each encumbrance level also raises the difficulty of applicable tasks, such as c
 The following base gear is automatically added to your character for free and does not count against your slots:
 
 - One weapon of your choice (+ 20 arrows/bolts if missile weapon)
-- Backpack, pouches, waterskin, tinderbox (for lighting torches or small fires), bedroll
+- Backpack, pouches, waterskin, tinderbox (for lighting torches or small fires)
 - Misc tiny items (within reason); worn items/clothing
 
 After this, you can have whatever basic gear you wish (within reason, as determined by the referee), which does fill slots normally. Some common basic adventuring items include but are not limited to (size listed after each):
 
+- **Bedroll (M)**: A blanket that can double as a sleeping bag. Helps protect against the cold when [sleeping in the wilds](#sleeping-in-the-wilds).
 - **Caltrops, bag (M)**: Small metal spikes sufficient to cover a 5' × 5' area. Creatures moving through have a 2-in-6 chance of treading on a spike for a 50% penalty to movement rate for 24 hours (or until magically healed). Intelligent creatures can move cautiously through areas with known caltrops, which requires their entire Movement Phase to travel 5', but eliminates any risk of impalement.
 - **Candle (S)**: Dimly illuminates a 5' radius, and burns for 4 hours.
 - **Chalk (S)**: Useful for marking trails in dungeons.
@@ -333,8 +334,8 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 ## Quick Packs
 
-- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes x2 (S), Hammer (S), Lantern (M), Oil flask x2 (M), Holy water vial (S, 25sp), and Iron rations x2 (M).
-- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike (S), Crowbar (M), Iron rations (M), Oil flask (M), Lantern (M), and a Mapping kit (M, 10sp).
+- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes x2 (S), Hammer (S), Lantern (M), Oil flask x2 (M), Holy water vial (S, 25sp), Iron rations x2 (M).
+- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike (S), Crowbar (M), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp).
 - **The Cautious** (6 slots): Candle (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Iron rations (M), 10' pole (L).
 - **The Delver** (6 slots): Candle x3 (S), Hammer (S), Iron rations (M), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
 - **The Scholar** (6 slots, 10sp cost): Chalk (S), Vial x3 (S), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp), Scrollcase (M).
@@ -376,7 +377,7 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 # Checks & Saves
 
-**Checks** are a single roll against a target number, used to resole situations with interesting stakes that would either be too tedious or difficult to describe, or involve a strong element of chance. Even if it comes down to a die roll, players will be rewarded for thinking the action through, and sometimes penalized for not. For example, if a player thinks to first apply some lamp oil to the chain and gearing responsible for raising a stuck gate, this would reduce the difficulty.
+**Checks** are a single roll against a target number, used to resolve situations with interesting stakes that would either be too tedious or difficult to describe, or involve a strong element of chance. Even if it comes down to a die roll, players will be rewarded for thinking the action through, and sometimes penalized for not. For example, if a player thinks to first apply some lamp oil to the chain and gearing responsible for raising a stuck gate, this would reduce the difficulty.
 
 First, the referee decides how difficult a check is:
 
@@ -434,6 +435,14 @@ To attack, the attacker rolls 1d20 and adds their attack bonus and all applicabl
 - Target is prone, attacker is in melee: +4
 
 For PCs, a natural 20 is always a hit. The attack is also a critical hit, unless the attacker could only hit by rolling a natural 20. Melee and short-range missile attacks against sleeping, paralyzed, willing, and similar targets always hit and deal maximum damage. Such targets include PCs at 0hp.
+
+#### Dealing Damage
+
+An attacker's Strength modifier is applied to melee and thrown weapon attack damage. Modifiers cannot drop a successful attack below 1 point of damage. Ar successful charge or set vs. charge adds two weapon dice to the attack. Attacks against helpless targets automatically deal maximum damage.
+
+An **unarmed strike** deals 1d2 damage (a critical hit does 4 damage), plus the attacker's Strength modifier. Weapon dice do not apply.
+
+If a PC rolls a natural 20 on an attack, a **critical hit** is scored: the attack deals its maximum possible damage. However, you cannot score a critical hit if you can only hit by rolling a 20. The critical hit range is increased by 4 for all attacks from behind against a surprised target.
 
 ## Combat Phases
 
@@ -523,14 +532,6 @@ In the Melee Phase, a combatant can take one action: a single attack against an 
 - **Polearms** (spears, pikes, etc.) in the second rank of a battle formation can attack by reaching through the first rank.
 - **Spacing & the Second Rank:** Only daggers, shortswords, spears, and polearms can be used three-abreast in a 10’ area. All other one-handed weapons require five feet of room (two-abreast in a 10’ area), and non-thrusting two-handed weapons require a full 10’ space to wield.
 - **Two-weapon fighting**: A combatant can use two melee weapons at once, which grants a +1 attack bonus (but no additional attacks).
-
-#### Dealing Damage
-
-An attacker's Strength modifier is applied to melee and thrown weapon attack damage. Modifiers cannot drop a successful attack below 1 point of damage. Ar successful charge or set vs. charge adds two weapon dice to the attack. Attacks against helpless targets automatically deal maximum damage.
-
-An **unarmed strike** deals 1d2 damage (a critical hit does 4 damage), plus the attacker's Strength modifier. Weapon dice do not apply.
-
-If a PC rolls a natural 20 on an attack, a **critical hit** is scored: the attack deals its maximum possible damage. However, you cannot score a critical hit if you can only hit by rolling a 20. The critical hit range is increased by 4 for all attacks from behind against a surprised target.
 
 ### Magic Phase
 
@@ -632,21 +633,21 @@ You should also know: Doors tend to close on their own. Iron spikes are invaluab
 
 ## Equipment Wear & Tear
 
-Equipment can be worn down! If you are hit by an attack where the attacker rolled a 20, your armor gains a **notch** of damage. Each notch reduces your AC total by 1. Weapons gain a notch when you roll a 1 on an attack with them. Each weapon notch reduces by one step the damage die you roll with that weapon (i.e. d10 > d8 > d6 > d4 > 1).
+Equipment can be worn down! If you are hit by an attack where the attacker rolled a 20, your armor gains a **notch** of damage. Each notch reduces your AC total by 1. Weapons gain a notch when you roll a 1 on an attack with them. Each weapon notch reduces by one step the damage die you roll with that weapon (i.e. d8 > d6 > d4 > 1).
 
 Items can be repaired by an appropriate craftsman, costing 10% of the item's original price per notch. Armor and weapons can take no more than 10 notches of damage before they're destroyed.
 
 Magic weapons and armor take ½ notches instead of full notches.
 
-## Experience
+## Experience & Leveling
 
 You gain experience primarily through recovering treasure and then **spending it**. 1sp spent = 1XP. Money spent on purchasing or repairing equipment and on monthly upkeep costs does not count toward XP. Money spent on acquiring retainers and personally conducted magical research does count towards XP. In general, you can flavor this spending as martial training, carousing, philanthropy, greasing palms, investing in local faction relations, or any number of other in-world expenditures, limited only by your imagination.
 
-XP from magical research is earned when the research is completed, based on its monthly cost (always calculated as at least one month, even if the research only takes a week). Failing at magical research does earn XP.
+XP from magical research is earned when the research is completed. Failing at magical research does earn XP.
 
 Each new dungeon room or hex **explored and mapped** grants 10 XP per character. Each hex or room past the fifth in a given delve or adventure begins to grant cumulative XP (i.e. room #6=20XP, room #7=30XP, etc.). The referee can optionally multiply this per-room number by the dungeon's level or hex's distance from civilization to account for the party's growth & added difficulty. Once the party returns to safety to heal and restock, the counter resets. A room or hex can only ever be “explored” for XP in this way once.
 
-The table blow indicates what a character's XP total needs to reach to advance to each level:
+The table below indicates what a character's XP total needs to reach to advance to each level:
 
 | Level | Total XP | Warrior Hit Dice | Mage Hit Dice |
 | :---: | :------: | :--------------: | :-----------: |
