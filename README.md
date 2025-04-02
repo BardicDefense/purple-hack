@@ -428,6 +428,10 @@ A move silently check is needed to move behind a target and launch a surprise at
 
 Surprise lasts one round. In that round, those that are surprised cannot move, act, or apply Dex-based AC modifiers, and attacks on them gain a +4 bonus. Attacks against surprised targets from behind also ignore any shield modifiers, and raise the chance for a critical hit. Killing surprised foes might force a Morale check.
 
+## Reactions
+
+Some encounters are essentially pre-determined due to the nature of the creatures or the encounter itself.
+
 ## Attacking
 
 To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceed's the target's Armor Class (AC), the attack hits. The most common attack modifiers are:
@@ -552,7 +556,7 @@ Monsters and NPCs (but not PCs) have a **Morale threshold** between 1 and 20, re
 
 Creatures with a Morale of 20 only fight if cornered and always flee if able, while those with a Morale of 1 never retreat unwillingly, but can be convinced to (if intelligent), and are still susceptible to magical fear. A score of -- means the creature ignores the Morale rules altogether, just like PCs.
 
-The refere makes a Morale checke ro--rolling 1d20, applying any situational modifiers (light fatigue gives -2, heavy fatigue gives -4, etc.)--at the end of a round for each of the following that occured that round:
+The referee makes a Morale check--rolling 1d20, applying any situational modifiers (light fatigue gives -2, heavy fatigue gives -4, etc.)--at the end of a round for each of the following that occured that round:
 
 - Half or more of the side present at the battle's start has been incapacitated or killed.
 - The last of the side (or its only member) was reduced to 1/4 or less of its full Hit Point total.
@@ -748,6 +752,12 @@ Noticing a trap on a lock requires a successful Perception check (having the Loc
 A successful lockpicking attempt disarms all detected traps in addition to opening the lock, but undetected traps will be set off automatically before any lockpicking roll is made, unless specified otherwise.
 
 ## Magic & Spells
+
+### Creating Potions
+
+Potions can be crafted by any mage of 5th level or above, with the aid of an alchemist (or with the Skill), and only one potion may be made at any one time.
+
+Potion brewing requires a stocked laboratory of at least 1,000sp in value. A mage can only brew potions they have drank or own the recipe for, and costs silver per dose to brew; the referee will have these costs.
 
 ### Gaining New Spells
 
@@ -988,29 +998,6 @@ Overt features require no special effort to find. Hidden features may or may not
 
 Searching a hex requires spending the same number of hex points that it cost to enter the hex, and, like entering a hex, is only complete when the full hex point cost is paid. The party then makes another navigation check; failure means the party is lost, which is resolved normally. Success reveals one hidden feature in the hex, if any.
 
-## Hunting
-
-In the wilderness, the party can stop and hunt for food. Hunting must be the sole activity that day (i.e. no resting or travelling), and generates a random encounter check for that hex. So long as the hex has game, hunting always feeds the party for the day, even if the hunting check fails; if successful, it also provides 1 additional standard ration for every point over the result needed.
-
-Hunting is a Daunting (11+) check, though the Fieldcraft feat lowers the difficulty in favored terrain to Moderate (8+). However, some hexes may be more or less difficult, others might require a character with Fieldcraft and the matching favored terrain to hunt in at all, while still others are too barren for any hunter.
-
-## Random Encounters
-
-One random encounter check (aka "wandering monster check") is made each time a navigation check is made. One check is also made if the party enters a wilderness hex without need of a navigation check (i.e. they have a map), or if the party isn't lost but does not leave the wilderness hex they are in that day.
-
-To make a check, the referee rolls 1d12, subtracts the hex's base entry cost, and applies all relevant modifiers to the roll:
-
-|                            Situation                             | Modifier |
-| :--------------------------------------------------------------: | :------: |
-|                    Hex is unusually dangerous                    | -1 or -2 |
-|                   Hex is safe (e.g. patrolled)                   |    +1    |
-| Party has 1+ members with Fieldcraft for that hex's terrain type |    +1    |
-|              Players are moving at a cautious march              |    +1    |
-
-On a result of 1 or less, an encounter occurs.
-
-If the party spends the night in the wilderness, make an additional random encounter check. Subtract 1 if the party keeps a fire big enough to see by going through the night (although fire scares off some of the creatures that notice it, like bears or wolves). If an encounter occurs, the referee randomly rolls to see on whose watch (if any) the encounter takes place.
-
 ## Camping in the Wilds
 
 ### Building a Fire
@@ -1049,6 +1036,51 @@ When camping in the wild, characters’ ability to get a good night’s rest is 
 **If the check succeeds:** The character gets a good night’s sleep and regains 1hp overnight.
 
 **If the check fails:** The character fails to get a good night’s sleep and suffers one level of fatigue due to lack of sleep.
+
+## Hunting
+
+In the wilderness, the party can stop and hunt for food. Hunting must be the sole activity that day (i.e. no resting or travelling), and generates a random encounter check for that hex. So long as the hex has game, hunting always feeds the party for the day, even if the hunting check fails; if successful, it also provides 1 additional standard ration for every point over the result needed.
+
+Hunting is a Daunting (11+) check, though the Fieldcraft feat lowers the difficulty in favored terrain to Moderate (8+). However, some hexes may be more or less difficult, others might require a character with Fieldcraft and the matching favored terrain to hunt in at all, while still others are too barren for any hunter.
+
+## Random Encounters
+
+One random encounter check (aka "wandering monster check") is made each time a navigation check is made. One check is also made if the party enters a wilderness hex without need of a navigation check (i.e. they have a map), or if the party isn't lost but does not leave the wilderness hex they are in that day.
+
+To make a check, the referee rolls 1d12, subtracts the hex's base entry cost, and applies all relevant modifiers to the roll:
+
+|                            Situation                             | Modifier |
+| :--------------------------------------------------------------: | :------: |
+|                    Hex is unusually dangerous                    | -1 or -2 |
+|                   Hex is safe (e.g. patrolled)                   |    +1    |
+| Party has 1+ members with Fieldcraft for that hex's terrain type |    +1    |
+|              Players are moving at a cautious march              |    +1    |
+
+On a result of 1 or less, an encounter occurs.
+
+If the party spends the night in the wilderness, make an additional random encounter check. Subtract 1 if the party keeps a fire big enough to see by going through the night (although fire scares off some of the creatures that notice it, like bears or wolves). If an encounter occurs, the referee randomly rolls to see on whose watch (if any) the encounter takes place.
+
+After determining the type of creature(s) encountered, the referee rolls on the following table, applying a +2 bonus if the party is moving at a cautious march:
+
+| 1d12 |                                Encounter Type                                 |
+| :--: | :---------------------------------------------------------------------------: |
+|  1   |           _Ambushed_: The creatures attempt to ambush the players.            |
+| 2-4  |                _Stumbled Upon_: Halve the encounter distance.                 |
+| 5-8  |                                   _Normal_                                    |
+| 9-11 | _Brief Warning_: The players have 1 round to act before the encounter begins. |
+|  12  |                _Sign_: Party may escape, or prepare an ambush.                |
+
+## Weather
+
+At the start of each day, the referee rolls 1d8 (the travel die) and 1d6 (the combat die).
+
+On a roll of 1 on the travel die, heavy rain, snow, a sandstorm, or other similar natural environmental hindrance appropriate to the terrain occurs: apply the standard +1 Hex Terrain Modifier from such for all hexes entered that day. If rain is falling, the good roads hex terrain bonus does not apply that day to dirt roads (most of them), as they are rapidly reduced to mud.
+
+On a roll of 1 on the combat die, strong winds occur: apply the poor conditions modifier to outdoor missile attacks that day, and _Fog_, _Stinking Cloud_, _Cloudkill_ and any similar effects do not function outdoors.
+
+### Storms
+
+If both rolls have "1" results, the weather is a severe storm. In addition to the above effects, apply another +1 Hex Terrain Modifier to all hexes entered that day (+2 total). In winter, this is extreme snowfall, enough to make further movement impossible that day without proper gear or magical aid. A storm's effects may linger for a while after the storm: a +1 Hex Terrain Modifier to all hexes the next day.
 
 # Hirelings
 
