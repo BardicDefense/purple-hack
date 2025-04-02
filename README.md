@@ -74,7 +74,7 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 
 ### Mage
 
-1d6 Hit Die (6hp+Con mod at 1st level). Can cast one spell per round. Can use any weapon or armor, so long as they meet its strength minimum, if any, but they can't normally cast spells in armor. Receive attack bonus of +1 every two levels, starting at level 2. All spells are divided into eight schools (see [Magic & Spells](#magic-spells)). By default, mages have access to four schools, rolled randomly. However, after rolling, a mage can trade away access to one school (up to two maximum) in exchange for one of the following special abilities (each can be chosen only once, and only at character creation):
+1d6 Hit Die (6hp+Con mod at 1st level). Can cast one spell per round. Can use any weapon or armor, so long as they meet its strength minimum, if any, but they can't normally cast spells in armor. Receive attack bonus of +1 every two levels, starting at level 2. All spells are divided into eight schools (see [Magic & Spells](#magic-spells)). By default, mages have access to four schools (one chosen, and three rolled randomly). After rolling, a mage can trade away access to one school (up to two maximum) in exchange for one of the following special abilities (each can be chosen only once, and only at character creation):
 
 - **Battlemage**: You can cast spells while wearing light armor, and your class attack bonus improves to +1 every level, starting at level 1, stopping at +15.
 - **Focused**: Select one additional mage feat.
@@ -93,9 +93,16 @@ The default save is Hard (14+ to succeed); instant-death effects are usually Dau
 
 ## Choose Alignment
 
-- **Lawful (1-3)**: You believe in goodness, justice, truth, and order; will protect others; act for the good of the group.
-- **Neutral (4-5)**: You believe in balance, will cooperate if there's no drawback, treat others like they treat you.
-- **Chaotic (6)**: Evil rules, law drools. Screw these shmucks.
+Your character may align themselves with one of each of the great cosmic ideologies (and the forces that lie behind them): either Law or Chaos, and either Good or Evil. A character may choose just one alignment (e.g., a commitment to Law, but neither Good nor Evil), or one of each (i.e., Lawful Good, Lawful Evil, Chaotic Good, or Chaotic Evil).
+
+- **Law**: Fervently believe in order and stability. Disorder is anathema.
+- **Chaos**: Thrive on mutability and change. Stagnation is anathema.
+- **Good**: Fervently believe in altruism, compassion, and justice.
+- **Evil**: The only restraints are imposed restraints; actions are usually weighed solely on how they benefit oneself.
+
+Characters may instead forego an alignment and choose to be **Unaligned**. This does not mean the person is neutral or incapable of taking a position on something. Neither does it mean that they cannot serve the cause of the aligned, simplyt aht they lack their fervent, formal commitment.
+
+Players can choose to conceal their choice of alignment (or lack thereof) from outsiders or even the rest of their party, but must tell the referee what they've picked.
 
 ## Choose Languages
 
@@ -107,11 +114,11 @@ All characters receive one feat at 1st level, and another feat at each name leve
 
 ### Warrior feats
 
-- **Brawler**: If your melee opponent is size Large or less, and you hit them with a natural 18 or 19 on your attack roll, then in addition to your regular damage you roll 1d4 and apply the following effect (if a result is not appropriate, the off-balance option occurs):
-  1. Bash them for an additional 1d4 damage (+2 per name level).
-  2. Disarm them.
-  3. Knock them off-balance: the creature re-rolls its successful melee attacks next round (or this round, if you attacked first).
-  4. Knock them prone.
+- **Brawler**: If your melee opponent is no more than one size level larger than you, and your attack roll against them is a natural 18 or 19, then in addition to your regular damage you can either:
+  1. Disarm them
+  2. Trip them (they become prone; two-legged creatures only)
+  3. Drive them directly back 5 feet, if the space is available to do so. You may follow up immediately with a free 5-foot move of your own, even if you have already made your full move this turn or are otherwise locked in combat.  
+     If none of those are possible or desired, then instead you bash them for an additional 1d4 damage (+2 per name level).
 - **Captain**: Some are born to command. Your party gains a +1 initiative bonus. Add a +1 attack bonus to all other party members and associated NPCs, raised to +2 at level 10 or higher (this does not benefit yourself). Apply +2 to friendly Morale checks. These bonuses apply only as long as your orders can be understood and the individuals benefitting are willing to be led by you. Multiple captains in a group do not stack these benefits.
 - **Defender**: If you decide that none will pass, then _none will pass_. You ignore all magical commands to move aside, flee, surrender and the like, and are immune to all fear-based effects, magical or not. You gain a 4-point modifier in your favor when resisting any other effect that would result in you being involuntarily moved. Also, in combat, you can always choose to receve the effects of the Guard combat stance, even if using another stance. If you actually choose the Guard stance, you can intercept up to four enemies instead of two.
 - **Great-Weapon Fighter**: When attacking with a two-handed melee weapon, your critical hit range improves by 1, plus 1 per name level (e.g. you score critical hits on a natural to-hit roll of 19-20 at level 1, 18-20 at level 5, etc.).
@@ -759,6 +766,46 @@ Casters learn one random spell each time they gain a level from a random school 
 - **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 week + 100sp per level of the spell, and a successful Moderate (Arc x2) check, rolled at the end of the binding period; apply +2 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
 - **Research**: Casters can research new spells. These can be variants of spells the caster already knows--a Hard (Arc) check--spells the caster has witnessed being cast--a Very Hard (Arc) check--or spells the caster has only heard of--a Heroic (Arc) check. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 1d4+1 x 50sp in materials and 1 week.
 
+### Mage Spell Progression Table
+
+This shows the number of spells of a given spell level that a mage can prepare per day (also known as their spell slots). If the mage is a specialist, they add one to each level's spell slot total, but the extra spell must be from the school specialized in. If a spell is level-adjusted through feats, that spell is treated in all ways as a spell of the level to which it has been modified.
+
+| Mage Level |  1  |  2  |  3  |  4  |  5  |  6  |
+| :--------: | :-: | :-: | :-: | :-: | :-: | :-: |
+|     1      |  2  |     |     |     |     |     |
+|     2      |  3  |     |     |     |     |     |
+|     3      |  3  |  1  |     |     |     |     |
+|     4      |  3  |  2  |     |     |     |     |
+|     5      |  4  |  2  |     |     |     |     |
+|     6      |  4  |  2  |  1  |     |     |     |
+|     7      |  4  |  3  |  2  |     |     |     |
+|     8      |  5  |  3  |  2  |     |     |     |
+|     9      |  5  |  3  |  2  |  1  |     |     |
+|     10     |  5  |  3  |  2  |  2  |     |     |
+|     11     |  5  |  4  |  3  |  2  |     |     |
+|     12     |  5  |  4  |  3  |  2  |  1  |     |
+|     13     |  6  |  4  |  3  |  2  |  1  |     |
+|     14     |  6  |  4  |  3  |  3  |  2  |     |
+|     15     |  6  |  5  |  4  |  3  |  2  |  1  |
+|     16     |  6  |  5  |  4  |  3  |  2  |  1  |
+|     17     |  6  |  5  |  4  |  3  |  3  |  1  |
+|     18     |  6  |  5  |  4  |  4  |  3  |  2  |
+|     19     |  6  |  6  |  5  |  4  |  3  |  2  |
+|     20     |  6  |  6  |  5  |  4  |  3  |  2  |
+
+### The Schools of Magic
+
+All spells belong to one of eight schools of magic. A caster can only learn spells from schools to which they have access. A caster gains access to a new school of their choice at every name level, learning random spells belonging to that school, one at each level they can cast. The schools are:
+
+- **Abjuration**: Spells protective in nature. These frequently ward against damage or hostile effects, like gas, poison, possession, etc.
+- **Conjuration**: Spells that summon creatures or objects, from a simple fog to extraplanar entities that serve your every whim.
+- **Divination**: Spells that reveal information, from hidden traps and chambers to items and fell secrets.
+- **Enchantment**: Spells that affect the minds of others and bend life to your will--men, monsters, and even plants--making them angry or ambivalent, docile or dependent.
+- **Evocation**: Spells that shape raw magic itself. Most purely offensive spells (like _Magic Missile_, _Fireball_, etc.) belong to this school, making it nearly mandatory for any aspiring battle wizard.
+- **Illusion**: Spells that deceive; imaginary sounds, smells, objects, creatures, and even entire environments are possible.
+- **Necromancy**: Spells manipulating the energies of life and death, covering both healing the living and interactions with the dead (and undead).
+- **Transmutation**: Spells that alter the properties of a creature, object, or environment. One can fly, breathe underwater, or gain great strength, alter the size of a creature or object, or transmute one type of material into another. Sometimes called "Alteration."
+
 ### Scrolls
 
 Spells can be bound to scrolls; each holds one spell. Holding it with both hands and reading from it aloud casts its spell, disintegrating the scroll.
@@ -769,16 +816,11 @@ For the purposes of range and so on, a scroll spell is treated as if the reader 
 
 Scrolls may be scribed by anyone who has the ability to both read scrolls and to cast the spell being scribed. It costs 500sp and one week per level of the spell, which can be broken up into multiple sessions. This is a Moderate (Arc x2) check, rolled in secret by the referee at the end of the week. On a roll of a 1, the referee rerolls: a result of 1-10 means that a cursed scroll has been created.
 
-### Mage Spell Progression Table
-
-This shows the number of spells of a given spell level that a mage can prepare per day (also known as their spell slots). If the mage is a specialist, they add one to each level's spell slot total, but the extra spell must be from the school specialized in. If a spell is level-adjusted through feats, that spell is treated in all ways as a spell of the level to which it has been modified.
-
-| Mage Level |  1  |  2  |  3  |  4  |  5  |  6  |
-| :--------: | :-: | :-: | :-: | :-: | :-: | :-: |
-|     1      |  2  |     |     |     |     |     |
-|     2      |  3  |     |     |     |     |     |
-
 **Creating Magic Items:** Potions are created by alchemists, with the more powerful potions usually requiring the help of a Magic-User. A Magic-User seeking to create potions must employ an alchemist. A Magic-User must be 9th level to create potions on their own, and 11th level to create other magic items.
+
+### Spells
+
+Spells are as in [_Simulacrum_](https://osrsimulacrum.blogspot.com/2021/06/simulacrum-beta-release.html).
 
 ## Mapping
 
