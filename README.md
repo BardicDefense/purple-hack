@@ -1,6 +1,6 @@
 # Purple Hack
 
-> _The following are "house rules" and clarifications, a mish-mash of D&D Basic/Expert a la OSE, and a fantastic ruleset called [Simulacrum](https://osrsimulacrum.blogspot.com/2021/06/simulacrum-beta-release.html). Rampant stealing has occured below, and is intended only for use in my own home games._
+> _The following are "house rules" and clarifications, a mish-mash of D&D Basic/Expert a la OSE, and a fantastic ruleset called [Simulacrum](https://osrsimulacrum.blogspot.com/2021/06/simulacrum-beta-release.html). Rampant stealing has occurred below, and is intended only for use in my own home games._
 
 # Table of Contents
 
@@ -56,10 +56,10 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 
 - **Strength** measures physical might. It affects your lifting, carrying, and grappling. Any Str modifier is applied to your melee and thrown weapon attack damage.
 - **Dexterity** measures agility, reflexes, and hand-eye coordination. Any Dex mod is applied to your Armor Class, as long as you can move freely.
-- **Constitution** measures endurance and vitatliy. Any Con mod is applied to your Hit Point total at the start of the game and each time you go up a level.
+- **Constitution** measures endurance and vitality. Any Con mod is applied to your Hit Point total at the start of the game and each time you go up a level.
 - **Perception** measures your observational acuity. Any Per mod affects your ability to see through illusions, and to spot traps, secret doors, and ambushes.
 - **Willpower** measures discipline and mental endurance. Any Will mod affects your ability to resist enchantment, fear, mind control, possession, and other mental attacks, as well as to avoid death.
-- **Arcana** measures your connection to magical forces. Any Arc mod is applied to chanes to learn spells and to saving throws to resist spell damage.
+- **Arcana** measures your connection to magical forces. Any Arc mod is applied to chances to learn spells and to saving throws to resist spell damage.
 
 ## Choose a Character Race & Make Any Adjustments
 
@@ -119,7 +119,7 @@ Your character may align themselves with one of each of the great cosmic ideolog
 - **Good**: Fervently believe in altruism, compassion, and justice.
 - **Evil**: The only restraints are imposed restraints; actions are usually weighed solely on how they benefit oneself.
 
-Characters may instead forego an alignment and choose to be **Unaligned**. This does not mean the person is neutral or incapable of taking a position on something. Neither does it mean that they cannot serve the cause of the aligned, simplyt aht they lack their fervent, formal commitment.
+Characters may instead forego an alignment and choose to be **Unaligned**. This does not mean the person is neutral or incapable of taking a position on something. Neither does it mean that they cannot serve the cause of the aligned, simply that they lack their fervent, formal commitment.
 
 Players can choose to conceal their choice of alignment (or lack thereof) from outsiders or even the rest of their party, but must tell the referee what they've picked.
 
@@ -138,15 +138,15 @@ All characters receive one feat at 1st level, and another feat at each name leve
   2. Trip them (they become prone; two-legged creatures only)
   3. Drive them directly back 5 feet, if the space is available to do so. You may follow up immediately with a free 5-foot move of your own, even if you have already made your full move this turn or are otherwise locked in combat.  
      If none of those are possible or desired, then instead you bash them for an additional 1d4 damage (+2 per name level).
-- **Captain**: Some are born to command. Your party gains a +1 initiative bonus. Add a +1 attack bonus to all other party members and associated NPCs, raised to +2 at level 10 or higher (this does not benefit yourself). Apply +2 to friendly Morale checks. These bonuses apply only as long as your orders can be understood and the individuals benefitting are willing to be led by you. Multiple captains in a group do not stack these benefits.
-- **Defender**: If you decide that none will pass, then _none will pass_. You ignore all magical commands to move aside, flee, surrender and the like, and are immune to all fear-based effects, magical or not. You gain a 4-point modifier in your favor when resisting any other effect that would result in you being involuntarily moved. Also, in combat, you can always choose to receve the effects of the Guard combat stance, even if using another stance. If you actually choose the Guard stance, you can intercept up to four enemies instead of two.
+- **Captain**: Some are born to command. Your party gains a +1 initiative bonus. Add a +1 attack bonus to all other party members and associated NPCs, raised to +2 at level 10 or higher (this does not benefit yourself). Apply +2 to friendly Morale checks. These bonuses apply only as long as your orders can be understood and the individuals benefiting are willing to be led by you. Multiple captains in a group do not stack these benefits.
+- **Defender**: If you decide that none will pass, then _none will pass_. You ignore all magical commands to move aside, flee, surrender and the like, and are immune to all fear-based effects, magical or not. You gain a 4-point modifier in your favor when resisting any other effect that would result in you being involuntarily moved. Also, in combat, you can always choose to receive the effects of the Guard combat stance, even if using another stance. If you actually choose the Guard stance, you can intercept up to four enemies instead of two.
 - **Great-Weapon Fighter**: When attacking with a two-handed melee weapon, your critical hit range improves by 1, plus 1 per name level (e.g. you score critical hits on a natural to-hit roll of 19-20 at level 1, 18-20 at level 5, etc.).
-- **Marksman**: If firing into melee, you can pick your target instead of rolling randomly. Your ranged to-hit penalties are reduced by 2 points, plus 2 per name level. Your rate of fire with small thrown weapons inscreases from 1 to 2.
+- **Marksman**: If firing into melee, you can pick your target instead of rolling randomly. Your ranged to-hit penalties are reduced by 2 points, plus 2 per name level. Your rate of fire with small thrown weapons increases from 1 to 2.
 - **Read Scrolls**: You can read Mithric, as well as cast from scrolls containing spells from four schools of your choice; if an Arcanist, two of these schools must be the two schools you already know. This does not grant the ability to create scrolls.
 - **True Grit**: You may reroll failed death saves.
 - **Whirlwind**: +2 AC (and a further +1 AC per name level). If not casting a spell that round, you receive the effects of the Dash combat stance (this does not count as your stance pick for the round). You are not locked in melee combat unless in melee with at least three opponents. To gain these benefits, you must be able to move freely, not wearing medium or heavy armor, and cannot be encumbered.
 
-### Mage feats
+### Mage Feats
 
 A mage can combine multiple feats on a spell. The spell adjustments from these stack (e.g. a _Silent Magic Missile_ spell with extended range would in all ways be treated as a 3rd level spell). A feat cannot take a spell over 6th level. Note that a spell cannot be both Silent and Stilled.
 
@@ -154,14 +154,14 @@ A mage can combine multiple feats on a spell. The spell adjustments from these s
 - **Dextrous**: You can cast 1st-level spells using only one hand. For each name level you have, the level of spells that can be cast in this way increase by one.
 - **Familiar**: You acquire a Tiny or Small mundane creature appropriate to the area that obeys your commands. You can see through its eyes, and gain a small power appropriate to the creature while doing so (e.g. +2 visual Perception for a bird). Regardless of its normal statblock, the creature has 2 Hit Dice. Its death applies one level of fatigue to you for the next week, after which you may take a new familiar.
 - **Metamagic**: You can double the duration of your spells (not concentration, permanent, or instant spells), or you can double the base range of spells with Short, Medium or Long range (range increases due to gaining levels are unaffected). Preparing a Metaspell uses up a spell slot one level higher than the spell's normal level for each alteration you make (e.g. duration is +1 spell level; duration & range is +2).
-- **Quickcast**: Casting times of your spells are reduced by 1 (see [magic phase](#combat-phases)). This can take them to - or below. This feat may be taken up to twice.
+- **Quickcast**: Casting times of your spells are reduced by 1 (see [magic phase](#combat-phases)). This can take them to 0 or below. This feat may be taken up to twice.
 - **Spell Silence**: You can craft your spells to require no vocal component. Preparing a Silent spell uses up a spell slot one level higher than the spell's normal level. This feat may be taken twice. The second time removes the vocal component from your spells permanently, with no level adjustment to them required.
 - **Stillcasting**: You can craft your spells to require no somatic components. Preparing a Stilled spell uses up a spell slot one level higher than the spell's normal level. This feat may be taken twice. The second time removes the somatic component from your spells permanently, with no level adjustment to them required.
 - **Undeniable**: Once an Undeniable spell is declared, loss of concentration does not disrupt it (unless you are killed or otherwise rendered incapable of casting). All other restrictions apply. Preparing an Undeniable spell uses up a spell slot one level higher than the spell's normal level.
 
-### Unrestricted feats
+### Unrestricted Feats
 
-- **Anointed**: You are zealous for your god or extra-planar benefactor. Spells or effects targeting your alignment always affect you, even if they normally only affect creaturs that are supernatural (e.g. _Protection from Law_). You cannot be Unaligned.
+- **Anointed**: You are zealous for your god or extra-planar benefactor. Spells or effects targeting your alignment always affect you, even if they normally only affect creatures that are supernatural (e.g. _Protection from Law_). You cannot be Unaligned.
   - Your weapon attacks against creatures of one opposing alignment that are undead or extraplanar add +1 weapon die of damage (add/gain another if level 10 or higher). This always counts as a magical attack.
   - When resisting spells and effects that would place you in direct conflict with your patron's known tenets and goals, the saving throw difficulty is one level lower.
   - Gain a small power appropriate to your patron (e.g. healing touch once per day for a god of life or healing).
@@ -465,7 +465,7 @@ If the players do not immediately attack, the referee rolls on the Reaction Tabl
 
 ## Attacking
 
-To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceed's the target's Armor Class (AC), the attack hits. The most common attack modifiers are:
+To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceeds the target's Armor Class (AC), the attack hits. The most common attack modifiers are:
 
 - Attacker is striking from the rear: +2
 - Target is surprised: +4 (replaces above)
@@ -502,7 +502,7 @@ Each combat round is 10 seconds and has seven steps, taken in the following orde
 
 Any character not surprised or casting a spell must pick a stance. A character casting a spell must pick the exact spell at this time, and cannot do anything else that round (i.e., no moves, attacks, actions, etc.).
 
-**Combat Stances**
+#### **Combat Stances**
 
 - **Offensive**: +2 attack bonus
 - **Defensive**: +2 Armor Class
@@ -546,14 +546,15 @@ In an encounter, a creature can move once per round up to its combat speed (for 
 
 #### Locked in Melee
 
-A creature within 5 feet of one or more enemies (three or more if it has the Whirlwind feat) is **locked** in melee with those enemies. Locked combatants cannot use missile weapons or leave thier location unless they make a fighting withdrawal or flee.  
-**Blind** creatures can only lock opponents in melee if surrounding them.  
-**Flight and Teleportation** allow one to leave melee without penalty, even if surrounded.  
-**Invisible** creatures are not locked unless their melee opponents can see them or otherwise fully ignore invisibility, or are surrounding them.  
-**Prone** creatures cannot lock opponents in melee.  
-**Size**: A creature more than two sizes large than any of their melee opponents is not locked, even if surrounded.
+A creature within 5 feet of one or more enemies (three or more if it has the Whirlwind feat) is **locked** in melee with those enemies. Locked combatants cannot use missile weapons or leave their location unless they make a fighting withdrawal or flee.
 
-#### Fighting withdrawal
+- **Blind** creatures can only lock opponents in melee if surrounding them.
+- **Flight and Teleportation** allow one to leave melee without penalty, even if surrounded.
+- **Invisible** creatures are not locked unless their melee opponents can see them or otherwise fully ignore invisibility, or are surrounding them.
+- **Prone** creatures cannot lock opponents in melee.
+- **Size**: A creature more than two sizes large than any of their melee opponents is not locked, even if surrounded.
+
+#### Fighting Withdrawal
 
 A creature locked in melee can move out of that melee if they didn't make a missile attack that round, but all their movement for the round must be backwards (applying the standard x2 movement cost penalty). They can take no actions that round.
 
@@ -587,7 +588,7 @@ Monsters and NPCs (but not PCs) have a **Morale threshold** between 1 and 20, re
 
 Creatures with a Morale of 20 only fight if cornered and always flee if able, while those with a Morale of 1 never retreat unwillingly, but can be convinced to (if intelligent), and are still susceptible to magical fear. A score of -- means the creature ignores the Morale rules altogether, just like PCs.
 
-The referee makes a Morale check--rolling 1d20, applying any situational modifiers (light fatigue gives -2, heavy fatigue gives -4, etc.)--at the end of a round for each of the following that occured that round:
+The referee makes a Morale check--rolling 1d20, applying any situational modifiers (light fatigue gives -2, heavy fatigue gives -4, etc.)--at the end of a round for each of the following that occurred that round:
 
 - Half or more of the side present at the battle's start has been incapacitated or killed.
 - The last of the side (or its only member) was reduced to 1/4 or less of its full Hit Point total.
@@ -621,7 +622,7 @@ If the enemy follows, **pursuit checks** are made. The referee rolls 1d12 for ea
 Each individual in a pursuit has one **pursuit action** each pursuit round. However, neither mapping nor spellcasting can occur.
 
 - **Dropping Items**: Any pursued as their action can drop items to apply a bonus to their side's pursuit check. Dropping desirable items like food or treasure can be effective, but this depends on how the pursuers view what is dropped, how much is dropped, and how many pursuers there are compared to what is dropped; the referee must arbitrate this. If enough food is dropped & desired, iron rations (+2) are always less effective than fresh rations (+4).
-- **Missile Attacks**: After each pursuit check, if the pursuit is not over, then missile attacks can be mde by those who have not used their action. Assume a range of 20'.
+- **Missile Attacks**: After each pursuit check, if the pursuit is not over, then missile attacks can be made by those who have not used their action. Assume a range of 20'.
 
 ### Ending Pursuit
 
@@ -809,7 +810,7 @@ Potion brewing requires a stocked laboratory of at least 1,000sp in value. A mag
 Casters learn one random spell each time they gain a level from a random school they can access (plus another spell if a specialist). If the caster has just gained access to a new spell level, the spell(s) are from that level. They can also gain access to new spells via the following methods:
 
 - **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 week + 100sp per level of the spell, and a successful Moderate (Arc x2) check, rolled at the end of the binding period; apply +2 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
-- **Research**: Casters can research new spells. These can be variants of spells the caster already knows--a Hard (Arc) check--spells the caster has witnessed being cast--a Very Hard (Arc) check--or spells the caster has only heard of--a Heroic (Arc) check. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 1d4+1 x 50sp in materials and 1 week.
+- **Research**: Casters can research new spells. These can be variants of spells the caster already knows--a Hard (Arc) check--spells the caster has witnessed being cast--a Very Hard (Arc) check--or spells the caster has only heard of--a Heroic (Arc) check. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 1d4+1x50sp in materials and 1 week.
 
 ### Mage Spell Progression Table
 
@@ -964,7 +965,7 @@ Strongholds and domains are as in OSE Advanced, with clarifications and detailed
 
 ## Swimming
 
-All characters can swim, barring an unusual background. Assuming no current, a land-dweller swims at half their combat speed, and can do so for hours equal to 1/4 their Con score (3/4 speed and 1/2 Con with the Swimming skill); round down. If lightly encumbered, halve the amount of time a character can swim. Higher encumbrance (or wearing medium or heavy armour) causes one to sink and begin to drown if in deep enough water (see [Fatigue](#fatigue)).
+All characters can swim, barring an unusual background. Assuming no current, a land-dweller swims at half their combat speed, and can do so for hours equal to 1/4 their Con score (3/4 speed and 1/2 Con with the Swimming skill); round down. If lightly encumbered, halve the amount of time a character can swim. Higher encumbrance (or wearing medium or heavy armor) causes one to sink and begin to drown if in deep enough water (see [Fatigue](#fatigue)).
 
 ## Trap Detection
 
@@ -1047,7 +1048,7 @@ Searching a hex requires spending the same number of hex points that it cost to 
 
 Given a means of producing flame (e.g. a tinderbox, magic) and a stash of wood (either gathered from the forest or carried in packs), a character may attempt to build a fire.
 
-**Good conditions:** In favourable conditions, with decent wood and a relatively dry campsite, fire-building automatically succeeds.
+**Good conditions:** In favorable conditions, with decent wood and a relatively dry campsite, fire-building automatically succeeds.
 
 **Bad conditions:** In more troublesome circumstances, getting a fire going requires a Moderate (8+) check, though "Dwarves can make a fire almost anywhere out of almost anything, wind or no wind" and will automatically succeed. However, the referee may reduce the chance of success to account for extreme cold or damp.
 
@@ -1067,14 +1068,13 @@ Given a fire, cooking pots, and ingredients (e.g. foraged food, standard rations
 
 When camping in the wild, characters’ ability to get a good night’s rest is determined by their equipment (whether they have a bedroll and/or tent), their warmth (whether they have a fire burning), and the season. Non-ideal circumstances require PCs to make a Con check, with the difficulty listed below.
 
-| Fire     | Bed             | Winter            | Spring            | Summer            | Autumn            |
-| -------- | --------------- | ----------------- | ----------------- | ----------------- | ----------------- |
-| No fire  | No bedding      | Automatic failure | Hard (14+)        | Daunting (11+)    | Hard (14+)        |
-| No fire  | Bedroll or tent | Automatic failure | Daunting (11+)    | Good night's rest | Daunting (11+)    |
-| No fire  | Bedroll & tent  | Hard (14+)        | Daunting (11+)    | Good night's rest | Daunting (11+)    |
-| Campfire | No bedding      | Automatic failure | Hard (14+)        | Daunting (11+)    | Hard (14+)        |
-| Campfire | Bedroll or tent | Hard (14+)        | Good night's rest | Good night's rest | Good night's rest |
-| Campfire | Bedroll & tent  | Daunting (11+)    | Good night's rest | Good night's rest | Good night's rest |
+| Fire | Bed             | Winter       | Spring         | Summer         | Autumn         |
+| ---- | --------------- | ------------ | -------------- | -------------- | -------------- |
+| N    | No bedding      | Auto failure | Hard (14+)     | Daunting (11+) | Hard (14+)     |
+| N    | Bedroll or tent | Auto failure | Daunting (11+) | Good rest      | Daunting (11+) |
+| N    | Bedroll & tent  | Hard (14+)   | Daunting (11+) | Good rest      | Daunting (11+) |
+| Y    | No bedding      | Auto failure | Hard (14+)     | Daunting (11+) | Hard (14+)     |
+| Y    | Bedroll or tent | Hard (14+)   | Good rest      | Good rest      | Good rest      |
 
 **If the check succeeds:** The character gets a good night’s sleep and regains 1hp overnight.
 
@@ -1082,7 +1082,7 @@ When camping in the wild, characters’ ability to get a good night’s rest is 
 
 ## Hunting
 
-In the wilderness, the party can stop and hunt for food. Hunting must be the sole activity that day (i.e. no resting or travelling), and generates a random encounter check for that hex. So long as the hex has game, hunting always feeds the party for the day, even if the hunting check fails; if successful, it also provides 1 additional standard ration for every point over the result needed.
+In the wilderness, the party can stop and hunt for food. Hunting must be the sole activity that day (i.e. no resting or traveling), and generates a random encounter check for that hex. So long as the hex has game, hunting always feeds the party for the day, even if the hunting check fails; if successful, it also provides 1 additional standard ration for every point over the result needed.
 
 Hunting is a Daunting (11+) check, though the Fieldcraft feat lowers the difficulty in favored terrain to Moderate (8+). However, some hexes may be more or less difficult, others might require a character with Fieldcraft and the matching favored terrain to hunt in at all, while still others are too barren for any hunter.
 
