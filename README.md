@@ -1062,7 +1062,7 @@ Given a fire, cooking pots, and ingredients (e.g. foraged food, standard rations
 
 **If the check succeeds:** An especially tasty dish is produced. Those who eat the meal lower the difficulty of the Con check required to rest (see below), due to their hearty supper.
 
-**If the check fails:** A palatable but not exemplary dish is produced. A natural 20 denotes a ruined meal (burned, spilled, etc.) that is utterly inedible. No effect on the Con check.
+**If the check fails:** A palatable but not exemplary dish is produced. A natural 20 denotes a ruined meal (burned, spilled, etc.) that is utterly inedible. No Con check mod.
 
 ### Rest Checks
 
