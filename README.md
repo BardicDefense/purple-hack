@@ -220,7 +220,7 @@ _Why is your character risking their life for adventure? This can be one word, o
 
 We’re using “item slot” encumbrance, measuring both weight and awkwardness.
 
-Assuming proper carrying gear, you can carry 10 + your Str mod slots of items.
+Assuming proper carrying gear, you can carry 12 + your Str mod slots of items.
 
 - **Small** items (like chalk or potions) fit four to a slot.
 - **Medium** items (most things) are 1 slot.
@@ -240,23 +240,24 @@ Coins & gems stack 500 to a slot. A typical body (willing or unconscious), fills
 
 Each encumbrance level also raises the difficulty of applicable tasks, such as climbing, by one level.
 
-**Bulky**: Bulky items, such as worn heavy armor, impose a greater encumbrance than just item points. Each automatically adds one encumbrance level _after_ calculating the bearer's item slot load.
+**Bulky**: Bulky items, such as worn heavy armor, impose a greater encumbrance than just item slots. Each automatically adds one encumbrance level _after_ calculating the bearer's item slot load.
 
-## Basic Gear
+## Starting Gear
 
-The following base gear is automatically added to your character for free and does not count against your slots:
+The following base gear is automatically added to your character for free:
 
-- One weapon of your choice (+ 20 arrows/bolts if missile weapon)
-- Backpack, pouches, waterskin, tinderbox (for lighting torches or small fires)
+- One weapon of your choice (+ 20 arrows/bolts if missile weapon) (number of slots depends on size)
+- Backpack, pouches, waterskin (M), tinderbox (S) (for lighting torches or small fires)
 - Misc tiny items (within reason); worn items/clothing
 
-After this, you can have whatever basic gear you wish (within reason, as determined by the referee), which does fill slots normally. Some common basic adventuring items include but are not limited to (size listed after each):
+After this, you can have whatever basic gear you wish (within reason, as determined by the referee). Some common basic adventuring items include but are not limited to (size listed after each):
 
 - **Bedroll (M)**: A blanket that can double as a sleeping bag. Helps protect against the cold when [sleeping in the wilds](#sleeping-in-the-wilds).
 - **Caltrops, bag (M)**: Small metal spikes sufficient to cover a 5' × 5' area. Creatures moving through have a 2-in-6 chance of treading on a spike for a 50% penalty to movement rate for 24 hours (or until magically healed). Intelligent creatures can move cautiously through areas with known caltrops, which requires their entire Movement Phase to travel 5', but eliminates any risk of impalement.
 - **Candle (S)**: Dimly illuminates a 5' radius, and burns for 4 hours.
 - **Chalk (S)**: Useful for marking trails in dungeons.
 - **Crowbar (M)**: Makes it easier to force open doors, and doubles as an improvised medium weapon.
+- **Garlic, bulb**: Repels vampires.
 - **Hammer (S)**: Doubles as an improvised small weapon.
 - **Iron spike (S)**: One of these can be hammered in to block one typical door.
 - **Lantern (M)**: A lantern can be closed to hide its light, burns one flask of lamp oil every 4 hours, and illuminates a 20' radius.
@@ -272,6 +273,43 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 - **Torch (M)**: Burns for 1 hour, illuminating a 40' radius. Will remain lit if dropped to the ground or thrown. Can be used as a small weapon without dousing it; some targets take further damage due to the fire. Also useful to burn away rot grubs, green slime, and webs.
 - **Twine ball (100') (S)**: Can hold no more than 10 lbs of weight before snapping.
 - **Vial (S)**: Glass. Holds 4 oz of liquid.
+
+Finally, you can add "costed" items, which do cost money at character creation.
+
+**Note**: After character creation, all items you buy in the world are "costed items," even if they appear on the free list above; their prices may differ from the prices below.
+
+### Costed Items
+
+| Item                          | Cost |
+| ----------------------------- | ---- |
+| Acid, vial (S)                | 50sp |
+| Arrowhead, silver             | 5sp  |
+| Book, leatherbound, 64pgs (M) | 30sp |
+| Chain, 10' (L)                | 45sp |
+| Holy symbol, iron             | 5sp  |
+| Holy symbol, silver           | 50sp |
+| Holy symbol, wooden           | 1sp  |
+| Holy water vial (S)           | 25sp |
+| Mapping kit (M)               | 10sp |
+| Mirror, small, bronze (S)     | 2sp  |
+| Rope, silk, 50' (M)           | 50sp |
+| Tent (L)                      | 20sp |
+| Thieves' picks & tools (M)    | 12sp |
+| Wolfsbane sprig (S)           | 1sp  |
+
+**Acid, vial**: Can splash contents on a target within 5' or hurl it as a small thrown weapon; it shatters on impact. A hit deals 1d6+1 acid damage. A vial can also be used to open most mundane locks in 1 turn.
+
+**Holy symbols**: Wooden symbols incur -1 penalty to Turn Undead hit dice roll; silver symbols receive +1 bonus.
+
+**Holy water**: Can splash contents onto an undead creature within 5' or hurl it as a small thrown weapon; it shatters on impact. Causes 2d4 damage when thrown on most undead.
+
+**Mapping kit**: A cased roll of parchment plus quills and vials of ink, sufficient to map all but the largest areas.
+
+**Rope, silk**: Lighter and stronger than hemp, can bear the weight of five human-sized beings. Comes with grapnel.
+
+**Tent**: Protects against adverse weather when adventuring in the wilds. See [sleeping in the wilds](#sleeping-in-the-wilds).
+
+**Wolfsbane**: If a lycanthrope is hit by wolfsbane, it must make a Very Hard (17+) save or run away in fear. The sprig must be swung or thrown as a weapon.
 
 ## Armor
 
@@ -308,6 +346,7 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 | Weapon                  | Size & Damage | Cost | Hands | S:0 | M:-4 | F:-8 |
 | ----------------------- | :-----------: | :--: | :---: | :-: | :--: | :--: |
+| Arrows/bolts x20        |       M       | 20sp |   -   |  -  |  -   |  -   |
 | Bow, short\*            |       M       | 40sp |   2   | 45' | 90'  | 180' |
 | Bow, long\* (req 9 Str) |       M       | 60sp |   2   | 90' | 180' | 360' |
 | Crossbow, light         |       M       | 50sp |   2   | 45' | 90'  | 180' |
@@ -321,42 +360,6 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 \*\*+2 attack bonus, reload requires action.  
 \*\*\*See costed equipment list below for details.  
 †Plus user's Str modifier.
-
-## Costed Items
-
-| Item                          | Cost |
-| ----------------------------- | ---- |
-| Acid, vial (S)                | 50sp |
-| Arrowhead, silver             | 5sp  |
-| Book, leatherbound, 64pgs (M) | 30sp |
-| Chain, 10' (L)                | 45sp |
-| Garlic, bulb                  | 1cp  |
-| Holy symbol, iron             | 5sp  |
-| Holy symbol, silver           | 50sp |
-| Holy symbol, wooden           | 1sp  |
-| Holy water vial (S)           | 25sp |
-| Mapping kit (M)               | 10sp |
-| Mirror, small, bronze (S)     | 2sp  |
-| Rope, silk, 50' (M)           | 50sp |
-| Tent (L)                      | 20sp |
-| Thieves' picks & tools (M)    | 12sp |
-| Wolfsbane sprig (S)           | 1sp  |
-
-**Acid, vial**: Can splash contents on a target within 5' or hurl it as a small thrown weapon; it shatters on impact. A hit deals 1d6+1 acid damage. A vial can also be used to open most mundane locks in 1 turn.
-
-**Garlic**: Repels vampires.
-
-**Holy symbols**: Wooden symbols incur -1 penalty to Turn Undead hit dice roll; silver symbols receive +1 bonus.
-
-**Holy water**: Can splash contents onto an undead creature within 5' or hurl it as a small thrown weapon; it shatters on impact. Causes 2d4 damage when thrown on most undead.
-
-**Mapping kit**: A cased roll of parchment plus quills and vials of ink, sufficient to map all but the largest areas.
-
-**Rope, silk**: Lighter and stronger than hemp, can bear the weight of five human-sized beings. Comes with grapnel.
-
-**Tent**: Protects against adverse weather when adventuring in the wilds. See [sleeping in the wilds](#sleeping-in-the-wilds).
-
-**Wolfsbane**: If a lycanthrope is hit by wolfsbane, it must make a Very Hard (17+) save or run away in fear. The sprig must be swung or thrown as a weapon.
 
 ## Quick Packs
 
@@ -719,11 +722,7 @@ Weapons and armor can be repaired by an appropriate craftsman, costing 10% of th
 
 ## Experience & Leveling
 
-You gain experience primarily through recovering treasure and then **spending it**. 1sp spent = 1XP. Money spent on purchasing or repairing equipment, spellcasting services, and on monthly upkeep costs does not count toward XP. Money spent on acquiring retainers and personally conducted magical research does count towards XP. In general, you can flavor this spending as martial training, carousing, philanthropy, greasing palms, investing in local faction relations, or any number of other in-world expenditures, limited only by your imagination.
-
-XP from magical research is earned when the research is completed. Failing at magical research does earn XP.
-
-Each new dungeon room or hex **explored and mapped** grants 10 XP per character. Each hex or room past the fifth in a given delve or adventure begins to grant cumulative XP (i.e. room #6=20XP, room #7=30XP, etc.). The referee can optionally multiply this per-room number by the dungeon's level or hex's distance from civilization to account for the party's growth & added difficulty. Once the party returns to safety to heal and restock, the counter resets. A room or hex can only ever be “explored” for XP in this way once.
+You gain experience primarily through recovering treasure: 1sp spent = 1XP. Also, each new dungeon room or hex **explored and mapped** grants 10 XP per character. Each hex or room past the fifth in a given delve or adventure begins to grant cumulative XP (i.e. room #6=20XP, room #7=30XP, etc.). The referee can optionally multiply this per-room number by the dungeon's level or hex's distance from civilization to account for the party's growth & added difficulty. Once the party returns to safety to heal and restock, the counter resets. A room or hex can only ever be “explored” for XP in this way once.
 
 The table below indicates what a character's XP total needs to reach to advance to each level:
 
