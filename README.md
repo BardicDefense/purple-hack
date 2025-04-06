@@ -278,15 +278,15 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 > [!NOTE]
 > 100cp=10sp=1gp
 
-| Armor               | AC  | Cost  |
-| ------------------- | --- | ----- |
-| Shield (M)          | +1  | 20sp  |
-| Leather or Furs (M) | 12  | 80sp  |
-| Ring (L)            | 13  | 130sp |
-| Scale/Lamellar (L)  | 14  | 180sp |
-| Chainmail (L)       | 15  | 280sp |
-| Splint (L\*)        | 16  | 580sp |
-| Plate (L\*)         | 17  | 850sp |
+| Armor               | AC  | Cost  | Time to Don |
+| ------------------- | :-: | :---: | :---------: |
+| Shield (M)          | +1  | 20sp  |  1 action   |
+| Leather or Furs (M) | 12  | 80sp  |    1 min    |
+| Ring (L)            | 13  | 130sp |    5 min    |
+| Scale/Lamellar (L)  | 14  | 180sp |    5 min    |
+| Chainmail (L)       | 15  | 280sp |    5 min    |
+| Splint (L\*)        | 16  | 580sp |   10 min    |
+| Plate (L\*)         | 17  | 850sp |   10 min    |
 
 \*Heavy armor (L\* = 3 slot) requires minimum 9 Str to wear. A Shield also provides a +2 save bonus vs non-gaseous breath weapons.
 
@@ -690,7 +690,7 @@ Even if players hide somewhere (e.g. a disused storeroom), the encounter roll is
 
 ## Equipment Wear & Tear
 
-Equipment can be worn down! Every object has five levels of decay: new, used, worn, shabby, and ruined. (You can indicate this simply by adding a (n) next to your items when you first acquire them, erasing and replacing as things change.)
+Equipment can be worn down! Every object has five levels of decay: new, used, worn, shabby, and ruined. (You can indicate this simply by adding a (n) next to new items when you first acquire them, erasing and replacing as things change.) Used, worn, and shabby items still function just as well as their new counterparts; they're just more prone to breaking at the most inopportune moments.
 
 Objects are subject to a decay roll after:
 
