@@ -690,11 +690,32 @@ Even if players hide somewhere (e.g. a disused storeroom), the encounter roll is
 
 ## Equipment Wear & Tear
 
-Equipment can be worn down! If you are hit by an attack where the attacker rolled a 20, your armor gains a **notch** of damage (usually denoted by an x on your character sheet next to the weapon). Each notch reduces your AC total by 1. Weapons gain a notch when you roll a 1 on an attack with them. Each weapon notch reduces by one step the damage die you roll with that weapon (i.e. d8 > d6 > d4 > 1).
+Equipment can be worn down! Every object has five levels of decay: new, used, worn, shabby, and ruined. (You can indicate this simply by adding a (n) next to your items when you first acquire them, erasing and replacing as things change.)
 
-Items can be repaired by an appropriate craftsman, costing 10% of the item's original price per notch. Armor and weapons can take no more than 10 notches of damage before they're destroyed.
+Objects are subject to a decay roll after:
 
-Magic weapons and armor take ½ notches instead of full notches.
+- One month of normal use, in normal conditions
+- Three days of wilderness use
+- One day of dungeon use
+- Armor: Receiving a natural-20 hit
+- Weapons: Rolling a natural 1 to hit
+
+Objects that are expressly protected (e.g., a scroll in a scrollcase, or a spellbook in a metal box, etc.) are exempt. Thoughtful storage can reduce wear & tear!
+
+Objects degrade as follows:
+
+- A new object becomes used if a 1 in 4 is rolled. Under stress, a new object breaks on a 1 in 100.
+- A used object becomes worn on a 1 in 20. Under stress, it breaks on a 1 in 50.
+- A worn object becomes shabby on a 1 in 12. Under stress, it breaks on a 1 in 20.
+- A shabby object becomes ruined on a 1 in 8. Under stress, it braks on a 1 in 6.
+
+Magical items roll two of the appropriate dice, only degrading if two 1s are rolled.
+
+You can purchase objects that aren't necessarily new for less money. New items cost 100% of list price, used cost 80% of list price, worn cost 60%, and shabby cost 40%. Likewise, you can sell such objects to merchants for half that price: 50% new, 40% used, 30% worn, and 20% shabby.
+
+### Repairing Items
+
+Weapons and armor can be repaired by an appropriate craftsman, costing 10% of the item's original price to bring it from worn to used, and 20% of its original price to bring it from shabby to worn (i.e., 30% to go from shabby to used).
 
 ## Experience & Leveling
 
