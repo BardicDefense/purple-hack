@@ -788,7 +788,7 @@ Food consumption is divided into 12-hour periods ("1/2 days"); if you engage in 
 There are three general types of food:
 
 - **Durable**: Includes preserved meats, dried fruit, biscuits, root vegetables, and beverages such as beer, wine, and distilled drinks. Are considered "new" for item degradation purposes (see [equipment wear & tear](#equipment-wear--tear)).
-- **Fresh**: Recently picked vegetables and fruits, butchered meats, prepared dishes, and the like. Are considered "worn" for item degradation purposes.
+- **Fresh**: Recently picked vegetables and fruits, butchered meats, prepared dishes, and the like. Are considered "shabby" for item degradation purposes.
 - **Delicacies**: Unusual dishes or foods that provide a complex dining experience, like caviar, suckling pig, unusual distilled spirits, wines, and some prepared desserts. Are considered "shabby" for item degradation purposes.
 
 ### Food Preparation
@@ -833,7 +833,7 @@ The character:
 - **Grumpy**: Feels disturbed and unsatisfied by the meal, suffering a -1 penalty to Willpower checks for 6 hours.
 - **Happy**: Is in such good spirits they gain a +1 save bonus for 24 hours and automatically heal 1hp.
 - **Miserable**: Is bad-tempered and moody due to the meal rumbling in their stomach unpleasantly, suffering a -1 penalty to raw Str and Dex scores for 8 hours.
-- **Sated**: Feels wonderfully stuffed and pleasant. Any healing done that day through rest receives a +1hp bonus per level of the character, and the character receives a +1 bonus to Perceptioin checks for 8 hours.
+- **Sated**: Feels wonderfully stuffed and pleasant. Any healing done that day through rest receives a +1hp bonus per level of the character, and the character receives a +1 bonus to Perception checks for 8 hours.
 - **Tired**: Feels dull and sluggish, making it difficult to feel enthusiasm or think properly, suffering a -1 penalty to Arcana checks for 8 hours.
 - **Vomiting**: Digestively disagrees with the meal, throwing it up between 2-5 hours after eating, bringing a -1 penalty to Strength and Constitution checks for 1-4 hours afterwards, whereupon the character is fully restored.
 
