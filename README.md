@@ -318,15 +318,16 @@ Finally, you can add "costed" items, which do cost money at character creation.
 
 | Armor               | AC  | Cost  | Time to Don |
 | ------------------- | :-: | :---: | :---------: |
-| Shield (M)          | +1  | 20sp  |  1 action   |
+| Small Shield (M)    | +1  | 25sp  |  1 action   |
+| Large Shield (L)    | +2  | 60sp  |  1 action   |
 | Leather or Furs (M) | 12  | 80sp  |    1 min    |
 | Ring (L)            | 13  | 130sp |    5 min    |
 | Scale/Lamellar (L)  | 14  | 180sp |    5 min    |
 | Chainmail (L)       | 15  | 280sp |    5 min    |
-| Splint (L\*)        | 16  | 580sp |   10 min    |
-| Plate (L\*)         | 17  | 850sp |   10 min    |
+| Splint (L+)         | 16  | 580sp |   10 min    |
+| Plate (L+)          | 17  | 850sp |   10 min    |
 
-\*Heavy armor (L\* = 3 slot) requires minimum 9 Str to wear. A Shield also provides a +2 save bonus vs non-gaseous breath weapons.
+\*Heavy armor (L+ = 3 slot) and Heavy Shields require minimum 9 Str to wear. A Shield also provides a +2 save bonus vs non-gaseous breath weapons.
 
 ## Weapons
 
@@ -386,13 +387,10 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 | Item              |  Cost   |
 | ----------------- | :-----: |
-| Barding           |   x4    |
-| Cart              |  50sp   |
+| Cart              |  40sp   |
 | \*\*Feed, per day |   2sp   |
 | Stabling, per day |   1sp   |
 | Wagon             | 1,200sp |
-
-**Barding**: Animal armor. The cost is equal to four times the cost of a normal human-sized armor set of the same type and provides the same AC benefit. Encumbers a mount just as armor does for characters.
 
 **Cart**: Open, road-bound, two-wheeled vehicle. Pulled by 1-2 beasts of burden. Capacity: 2x of the animals drawing it.
 
@@ -772,6 +770,72 @@ Per positive Con modifier point, a character can ignore 30 seconds without air, 
 
 If total exposure to a cause of fatigue is avoided (e.g. a bit of water drank, a fitful nap here or there), the current fatigue level increment is doubled.
 
+## Food
+
+Food is necessary for survival! You can purchase it in settlements or hunt up your own; if not eaten, it will eventually spoil. One pound of food = a Small item (1/4 slot).
+
+### Food Consumption
+
+Food consumption is divided into 12-hour periods ("1/2 days"); if you engage in combat in the morning, while resting in the evening, the amount of food required is different for each 1/2 day period.
+
+- **Combat**: 3lbs of food per 1/2 day. Strenuous work, requiring all your doggedness, while incorporating stress, cuts, bruises, torn ligaments, and a lot of food to refuel.
+- **Labor**: 2lbs of food per 1/2 day. Any steady activity, like travelling, manual labor, repairs, training, etc. Includes any combat in which no damage was taken.
+- **Resting**: 1lb of food per 1/2 day. Minimum physical activity, like healing, casual reading, shopping, etc.
+
+### Food Quality
+
+There are three general types of food:
+
+- **Durable**: Includes preserved meats, dried fruit, biscuits, root vegetables, and beverages such as beer, wine, and distilled drinks.
+- **Fresh**: Recently picked vegetables and fruits, butchered meats, prepared dishes, and the like.
+- **Delicacies**: Unusual dishes or foods that provide a complex dining experience, like caviar, suckling pig, unusual distilled spirits, wines, and some prepared desserts.
+
+### Food Preparation
+
+There are five "standards" of preparing food:
+
+- **Cold Camp**: Eating outdoors, without a fire or cooking, with raw or minimally processed ingredients.
+- **Campfire**: Gains the benefits of cooking over an open fire, but without much more than a rock or a board and a frying pan.
+- **Scullery**: The simple kitchen of a home cottage, stocked with the basic necessities.
+- **Guestkitchen**: A kitchen designed for multiple expert cooks to serve multiple meals at once, stocked with anything needed for most ordinary meals.
+- **Noble's Kitchen**: A kitchen for producing food for hundreds at a time, where no expense is spared, and no dish cannot be created.
+
+### Food sensation
+
+Combine the quality of the food with its cooking standard to arrive at the sensation felt by those eating it. A food's goodness counts according to the best 1/4 of its ingredients' mass. For example, if a character needed to eat 3 pounds of food after a combat-filled afternoon, and combined 2 pounds of Durable food with 1 pound of Fresh food, the meal would count as "Fresh."
+
+| Cooking Standard | Durables  | Fresh Foods | Delicacies |
+| ---------------- | --------- | ----------- | ---------- |
+| Cold camp        | grub      | nosh        | tasty      |
+| Campfire         | grub      | tasty       | delicious  |
+| Scullery         | nosh      | tasty       | delicious  |
+| Guestkitchen     | tasty     | delicious   | piquant    |
+| Noble's Kitchen  | delicious | piquant     | piquant    |
+
+To provide a general description, **_grub_** is food you eat to get by because it keeps you alive; **_nosh_** is more agreeable (you might even scrape the plate); **_tasty_** is distinctly pleasurable and almost always calls for seconds; **_delicious_** is when silence falls as food reigns supreme, followed by the urge for the diner to share aloud the eating experience, declaring its noteworthiness; and **_piquant_** is distinct and memorable for weeks later, possibly even eaten with eyes closed at the sheer pleasure of being alive.
+
+### Effects of Eating
+
+Once the sensation is known, each imbimber of the meal must roll 3d6 to determine the effects on the character's system. The effects below take effect for the character for eight hours (or more, in some cases) after the "moning" or "evening" meal:
+
+| Sensation | 17 to 18 (~2%) | 11 to 16 (48%) | 10 (12.5%) | 9 (11.6%) | 8 (10%)   | 7 (7%)    | 6 (4.6%)  | 5 (2.8%)  | 4 (1.4%)  | 3 (.5%)   |           |
+| --------- | -------------- | -------------- | ---------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
+| grub      | no effect      | no effect      | no effect  | grumpy    | tired     | miserable | vomiting  | vomiting  | diarrhea  | diarrhea  | grub      |
+| nosh      | no effect      | no effect      | no effect  | no effect | no effect | grumpy    | tired     | miserable | vomiting  | diarrhea  | nosh      |
+| tasty     | no effect      | no effect      | no effect  | no effect | no effect | no effect | no effect | grumpy    | tired     | miserable | tasty     |
+| delicious | sated          | no effect      | no effect  | no effect | no effect | no effect | no effect | no effect | no effect | grumpy    | delicious |
+| piquant   | happy          | sated          | sated      | sated     | no effect | no effect | no effect | no effect | no effect | no effect | piquant   |
+
+The character:
+
+- **Diarrhea**: Acquires mild, acute food poisoning, resulting in -3 penalties to Strength and Constitution checks, pain, and forced bed rest for 4 hours, after which they can move normally. The initial loss of 3 Str/Con improves to -2 after four hours, and -1 after 8 hours, until a full 24 hours has passed (the character will have no appetite for the following meal).
+- **Grumpy**: Feels disturbed and unsatisfied by the meal, suffering a -1 penalty to Willpower checks for 6 hours.
+- **Happy**: Is in such good spirits they gain a +1 save bonus for 24 hours and automatically heal 1hp.
+- **Miserable**: Is bad-tempered and moody due to the meal rumbling in their stomach unpleasantly, suffering a -1 penalty to raw Str and Dex scores for 8 hours.
+- **Sated**: Feels wonderfully stuffed and pleasant. Any healing done that day through rest receives a +1hp bonus per level of the character, and the character receives a +1 bonus to Perceptioin checks for 8 hours.
+- **Tired**: Feels dull and sluggish, making it difficult to feel enthusiasm or think properly, suffering a -1 penalty to Arcana checks for 8 hours.
+- **Vomiting**: Digestively disagrees with the meal, throwing it up between 2-5 hours after eating, bringing a -1 penalty to Strength and Constitution checks for 1-4 hours afterwards, whereupon the character is fully restored.
+
 ## Healing
 
 Natural healing rates are dependent on the [lifestyle](#upkeep-lifestyle) you lead. A character leading a Comfortable lifestyle will recover 1 HP by resting overnight in a safe and comfortable location, and HP equal to their level per day of uninterrupted rest. A Poor lifestyle reduces your healing rate from daily to every two days, and a Wealthy lifestyle doubles your healing rate. 30 days of rest will return any character to full HP.
@@ -1078,11 +1142,11 @@ Finding water to drink is assumed to have happened naturally while traveling, ex
 
 ### Cooking
 
-Given a fire, cooking pots, and ingredients (e.g. foraged food, standard rations, hunted game), someone may cook a meal, a Moderate (8+) task. Someone particularly skilled in Cooking succeeds automatically.
+Given a fire, cooking pots, and ingredients (e.g. foraged food, packed food, hunted game), someone may cook a meal, a Moderate (8+) task. Someone particularly skilled in Cooking succeeds automatically.
 
-**If the check succeeds:** An especially tasty dish is produced. Those who eat the meal lower the difficulty of the Con check required to rest (see below), due to their hearty supper.
+**If the check succeeds:** An especially tasty dish is produced, increasing the sensation of those who eat it (see [food](#food))
 
-**If the check fails:** A palatable but not exemplary dish is produced. A natural 20 denotes a ruined meal (burned, spilled, etc.) that is utterly inedible. No Con check mod.
+**If the check fails:** A serviceable but not exemplary dish is produced, with no change to sensation. A natural 1 denotes a ruined meal (burned, spilled, etc.) that is utterly inedible.
 
 ### Rest Checks
 
