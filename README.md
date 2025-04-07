@@ -700,6 +700,7 @@ Objects are subject to a decay roll after:
 - One day of dungeon use
 - Armor: Receiving a natural-20 hit
 - Weapons: Rolling a natural 1 to hit
+- Food: Every day.
 
 Objects that are expressly protected (e.g., a scroll in a scrollcase, or a spellbook in a metal box, etc.) are exempt. Thoughtful storage can reduce wear & tear!
 
@@ -786,9 +787,9 @@ Food consumption is divided into 12-hour periods ("1/2 days"); if you engage in 
 
 There are three general types of food:
 
-- **Durable**: Includes preserved meats, dried fruit, biscuits, root vegetables, and beverages such as beer, wine, and distilled drinks.
-- **Fresh**: Recently picked vegetables and fruits, butchered meats, prepared dishes, and the like.
-- **Delicacies**: Unusual dishes or foods that provide a complex dining experience, like caviar, suckling pig, unusual distilled spirits, wines, and some prepared desserts.
+- **Durable**: Includes preserved meats, dried fruit, biscuits, root vegetables, and beverages such as beer, wine, and distilled drinks. Are considered "new" for item degradation purposes (see [equipment wear & tear](#equipment-wear--tear)).
+- **Fresh**: Recently picked vegetables and fruits, butchered meats, prepared dishes, and the like. Are considered "worn" for item degradation purposes.
+- **Delicacies**: Unusual dishes or foods that provide a complex dining experience, like caviar, suckling pig, unusual distilled spirits, wines, and some prepared desserts. Are considered "shabby" for item degradation purposes.
 
 ### Food Preparation
 
