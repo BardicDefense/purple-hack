@@ -700,13 +700,13 @@ Objects are subject to a decay roll after:
 - One day of dungeon use
 - Armor: Receiving a natural-20 hit
 - Weapons: Rolling a natural 1 to hit
-- Food: Every day.
+- Food: Every day. Fresh foods decay one level automatically, and then roll as usual.
 
 Objects that are expressly protected (e.g., a scroll in a scrollcase, or a spellbook in a metal box, etc.) are exempt. Thoughtful storage can reduce wear & tear!
 
 Objects degrade as follows:
 
-- A new object becomes used if a 1 in 4 is rolled. Under stress, a new object breaks on a 1 in 100.
+- A new object becomes used if a 1 in 4 is rolled. If it's expressly a "sturdy" item, it becomes used if two 1s are rolled on 2d4. Under stress, a new object breaks on a 1 in 100.
 - A used object becomes worn on a 1 in 20. Under stress, it breaks on a 1 in 50.
 - A worn object becomes shabby on a 1 in 12. Under stress, it breaks on a 1 in 20.
 - A shabby object becomes ruined on a 1 in 8. Under stress, it braks on a 1 in 6.
@@ -1141,25 +1141,17 @@ Given a means of producing flame (e.g. a tinderbox, magic) and a stash of wood (
 
 Finding water to drink is assumed to have happened naturally while traveling, except in an exceptionally dry environment, when it is only found on a 2-in-6 chance per hex.
 
-### Cooking
-
-Given a fire, cooking pots, and ingredients (e.g. foraged food, packed food, hunted game), someone may cook a meal, a Moderate (8+) task. Someone particularly skilled in Cooking succeeds automatically.
-
-**If the check succeeds:** An especially tasty dish is produced, increasing the sensation of those who eat it (see [food](#food))
-
-**If the check fails:** A serviceable but not exemplary dish is produced, with no change to sensation. A natural 1 denotes a ruined meal (burned, spilled, etc.) that is utterly inedible.
-
 ### Rest Checks
 
 When camping in the wild, characters’ ability to get a good night’s rest is determined by their equipment (whether they have a bedroll and/or tent), their warmth (whether they have a fire burning), and the season. Non-ideal circumstances require PCs to make a Con check, with the difficulty listed below.
 
-| Fire | Bed             | Winter       | Spring         | Summer         | Autumn         |
-| ---- | --------------- | ------------ | -------------- | -------------- | -------------- |
-| N    | No bedding      | Auto failure | Hard (14+)     | Daunting (11+) | Hard (14+)     |
-| N    | Bedroll or tent | Auto failure | Daunting (11+) | Good rest      | Daunting (11+) |
-| N    | Bedroll & tent  | Hard (14+)   | Daunting (11+) | Good rest      | Daunting (11+) |
-| Y    | No bedding      | Auto failure | Hard (14+)     | Daunting (11+) | Hard (14+)     |
-| Y    | Bedroll or tent | Hard (14+)   | Good rest      | Good rest      | Good rest      |
+| Fire | Bed             | Winter         | Spring         | Summer        | Autumn         |
+| ---- | --------------- | -------------- | -------------- | ------------- | -------------- |
+| N    | No bedding      | Auto failure   | Daunting (11+) | Moderate (8+) | Daunting (11+) |
+| N    | Bedroll or tent | Auto failure   | Moderate (8+)  | Good rest     | Moderate (8+)  |
+| N    | Bedroll & tent  | Daunting (11+) | Moderate (8+)  | Good rest     | Moderate (8+)  |
+| Y    | No bedding      | Auto failure   | Daunting (11+) | Moderate (8+) | Daunting (11+) |
+| Y    | Bedroll or tent | Daunting (11+) | Good rest      | Good rest     | Good rest      |
 
 **If the check succeeds:** The character gets a good night’s sleep and regains 1hp overnight.
 
