@@ -253,10 +253,16 @@ The following base gear is automatically added to your character for free:
 After this, you can have whatever basic gear you wish (within reason, as determined by the referee). Some common basic adventuring items include but are not limited to (size listed after each):
 
 - **Bedroll (M)**: A blanket that can double as a sleeping bag. Helps protect against the cold when [sleeping in the wilds](#sleeping-in-the-wilds).
+- **Beef jerky (S)**: Durable, 1lb
+- **Beef, fresh (S)**: Butchered & packaged, 1lb
+- **Biscuits, hardtack (S)**: Durable, 1lb
 - **Caltrops, bag (M)**: Small metal spikes sufficient to cover a 5' × 5' area. Creatures moving through have a 2-in-6 chance of treading on a spike for a 50% penalty to movement rate for 24 hours (or until magically healed). Intelligent creatures can move cautiously through areas with known caltrops, which requires their entire Movement Phase to travel 5', but eliminates any risk of impalement.
 - **Candle (S)**: Dimly illuminates a 5' radius, and burns for 4 hours.
 - **Chalk (S)**: Useful for marking trails in dungeons.
+- **Cheese (S)**: Durable, 1lb
 - **Crowbar (M)**: Makes it easier to force open doors, and doubles as an improvised medium weapon.
+- **Fruit, dried (S)**: Durable, 1lb (apples, pears, raisins)
+- **Fruit or vegetables, fresh (S)**: 1lb (apples, pears, carrots, cabbage, etc.)
 - **Garlic, bulb**: Repels vampires.
 - **Hammer (S)**: Doubles as an improvised small weapon.
 - **Iron spike (S)**: One of these can be hammered in to block one typical door.
@@ -264,8 +270,6 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 - **Oil flask (M)**: Fuels lantern 4 hours. Poured on ground and lit burns for 1 turn. Thrown on monster (roll to hit) & set on fire does 1d6 damage each round for two rounds.
 - **Pickaxe (L)**: This excavating tool doubles as an improvised medium weapon.
 - **Pole, 10' (L)**: Often used to prod potential dangers at a safe distance. When wielded during cautious exploration, has a 2-in-6 chance of setting off most traps.
-- **Rations, iron (M)**: One day of food and water. Also called trail rations. As long as kept dry, will keep almost indefinitely.
-- **Rations, standard (L)**: One day of food and water. Fresh, and will not keep for more than 1d4 days, fewer if in poor conditions like high heat. The type of rations that hunting provides. More appealing to monsters than iron rations if dropped during pursuit.
 - **Rope, hemp (L)**: Can hold the weight of roughly three human-sized beings. 50' long. Comes with grapnel.
 - **Scrollcase (M)**: Each holds up to 10 spell levels in spell scrolls.
 - **Shovel (L)**: Excavating tool doubles as an improvised medium weapon.
@@ -364,12 +368,12 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 ## Quick Packs
 
-- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes x2 (S), Hammer (S), Lantern (M), Oil flask x2 (M), Holy water vial (S, 25sp), Iron rations x2 (M).
-- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike (S), Crowbar (M), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp).
-- **The Cautious** (6 slots): Candle (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Iron rations (M), 10' pole (L).
-- **The Delver** (6 slots): Candle x3 (S), Hammer (S), Iron rations (M), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
-- **The Scholar** (6 slots, 10sp cost): Chalk (S), Vial x3 (S), Iron rations (M), Oil flask (M), Lantern (M), Mapping kit (M, 10sp), Scrollcase (M).
-- **The Torchbearer** (6 slots): Iron rations (M), Oil flask (M), Torches x4 (M).
+- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes x2 (S), Hammer (S), Lantern (M), Oil flask x2 (M), Holy water vial (S, 25sp), Dried Fruit (S) x2, Beef jerky (S) x4, Cheese (S) x2.
+- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike (S), Crowbar (M), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10sp).
+- **The Cautious** (6 slots): Candle (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Beef jerky (S) x2, Cheese (S), Dried fruit (S), 10' pole (L).
+- **The Delver** (6 slots): Candle x3 (S), Hammer (S), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
+- **The Scholar** (6 slots, 10sp cost): Chalk (S), Vial x3 (S), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10sp), Scrollcase (M).
+- **The Torchbearer** (6 slots): Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Torches x4 (M).
 
 ## Animals & Mounts
 
@@ -622,7 +626,7 @@ If the enemy follows, **pursuit checks** are made. The referee rolls 1d12 for ea
 
 Each individual in a pursuit has one **pursuit action** each pursuit round. However, neither mapping nor spellcasting can occur.
 
-- **Dropping Items**: Any pursued as their action can drop items to apply a bonus to their side's pursuit check. Dropping desirable items like food or treasure can be effective, but this depends on how the pursuers view what is dropped, how much is dropped, and how many pursuers there are compared to what is dropped; the referee must arbitrate this. If enough food is dropped & desired, iron rations (+2) are always less effective than fresh rations (+4).
+- **Dropping Items**: Any pursued as their action can drop items to apply a bonus to their side's pursuit check. Dropping desirable items like food or treasure can be effective, but this depends on how the pursuers view what is dropped, how much is dropped, and how many pursuers there are compared to what is dropped; the referee must arbitrate this. If enough food is dropped & desired, durable food (+2) is always less effective than fresh food (+4).
 - **Missile Attacks**: After each pursuit check, if the pursuit is not over, then missile attacks can be made by those who have not used their action. Assume a range of 20'.
 
 ### Ending Pursuit
