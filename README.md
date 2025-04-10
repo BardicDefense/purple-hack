@@ -368,12 +368,12 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 ## Quick Packs
 
-- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes x2 (S), Hammer (S), Lantern (M), Oil flask x2 (M), Holy water vial (S, 25sp), Dried Fruit (S) x2, Beef jerky (S) x4, Cheese (S) x2.
-- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike (S), Crowbar (M), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10sp).
-- **The Cautious** (6 slots): Candle (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Beef jerky (S) x2, Cheese (S), Dried fruit (S), 10' pole (L).
-- **The Delver** (6 slots): Candle x3 (S), Hammer (S), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
-- **The Scholar** (6 slots, 10sp cost): Chalk (S), Vial x3 (S), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10sp), Scrollcase (M).
-- **The Torchbearer** (6 slots): Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Torches x4 (M).
+- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes x4 (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), Dried Fruit (S) x2, Beef jerky (S) x4, Cheese (S) x2.
+- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike x4 (S), Crowbar (M), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10sp).
+- **The Cautious** (6 slots): Candle, pillar (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Beef jerky (S) x2, Cheese (S) x2, Dried fruit (S) x3, 10' pole (L).
+- **The Delver** (6 slots): Candle, pillar (S) x3, Hammer (S), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
+- **The Scholar** (6 slots, 10sp cost): Chalk (S), Vial (S) x3, Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10sp), Scrollcase (M).
+- **The Torchbearer** (6 slots): Beef jerky (S) x4, Cheese (S) x2, Dried fruit (S) x2, Oil flask (M) x2, Torches (S) x8.
 
 ## Animals & Mounts
 
@@ -1147,7 +1147,7 @@ When camping in the wild, characters’ ability to get a good night’s rest is 
 
 ## Hunting
 
-In the wilderness, the party can stop and hunt for food. Hunting must be the sole activity that day (i.e. no resting or traveling), and generates a random encounter check for that hex. So long as the hex has game, hunting always feeds the party for the day, even if the hunting check fails; if successful, it also provides 1 additional standard ration for every point over the result needed.
+In the wilderness, the party can stop and hunt for food. Hunting must be the sole activity that day (i.e. no resting or traveling), and generates a random encounter check for that hex. So long as the hex has game, hunting always feeds the party for the day, even if the hunting check fails; if successful, it also provides 4 additional pounds of fresh meat for every point over the result needed.
 
 Hunting is a Daunting (11+) check, though the Fieldcraft feat lowers the difficulty in favored terrain to Moderate (8+). However, some hexes may be more or less difficult, others might require a character with Fieldcraft and the matching favored terrain to hunt in at all, while still others are too barren for any hunter.
 
