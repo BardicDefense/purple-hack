@@ -226,187 +226,199 @@
 
 # 1ST LEVEL SPELLS
 
+**<u>Alarm</u>**  
+_Abjuration (R: Short, D: 1 day)_  
+AoE: 60-ft radius. Whenever a creature of size level Small and up touches
+or enters the warded area, a mental alarm goes off. The caster must be
+within one mile of the warded area to receive this alarm; if sleeping, they
+are automatically woken. The caster can designate specific individuals,
+creatures, or creature types that won’t set off the alarm.
+
 **<u>Animal Friendship</u>**  
 _Enchantment (R: Short, D: 1 hour)_  
 This spell makes a normal animal regard the caster as a trusted friend and ally. If the animal is currently being threatened by the caster or its allies, it is allowed a Very Hard (Will) save to resist the spell.
 
-**<u>Assist</u>**  
-_Necromancy (R: Touch, D: 1 round)_  
-The subject is healed for 1d6 Hit Points, but the caster takes the same damage. This can take the caster below 1 HP, killing them.
-
 **<u>Bless</u>**  
-_Abjuration (R: Short, D: 1 minute)_  
-Up to five creatures (+5 per caster name level) are blessed with holy might. They receive a +1 bonus to attack and saving throws, and a +1 Morale bonus.
+_Abjuration (R: Short, D: 1 hour)_  
+AoE: 50-ft radius / 20 × 20. All chosen subjects apply a +2 AC bonus, as well as +1 to Morale checks. Saves vs. fear are one difficulty level lower.
 
 **<u>Blur</u>**  
-_Illusion (R: Self, D: 1 minute)_  
-The caster’s form shimmers and blurs, granting attackers a –2 penalty to hit the caster.
+_Illusion (R: Self, D: 1 hour)_  
+The caster’s form appears to constantly shift and waver. Attacks directly targeting the caster that rely on sight must reroll hits scored on the caster.
 
 **<u>Change Self</u>**  
 _Illusion (R: Self, D: 1 hour)_  
-The caster can alter their appearance, including clothing, but not height or weight.
+Save: Very Hard (Per). The subject’s appearance—including all personal items—is altered. Height can be altered up to 1 ft shorter or taller, and weight can be altered to a similar degree along with it. The same basic limb arrangement must be kept.
 
 **<u>Chill Touch</u>**  
-_Necromancy (R: Touch, D: Instant)_  
-The caster’s touch deals 1d6 cold damage. The target cannot heal naturally for 1 round.
+_Necromancy (R: Touch, D: 1 miinute)_  
+Save: Hard (Arc). This spell deals 1D6+2 necrotic damage. If the target is living, it cannot be healed for the spell’s duration; undead creatures instead must reroll any hits scored against the caster.
 
 **<u>Command</u>**  
-_Enchantment (R: Short, D: 1 round)_  
-Save: Hard (Will). One creature must follow a single one-word command, such as “flee”, “drop”, “grovel”, “attack”, or “approach”. The creature must be able to hear and understand the caster.
+_Enchantment (R: Medium, D: 1 round)_  
+Save: Very Hard (Will). The caster issues a one-word command to the target, which it must obey on its next set of actions. The command must be unequivocal, and something the target can accomplish (e.g. back, halt, flee, fall, approach, kneel, dance; “die” or “suicide” do not qualify).
 
 **<u>Comprehend Languages</u>**  
 _Divination (R: Self, D: 1 hour)_  
-The caster can understand all spoken and written languages.
+AoE: Up to 40-ft radius / 16 × 16. Up to five creatures (+5 per caster name level) can comprehend (but not communicate using) unknown text or speech. Codes / ciphers are not broken; nor are references explained. More esoteric communications, such as pheromones, are not understood.
+
+**<u>Cure Light Wounds</u>**  
+_Necromancy (R: Touch, D: Instant)_  
+This spell heals the subject of 1d6+2 damage. Add 1d6 for each name level the subject (not the caster) has.
 
 **<u>Curse</u>**  
-_Conjuration (R: Short, D: Permanent)_  
-Save: Hard (Arc). The subject suffers a –1 penalty to all attack rolls, saving throws, and ability checks.
+_Conjuration (R: Short, D: 1 hour)_  
+Save: Hard (Arc). AoE: 50-ft radius / 20 × 20. All chosen targets receive a –2 attack penalty, as well as –1 to Morale checks.
 
 **<u>Detect Illusion</u>**  
-_Divination (R: Self, D: Concentration—1 minute)_  
-The caster can detect illusions within 30 ft.
+_Divination (R: Touch, D: 10 minutes)_  
+All illusions within view are revealed as such to the subject.
 
 **<u>Detect Magic</u>**  
-_Divination (R: Self, D: Concentration—1 minute)_  
-The caster can detect magic within 30 ft.
+_Divination (R: Self, D: 10 minutes)_  
+AoE: 60-ft radius. All magical emanations glow softly. The caster knows the magic’s strength (faint, moderate, strong, overwhelming) and the school(s) associated with that magic.
 
 **<u>Detect Portals & Passages</u>**  
-_Divination (R: Self, D: 1 minute)_  
-The caster can detect secret doors, portals, and passages within 30 ft.
+_Divination (R: Short, D: 10 minutes)_  
+AoE: 60-ft radius. All hidden doors, compartments, and passages within range glow softly (unless invisible). Obstructions may obscure the glow.
 
 **<u>Endure Heat & Cold</u>**  
-_Abjuration (R: Touch, D: 1 hour)_  
-The subject is comfortable in temperatures from –10 to 140 °F.
+_Abjuration (R: Touch, D: 12 hours)_  
+Up to one subject per two caster levels is immune to environmental temperature effects within most natural bounds (more extreme forms like magma flows, as well as fire- and cold-based attacks, are not affected).
 
 **<u>Enlarge (R)</u>**  
-_Transmutation (R: Short, D: 1 minute)_  
-Save: Hard (Arc). The subject doubles in size and weight. Their Strength and Constitution scores also double, and they gain 1d6 temporary Hit Points. The reverse, Reduce, halves the subject’s size and weight, and their Strength and Constitution scores are halved.
+_Transmutation (R: Short, D: 1 hour)_  
+Save: Hard (Arc). This spell causes instant growth of one creature and its carried/worn items, or one object, in both size and weight. Creatures gain one size level—two at level 10. Objects increase 10% per level of the caster (max. 100%), to a limit of 5 cubic feet per caster level. If insufficient space is available to fully grow, the creature/object attains the maximum possible size, bursting weak enclosures but constrained without harm by stronger materials—the spell cannot crush something by growth. The reverse, Reduce, either negates Enlarge or makes a creature or object smaller in the same ratios as Enlarge. Unwilling victims of either spell are entitled to a saving throw. In all cases, ability scores, damage, HP, and AC are all unaffected.
 
 **<u>Faerie Fire</u>**  
-_Illusion (R: Short, D: 1 minute)_  
-AoE: 10-ft radius / 4 × 4. All creatures in the area are outlined in light, making them easier to see and hit (+2 attack bonus).
+_Illusion (R: Short, D: 10 minutes)_  
+LoS not required. One creature or object per caster level can be wreathed in a pale glowing light visible out to 80 ft; even invisible things can be chosen as targets (this does not make them visible). Against those targets this applies a +2 attack bonus, but the fire is concealed by Darkness.
 
 **<u>Feather Fall</u>**  
-_Transmutation (R: Short, D: Instant)_  
-One falling creature or object descends slowly, taking no damage.
+_Transmutation (R: Medium, D: 10 minutes)_  
+Up to five falling creatures within range have their rate of descent slow to 60 ft per round (occurring in the Movement Phase). A subject that lands before the spell ends takes no falling damage and can land on its feet, and the spell ends for that creature.
 
 **<u>Floating Disc</u>**  
-_Evocation (R: Short, D: 1 hour)_  
-A flat, horizontal disc of force appears and follows the caster, carrying up to 100 pounds.
+_Evocation (R: Self, D: 4 hours)_  
+This spell creates a circular, horizontal disc in an empty space within 5 ft of its caster. The disc is 3 ft in diameter and 1 inch thick, and floats 3 ft above the surface beneath it. It can support up to 500 pounds (about 20 item slots). The disc follows 5 ft behind its caster. It cannot be ridden by the caster, and cannot cross abrupt elevation changes of over 10 ft.
 
 **<u>Fog</u>**  
-_Conjuration (R: Short, D: 10 minutes)_  
-AoE: 20-ft radius / 8 × 8. A thick fog obscures all sight beyond 5 ft.
+_Conjuration (R: Long, D: 1 hour)_  
+AoE: Up to 50-ft radius / 20 × 20. The caster summons a wall of thick fog that reduces vision (including infravision) to 5 ft. A wind of at least 20 miles per hour disperses it.
 
 **<u>Friends</u>**  
-_Enchantment (R: Self, D: 1 minute)_  
-The caster gains advantage on Charisma checks.
+_Enchantment (R: Self, D: 1 hour)_  
+Save: Hard (Will). AoE: 200-ft radius. Intelligent creatures that fail their save ignore the fact that the caster just cast a spell and instead tend towards being impressed with the caster, providing +4 to the caster’s party reaction roll.
 
 **<u>Grave Shroud</u>**  
-_Necromancy (R: Touch, D: 1 minute)_  
-The subject’s skin becomes deathly pale and cold to the touch. The subject gains resistance to cold damage and vulnerability to fire damage.
+_Necromancy (R: Short, D: 1 hour)_  
+Undead creatures perceive up to five subjects (+5 per caster name level) as undead. Mindless undead thus ignore the subjects, unless specifically commanded to attack them directly, while intelligent undead do not instinctively know them to be alive, but will likely wonder at their actions or appearance. If a subject attacks an undead creature, the spell ends for them.
 
 **<u>Grease</u>**  
-_Conjuration (R: Short, D: 1 minute)_  
-AoE: 10-ft radius / 4 × 4. The area becomes slippery, making it difficult to move or stand.
-
-**<u>Guide</u>**  
-_Divination (R: Touch, D: 1 hour)_  
-The subject gains advantage on Wisdom checks.
+_CConjuration (R: Medium, D: 10 minutes)_  
+Save: Hard (Dex). AoE: Up to 40-ft radius / 16 × 16. Slick, non-flammable grease covers the ground. Creatures in the area when the grease appears or who move into a greased space (even if already in one) must save or fall prone (limit of one such save per round). For those who make their save, the greased area is still treated as difficult terrain.
 
 **<u>Light (R)</u>**  
-_Evocation (R: Touch, D: 1 hour)_  
-An object sheds bright light in a 20-ft radius and dim light for an additional 20 ft. The reverse, Darkness, creates an area of darkness with the same radius.
+_Evocation (R: Medium, D: 12 hours)_  
+AoE: Up to 40-ft radius / 16 × 16, +20 ft per name level, can be gradated while active in increments of 10 ft as an action. This spell illuminates the chosen area as if by torchlight. The spell’s reverse, Darkness, creates darkness that blocks all light and vision in the chosen area (including infravision) within or through it. Either spell can be cast on a movable object and carried. If the area of effect of one type comes into contact with the other, one dispels the other: roll randomly to see which.
 
 **<u>Magic Missile</u>**  
-_Evocation (R: Medium, D: Instant)_  
-The spell creates 1d4+1 darts of force that strike one or more targets.
+_Evocation (R: Short, D: Instant)_  
+Save: None. A bolt of magic automatically strikes the target for 1d6+1 damage. For every two caster levels past the 1st (i.e. 3, 5, 7, 9), another missile strikes the target, to a maximum of five missiles at 9th level and up. Unlike standard spell targeting, if something can be seen it can be targeted, even if normal spellcasting line of sight is blocked.
 
 **<u>Minor Illusion</u>**  
-_Illusion (R: Short, D: 1 minute)_  
-The caster creates a sound or image within range.
+_Illusion (R: Medium, D: 1 hour)_  
+Save: Hard (Per). This spell creates an illusionary sound, scent, or image (only one). If a sound, its volume can range from a whisper to a scream, and vary in pitch and tempo as desired. If an image, it is silent and immobile, and no larger than a 5-ft cube (2 × 2 × 2).
 
 **<u>Nullify Poison</u>**  
-_Transmutation (R: Touch, D: Instant)_  
-This spell neutralizes any poison in the subject.
+_Transmutation (R: Short, D: Instant)_  
+AoE: Up to 10-ft radius / 4 × 4. This spell nullifies all non-magical poison applied to items (e.g. coated blades and needles; poison in gas capsules, food, or vials). Creatures naturally using their own poison are unaffected.
 
 **<u>Pass Without Trace</u>**  
-_Transmutation (R: Self, D: 1 hour)_  
-The caster and any creatures within 30 ft gain advantage on Dexterity (Stealth) checks.
+_Transmutation (R: Short, D: 1 hour)_  
+AoE: Up to 40-ft radius / 16 × 16. Up to five subjects (+5 per caster name level) can move through any terrain — mud, snow, dust, etc. — and leave neither footprint nor scent, making tracking by these means impossible. However, areas radiate a dweomer for 6d6 turns after an affected creature passes through them.
 
 **<u>Shield</u>**  
-_Abjuration (R: Self, D: 1 round)_  
-An invisible barrier of force appears and protects the caster, granting +4 AC.
+_Abjuration (R: Self, D: 10 minutes)_  
+This spell invisibly wards the caster, providing +5 AC and negating any Magic Missiles cast at them.
 
 **<u>Shocking Grasp</u>**  
-_Evocation (R: Touch, D: Instant)_  
-The caster’s touch deals 1d8 electrical damage.
+_Evocation (R: Self, D: 2 hours)_  
+This spell charges the caster’s hand or a weapon they are holding. The first strike made by such deals an additional 1d6+2 electrical damage, dissipating the charge. Add +5 damage and one use per name level.
 
 **<u>Sleep</u>**  
-_Enchantment (R: Short, D: 1 minute)_  
-Save: Hard (Will). Up to 4d4 Hit Dice of creatures fall unconscious.
+_Enchantment (R: Short, D: 10 minutes)_  
+Save: Hard (Will × 2). AoE: 30-ft radius / 12 × 12. The caster rolls 2d6 and adds their level to the result: that many Hit Dice of living enemies are put into a comatose slumber. Targets with the fewest HD are affected first, and only creatures with 4 HD or less are affected. Shaking and slapping a victim as an action gives them an extra save; mere noise does not.
 
 **<u>Turn Undead</u>**  
-_Necromancy (R: Short, D: Instant)_  
-Save: Hard. All undead within 30 ft must make a Wisdom save or be turned.
+_Necromancy (R: Self, D: 1D6 × 10 minutes)_  
+Save: None. AoE: 50-ft radius / 20 × 20. The duration of this spell is rolled in secret by the GM. The caster rolls 2d6 and adds their level to the result. That many Hit Dice of undead equal to the result are turned: they will try to flee out of range to the best of their ability for the spell’s duration. If they cannot, they will cower as far from the caster as possible. Creatures with 3 or more Hit Dice than the caster has levels are immune. If the caster’s level is 5 or more than the Hit Dice of any affected undead, those undead are destroyed, not turned. If there are undead of multiple Hit Dice values in range, the roll is applied to all types; lower Hit Dice undead are turned first. Surplus Hit Dice are lost (for example, if the result indicates that 7 Hit Dice are turned, and there are four undead of 2 Hit Dice each, then only three undead are turned). Attacking a turned undead negates the spell for that creature.
 
 **<u>Unseen Servant</u>**  
-_Conjuration (R: Short, D: 1 hour)_  
-An invisible, mindless, shapeless force obeys the caster’s commands.
+_Conjuration (R: Short, D: 2 hours)_  
+The spell summons an invisible spirit, weightless and Small in size, that serves tirelessly and fearlessly without question. The servant must remain within 40 feet of its summoner or it is dispelled. It moves as a normal PC, but ignores terrain. It can carry up to 1 point of encumbrance, and open normal doors, lids, drawers, etc, but perform no greater feats of strength. The servant cannot fight or take any other action requiring an attack roll. Nor can it block spaces, provide cover, or lock opponents in melee. It can be magically dispelled, banished by anything that banishes spirits, or eliminated after taking 6 points of magical damage.
 
 # 2ND LEVEL SPELLS
 
 **<u>Acid Arrow</u>**  
 _Evocation (R: Medium, D: Instant)_  
-The spell hurls an arrow of acid that deals 2d4 damage immediately and 1d4 damage at the end of the target’s next turn.
+The spell fires a magic arrow with a total attack bonus equal to the caster’s level. The arrow counts as a +1 weapon for the purpose of resistances, deals 1D6 damage, and douses the target in acid, dealing a further 1D6+1 acid damage. This acid damage is dealt an extra round per caster’s name level. The target must make one set of item saving throws (see p. 21), even if they save against the arrow damage.
 
 **<u>Arcane Lock</u>**  
 _Evocation (R: Touch, D: Permanent)_  
-The spell magically locks a door, chest, or other object.
+This spell bars the opening mechanism of a door, chest, or the like with magical force. A caster ignores their own lock, but otherwise nullifying the lock requires force or a successful Dispel Magic spell. A mage 4+ levels higher than the lock’s caster can bypass the lock, as can any Knock spell, but in such cases the lock is not nullified and reengages after 10 minutes.
+
+**<u>Assist</u>**  
+_Necromancy (R: Touch, D: 1 hour)_  
+The subject is imbued with a burst of life force, gaining 2d6+2 temporary Hit Points, plus 2d6 per name level of the caster (not the subject). Unlike healing effects, additional HP from Assist can take a subject over their limit; if so, such HP are always lost first. HP above the caster’s maximum cannot be healed. All Assist HP are lost at the end of the hour; this might conceivably kill a recipient. A creature can only be the subject of one active Assist at any one time.
 
 **<u>Augury</u>**  
 _Divination (R: Self, D: Instant)_  
-The caster receives a brief omen about a specific action they plan to take.
+The caster can divine whether an action in the near future (within 30 minutes) will be beneficial or harmful to the party. The base chance success is 70%, plus 1% for each level of caster—i.e. 71% at 1st level, 72% at 2nd, etc—but only a tightly-bound inquiry will return meaningful results. For example, asking “will going down the west corridor be beneficial” is likely to get a non-committal response unless the corridor does not branch and also ends shortly in clear riches or clear disaster.
 
 **<u>Bolster</u>**  
-_Transmutation (R: Touch, D: 1 hour)_  
-The subject gains 1d4 temporary Hit Points.
+_Transmutation (R: Short, D: 12 hours)_  
+This spell magically bolsters an ability score of the caster’s choice, with the exception of Arcana. Tasks related to the chosen ability score are one difficulty level lower; Opposed Checks related to it receive a –3 bonus. One additional target per caster name level can be selected; the same score must be boosted for all targets chosen by that particular casting.
 
 **<u>Burning Hands</u>**  
-_Evocation (R: Self, D: Instant)_  
-AoE: 15-ft cone. A burst of flame erupts from the caster’s hands, dealing 3d6 fire damage.
+_Evocation (R: Self—30 ft × 10 ft line, D: Instant)_  
+Save: Hard (Arc). A burst of flame erupts from the caster’s hands. This deals 2d6 damage, plus 1D6 for every two levels of the caster beyond the second (e.g. 3d6 at level 4, 4d6 at level 6, 5d6 at level 8; maximum 10d6 at level 16) and sets combustibles alight.
 
 **<u>Charm</u>**  
-_Enchantment (R: Short, D: 1 hour)_  
-Save: Hard (Will). One creature becomes friendly to the caster.
+_Enchantment (R: Short, D: 1 day)_  
+Save: Hard (Will). This makes one living humanoid of Medium size or smaller see the caster as a trusted friend. The caster can give the subject orders, language permitting. The subject will not knowingly endanger its life beyond reason. Orders not befitting a friend will grant an extra save. At 10th level, the caster can affect any one living creature, language permitting, of up to Large size.
 
 **<u>Counterspell</u>**  
 _Abjuration (R: Short, D: Instant)_  
-The caster attempts to interrupt another creature in the process of casting a spell.
+A caster can always pick this spell (if prepared) as their declared spell in response to an enemy casting a spell, replacing any other declared spell. In the Magic Phase, before spells are resolved, the dispeller and the enemy each make a dispel check: roll 1d6 + caster level. The enemy adds the level of the spell they are trying to cast, and the highest result wins; ties go to the dispeller. If the dispeller wins, the enemy spell is disrupted.
 
 **<u>Detect Invisibility</u>**  
-_Divination (R: Self, D: Concentration—1 minute)_  
-The caster can see invisible creatures and objects within 30 ft.
+_Divination (R: Self, D: 1 hour)_  
+The caster can see any objects or beings that are invisible, ethereal, or astral as if they were not invisible.
 
 **<u>Detect Traps</u>**  
-_Divination (R: Self, D: Concentration—1 minute)_  
-The caster can detect traps within 30 ft.
+_Divination (R: Short, D: 10 minutes)_  
+AoE: 60-ft radius. All traps within range glow softly. The spell does not detect natural hazards, such as a weakness in a floor or an unstable ceiling, and the glow can be obscured by obstructions (e.g. a trapped door hidden behind a bookshelf).
 
 **<u>Enrage</u>**  
-_Enchantment (R: Touch, D: 1 minute)_  
-The subject gains advantage on melee weapon attack rolls.
+_Enchantment (R: Short, D: 10 minutes)_  
+Save: Very Hard (Will). The subject flies into a berserker rage. Regardless of its armament, it always attacks in melee the creature closest to it, friend or foe, and will fight as offensively as possible, though it will not throw itself over a cliff or the like in order to reach an opponent.
+
+**<u>Fool’s Gold</u>**  
+_Illusion (R: Short, D: 4 hours)_  
+Save: Hard (Per). Up to 100 copper coins or 1 pound of brass items, per caster level, can be changed to resemble gold coins in all ways. Any creature viewing the changed material is granted a save to see the fool’s gold for what it really is.
 
 **<u>Forget</u>**  
 _Enchantment (R: Short, D: Permanent)_  
-Save: Hard (Will). The target forgets everything that occurred in the last 10 minutes.
-
-**<u>Fool’s Gold</u>**  
-_Illusion (R: Touch, D: 1 hour)_  
-Nonmagical metal appears to be gold.
+Save: Hard (Will). AoE: Up to 20-ft radius / 8 × 8. Chosen subjects within the area of effect forget the events of the previous minute. For every name level of the caster, another two minutes of past time is forgotten. A Restoration will recover the lost memories.
 
 **<u>Guide</u>**  
-_Divination (R: Touch, D: 1 hour)_  
-The subject gains advantage on Wisdom checks.
+_Divination (R: Self, D: 12 hours)_  
+The caster gains a supernatural knowledge of the paths and perils of their surroundings while travelling overland. The caster may choose to apply a +1 bonus that day to either their party’s navigation checks, or their party’s overland random encounter checks.
+
+**<u>Gust of Wind</u>**  
+_Conjuration (R: Self—60 ft × 10 ft line, D: 1 minute)_  
+Wind blasts from the caster in the direction faced. Unless braced, creatures that start their round in the line must roll equal to or under their Strength on 1D20 or be pushed 5 ft away for each point that they failed the roll by; apply a –5 roll modifier to flying creatures. Any creature in the line must spend 2 ft of movement for every 1 ft it moves within the line. The gust disperses Fog, Stinking Cloud, and Cloudkill spells, smoke, vapour etc, and extinguishes small open flames like torches. Protected flames such as lanterns have a 50% chance to be extinguished. The caster can change the direction the line travels as an action during their round.
 
 **<u>Invisibility</u>**  
 _Illusion (R: Short, D: Concentration—1 hour)_  
@@ -428,13 +440,13 @@ _Illusion (R: Self, D: 10 minutes)_
 _Enchantment (R: Medium, D: 1 hour)_  
 Save: Hard (Will). AoE: Up to 40-ft radius / 16 × 16. This spell calms 1d6 living creatures, ending any arguments, combats, or inclinations to them. This does not create friendly feelings, however. Creatures with the fewest HD are affected first. A pacified creature that takes damage or is attacked breaks free of the spell.
 
+**<u>Phantasmal Force</u>**  
+_Illusion (R: Medium, D: Concentration)_  
+Save: Hard (Per). This spell creates the visual and/or auditory illusion of a known object, creature, or force of up to Medium size. The caster can move the image within the spell’s range. Any “damage” dealt directly by the illusion is believed to be real (illusory arrows, pit trap, monster, etc), but vanishes when the illusion is disbelieved or gone. A creature reduced to 0 HP in this way passes out for 1D6+2 rounds, then recovers with any phantasmal damage removed. The illusion is dispelled if attacked and struck (it has AC 10); illusionary attacks strike with the same base attack bonus as the caster.
+
 **<u>Phantom Steed</u>**  
 _Conjuration (R: Short, D: 12 hours)_  
 Up to five (+5 per caster name level) ghostly draft or riding horses—caster’s choice—instantly appear, which serve their riders willingly and well. Each behaves as a normal horse, except that it will not tire, panic, or otherwise be frightened, and does not need food or water.
-
-**<u>Phantasmal Force</u>**  
-_Illusion (R: Medium, D: Concentration)_  
-Save: Hard (Per). This spell creates the visual and/or auditory illusion of a known object, creature, or force of up to Medium size. The caster can move the image within the spell’s range. Any “damage” dealt directly by the illusion is believed to be real (illusory arrows, pit trap, monster, etc), but vanishes when the illusion is disbelieved or gone. A creature reduced to 0 HP in this way passes out for 1d6+2 rounds, then recovers with any phantasmal damage removed. The illusion is dispelled if attacked and struck (it has AC 10); illusionary attacks strike with the same base attack bonus as the caster.
 
 **<u>Protection from Missiles</u>**  
 _Abjuration (R: Touch, D: 1 hour)_  
@@ -475,6 +487,8 @@ Up to two subjects per caster level can breathe water freely.
 **<u>Web</u>**  
 _Conjuration (R: Short, D: 10 minutes)_  
 Save: Hard (Str). AoE: Up to 30-ft radius / 12 × 12. This spell creates a barrier of sticky strands. To be cast, the Web must be anchored on at least two opposite sides to solid points. Any creature of size Large or smaller that moves into the web or is in its area when it is cast must save or become stuck. Victims can make a save at the end of each round to break free. Those with 18+ Strength can break free or rip through with 1 round of effort. The strands are also flammable, a 5-ft square burning per round.
+
+**<u>_NOTE: SPELLS BELOW THIS LEVEL HAVE NOT BEEN CHECKED AND ARE SUBJECT TO CHANGE_</u>**
 
 # 3RD LEVEL SPELLS
 
@@ -869,16 +883,16 @@ The caster creates an invisible wall of force up to 100 ft long, 20 ft high, and
 # 6TH LEVEL SPELLS
 
 **<u>Control Water</u>**  
-_Transmutation (R: Long, D: Concentration)_  
-The caster can control any body of water within range. The caster can raise or lower the water level, create waves, or part the water.
+_Transmutation (R: Long, D: Concentration, 2 hrs)_  
+AoE: Up to 50-ft radius / 20 × 20. In the area of effect, the caster may raise or lower the water level up to 20 ft, create waves of up to that height, part the water, change its flow path, or (if water at least 25 ft deep) create a whirlpool that sucks any creature Huge or smaller to the bottom. The caster can choose any of the above effects when the spell is cast, and switch to a different one each round of the spell’s duration if desired.
 
 **<u>Control Weather</u>**  
-_Transmutation (R: Long, D: Special)_  
-The caster can alter the weather in a 1-mile radius. The caster can choose from the following weather conditions: clear, cloudy, rain, snow, or wind.
+_Transmutation (R: Self, 5-mi radius, D: 1 day)_  
+The caster changes the weather in the local area. Weather can be shifted up to one step up or down from natural on the following scale: Sunny, Cloudy, Rainy, Stormy, Disastrous. Repeat casts can shift the scale further, but Disastrous weather can only be maintained in a given area for one day. Any change takes 10 minutes to occur.
 
 **<u>Deathshroud</u>**  
-_Necromancy (R: Touch, D: 1 hour)_  
-The subject is immune to all forms of energy drain and necrotic damage.
+_Necromancy (R: Self, D: 10 minutes)_  
+Save: Very Hard (Arc). A living creature touched by the caster has a black haze form around it, draining 20% of its current Hit Points. At the end of every round thereafter, the same loss is taken. A living creature that touches or strikes the caster must also save, but at one difficult level lower. The spell can be ended by casting Dispel Magic, Restoration, or Cure Critical Wounds on the target, or killing the caster.
 
 **<u>Disintegrate</u>**  
 _Evocation (R: Medium, D: Instant)_  
