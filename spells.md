@@ -226,6 +226,59 @@
 | 6     | Control Weather           |
 | 6     | Shape Change              |
 
+## Spell Details
+
+Each spell has a spell level, range, and duration.
+
+### Level
+
+This is the spell level, not the level required to cast it.
+
+### Range
+
+Range is the maximum distance of the spell’s target, not its area of effect (though sometimes these are the same). Ranged spells must obey the normal rules on line of sight and blocked targets, but do not suffer range modifiers. Spells typically have one of five ranges:
+
+- Self: The spell can only target the caster. However, if the range is “Self” followed by an area, the effect emits from the caster and covers the area specified.
+- Touch: The spell requires the caster to touch the target creature or object to affect it, which means that the caster must be within 5 feet of the target at the start of the Magic Phase (when the spell resolves). The target can be the caster: if so, the “touch” is automatic. A normal attack roll is required if the target is hostile.
+- Short: The spell reaches up to 40 feet. This range increases by 5 feet for every two caster levels.
+- Medium: Up to 100 feet, plus 10 feet per two caster levels.
+- Long: Up to 400 feet, plus 20 feet per two caster levels.
+
+### Duration
+
+This is the amount of time the spell is in effect. A caster can dispel their own non-Instant spell effect at will, as a free action.
+
+- Instant: The spell effect comes and goes the moment the spell is cast, though the consequences (such as damage) might last beyond this.
+- Timed: Unless dispelled by the caster, the spell lasts until its listed time has passed. If a spell’s duration is variable, the duration is rolled secretly by the GM (i.e. the caster doesn’t know how long their spell will last).
+- Concentration: The spell requires that the caster concentrate on it to keep its effect active. This prevents the casting of another spell, but movement and other actions are still allowed. Anything that would disrupt a spell’s casting also breaks a caster’s concentration while maintaining one, thus ending the spell.
+- Permanent: Unless dispelled by the caster, the effect is permanent. The effect may still be vulnerable to Dispel Magic or other means of destruction; if so, this will be specified in the spell description.
+
+### Area of Effect
+
+For spells with an area of effect, the caster selects a point within range to centre the effect area, but cannot control what a spell affects within that area unless the spell states otherwise. If using a grid map, a spell’s centre point must be at a grid-line intersection, not a square.
+
+The area of effect listed for spells (AoE) may have two values. If so, the first is radius, while the second is the full area of effect in 5-foot squares, if using a grid map. The latter can lead to counterintuitive results (e.g. square fireballs), but is an ease-of-use abstraction to avoid annoyances with diagonals.
+
+### Reversible Spells (R)
+
+Some spells are reversible: this will be noted in the spell’s title and description. When one gains a reversible spell both forms are learned, but each is a different spell for the purposes of preparing spells. For example, Haste and Slow would occupy separate spell slots (and each could be prepared up to twice).
+
+### Saving Throws
+
+Spells that allow a save have this noted in their description. If the spell does damage, a successful save reduces the damage to that subject by half (round normally); for all other spells a save nullifies the effect on that subject unless stated otherwise.
+
+#### Saving Throws & Illusions
+
+Illusions only affect intelligent creatures. A creature is not granted an extra save to recognize an illusion unless they carefully study it, directly interact with it (a touch or attack usually counts), make a deliberate effort to disbelieve it (this requires an action if in combat), or see a result contravening established reality (e.g. falling through an illusionary “floor” covering a pit). A save is granted up to once per round in such circumstances, made in secret by the GM.
+
+A failed save does not dictate one’s chosen actions; it only means that the creature believes in the illusory reality. This also does not make that reality in any way real. For example, one might choose to cross an illusory bridge if they fail their save, and if so would of course fall through it. However, chosen actions will unconsciously adjust to match perceived reality. For example, if a victim believes they are in a swamp, they will unknowingly slow their movement to normal swamp speeds.
+
+Passing a save against an illusion does not dispel it, but reveals it to be false for that person. Any who know an illusion to be false can use an action to try and convince others of this; those told can reroll their next failed save against that illusion.
+
+### Stacking Spell Effects
+
+Regardless of the source, the same spell (or equivalent effect from another source) cannot be stacked on a single target unless specified otherwise. For example, two Shield spells on one target does not provide a cumulative effect, and neither does a Shield spell and a Shield effect from a magical item.
+
 ## Spell Descriptions
 
 ### 1st Level Spells
