@@ -1,0 +1,30 @@
+/* Basic styling for all tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+}
+th {
+    background-color: #f0f0f0;
+}
+
+/* Make tables scrollable on small screens */
+@media screen and (max-width: 600px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  /* Optional: Style for the header row to improve visibility */
+  table thead {
+     background-color: #f0f0f0; /* Keep header background */
+  }
+  table thead th {
+     border-bottom: 2px solid #ddd;
+  }
+}
