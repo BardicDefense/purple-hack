@@ -705,7 +705,8 @@ Objects are subject to a decay roll after:
 - One day of dungeon use
 - Armor: Receiving a natural-20 hit
 - Weapons: Rolling a natural 1 to hit
-- Food: Every day. Fresh foods decay one level automatically, and then roll as usual.
+- Food: Every day, fresh foods decay one level automatically, and then roll as usual.
+- Spice: Each use, spices decay one level automatically, in addition to usual rolls.
 
 Objects that are expressly protected (e.g., a scroll in a scrollcase, or a spellbook in a metal box, etc.) are exempt. Thoughtful storage can reduce wear & tear!
 
@@ -795,6 +796,8 @@ There are three general types of food:
 - **Durable**: Includes preserved meats, dried fruit, biscuits, root vegetables, and beverages such as beer, wine, and distilled drinks. Are considered "new" for item degradation purposes (see [equipment wear & tear](#equipment-wear--tear)).
 - **Fresh**: Recently picked vegetables and fruits, butchered meats, prepared dishes, and the like. Are considered "shabby" for item degradation purposes.
 - **Delicacies**: Unusual dishes or foods that provide a complex dining experience, like caviar, suckling pig, unusual distilled spirits, wines, and some prepared desserts. Are considered "shabby" for item degradation purposes.
+
+Spices are expensive, but they make the food taste better! Spice (sensibly used) will make Fresh food into a Delicacy. Spices degrade one stage each use (see [item degradation](#equipment-wear---tear)
 
 ### Food Preparation
 
