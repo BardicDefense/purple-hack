@@ -2,6 +2,8 @@
 
 > _The following are "house rules" and clarifications, a mish-mash of D&D Basic/Expert a la OSE, and a fantastic ruleset called [Simulacrum](https://osrsimulacrum.blogspot.com/2021/06/simulacrum-beta-release.html). Rampant stealing has occurred below, and is intended only for use in my own home games._
 
+[Local Shopping](shopping.md) • [Character Sheet](https://docs.google.com/spreadsheets/d/1wOavveRJ8IEVoqvy33bxn12m20Y_7lqOkc9_KuXwJHo/copy) • [Spell List](spells.md)
+
 # Table of Contents
 
 Some highlights:
