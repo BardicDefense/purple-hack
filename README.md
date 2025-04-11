@@ -961,7 +961,7 @@ Scrolls may be scribed by anyone who has the ability to both read scrolls and to
 
 ### Spell List
 
-Spells are as in [_Simulacrum_](https://osrsimulacrum.blogspot.com/2021/06/simulacrum-beta-release.html).
+See full spell list [here](/spells.md).
 
 ## Mapping
 
