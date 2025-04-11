@@ -226,7 +226,8 @@
 
 # 1ST LEVEL SPELLS
 
-**<u>Alarm</u>**  
+### **<u>Alarm</u>**
+
 _Abjuration (R: Short, D: 1 day)_  
 AoE: 60-ft radius. Whenever a creature of size level Small and up touches
 or enters the warded area, a mental alarm goes off. The caster must be
@@ -234,7 +235,8 @@ within one mile of the warded area to receive this alarm; if sleeping, they
 are automatically woken. The caster can designate specific individuals,
 creatures, or creature types that won’t set off the alarm.
 
-**<u>Animal Friendship</u>**  
+#### **<u>Animal Friendship</u>**
+
 _Enchantment (R: Short, D: 1 hour)_  
 This spell makes a normal animal regard the caster as a trusted friend and ally. If the animal is currently being threatened by the caster or its allies, it is allowed a Very Hard (Will) save to resist the spell.
 
