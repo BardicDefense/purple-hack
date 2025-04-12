@@ -113,8 +113,16 @@ A * before a name means it can be bought used; (i) after a price means it's been
 
 | Item | Notes | Price | Number Available |
 |--- |--- |--- |--- |
+| Bath | heated & prepared by innkeeper | 2cp* | 1 |
+| Housekeeping | washing, dusting, and delousing of room & sheets; requires room be vacated for one hour | 1sp 5cp* | 1 |
+| Laundering | cleaning of one suit of clothes, returned within 12 hours | 1sp 3cp* | 1 |
+| Lodging, common, avg. inn (each) | space provided in the inn's common room shared with other ordinary lodgers | 1sp 7cp* | 1 |
+| Lodging, common, cheap inn (each) |  | 1sp 2cp* | 1 |
+| Lodging, private, avg. inn (each) |  | 4sp 2cp* | 1 |
 | Lodging, double, boarding house (monthly-each) |  | 119sp 7cp* | 1 |
+| Lodging, single, boarding house (monthly) |  | 119sp 7cp* | 1 |
 | Lodging, single, religious hostel |  | 3sp 3cp* | 1 |
+| Shave | provided by hired contractor known to the innkeeper | 9cp* | 1 |
 
 ## Inn - Stabling
 
@@ -122,6 +130,18 @@ A * before a name means it can be bought used; (i) after a price means it's been
 |--- |--- |--- |--- |
 | Feed, warhorse | one night's provisioning | 5cp* | 1 |
 | Feed, riding horse | one night's provisioning | 3cp* | 1 |
+| Feed, mule | one night's provisioning | 3cp* | 1 |
+| Feed, pony or donkey | one night's provisioning | 2cp* | 1 |
+| Stabling | stall provided for period of one night | 2sp 1cp* | 1 |
+
+## Inn - Kitchen
+
+| Item | Notes | Price | Number Available |
+|--- |--- |--- |--- |
+| Meal, piquant | e.g. "Roast meat, stuffed with nuts & imported fruit, drizzled with saffron wine glaze, served w/ spiced pears" | 48sp* | 1 |
+| Meal, delicious | e.g. "Hearty peppered venison stew, with fresh-baked bread & roasted root vegetables" | 21sp* | 1 |
+| Meal, tasty | e.g. "Thick meat & veggie pie, side of apple chutney" | 13sp 7cp* | 1 |
+| Meal, nosh | e.g. "Roasted sausage, hunk of cheese, small loaf of bread" | 3sp 9cp* | 1 |
 
 ## Inn - Tavern
 
