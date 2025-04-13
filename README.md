@@ -247,8 +247,8 @@ Each encumbrance level also raises the difficulty of applicable tasks, such as c
 
 The following base gear is automatically added to your character for free:
 
-- One weapon of your choice (+ 20 arrows/bolts if missile weapon) (number of slots depends on size)
-- Backpack, pouches, waterskin (M), tinderbox (S) (for lighting torches or small fires)
+- One weapon of your choice (+ 20 arrows/bolts if missile weapon) with a scabbard/sheathe/quiver if needed, (number of slots depends on size)
+- Backpack & pouches (worn clothing & in-use backpags & pouches do not count toward your slots), waterskin (M), tinderbox (S) (for lighting torches or small fires)
 - Misc tiny items (within reason); worn items/clothing
 
 After this, you can have whatever basic gear you wish (within reason, as determined by the referee). Some common basic adventuring items include but are not limited to (size listed after each):
@@ -798,7 +798,7 @@ There are three general types of food:
 - **Fresh**: Recently picked vegetables and fruits, butchered meats, prepared dishes, and the like. Are considered "shabby" for item degradation purposes.
 - **Delicacies**: Unusual dishes or foods that provide a complex dining experience, like caviar, suckling pig, unusual distilled spirits, wines, and some prepared desserts. Are considered "shabby" for item degradation purposes.
 
-Spices are expensive, but they make the food taste better! Spice (sensibly used) will make Fresh food into a Delicacy. Spices degrade one stage each use (see [item degradation](#equipment-wear---tear)
+Spices are expensive, but they make the food taste better! Spice (sensibly used) will make Fresh food into a Delicacy. Spices degrade one stage each use (see [item degradation](#equipment-wear---tear)).
 
 ### Food Preparation
 
@@ -901,7 +901,7 @@ Potion brewing requires a stocked laboratory of at least 1,000sp in value. A mag
 
 ### Gaining New Spells
 
-Casters learn one random spell each time they gain a level from a random school they can access (plus another spell if a specialist). If the caster has just gained access to a new spell level, the spell(s) are from that level. They can also gain access to new spells via the following methods:
+Mages learn one random spell each time they gain a level from a random school they can access (plus another spell if a specialist). If the caster has just gained access to a new spell level, the spell(s) are from that level. They can also gain access to new spells via the following methods:
 
 - **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 week + 100sp per level of the spell, and a successful Moderate (Arc x2) check, rolled at the end of the binding period; apply +2 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
 - **Research**: Casters can research new spells. These can be variants of spells the caster already knows--a Hard (Arc) check--spells the caster has witnessed being cast--a Very Hard (Arc) check--or spells the caster has only heard of--a Heroic (Arc) check. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 1d4+1x50sp in materials and 1 week.
@@ -910,28 +910,28 @@ Casters learn one random spell each time they gain a level from a random school 
 
 This shows the number of spells of a given spell level that a mage can prepare per day (also known as their spell slots). If the mage is a specialist, they add one to each level's spell slot total, but the extra spell must be from the school specialized in. If a spell is level-adjusted through feats, that spell is treated in all ways as a spell of the level to which it has been modified.
 
-| Mage Level |  1  |  2  |  3  |  4  |  5  |  6  |
-| :--------: | :-: | :-: | :-: | :-: | :-: | :-: |
-|     1      |  2  |     |     |     |     |     |
-|     2      |  3  |     |     |     |     |     |
-|     3      |  3  |  1  |     |     |     |     |
-|     4      |  3  |  2  |     |     |     |     |
-|     5      |  4  |  2  |     |     |     |     |
-|     6      |  4  |  2  |  1  |     |     |     |
-|     7      |  4  |  3  |  2  |     |     |     |
-|     8      |  5  |  3  |  2  |     |     |     |
-|     9      |  5  |  3  |  2  |  1  |     |     |
-|     10     |  5  |  3  |  2  |  2  |     |     |
-|     11     |  5  |  4  |  3  |  2  |     |     |
-|     12     |  5  |  4  |  3  |  2  |  1  |     |
-|     13     |  6  |  4  |  3  |  2  |  1  |     |
-|     14     |  6  |  4  |  3  |  3  |  2  |     |
-|     15     |  6  |  5  |  4  |  3  |  2  |  1  |
-|     16     |  6  |  5  |  4  |  3  |  2  |  1  |
-|     17     |  6  |  5  |  4  |  3  |  3  |  1  |
-|     18     |  6  |  5  |  4  |  4  |  3  |  2  |
-|     19     |  6  |  6  |  5  |  4  |  3  |  2  |
-|     20     |  6  |  6  |  5  |  4  |  3  |  2  |
+| Mage Level |  1   |  2   |  3  |  4  |  5  |  6  |
+| :--------: | :--: | :--: | :-: | :-: | :-: | :-: |
+|     1      | 2(1) |      |     |     |     |     |
+|     2      | 3(1) |      |     |     |     |     |
+|     3      | 3(1) | 1(1) |     |     |     |     |
+|     4      | 3(1) | 2(1) |     |     |     |     |
+|     5      | 4(2) | 2(1) |     |     |     |     |
+|     6      | 4(2) | 2(1) |  1  |     |     |     |
+|     7      | 4(2) | 3(1) |  2  |     |     |     |
+|     8      | 5(2) | 3(1) |  2  |     |     |     |
+|     9      | 5(2) | 3(1) |  2  |  1  |     |     |
+|     10     | 5(2) | 3(1) |  2  |  2  |     |     |
+|     11     | 5(2) | 4(2) |  3  |  2  |     |     |
+|     12     | 5(2) | 4(2) |  3  |  2  |  1  |     |
+|     13     | 6(3) | 4(2) |  3  |  2  |  1  |     |
+|     14     | 6(3) | 4(2) |  3  |  3  |  2  |     |
+|     15     | 6(3) | 5(2) |  4  |  3  |  2  |  1  |
+|     16     | 6(3) | 5(2) |  4  |  3  |  2  |  1  |
+|     17     | 6(3) | 5(2) |  4  |  3  |  3  |  1  |
+|     18     | 6(3) | 5(2) |  4  |  4  |  3  |  2  |
+|     19     | 6(3) | 6(3) |  5  |  4  |  3  |  2  |
+|     20     | 6(3) | 6(3) |  5  |  4  |  3  |  2  |
 
 ### Preparing & Casting
 

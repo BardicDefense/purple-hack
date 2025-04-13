@@ -314,7 +314,7 @@ Save: Very Hard (Per). The subject’s appearance—including all personal items
 
 #### Chill Touch
 
-_Necromancy (R: Touch, D: 1 miinute)_  
+_Necromancy (R: Touch, D: 1 minute)_  
 Save: Hard (Arc). This spell deals 1D6+2 necrotic damage. If the target is living, it cannot be healed for the spell’s duration; undead creatures instead must reroll any hits scored against the caster.
 
 #### Command
