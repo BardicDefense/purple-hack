@@ -12,9 +12,9 @@ Some highlights:
   - [Warrior](#warrior)
   - [Mage](#mage)
   - [Feats](#choose-feats)
-- [Armor, Weapons, and Equipment](#armor-weapons-and-equipment)
+- [Armour, Weapons, and Equipment](#armour-weapons-and-equipment)
   - [Starting Gear](#starting-gear)
-  - [Armor](#armor)
+  - [Armour](#armour)
   - [Weapons](#weapons)
   - [Costed Items](#costed-items)
   - [Quick Packs](#quick-packs)
@@ -56,7 +56,7 @@ Some highlights:
 Roll 3d6 down the line for each of the skills below. You can swap one set of stats.
 
 - **Strength** measures physical might. It affects your lifting, carrying, and grappling. Any Str modifier is applied to your melee and thrown weapon attack damage.
-- **Dexterity** measures agility, reflexes, and hand-eye coordination. Any Dex mod is applied to your Armor Class, as long as you can move freely.
+- **Dexterity** measures agility, reflexes, and hand-eye coordination. Any Dex mod is applied to your Armour Class, as long as you can move freely.
 - **Constitution** measures endurance and vitality. Any Con mod is applied to your Hit Point total at the start of the game and each time you go up a level.
 - **Perception** measures your observational acuity. Any Per mod affects your ability to see through illusions, and to spot traps, secret doors, and ambushes.
 - **Willpower** measures discipline and mental endurance. Any Will mod affects your ability to resist enchantment, fear, mind control, possession, and other mental attacks, as well as to avoid death.
@@ -86,17 +86,17 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 
 ### Warrior
 
-1d8 Hit Die (8hp+Con mod at 1st level). Receive attack bonus of +1 every level, starting at level 1, stopping at +15 at level 15. Can use any weapon or armor, so long as they meet its strength minimum, if any (see [equipment](#armor-weapons-and-equipment)). Every name level, warriors add an extra weapon die of damage to their armed combat attacks and an additional feat. At 1st level, warriors select one style, reflecting their preferred manner of fighting:
+1d8 Hit Die (8hp+Con mod at 1st level). Receive attack bonus of +1 every level, starting at level 1, stopping at +15 at level 15. Can use any weapon or armour, so long as they meet its strength minimum, if any (see [equipment](#armour-weapons-and-equipment)). Every name level, warriors add an extra weapon die of damage to their armed combat attacks and an additional feat. At 1st level, warriors select one style, reflecting their preferred manner of fighting:
 
-- **Arcanist**: You can read Mithric and gain access to two schools of magic of your choice. You can cast spells in armor as well as when being jostled. You cannot create or cast from scrolls, though you can copy spells from them. You have half the spell slots of a mage of your same level (rounded down, to a minimum of 1 slot). You start with a spellbook and spells the same way a mage does, but no schools or spells are automatically acquired through gaining levels. The source of your power must be defined.
+- **Arcanist**: You can read Mithric and gain access to two schools of magic of your choice. You can cast spells in armour as well as when being jostled. You cannot create or cast from scrolls, though you can copy spells from them. You have half the spell slots of a mage of your same level (rounded down, to a minimum of 1 slot). You start with a spellbook and spells the same way a mage does, but no schools or spells are automatically acquired through gaining levels. The source of your power must be defined.
 - **Hordeslayer**: If you kill an opponent with an attack, you can immediately make a bonus attack of the same kind (melee or ranged). You can make a maximum number of melee bonus attacks per round equal to your level, and a maximum number of missile bonus attacks equal to your number of name levels plus 1.
 - **Smiter**: Once per combat encounter, you can declare a smite after you score a hit, melee or ranged, which doubles the number of damage dice rolled. If a smite was announced on a critical hit, the extra weapon dice do not automatically deal maximum damage.
 
 ### Mage
 
-1d6 Hit Die (6hp+Con mod at 1st level). Can cast one spell per round. Can use any weapon or armor, so long as they meet its strength minimum, if any, but they can't normally cast spells in armor. Receive attack bonus of +1 every two levels, starting at level 2. All spells are divided into eight schools (see [Magic & Spells](#magic-spells)). By default, mages have access to four schools (one chosen, and three rolled randomly). After rolling, a mage can trade away access to one school (up to two maximum) in exchange for one of the following special abilities (each can be chosen only once, and only at character creation):
+1d6 Hit Die (6hp+Con mod at 1st level). Can cast one spell per round. Can use any weapon or armour, so long as they meet its strength minimum, if any, but they can't normally cast spells in armour. Receive attack bonus of +1 every two levels, starting at level 2. All spells are divided into eight schools (see [Magic & Spells](#magic-spells)). By default, mages have access to four schools (one chosen, and three rolled randomly). After rolling, a mage can trade away access to one school (up to two maximum) in exchange for one of the following special abilities (each can be chosen only once, and only at character creation):
 
-- **Battlemage**: You can cast spells while wearing light armor, and your class attack bonus improves to +1 every level, starting at level 1, stopping at +15.
+- **Battlemage**: You can cast spells while wearing light armour, and your class attack bonus improves to +1 every level, starting at level 1, stopping at +15.
 - **Focused**: Select one additional mage feat.
 - **Innate**: While you can still use them, you need not own a spellbook or consult one to prepare your spells.
 - **Specialist**: Choose one school you can already access. You have one additional spell slot at each spell level, to fill with a spell from this school. When you gain a level, you learn one extra random new spell from this school. Spells from this school are easier to bind.
@@ -145,7 +145,7 @@ All characters receive one feat at 1st level, and another feat at each name leve
 - **Marksman**: If firing into melee, you can pick your target instead of rolling randomly. Your ranged to-hit penalties are reduced by 2 points, plus 2 per name level. Your rate of fire with small thrown weapons increases from 1 to 2.
 - **Read Scrolls**: You can read Mithric, as well as cast from scrolls containing spells from four schools of your choice; if an Arcanist, two of these schools must be the two schools you already know. This does not grant the ability to create scrolls.
 - **True Grit**: You may reroll failed death saves.
-- **Whirlwind**: +2 AC (and a further +1 AC per name level). If not casting a spell that round, you receive the effects of the Dash combat stance (this does not count as your stance pick for the round). You are not locked in melee combat unless in melee with at least three opponents. To gain these benefits, you must be able to move freely, not wearing medium or heavy armor, and cannot be encumbered.
+- **Whirlwind**: +2 AC (and a further +1 AC per name level). If not casting a spell that round, you receive the effects of the Dash combat stance (this does not count as your stance pick for the round). You are not locked in melee combat unless in melee with at least three opponents. To gain these benefits, you must be able to move freely, not wearing medium or heavy armour, and cannot be encumbered.
 
 ### Mage Feats
 
@@ -191,7 +191,7 @@ Sample skills include: Acrobatics, Blindfighting, Climbing, Disguise, Etiquette,
 
 ## Buy Equipment
 
-Roll 6d6 and multiply the number by 10. That’s your starting silver pieces (sp). See the [equipment](#armor-weapons-and-equipment) list for things to buy (don't forget armor!) or choose a [quick pack](#quick-packs). Make a note (an asterisk is a good way) of what items you're declaring as "readied" (see [readied items](#readied-items)).
+Roll 6d6 and multiply the number by 10. That’s your starting silver pieces (sp). See the [equipment](#armour-weapons-and-equipment) list for things to buy (don't forget armour!) or choose a [quick pack](#quick-packs). Make a note (an asterisk is a good way) of what items you're declaring as "readied" (see [readied items](#readied-items)).
 
 If you plan to cast Turn Undead, be sure to buy a holy symbol! If you’re a thief, you’ll want lockpicks. A magic-user needs a book to use as a spellbook.
 
@@ -215,7 +215,7 @@ _Why is your character risking their life for adventure? This can be one word, o
 
 ---
 
-# Armor, Weapons, and Equipment
+# Armour, Weapons, and Equipment
 
 ## Item Slots
 
@@ -225,7 +225,7 @@ Assuming proper carrying gear, you can carry 12 + your Str mod slots of items.
 
 - **Small** items (like chalk or potions) fit four to a slot.
 - **Medium** items (most things) are 1 slot.
-- **Large** items like 2h weapons and medium armor are 2 slots. Heavy armor takes 3 slots and is bulky (see below).
+- **Large** items like 2h weapons and medium armour are 2 slots. Heavy armour takes 3 slots (as do all items listed as L+) and is bulky (see below).
 
 Coins & gems stack 500 to a slot. A typical body (willing or unconscious), fills 9 slots, before gear, and is bulky.
 
@@ -241,7 +241,7 @@ Coins & gems stack 500 to a slot. A typical body (willing or unconscious), fills
 
 Each encumbrance level also raises the difficulty of applicable tasks, such as climbing, by one level.
 
-**Bulky**: Bulky items, such as worn heavy armor, impose a greater encumbrance than just item slots. Each automatically adds one encumbrance level _after_ calculating the bearer's item slot load.
+**Bulky**: Bulky items, such as worn heavy armour, impose a greater encumbrance than just item slots. Each automatically adds one encumbrance level _after_ calculating the bearer's item slot load.
 
 ## Starting Gear
 
@@ -317,23 +317,23 @@ Finally, you can add "costed" items, which do cost money at character creation.
 
 **Wolfsbane**: If a lycanthrope is hit by wolfsbane, it must make a Very Hard (17+) save or run away in fear. The sprig must be swung or thrown as a weapon.
 
-## Armor
+## Armour
 
 > [!NOTE]
 > 100cp=10sp=1gp
 
-| Armor               | AC  | Cost  | Time to Don |
-| ------------------- | :-: | :---: | :---------: |
-| Small Shield (M)    | +1  | 25sp  |  1 action   |
-| Large Shield (L)    | +2  | 60sp  |  1 action   |
-| Leather or Furs (M) | 12  | 80sp  |    1 min    |
-| Ring (L)            | 13  | 130sp |    5 min    |
-| Scale/Lamellar (L)  | 14  | 180sp |    5 min    |
-| Chainmail (L)       | 15  | 280sp |    5 min    |
-| Splint (L+)         | 16  | 580sp |   10 min    |
-| Plate (L+)          | 17  | 850sp |   10 min    |
+| Armour                             | AC  | Cost  | Time to Don |
+| ---------------------------------- | :-: | :---: | :---------: |
+| Small Shield (M)                   | +1  | 25sp  |  1 action   |
+| Large Shield (L)                   | +2  | 60sp  |  1 action   |
+| Leather or Furs (light armour) (M) | 12  | 80sp  |    1 min    |
+| Ring (med. armour) (L)             | 13  | 130sp |    5 min    |
+| Scale/Lamellar (med. armour) (L)   | 14  | 180sp |    5 min    |
+| Chainmail (med. armour) (L)        | 15  | 280sp |    5 min    |
+| Splint (heavy armour) (L+)         | 16  | 580sp |   10 min    |
+| Plate (heavy armour) (L+)          | 17  | 850sp |   10 min    |
 
-\*Heavy armor (L+ = 3 slot) and Large Shields require minimum 9 Str to wear. Heavy armor also encumbers. A Shield also provides a +2 save bonus vs non-gaseous breath weapons.
+\*Heavy armour (L+ = 3 slot) and Large Shields require minimum 9 Str to wear. Heavy armour also encumbers. A Shield also provides a save bonus vs non-gaseous breath weapons equal to its AC bonus.
 
 ## Weapons
 
@@ -472,7 +472,7 @@ If the players do not immediately attack, the referee rolls on the Reaction Tabl
 
 ## Attacking
 
-To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceeds the target's Armor Class (AC), the attack hits. The most common attack modifiers are:
+To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceeds the target's Armour Class (AC), the attack hits. The most common attack modifiers are:
 
 - Attacker is striking from the rear: +2
 - Target is surprised: +4 (replaces above)
@@ -512,7 +512,7 @@ Any character not surprised or casting a spell must pick a stance. A character c
 #### **Combat Stances**
 
 - **Offensive**: +2 attack bonus
-- **Defensive**: +2 Armor Class
+- **Defensive**: +2 Armour Class
 - **Dash**: Your action occurs before those of the enemy (exceptions: charging a set opponent; attacking a pike/spear wall; grapple attempts)
 - **Guard**: Pick a 5' square. If you remain within 10' of it and can move freely, the first two enemies you are in the way of that try to move up to or make a ranged attack against anything in that square must engage you instead. Enemies already within 5' of the square or whom you are not in the way of are unaffected. Additionally, if an enemy can't be locked in melee, you cannot block its move.
   The effects of a stance last only for that round. Monsters and NPCs do not use stances.
@@ -704,7 +704,7 @@ Objects are subject to a decay roll after:
 - One month of normal use, in normal conditions
 - Three days of wilderness use
 - One day of dungeon use
-- Armor: Receiving a natural-20 hit
+- Armour: Receiving a natural-20 hit
 - Weapons: Rolling a natural 1 to hit
 - Food: Every day, fresh foods decay one level automatically, and then roll as usual.
 - Spice: Each use, spices decay one level automatically, in addition to usual rolls.
@@ -724,7 +724,7 @@ You can purchase objects that aren't necessarily new for less money. New items c
 
 ### Repairing Items
 
-Weapons and armor can be repaired by an appropriate craftsman, costing 10% of the item's original price to bring it from worn to used, and 20% of its original price to bring it from shabby to worn (i.e., 30% to go from shabby to used).
+Weapons and armour can be repaired by an appropriate craftsman, costing 10% of the item's original price to bring it from worn to used, and 20% of its original price to bring it from shabby to worn (i.e., 30% to go from shabby to used).
 
 ## Experience & Leveling
 
@@ -856,7 +856,7 @@ Generally, only creatures make saving throws. However, some items are especially
 
 If a creature must make a saving throw and it passes, no item carried by that creature needs to make a save unless the effect specifies otherwise.
 
-**Fragile items** can be almost anything (not including weapons, armor, or typical adventuring gear), but most notably include potions, scrolls, and wands that have been **readied** (kept close at hand, so that they're usable in combat without requiring an action to draw). The price of having such useful items at hand for immediate use is that they're vulnerable to destruction. For example, a potion in a backpack is not available for drinking in combat, but at the same time, if its owner is hit by a fireball, the potion is safe. Fragile items are the exception rather than the rule, and tend to be consumable, creating a risk to their use.
+**Fragile items** can be almost anything (not including weapons, armour, or typical adventuring gear), but most notably include potions, scrolls, and wands that have been **readied** (kept close at hand, so that they're usable in combat without requiring an action to draw). The price of having such useful items at hand for immediate use is that they're vulnerable to destruction. For example, a potion in a backpack is not available for drinking in combat, but at the same time, if its owner is hit by a fireball, the potion is safe. Fragile items are the exception rather than the rule, and tend to be consumable, creating a risk to their use.
 
 - **Area-effect Attacks**: Affect any item that's both fragile and readied. Daunting (11+) save.
 - **Bashing Containers**: Potions in a container require a Hard (14+) save, while scrolls, wands, and gemstones require a Moderate (8+) save.
@@ -906,32 +906,32 @@ Mages learn one random spell each time they gain a level from a random school th
 - **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 week + 100sp per level of the spell, and a successful Moderate (Arc x2) check, rolled at the end of the binding period; apply +2 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
 - **Research**: Casters can research new spells. These can be variants of spells the caster already knows--a Hard (Arc) check--spells the caster has witnessed being cast--a Very Hard (Arc) check--or spells the caster has only heard of--a Heroic (Arc) check. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 1d4+1x50sp in materials and 1 week.
 
-### Mage Spell Progression Table
+### Spell Slot Progression Table
 
-This shows the number of spells of a given spell level that a mage can prepare per day (also known as their spell slots). If the mage is a specialist, they add one to each level's spell slot total, but the extra spell must be from the school specialized in. If a spell is level-adjusted through feats, that spell is treated in all ways as a spell of the level to which it has been modified.
+This shows the number of spells of a given spell level that a caster can prepare per day (also known as their spell slots). Mages are the first number, Arcanist Warriors are the number in parentheses. If the mage is a specialist, they add one to each level's spell slot total, but the extra spell must be from the school specialized in. If a spell is level-adjusted through feats, that spell is treated in all ways as a spell of the level to which it has been modified.
 
-| Mage Level |  1   |  2   |  3  |  4  |  5  |  6  |
-| :--------: | :--: | :--: | :-: | :-: | :-: | :-: |
-|     1      | 2(1) |      |     |     |     |     |
-|     2      | 3(1) |      |     |     |     |     |
-|     3      | 3(1) | 1(1) |     |     |     |     |
-|     4      | 3(1) | 2(1) |     |     |     |     |
-|     5      | 4(2) | 2(1) |     |     |     |     |
-|     6      | 4(2) | 2(1) |  1  |     |     |     |
-|     7      | 4(2) | 3(1) |  2  |     |     |     |
-|     8      | 5(2) | 3(1) |  2  |     |     |     |
-|     9      | 5(2) | 3(1) |  2  |  1  |     |     |
-|     10     | 5(2) | 3(1) |  2  |  2  |     |     |
-|     11     | 5(2) | 4(2) |  3  |  2  |     |     |
-|     12     | 5(2) | 4(2) |  3  |  2  |  1  |     |
-|     13     | 6(3) | 4(2) |  3  |  2  |  1  |     |
-|     14     | 6(3) | 4(2) |  3  |  3  |  2  |     |
-|     15     | 6(3) | 5(2) |  4  |  3  |  2  |  1  |
-|     16     | 6(3) | 5(2) |  4  |  3  |  2  |  1  |
-|     17     | 6(3) | 5(2) |  4  |  3  |  3  |  1  |
-|     18     | 6(3) | 5(2) |  4  |  4  |  3  |  2  |
-|     19     | 6(3) | 6(3) |  5  |  4  |  3  |  2  |
-|     20     | 6(3) | 6(3) |  5  |  4  |  3  |  2  |
+| Mage Level |  1   |  2   |  3   |  4   |  5   |  6   |
+| :--------: | :--: | :--: | :--: | :--: | :--: | :--: |
+|     1      | 2(1) |      |      |      |      |      |
+|     2      | 3(1) |      |      |      |      |      |
+|     3      | 3(1) | 1(1) |      |      |      |      |
+|     4      | 3(1) | 2(1) |      |      |      |      |
+|     5      | 4(2) | 2(1) |      |      |      |      |
+|     6      | 4(2) | 2(1) | 1(1) |      |      |      |
+|     7      | 4(2) | 3(1) | 2(1) |      |      |      |
+|     8      | 5(2) | 3(1) | 2(1) |      |      |      |
+|     9      | 5(2) | 3(1) | 2(1) | 1(1) |      |      |
+|     10     | 5(2) | 3(1) | 2(1) | 2(1) |      |      |
+|     11     | 5(2) | 4(2) | 3(1) | 2(1) |      |      |
+|     12     | 5(2) | 4(2) | 3(1) | 2(1) | 1(1) |      |
+|     13     | 6(3) | 4(2) | 3(1) | 2(1) | 1(1) |      |
+|     14     | 6(3) | 4(2) | 3(1) | 3(1) | 2(1) |      |
+|     15     | 6(3) | 5(2) | 4(2) | 3(1) | 2(1) | 1(1) |
+|     16     | 6(3) | 5(2) | 4(2) | 3(1) | 2(1) | 1(1) |
+|     17     | 6(3) | 5(2) | 4(2) | 3(1) | 3(1) | 1(1) |
+|     18     | 6(3) | 5(2) | 4(2) | 4(2) | 3(1) | 2(1) |
+|     19     | 6(3) | 6(3) | 5(2) | 4(2) | 3(1) | 2(1) |
+|     20     | 6(3) | 6(3) | 5(2) | 4(2) | 3(1) | 2(1) |
 
 ### Preparing & Casting
 
@@ -981,7 +981,7 @@ Moving silently requires a successful Dex check, the difficulty of which is set 
 A move silently attempt reduces your movement to 1/4 (normally, to 10' per round). Every additional 10' per round added to that movement rate raises the difficulty by one level.
 
 - **Alert Enemies**: The attention of most intelligent undead (e.g., skeletons, zombies) and constructs (e.g. golems) never wavers. As such, the difficulty of move silently checks against them is one difficulty higher.
-- **Armor**: If wearing non-magical medium or heavy armor, increase the difficulty by one level.
+- **Armour**: If wearing non-magical medium or heavy armour, increase the difficulty by one level.
 - **Group Checks**: If a group attempts to sneak together, this is a group check, with the difficulty based on the group's least stealthy member.
 - **Surprise**: Moving silently can be used to set up surprise attacks.
 
@@ -1026,9 +1026,9 @@ Loyalty is checked with a Morale roll after each adventure, if the retainer is r
 
 Porters/torchbearers come with no equipment. Equipment purchased by the PC is kept by the PC. Retainers come with the same basic starting equipment as PCs, but no starting silver. Stats, specializations & feats are rolled randomly, and no skills are included (but can be chosen if a player ends up playing the retainer as a replacement for a lost PC, for example).
 
-Starting armor is based on class. Mages roll 1d6-1; Warriors roll 1d6+1:
+Starting armour is based on class. Mages roll 1d6-1; Warriors roll 1d6+1:
 
-- 0-1=No armor (AC 9)
+- 0-1=No armour (AC 9)
 - 2-3=Leather (AC 12)
 - 4-5=Ring (AC 13)
 - 6=Scale (AC 14)
@@ -1059,7 +1059,7 @@ Strongholds and domains are as in OSE Advanced, with clarifications and detailed
 
 ## Swimming
 
-All characters can swim, barring an unusual background. Assuming no current, a land-dweller swims at half their combat speed, and can do so for hours equal to 1/4 their Con score (3/4 speed and 1/2 Con with the Swimming skill); round down. If lightly encumbered, halve the amount of time a character can swim. Higher encumbrance (or wearing medium or heavy armor) causes one to sink and begin to drown if in deep enough water (see [Fatigue](#fatigue)).
+All characters can swim, barring an unusual background. Assuming no current, a land-dweller swims at half their combat speed, and can do so for hours equal to 1/4 their Con score (3/4 speed and 1/2 Con with the Swimming skill); round down. If lightly encumbered, halve the amount of time a character can swim. Higher encumbrance (or wearing medium or heavy armour) causes one to sink and begin to drown if in deep enough water (see [Fatigue](#fatigue)).
 
 ## Trap Detection
 
@@ -1217,7 +1217,7 @@ Short-term services of simple craftsmen and laborers are relatively easily procu
 
 **Laborer**: Essentially unskilled, laborers are suitable for only the most menial sorts of work; this category includes bearers and porters, each of which is able to carry up to 12 slots of items, or twice that if a pole or other contrivance is utilized.
 
-**Leatherer**: Capable of producing a wide range of leather goods, such as packs, belts or riding gear; a leatherer is indispensable for the making of scabbards, sheathes, shields and the other leather components of arms and armor.
+**Leatherer**: Capable of producing a wide range of leather goods, such as packs, belts or riding gear; a leatherer is indispensable for the making of scabbards, sheathes, shields and the other leather components of arms and armour.
 
 **Limner**: Adept in the painting of signs and the illumination of heraldic devices, among other similar tasks.
 
@@ -1229,7 +1229,7 @@ Short-term services of simple craftsmen and laborers are relatively easily procu
 
 **Servant**: Typically serving as valets, butlers, maids, messengers or simple lackeys, servants are expected to look to the needs of their master.
 
-**Tailor**: Accomplished in the repair and making of clothes or other cloth items; the services of a tailor are also required for the production of various types of textile based armor and coverings.
+**Tailor**: Accomplished in the repair and making of clothes or other cloth items; the services of a tailor are also required for the production of various types of textile based armour and coverings.
 
 **Teamster**: Experienced drivers of carts and wagons, teamsters are usually experts at loading and unloading their vehicles, as well as handling the animals with which they are familiar.
 
@@ -1253,7 +1253,7 @@ Obtaining the services of very skilled craftsmen and other professional servitor
 | -------------------------- | ------------ |
 | Alchemist                  | 1,000sp      |
 | Animal Trainer             | 500sp        |
-| Armorer                    | 500sp\*      |
+| Armourer                   | 500sp\*      |
 | Blacksmith                 | 220sp        |
 | Engineer (Architect)       | 500sp\*      |
 | Engineer (Artillerist)     | 300sp        |
@@ -1273,7 +1273,7 @@ _\*Cost does not include all remuneration or special fees._
 
 **Animal Trainer**: Specialized trainers are required for exotic animals or larger numbers of normal animals. A trainer can have up to six animals under their care at a time. It will take a minimum of one uninterrupted month to teach an animal the first new behavior or trick. After this first month, an animal has become accustomed to the trainer and can be taught additional behaviors at twice the rate (two weeks per behavior).
 
-**Armorer**: Required for the production and maintenance of armor and shields; for every 60 men at arms or barded warhorses present, there must be at least one armorer available. Each must be provided with a workroom, forge, and assistants at an additional cost (~400sp). An armorer can use spare time (prorated based on number of supported troops) to make additional armor, helmets, or shields at 25% of their usual cost. Per month, an armorer can make three shields or one suit of armor.
+**Armourer**: Required for the production and maintenance of armour and shields; for every 60 men at arms or barded warhorses present, there must be at least one armourer available. Each must be provided with a workroom, forge, and assistants at an additional cost (~400sp). An armourer can use spare time (prorated based on number of supported troops) to make additional armour, helmets, or shields at 25% of their usual cost. Per month, an armourer can make three shields or one suit of armour.
 
 **Blacksmith:** Essential for the basic maintenance of a stronghold and any resident soldiery; for every blacksmith retained the needs of up to one hundred and twenty men or horses can be met, but there must be at least one in every stronghold and a workroom and forge must be provided for each (~400sp). Besides the usual duties (horseshoes, nails, hinges, etc.) a hired smith can turn out some basic weaponry each month: 30 arrowheads or quarrel tips, or 10 spear heads, or 5 morningstars, or 2 flails or polearm heads.
 
@@ -1314,7 +1314,7 @@ _\*A 20,000sp expenditure will allow the sage to operate at 50% of normal effici
 
 **Scribe**: Practiced in the art of writing, a typical scribe is expected to keep records, write letters and copy documents. Others may possess additional skills, such as cartography, counterfeiting, cryptography, illuminating or the ability to write, read or otherwise comprehend more than one language. Such accomplished individuals might command up to ten times the standard wage.
 
-**Ship Crew**: Skilled workers who can handle a ship. Sailors can fight to defend their ship, typically being equipped with a sword, shield, and leather armor.
+**Ship Crew**: Skilled workers who can handle a ship. Sailors can fight to defend their ship, typically being equipped with a sword, shield, and leather armour.
 
 **Ship’s Captain**: A captain is required for any large ship, is skilled like a sailor, and has an intimate knowledge of the particular coasts they frequent.
 
