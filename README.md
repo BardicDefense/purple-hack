@@ -935,7 +935,9 @@ This shows the number of spells of a given spell level that a caster can prepare
 
 ### Preparing & Casting
 
-**Preparing Spells:** Spell preparation can occur no more than once every 24 hours, requires at least 4 hours of uninterrupted rest immediately prior, and no fatigue levels from exhaustion or lack of sleep. One interrupted hour of study is then needed to prepare all spells chosen, no matter how many, but can prepare no more than two uses of the same spell at any one time (altering a spell with a feat does not make it a "different" spell). Spells, once cast, are lost from the casting character's memory and cannot be reused until the caster prepares them again.
+**Preparing Spells:** Once a spell is mentally in place, it remains until either intentionally dismantled or the caster uses the spell. If a spell is unused, it remains in the caster's mind, even though sleep has occurred.
+
+To reconstruct spells (called "memorizing" or "preparing" them), a caster must first have a night's rest (at least 4 hours of uninterrupted sleep) and no fatigue levels from exhaustion or lack of sleep, to regain the clarity and focus needed. The time required to prepare a spell is 10 minutes per spell level of uninterrupted concentration. For example, a third-level spell would require 30 minutes to prepare. A caster can prepare no more than two uses of the same spell.
 
 **Spell Disruption**: If, between declaring a spell and casting it, the caster is hit by an attack or the like (even if no damage is dealt), or fails a saving throw, the spell is disrupted: it fails and its spell slot is emptied with no other effect. Note that only spells being cast can be disrupted. Spell effects from a rod, staff, wand, etc. and spell-like innate creature abilities are immune to disruption.
 
