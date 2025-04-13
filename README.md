@@ -264,20 +264,21 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 - **Crowbar (M)**: Makes it easier to force open doors, and doubles as an improvised medium weapon.
 - **Fruit, dried (S)**: Durable, 1lb (apples, pears, raisins)
 - **Fruit or vegetables, fresh (S)**: 1lb (apples, pears, carrots, cabbage, etc.)
-- **Garlic, bulb**: Repels vampires.
+- **Garlic, spice (S)**: Durable, bundle of bulbs, also repels vampires.
+- **Grappling Hook (S)**: Steel, 1'x8", four prongs
 - **Hammer (S)**: Doubles as an improvised small weapon.
-- **Iron spike (S)**: One of these can be hammered in to block one typical door.
+- **Spike, iron x4 (S)**: One of these can be hammered in to block one typical door.
 - **Lantern (M)**: A lantern can be closed to hide its light, burns one flask of lamp oil every 4 hours, and illuminates a 20' radius.
 - **Oil flask (M)**: Fuels lantern 4 hours. Poured on ground and lit burns for 1 turn. Thrown on monster (roll to hit) & set on fire does 1d6 damage each round for two rounds.
-- **Pickaxe (L)**: This excavating tool doubles as an improvised medium weapon.
+- **Pick, mining (M)**: This excavating tool doubles as an improvised medium weapon.
 - **Pole, 10' (L)**: Often used to prod potential dangers at a safe distance. When wielded during cautious exploration, has a 2-in-6 chance of setting off most traps.
-- **Rope, hemp (L)**: Can hold the weight of roughly three human-sized beings. 50' long. Comes with grapnel.
-- **Scrollcase (M)**: Each holds up to 10 spell levels in spell scrolls.
+- **Rope, hemp, 3/8" (L)**: Holds 250lbs, 50' length.
+- **Scroll case, leather (M)**: Each holds up to 10 spell levels in spell scrolls.
 - **Shovel (L)**: Excavating tool doubles as an improvised medium weapon.
 - **Sledgehammer (L)**: Excavating tool doubles as an improvised medium weapon.
 - **Torch (M)**: Burns for 1 hour, illuminating a 40' radius. Will remain lit if dropped to the ground or thrown. Can be used as a small weapon without dousing it; some targets take further damage due to the fire. Also useful to burn away rot grubs, green slime, and webs.
-- **Twine ball (100') (S)**: Can hold no more than 10 lbs of weight before snapping.
-- **Vial (S)**: Glass. Holds 4 oz of liquid.
+- **Twine, hemp, 1/8" (S)**: Ball, holds 10lbs, 100' length.
+- **Vial, glass (S)**: 4oz, 1.4" dia, 5" high, cork stopper.
 
 Finally, you can add "costed" items, which do cost money at character creation.
 
@@ -285,22 +286,22 @@ Finally, you can add "costed" items, which do cost money at character creation.
 
 ### Costed Items
 
-| Item                          | Cost |
-| ----------------------------- | ---- |
-| Acid, vial (S)                | 50sp |
-| Arrowhead, silver             | 5sp  |
-| Book, leatherbound, 64pgs (M) | 30sp |
-| Chain, 10' (L)                | 45sp |
-| Holy symbol, iron             | 5sp  |
-| Holy symbol, silver           | 50sp |
-| Holy symbol, wooden           | 1sp  |
-| Holy water vial (S)           | 25sp |
-| Mapping kit (M)               | 10sp |
-| Mirror, small, bronze (S)     | 2sp  |
-| Rope, silk, 50' (M)           | 50sp |
-| Tent (L)                      | 20sp |
-| Thieves' picks & tools (M)    | 12sp |
-| Wolfsbane sprig (S)           | 1sp  |
+| Item                                | Cost |
+| ----------------------------------- | ---- |
+| Acid, vial (S)                      | 50sp |
+| Arrow or light bolt, silver, single | 5sp  |
+| Book, leatherbound, 24pgs (M)       | 30sp |
+| Chain, iron, 1" links, 10' (L)      | 40sp |
+| Holy symbol, iron                   | 5sp  |
+| Holy symbol, silver                 | 50sp |
+| Holy symbol, wooden                 | 1sp  |
+| Holy water vial (S)                 | 25sp |
+| Mapping kit (M)                     | 10sp |
+| Mirror, small, bronze (S)           | 2sp  |
+| Rope, silk, 3/8" (M)                | 75sp |
+| Tent, single (L)                    | 20sp |
+| Thieves' picks & tools (M)          | 12sp |
+| Wolfsbane sprig (S)                 | 1sp  |
 
 **Acid, vial**: Can splash contents on a target within 5' or hurl it as a small thrown weapon; it shatters on impact. A hit deals 1d6+1 acid damage. A vial can also be used to open most mundane locks in 1 turn.
 
@@ -310,7 +311,7 @@ Finally, you can add "costed" items, which do cost money at character creation.
 
 **Mapping kit**: A cased roll of parchment plus quills and vials of ink, sufficient to map all but the largest areas.
 
-**Rope, silk**: Lighter and stronger than hemp, can bear the weight of five human-sized beings. Comes with grapnel.
+**Rope, silk**: Lighter and stronger than hemp, can hold 500lbs. 50' length.
 
 **Tent**: Protects against adverse weather when adventuring in the wilds. See [sleeping in the wilds](#sleeping-in-the-wilds).
 
@@ -332,7 +333,7 @@ Finally, you can add "costed" items, which do cost money at character creation.
 | Splint (L+)         | 16  | 580sp |   10 min    |
 | Plate (L+)          | 17  | 850sp |   10 min    |
 
-\*Heavy armor (L+ = 3 slot) and Heavy Shields require minimum 9 Str to wear. A Shield also provides a +2 save bonus vs non-gaseous breath weapons.
+\*Heavy armor (L+ = 3 slot) and Large Shields require minimum 9 Str to wear. Heavy armor also encumbers. A Shield also provides a +2 save bonus vs non-gaseous breath weapons.
 
 ## Weapons
 
@@ -353,7 +354,7 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 | Weapon                  | Size & Damage | Cost | Hands | S:0 | M:-4 | F:-8 |
 | ----------------------- | :-----------: | :--: | :---: | :-: | :--: | :--: |
 | Arrows/bolts x20        |       M       | 20sp |   -   |  -  |  -   |  -   |
-| Bow, short\*            |       M       | 40sp |   2   | 45' | 90'  | 180' |
+| Bow, short\*            |       M       | 35sp |   2   | 45' | 90'  | 180' |
 | Bow, long\* (req 9 Str) |       M       | 60sp |   2   | 90' | 180' | 360' |
 | Crossbow, light         |       M       | 50sp |   2   | 45' | 90'  | 180' |
 | Crossbow, heavy\*\*     |       L       | 75sp |   2   | 90' | 180' | 360' |
@@ -384,11 +385,11 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 | Dog, hunting  | 35sp  |  M   |      50      |       -       |        -        |
 | Dog, war      | 65sp  |  M   |      50      |       -       |        -        |
 | Hawk          | 40sp  |  S   |      80      |       -       |        -        |
-| Horse, draft  | 150sp |  L   |      50      |       5       |       25        |
+| Horse, draft  | 150sp |  L   |      50      |       5       |       30        |
 | Horse, riding | 100sp |  L   |      80      |       6       |       20        |
 | Horse, war    | 300sp |  L   |      65      |       5       |       25        |
-| Mule          | 90sp  |  L   |      65      |       5       |       30        |
-| Ox            | 120sp |  L   |      50      |       4       |       30        |
+| Mule          | 90sp  |  L   |      65      |       5       |       25        |
+| Ox            | 120sp |  L   |      50      |       4       |       35        |
 
 | Item              |  Cost   |
 | ----------------- | :-----: |
@@ -1021,7 +1022,7 @@ The downside is that readied items are vulnerable to destruction. If a creature 
 
 Retainers cost 50sp on initial hire (+50sp to request a class), plus ½ share of treasure. They will be level 1d3, but cannot be higher than the hiring PC’s level. Retainers' starting Morale typically ranges from 18 (the craven) to 6 (the elite), and can be randomly determined at hiring with a 2d6+6 roll.
 
-Loyalty is checked with a Morale roll after each adventure, if the retainer is reduced to 1/4 or less of its full HP total, or if their loyalty is severely tested. If a success is rolled, the retainer’s Morale threshold decreases by one to a minimum of 6. On a failure, the retainer departs.
+Loyalty is checked with a Morale roll after each adventure, if the retainer is reduced to 1/4 or less of its full HP total, or if their loyalty is severely tested. If a success is rolled, the retainer’s Morale threshold decreases by one to a minimum of 6. On a failure, the retainer departs. If a retainer dies while in your service, your character is expected to pay the retainer's family a weregild of 100sp or its equivalent.
 
 Porters/torchbearers come with no equipment. Equipment purchased by the PC is kept by the PC. Retainers come with the same basic starting equipment as PCs, but no starting silver. Stats, specializations & feats are rolled randomly, and no skills are included (but can be chosen if a player ends up playing the retainer as a replacement for a lost PC, for example).
 
