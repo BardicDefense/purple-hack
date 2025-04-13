@@ -72,7 +72,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Box, small (M)* | iron, 6"x9"x6", sturdy | 48s. | 1 |
 | Branding iron* (M) | includes cost for shape of desired brand, sturdy | 7s. 2d. | 5 |
 | Brazier (L)* | iron, 19" dia, tripod stand, sturdy | 38s. | 1 |
-| Bullet, lead x20* (M) | for sling, sturdy | 14s. 4d. | 1 |
+| Balls, lead x20* (M) | for sling, sturdy | 14s. 4d. | 1 |
 | Cage, steel wire (M)* | rabbit trap | 22s. 4d. | 1 |
 | Caltrops, bag of 20 (M)* | iron, 2.25" dia. Cover 5'sq area. Creatures moving through have a 2-in-6 chance to tread on a spike for a 50% mv penalty for 24 hours or magically healed. Intelligent can move cautiously (5' MV) through for no damage. | 7s. | 4 |
 | Cauldron, 2 gal. (L+)* | w/ lid, cast iron, (20lb.), sturdy | 44s. 2d. | 1 |
@@ -325,38 +325,38 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Item | Notes | Price | Number Available |
 |--- |--- |--- |--- |
 | Almonds (S)* | durable | 4s. 4d. | 4 |
-| Anise, spice (S)* | durable, paper box, 2"x1"x1" | 3s. | 5 |
+| Anise, spice (S)* | durable, linen bag, 2"x1" | 3s. | 5 |
 | Apples (S)* | fresh | 9d. | 75 |
 | Apples, dried (S)* | durable | 10s. 5d. | 6 |
 | Banana (S)* | fresh | 21s. | 1 |
 | Beets, pickled (S)* | durable | 2s. 4d. | 5 |
 | Chestnuts (S)* | durable | 9d. | 76 |
-| Cinnamon, spice (S)* | durable, paper box, 2"x1"x1" | 4s. | 6 |
-| Cloves, spice (S)* | durable, paper box, 2"x1"x1" | 5s. 5d. | 6 |
+| Cinnamon, spice (S)* | durable, linen bag, 2"x1" | 4s. | 6 |
+| Cloves, spice (S)* | durable, linen bag, 2"x1" | 5s. 5d. | 6 |
 | Cooking oil, vegetable (S)* | contained in pint flask, 1 month supply | 4d. | 68 |
 | Egg, chicken* | fresh | 6d. | 75 |
 | Figs (S)* | fresh | 1s. | 66 |
 | Figs, dried (S)* | durable | 8s. | 6 |
 | Garlic, spice (S)* | durable, bundle of bulbs, also repels vampires | 8d. | 54 |
-| Ginger, spice (S)* | durable, paper box, 2"x1"x1" | 1s. 5d. | 4 |
+| Ginger, spice (S)* | durable, linen bag, 2"x1" | 1s. 5d. | 4 |
 | Grapes (S)* | fresh | 1d. | 54 |
 | Hazelnuts (S)* | durable | 2d. | 74 |
 | Honey, spice (S)* | durable, 8oz jar, counts as delicacy | 1s. 8d. | 5 |
 | Jam, fruit, spice (S)* | durable, 8oz jar, counts as fresh | 1s. 2d. | 4 |
 | Lemon essence, spice (S)* | durable, 1oz pot | 18s. | 1 |
 | Molasses, sweet, spice (S)* | durable, 8oz jar, counts as delicacy | 90s. | 1 |
-| Mustard, spice (S)* | durable, paper box, 2"x1"x1" | 1s. 6d. | 64 |
-| Nutmeg, spice (S)* | durable, paper box, 2"x1"x1" | 3s. 5d. | 4 |
+| Mustard, spice (S)* | durable, linen bag, 2"x1" | 1s. 6d. | 64 |
+| Nutmeg, spice (S)* | durable, linen bag, 2"x1" | 3s. 5d. | 4 |
 | Olives, pickled (S)* | durable | 5s. 4d. | 4 |
 | Pears (S)* | fresh | 7d. | 68 |
 | Pears, dried (S)* | durable | 4s. 9d. | 6 |
-| Pepper, black, spice (S)* | durable, paper box, 2"x1"x1" | 7s. 2d. | 5 |
+| Pepper, black, spice (S)* | durable, linen bag, 2"x1" | 7s. 2d. | 5 |
 | Pickles, malt vinegar (S)* | durable | 2s. 6d. | 6 |
 | Pickles, wine vinegar (S)* | durable | 6s. | 6 |
 | Plums (S)* | fresh | 1s. 2d. | 67 |
 | Prunes, dried (S)* | durable | 8s. 8d. | 5 |
 | Raisins (S)* | durable | 3s. 3d. | 5 |
-| Saffron, spice (S)* | durable, paper box, 2"x1"x1" | 288s. (i) |  |
+| Saffron, spice (S)* | durable, linen bag, 2"x1" | 288s. (i) |  |
 | Salt lick (M)* | sufficient for one ton mammal for 3 months | 3s. 6d. | 5 |
 | Salt, spice (S)* | durable, paper box, 2"x2"x1"; will sustain a human 1 month | 4d. | 64 |
 | Soap, lye (M)* | sack; adequate for laundry for four persons for 3 months | 2s. 4d. | 4 |
@@ -468,24 +468,18 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 |--- |--- |--- |--- |
 | Amphora, earthenware (L+)* | 5' high, 16gal capacity | 18s. 7d. | 1 |
 | Bowl, earthenware (S)* | 6"dia | 4d. | 69 |
-| Bowl, porcelain (S)* | 6" dia | 1s. 5d. | 70 |
 | Bowl, stoneware (S)* | 6" dia | 7d. | 60 |
 | Cup, earthenware* | 6oz | 4d. | 66 |
 | Jug, stoneware (M)* | 1 gallon | 4s. 4d. | 6 |
 | Pitcher, earthenware (M)* | 1 pottle | 5d. | 71 |
-| Pitcher, porcelain (M)* | 1 pottle | 1s. 8d. | 6 |
 | Pitcher, stoneware (M)* | 1 pottle | 7d. | 72 |
 | Plate, earthenware (S)* | 3.5" dia | 1d. | 58 |
 | Plate, earthenware (S)* | 7" dia | 2d. | 57 |
-| Plate, porcelain (S)* | 3.5" dia | 1s. | 71 |
-| Plate, porcelain (S)* | 7" dia | 2s. 6d. | 5 |
 | Plate, stoneware (S)* | 3.5" dia | 3d. | 76 |
 | Plate, stoneware (S)* | 7" dia | 7d. | 57 |
 | Platter, earthenware (S)* | 18" dia | 1s. 5d. | 5 |
-| Platter, porcelain (M)* | 18" dia | 3s. | 5 |
 | Platter, stoneware (M)* | 18" dia | 3s. | 6 |
 | Pot, earthenware (M)* | 1 gallon | 1s. 1d. | 4 |
-| Pot, porcelain (M)* | 1 gallon | 3s. 6d. | 6 |
 | Pot, stoneware (M)* | 1 gallon | 2s. 3d. | 4 |
 | Stein, stoneware (S)* | 24 oz. | 1s. 2d. | 6 |
 
