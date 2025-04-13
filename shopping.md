@@ -1,4 +1,4 @@
-# Newmarket Market
+# Newmarket Merchants & Traders
 
 *Week of Harvestide 27, 2993 AEP*
 
