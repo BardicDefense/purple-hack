@@ -8,64 +8,149 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 
 ## Inn Services
 
-### Drinks
+### Meal, delicious
 
-| Item | Notes | Price |
+| Notes | Source Cost (sp) | Price |
 | --- | --- | --- |
-| Ale | pint flagon | 5d. |
-| Cider | pint flagon | 1d. |
-| Cyser, dwarven | Goblet | 20s. |
-| Mead | Goblet | 15s. |
-| Perry | Goblet | 2s. |
+| e.g. "Hearty peppered venison stew, with fresh-baked bread & roasted root vegetables" | 10 | 21s.* |
 
-### Food
+### Meal, nosh
 
-| Item | Notes | Price |
+| Notes | Source Cost (sp) | Price |
 | --- | --- | --- |
-| Meal, delicious | e.g. "Hearty peppered venison stew, with fresh-baked bread & roasted root vegetables" | 10s. |
-| Meal, nosh | e.g. "Roasted sausage, hunk of cheese, small loaf of bread" | 2s. |
-| Meal, piquant | e.g. "Roast meat, stuffed with nuts & imported fruit, drizzled with saffron wine glaze, served w/ spiced pears" | 20s. |
-| Meal, tasty | e.g. "Thick meat & veggie pie, side of apple chutney" | 7s. |
+| e.g. "Roasted sausage, hunk of cheese, small loaf of bread" | 2 | 3s. 6d.* |
 
-### Lodging
+### Meal, piquant
 
-| Item | Notes | Price |
+| Notes | Source Cost (sp) | Price |
 | --- | --- | --- |
-| Bunkroom bed, 1 ni | Shared room with 36 bunks; Kronos's men sleep here | 1s. |
-| Bunkroom bed, 1 week | Shared room with 36 bunks; Kronos's men sleep here | 3s. |
-| Private room, 1 night | Sleeps 2 | 3s. |
-| Private room, 1 week | Sleeps 2 | 20s. |
-| Common room floor |  | 3d. |
-| Housekeeping for private room | washing, dusting, and delousing of room & sheets; requires room be vacated for one hour | 2s. |
-| Laundering | cleaning of one suit of clothes, returned within 12 hours | 1s. 5d. |
-| Bath | heated & prepared by Estelle | 2d. |
-| Shave | provided by Kronos himself | 5d. |
+| e.g. "Roast meat, stuffed with nuts & imported fruit, drizzled with saffron wine glaze, served w/ spiced pears" | 20 | 27s.* |
 
-### Spellcasting
+### Meal, tasty
 
-| Item | Notes | Price |
+| Notes | Source Cost (sp) | Price |
 | --- | --- | --- |
-| Cure Light Wounds | one casting from Estelle | 100s. |
-| Detect Magic | one casting from Estelle | 150s. |
-| Protection from Evil | one casting from Estelle | 350s. |
-| Augury | one casting from Estelle | 300s. |
-| Slow Poison | one casting from Estelle | 350s. |
-| Cure Blindness | one casting from Estelle | 1000s. |
-| Cure Disease | one casting from Estelle | 1000s. |
-| Dispel Magic | one casting from Estelle | 750s. |
-| Remove Curse | one casting from Estelle | 1000s. |
-| Cure Serious Wounds | one casting from Estelle | 350s. |
-| Neutralize Poison | one casting from Estelle | 1000s. |
+| e.g. "Thick meat & veggie pie, side of apple chutney" | 7 | 6s. 3d.* |
+
+### Bath
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| heated & prepared by innkeeper | 0.17 | 1d.* |
+
+### Housekeeping
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| washing, dusting, and delousing of room & sheets; requires room be vacated for one hour | 1.7 | 1s. 4d.* |
+
+### Laundering
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| cleaning of one suit of clothes, returned within 12 hours | 1.6 | 1s. 4d.* |
+
+### Lodging, common, avg. inn (each)
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| space provided in the inn's common room shared with other ordinary lodgers | 1 | 2s.* |
+
+### Lodging, common, cheap inn (each)
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+|  | 1 | 1s. 7d.* |
+
+### Lodging, double, boarding house (monthly-each)
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+|  | 75 | 139s. 7d.* |
+
+### Lodging, private, avg. inn (each)
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+|  | 3.5 | 5s. 6d.* |
+
+### Lodging, single, boarding house (monthly)
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+|  | 100 | 119s. 7d.* |
+
+### Lodging, single, religious hostel
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+|  | 2 | 2s. 4d.* |
+
+### Shave
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| provided by hired contractor known to the innkeeper | 0.5 | 7d.* |
+
+### Feed, mule
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| one night's provisioning | 0.2 | 2d.* |
+
+### Feed, pony or donkey
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| one night's provisioning | 0.1 | 2d.* |
+
+### Feed, riding horse
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| one night's provisioning | 0.15 | 3d.* |
+
+### Feed, warhorse
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| one night's provisioning | 0.3 | 3d.* |
 
 ### Stabling
 
-| Item | Notes | Price |
+| Notes | Source Cost (sp) | Price |
 | --- | --- | --- |
-| Feed, mule | one night's provisioning | 2d. |
-| Feed, pony or donkey | one night's provisioning | 1d. |
-| Feed, riding horse | one night's provisioning | 2d. |
-| Feed, warhorse | one night's provisioning | 3d. |
-| Stabling | stall provided for period of one night | 1s. |
+| stall provided for period of one night | 1 | 1s. 4d.* |
+
+### Ale
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| pint flagon | 0.5 | 7d.* |
+
+### Cider
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| pint flagon | 1 | 1s. 7d.* |
+
+### Cyser, dwarven
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| Goblet | 20 | 36s.* |
+
+### Mead
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| Goblet | 15 | 24s. 8d.* |
+
+### Perry
+
+| Notes | Source Cost (sp) | Price |
+| --- | --- | --- |
+| Goblet | 2 | 3s. 3d.* |
 
 ## Apothecary
 
@@ -186,43 +271,6 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Nutmeg, spice (S)* | durable, linen bag, 2"x1" | 4s. 5d.* | 1 |
 | Raisins (S)* | durable | 5s.* | 1 |
 | Salt, spice (S)* | durable, paper box, 2"x2"x1"; will sustain a human 1 month | 5d.* | 1 |
-
-## Inn - Kitchen
-
-| Item | Notes | Price | Number Available |
-| --- | --- | --- | --- |
-| Meal, delicious | e.g. "Hearty peppered venison stew, with fresh-baked bread & roasted root vegetables" | 10s. 5d.* | 1 |
-| Meal, nosh | e.g. "Roasted sausage, hunk of cheese, small loaf of bread" | 2s. 1d.* | 1 |
-| Meal, piquant | e.g. "Roast meat, stuffed with nuts & imported fruit, drizzled with saffron wine glaze, served w/ spiced pears" | 30s.* | 1 |
-| Meal, tasty | e.g. "Thick meat & veggie pie, side of apple chutney" | 8s. 4d.* | 1 |
-
-## Inn - Lodging
-
-| Item | Notes | Price | Number Available |
-| --- | --- | --- | --- |
-| Bath | heated & prepared by innkeeper | 2d.* | 1 |
-| Housekeeping | washing, dusting, and delousing of room & sheets; requires room be vacated for one hour | 2s.* | 1 |
-| Laundering | cleaning of one suit of clothes, returned within 12 hours | 1s. 6d.* | 1 |
-| Lodging, common, avg. inn (each) | space provided in the inn's common room shared with other ordinary lodgers | 2s.* | 1 |
-| Lodging, common, cheap inn (each) |  | 2s.* | 1 |
-| Lodging, private, avg. inn (each) |  | 6s. 1d.* | 1 |
-| Lodging, single, boarding house (monthly) |  | 159s. 6d.* | 1 |
-| Shave | provided by hired contractor known to the innkeeper | 8d.* | 1 |
-
-## Inn - Stabling
-
-| Item | Notes | Price | Number Available |
-| --- | --- | --- | --- |
-| Feed, mule | one night's provisioning | 2d.* | 1 |
-| Feed, pony or donkey | one night's provisioning | 1d.* | 1 |
-| Stabling | stall provided for period of one night | 2s.* | 1 |
-
-## Inn - Tavern
-
-| Item | Notes | Price | Number Available |
-| --- | --- | --- | --- |
-| Cyser, dwarven | Goblet | 24s.* | 1 |
-| Perry | Goblet | 3s.* | 1 |
 
 ## Leatherworker
 
