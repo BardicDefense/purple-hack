@@ -8,149 +8,64 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 
 ## Inn Services
 
-### Meal, delicious
+### Drinks
 
-| Notes | Source Cost (sp) | Price |
+| Item | Notes | Price |
 | --- | --- | --- |
-| e.g. "Hearty peppered venison stew, with fresh-baked bread & roasted root vegetables" | 10 | 21s.* |
+| Ale | pint flagon | 5d. |
+| Cider | pint flagon | 1d. |
+| Cyser, dwarven | Goblet | 20s. |
+| Mead | Goblet | 15s. |
+| Perry | Goblet | 2s. |
 
-### Meal, nosh
+### Food
 
-| Notes | Source Cost (sp) | Price |
+| Item | Notes | Price |
 | --- | --- | --- |
-| e.g. "Roasted sausage, hunk of cheese, small loaf of bread" | 2 | 3s. 6d.* |
+| Meal, delicious | e.g. "Hearty peppered venison stew, with fresh-baked bread & roasted root vegetables" | 10s. |
+| Meal, nosh | e.g. "Roasted sausage, hunk of cheese, small loaf of bread" | 2s. |
+| Meal, piquant | e.g. "Roast meat, stuffed with nuts & imported fruit, drizzled with saffron wine glaze, served w/ spiced pears" | 20s. |
+| Meal, tasty | e.g. "Thick meat & veggie pie, side of apple chutney" | 7s. |
 
-### Meal, piquant
+### Lodging
 
-| Notes | Source Cost (sp) | Price |
+| Item | Notes | Price |
 | --- | --- | --- |
-| e.g. "Roast meat, stuffed with nuts & imported fruit, drizzled with saffron wine glaze, served w/ spiced pears" | 20 | 27s.* |
+| Bunkroom bed, 1 ni | Shared room with 36 bunks; Kronos's men sleep here | 1s. |
+| Bunkroom bed, 1 week | Shared room with 36 bunks; Kronos's men sleep here | 3s. |
+| Private room, 1 night | Sleeps 2 | 3s. |
+| Private room, 1 week | Sleeps 2 | 20s. |
+| Common room floor |  | 3d. |
+| Housekeeping for private room | washing, dusting, and delousing of room & sheets; requires room be vacated for one hour | 2s. |
+| Laundering | cleaning of one suit of clothes, returned within 12 hours | 1s. 5d. |
+| Bath | heated & prepared by Estelle | 2d. |
+| Shave | provided by Kronos himself | 5d. |
 
-### Meal, tasty
+### Spellcasting
 
-| Notes | Source Cost (sp) | Price |
+| Item | Notes | Price |
 | --- | --- | --- |
-| e.g. "Thick meat & veggie pie, side of apple chutney" | 7 | 6s. 3d.* |
-
-### Bath
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| heated & prepared by innkeeper | 0.17 | 1d.* |
-
-### Housekeeping
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| washing, dusting, and delousing of room & sheets; requires room be vacated for one hour | 1.7 | 1s. 4d.* |
-
-### Laundering
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| cleaning of one suit of clothes, returned within 12 hours | 1.6 | 1s. 4d.* |
-
-### Lodging, common, avg. inn (each)
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| space provided in the inn's common room shared with other ordinary lodgers | 1 | 2s.* |
-
-### Lodging, common, cheap inn (each)
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-|  | 1 | 1s. 7d.* |
-
-### Lodging, double, boarding house (monthly-each)
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-|  | 75 | 139s. 7d.* |
-
-### Lodging, private, avg. inn (each)
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-|  | 3.5 | 5s. 6d.* |
-
-### Lodging, single, boarding house (monthly)
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-|  | 100 | 119s. 7d.* |
-
-### Lodging, single, religious hostel
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-|  | 2 | 2s. 4d.* |
-
-### Shave
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| provided by hired contractor known to the innkeeper | 0.5 | 7d.* |
-
-### Feed, mule
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| one night's provisioning | 0.2 | 2d.* |
-
-### Feed, pony or donkey
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| one night's provisioning | 0.1 | 2d.* |
-
-### Feed, riding horse
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| one night's provisioning | 0.15 | 3d.* |
-
-### Feed, warhorse
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| one night's provisioning | 0.3 | 3d.* |
+| Cure Light Wounds | one casting from Estelle | 100s. |
+| Detect Magic | one casting from Estelle | 150s. |
+| Protection from Evil | one casting from Estelle | 350s. |
+| Augury | one casting from Estelle | 300s. |
+| Slow Poison | one casting from Estelle | 350s. |
+| Cure Blindness | one casting from Estelle | 1000s. |
+| Cure Disease | one casting from Estelle | 1000s. |
+| Dispel Magic | one casting from Estelle | 750s. |
+| Remove Curse | one casting from Estelle | 1000s. |
+| Cure Serious Wounds | one casting from Estelle | 350s. |
+| Neutralize Poison | one casting from Estelle | 1000s. |
 
 ### Stabling
 
-| Notes | Source Cost (sp) | Price |
+| Item | Notes | Price |
 | --- | --- | --- |
-| stall provided for period of one night | 1 | 1s. 4d.* |
-
-### Ale
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| pint flagon | 0.5 | 7d.* |
-
-### Cider
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| pint flagon | 1 | 1s. 7d.* |
-
-### Cyser, dwarven
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| Goblet | 20 | 36s.* |
-
-### Mead
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| Goblet | 15 | 24s. 8d.* |
-
-### Perry
-
-| Notes | Source Cost (sp) | Price |
-| --- | --- | --- |
-| Goblet | 2 | 3s. 3d.* |
+| Feed, mule | one night's provisioning | 2d. |
+| Feed, pony or donkey | one night's provisioning | 1d. |
+| Feed, riding horse | one night's provisioning | 2d. |
+| Feed, warhorse | one night's provisioning | 3d. |
+| Stabling | stall provided for period of one night | 1s. |
 
 ## Apothecary
 
