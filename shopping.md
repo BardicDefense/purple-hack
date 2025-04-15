@@ -645,8 +645,8 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Cyser, dwarven (S)* | half-pottle flask, durable | 35s. 2d. | 1 |
 | Mead  (S)* | half-pottle flask, durable | 27s. | 1 |
 | Perry (S)* | quart bottle, durable | 2s. 7d. | 5 |
-| Vinegar, white wine* | 1gal in earthenware jug | 6s. | 5 |
-| Wine* | 1gal in earthenware jug | 5s. 4d. | 6 |
+| Vinegar, white wine* | 1gal in earthenware jug, durable | 6s. | 5 |
+| Wine* | 1gal in earthenware jug, durabe | 5s. 4d. | 6 |
 
 ## Wagonwright
 
