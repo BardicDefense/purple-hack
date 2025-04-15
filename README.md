@@ -33,6 +33,7 @@ Some highlights:
   - [Equipment Wear & Tear](#equipment-wear--tear)
   - [Experience & Leveling](#experience--leveling)
   - [Fatigue](#fatigue)
+  - [Food](#food)
   - [Item Saving Throws](#item-saving-throws)
   - [Light & Vision](#light--vision)
   - [Lockpicking](#lockpicking)
