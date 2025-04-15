@@ -6,6 +6,152 @@ A * after a name means it can be bought used (already degraded); (i) after a pri
 
 Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qualities
 
+## Town Services
+
+### Ale
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| pint flagon | Beer, ale | Inn - Tavern |  | 5d.* |
+
+### Bath
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| heated & prepared by innkeeper | Wood, common | Inn - Lodging | 1 | 1d.* |
+
+### Cider
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| pint flagon | Beer, ale | Inn - Tavern |  | 1s. 2d.* |
+
+### Cyser, dwarven
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| Goblet | Wine, spirits | Inn - Tavern |  | 33s.* |
+
+### Feed, mule
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| one night's provisioning | Grain, vegetables | Inn - Stabling | 1 | 2d.* |
+
+### Feed, pony or donkey
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| one night's provisioning | Grain, vegetables | Inn - Stabling | 1 | 2d.* |
+
+### Feed, riding horse
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| one night's provisioning | Grain, vegetables | Inn - Stabling |  | 3d.* |
+
+### Feed, warhorse
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| one night's provisioning | Grain, vegetables | Inn - Stabling |  | 3d.* |
+
+### Housekeeping
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| washing, dusting, and delousing of room & sheets; requires room be vacated for one hour | Town Services | Inn - Lodging | 1 | 1s. 2d.* |
+
+### Laundering
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| cleaning of one suit of clothes, returned within 12 hours | Animals | Inn - Lodging | 1 | 1s. 3d.* |
+
+### Lodging, common, avg. inn (each)
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| space provided in the inn's common room shared with other ordinary lodgers | Town Services | Inn - Lodging | 1 | 1s. 8d.* |
+
+### Lodging, common, cheap inn (each)
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+|  | Town Services | Inn - Lodging | 1 | 1s. 6d.* |
+
+### Lodging, double, boarding house (monthly-each)
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+|  | Town Services | Inn - Lodging |  | 129s. 7d.* |
+
+### Lodging, private, avg. inn (each)
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+|  | Town Services | Inn - Lodging | 1 | 5s. 1d.* |
+
+### Lodging, single, boarding house (monthly)
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+|  | Town Services | Inn - Lodging | 1 | 106s. 4d.* |
+
+### Lodging, single, religious hostel
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+|  | Town Services | Inn - Lodging |  | 2s. 1d.* |
+
+### Mead
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| Goblet | Wine, spirits | Inn - Tavern |  | 22s. 5d.* |
+
+### Meal, delicious
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| e.g. "Hearty peppered venison stew, with fresh-baked bread & roasted root vegetables" | Animals | Inn - Kitchen | 1 | 19s. 5d.* |
+
+### Meal, nosh
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| e.g. "Roasted sausage, hunk of cheese, small loaf of bread" | Grain, vegetables | Inn - Kitchen | 1 | 3s. 6d.* |
+
+### Meal, piquant
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| e.g. "Roast meat, stuffed with nuts & imported fruit, drizzled with saffron wine glaze, served w/ spiced pears" | Spices | Inn - Kitchen | 1 | 33s.* |
+
+### Meal, tasty
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| e.g. "Thick meat & veggie pie, side of apple chutney" | Animals | Inn - Kitchen | 1 | 5s. 3d.* |
+
+### Perry
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| Goblet | Wine, spirits | Inn - Tavern |  | 3s.* |
+
+### Shave
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| provided by hired contractor known to the innkeeper | Town Services | Inn - Lodging | 1 | 6d.* |
+
+### Stabling
+
+| Notes | Trade Category | Merchant | Number Available | Price |
+| --- | --- | --- | --- | --- |
+| stall provided for period of one night | Town Services | Inn - Stabling | 1 | 1s. 2d.* |
+
 ## Apothecary
 
 | Item | Notes | Price | Number Available |
@@ -274,19 +420,19 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Butter, salted (S)* | package, 1lb. | 8s. | 5 |
-| Cheese, common (S)* | 1lb, Cheshire, Lancashire, Wensleydale | 12s. | 1 |
-| Cheese, rare (S)* | 1lb, Cheddar, Stilton | 44s. 4d. | 1 |
-| Cream (S)* | contained in pottle flask | 3s. 6d. | 5 |
-| Milk, raw (M)* | contained in pottle jug | 2s. 2d. | 6 |
-| Milk, raw, poured* | customer must provide own vessel, cost per cup | 2d. | 69 |
+| Butter, salted (S)* | fresh, package, 1lb. | 8s. | 5 |
+| Cheese, common (S)* | durable, 1lb, Cheshire, Lancashire, Wensleydale | 12s. | 1 |
+| Cheese, rare (S)* | durable, 1lb, Cheddar, Stilton | 44s. 4d. | 1 |
+| Cream (S)* | fresh, contained in pottle flask | 3s. 6d. | 5 |
+| Milk, raw (M)* | fresh, contained in pottle jug | 2s. 2d. | 6 |
+| Milk, raw, poured* | fresh, customer must provide own vessel, cost per cup | 2d. | 69 |
 
 ## Fishmonger
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
 | Caviar (S)* | delicacy, contained in fishpot | 15s. 4d. | 1 |
-| Clams (S)* | 1lb, in shell | 6d. | 70 |
+| Clams (S)* | fresh, 1lb, in shell | 6d. | 70 |
 | Eel, freshwater (S)* | fresh, delicacy | 13s. 8d. | 1 |
 | Fish, fresh, whole (S)* | 1lb, fresh | 1d. | 59 |
 | Fish, salted (S)* | 1lb, durable | 6d. | 55 |
