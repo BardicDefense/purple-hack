@@ -1001,8 +1001,6 @@ Non-player characters may be hired to cast spells or perform other services. As 
 |     5th     |      1000sp      |
 |     6th     |     2500sp+      |
 
-Paying for spellcasting services does not count towards XP.
-
 Sages or alchemists not employed by a PC will often charge around 100sp to identify a potion (which takes an hour or so), or 200+sp to identify a magical item (which can take upwards of a week).
 
 ## Perception Checks
