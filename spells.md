@@ -394,7 +394,7 @@ Undead creatures perceive up to five subjects (+5 per caster name level) as unde
 
 #### Grease
 
-_CConjuration (R: Medium, D: 10 minutes)_  
+_Conjuration (R: Medium, D: 10 minutes)_  
 Save: Hard (Dex). AoE: Up to 40-ft radius / 16 × 16. Slick, non-flammable grease covers the ground. Creatures in the area when the grease appears or who move into a greased space (even if already in one) must save or fall prone (limit of one such save per round). For those who make their save, the greased area is still treated as difficult terrain.
 
 #### Light (R)
