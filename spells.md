@@ -390,7 +390,7 @@ Save: Hard (Will). AoE: 200-ft radius. Intelligent creatures that fail their sav
 #### Grave Shroud
 
 _Necromancy (R: Short, D: 1 hour)_  
-Undead creatures perceive up to five subjects (+5 per caster name level) as undead. Mindless undead thus ignore the subjects, unless specifically commanded to attack them directly, while intelligent undead do not instinctively know them to be alive, but will likely wonder at their actions or appearance. If a subject attacks an undead creature, the spell ends for them.
+Undead creatures perceive up to six subjects (+5 per caster name level) as undead. Mindless undead thus ignore the subjects, unless specifically commanded to attack them directly, while intelligent undead do not instinctively know them to be alive, but will likely wonder at their actions or appearance. If a subject attacks an undead creature, the spell ends for them.
 
 #### Grease
 
