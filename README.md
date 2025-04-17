@@ -95,14 +95,14 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 
 ### Mage
 
-1d6 Hit Die (6hp+Con mod at 1st level). Can cast one spell per round. Can use any weapon or armour, so long as they meet its strength minimum, if any, but they can't normally cast spells in armour. Receive attack bonus of +1 every two levels, starting at level 2. All spells are divided into eight schools (see [Magic & Spells](#magic-spells)). By default, mages have access to four schools (one chosen, and three rolled randomly). After rolling, a mage can trade away access to one school (up to two maximum) in exchange for one of the following special abilities (each can be chosen only once, and only at character creation):
+1d6 Hit Die (6hp+Con mod at 1st level). Can cast one spell per round. Can use any weapon or armour, so long as they meet its strength minimum, if any, but they can't normally cast spells in armour. Receive attack bonus of +1 every two levels, starting at level 2. All spells are divided into eight schools (see [Magic & Spells](#magic--spells)). By default, mages have access to four schools (one chosen, and three rolled randomly). After rolling, a mage can trade away access to one school (up to two maximum) in exchange for one of the following special abilities (each can be chosen only once, and only at character creation):
 
 - **Battlemage**: You can cast spells while wearing light armour, and your class attack bonus improves to +1 every level, starting at level 1, stopping at +15.
 - **Focused**: Select one additional mage feat.
 - **Innate**: While you can still use them, you need not own a spellbook or consult one to prepare your spells.
 - **Specialist**: Choose one school you can already access. You have one additional spell slot at each spell level, to fill with a spell from this school. When you gain a level, you learn one extra random new spell from this school. Spells from this school are easier to bind.
 
-**Starting Spells**: Mages start with one random 1st-level spell from each school to which they have access. Specialists then select one extra 1st-level spell of their choice from their specialty school. Mages can prepare a limited number of spells each day, and gain further spell slots as they gain levels (see [Magic & Spells](#magic-spells)).
+**Starting Spells**: Mages start with one random 1st-level spell from each school to which they have access. Specialists then select one extra 1st-level spell of their choice from their specialty school. Mages can prepare a limited number of spells each day, and gain further spell slots as they gain levels (see [Magic & Spells](#magic--spells)).
 
 **New Spells**: Mages learn one random new spell each time they gain a level. You also gain access to a new school of your choice at each name level. When this happens, you learn random spells of that school, one at each spell level you can cast.
 
