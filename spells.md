@@ -604,7 +604,7 @@ Up to one subject per caster level becomes nearly immune to exhaustion. Subjects
 _Transmutation (R: Short, D: 1 day)_  
 Up to two subjects per caster level can breathe water freely.
 
-##### Web
+#### Web
 
 _Conjuration (R: Short, D: 10 minutes)_  
 Save: Hard (Str). AoE: Up to 30-ft radius / 12 × 12. This spell creates a barrier of sticky strands. To be cast, the Web must be anchored on at least two opposite sides to solid points. Any creature of size Large or smaller that moves into the web or is in its area when it is cast must save or become stuck. Victims can make a save at the end of each round to break free. Those with 18+ Strength can break free or rip through with 1 round of effort. The strands are also flammable, a 5-ft square burning per round.
