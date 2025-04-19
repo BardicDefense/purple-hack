@@ -714,18 +714,21 @@ Objects that are expressly protected (e.g., a scroll in a scrollcase, or a spell
 
 Objects degrade as follows:
 
-- A new object becomes used if a 1 in 4 is rolled. If it's expressly a "sturdy" item, it becomes used if two 1s are rolled on 2d4. Under stress, a new object breaks on a 1 in 100.
+- A new object becomes used if a 1 in 4 is rolled. Under stress, a new object breaks on a 1 in 100.
 - A used object becomes worn on a 1 in 20. Under stress, it breaks on a 1 in 50.
 - A worn object becomes shabby on a 1 in 12. Under stress, it breaks on a 1 in 20.
 - A shabby object becomes ruined on a 1 in 8. Under stress, it braks on a 1 in 6.
 
-Magical items roll two of the appropriate dice, only degrading if two 1s are rolled.
+Magical items and "sturdy" items roll two of the appropriate dice, only degrading if two 1s are rolled.
 
 You can purchase objects that aren't necessarily new for less money. New items cost 100% of list price, used cost 80% of list price, worn cost 60%, and shabby cost 40%. Likewise, you can sell such objects to merchants for half that price: 50% new, 40% used, 30% worn, and 20% shabby.
 
 ### Repairing Items
 
 Weapons and armour can be repaired by an appropriate craftsman, costing 10% of the item's original price to bring it from worn to used, and 20% of its original price to bring it from shabby to worn (i.e., 30% to go from shabby to used).
+
+### Alternative System
+Simply track when something breaks, without tracking the intermediate steps. At the above intervals, roll 2d6. If both two 1s are rolled, the item is ruined or broken, and must be replaced. Magic items and "sturdy" items roll 1d100 + 1d6, and break if 1s are showing on all dice. Using this alternative system is simpler, but tracking more minutely has the benefit of knowing when things are getting close to breaking, plus a slight mathematical edge (tracking intervals gives you on average 44 checks until breakage, vs 36 simplified, or 624 vs 600 checks on a magic or sturdy item).
 
 ## Experience & Leveling
 
