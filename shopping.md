@@ -23,7 +23,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | --- | --- | --- |
 | Bath | heated & prepared by innkeeper | 3d. |
 | Housekeeping | washing, dusting, and delousing of room & sheets; requires room be vacated for one hour | 3s. 2d. |
-| Laundering | cleaning of one suit of clothes, returned within 12 hours | #DIV/0! |
+| Laundering | cleaning of one suit of clothes, returned within 12 hours | 2s. 9d. |
 | Lodging, common, avg. inn (each) | space provided in the inn's common room shared with other ordinary lodgers | 1s. 8d. |
 | Lodging, common, cheap inn (each) |  | 1s. 9d. |
 | Lodging, double, boarding house (monthly-each) |  | 137s. 6d. |
@@ -263,17 +263,17 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
 | Candle snuffer (S)* | sturdy, 7" instrument with small metal cup & handle | 3s. 5d. | 5 |
-| Candle, large pillar (M) | tallow, 12" h, 4" d, burns 8 hrs, illuminates 5' radius | #DIV/0! | 5 |
-| Candle, pillar (S) | tallow, 6" h, 2" dia, burns 2 hrs, illuminates 5' radius | #DIV/0! | 4 |
-| Candle, scented (S) | beeswax, 2" h, 1.5" dia, rose attar scent, burns 4 hours, illuminates 5' radius | #DIV/0! | 5 |
-| Candle, votive (S) | beeswax, 2" h, 1.5" dia, burnt as religious offering, burns 4 hours, illuminates 5' radius | #DIV/0! | 5 |
+| Candle, large pillar (M) | tallow, 12" h, 4" d, burns 8 hrs, illuminates 5' radius | 13s. 4d. | 5 |
+| Candle, pillar (S) | tallow, 6" h, 2" dia, burns 2 hrs, illuminates 5' radius | 2s. 5d. | 4 |
+| Candle, scented (S) | beeswax, 2" h, 1.5" dia, rose attar scent, burns 4 hours, illuminates 5' radius | 3s. 5d. | 5 |
+| Candle, votive (S) | beeswax, 2" h, 1.5" dia, burnt as religious offering, burns 4 hours, illuminates 5' radius | 14s. 3d. | 5 |
 | Candlelighter (M)* | 48" long; snuffer & wick with polished hardwood handle | 19s. 8d. | 1 |
 | Lamp oil (S)* | 1pt, earthen flask, fuels lantern 4 hours; Poured on ground and lit burns for 10 minutes; thrown on monster (roll to hit) & set on fire does 1d6 damage each round for two rounds. | 31s. 4d. | 1 |
 | Oil, hemp seed (L)* | 1gal earthenware jug | 51s. | 1 |
 | Oil, linseed (L)* | 1gal earthenware jug | 39s. | 1 |
-| Sealing wax* | package; 4"x2", suitable for 16 cu in | #DIV/0! | 65 |
+| Sealing wax* | package; 4"x2", suitable for 16 cu in | 1s. 3d. | 65 |
 | Soap, scented x4 (S)* | tallow soap, 2" cubes, with rose attar scent | 31s. 3d. | 1 |
-| Tallow (M)* | full chandler's pot, suitable for 8oz candle | #DIV/0! | 1 |
+| Tallow (M)* | full chandler's pot, suitable for 8oz candle | 23s. 1d. | 1 |
 | Torch, wood, tallow soaked rag (S)* | 24", burns 1 hour, 40' radius light; can be used as small weapon without dousing; 2-in-6 chance to go out if dropped or thrown | 3s. 2d. | 5 |
 | Torch, wood, wax soaked rag (S)* | 24", burns 1 hour, 40' radius light; can be used as small weapon without dousing; will remain lit if dropped or thrown | 7s. 4d. | 5 |
 
@@ -311,7 +311,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Basket, bushel (M)* | oak, plaited, 2 handles, 15"dx12"h (2 slots) | 13s. 2d. | 6 |
 | Basket, straw (S)* | plaited, 6"dx6"h (1 slot) | 3s. 6d. | 5 |
 | Basket, willow (M)* | wicker, handle, 15"x8"x6"h (1 slot) | 8s. 1d. | 5 |
-| Basket, wool (S)* | coiled, 6"dx6"h (1 slot) | #DIV/0! | 5 |
+| Basket, wool (S)* | coiled, 6"dx6"h (1 slot) | 16s. 3d. | 5 |
 | Bucket, 2gal (M)* | pine, hemp handle (1 slot) | 5s. 2d. | 5 |
 | Cask, 2gal (M)* | oak, water tight | 11s. 2d. | 4 |
 
@@ -319,12 +319,12 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Butter, salted (S)* | fresh, package, 1lb. | #DIV/0! | 5 |
-| Cheese, common (S)* | durable, 1lb, Cheshire, Lancashire, Wensleydale | #DIV/0! | 1 |
-| Cheese, rare (S)* | durable, 1lb, Cheddar, Stilton | #DIV/0! | 1 |
-| Cream (S)* | fresh, contained in pottle flask | #DIV/0! | 4 |
-| Milk, raw (M)* | fresh, contained in pottle jug | #DIV/0! | 5 |
-| Milk, raw, poured* | fresh, customer must provide own vessel, cost per cup | #DIV/0! | 72 |
+| Butter, salted (S)* | fresh, package, 1lb. | 13s. 9d. | 5 |
+| Cheese, common (S)* | durable, 1lb, Cheshire, Lancashire, Wensleydale | 22s. | 1 |
+| Cheese, rare (S)* | durable, 1lb, Cheddar, Stilton | 68s. 4d. | 1 |
+| Cream (S)* | fresh, contained in pottle flask | 5s. 1d. | 4 |
+| Milk, raw (M)* | fresh, contained in pottle jug | 3s. 7d. | 5 |
+| Milk, raw, poured* | fresh, customer must provide own vessel, cost per cup | 3d. | 72 |
 
 ## Fishmonger
 
@@ -335,7 +335,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Eel, freshwater (S)* | fresh, delicacy | 36s. 8d. | 1 |
 | Fish, fresh, whole (S)* | 1lb, fresh | 3d. | 72 |
 | Fish, salted (S)* | 1lb, durable | 1s. 4d. | 69 |
-| Oil, whale (S)* | contained in flask | #DIV/0! | 4 |
+| Oil, whale (S)* | contained in flask | 3s. 3d. | 4 |
 | Pearl, button (6mm)* | sturdy | 441s. 9d. | 1 |
 | Pearl, round (6mm)* | sturdy | 843s. 1d. | 1(i) |
 | Shrimp, whole raw (S)* | 1lb, fresh | 2d. | 59 |
@@ -379,7 +379,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Cinnamon, spice (S)* | durable, linen bag, 2"x1" | 7s. 4d. | 4 |
 | Cloves, spice (S)* | durable, linen bag, 2"x1" | 9s. 1d. | 4 |
 | Cooking oil, vegetable (S)* | contained in pint flask, 1 month supply | 8d. | 75 |
-| Egg, chicken* | fresh | #DIV/0! | 72 |
+| Egg, chicken* | fresh | 9d. | 72 |
 | Figs (S)* | fresh | 1s. 7d. | 64 |
 | Figs, dried (S)* | durable | 17s. 4d. | 5 |
 | Garlic, spice (S)* | durable, bundle of bulbs, also repels vampires | 1s. 6d. | 60 |
@@ -404,7 +404,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Saffron, spice (S)* | durable, linen bag, 2"x1" | 301s. 5d. | 1(i) |
 | Salt lick (M)* | sufficient for one ton mammal for 3 months | 6s. 8d. | 6 |
 | Salt, spice (S)* | durable, paper box, 2"x2"x1"; will sustain a human 1 month | 4d. | 78 |
-| Soap, lye (M)* | sack; adequate for laundry for four persons for 3 months | #DIV/0! | 5 |
+| Soap, lye (M)* | sack; adequate for laundry for four persons for 3 months | 5s. | 5 |
 | Sugar, granulated brown, spice (S)* | durable, paper box, 2"x2"x1"; will sustain a human 1 month | 64s. 8d. | 1 |
 | Walnuts (S)* | durable | 9d. | 56 |
 
@@ -553,7 +553,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Button, wood* |  | 6d. | 76 |
 | Cap, linen, simple (S unless worn)* |  | 7s. 3d. | 5 |
 | Cap, waterproof (S unless worn)* | sealskin; soft leather | 44s. | 1 |
-| Cap, wool, knit, simple, 3 color (S unless worn)* |  | #DIV/0! | 5 |
+| Cap, wool, knit, simple, 3 color (S unless worn)* |  | 6s. 9d. | 5 |
 | Cloak, beaver fur (M unless worn)* |  | 153s. 1d. | 1 |
 | Cloak, buckskin (M unless worn)* |  | 91s. 9d. | 1 |
 | Cloak, fox fur (M unless worn)* |  | 272s. 9d. | 1(i) |
@@ -570,18 +570,18 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Dress, simple, linen, light (M unless worn)* |  | 33s. 8d. | 1 |
 | Dress, simple, silk (M unless worn)* |  | 346s. 8d. | 1 |
 | Dress, simple, wool (M unless worn)* |  | 37s. 5d. | 1 |
-| Gloves, wool, knit (S unless worn)* |  | #DIV/0! | 5 |
+| Gloves, wool, knit (S unless worn)* |  | 9s. | 5 |
 | Hood, linen (S unless worn)* |  | 22s. 1d. | 1 |
-| Hood, wool (S unless worn)* |  | #DIV/0! | 1 |
-| Hose, wool, knit, thick, full (S unless worn)* |  | #DIV/0! | 6 |
-| Hose, wool, knit, thick, knee-length (S unless worn)* |  | #DIV/0! | 4 |
-| Hose, wool, knit, thin, full (S unless worn)* |  | #DIV/0! | 5 |
-| Hose, wool, knit, thin, knee-length (S unless worn)* |  | #DIV/0! | 4 |
+| Hood, wool (S unless worn)* |  | 22s. 7d. | 1 |
+| Hose, wool, knit, thick, full (S unless worn)* |  | 8s. | 6 |
+| Hose, wool, knit, thick, knee-length (S unless worn)* |  | 4s. 1d. | 4 |
+| Hose, wool, knit, thin, full (S unless worn)* |  | 4s. 1d. | 5 |
+| Hose, wool, knit, thin, knee-length (S unless worn)* |  | 2s. 1d. | 4 |
 | Kilt, wool (M unless worn)* |  | 33s. 6d. | 1 |
-| Mittens, wool, knit (S unless worn)* |  | #DIV/0! | 5 |
+| Mittens, wool, knit (S unless worn)* |  | 3s. 2d. | 5 |
 | Needle, porcupine quill* |  | 1d. | 54 |
 | Scarf, silk, 4' (S unless worn)* |  | 58s. 7d. | 1 |
-| Scarf, wool, knit (S unless worn)* |  | #DIV/0! | 6 |
+| Scarf, wool, knit (S unless worn)* |  | 10s. 2d. | 6 |
 | Shirt, linen (S unless worn)* |  | 24s. 2d. | 1 |
 | Shirt, linen, light (S unless worn)* |  | 20s. 3d. | 1 |
 | Shirt, silk, fine (S unless worn)* |  | 193s. 2d. | 1 |
@@ -680,7 +680,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Thread, canvas, strong (S)* | per pound, 80 yards | 4s. 6d. | 5 |
 | Thread, linen, farm (S)* | per pound, 400 yards | 4s. 6d. | 4 |
 | Thread, linen, good (S)* | per pound, 1000 yards | 5s. 6d. | 5 |
-| Yarn, wool (S)* | per pound, 400 yards | #DIV/0! | 5 |
+| Yarn, wool (S)* | per pound, 400 yards | 7s. 6d. | 5 |
 
 ## Woodseller
 
@@ -711,7 +711,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Fishing pole, cane with 100' line (L)* |  | 1s. 9d. | 6 |
 | Hnefatafl set & board, wooden (M)* |  | 14s. 7d. | 5 |
 | Holy symbol, wooden* | -1 penalty to Turn Undead hit dice roll | 1s. 8d. | 55 |
-| Hunting horn, ram's horn (S)* |  | #DIV/0! | 1 |
+| Hunting horn, ram's horn (S)* |  | 42s. 7d. | 1 |
 | Javelin (M)* | Adds Str mod to thrown damage (20'/40'/60') | 29s. 1d. | 1 |
 | Mallet, wood (S)* |  | 4s. 6d. | 5 |
 | Pole, 10' (L)* | When wielded during cautious exploration, has a 2-in-6 chance of setting off most traps | 5s. 5d. | 4 |
