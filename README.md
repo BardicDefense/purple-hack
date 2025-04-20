@@ -192,7 +192,7 @@ Sample skills include: Acrobatics, Blindfighting, Climbing, Disguise, Etiquette,
 
 ## Buy Equipment
 
-Roll 6d6 and multiply the number by 10. That’s your starting silver pieces (sp). See the [equipment](#armour-weapons-and-equipment) list for things to buy (don't forget armour!) or choose a [quick pack](#quick-packs). Make a note (an asterisk is a good way) of what items you're declaring as "readied" (see [readied items](#readied-items)).
+Roll 6d6 and multiply the number by 10. That’s your starting silver pieces (d.). See the [equipment](#armour-weapons-and-equipment) list for things to buy (don't forget armour!) or choose a [quick pack](#quick-packs). Make a note (an asterisk is a good way) of what items you're declaring as "readied" (see [readied items](#readied-items)).
 
 If you plan to cast Turn Undead, be sure to buy a holy symbol! If you’re a thief, you’ll want lockpicks. A magic-user needs a book to use as a spellbook.
 
@@ -289,20 +289,20 @@ Finally, you can add "costed" items, which do cost money at character creation.
 
 | Item                                | Cost |
 | ----------------------------------- | ---- |
-| Acid, vial (S)                      | 50sp |
-| Arrow or light bolt, silver, single | 5sp  |
-| Book, leatherbound, 24pgs (M)       | 30sp |
-| Chain, iron, 1" links, 10' (L)      | 40sp |
-| Holy symbol, iron                   | 5sp  |
-| Holy symbol, silver                 | 50sp |
-| Holy symbol, wooden                 | 1sp  |
-| Holy water vial (S)                 | 25sp |
-| Mapping kit (M)                     | 10sp |
-| Mirror, small, bronze (S)           | 2sp  |
-| Rope, silk, 3/8" (M)                | 75sp |
-| Tent, single (L)                    | 20sp |
-| Thieves' picks & tools (M)          | 12sp |
-| Wolfsbane sprig (S)                 | 1sp  |
+| Acid, vial (S)                      | 50d. |
+| Arrow or light bolt, silver, single | 5d.  |
+| Book, leatherbound, 24pgs (M)       | 30d. |
+| Chain, iron, 1" links, 10' (L)      | 40d. |
+| Holy symbol, iron                   | 5d.  |
+| Holy symbol, silver                 | 50d. |
+| Holy symbol, wooden                 | 1d.  |
+| Holy water vial (S)                 | 25d. |
+| Mapping kit (M)                     | 10d. |
+| Mirror, small, bronze (S)           | 2d.  |
+| Rope, silk, 3/8" (M)                | 75d. |
+| Tent, single (L)                    | 20d. |
+| Thieves' picks & tools (M)          | 12d. |
+| Wolfsbane sprig (S)                 | 1d.  |
 
 **Acid, vial**: Can splash contents on a target within 5' or hurl it as a small thrown weapon; it shatters on impact. A hit deals 1d6+1 acid damage. A vial can also be used to open most mundane locks in 1 turn.
 
@@ -321,18 +321,18 @@ Finally, you can add "costed" items, which do cost money at character creation.
 ## Armour
 
 > [!NOTE]
-> 100cp=10sp=1gp
+> 40 copper farthings (f.) = 10 silver pence (d.) = 1 gold noble (g.)
 
 | Armour                             | AC  | Cost  | Time to Don |
 | ---------------------------------- | :-: | :---: | :---------: |
-| Small Shield (M)                   | +1  | 25sp  |  1 action   |
-| Large Shield (L)                   | +2  | 60sp  |  1 action   |
-| Leather or Furs (light armour) (M) | 12  | 80sp  |    1 min    |
-| Ring (med. armour) (L)             | 13  | 130sp |    5 min    |
-| Scale/Lamellar (med. armour) (L)   | 14  | 180sp |    5 min    |
-| Chainmail (med. armour) (L)        | 15  | 280sp |    5 min    |
-| Splint (heavy armour) (L+)         | 16  | 580sp |   10 min    |
-| Plate (heavy armour) (L+)          | 17  | 850sp |   10 min    |
+| Small Shield (M)                   | +1  | 25d.  |  1 action   |
+| Large Shield (L)                   | +2  | 60d.  |  1 action   |
+| Leather or Furs (light armour) (M) | 12  | 80d.  |    1 min    |
+| Ring (med. armour) (L)             | 13  | 130d. |    5 min    |
+| Scale/Lamellar (med. armour) (L)   | 14  | 180d. |    5 min    |
+| Chainmail (med. armour) (L)        | 15  | 280d. |    5 min    |
+| Splint (heavy armour) (L+)         | 16  | 580d. |   10 min    |
+| Plate (heavy armour) (L+)          | 17  | 850d. |   10 min    |
 
 \*Heavy armour (L+ = 3 slot) and Large Shields require minimum 9 Str to wear. Heavy armour also encumbers. A Shield also provides a save bonus vs non-gaseous breath weapons equal to its AC bonus.
 
@@ -342,9 +342,9 @@ Finally, you can add "costed" items, which do cost money at character creation.
 
 Weapons are divided into three basic damage categories: small, medium, and large.
 
-- **Small** weapons deal 1d4 damage, are one-handed, and include knives, daggers, and small handaxes. Can be dual-wielded for +1 to hit (doesn't grant additional attacks). Average cost: 12sp.
-- **Medium** weapons deal 1d6+1 damage, are one-handed, and include most swords, spears, maces, flails, and battle axes. Can be wielded two-handed, which adds +1 damage. Average cost: 20sp.
-- **Large** weapons deal 1d8+3 damage, are two-handed, and include polearms and pikes, as well as large swords, spears, axes, and maces. A minimum Str of 9 is required to wield large weapons. Average cost: 75sp.
+- **Small** weapons deal 1d4 damage, are one-handed, and include knives, daggers, and small handaxes. Can be dual-wielded for +1 to hit (doesn't grant additional attacks). Average cost: 12d..
+- **Medium** weapons deal 1d6+1 damage, are one-handed, and include most swords, spears, maces, flails, and battle axes. Can be wielded two-handed, which adds +1 damage. Average cost: 20d..
+- **Large** weapons deal 1d8+3 damage, are two-handed, and include polearms and pikes, as well as large swords, spears, axes, and maces. A minimum Str of 9 is required to wield large weapons. Average cost: 75d..
 
 _Note: You can get a weapon "silvered" for 3x its base cost._
 
@@ -354,15 +354,15 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 | Weapon                  | Size & Damage | Cost | Hands | S:0 | M:-4 | F:-8 |
 | ----------------------- | :-----------: | :--: | :---: | :-: | :--: | :--: |
-| Arrows/bolts x20        |       M       | 20sp |   -   |  -  |  -   |  -   |
-| Bow, short\*            |       M       | 35sp |   2   | 45' | 90'  | 180' |
-| Bow, long\* (req 9 Str) |       M       | 60sp |   2   | 90' | 180' | 360' |
-| Crossbow, light         |       M       | 50sp |   2   | 45' | 90'  | 180' |
-| Crossbow, heavy\*\*     |       L       | 75sp |   2   | 90' | 180' | 360' |
-| Holy Water              |    \*\*\*     | 25sp |   1   | 10' | 20'  | 30'  |
-| Javelin/Spear           |      M†       | 16sp |   1   | 20' | 40'  | 60'  |
-| Sling                   |       S       | 1sp  |   1   | 45' | 90'  | 180' |
-| Small thrown weapon     |      S†       | 12sp |   1   | 10' | 20'  | 30'  |
+| Arrows/bolts x20        |       M       | 20d. |   -   |  -  |  -   |  -   |
+| Bow, short\*            |       M       | 35d. |   2   | 45' | 90'  | 180' |
+| Bow, long\* (req 9 Str) |       M       | 60d. |   2   | 90' | 180' | 360' |
+| Crossbow, light         |       M       | 50d. |   2   | 45' | 90'  | 180' |
+| Crossbow, heavy\*\*     |       L       | 75d. |   2   | 90' | 180' | 360' |
+| Holy Water              |    \*\*\*     | 25d. |   1   | 10' | 20'  | 30'  |
+| Javelin/Spear           |      M†       | 16d. |   1   | 20' | 40'  | 60'  |
+| Sling                   |       S       | 1d.  |   1   | 45' | 90'  | 180' |
+| Small thrown weapon     |      S†       | 12d. |   1   | 10' | 20'  | 30'  |
 
 \*If fired indoors, halve all ranges.  
 \*\*+2 attack bonus, reload requires action.  
@@ -371,33 +371,33 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 ## Quick Packs
 
-- **The Gygax** (10 slots, 25sp cost): Hempen rope (L), 10’ pole (L), Iron spikes x4 (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), Dried Fruit (S) x2, Beef jerky (S) x4, Cheese (S) x2.
-- **The Generalist** (6 slots, 10sp cost): Candle (S), Chalk (S), Hammer (S), Iron spike x4 (S), Crowbar (M), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10sp).
+- **The Gygax** (10 slots, 25d. cost): Hempen rope (L), 10’ pole (L), Iron spikes x4 (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), Dried Fruit (S) x2, Beef jerky (S) x4, Cheese (S) x2.
+- **The Generalist** (6 slots, 10d. cost): Candle (S), Chalk (S), Hammer (S), Iron spike x4 (S), Crowbar (M), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10d.).
 - **The Cautious** (6 slots): Candle, pillar (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Beef jerky (S) x2, Cheese (S) x2, Dried fruit (S) x3, 10' pole (L).
 - **The Delver** (6 slots): Candle, pillar (S) x3, Hammer (S), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
-- **The Scholar** (6 slots, 10sp cost): Chalk (S), Vial (S) x3, Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10sp), Scrollcase (M).
+- **The Scholar** (6 slots, 10d. cost): Chalk (S), Vial (S) x3, Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10d.), Scrollcase (M).
 - **The Torchbearer** (6 slots): Beef jerky (S) x4, Cheese (S) x2, Dried fruit (S) x2, Oil flask (M) x2, Torches (S) x8.
 
 ## Animals & Mounts
 
 | Animal        | Cost  | Size | Combat Speed | Daily Hex Pts | Item Slot Limit |
 | ------------- | :---: | :--: | :----------: | :-----------: | :-------------: |
-| Donkey/Pony   | 70sp  |  L   |      50      |       5       |       20        |
-| Dog, hunting  | 35sp  |  M   |      50      |       -       |        -        |
-| Dog, war      | 65sp  |  M   |      50      |       -       |        -        |
-| Hawk          | 40sp  |  S   |      80      |       -       |        -        |
-| Horse, draft  | 150sp |  L   |      50      |       5       |       30        |
-| Horse, riding | 100sp |  L   |      80      |       6       |       20        |
-| Horse, war    | 300sp |  L   |      65      |       5       |       25        |
-| Mule          | 90sp  |  L   |      65      |       5       |       25        |
-| Ox            | 120sp |  L   |      50      |       4       |       35        |
+| Donkey/Pony   | 70d.  |  L   |      50      |       5       |       20        |
+| Dog, hunting  | 35d.  |  M   |      50      |       -       |        -        |
+| Dog, war      | 65d.  |  M   |      50      |       -       |        -        |
+| Hawk          | 40d.  |  S   |      80      |       -       |        -        |
+| Horse, draft  | 150d. |  L   |      50      |       5       |       30        |
+| Horse, riding | 100d. |  L   |      80      |       6       |       20        |
+| Horse, war    | 300d. |  L   |      65      |       5       |       25        |
+| Mule          | 90d.  |  L   |      65      |       5       |       25        |
+| Ox            | 120d. |  L   |      50      |       4       |       35        |
 
 | Item              |  Cost   |
 | ----------------- | :-----: |
-| Cart              |  40sp   |
-| \*\*Feed, per day |   2sp   |
-| Stabling, per day |   1sp   |
-| Wagon             | 1,200sp |
+| Cart              |  40d.   |
+| \*\*Feed, per day |   2d.   |
+| Stabling, per day |   1d.   |
+| Wagon             | 1,200d. |
 
 **Cart**: Open, road-bound, two-wheeled vehicle. Pulled by 1-2 beasts of burden. Capacity: 2x of the animals drawing it.
 
@@ -728,11 +728,12 @@ You can purchase objects that aren't necessarily new for less money. New items c
 Weapons and armour can be repaired by an appropriate craftsman, costing 10% of the item's original price to bring it from worn to used, and 20% of its original price to bring it from shabby to worn (i.e., 30% to go from shabby to used).
 
 ### Alternative System
+
 Simply track when something breaks, without tracking the intermediate steps. At the above intervals, roll 2d6. If both two 1s are rolled, the item is ruined or broken, and must be replaced. Magic items and "sturdy" items roll 1d100 + 1d6, and break if 1s are showing on all dice. Using this alternative system is simpler, but tracking more minutely has the benefit of knowing when things are getting close to breaking, plus a slight mathematical edge (tracking intervals gives you on average 44 checks until breakage, vs 36 simplified, or 624 vs 600 checks on a magic or sturdy item).
 
 ## Experience & Leveling
 
-You gain experience primarily through recovering treasure: 1sp spent = 1XP. Also, each new dungeon room or hex **explored and mapped** grants 10 XP per character. Each hex or room past the fifth in a given delve or adventure begins to grant cumulative XP (i.e. room #6=20XP, room #7=30XP, etc.). The referee can optionally multiply this per-room number by the dungeon's level or hex's distance from civilization to account for the party's growth & added difficulty. Once the party returns to safety to heal and restock, the counter resets. A room or hex can only ever be “explored” for XP in this way once.
+You gain experience primarily through recovering treasure: 1f. recovered = 1XP (so 4XP per 1d. recovered) Also, each new dungeon room or hex **explored and mapped** grants 10 XP per character. Each hex or room past the fifth in a given delve or adventure begins to grant cumulative XP (i.e. room #6=20XP, room #7=30XP, etc.). The referee can optionally multiply this per-room number by the dungeon's level or hex's distance from civilization to account for the party's growth & added difficulty. Once the party returns to safety to heal and restock, the counter resets. A room or hex can only ever be “explored” for XP in this way once.
 
 The table below indicates what a character's XP total needs to reach to advance to each level:
 
@@ -901,14 +902,14 @@ A successful lockpicking attempt disarms all detected traps in addition to openi
 
 Potions can be crafted by any mage of 5th level or above, with the aid of an alchemist (or with the Skill), and only one potion may be made at any one time.
 
-Potion brewing requires a stocked laboratory of at least 1,000sp in value. A mage can only brew potions they have drank or own the recipe for, and costs silver per dose to brew; the referee will have these costs.
+Potion brewing requires a stocked laboratory of at least 1,000d. in value. A mage can only brew potions they have drank or own the recipe for, and costs silver per dose to brew; the referee will have these costs.
 
 ### Gaining New Spells
 
 Mages learn one random spell each time they gain a level from a random school they can access (plus another spell if a specialist). If the caster has just gained access to a new spell level, the spell(s) are from that level. They can also gain access to new spells via the following methods:
 
-- **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 week + 100sp per level of the spell, and a successful Moderate (Arc x2) check, rolled at the end of the binding period; apply +2 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
-- **Research**: Casters can research new spells. These can be variants of spells the caster already knows--a Hard (Arc) check--spells the caster has witnessed being cast--a Very Hard (Arc) check--or spells the caster has only heard of--a Heroic (Arc) check. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 1d4+1x50sp in materials and 1 week.
+- **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 week + 100d. per level of the spell, and a successful Moderate (Arc x2) check, rolled at the end of the binding period; apply +2 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
+- **Research**: Casters can research new spells. These can be variants of spells the caster already knows--a Hard (Arc) check--spells the caster has witnessed being cast--a Very Hard (Arc) check--or spells the caster has only heard of--a Heroic (Arc) check. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 1d4+1x50d. in materials and 1 week.
 
 ### Spell Slot Progression Table
 
@@ -966,7 +967,7 @@ A spell on a scroll is not a prepared spell and can be cast even if the caster d
 
 For the purposes of range and so on, a scroll spell is treated as if the reader is casting it normally or is the minimum level required to cast it normally, whichever is higher.
 
-Scrolls may be scribed by anyone who has the ability to both read scrolls and to cast the spell being scribed. It costs 500sp and one week per level of the spell, which can be broken up into multiple sessions. This is a Moderate (Arc x2) check, rolled in secret by the referee at the end of the week. On a roll of a 1, the referee rerolls: a result of 1-10 means that a cursed scroll has been created.
+Scrolls may be scribed by anyone who has the ability to both read scrolls and to cast the spell being scribed. It costs 500d. and one week per level of the spell, which can be broken up into multiple sessions. This is a Moderate (Arc x2) check, rolled in secret by the referee at the end of the week. On a roll of a 1, the referee rerolls: a result of 1-10 means that a cursed scroll has been created.
 
 **Creating Magic Items:** Potions are created by alchemists, with the more powerful potions usually requiring the help of a Magic-User. A Magic-User seeking to create potions must employ an alchemist. A Magic-User must be 9th level to create potions on their own, and 11th level to create other magic items.
 
@@ -997,14 +998,14 @@ Non-player characters may be hired to cast spells or perform other services. As 
 
 | Spell Level | Cost per Casting |
 | :---------: | :--------------: |
-|     1st     |       50sp       |
-|     2nd     |      100sp       |
-|     3rd     |      250sp       |
-|     4th     |      500sp       |
-|     5th     |      1000sp      |
-|     6th     |     2500sp+      |
+|     1st     |       50d.       |
+|     2nd     |      100d.       |
+|     3rd     |      250d.       |
+|     4th     |      500d.       |
+|     5th     |      1000d.      |
+|     6th     |     2500d.+      |
 
-Sages or alchemists not employed by a PC will often charge around 100sp to identify a potion (which takes an hour or so), or 200+sp to identify a magical item (which can take upwards of a week).
+Sages or alchemists not employed by a PC will often charge around 100d. to identify a potion (which takes an hour or so), or 200d.+ to identify a magical item (which can take upwards of a week).
 
 ## Perception Checks
 
@@ -1024,9 +1025,9 @@ The downside is that readied items are vulnerable to destruction. If a creature 
 
 ## Retainers
 
-Retainers cost 50sp on initial hire (+50sp to request a class), plus ½ share of treasure. They will be level 1d3, but cannot be higher than the hiring PC’s level. Retainers' starting Morale typically ranges from 18 (the craven) to 6 (the elite), and can be randomly determined at hiring with a 2d6+6 roll.
+Retainers cost 50d. on initial hire (+50d. to request a class), plus ½ share of treasure. They will be level 1d3, but cannot be higher than the hiring PC’s level. Retainers' starting Morale typically ranges from 18 (the craven) to 6 (the elite), and can be randomly determined at hiring with a 2d6+6 roll.
 
-Loyalty is checked with a Morale roll after each adventure, if the retainer is reduced to 1/4 or less of its full HP total, or if their loyalty is severely tested. If a success is rolled, the retainer’s Morale threshold decreases by one to a minimum of 6. On a failure, the retainer departs. If a retainer dies while in your service, your character is expected to pay the retainer's family a weregild of 100sp or its equivalent.
+Loyalty is checked with a Morale roll after each adventure, if the retainer is reduced to 1/4 or less of its full HP total, or if their loyalty is severely tested. If a success is rolled, the retainer’s Morale threshold decreases by one to a minimum of 6. On a failure, the retainer departs. If a retainer dies while in your service, your character is expected to pay the retainer's family a weregild of 100d. or its equivalent.
 
 Porters/torchbearers come with no equipment. Equipment purchased by the PC is kept by the PC. Retainers come with the same basic starting equipment as PCs, but no starting silver. Stats, specializations & feats are rolled randomly, and no skills are included (but can be chosen if a player ends up playing the retainer as a replacement for a lost PC, for example).
 
@@ -1207,11 +1208,11 @@ Short-term services of simple craftsmen and laborers are relatively easily procu
 
 | Hireling                              | Daily Rate | Monthly Rate |
 | ------------------------------------- | ---------- | ------------ |
-| Carpenter, Mason, Servant             | 11sp       | 200sp        |
-| Groom, Laborer, Linkboy, Pack Handler | 6sp        | 120sp        |
-| Cook, Leatherer, Tailor               | 10sp       | 200sp        |
-| Limner                                | 9sp        | 180sp        |
-| Teamster                              | 7sp        | 140sp        |
+| Groom, Laborer, Linkboy, Pack Handler | 1d.        | 24d.         |
+| Cook, Servant                         | 1d. 2f.    | 30d.         |
+| Limner                                | 2d.        | 50d.         |
+| Teamster                              | 3d.        | 72d.         |
+| Carpenter, Mason, Leatherer, Tailor   | 4d.        | 100d.        |
 
 **Carpenter**: Skilled in the working of wood, a carpenter might be retained to construct anything from a table to a palisade. Their expertise is also invaluable for the manufacturing of shields and similar items.
 
@@ -1241,9 +1242,9 @@ Short-term services of simple craftsmen and laborers are relatively easily procu
 
 Mercenaries are as on pgs. 112-113 of _OSE Advanced._ The majority of regular men-at-arms are zero-level characters with 1d4+3 hit points. The following additional mercenaries are available (and in some cases required):
 
-**Captain**: Equivalent to a 5th- to 8th-level warrior (1-4=5th, 5-7=6th, 8-9=7th, 0=8th). A captain may lead 20 men at arms and one lieutenant per level of experience, plus any necessary sergeants; the monthly wage demanded by a captain is equal to his level x 100sp.
+**Captain**: Equivalent to a 5th- to 8th-level warrior (1-4=5th, 5-7=6th, 8-9=7th, 0=8th). A captain may lead 20 men at arms and one lieutenant per level of experience, plus any necessary sergeants; the monthly wage demanded by a captain is equal to his level x 100d..
 
-**Lieutenant**: Equivalent to a 2nd- (1-7) or 3rd- (8-0) level warrior. A lieutenant may lead ten men at arms per level of experience, plus any necessary sergeants. A lieutenant serving under a captain extends the number of troops the captain can effectively command and control. The monthly wage demanded by a lieutenant is equal to his level x 100sp.
+**Lieutenant**: Equivalent to a 2nd- (1-7) or 3rd- (8-0) level warrior. A lieutenant may lead ten men at arms per level of experience, plus any necessary sergeants. A lieutenant serving under a captain extends the number of troops the captain can effectively command and control. The monthly wage demanded by a lieutenant is equal to his level x 100d..
 
 **Sergeant**: Equivalent to a 1st-level warrior. A sergeant can lead up to ten men independently or in service to a lieutenant or captain. In any given company, there must be one sergeant for every five to ten men at arms. The monthly wage required by a sergeant is ten times that of the troop type he leads.
 
@@ -1255,21 +1256,21 @@ Obtaining the services of very skilled craftsmen and other professional servitor
 
 | Specialist                 | Monthly Wage |
 | -------------------------- | ------------ |
-| Alchemist                  | 1,000sp      |
-| Animal Trainer             | 500sp        |
-| Armourer                   | 500sp\*      |
-| Blacksmith                 | 220sp        |
-| Engineer (Architect)       | 500sp\*      |
-| Engineer (Artillerist)     | 300sp        |
-| Engineer (Miner or Sapper) | 300sp        |
-| Jeweler/Gemcutter          | 200sp\*      |
+| Alchemist                  | 500d.        |
+| Animal Trainer             | 250d.        |
+| Armourer                   | 250d.\*      |
+| Blacksmith                 | 110d.        |
+| Engineer (Architect)       | 250d.\*      |
+| Engineer (Artillerist)     | 150d.        |
+| Engineer (Miner or Sapper) | 150d.        |
+| Jeweler/Gemcutter          | 100d.\*      |
 | Sage                       | Special      |
-| Scribe                     | 200sp        |
-| Ship Crew                  | 120sp        |
-| Ship Captain               | 500sp        |
+| Scribe                     | 100d.        |
+| Ship Crew                  | 60d.         |
+| Ship Captain               | 250d.        |
 | Spy                        | Special      |
 | Steward/Castellan          | Special      |
-| Weaponsmith                | 300sp\*      |
+| Weaponsmith                | 150d.\*      |
 
 _\*Cost does not include all remuneration or special fees._
 
@@ -1277,9 +1278,9 @@ _\*Cost does not include all remuneration or special fees._
 
 **Animal Trainer**: Specialized trainers are required for exotic animals or larger numbers of normal animals. A trainer can have up to six animals under their care at a time. It will take a minimum of one uninterrupted month to teach an animal the first new behavior or trick. After this first month, an animal has become accustomed to the trainer and can be taught additional behaviors at twice the rate (two weeks per behavior).
 
-**Armourer**: Required for the production and maintenance of armour and shields; for every 60 men at arms or barded warhorses present, there must be at least one armourer available. Each must be provided with a workroom, forge, and assistants at an additional cost (~400sp). An armourer can use spare time (prorated based on number of supported troops) to make additional armour, helmets, or shields at 25% of their usual cost. Per month, an armourer can make three shields or one suit of armour.
+**Armourer**: Required for the production and maintenance of armour and shields; for every 60 men at arms or barded warhorses present, there must be at least one armourer available. Each must be provided with a workroom, forge, and assistants at an additional cost (~100d.). An armourer can use spare time (prorated based on number of supported troops) to make additional armour, helmets, or shields at 25% of their usual cost. Per month, an armourer can make three shields or one suit of armour.
 
-**Blacksmith:** Essential for the basic maintenance of a stronghold and any resident soldiery; for every blacksmith retained the needs of up to one hundred and twenty men or horses can be met, but there must be at least one in every stronghold and a workroom and forge must be provided for each (~400sp). Besides the usual duties (horseshoes, nails, hinges, etc.) a hired smith can turn out some basic weaponry each month: 30 arrowheads or quarrel tips, or 10 spear heads, or 5 morningstars, or 2 flails or polearm heads.
+**Blacksmith:** Essential for the basic maintenance of a stronghold and any resident soldiery; for every blacksmith retained the needs of up to one hundred and twenty men or horses can be met, but there must be at least one in every stronghold and a workroom and forge must be provided for each (~100d.). Besides the usual duties (horseshoes, nails, hinges, etc.) a hired smith can turn out some basic weaponry each month: 30 arrowheads or quarrel tips, or 10 spear heads, or 5 morningstars, or 2 flails or polearm heads.
 
 **Engineer (Architect)**: Necessary for the successful construction of any but the most simple of surface structures. An architect requires payment by the month, even for short projects, and expects to receive an additional sum equal to 10% of the total building costs. Unless the construction site was approved by an architect, there is a 75% chance that any structure will collapse in 1d100 months.
 
@@ -1287,7 +1288,7 @@ _\*Cost does not include all remuneration or special fees._
 
 **Engineer (Miner or Sapper)**: Indispensable for the overseeing of any mining operations, underground construction, or siege and counter siege works that involve trenches, fortifications, assault towers and other similar siege devices.
 
-**Jeweler/Gemcutter**: Able to speedily and accurately appraise the value of most gems, jewelry and other precious objects, a jeweler is also capable of repairing, enhancing or newly creating ornamented items and jewelry. The total value of the materials can be increased by from 10% to 40%, depending on the skill of the jeweler. Likewise, a gemcutter might well increase the value of a rough or poorly cut stone (those under 5,000sp base value), or the stone might be ruined in the process. Note that jeweler/gemcutters cannot be held responsible for damage. Dwarven jeweler/gemcutters add 20% to skill level determination rolls, but cost twice as much to employ.
+**Jeweler/Gemcutter**: Able to speedily and accurately appraise the value of most gems, jewelry and other precious objects, a jeweler is also capable of repairing, enhancing or newly creating ornamented items and jewelry. The total value of the materials can be increased by from 10% to 40%, depending on the skill of the jeweler. Likewise, a gemcutter might well increase the value of a rough or poorly cut stone (those under 5,000d. base value), or the stone might be ruined in the process. Note that jeweler/gemcutters cannot be held responsible for damage. Dwarven jeweler/gemcutters add 20% to skill level determination rolls, but cost twice as much to employ.
 
 | Jeweler Skill Level |                                                   |
 | ------------------- | ------------------------------------------------- |
@@ -1304,17 +1305,17 @@ _\*Cost does not include all remuneration or special fees._
 | 61-90                 | good—d12, one roll, 1-3 improves, 12 ruins         |
 | 91-00                 | Superb—d20,1-5 improves, 20 ruins stone            |
 
-_Note: Giving a gem to a jeweler/gemcutter to improve counts as “spending” it for XP purposes; you gain XP equal to the gem’s original value. Note any increase in value as “profit” in your inventory (e.g., “ring \[200 sp profit\]”) and log it as mercantile income for the month if/when sold._
+_Note: Note any increase in value as “profit” in your notes (e.g., “ring \[200 d. profit\]”); this counts toward merchantile income for the month._
 
 **Sage**: A person with a degree of knowledge on just about everything, a lot of knowledge in a few specific fields, and authoritative knowledge in his or her special fields of study. Each sage specializes in one or more minor fields of study, and a handful of special categories within a major field of study. Only fighters, paladins, rangers, and thieves are able to hire a sage, though anyone can consult one; a sage will only accept service on a permanent, lifetime basis. As a sage will bring nothing save thinking ability and knowledge, an offer of employment must consider the following:
 
-|                              |                    |
-| ---------------------------- | ------------------ |
-| Support & Salary per Month   | 200 to 1200sp      |
-| Research Grants per Month    | 200 to 1200sp      |
-| Initial Material Expenditure | 20,000sp minimum\* |
+|                              |                   |
+| ---------------------------- | ----------------- |
+| Support & Salary per Month   | 100 to 300d.      |
+| Research Grants per Month    | 100 to 300d.      |
+| Initial Material Expenditure | 5,000d. minimum\* |
 
-_\*A 20,000sp expenditure will allow the sage to operate at 50% of normal efficiency, and for each additional 1,000sp thereafter, the sage will add 1% to efficiency until 90% is reached (upon expenditure of 60,000sp). After 90%, to achieve 100% efficiency the cost per 1% is 4,000sp (for the obviously erudite and rare tomes, special supplies and equipment, etc. - assuming such are available, of course). All told, expenditures must be 100,000sp for 100% sage efficiency in specific and exacting question areas._
+_\*A 5,000d. expenditure will allow the sage to operate at 50% of normal efficiency, and for each additional 250d. thereafter, the sage will add 1% to efficiency until 90% is reached (upon expenditure of 15,000d.). After 90%, to achieve 100% efficiency the cost per 1% is 1,000d. (for the obviously erudite and rare tomes, special supplies and equipment, etc. - assuming such are available, of course). All told, expenditures must be 25,000d. for 100% sage efficiency in specific and exacting question areas._
 
 **Scribe**: Practiced in the art of writing, a typical scribe is expected to keep records, write letters and copy documents. Others may possess additional skills, such as cartography, counterfeiting, cryptography, illuminating or the ability to write, read or otherwise comprehend more than one language. Such accomplished individuals might command up to ten times the standard wage.
 
@@ -1324,6 +1325,6 @@ _\*A 20,000sp expenditure will allow the sage to operate at 50% of normal effici
 
 **Spy**: Recruited to secretly watch the actions of others and gather information, fees may vary wildly, from perhaps a mere hundred silver pieces to many thousands, depending on the individual and the difficulty of what is asked.
 
-**Steward/Castellan**: Responsible for the administration of a stronghold in the absence or inability of a player character, a steward holds a position of great prestige and trust. Whilst serving within the stronghold, a steward is capable of leading forty men at arms and two lieutenants for every level of experience he possesses, as well as the necessary number of sergeants. The monthly wage due to a steward is equal to his level x 100sp. A retainer of an appropriate class and level could be appointed as steward.
+**Steward/Castellan**: Responsible for the administration of a stronghold in the absence or inability of a player character, a steward holds a position of great prestige and trust. Whilst serving within the stronghold, a steward is capable of leading forty men at arms and two lieutenants for every level of experience he possesses, as well as the necessary number of sergeants. The monthly wage due to a steward is equal to his level x 100d.. A retainer of an appropriate class and level could be appointed as steward.
 
-**Weaponsmith**: Required for the production and maintenance of weaponry; for every sixty men at arms present, there must be at least one weaponsmith available. Each must be provided with a workroom, forge, and assistants at an additional cost (~400sp). A weaponsmith can use spare time (prorated based on number of supported troops) to make additional weapons at a rate of five weapons per month at 25% of their usual cost.
+**Weaponsmith**: Required for the production and maintenance of weaponry; for every sixty men at arms present, there must be at least one weaponsmith available. Each must be provided with a workroom, forge, and assistants at an additional cost (~100d.). A weaponsmith can use spare time (prorated based on number of supported troops) to make additional weapons at a rate of five weapons per month at 25% of their usual cost.
