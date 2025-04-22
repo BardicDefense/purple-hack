@@ -71,247 +71,230 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Aqua regia, vial (S) | "king's water" acid; can be splashed or hurled; deals 1d6+1 acid damage. Can open most mundane locks in 10 minutes & dissolves most metals. | 88d. 2f. | 1 |
-| Hour glass (M)* | clear glass, wooden housing  | 29d. | 1 |
-| Linen bandage, 4"x72" (S)* | sufficient for 1 wound | 2f. | 1 |
-| Rue, extract (S)* | 4oz vial, insect repellent, 1 week supply | 8d. | 1 |
-| Wormwood, infusion, vial (S)* | infused with garlic, used to treat ingested poison (allows new save) | 15d. | 1 |
+| Linen bandage, 4"x72" (S)* | sufficient for 1 wound | 1f. | 1 |
+| Rue, extract (S)* | 4oz vial, insect repellent, 1 week supply | 5d. 3f. | 1 |
+| Wolfsbane sprig (S)* | If a lycanthrope is hit by wolfsbane, it must make a Very Hard (17+) save or run away in fear. The sprig must be swung or thrown as a weapon. | 1d. 1f. | 1 |
+| Wormwood, infusion, vial (S)* | infused with garlic, used to treat ingested poison (allows new save) | 12d. | 1 |
+| Yarrow, poultice (S)* | wrapped in oiled linen package, made with honey & plantain, used to treat wounds (roll twice to treat instead of once) | 7d. 2f. | 1 |
 
 ## Armourer
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Shield, small, steel (M)* | +1 AC | 51d. 2f. | 1 |
+| Shield, large, steel (L)* | +2 AC, req 9 Str | 72d. 3f. | 1 |
 
 ## Baker
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Pound cake (S)* | delicacy | 2d. 3f. | 1 |
+| Bread, pumpernickel (S)* | fresh, loaf | 3f. | 1 |
 
 ## Blacksmith
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Bit for horse* (S) | with rings for bridle, sturdy | 5d. | 1 |
-| Crowbar (M)* | steel, 15", pry head and claw head; doubles as improvised medium weapon | 22d. 3f. | 1 |
-| Flail (M)* | Spiked iron ball at end of chain; wooden handle | 47d. 1f. | 1 |
-| Hatchet (S)* | 3" iron head, wood handle; doubles as improvised small weapon | 18d. | 1 |
-| Morningstar (M)* | Wooden club with metal spikes | 83d. 1f. | 1 |
-| Nails, finishing (M)* | sturdy, 1.5" l,  1/8" d.; gross; sufficient for 25 sq ft | 24d. 1f. | 1 |
-| Pan, iron (M)* | w/ handle, 9" dia | 13d. | 1 |
-| Pan, large iron (M)* | w/ handle, 16" dia | 17d. 2f. | 1 |
-| Pick, mining (M)* | pick for mining; doubles as improvised medium weapon | 38d. 2f. | 1 |
-| Pitch fork (L)* | iron fork, wood shaft, doubles as 2h improvised medium weapon | 18d. 3f. | 1 |
-| Razor (S)* | straight, steel | 5d. 3f. | 1 |
-| Scale, balance (M)* | bronze, 3" disks | 57d. 3f. | 1 |
-| Scythe (L)* | iron, w/ long wooden handle; doubles as 2h improvised medium weapon | 18d. 1f. | 1 |
+| Bear trap (L)* | steel, sharpened jaws  | 53d. 1f. | 1 |
+| Cup, copper* | 6oz, hammered, sturdy | 1d. | 1 |
+| Cup, tin* | 6oz, soldered, sturdy | 3f. | 1 |
+| Grappling hook (S)* | steel, 1'x8", four prongs | 23d. | 1 |
+| Holy symbol, gold* | adds +2 to Turn Undead roll | 853d. 1f. | 1 |
+| Key duplication | service | 10d. 3f. | 1 |
+| Manacles (M)* | one pair, not including padlock | 9d. 1f. | 1 |
+| Mirror, iron, large metal (M)* | 12"x6", thin polished plate | 3d. 2f. | 1 |
+| Mortar & pestle (M)* | 33oz capacity, sturdy | 15d. | 1 |
+| Nails, construction (M)* | sturdy, 6" l, 3/16" d.; gross; sufficient for 50 sq ft intensive construction | 10d. | 1 |
+| Pick,  heavy (L)* | heavy iron pick, long wooden handle | 43d. 3f. | 1 |
 | Silvering a weapon | adding silver plating to weapon, can help vs certain monsters | #VALUE! | 1 |
-| Spike, iron x4 (S)* | 6" long, 1/2" dia; one can be hammered in to block one typical door | 17d. 3f. | 1 |
-| Tack, bag of 20 (S)* | steel, 3/4" | 1d. 3f. | 1 |
-| Trowel (S)* | wood handle, steel head | 8d. 1f. | 1 |
+| Spoon* | tin, 6" | 1f. | 1 |
+| Tongs (M)* | steel with wood grips | 6d. 2f. | 1 |
+
+## Brewer
+
+| Item | Notes | Price | Number Available |
+| --- | --- | --- | --- |
+| Ale, jug (M)* | 1gal, durable | 1d. | 1 |
+| Vinegar, cider (M)* | 1gal in earthenware jug | 5d. | 1 |
 
 ## Butcher
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Beef for dog (S)* | fresh, daily portion | 2f. | 1 |
-| Beef, jerky (S)* | 1lb, durable | 3d. 3f. | 1 |
-| Partridge, wild (S)* | fresh, cleaned, & feathered | 2f. | 1 |
-| Sausage, pork (S)* | durable, linked & packaged | 9d. | 1 |
-| Rabbit, fresh (M)* | 1lb, butchered & packaged | 10d. | 1 |
+| Beef, fresh (S)* | 1lb, butchered & packaged | 1d. 3f. | 1 |
+| Partridge, wild (S)* | fresh, cleaned, & feathered | 1f. | 1 |
+| Venison, fresh (S)* | 1lb, butchered & packaged | 2d. 3f. | 1 |
 
 ## Carpenter
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Paint (M)* | contained in bucket; 1.5gal, covers 450 sq ft surface | 22d. 1f. | 1 |
+| House, wooden, one-story, designed | 60' outside wall, 1/2" board, single-beamed roof, fireplace & foundation | 879d. | 1 |
 | Pitch (M) | contained in bucket; covers 30 sq ft | 3d. 3f. | 1 |
 
 ## Chandler
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Candle, large pillar (M) | tallow, 12" h, 4" d, burns 8 hrs, illuminates 5' radius | 16d. | 1 |
-| Candle, votive (S) | beeswax, 2" h, 1.5" dia, burnt as religious offering, burns 4 hours, illuminates 5' radius | 14d. | 1 |
-| Soap, scented x4 (S)* | tallow soap, 2" cubes, with rose attar scent | 31d. 2f. | 1 |
-| Torch, wood, wax soaked rag (S)* | 24", burns 1 hour, 40' radius light; can be used as small weapon without dousing; will remain lit if dropped or thrown | 7d. 2f. | 1 |
+| Candle snuffer (S)* | sturdy, 7" instrument with small metal cup & handle | 2d. 1f. | 1 |
+| Candle, large pillar (M) | tallow, 12" h, 4" d, burns 8 hrs, illuminates 5' radius | 10d. | 1 |
+| Sealing wax* | package; 4"x2", suitable for 16 cu in | 1d. | 1 |
 
 ## Cobbler
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Boots, snakeskin (S unless worn)* | hard, ankle-high | 120d. | 1 |
-| Sandals, cowhide (S unless worn)* | open ankle | 1d. 3f. | 1 |
+| Boots, cowhide (S unless worn)* | hard, ankle-high | 4d. | 1 |
+| Sandals, cowhide (S unless worn)* | open ankle | 1d. 1f. | 1 |
 
 ## Cooper
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Barrel, 15gal (L+)* | oak, water tight | 19d. 1f. | 1 |
-| Basket, bamboo (M)* | plaited, 12"dx15"h (1 slot) | 18d. 3f. | 1 |
-| Basket, bushel (M)* | oak, plaited, 2 handles, 15"dx12"h (2 slots) | 12d. 3f. | 1 |
+| Basket, bamboo (M)* | plaited, 12"dx15"h (1 slot) | 19d. 3f. | 1 |
 
 ## Creamery
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Cheese, rare (S)* | durable, 1lb, Cheddar, Stilton | 11d. 1f. | 1 |
+| Cheese, common (S)* | durable, 1lb, Cheshire, Lancashire, Wensleydale | 4d. 1f. | 1 |
 | Milk, raw, poured* | fresh, customer must provide own vessel, cost per cup | 2f. | 1 |
 
 ## Fishmonger
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Fish, salted (S)* | 1lb, durable | 3d. 3f. | 1 |
+| Clams (S)* | fresh, 1lb, in shell | 1d. 2f. | 1 |
 
 ## Fletcher
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Bolt, heavy, single | fit in quiver or bolt case | 2d. 2f. | 1 |
-| Bow, long (M)* | 90'/180'/360'; Req 9 Str; if fired indoors halve all ranges | 123d. 2f. | 1 |
-| Bowstring* | linen or hemp | 4d. 1f. | 1 |
+| Bowstring, sinew* | sturdy | 5d. 3f. | 1 |
+| Bowstring* | linen or hemp | 2d. 3f. | 1 |
 
 ## Furrier
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Pelt, wolf (M)* | dried & salted | 3d. 3f. | 1 |
+| Pelt, beaver (M)* | dried & salted | 6d. 2f. | 1 |
 
 ## Grocer
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Cinnamon, spice (S)* | durable, linen bag, 2"x1" | 7d. 1f. | 1 |
-| Cooking oil, vegetable (S)* | contained in pint flask, 1 month supply | 1d. | 1 |
-| Food, packaged fresh (M)* | fresh, 4lbs | 18d. 3f. | 15 |
-| Food, packaged trail (M)* | durable, 4lbs | 39d. 2f. | 15 |
-| Garlic, spice (S)* | durable, bundle of bulbs, also repels vampires | 2d. | 1 |
-| Olives, pickled (S)* | durable | 10d. 2f. | 1 |
-| Pears (S)* | fresh | 1d. 2f. | 1 |
-| Prunes, dried (S)* | durable | 15d. 3f. | 1 |
-| Soap, lye (M)* | sack; adequate for laundry for four persons for 3 months | 5d. 1f. | 1 |
-| Walnuts (S)* | durable | 3f. | 1 |
-
-## Lapidary
-
-| Item | Notes | Price | Number Available |
-| --- | --- | --- | --- |
-| Amethyst, cut (carat) |  | 49d. 2f. | 1 |
+| Egg, chicken* | fresh | 3f. | 1 |
+| Figs (S)* | fresh | 1d. 2f. | 1 |
+| Food, packaged fresh (M)* | fresh, 4lbs | 13d. 3f. | 15 |
+| Food, packaged trail (M)* | durable, 4lbs | 26d. 3f. | 15 |
+| Ginger, spice (S)* | durable, linen bag, 2"x1" | 1d. 3f. | 1 |
+| Nutmeg, spice (S)* | durable, linen bag, 2"x1" | 3d. 2f. | 1 |
+| Pickles, wine vinegar (S)* | durable | 6d. 3f. | 1 |
+| Prunes, dried (S)* | durable | 11d. 1f. | 1 |
+| Salt, spice (S)* | durable, paper box, 2"x2"x1"; will sustain a human 1 month | 1d. 2f. | 1 |
 
 ## Leatherworker
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Bridle for horse, horsehide (S)* | does not include bit | 3d. 2f. | 1 |
-| Gloves, soft (S unless worn)* | sheepskin; laces at wrist for comfort | 3d. | 1 |
-| Sack (2 slots unless filled)* | cowhide; 20" deep, drawstring opening, holds 10 slots; req. 1 hand to carry up through 5 slots, 2 hands to carry 6 or more. | 7d. 3f. | 1 |
-| Saddle, horsehide (L)* | horn and curved seat, padded with wool | 129d. 3f. | 1 |
-| Sheathe, dagger (S unless worn)* | sheepskin; incl. straps to tie to belt | 1d. 1f. | 1 |
-| Sling (S)* | 45'/90'/180' | 2d. | 1 |
-| Waterskin/wineskin (M)* | pigskin; 1 pottle capacity | 2d. | 1 |
+| Belt (S unless worn)* | cowhide, 2" wide, with iron buckle | 2d. 3f. | 1 |
+| Eye patch* | cowhide; cut to size, incl. laces | 1d. | 1 |
+| Gloves, soft (S unless worn)* | sheepskin; laces at wrist for comfort | 2d. | 1 |
+| Money belt (S unless worn)* | cowhide; 4" wide, holds 1 slot | 3d. 3f. | 1 |
+| Sack (2 slots unless filled)* | cowhide; 20" deep, drawstring opening, holds 10 slots; req. 1 hand to carry up through 5 slots, 2 hands to carry 6 or more. | 5d. 2f. | 1 |
+| Saddle, horsehide (L)* | horn and curved seat, padded with wool | 99d. | 1 |
+| Scroll case, leather (M)* | holds up to 10 spell levels in spell scrolls | 6d. | 1 |
+| Sling (S)* | 45'/90'/180' | 1d. 1f. | 1 |
 
 ## Potter
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
+| Bowl, earthenware (S)* | 6"dia | 1f. | 1 |
 | Bowl, stoneware (S)* | 6" dia | 3f. | 1 |
-| Pitcher, earthenware (M)* | 1 pottle | 1d. | 1 |
-| Plate, stoneware (S)* | 3.5" dia | 2f. | 1 |
-| Plate, stoneware (S)* | 7" dia | 1d. | 1 |
-| Stein, stoneware (S)* | 24 oz. | 3d. 3f. | 1 |
+| Cup, earthenware* | 6oz | 1f. | 1 |
+| Platter, earthenware (S)* | 18" dia | 1d. 3f. | 1 |
+| Pot, stoneware (M)* | 1 gallon | 3d. 1f. | 1 |
 
 ## Ropemaker
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Cord, hemp, 1/4" (S)* | per 50', holds 40lbs | 15d. | 1 |
+| Rope, hemp, 1" (L+)* | per 50', holds 1,200lbs | 48d. 1f. | 1 |
+| Twine, hemp, 1/8" (S)* | per 100', holds 10lbs | 2d. | 1 |
 
 ## Scrivener
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Contract | written contract proposed between two parties | 5d. 1f. | 1 |
+| Book, blank (M)* | parchment w/ leather cover, 2 quires (32 pages) | 28d. 2f. | 1 |
+| Contract | written contract proposed between two parties | 4d. 2f. | 1 |
 | Ink, ordinary, 1 oz. pot (S)* | sufficient for 1 quire of paper | 2d. | 1 |
-| Mapping Kit (M)* | Cased roll of parchment plus quills & vials of ink, sufficient to map all but the largest areas | 18d. 1f. | 1 |
-| Quill* | goosefeather, nibbed | 1d. | 1 |
-| Vellum, 11"x11"* | calfskin parchment | 2d. | 1 |
+| Scroll, parchment* | blank, equivalent to one quire or 16 pages, 12" x 13' long | 6d. | 1 |
+| Writ | written document describing property ownership, permits, passage, license, etc. | 1f. | 1 |
 
 ## Stockyard
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Chicken | Ex-egg producer, will yield 4lbs of meat | 2d. 2f. | 1(i) |
-| Calf | Raised for mothers to provide milk; produces 35-50lbs of meat | 104d. 1f. | 1 |
-| Corn meal (S)* |  | 2f. | 1 |
-| Corn, feed (S)* | 1 day feed for chicken | 2f. | 1(i) |
-| Dog, hunting, trained | 50' speed | 60d. 2f. | 1 |
-| Duck | 4-6lbs of meat | 3d. 1f. | 1(i) |
-| Goose | 8-10lbs of meat | 4d. 2f. | 1 |
-| Piglet | 2-4lbs of meat | 15d. | 1(i) |
-| Rabbit |  | 1d. 3f. | 1(i) |
-| Ration, dairy cow, daily (L)* | hay | 2f. | 1(i) |
-| Ration, horse, daily (L)* | oats & hay mix | 4d. 3f. | 1 |
-| Ration, ox, daily (L+)* | hay | 3f. | 1(i) |
+| Chicken | Ex-egg producer, will yield 4lbs of meat | 2d. 1f. | 1 |
+| Corn meal (S)* |  | 1f. | 1(i) |
+| Corn, feed (S)* | 1 day feed for chicken | 1f. | 1(i) |
+| Duck | 4-6lbs of meat | 2d. 2f. | 1(i) |
+| Goose | 8-10lbs of meat | 3d. 1f. | 1(i) |
+| Piglet | 2-4lbs of meat | 11d. | 1(i) |
+| Rabbit |  | 1d. 1f. | 1(i) |
+| Ration, dairy cow, daily (L)* | hay | 1f. | 1(i) |
+| Ration, horse, daily (L)* | oats & hay mix | 3d. 1f. | 1(i) |
+| Ration, ox, daily (L+)* | hay | 2f. | 1(i) |
 | Ration, sow, corn, daily (M)* |  | 3f. | 1(i) |
 
 ## Tailor
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Cap, linen, simple (S unless worn)* |  | 9d. | 1 |
-| Hood, linen (S unless worn)* |  | 24d. 1f. | 1 |
-| Kilt, wool (M unless worn)* |  | 32d. 2f. | 1 |
-| Needle, porcupine quill* |  | 2f. | 1 |
-| Surcoat, wool (M unless worn)* |  | 17d. 2f. | 1 |
+| Button, ivory* |  | 11d. 2f. | 1 |
+| Button, wood* |  | 1f. | 1 |
+| Dress, simple, wool (M unless worn)* |  | 27d. | 1 |
+| Gloves, wool, knit (S unless worn)* |  | 7d. | 1 |
+| Hose, wool, knit, thick, knee-length (S unless worn)* |  | 3d. 1f. | 1 |
+| Scarf, wool, knit (S unless worn)* |  | 6d. 3f. | 1 |
 
 ## Tanner
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Lambskin (S)* | tanned, per sq yard | 13d. 3f. | 1 |
-| Leather, cow (S)* | per sq yard | 9d. | 1 |
+| Pigskin (S)* | per sq yard | 4d. 2f. | 1 |
 
 ## Town Services
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Cartage, p/barrel, p/day, overland |  | 3d. 2f. | 1(i) |
-| Shipping, p/barrel, p/day, sea |  | 2d. 3f. | 1(i) |
+| Cartage, p/barrel, p/day, overland |  | 3d. | 1(i) |
+| Shipping, p/barrel, p/day, sea |  | 2d. | 1(i) |
 
 ## Vintner
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Mead  (S)* | half-pottle flask, durable | 50d. 2f. | 1 |
-
-## Wagonwright
-
-| Item | Notes | Price | Number Available |
-| --- | --- | --- | --- |
-| Cart, push* | one-axle, small, open; capacity: 2x of character pushing it | 47d. | 1 |
+| Wine* | 1gal in earthenware jug, durabe | 7d. 1f. | 1 |
 
 ## Weaver
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Fabric, linen, good (S)* | per sq yard | 7d. 2f. | 1 |
-| Handkerchief, good linen, 1'sq.* |  | 1d. 2f. | 1 |
-| Thread, canvas, soft (S)* | per pound, 150 yards | 2d. 3f. | 1 |
-| Yarn, wool (S)* | per pound, 400 yards | 7d. 2f. | 1 |
+| Fabric, hempen canvas-light, soft (S)* | per sq yard | 2d. 2f. | 1 |
+| Fabric, linen, farm (S)* | per sq yard | 4d. | 1 |
 
 ## Woodseller
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Lumber, softwood | 100 sq ft of 1/2" board | 1d. | 1 |
+| Lumber, softwood | 100 sq ft of 1/2" board | 3f. | 1 |
 
 ## Woodworker
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Brush, hair, wood with boar bristles (S)* |  | 23d. 3f. | 1 |
-| Club (M)* | it's a wooden club | 9d. 2f. | 1 |
-| Yoke, cow* | hardwood, with yoke straps, swivel & tug poles | 15d. 1f. | 1 |
+| Chair, carved* | hardwood, ordinary frame | 5d. 3f. | 1 |
+| Pole, 10' (L)* | When wielded during cautious exploration, has a 2-in-6 chance of setting off most traps | 3d. 3f. | 1 |
+| Yoke, cow* | hardwood, with yoke straps, swivel & tug poles | 9d. 3f. | 1 |
 
