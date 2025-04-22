@@ -31,7 +31,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 
 | Item | Notes | Price |
 | --- | --- | --- |
-| Bunkroom bed, 1 ni | Shared room with 36 bunks; Kronos's men sleep here | 1d. |
+| Bunkroom bed, 1 night | Shared room with 36 bunks; Kronos's men sleep here | 1d. |
 | Bunkroom bed, 1 week | Shared room with 36 bunks; Kronos's men sleep here | 3d. |
 | Private room, 1 night | Sleeps 2 | 3d. |
 | Private room, 1 week | Sleeps 2 | 20d. |
