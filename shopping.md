@@ -71,7 +71,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Linen bandage, 4"x72" (S)* | sufficient for 1 wound | 1f. | 1 |
+| Linen bandage, 4"x72" (S)* | sufficient for 1 wound; lowers difficulty by one step | 1f. | 1 |
 | Rue, extract (S)* | 4oz vial, insect repellent, 1 week supply | 5d. 3f. | 1 |
 | Wolfsbane sprig (S)* | If a lycanthrope is hit by wolfsbane, it must make a Very Hard (17+) save or run away in fear. The sprig must be swung or thrown as a weapon. | 1d. 1f. | 1 |
 | Wormwood, infusion, vial (S)* | infused with garlic, used to treat ingested poison (allows new save) | 12d. | 1 |
@@ -104,7 +104,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Mortar & pestle (M)* | 33oz capacity, sturdy | 15d. | 1 |
 | Nails, construction (M)* | sturdy, 6" l, 3/16" d.; gross; sufficient for 50 sq ft intensive construction | 10d. | 1 |
 | Pick,  heavy (L)* | heavy iron pick, long wooden handle | 43d. 3f. | 1 |
-| Silvering a weapon | adding silver plating to weapon, can help vs certain monsters | #VALUE! | 1 |
+| Silvering a weapon | adding silver plating to weapon, can help vs certain monsters | 3x orig cost | 1 |
 | Spoon* | tin, 6" | 1f. | 1 |
 | Tongs (M)* | steel with wood grips | 6d. 2f. | 1 |
 
@@ -229,7 +229,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 | Contract | written contract proposed between two parties | 4d. 2f. | 1 |
 | Ink, ordinary, 1 oz. pot (S)* | sufficient for 1 quire of paper | 2d. | 1 |
 | Scroll, parchment* | blank, equivalent to one quire or 16 pages, 12" x 13' long | 6d. | 1 |
-| Writ | written document describing property ownership, permits, passage, license, etc. | 1f. | 1 |
+| Writ | written document describing property ownership, permits, passage, license, etc. | 2d. 3f. | 1 |
 
 ## Stockyard
 
@@ -275,7 +275,7 @@ Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qual
 
 | Item | Notes | Price | Number Available |
 | --- | --- | --- | --- |
-| Wine* | 1gal in earthenware jug, durabe | 7d. 1f. | 1 |
+| Wine* | 1gal in earthenware jug, durable | 7d. 1f. | 1 |
 
 ## Weaver
 
