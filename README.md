@@ -334,7 +334,7 @@ Finally, you can add "costed" items, which do cost money at character creation.
 | Splint (heavy armour) (L+)         | 16  | 580d. |   10 min    |
 | Plate (heavy armour) (L+)          | 17  | 850d. |   10 min    |
 
-\*Heavy armour (L+ = 3 slot) and Large Shields require minimum 9 Str to wear. Heavy armour also encumbers. A Shield also provides a save bonus vs non-gaseous breath weapons equal to its AC bonus.
+Heavy armour (L+ = 3 slot) and Large Shields require minimum 9 Str to wear. Heavy armour also encumbers. A Shield also provides a save bonus vs non-gaseous breath weapons equal to its AC bonus.
 
 ## Weapons
 
@@ -342,9 +342,9 @@ Finally, you can add "costed" items, which do cost money at character creation.
 
 Weapons are divided into three basic damage categories: small, medium, and large.
 
-- **Small** weapons deal 1d4 damage, are one-handed, and include knives, daggers, and small handaxes. Can be dual-wielded for +1 to hit (doesn't grant additional attacks). Average cost: 12d..
-- **Medium** weapons deal 1d6+1 damage, are one-handed, and include most swords, spears, maces, flails, and battle axes. Can be wielded two-handed, which adds +1 damage. Average cost: 20d..
-- **Large** weapons deal 1d8+3 damage, are two-handed, and include polearms and pikes, as well as large swords, spears, axes, and maces. A minimum Str of 9 is required to wield large weapons. Average cost: 75d..
+- **Small** weapons deal 1d4 damage (plus the user's Str modifier), are one-handed, and include knives, daggers, and small handaxes. Can be dual-wielded for +1 to hit (doesn't grant additional attacks). Average cost: 12d.
+- **Medium** weapons deal 1d6+1 damage (plus the user's Str modifier), are one-handed, and include most swords, spears, maces, flails, and battle axes. Can be wielded two-handed, which adds +1 damage. Average cost: 20d.
+- **Large** weapons deal 1d8+3 damage (plus the user's Str modifier), are two-handed, and include polearms and pikes, as well as large swords, spears, axes, and maces. A minimum Str of 9 is required to wield large weapons. Average cost: 75d.
 
 _Note: You can get a weapon "silvered" for 3x its base cost._
 
@@ -371,7 +371,7 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 ## Quick Packs
 
-- **The Gygax** (10 slots, 25d. cost): Hempen rope (L), 10’ pole (L), Iron spikes x4 (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), Dried Fruit (S) x2, Beef jerky (S) x4, Cheese (S) x2.
+- **The Gygax** (10 slots, 25d. cost): Hempen rope 50' (L), 10’ pole (L), Iron spikes x4 (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), Dried Fruit (S) x2, Beef jerky (S) x4, Cheese (S) x2.
 - **The Generalist** (6 slots, 10d. cost): Candle (S), Chalk (S), Hammer (S), Iron spike x4 (S), Crowbar (M), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10d.).
 - **The Cautious** (6 slots): Candle, pillar (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Beef jerky (S) x2, Cheese (S) x2, Dried fruit (S) x3, 10' pole (L).
 - **The Delver** (6 slots): Candle, pillar (S) x3, Hammer (S), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
@@ -453,7 +453,7 @@ A move silently check is needed to move behind a target and launch a surprise at
 
 ### Effects of Surprise
 
-Surprise lasts one round. In that round, those that are surprised cannot move, act, or apply Dex-based AC modifiers, and attacks on them gain a +4 bonus. Attacks against surprised targets from behind also ignore any shield modifiers, and raise the chance for a critical hit. Killing surprised foes might force a Morale check.
+Surprise lasts one round. In that round, those that are surprised cannot move, act, or apply Dex-based AC modifiers, and attacks on them gain a +4 bonus. Attacks against surprised targets from behind also ignore any shield modifiers, and raise the range for a critical hit by 4. Killing surprised foes might force a Morale check.
 
 ## Reactions
 
@@ -640,7 +640,7 @@ If the pursuers catch the fleeing side, a new combat round begins in the Melee P
 
 ## Death
 
-When a player character’s hit points reach 0, the character is unconscious and must make a Daunting (11+) Con saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, requiring a successful Very Hard (17+) check.
+When a player character’s hit points reach 0, the character is unconscious and must make a Daunting (11+) Con saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, requiring a successful Very Hard (17+) check; if the aiding PC uses proper bandages, the check's difficulty is lowered to Hard (14+). Other modifiers may apply.
 
 Even after returning to 1 or more hp, the character will remain in a coma for 1d6 turns and must rest for a minimum of one week before resuming any sort of strenuous activity, mental or physical.
 
@@ -678,7 +678,7 @@ Spotting the average secret door is Very Hard (17+) during cautious exploration,
 
 Upon discovering that a door is stuck, a character may attempt a Strength check to pull the door open as swiftly and quietly as possible. Only the strongest character in the party may attempt (representing the party's best efforts). On a failure, the party may decide to work with crowbars or other tools to wrench the door open anyway. This takes a turn and will trigger a wandering monster check.
 
-Locked doors need keys, thieves' tools and someone trained in lockpicking, or a battering ram (or axes). Any failed attempt to open a stuck or locked door will prevent surprise on any creature on the other side of the door.
+Locked doors need keys, thieves' tools and someone trained in lockpicking, or a battering ram (or axes). Any failed attempt to open a stuck or locked door will alert any creature(s) on the other side of the door to the party's presence.
 
 You should also know: Doors tend to close on their own. Iron spikes are invaluable for keeping doors open or closed (it takes a round and some noise to hammer a spike in).
 
@@ -799,9 +799,9 @@ Food consumption is divided into 12-hour periods ("1/2 days"); if you engage in 
 
 There are three general types of food:
 
-- **Durable**: Includes preserved meats, dried fruit, biscuits, root vegetables, and beverages such as beer, wine, and distilled drinks. Are considered "new" for item degradation purposes (see [equipment wear & tear](#equipment-wear--tear)).
-- **Fresh**: Recently picked vegetables and fruits, butchered meats, prepared dishes, and the like. Are considered "shabby" for item degradation purposes.
-- **Delicacies**: Unusual dishes or foods that provide a complex dining experience, like caviar, suckling pig, unusual distilled spirits, wines, and some prepared desserts. Are considered "shabby" for item degradation purposes.
+- **Durable**: Includes preserved meats, dried fruit, biscuits, root vegetables, and beverages such as beer, wine, and distilled drinks.
+- **Fresh**: Recently picked vegetables and fruits, butchered meats, prepared dishes, and the like.
+- **Delicacies**: Unusual dishes or foods that provide a complex dining experience, like caviar, suckling pig, unusual distilled spirits, wines, and some prepared desserts.
 
 Spices are expensive, but they make the food taste better! Spice (sensibly used) will make Fresh food into a Delicacy. Spices degrade one stage each use (see [item degradation](#equipment-wear---tear)).
 
@@ -843,13 +843,13 @@ Once the sensation is known, each imbimber of the meal must roll 3d6 to determin
 
 The character:
 
-- **Diarrhea**: Acquires mild, acute food poisoning, resulting in -3 penalties to Strength and Constitution checks, pain, and forced bed rest for 4 hours, after which they can move normally. The initial loss of 3 Str/Con improves to -2 after four hours, and -1 after 8 hours, until a full 24 hours has passed (the character will have no appetite for the following meal).
+- **Diarrhea**: Acquires mild, acute food poisoning, resulting in -3 penalties to Strength and Constitution checks and saves, pain, and forced bed rest for 4 hours, after which they can move normally. The initial loss of 3 Str/Con improves to -2 after four hours, and -1 after 8 hours, until a full 24 hours has passed (the character will have no appetite for the following meal).
 - **Grumpy**: Feels disturbed and unsatisfied by the meal, suffering a -1 penalty to Willpower checks for 6 hours.
 - **Happy**: Is in such good spirits they gain a +1 save bonus for 24 hours and automatically heal 1hp.
-- **Miserable**: Is bad-tempered and moody due to the meal rumbling in their stomach unpleasantly, suffering a -1 penalty to raw Str and Dex scores for 8 hours.
+- **Miserable**: Is bad-tempered and moody due to the meal rumbling in their stomach unpleasantly, suffering a -1 penalty to all checks for 8 hours.
 - **Sated**: Feels wonderfully stuffed and pleasant. Any healing done that day through rest receives a +1hp bonus per level of the character, and the character receives a +1 bonus to Perception checks for 8 hours.
 - **Tired**: Feels dull and sluggish, making it difficult to feel enthusiasm or think properly, suffering a -1 penalty to Arcana checks for 8 hours.
-- **Vomiting**: Digestively disagrees with the meal, throwing it up between 2-5 hours after eating, bringing a -1 penalty to Strength and Constitution checks for 1-4 hours afterwards, whereupon the character is fully restored.
+- **Vomiting**: Digestively disagrees with the meal, throwing it up between 2-5 hours after eating, bringing a -1 penalty to Strength and Constitution checks and saves for 1-4 hours afterwards, whereupon the character is fully restored.
 
 ## Healing
 
@@ -869,7 +869,7 @@ If a creature must make a saving throw and it passes, no item carried by that cr
 - **Falls**: Affects carried potions (readied or not), requires a fall of at least 20' onto a hard surface. Hard (14+) save, -1 penalty for each additional full 10' fallen over 20'.
 - **Magic Items**: Any that provide magic attack, save, or AC bonuses apply this modifier to any save such items are forced to make.
 - **Shields**: If used to provide a save bonus against a breath weapon attack, and the shield's wielder fails their save, the shield must save as well. The save is Moderate (8+).
-- **Water**: Affects paper and papyrus, Heroic (20+) save. Standard spellbooks (with vellum pages and magical inks) and scrolls in scroll cases always pass their save.
+- **Water**: Affects paper and parchment, Heroic (20+) save. Standard spellbooks (with vellum pages and magical inks) and scrolls in scroll cases always pass their save.
 - **Other Cases**: Cases not covered above are a Hard (14+) save.
 
 ## Jumping
@@ -902,7 +902,7 @@ A successful lockpicking attempt disarms all detected traps in addition to openi
 
 Potions can be crafted by any mage of 5th level or above, with the aid of an alchemist (or with the Skill), and only one potion may be made at any one time.
 
-Potion brewing requires a stocked laboratory of at least 1,000d. in value. A mage can only brew potions they have drank or own the recipe for, and costs silver per dose to brew; the referee will have these costs.
+Potion brewing requires a stocked laboratory of at least 500d. in value. A mage can only brew potions they have drank or own the recipe for, and costs silver per dose to brew; the referee will have these costs.
 
 ### Gaining New Spells
 
@@ -967,7 +967,7 @@ A spell on a scroll is not a prepared spell and can be cast even if the caster d
 
 For the purposes of range and so on, a scroll spell is treated as if the reader is casting it normally or is the minimum level required to cast it normally, whichever is higher.
 
-Scrolls may be scribed by anyone who has the ability to both read scrolls and to cast the spell being scribed. It costs 500d. and one week per level of the spell, which can be broken up into multiple sessions. This is a Moderate (Arc x2) check, rolled in secret by the referee at the end of the week. On a roll of a 1, the referee rerolls: a result of 1-10 means that a cursed scroll has been created.
+Scrolls may be scribed by anyone who has the ability to both read scrolls and to cast the spell being scribed. It costs 250d. and one week per level of the spell, which can be broken up into multiple sessions. This is a Moderate (Arc x2) check, rolled in secret by the referee at the end of the week. On a roll of a 1, the referee rerolls: a result of 1-10 means that a cursed scroll has been created.
 
 **Creating Magic Items:** Potions are created by alchemists, with the more powerful potions usually requiring the help of a Magic-User. A Magic-User seeking to create potions must employ an alchemist. A Magic-User must be 9th level to create potions on their own, and 11th level to create other magic items.
 
@@ -998,14 +998,14 @@ Non-player characters may be hired to cast spells or perform other services. As 
 
 | Spell Level | Cost per Casting |
 | :---------: | :--------------: |
-|     1st     |       50d.       |
-|     2nd     |      100d.       |
-|     3rd     |      250d.       |
-|     4th     |      500d.       |
-|     5th     |      1000d.      |
-|     6th     |     2500d.+      |
+|     1st     |       25d.       |
+|     2nd     |       50d.       |
+|     3rd     |      100d.       |
+|     4th     |      200d.       |
+|     5th     |      500d.       |
+|     6th     |     1,000d.+     |
 
-Sages or alchemists not employed by a PC will often charge around 100d. to identify a potion (which takes an hour or so), or 200d.+ to identify a magical item (which can take upwards of a week).
+Sages or alchemists not employed by a PC will often charge around 50d. to identify a potion (which takes an hour or so), or 100d.+ to identify a magical item (which can take upwards of a week).
 
 ## Perception Checks
 
@@ -1082,7 +1082,7 @@ How well a trap is concealed determines the difficulty. The average concealed tr
 
 In a campaign where the journey is as important as the destination (or where there isn't even necessarily a main destination _per se_), overland movement comes into play.
 
-Travel overland is measured in 6-mile hexes. **Hex points** are spent to travel through hexes, and all player characters have a base hex point allowance of **four per day**, which can be modified by mounts, encumbrance, and fatigue (applied before encumbrance). A party travels at the rate of its slowest member.
+Travel overland is measured in 6-mile hexes. **Hex points** are spent to travel through hexes, and all player characters have a base hex point allowance of **four per day**, which can be modified by mounts, encumbrance, and fatigue (applied before encumbrance). A party travels at the rate of its slowest member. Mounts halve their hex points when travelling in Mountains, Jungle, or Swamps.
 
 The base cost in hex points to enter a hex depends on its terrain type. Unlisted terrain features like great rivers, canyons, etc. can further raise the cost.
 
