@@ -725,7 +725,7 @@ You can purchase objects that aren't necessarily new for less money. New items c
 
 ### Repairing Items
 
-Weapons and armour can be repaired by an appropriate craftsman, costing 10% of the item's original price to bring it from worn to used, and 20% of its original price to bring it from shabby to worn (i.e., 30% to go from shabby to used).
+Weapons and armour can be repaired by an appropriate craftsman, costing 10% of the item's original base price to bring it from worn to used, and 20% of its original base price to bring it from shabby to worn (i.e., 30% to go from shabby to used).
 
 ### Alternative System
 
