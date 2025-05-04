@@ -10,6 +10,10 @@ Strength, Dexterity, and Constitution map over directly.
 
 Arcana should be the highest of the old character's Intelligence or Wisdom score. The remaining two scores can be placed in Willpower and Perception as desired.
 
+## Racial bonuses
+
+Do not modify stats (i.e. do not adjust Str/Dex/Con/etc.), but other bonuses do apply.
+
 ## Wealth and XP
 
 Currency maps directly, but platinum pieces do not exist; convert them to gold nobles (g.) at a rate of 1 platinum = 10 g.
