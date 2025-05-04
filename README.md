@@ -220,36 +220,24 @@ _Why is your character risking their life for adventure? This can be one word, o
 
 ## Item Slots
 
-We’re using “item slot” encumbrance, measuring both weight and awkwardness.
+We’re using container-based “item slot” encumbrance, measuring both weight and awkwardness.
 
-Assuming proper carrying gear, you can carry 12 + your Str mod slots of items.
+You can carry 5 slots of items about your character's person (like weapons, worn armour, belt pouches, quivers, etc.). A backpack can carry an additional 10 + Str mod slots. A sack can also be carried, for another 10 + Str mod slots, but requires one hand to carry, or two hands if filled more than halfway. A carried sack reduces a character's hex point allowance by the number of hands used to carry it (see [wilderness-exploration](wilderness-exploration)), and a character cannot effectively fight while carrying a sack.
 
 - **Small** items (like chalk or potions) fit four to a slot.
 - **Medium** items (most things) are 1 slot.
 - **Large** items like 2h weapons and medium armour are 2 slots. Heavy armour takes 3 slots (as do all items listed as L+) and is bulky (see below).
 
-Coins & gems stack 500 to a slot. A typical body (willing or unconscious), fills 9 slots, before gear, and is bulky.
+If an item is listed as "bulky," it reduces the character's combat speed by 10' and hex point allowance by 1. This effect does not stack.
 
-## Encumbrance Effects
-
-| Slots Over | Encumbrance Level | Combat Speed | Hex Point Allowance |
-| :--------: | :---------------: | :----------: | :-----------------: |
-|     0      |        --         |     Full     |         --          |
-|    1-3     |       Light       |     -25%     |         -1          |
-|    4-6     |      Medium       |     -50%     |         -2          |
-|    7-10    |       Heavy       |     -75%     |         -3          |
-|    11+     |     Immobile      |      0       |         N/A         |
-
-Each encumbrance level also raises the difficulty of applicable tasks, such as climbing, by one level.
-
-**Bulky**: Bulky items, such as worn heavy armour, impose a greater encumbrance than just item slots. Each automatically adds one encumbrance level _after_ calculating the bearer's item slot load.
+Coins & gems stack 500 to a slot. A typical body (willing or unconscious) fills 9 slots, before gear, and is bulky.
 
 ## Starting Gear
 
 The following base gear is automatically added to your character for free:
 
 - One weapon of your choice (+ 20 arrows/bolts if missile weapon) with a scabbard/sheathe/quiver if needed, (number of slots depends on size)
-- Backpack & pouches (worn clothing & in-use backpags & pouches do not count toward your slots), waterskin (M), tinderbox (S) (for lighting torches or small fires)
+- Backpack (10 + Str mod slots) & pouches (worn clothing & in-use backpags & pouches do not count toward your slots), waterskin (M), tinderbox (S) (for lighting torches or small fires)
 - Misc tiny items (within reason); worn items/clothing
 
 After this, you can have whatever basic gear you wish (within reason, as determined by the referee). Some common basic adventuring items include but are not limited to (size listed after each):
@@ -268,6 +256,7 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 - **Garlic, spice (S)**: Durable, bundle of bulbs, also repels vampires.
 - **Grappling Hook (S)**: Steel, 1'x8", four prongs
 - **Hammer (S)**: Doubles as an improvised small weapon.
+- **Sack, canvas (M)**: Holds 10 + str mod slots of items.
 - **Spike, iron x4 (S)**: One of these can be hammered in to block one typical door.
 - **Lantern (M)**: A lantern can be closed to hide its light, burns one flask of lamp oil every 4 hours, and illuminates a 20' radius.
 - **Oil flask (M)**: Fuels lantern 4 hours. Poured on ground and lit burns for 1 turn. Thrown on monster (roll to hit) & set on fire does 1d6 damage each round for two rounds.
@@ -277,7 +266,7 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 - **Scroll case, leather (M)**: Each holds up to 10 spell levels in spell scrolls.
 - **Shovel (L)**: Excavating tool doubles as an improvised medium weapon.
 - **Sledgehammer (L)**: Excavating tool doubles as an improvised medium weapon.
-- **Torch (M)**: Burns for 1 hour, illuminating a 40' radius. Will remain lit if dropped to the ground or thrown. Can be used as a small weapon without dousing it; some targets take further damage due to the fire. Also useful to burn away rot grubs, green slime, and webs.
+- **Torch (S)**: Burns for 1 hour, illuminating a 40' radius. Will remain lit if dropped to the ground or thrown. Can be used as a small weapon without dousing it; some targets take further damage due to the fire. Also useful to burn away rot grubs, green slime, and webs.
 - **Twine, hemp, 1/8" (S)**: Ball, holds 10lbs, 100' length.
 - **Vial, glass (S)**: 4oz, 1.4" dia, 5" high, cork stopper.
 
