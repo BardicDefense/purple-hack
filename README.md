@@ -224,7 +224,7 @@ _Why is your character risking their life for adventure? This can be one word, o
 
 We’re using container-based “item slot” encumbrance, measuring both weight and awkwardness.
 
-You can carry 5 slots of items about your character's person (like weapons, worn armour, belt pouches, quivers, etc.). A backpack can carry an additional 10 + Str mod slots. A sack can also be carried, for another 10 + Str mod slots, but requires one hand to carry, or two hands if filled more than halfway. A carried sack reduces a character's hex point allowance by the number of hands used to carry it (see [wilderness-exploration](wilderness-exploration)), and a character cannot effectively fight while carrying a sack.
+You can carry 5 slots of items about your character's person (like weapons, worn armour, belt pouches, quivers, etc.). A backpack can carry an additional 10 + Str mod slots. A sack can also be carried, for another 10 + Str mod slots, but requires one hand to carry, or two hands if filled more than halfway. A carried sack reduces a character's hex point allowance by the number of hands used to carry it (see [Wilderness Exploration](#wilderness-exploration)), and a character cannot effectively fight while carrying a sack.
 
 - **Small** items (like chalk or potions) fit four to a slot.
 - **Medium** items (most things) are 1 slot.
