@@ -52,6 +52,8 @@ Some highlights:
 
 # Character Creation
 
+Conversion guide is found [here](conversion.md).
+
 ## Roll Your Stats
 
 Roll 3d6 down the line for each of the skills below. You can swap one set of stats.
