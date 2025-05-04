@@ -312,6 +312,8 @@ Finally, you can add "costed" items, which do cost money at character creation.
 > [!NOTE]
 > 40 copper farthings (f.) = 10 silver pence (d.) = 1 gold noble (g.)
 
+An unarmoured character has a base Armour Class of 10.
+
 | Armour                             | AC  | Cost  | Time to Don |
 | ---------------------------------- | :-: | :---: | :---------: |
 | Small Shield (M)                   | +1  | 25d.  |  1 action   |
