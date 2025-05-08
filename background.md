@@ -1,6 +1,6 @@
 # Character Background Generator
 
-This Character Background generator is designed to outline a new player character's basic characteristics resulting from cultural heritage, race, age, ability stats, and other events out of the character's control prior to joining the campaign.
+This Character Background generator is designed to outline a new player character's basic characteristics resulting from cultural heritage, race, age, ability stats, and other events out of the character's control prior to joining the campaign. ([Source of inspiration](https://wiki.alexissmolensk.com/index.php/Character_Background_Generator).)
 
 ## Physical Characteristics
 
@@ -114,8 +114,30 @@ If a character has a living twin, they may at the referee's discretion play both
 
 ### Institution
 
-Normally, a character will have started training in their class at the age of 8 to 10. The institution below is a formative circumstance in the child's life, a place where he or she spent enough time to make an impression and shape their outlook later on.
+Normally, a character will have started training in their class at the age of 8 to 10. The institution below is a formative circumstance in the child's life, a place where he or she spent enough time to make an impression and shape their outlook later on. If more than one column applies, both institutions had an influence at some point.
 
-| 1d20 | Warrior | Mage | Anointed Feat | Lockpicking Feat | Fieldcraft Feat |
-| :--: | ------- | ---- | ------------- | ---------------- | --------------- |
-|  1   |
+| 1d20  | Warrior (1d20+7 if Arcanist, 1d12+10 if Fieldcraft feat) | Mage       | Anointed Feat |
+| :---: | -------------------------------------------------------- | ---------- | ------------- |
+|   1   | shipboard                                                | guildhouse | church/temple |
+|   2   | shipboard                                                | guildhouse | church/temple |
+|   3   | shipboard                                                | guildhouse | church/temple |
+|   4   | barracks                                                 | guildhouse | church/temple |
+| 5-12  | barracks                                                 | guildhouse | church/temple |
+| 13-15 | barracks                                                 | guildhouse | monastery     |
+| 16-18 | baggage camp                                             | library    | monastery     |
+| 19-20 | manor farm                                               | library    | monastery     |
+| 21-22 | manor farm                                               | --         | --            |
+| 23-27 | monastery                                                | --         | --            |
+
+- **Baggage camp**: the character spent their childhood following military camps through campaigns, helping to cook, launder clothes, make food, nurse wounded, carry baggage, and otherwise act as a servant to soldiers. Most likely, he or she began training as a warrior while still on the move, taught by soldiers present, not doing any particularly formal training until older, about the age of 13.
+- **Barracks**: the character spent their childhood in established barracks of a king or prince, cleaning weapons, sharpening them, mending tears in cloth and leather armour, cleaning and attending livestock, and acting as a servant to soldiers. Practical training for a warrior would have been started on a formal basis and been continued into the early teens before abandoning the traditional soldier's training to gain a warrior's knowledge from direct tutors and masters.
+- **Church/temple**:
+- **Guildhouse**:
+- **Library**:
+- **Manor farm**:
+- **Monastery**:
+- **Shipboard**:
+
+### Progenitor
+
+The strongest person in the character's early life who instigated the character's eventual career as a class-levelled adventurer. Usually this is the character's father and/or mother, but it could be an aunt or uncle or another mentor, depending on the [family](#family) generated above. This person's profession was experienced and lightly transferred to the character prior to advanced training as a warrior or mage; this profession often forms the character's "secondary skill" and an inspiration for any selected Skills.
