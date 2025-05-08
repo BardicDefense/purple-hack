@@ -114,30 +114,116 @@ If a character has a living twin, they may at the referee's discretion play both
 
 ### Institution
 
-Normally, a character will have started training in their class at the age of 8 to 10. The institution below is a formative circumstance in the child's life, a place where he or she spent enough time to make an impression and shape their outlook later on. If more than one column applies, both institutions had an influence at some point.
+_This table should be rolled on only after a class has been selected._
 
-| 1d20  | Warrior (1d20+7 if Arcanist, 1d12+10 if Fieldcraft feat) | Mage       | Anointed Feat |
-| :---: | -------------------------------------------------------- | ---------- | ------------- |
-|   1   | shipboard                                                | guildhouse | church/temple |
-|   2   | shipboard                                                | guildhouse | church/temple |
-|   3   | shipboard                                                | guildhouse | church/temple |
-|   4   | barracks                                                 | guildhouse | church/temple |
-| 5-12  | barracks                                                 | guildhouse | church/temple |
-| 13-15 | barracks                                                 | guildhouse | monastery     |
-| 16-18 | baggage camp                                             | library    | monastery     |
-| 19-20 | manor farm                                               | library    | monastery     |
-| 21-22 | manor farm                                               | --         | --            |
-| 23-27 | monastery                                                | --         | --            |
+Normally, a character will have started training in their class at the age of 8 to 10. The institution below is a formative circumstance in the child's life, a place where he or she spent enough time to make an impression and shape their outlook later on. If more than one column applies, both institutions had an influence at some point. Characters with the Fieldcraft feat should roll 1d12+10 on the Warrior column. Practically speaking, this serves as an inspiration for Skills the player might select at character creation.
 
-- **Baggage camp**: the character spent their childhood following military camps through campaigns, helping to cook, launder clothes, make food, nurse wounded, carry baggage, and otherwise act as a servant to soldiers. Most likely, he or she began training as a warrior while still on the move, taught by soldiers present, not doing any particularly formal training until older, about the age of 13.
+| 1d20  | Warrior (1d20+7 if Arcanist) | Mage       | Anointed Feat |
+| :---: | ---------------------------- | ---------- | ------------- |
+|  1-3  | shipboard                    | guildhouse | church/temple |
+| 4-12  | barracks                     | guildhouse | church/temple |
+| 13-15 | barracks                     | guildhouse | monastery     |
+| 16-18 | baggage camp                 | library    | monastery     |
+| 19-20 | manor farm                   | library    | monastery     |
+| 21-22 | manor farm                   | --         | --            |
+| 23-27 | monastery                    | --         | --            |
+
+- **Baggage camp**: the character spent their childhood following a military camp or roving band through campaigns, helping to cook, launder clothes, make food, nurse wounded, carry baggage, and otherwise act as a servant to soldiers. Most likely, he or she began training as a warrior while still on the move, taught by soldiers present, not doing any particularly formal training until older, about the age of 13.
 - **Barracks**: the character spent their childhood in established barracks of a king or prince, cleaning weapons, sharpening them, mending tears in cloth and leather armour, cleaning and attending livestock, and acting as a servant to soldiers. Practical training for a warrior would have been started on a formal basis and been continued into the early teens before abandoning the traditional soldier's training to gain a warrior's knowledge from direct tutors and masters.
-- **Church/temple**:
-- **Guildhouse**:
-- **Library**:
-- **Manor farm**:
-- **Monastery**:
-- **Shipboard**:
+- **Church/temple**: the character spent their childhood cleaning the pews, carrying hymnals and other books, gardening, assisting at liturgies, tending to animals kept to support the clergy, carrying candles, and more. After the character was given a place during services and shows his or her piety, the decision is made to send the character for formal study on a stipend.
+- **Guildhouse**: the character spent their childhood as a servant and participating in the backbreaking work of feeding and housing a large number of workers: much laundering, kitchen duties, and carrying food and water. As the character got older, they would have been trained in the skills of the particular guild or profession. Eventually, the guild would have been responsible, through collections and donations, for the character receiving a formal education.
+- **Library**: few and far between, a library is a place where a young character would have been primarily engaged in cleaning, collecting and copying. Formal education began when the character is paid for their ability to read and write, a task they performed throughout their training as a mage.
+- **Manor farm**: the character spent their childhood as part of a thegn or ealdorman's household, working in a variety of tasks and places: the stables, farming, processing staples into foodstuffs, a house servant, gamekeeper's assistants, shepherds, etc. Arcanists would have impressed the noble enough that their way to a formal education was paid, but other warriors would have had to beg, borrow, or steal the money from the various overseers and friends they've made.
+- **Monastery**: similarly to a manor house, with opportunities to learn about farming, animals, and the making of various foodstuffs, all with a religious culture and surroundings. The character might have remained at the monastery to complete their formal training as a mage, or would have headed out with a stipend to obtain formal training as a warrior.
+- **Shipboard**: the character spent their early days living the dangerous, hard, and repetitive life of a sailor. A child aboard ship would have been engaged in scrubbing decks, kitchen duties, laundering, or other menial tasks. Formal training could have taken place on a long voyage at sea, or during lengthy shore leave.
 
 ### Progenitor
 
 The strongest person in the character's early life who instigated the character's eventual career as a class-levelled adventurer. Usually this is the character's father and/or mother, but it could be an aunt or uncle or another mentor, depending on the [family](#family) generated above. This person's profession was experienced and lightly transferred to the character prior to advanced training as a warrior or mage; this profession often forms the character's "secondary skill" and an inspiration for any selected Skills.
+
+Something to keep in mind is that, in our setting's time and place, most places could not afford for people to specialize. Most villages and small towns simply subsist as they can, with each family supporting themselves with the help of their neighbors, and most peasants engaging in a wide variety of "professions" as needed. The profession discovered below might have been a prominent one, or a particular skill in which the progenitor engaged for their neighbors, or simply one skill among many.
+
+#### Random Determination
+
+To determine the character's progenitor, start by subtracting 10 from each of the character's ability scores. If the character has less than 1 point in any of these, then progenitors from that ability score source are unavailable. The remaining points are added together and used for weighting the roll to determine from which source the progenitor comes.
+
+For example: Alice rolls her ability scores, ending with an 18 Str, 12 Dex, 10 Con, 14 Per, 8 Wil, and 13 Arc. Subtracting 10 from each and discarding Con and Wil, Alice ends with 8 Str, 2 Dex, 4 Per, and 3 Arc for a total of 17. She rolls a random number from 1 to 17: Str (1-8), Dex (9-10), Per (11-14), and Arc (15-17). Alice gets a 17, and her progenitor can be found on the Arcana table.
+
+#### Strength
+
+Professions associated with strength require simple application of strength at the very least, and precise martial knowledge at the rarer side of things. Characters from these backgrounds are usually not shy of hard labor.
+
+Farmer
+Fisherfolk
+Sailor
+Teamster
+Guard
+Mercenary
+Outrider
+Bounty Hunter
+Master-at-arms
+Gladiator
+
+#### Dexterity
+
+Professions associated with dexterity include a wide range of artisans who have been trained to work with their hands to make practical objects. Others represent arts where nimble fingers, fast movements, and sharp practice rule the day. Many characters from these backgrounds treat the pursuit of a levelled class as a means of escape from the drudgery of rigorous professional obligations.
+
+Brewer
+Baker
+Butcher
+Chandler
+Cook
+Fishmonger
+Woodcutter
+Vintner
+Tailor
+Furrier
+Weaver
+Tanner
+Leatherworker
+Cobbler
+Cooper
+Wagonwright
+Shipwright
+Furniture maker
+Luthier
+Bookbinder
+Woodcutter
+Glassmaker
+Sculptor
+Stonecutter
+Jeweller
+Lapidary
+Engraver
+Forger
+Gambler
+
+#### Constitution
+
+Professions associated with Constitution require considerable fortitude, good health, and a willingness to do dirty and unpleasant work. Characters from these backgrounds are used to the worst environments, where heat, confinement, isolation, and grime are the order of the day.
+
+Rat catcher
+Graverobber
+Labourer
+Porter
+Miner
+Alchemist's apprentice
+Blacksmith
+Armourer
+Weaponsmith
+Executioner
+Explorer
+
+#### Perception
+
+Professions associated with Perception require attention to detail and application of design. Characters from these backgrounds were often engaged in precise artistic or administrative functions in society.
+
+#### Willpower
+
+Professions associated with Willpower require steady commitment and the sort of grit that provides a character with courage in the face of adversity. Characters from these backgrounds are used to toiling long hours to achieve a desired result.
+
+Toll keeper
+
+#### Arcana
+
+Professions associated with Arcana relate to matters of pursuing education and the application of experience. Characters from these backgrounds are used to engaging their minds to solve issues.
