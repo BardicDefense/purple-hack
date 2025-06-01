@@ -155,7 +155,7 @@
 | 2     | Ray of Fatigue       |
 | 2     | Transfer             |
 | 3     | Cloak of the Void    |
-| 3     | Cure Disease         |
+| 3     | Cure Sickness        |
 | 3     | Cure Serious Wounds  |
 | 3     | Vampiric Touch       |
 | 4     | Animate Dead         |
@@ -643,10 +643,10 @@ The caster is wreathed in black flames of negative energy. Any living creature t
 _Conjuration (R: Short, D: 1 hour)_  
 This spell calls local wild animal spirits of the caster’s choice, which manifest as living examples of those creatures. Hit Dice equal to twice the caster’s level are summoned, in any combination desired. No single creature can be above 10 Hit Dice; none can be intelligent or magical. The creatures serve without question, but if abused by the caster the spirits will refuse future calls.
 
-#### Cure Disease
+#### Cure Sickness
 
 _Necromancy (R: Short, D: Permanent)_  
-This spell cures the subject of artificial blindness and deafness (assuming the subject still has its eyes/ears) and all diseases, including mummy rot, green slime infection, and lycanthropy.
+This spell cures the subject of artificial blindness and deafness (assuming the subject still has its eyes/ears) and all sicknesses and diseases, including mummy rot, green slime infection, and lycanthropy.
 
 #### Cure Serious Wounds
 
@@ -1055,7 +1055,7 @@ This spell restores life to a dead creature, provided that it has not been dead 
 #### Restoration
 
 _Necromancy (R: Touch, D: Instant)_  
-This spell restores all ability score damage and drain, as well as curing blindness, deafness, and any diseases.
+This spell restores all ability score damage and drain, as well as curing blindness, deafness, and any sicknesses or diseases.
 
 #### Reverse Gravity
 
