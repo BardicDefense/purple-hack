@@ -139,8 +139,8 @@ For example: Alice rolls her ability scores, ending with an 18 Str, 12 Dex, 10 C
 
 Professions associated with strength require simple application of strength at the very least, and precise martial knowledge at the rarer side of things. Characters from these backgrounds are usually not shy of hard labor.
 
-- 01-21: Farmer
-  Woodcutter
+- 01-27: Farmer
+- 28-39: Woodcutter
 - 40-57: Sailor
 - 58-74: Teamster
 - 75-85: Guard
@@ -154,69 +154,69 @@ Professions associated with strength require simple application of strength at t
 
 Professions associated with dexterity include a wide range of artisans who have been trained to work with their hands to make practical objects. Others represent arts where nimble fingers, fast movements, and sharp practice rule the day. Many characters from these backgrounds treat the pursuit of a levelled class as a means of escape from the drudgery of rigorous professional obligations.
 
-Brewer
-Baker
-Butcher
-Chandler
-Cook
-Fishmonger
-Vintner
-Tailor
-Furrier
-Weaver
-Tanner
-Leatherworker
-Cobbler
-Cooper
-Wagonwright
-Shipwright
-Furniture maker
-Bookbinder
-Stonecutter
+- Brewer
+- Baker
+- Butcher
+- Chandler
+- Cook
+- Fishmonger
+- Vintner
+- Tailor
+- Furrier
+- Weaver
+- Tanner
+- Leatherworker
+- Cobbler
+- Cooper
+- Wagonwright
+- Shipwright
+- Furniture maker
+- Bookbinder
+- Stonecutter
 
 #### Constitution
 
 Professions associated with Constitution require considerable fortitude, good health, and a willingness to do dirty and unpleasant work. Characters from these backgrounds are used to the worst environments, where heat, confinement, isolation, and grime are the order of the day.
 
-Rat catcher
-Graverobber
-Labourer
-Porter
-Miner
-Blacksmith
-Armourer
-Weaponsmith
-Executioner
+- Rat catcher
+- Graverobber
+- Labourer
+- Porter
+- Miner
+- Blacksmith
+- Armourer
+- Weaponsmith
+- Executioner
 
 #### Perception
 
 Professions associated with Perception require attention to detail and application of design. Characters from these backgrounds were often engaged in precise artistic or administrative functions in society.
 
-Luthier
-Jeweller
-Lapidary
-Engraver
-Glassmaker
-Sculptor
-Gambler
-Forger
+- Luthier
+- Jeweller
+- Lapidary
+- Engraver
+- Glassmaker
+- Sculptor
+- Gambler
+- Forger
 
 #### Willpower
 
 Professions associated with Willpower require steady commitment and the sort of grit that provides a character with courage in the face of adversity. Characters from these backgrounds are used to toiling long hours to achieve a desired result.
 
 - 22-39: Fisherfolk
-  Toll keeper
-  Explorer
+- Toll keeper
+- Explorer
 
 #### Arcana
 
 Professions associated with Arcana relate to matters of pursuing education and the application of experience. Characters from these backgrounds are used to engaging their minds to solve issues.
 
-Clerk
-Tutor
-Lawyer
-Alchemist's apprentice
+- Clerk
+- Tutor
+- Lawyer
+- Alchemist's apprentice
 
 ## Starting Age
 
