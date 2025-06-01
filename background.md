@@ -139,16 +139,16 @@ For example: Alice rolls her ability scores, ending with an 18 Str, 12 Dex, 10 C
 
 Professions associated with strength require simple application of strength at the very least, and precise martial knowledge at the rarer side of things. Characters from these backgrounds are usually not shy of hard labor.
 
-Farmer
-Fisherfolk
-Sailor
-Teamster
-Guard
-Mercenary
-Outrider
-Bounty Hunter
-Master-at-arms
-Gladiator
+- 01-21: Farmer
+  Woodcutter
+- 40-57: Sailor
+- 58-74: Teamster
+- 75-85: Guard
+- 86-92: Mercenary
+- 93-96: Outrider
+- 97-98: Bounty Hunter
+- 99: Master-at-arms
+- 100: Gladiator
 
 #### Dexterity
 
@@ -160,7 +160,6 @@ Butcher
 Chandler
 Cook
 Fishmonger
-Woodcutter
 Vintner
 Tailor
 Furrier
@@ -172,17 +171,8 @@ Cooper
 Wagonwright
 Shipwright
 Furniture maker
-Luthier
 Bookbinder
-Woodcutter
-Glassmaker
-Sculptor
 Stonecutter
-Jeweller
-Lapidary
-Engraver
-Forger
-Gambler
 
 #### Constitution
 
@@ -193,26 +183,40 @@ Graverobber
 Labourer
 Porter
 Miner
-Alchemist's apprentice
 Blacksmith
 Armourer
 Weaponsmith
 Executioner
-Explorer
 
 #### Perception
 
 Professions associated with Perception require attention to detail and application of design. Characters from these backgrounds were often engaged in precise artistic or administrative functions in society.
 
+Luthier
+Jeweller
+Lapidary
+Engraver
+Glassmaker
+Sculptor
+Gambler
+Forger
+
 #### Willpower
 
 Professions associated with Willpower require steady commitment and the sort of grit that provides a character with courage in the face of adversity. Characters from these backgrounds are used to toiling long hours to achieve a desired result.
 
-Toll keeper
+- 22-39: Fisherfolk
+  Toll keeper
+  Explorer
 
 #### Arcana
 
 Professions associated with Arcana relate to matters of pursuing education and the application of experience. Characters from these backgrounds are used to engaging their minds to solve issues.
+
+Clerk
+Tutor
+Lawyer
+Alchemist's apprentice
 
 ## Starting Age
 
