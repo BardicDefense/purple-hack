@@ -17,13 +17,13 @@
 | 3     | Dispel Magic                   |
 | 3     | Negative Plane Protection      |
 | 3     | Nondetection                   |
-| 3     | Protection from Aligned        |
+| 3     | Protection from Unnatural      |
 | 4     | Free Action                    |
 | 4     | Minor Globe of Invulnerability |
 | 4     | Remove Curse                   |
 | 4     | Sanctum                        |
 | 5     | Antimagic Shell                |
-| 5     | Banish Aligned                 |
+| 5     | Banish Supernatural            |
 | 5     | Spell Turning                  |
 | 5     | Wall of Force                  |
 | 6     | Globe of Invulnerability       |
@@ -733,10 +733,10 @@ Up to five subjects (+5 per caster name level) are invisible to all forms of mag
 _Transmutation (R: Long, D: 1 day)_  
 AoE: Up to 50-ft radius / 20 × 20. This spell causes normal vegetation to thicken and grow. Within the area of effect, combat speed drops to 5 for creatures up to Medium size (10 for creatures Large and greater). Line of sight drops to 10 ft; anything in sight in the growth has heavy cover. The area must already have at least living brush in it for this spell to function.
 
-#### Protection from Aligned
+#### Protection from Unnatural
 
 _Abjuration (R: Short, D: 1 hour)_  
-All chosen creatures within range are warded. Anointed and supernatural creatures (undead, constructs, extraplanar) of one chosen alignment (Law, Chaos, Good, Evil) cannot charm, frighten, or possess the warded creatures, and must reroll any hits scored against them.
+All chosen creatures within range are warded. Undead, constructs, and supernatural creatures cannot charm, frighten, or possess the warded creatures, and must reroll any hits scored against them.
 
 #### Rope Trick
 
@@ -952,10 +952,10 @@ The caster can sense danger before it occurs. The caster gains advantage on init
 _Abjuration (R: Self, D: 10 minutes)_  
 The caster is immune to all spells and magical effects.
 
-#### Banish Aligned
+#### Banish Supernatural
 
 _Abjuration (R: Medium, D: 1 minute)_  
-Save: Hard. This spell banishes up to 20 HD worth of extraplanar creatures of one chosen alignment (Law, Chaos, Good, Evil) back to their home plane.
+Save: Hard. This spell banishes up to 20 HD worth of chosen supernatural creatures back to their home plane.
 
 #### Blade Barrier
 
@@ -1214,12 +1214,12 @@ _Abjuration (R: Touch, D: Special)_
 The caster inscribes one of the following symbols on a surface. Creatures that pass over, touch, read, or pass through a portal upon which the symbol is inscribed trigger it, after which it flares brightly, then vanishes.
 
 - Death — Creatures totalling no more than 60 Hit Points are slain.
-- Discord — All creatures are affected and immediately fall to loud bickering. There is a 50% chance that creatures of different alignments attack one other. The bickering lasts 3d6+2 rounds; any fighting 1d6+1 rounds.
+- Discord — All creatures are affected and immediately fall to loud bickering. There is a 50% chance that creatures in different groups attack one other. The bickering lasts 3d6+2 rounds; any fighting 1d6+1 rounds.
 - Fear — This operates as an extra-strong Fear spell, the difficulty of the save being one level higher (Heroic).
 - Hopelessness — All creatures are affected and are overcome with dejection unless they make a Very Hard (Arc) save. Those affected will submit to the demands of any opponent, i.e. get out, surrender, etc. Roll 2d6 for the duration in turns, then 1d6: on a 1-2, those affected take no action, while on a 3-4 they turn back or retire from battle, as applicable (5-6 no additional effect).
 - Insanity — Creatures totalling no more than 90 Hit Points act as if a Confusion spell had been placed upon them until a Restoration spell removes the madness.
   -Pain — All creatures are affected. Wracking pains shoot through their bodies, inflicting a –4 attack penalty for 3d6+2 turns.
-- Persuasion — All creatures are affected, becoming of the same alignment as and friendly to the caster for 3d6+2 turns unless they make a Very Hard (Arc) save.
+- Persuasion — All creatures are affected, becoming friendly to the caster for 3d6+2 turns unless they make a Very Hard (Arc) save.
 - Sleep — All creatures under 8+1 HD fall into a catatonic slumber. They cannot be awakened for 2d6+4 turns.
 - Stunning — Creatures totalling no more than 120 Hit Points are stunned for 2d6 rounds: they are unable to act, drop anything held, and count as surprised.
 
