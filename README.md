@@ -62,7 +62,7 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 - **Dexterity** measures agility, reflexes, and hand-eye coordination. Any Dex mod is applied to your Armour Class, as long as you can move freely.
 - **Constitution** measures endurance and vitality. Any Con mod is applied to your Hit Point total at the start of the game and each time you go up a level.
 - **Perception** measures your observational acuity. Any Per mod affects your ability to see through illusions, and to spot traps, secret doors, and ambushes.
-- **Willpower** measures discipline and mental endurance. Any Will mod affects your ability to resist enchantment, fear, mind control, possession, and other mental attacks, as well as to avoid death.
+- **Willpower** measures discipline and mental endurance. Any Will mod affects your ability to resist enchantment, fear, mind control, possession, and other mental attacks.
 - **Arcana** measures your connection to magical forces. Any Arc mod is applied to chances to learn spells and to saving throws to resist spell damage.
 
 ## Choose a Character Race & Make Any Adjustments
@@ -84,6 +84,10 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 |     13-15     |    +1    |
 |     16-17     |    +2    |
 |     18-19     |    +3    |
+
+## Determine Initial Background
+
+Using the [character background generator](background.md), determine your character's height, weight, and family upbringing.
 
 ## Choose Your Class & Note Hit Die
 
@@ -108,11 +112,15 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 
 **New Spells**: Mages learn one random new spell each time they gain a level. You also gain access to a new school of your choice at each name level. When this happens, you learn random spells of that school, one at each spell level you can cast.
 
-## Note Your Saving Throw Bonus
+## Determine Formative Constitution
 
-Saving throws are based on a 1d20 roll, adding the relevant stat modifier, and adding your saving throw bonus. At 1st level, this bonus is 0, but goes up by +1 every even level (so +1 at level 2, +2 at level 4, etc.).
+Using the [character background generator](/background.md#institution), determine formative institution.
 
-The default save is Hard (14+ to succeed); instant-death effects are usually Daunting (11+). A natural 20 always saves, and a natural 1 always fails.
+## Note Your Saving Throw & Check Bonuses
+
+**Check Bonuses**: Starts at 0. Characters gain +1 to regular checks at each name level.
+
+**Save Bonuses:** Starts at 0. Characters gain a +1 save bonus for every 2 full Hit Dice they have.
 
 ## Choose Languages
 
@@ -164,9 +172,11 @@ A mage can combine multiple feats on a spell. The spell adjustments from these s
 - **Lockpicking**: Gain +1 Dexterity. You have the tools and expertise to pick locks. Your search for traps on a lock are one difficulty level lower.
 - **Tough**: Your hit die is one die higher (i.e. a warrior will use a d10, and a mage will use a d8).
 
-## Choose Skills
+## Determine Starting Age & Choose Skills
 
-Skills represent specialized knowledge of or training in a particular field. All characters select two skills at 1st level, and another at each name level.
+Using the [character background generator](background.md#starting-age), determine your character's starting age. Then, select appropriate skills.
+
+Skills represent specialized knowledge of or training in a particular field. All characters select one to three skills at 1st level, and another at each name level.
 
 It's assumed that characters possess all the skills and knowledge appropriate to their background, along with a host of everyman abilities that nearly all posses, such as climbing, hiding, or moving silently. Skills for adventurers' purposes are almost always specialized (like reading lips) or non-intuitive (like lockpicking), and reflect special training, deep knowledge, or intense & focused practice in that particular narrow area. Broad interaction (e.g. Conversation), social skills that achieve a result otherwise possible only through roleplay (e.g. Deception or Intimidation), skills that boil down a non-linear non-standard task down to a simple roll (e.g. Dungeoneering or Investigation) or skills that allow for ready identification of magical items cannot be taken. **Skills are largely meant to measure a proficiency over and above what one could reasonably be expected to have, NOT to define what is possible!**
 
@@ -265,6 +275,9 @@ Finally, you can add "costed" items, which do cost money at character creation.
 
 ### Costed Items
 
+> [!NOTE]
+> 40 copper farthings (f.) = 10 silver pence (d.) = 1 gold noble (g.)
+
 | Item                                | Cost |
 | ----------------------------------- | ---- |
 | Acid, vial (S)                      | 50d. |
@@ -297,9 +310,6 @@ Finally, you can add "costed" items, which do cost money at character creation.
 **Wolfsbane**: If a lycanthrope is hit by wolfsbane, it must make a Very Hard (17+) save or run away in fear. The sprig must be swung or thrown as a weapon.
 
 ## Armour
-
-> [!NOTE]
-> 40 copper farthings (f.) = 10 silver pence (d.) = 1 gold noble (g.)
 
 An unarmoured character has a base Armour Class of 10.
 
@@ -450,7 +460,7 @@ If the players do not immediately attack, the referee rolls on the Reaction Tabl
 To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceeds the target's Armour Class (AC), the attack hits. The most common attack modifiers are:
 
 - Attacker is striking from the rear: +2
-- Target is surprised: +4 (replaces above)
+- Target is surprised or attacker is invisible: +4 (replaces above)
 - Attacker declared an offensive stance: +2
 - Attacker cannot see target: -4
 - Attacker is fatigued: -2 (light) or -4 (heavy)
@@ -658,7 +668,7 @@ You should also know: Doors tend to close on their own. Iron spikes are invaluab
 
 ## Dungeon Random Encounters
 
-Random encounters occur in almost all dungeon areas. These are typically monsters inclined to hostility (you're in their home) and with no treasure (it's back in their bedroom). To make a check, the referee rolls 1d12 at the end of the appropriate turn: on a 2 or less, an encounter occurs.
+Random encounters occur in almost all dungeon areas. These are typically monsters inclined to hostility (you're in their home) and with no treasure (it's back in their bedroom). To make a check, the referee rolls 1d6 at the end of the appropriate turn: on a 1, an encounter occurs.
 
 If an area doesn't have a preset encounter rate, how often the referee checks to see if a random encounter occurs varies, based on the nature of the area being explored:
 

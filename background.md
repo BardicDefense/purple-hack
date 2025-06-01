@@ -56,20 +56,6 @@ This Character Background generator is designed to outline a new player characte
 |    23    |     171      |    214     |    114     |   142    |       142       |      185      |       71        |      85       |     199      |    241     |
 |    24    |     176      |    220     |    117     |   147    |       147       |      191      |       73        |      88       |     205      |    250     |
 
-### Starting Age
-
-- **Young**: +1 to Con score, but choose only one skill.
-- **Adult**: The default, choosing two skills.
-- **Old**: -1 to Con score, but choose three skills.
-
-| Race     | Young Warrior | Young Mage | Adult Warrior | Adult Mage | Old Warrior | Old Mage  |
-| -------- | :-----------: | :--------: | :-----------: | :--------: | :---------: | :-------: |
-| Dwarf    |    27+1d4     |   34+1d4   |    38+1d6     |   42+1d6   |   120+2d8   |  150+2d8  |
-| Elf      |    50+2d8     |   75+2d8   |   200+2d10    |  300+2d10  |  1000+2d20  | 1500+2d20 |
-| Half-Elf |    14+1d4     |   16+1d4   |    24+1d4     |   37+1d4   |   175+2d8   |  200+2d8  |
-| Halfling |    18+1d4     |   24+1d4   |    30+1d6     |   35+2d6   |   65+2d8    |  75+2d8   |
-| Human    |    14+1d4     |   16+1d4   |    18+1d4     |   24+1d4   |   55+2d8    |  65+2d8   |
-
 ## Origin & Upbringing
 
 ### Family
@@ -227,3 +213,17 @@ Toll keeper
 #### Arcana
 
 Professions associated with Arcana relate to matters of pursuing education and the application of experience. Characters from these backgrounds are used to engaging their minds to solve issues.
+
+## Starting Age
+
+- **Young**: +1 to Con score, but choose only one skill.
+- **Adult**: The default, choosing two skills.
+- **Old**: -1 to Con score, but choose three skills.
+
+| Race     | Young Warrior | Young Mage | Adult Warrior | Adult Mage | Old Warrior | Old Mage  |
+| -------- | :-----------: | :--------: | :-----------: | :--------: | :---------: | :-------: |
+| Dwarf    |    27+1d4     |   34+1d4   |    38+1d6     |   42+1d6   |   120+2d8   |  150+2d8  |
+| Elf      |    50+2d8     |   75+2d8   |   200+2d10    |  300+2d10  |  1000+2d20  | 1500+2d20 |
+| Half-Elf |    14+1d4     |   16+1d4   |    24+1d4     |   37+1d4   |   175+2d8   |  200+2d8  |
+| Halfling |    18+1d4     |   24+1d4   |    30+1d6     |   35+2d6   |   65+2d8    |  75+2d8   |
+| Human    |    14+1d4     |   16+1d4   |    20+1d4     |   25+1d4   |   55+2d8    |  65+2d8   |
