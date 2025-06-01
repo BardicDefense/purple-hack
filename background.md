@@ -1,4 +1,4 @@
-# Character Background Generator
+# Character Background Generator (Work in Progress)
 
 This Character Background generator is designed to outline a new player character's basic characteristics resulting from cultural heritage, race, age, ability stats, and other events out of the character's control prior to joining the campaign. ([Source of inspiration](https://wiki.alexissmolensk.com/index.php/Character_Background_Generator).)
 
