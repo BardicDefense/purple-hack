@@ -417,19 +417,13 @@ The player rolls 1d20 (unless success or failure would not be obvious, in which 
 
 ## Surprise
 
-If a creature is not in combat, the opportunity exists to surprise it. Some creatures can naturally reliably ambush prey. Others can do so via careful planning or magical effects. Once combat has begun, true surprise is impossible; at best, an attacker could achieve a rear attack. There are two major ways for characters to surprise enemies: laying an ambush, and moving silently to backstab a target.
+Surprise is a circumstance that might occur between parties at the moment of contacting one another, indicating the possibility that one or both might be taken aback by the occurrence.
 
-### Ambushes
+Once it has been determined that surprise might occur, each party potentially affected rolls a d12. The default chance of surprise is 4 in 12 (i.e., on a die roll of 4 or lower). Each roll applies to all the individuals on each side of a conflict; individuals may, however, adjust the die roll in their favor.
 
-No check is required to set an ambush; either the circumstances exist for one to be set, or it's impossible (e.g., there's no available cover). Instead, the targets make a check to see if they notice before it's too late.
+A character with a Perception modifier subtracts that modifier from the surprise threshold (i.e., a character with a +1 Per mod is surprised on a 3 or lower; a character with a -1 Per mod is surprised on a 5 or lower, etc.). A character with the Fieldcraft feat has a default chance of being surprised of 2 in 12. The minimum chance of being surprised is 1 in 12.
 
-A typical ambush requires a Hard (14+) group Perception check to detect if the ambushers are visually concealed (camouflage, heavy cover, or invisibility). This rises to Very Hard (17+) if most noise is drowned out as well (e.g., high winds or other strong ambient noise)--Heroic (20+) if the ambushers are magically silenced. Some creatures have innate surprise abilities, which override the values above. If the party is outdoors and has one or more members with the Fieldcraft feat for the terrain they're in, the difficulty of their group check to notice an ambush is one level lower than normal.
-
-If the detection roll fails, the group is surprised (see below). If the roll succeeds, the group realizes they are about to be ambushed; what this means depends on the circumstances, especially the terrain and relative placement of the ambushers and targets.
-
-### Backstab
-
-A move silently check is needed to move behind a target and launch a surprise attack. Failure means that the attempt has been noticed, and the target can react as appropriate. Success means the target is surprised (see below).
+For example, the player party's die roll is a "3," indicating the party is surprised. However, the surprise occurs in a forest, a terrain for which one character has a Fieldcraft feat. That character is not surprised; while the rest of the party would be unable to act in the first round of combat, that character can act normally.
 
 ### Effects of Surprise
 
