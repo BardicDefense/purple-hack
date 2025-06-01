@@ -114,19 +114,6 @@ Saving throws are based on a 1d20 roll, adding the relevant stat modifier, and a
 
 The default save is Hard (14+ to succeed); instant-death effects are usually Daunting (11+). A natural 20 always saves, and a natural 1 always fails.
 
-## Choose Alignment
-
-Your character may align themselves with one of each of the great cosmic ideologies (and the forces that lie behind them): either Law or Chaos, and either Good or Evil. A character may choose just one alignment (e.g., a commitment to Law, but neither Good nor Evil), or one of each (i.e., Lawful Good, Lawful Evil, Chaotic Good, or Chaotic Evil).
-
-- **Law**: Fervently believe in order and stability. Disorder is anathema.
-- **Chaos**: Thrive on mutability and change. Stagnation is anathema.
-- **Good**: Fervently believe in altruism, compassion, and justice.
-- **Evil**: The only restraints are imposed restraints; actions are usually weighed solely on how they benefit oneself.
-
-Characters may instead forego an alignment and choose to be **Unaligned**. This does not mean the person is neutral or incapable of taking a position on something. Neither does it mean that they cannot serve the cause of the aligned, simply that they lack their fervent, formal commitment.
-
-Players can choose to conceal their choice of alignment (or lack thereof) from outsiders or even the rest of their party, but must tell the referee what they've picked.
-
 ## Choose Languages
 
 You start play knowing your native language(s). Additionally, roll 1d6. On a 5, you gain one more language. On a 6, you gain two more languages. Mages also know Mithric (the language of magic), plus one additional language of their choice.
@@ -165,10 +152,10 @@ A mage can combine multiple feats on a spell. The spell adjustments from these s
 
 ### Unrestricted Feats
 
-- **Anointed**: You are zealous for your god or extra-planar benefactor. Spells or effects targeting your alignment always affect you, even if they normally only affect creatures that are supernatural (e.g. _Protection from Law_). You cannot be Unaligned.
-  - Your weapon attacks against creatures of one opposing alignment that are undead or extraplanar add +1 weapon die of damage (add/gain another if level 10 or higher). This always counts as a magical attack.
+- **Anointed**: You are zealous for your god or extra-planar benefactor. Spells or effects that would target supernatural creatures aligned with your patron also affect you.
+  - Your weapon attacks against undead or supernatural beings opposed to your patron add +1 weapon die of damage (add/gain another if level 10 or higher). This always counts as a magical attack.
   - When resisting spells and effects that would place you in direct conflict with your patron's known tenets and goals, the saving throw difficulty is one level lower.
-  - Gain a small power appropriate to your patron (e.g. healing touch once per day for a god of life or healing).
+  - Gain a small power appropriate to your patron (e.g. healing touch once per day that heals hp equal to your level for a god of life or healing).
 - **Conditioning**: Gain +2 to a chosen ability score. This feat can be taken only once for a given ability score.
 - **Fieldcraft**: Gain +1 Constitution. Pick two broad terrain types (forest, desert, swamps, jungle, tundra, mountains, etc.). In these terrain types, your difficulties for tasks such as stealth, tracking, and concealing tracks are lowered, and you:
   - Heal +2 HP per day, and still heal even if marching in terrain that normally prevents such.
