@@ -1,4 +1,4 @@
-# Character Background Generator (Work in Progress)
+# Character Background Generator
 
 This Character Background generator is designed to outline a new player character's basic characteristics resulting from cultural heritage, race, age, ability stats, and other events out of the character's control prior to joining the campaign. ([Source of inspiration](https://wiki.alexissmolensk.com/index.php/Character_Background_Generator).)
 
@@ -109,6 +109,8 @@ Something to keep in mind is that, in our setting's time and place, most places 
 To determine the character's progenitor, start by subtracting 10 from each of the character's ability scores. If the character has less than 1 point in any of these, then progenitors from that ability score source are unavailable. The remaining points are added together and used for weighting the roll to determine from which source the progenitor comes.
 
 For example: Alice rolls her ability scores, ending with an 18 Str, 12 Dex, 10 Con, 14 Per, 8 Wil, and 13 Arc. Subtracting 10 from each and discarding Con and Wil, Alice ends with 8 Str, 2 Dex, 4 Per, and 3 Arc for a total of 17. She rolls a random number from 1 to 17: Str (1-8), Dex (9-10), Per (11-14), and Arc (15-17). Alice gets a 17, and her progenitor can be found on the Arcana table.
+
+All tables are rolled on with a d100.
 
 #### Strength
 
