@@ -148,75 +148,84 @@ Professions associated with strength require simple application of strength at t
 - 93-96: Outrider
 - 97-98: Bounty Hunter
 - 99: Master-at-arms
-- 100: Gladiator
+- 100: Class-levelled Warrior
 
 #### Dexterity
 
 Professions associated with dexterity include a wide range of artisans who have been trained to work with their hands to make practical objects. Others represent arts where nimble fingers, fast movements, and sharp practice rule the day. Many characters from these backgrounds treat the pursuit of a levelled class as a means of escape from the drudgery of rigorous professional obligations.
 
-- Brewer
-- Baker
-- Butcher
-- Chandler
-- Cook
-- Fishmonger
-- Vintner
-- Tailor
-- Furrier
-- Weaver
-- Tanner
-- Leatherworker
-- Cobbler
-- Cooper
-- Wagonwright
-- Shipwright
-- Furniture maker
-- Bookbinder
-- Stonecutter
+- 01-08: Brewer
+- 09-16: Baker
+- 17-24: Butcher
+- 25-32: Chandler
+- 33-40: Cook
+- 41-48: Fishmonger
+- 49-56: Vintner
+- 57-64: Tailor
+- 65-70: Furrier
+- 71-76: Weaver
+- 77-80: Tanner
+- 81-84: Leatherworker
+- 85-88: Cobbler
+- 89-92: Cooper
+- 93-96: Wagonwright
+- 97: Shipwright
+- 98: Furniture maker
+- 99: Bookbinder
+- 100: Stonecutter
 
 #### Constitution
 
 Professions associated with Constitution require considerable fortitude, good health, and a willingness to do dirty and unpleasant work. Characters from these backgrounds are used to the worst environments, where heat, confinement, isolation, and grime are the order of the day.
 
-- Rat catcher
-- Graverobber
-- Labourer
-- Porter
-- Miner
-- Blacksmith
-- Armourer
-- Weaponsmith
-- Executioner
+- 01-25: Labourer
+- 26-40: Porter
+- 41-55: Miner
+- 56-70: Blacksmith
+- 71-80: Armourer
+- 81-88: Weaponsmith
+- 89-90: Executioner
+- 91-96: Rat catcher
+- 97-100: Graverobber
 
 #### Perception
 
 Professions associated with Perception require attention to detail and application of design. Characters from these backgrounds were often engaged in precise artistic or administrative functions in society.
 
-- Luthier
-- Jeweller
-- Lapidary
-- Engraver
-- Glassmaker
-- Sculptor
-- Gambler
-- Forger
+- 01-17: Luthier
+- 17-29: Jeweller
+- 30-35: Lapidary
+- 36-45: Engraver
+- 46-62: Glassmaker
+- 63-85: Sculptor
+- 86-92: Gambler
+- 93-100: Forger
 
 #### Willpower
 
 Professions associated with Willpower require steady commitment and the sort of grit that provides a character with courage in the face of adversity. Characters from these backgrounds are used to toiling long hours to achieve a desired result.
 
-- 22-39: Fisherfolk
-- Toll keeper
-- Explorer
+- 01-29: Fisherfolk
+- 30-37: Herder
+- 38-53: Hunter
+- 54-65: Toll keeper
+- 66-75: Peddler
+- 76-93: Sentinel
+- 94-100: Explorer
 
 #### Arcana
 
 Professions associated with Arcana relate to matters of pursuing education and the application of experience. Characters from these backgrounds are used to engaging their minds to solve issues.
 
-- Clerk
-- Tutor
-- Lawyer
-- Alchemist's apprentice
+- 01-27: Clerk
+- 28-50: Scribe
+- 51-57: Herbalist
+- 58-65: Sage
+- 66-80: Tutor
+- 81-93: Lawyer
+- 94-98: Alchemist's apprentice
+- 99: Alchemist
+- 100: Class-levelled Mage
 
 ## Starting Age
 
