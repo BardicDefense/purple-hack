@@ -87,7 +87,7 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 
 ## Determine Initial Background
 
-Using the [character background generator](background.md), determine your character's height, weight, and family upbringing.
+Using the [character background generator](background.md), determine your character's height, weight, family upbringing, and progenitor.
 
 ## Choose Your Class & Note Hit Die
 
@@ -112,7 +112,7 @@ Using the [character background generator](background.md), determine your charac
 
 **New Spells**: Mages learn one random new spell each time they gain a level. You also gain access to a new school of your choice at each name level. When this happens, you learn random spells of that school, one at each spell level you can cast.
 
-## Determine Formative Constitution
+## Determine Formative Institution
 
 Using the [character background generator](/background.md#institution), determine formative institution.
 

@@ -98,31 +98,6 @@ Where the first table describes a character as "raised by," it should be underst
 
 If a character has a living twin, they may at the referee's discretion play both characters. Identical twins have the same ability scores as the first character. For fraternal twins, add 2d8-5 to each of the original character's ability scores to get the twin's ability scores.
 
-### Institution
-
-_This table should be rolled on only after a class has been selected._
-
-Normally, a character will have started training in their class at the age of 8 to 10. The institution below is a formative circumstance in the child's life, a place where he or she spent enough time to make an impression and shape their outlook later on. If more than one column applies, both institutions had an influence at some point. Characters with the Fieldcraft feat should roll 1d12+10 on the Warrior column. Practically speaking, this serves as an inspiration for Skills the player might select at character creation.
-
-| 1d20  | Warrior (1d20+7 if Arcanist) | Mage       | Anointed Feat |
-| :---: | ---------------------------- | ---------- | ------------- |
-|  1-3  | shipboard                    | guildhouse | church/temple |
-| 4-12  | barracks                     | guildhouse | church/temple |
-| 13-15 | barracks                     | guildhouse | monastery     |
-| 16-18 | baggage camp                 | library    | monastery     |
-| 19-20 | manor farm                   | library    | monastery     |
-| 21-22 | manor farm                   | --         | --            |
-| 23-27 | monastery                    | --         | --            |
-
-- **Baggage camp**: the character spent their childhood following a military camp or roving band through campaigns, helping to cook, launder clothes, make food, nurse wounded, carry baggage, and otherwise act as a servant to soldiers. Most likely, he or she began training as a warrior while still on the move, taught by soldiers present, not doing any particularly formal training until older, about the age of 13.
-- **Barracks**: the character spent their childhood in established barracks of a king or prince, cleaning weapons, sharpening them, mending tears in cloth and leather armour, cleaning and attending livestock, and acting as a servant to soldiers. Practical training for a warrior would have been started on a formal basis and been continued into the early teens before abandoning the traditional soldier's training to gain a warrior's knowledge from direct tutors and masters.
-- **Church/temple**: the character spent their childhood cleaning the pews, carrying hymnals and other books, gardening, assisting at liturgies, tending to animals kept to support the clergy, carrying candles, and more. After the character was given a place during services and shows his or her piety, the decision is made to send the character for formal study on a stipend.
-- **Guildhouse**: the character spent their childhood as a servant and participating in the backbreaking work of feeding and housing a large number of workers: much laundering, kitchen duties, and carrying food and water. As the character got older, they would have been trained in the skills of the particular guild or profession. Eventually, the guild would have been responsible, through collections and donations, for the character receiving a formal education.
-- **Library**: few and far between, a library is a place where a young character would have been primarily engaged in cleaning, collecting and copying. Formal education began when the character is paid for their ability to read and write, a task they performed throughout their training as a mage.
-- **Manor farm**: the character spent their childhood as part of a thegn or ealdorman's household, working in a variety of tasks and places: the stables, farming, processing staples into foodstuffs, a house servant, gamekeeper's assistants, shepherds, etc. Arcanists would have impressed the noble enough that their way to a formal education was paid, but other warriors would have had to beg, borrow, or steal the money from the various overseers and friends they've made.
-- **Monastery**: similarly to a manor house, with opportunities to learn about farming, animals, and the making of various foodstuffs, all with a religious culture and surroundings. The character might have remained at the monastery to complete their formal training as a mage, or would have headed out with a stipend to obtain formal training as a warrior.
-- **Shipboard**: the character spent their early days living the dangerous, hard, and repetitive life of a sailor. A child aboard ship would have been engaged in scrubbing decks, kitchen duties, laundering, or other menial tasks. Formal training could have taken place on a long voyage at sea, or during lengthy shore leave.
-
 ### Progenitor
 
 The strongest person in the character's early life who instigated the character's eventual career as a class-levelled adventurer. Usually this is the character's father and/or mother, but it could be an aunt or uncle or another mentor, depending on the [family](#family) generated above. This person's profession was experienced and lightly transferred to the character prior to advanced training as a warrior or mage; this profession often forms the character's "secondary skill" and an inspiration for any selected Skills.
@@ -226,6 +201,31 @@ Professions associated with Arcana relate to matters of pursuing education and t
 - 94-98: Alchemist's apprentice
 - 99: Alchemist
 - 100: Class-levelled Mage
+
+## Institution
+
+_This table should be rolled on only after a class has been selected._
+
+Normally, a character will have started training in their class at the age of 8 to 10. The institution below is a formative circumstance in the child's life, a place where he or she spent enough time to make an impression and shape their outlook later on. If more than one column applies, both institutions had an influence at some point. Characters with the Fieldcraft feat should roll 1d12+10 on the Warrior column. Practically speaking, this serves as an inspiration for Skills the player might select at character creation.
+
+| 1d20  | Warrior (1d20+7 if Arcanist) | Mage       | Anointed Feat |
+| :---: | ---------------------------- | ---------- | ------------- |
+|  1-3  | shipboard                    | guildhouse | church/temple |
+| 4-12  | barracks                     | guildhouse | church/temple |
+| 13-15 | barracks                     | guildhouse | monastery     |
+| 16-18 | baggage camp                 | library    | monastery     |
+| 19-20 | manor farm                   | library    | monastery     |
+| 21-22 | manor farm                   | --         | --            |
+| 23-27 | monastery                    | --         | --            |
+
+- **Baggage camp**: the character spent their childhood following a military camp or roving band through campaigns, helping to cook, launder clothes, make food, nurse wounded, carry baggage, and otherwise act as a servant to soldiers. Most likely, he or she began training as a warrior while still on the move, taught by soldiers present, not doing any particularly formal training until older, about the age of 13.
+- **Barracks**: the character spent their childhood in established barracks of a king or prince, cleaning weapons, sharpening them, mending tears in cloth and leather armour, cleaning and attending livestock, and acting as a servant to soldiers. Practical training for a warrior would have been started on a formal basis and been continued into the early teens before abandoning the traditional soldier's training to gain a warrior's knowledge from direct tutors and masters.
+- **Church/temple**: the character spent their childhood cleaning the pews, carrying hymnals and other books, gardening, assisting at liturgies, tending to animals kept to support the clergy, carrying candles, and more. After the character was given a place during services and shows his or her piety, the decision is made to send the character for formal study on a stipend.
+- **Guildhouse**: the character spent their childhood as a servant and participating in the backbreaking work of feeding and housing a large number of workers: much laundering, kitchen duties, and carrying food and water. As the character got older, they would have been trained in the skills of the particular guild or profession. Eventually, the guild would have been responsible, through collections and donations, for the character receiving a formal education.
+- **Library**: few and far between, a library is a place where a young character would have been primarily engaged in cleaning, collecting and copying. Formal education began when the character is paid for their ability to read and write, a task they performed throughout their training as a mage.
+- **Manor farm**: the character spent their childhood as part of a thegn or ealdorman's household, working in a variety of tasks and places: the stables, farming, processing staples into foodstuffs, a house servant, gamekeeper's assistants, shepherds, etc. Arcanists would have impressed the noble enough that their way to a formal education was paid, but other warriors would have had to beg, borrow, or steal the money from the various overseers and friends they've made.
+- **Monastery**: similarly to a manor house, with opportunities to learn about farming, animals, and the making of various foodstuffs, all with a religious culture and surroundings. The character might have remained at the monastery to complete their formal training as a mage, or would have headed out with a stipend to obtain formal training as a warrior.
+- **Shipboard**: the character spent their early days living the dangerous, hard, and repetitive life of a sailor. A child aboard ship would have been engaged in scrubbing decks, kitchen duties, laundering, or other menial tasks. Formal training could have taken place on a long voyage at sea, or during lengthy shore leave.
 
 ## Starting Age
 
