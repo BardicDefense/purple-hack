@@ -1,9 +1,12 @@
-theme: minima
 title: Purple Hack
 description: Dungeons & Dragons House Rules
+
+theme: minima
+
 minima:
   skin: auto
-  header_pages:
-    - README.md
-    - background.md
-    - equipmentupgrades.md
+
+header_pages:
+  - README.md
+  - background.md
+  - equipmentupgrades.md
