@@ -313,16 +313,16 @@ Finally, you can add "costed" items, which do cost money at character creation.
 
 An unarmoured character has a base Armour Class of 10.
 
-| Armour                             | AC  | Cost  | Time to Don |
-| ---------------------------------- | :-: | :---: | :---------: |
-| Small Shield (M)                   | +1  | 25d.  |  1 action   |
-| Large Shield (L)                   | +2  | 60d.  |  1 action   |
-| Leather or Furs (light armour) (M) | 12  | 80d.  |    1 min    |
-| Ring (med. armour) (L)             | 13  | 130d. |    5 min    |
-| Scale/Lamellar (med. armour) (L)   | 14  | 180d. |    5 min    |
-| Chainmail (med. armour) (L)        | 15  | 280d. |    5 min    |
-| Splint (heavy armour) (L+)         | 16  | 580d. |   10 min    |
-| Plate (heavy armour) (L+)          | 17  | 850d. |   10 min    |
+| Armour                             | AC  | Cost  | Time to Don/Doff |
+| ---------------------------------- | :-: | :---: | :--------------: |
+| Small Shield (M)                   | +1  | 25d.  |     1 action     |
+| Large Shield (L)                   | +2  | 60d.  |     1 action     |
+| Leather or Furs (light armour) (M) | 12  | 80d.  |      1 min       |
+| Ring (med. armour) (L)             | 13  | 130d. |      5 min       |
+| Scale/Lamellar (med. armour) (L)   | 14  | 180d. |      5 min       |
+| Chainmail (med. armour) (L)        | 15  | 280d. |      5 min       |
+| Splint (heavy armour) (L+)         | 16  | 580d. |      10 min      |
+| Plate (heavy armour) (L+)          | 17  | 850d. |      10 min      |
 
 Heavy armour (L+ = 3 slot) and Large Shields require minimum 9 Str to wear. Heavy armour also encumbers. A Shield also provides a save bonus vs non-gaseous breath weapons equal to its AC bonus.
 
@@ -679,6 +679,10 @@ If an area doesn't have a preset encounter rate, how often the referee checks to
 Even if players hide somewhere (e.g. a disused storeroom), the encounter roll is still made. Only if the hiding place is exceptional are encounter checks avoided.
 
 **Noisy**: If the party makes an unusual amount of noise while exploring (yelling, spiking a door; combats do not count), their next encounter check is made at -4, and the party cannot surprise creatures so encountered except via unusual means.
+
+## Equipment Upgrades
+
+You can upgrade your weapons & armour using the information [here](/equipmentupgrades.md).
 
 ## Equipment Wear & Tear
 
