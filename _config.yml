@@ -7,6 +7,5 @@ minima:
   skin: auto
 
 header_pages:
-  - background.md
-  - equipmentupgrades.md
   - spells.md
+  - shopping.md
