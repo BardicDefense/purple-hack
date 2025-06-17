@@ -1,5 +1,5 @@
-remote_theme: pages-themes/minima
-plugins:
-- jekyll-remote-theme 
+theme: minima
 title: Purple Hack
 description: Dungeons & Dragons House Rules
+minima:
+  skin: dark
