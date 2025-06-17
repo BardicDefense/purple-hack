@@ -5,6 +5,5 @@ minima:
   skin: auto
   nav-pages:
     - README.md
-    - README.md#Character-Creation
     - background.md
     - equipmentupgrades.md
