@@ -4,11 +4,11 @@
 
 The process of upgrading a piece of equipment always has a number of basic requirements regardless of its type. The following general rules apply:
 
-• Upgrades take the form of tags. Tags add new properties to equipment.
-• Each tag is unique and can only be applied to a piece of equipment once.
-• Upgrading a piece of equipment with a new tag can only be performed by a dedicated nonplayer craftsperson of the appropriate discipline in a workshop environment.
-• Upgrading a piece of equipment with a new tag is a skilled endeavor, taking anywhere from an hour to more than a week depending on the task.
-• On your adventures, you may come across equipment already possessing tags; either for sale, offered as rewards, or available through other means.
+- Upgrades take the form of tags. Tags add new properties to equipment.
+- Each tag is unique and can only be applied to a piece of equipment once.
+- Upgrading a piece of equipment with a new tag can only be performed by a dedicated nonplayer craftsperson of the appropriate discipline in a workshop environment.
+- Upgrading a piece of equipment with a new tag is a skilled endeavor, taking anywhere from an hour to more than a week depending on the task.
+- On your adventures, you may come across equipment already possessing tags; either for sale, offered as rewards, or available through other means.
 
 Due to their extraordinary artisanship and magical reinforcement, magic items can’t be modified using normal artisinal methods. As such, the upgrades presented here can’t be applied to magic items. Furthermore, none of the upgrades presented in this supplement confer “magic item” status to a piece of equipment, though certain upgrades may result in a piece of equipment being considered magical under certain circumstances.
 
@@ -16,9 +16,9 @@ Due to their extraordinary artisanship and magical reinforcement, magic items ca
 
 There are a number of options available to a character to upgrade their armour, from high-cost armour proofing, to useful additions like insulation suitable for cold weather environments. A complete list of these options, as well as cost and any additional requirements, are shown in the Armour Upgrades table below. In addition to the basic rules for upgrading, the following rules apply when upgrading a suit of armour or a shield with a new tag:
 
-• Any prerequisite conditions must be satisfied to apply a new tag, as shown in the Armour Upgrades table.
-• Typically, it takes an artisan a full day of work (minimum 8 hours) to upgrade a suit of armour or a shield with a new tag.
-• Armour Proofing. The proofing process normally requires a full workweek (5 days) and can only be undertaken by a master artisan. Once added, armour proofing tags can’t be removed from a suit of armour.
+- Any prerequisite conditions must be satisfied to apply a new tag, as shown in the Armour Upgrades table.
+- Typically, it takes an artisan a full day of work (minimum 8 hours) to upgrade a suit of armour or a shield with a new tag.
+- The armour proofing process normally requires a full workweek (5 days) and can only be undertaken by a master artisan. Once added, armour proofing tags can’t be removed from a suit of armour.
 
 ### Armour Proofing
 
@@ -30,9 +30,8 @@ In addition to proofing, various other upgrades are available to armours meeting
 
 ## Armour Upgrades
 
-|                               |               |                                                                      |                                                                                                                                                                                                                                                          |
-| ----------------------------- | ------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Tag**                       | **Cost (sp)** | **Prerequisite**                                                     | **Properties**                                                                                                                                                                                                                                           |
+| ----------------------------- | ------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Armour proofing: 1st tier** | 1000          | Light, medium, or heavy armour                                       | While wearing this armour, if you would take 6 or less nonmagical slashing damage before resistance is applied, you take none of that damage instead.                                                                                                    |
 | **Armour proofing: 2nd tier** | 2000          | Medium or heavy armour with the _1\_\_st_ _tier armour proofing_ tag | While wearing this armour, if you would take 7 or less nonmagical slashing or piercing damage before resistance is applied, you take none of that damage instead.                                                                                        |
 | **Armour proofing: 3rd tier** | 3000          | Heavy armour with the _2\_\_nd_ _tier armour proofing tag_           | While wearing this armour, if you would take 8 or less non- magical slashing, piercing, or bludgeoning damage before resistance is applied, you take none of that damage instead.                                                                        |
@@ -61,9 +60,8 @@ Upgrading a weapon has a base cost associated with each tier, with subsequent up
 
 Upgrades are grouped by tier for the purposes of this cost scaling: continuing with the above example, if Erik then wishes to have the blade of his dagger partially serrated in order to improve its effectiveness when slicing and cutting—adding the saw-toothed tag—it would cost 1,000 gp (the 2nd tier base cost) provided that the dagger doesn’t already possess any other 2nd tier tags.
 
-|                                  |                                                                                     |                                                                                                                                                                                                                                                               |
-| -------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Tag**                          | **Prerequisite**                                                                    | **Properties**                                                                                                                                                                                                                                                |
+| -------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | _1st Tier (base cost: 100sp)_    |                                                                                     |                                                                                                                                                                                                                                                               |
 | **Balanced**                     | \-                                                                                  | You gain a +1 bonus to attack rolls made with this weapon.                                                                                                                                                                                                    |
 | **Critical: Sharpened**          | Melee weapons that deal piercing or slashing damage only                            | Attacks with this weapon score a critical hit on a roll of one lower than normal.                                                                                                                                                                             |
