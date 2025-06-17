@@ -18,7 +18,7 @@ set of stats.
   thrown weapon attack damage.
 
 - **Dexterity** measures agility, reflexes, and hand-eye coordination.
-  Any Dex mod is applied to your Armor Class, as long as you can move
+  Any Dex mod is applied to your Armour Class, as long as you can move
   freely.
 
 - **Constitution** measures endurance and vitatliy. Any Con mod is
@@ -72,14 +72,14 @@ Ability Score Modifier
 
 1d8 Hit Die (8hp+Con mod at 1st level). Receive attack bonus of +1 every
 level, starting at level 1, stopping at +15 at level 15. Can use any
-weapon or armor, so long as they meet its strength minimum, if any (see
-[equipment](#armor-weapons-and-equipment)). Every name level, warriors
+weapon or armour, so long as they meet its strength minimum, if any (see
+[equipment](#armour-weapons-and-equipment)). Every name level, warriors
 add an extra weapon die of damage to their armed combat attacks and an
 additional feat. At 1st level, warriors select one style, reflecting
 their preferred manner of fighting:
 
 - **Arcanist**: You can read Mithric and gain access to two schools of
-  magic of your choice. You can cast spells in armor as well as when
+  magic of your choice. You can cast spells in armour as well as when
   being jostled. You cannot create or cast from scrolls, though you can
   copy spells from them. You have half the spell slots of a mage of your
   same level (rounded down, to a minimum of 1 slot). You start with a
@@ -101,8 +101,8 @@ their preferred manner of fighting:
 ### Mage
 
 1d6 Hit Die (6hp+Con mod at 1st level). Can cast one spell per round.
-Can use any weapon or armor, so long as they meet its strength minimum,
-if any, but they can't normally cast spells in armor. Receive attack
+Can use any weapon or armour, so long as they meet its strength minimum,
+if any, but they can't normally cast spells in armour. Receive attack
 bonus of +1 every two levels, starting at level 2. All spells are
 divided into eight schools (see [Magic & Spells](#magic-spells)). By
 default, mages have access to four schools (one chosen, and three rolled
@@ -110,7 +110,7 @@ randomly). After rolling, a mage can trade away access to one school (up
 to two maximum) in exchange for one of the following special abilities
 (each can be chosen only once, and only at character creation):
 
-- **Battlemage**: You can cast spells while wearing light armor, and
+- **Battlemage**: You can cast spells while wearing light armour, and
   your class attack bonus improves to +1 every level, starting at level
   1, stopping at +15.
 
@@ -243,7 +243,7 @@ ability score can be raised above 19 through feats.
   stance (this does not count as your stance pick for the round). You
   are not locked in melee combat unless in melee with at least three
   opponents. To gain these benefits, you must be able to move freely,
-  not wearing medium or heavy armor, and cannot be encumbered.
+  not wearing medium or heavy armour, and cannot be encumbered.
 
 ### Mage feats
 
@@ -380,8 +380,8 @@ Running, Seafaring, Shadowing, Stealth, Swimming, Tracking, Wrestling.
 ## Buy Equipment
 
 Roll 6d6 and multiply the number by 10. That's your starting silver
-pieces (sp). See the [equipment](#armor-weapons-and-equipment) list for
-things to buy (don't forget armor!) or choose a [quick
+pieces (sp). See the [equipment](#armour-weapons-and-equipment) list for
+things to buy (don't forget armour!) or choose a [quick
 pack](#quick-packs). Make a note (an asterisk is a good way) of what
 items you're declaring as "readied" (see [readied
 items](#readied-items)).
@@ -427,7 +427,7 @@ word, or a short sentence. Examples:_
 
 :::
 
-# Armor, Weapons, and Equipment
+# Armour, Weapons, and Equipment
 
 ## Item Slots
 
@@ -441,8 +441,8 @@ items.
 
 - **Medium** items (most things) are 1 slot.
 
-- **Large** items like 2h weapons and medium armor are 2 slots. Heavy
-  armor takes 3 slots and is bulky (see below).
+- **Large** items like 2h weapons and medium armour are 2 slots. Heavy
+  armour takes 3 slots and is bulky (see below).
 
 Coins & gems stack 500 to a slot. A typical body (willing or
 unconscious), fills 9 slots, before gear, and is bulky.
@@ -462,7 +462,7 @@ Slots Over Encumbrance Level Combat Speed Hex Point Allowance
 Each encumbrance level also raises the difficulty of applicable tasks,
 such as climbing, by one level.
 
-**Bulky**: Bulky items, such as worn heavy armor, impose a greater
+**Bulky**: Bulky items, such as worn heavy armour, impose a greater
 encumbrance than just item points. Each automatically adds one
 encumbrance level _after_ calculating the bearer's item slot load.
 
@@ -549,11 +549,11 @@ after each):
 
 - **Vial (S)**: Glass. Holds 4 oz of liquid.
 
-## Armor
+## Armour
 
 > \[!NOTE\] 100cp=10sp=1gp
 
-Armor AC Cost
+Armour AC Cost
 
 ---
 
@@ -565,7 +565,7 @@ Chainmail (L) 15 280sp
 Splint (L\*) 16 580sp
 Plate (L\*) 17 850sp
 
-\*Heavy armor (L\* = 3 slot) requires minimum 9 Str to wear. A Shield
+\*Heavy armour (L\* = 3 slot) requires minimum 9 Str to wear. A Shield
 also provides a +2 save bonus vs non-gaseous breath weapons.
 
 ## Weapons
@@ -757,9 +757,9 @@ Cart 50sp
 Stabling, per day 1sp
 Wagon 1,200sp
 
-**Barding**: Animal armor. The cost is equal to four times the cost of a
-normal human-sized armor set of the same type and provides the same AC
-benefit. Encumbers a mount just as armor does for characters.
+**Barding**: Animal armour. The cost is equal to four times the cost of a
+normal human-sized armour set of the same type and provides the same AC
+benefit. Encumbers a mount just as armour does for characters.
 
 **Cart**: Open, road-bound, two-wheeled vehicle. Pulled by 1-2 beasts of
 burden. Capacity: 2x of the animals drawing it.
@@ -913,7 +913,7 @@ Evil, and rerolling Hostile results if the creatures are Good:
 
 To attack, the attacker rolls 1d20 and adds their attack bonus and all
 applicable modifiers. If the result equals or exceed's the target's
-Armor Class (AC), the attack hits. The most common attack modifiers are:
+Armour Class (AC), the attack hits. The most common attack modifiers are:
 
 - Attacker is striking from the rear: +2
 
@@ -995,7 +995,7 @@ etc.).
 
 - **Offensive**: +2 attack bonus
 
-- **Defensive**: +2 Armor Class
+- **Defensive**: +2 Armour Class
 
 - **Dash**: Your action occurs before those of the enemy (exceptions:
   charging a set opponent; attacking a pike/spear wall; grapple
@@ -1394,17 +1394,17 @@ encountered except via unusual means.
 ## Equipment Wear & Tear
 
 Equipment can be worn down! If you are hit by an attack where the
-attacker rolled a 20, your armor gains a **notch** of damage (usually
+attacker rolled a 20, your armour gains a **notch** of damage (usually
 denoted by an x on your character sheet next to the weapon). Each notch
 reduces your AC total by 1. Weapons gain a notch when you roll a 1 on an
 attack with them. Each weapon notch reduces by one step the damage die
 you roll with that weapon (i.e. d8 \> d6 \> d4 \> 1).
 
 Items can be repaired by an appropriate craftsman, costing 10% of the
-item's original price per notch. Armor and weapons can take no more than
+item's original price per notch. Armour and weapons can take no more than
 10 notches of damage before they're destroyed.
 
-Magic weapons and armor take ½ notches instead of full notches.
+Magic weapons and armour take ½ notches instead of full notches.
 
 ## Experience & Leveling
 
@@ -1518,7 +1518,7 @@ If a creature must make a saving throw and it passes, no item carried by
 that creature needs to make a save unless the effect specifies
 otherwise.
 
-**Fragile items** can be almost anything (not including weapons, armor,
+**Fragile items** can be almost anything (not including weapons, armour,
 or typical adventuring gear), but most notably include potions, scrolls,
 and wands that have been **readied** (kept close at hand, so that
 they're usable in combat without requiring an action to draw). The price
@@ -1813,7 +1813,7 @@ raises the difficulty by one level.
   such, the difficulty of move silently checks against them is one
   difficulty higher.
 
-- **Armor**: If wearing non-magical medium or heavy armor, increase the
+- **Armour**: If wearing non-magical medium or heavy armour, increase the
   difficulty by one level.
 
 - **Group Checks**: If a group attempts to sneak together, this is a
@@ -1901,9 +1901,9 @@ are rolled randomly, and no skills are included (but can be chosen if a
 player ends up playing the retainer as a replacement for a lost PC, for
 example).
 
-Starting armor is based on class. Mages roll 1d6-1; Warriors roll 1d6+1:
+Starting armour is based on class. Mages roll 1d6-1; Warriors roll 1d6+1:
 
-- 0-1=No armor (AC 9)
+- 0-1=No armour (AC 9)
 
 - 2-3=Leather (AC 12)
 
@@ -2331,7 +2331,7 @@ a pole or other contrivance is utilized.
 **Leatherer**: Capable of producing a wide range of leather goods, such
 as packs, belts or riding gear; a leatherer is indispensable for the
 making of scabbards, sheathes, shields and the other leather components
-of arms and armor.
+of arms and armour.
 
 **Limner**: Adept in the painting of signs and the illumination of
 heraldic devices, among other similar tasks.
@@ -2352,7 +2352,7 @@ master.
 
 **Tailor**: Accomplished in the repair and making of clothes or other
 cloth items; the services of a tailor are also required for the
-production of various types of textile based armor and coverings.
+production of various types of textile based armour and coverings.
 
 **Teamster**: Experienced drivers of carts and wagons, teamsters are
 usually experts at loading and unloading their vehicles, as well as
@@ -2400,7 +2400,7 @@ Specialist Monthly Wage
 
 Alchemist 1,000sp
 Animal Trainer 500sp
-Armorer 500sp\*
+Armourer 500sp\*
 Blacksmith 220sp
 Engineer (Architect) 500sp\*
 Engineer (Artillerist) 300sp
@@ -2430,14 +2430,14 @@ After this first month, an animal has become accustomed to the trainer
 and can be taught additional behaviors at twice the rate (two weeks per
 behavior).
 
-**Armorer**: Required for the production and maintenance of armor and
+**Armourer**: Required for the production and maintenance of armour and
 shields; for every 60 men at arms or barded warhorses present, there
-must be at least one armorer available. Each must be provided with a
+must be at least one armourer available. Each must be provided with a
 workroom, forge, and assistants at an additional cost (\~400sp). An
-armorer can use spare time (prorated based on number of supported
-troops) to make additional armor, helmets, or shields at 25% of their
-usual cost. Per month, an armorer can make three shields or one suit of
-armor.
+armourer can use spare time (prorated based on number of supported
+troops) to make additional armour, helmets, or shields at 25% of their
+usual cost. Per month, an armourer can make three shields or one suit of
+armour.
 
 **Blacksmith:** Essential for the basic maintenance of a stronghold and
 any resident soldiery; for every blacksmith retained the needs of up to
@@ -2552,7 +2552,7 @@ command up to ten times the standard wage.
 
 **Ship Crew**: Skilled workers who can handle a ship. Sailors can fight
 to defend their ship, typically being equipped with a sword, shield, and
-leather armor.
+leather armour.
 
 **Ship's Captain**: A captain is required for any large ship, is skilled
 like a sailor, and has an intimate knowledge of the particular coasts

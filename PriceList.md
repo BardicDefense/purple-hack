@@ -1,13 +1,13 @@
-# Armor, Weapons, and Equipment
+# Armour, Weapons, and Equipment
 
 > [!NOTE]
 > 100cp=10sp=1gp
 >
 > \*=1 slot **=2 slots \***=3 slots
 
-## Armor
+## Armour
 
-| Armor              | AC  | Cost  |
+| Armour              | AC  | Cost  |
 | ------------------ | --- | ----- |
 | \*Shield           | 1   | 20sp  |
 | \*Leather or Furs  | 12  | 80sp  |
@@ -199,7 +199,7 @@ _Note: You can get a weapon "silvered" for 3x its base cost._
 | Tack & Harness               | Cost  |
 | ---------------------------- | ----- |
 | Barding, horse (AC 15)       | 250sp |
-| Dog armor (AC 14)            | 25sp  |
+| Dog armour (AC 14)            | 25sp  |
 | Saddle, bit, bridle, blanket | 75sp  |
 | Saddle bags, large           | 10sp  |
 
