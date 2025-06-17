@@ -2,4 +2,5 @@ theme: minima
 title: Purple Hack
 description: Dungeons & Dragons House Rules
 minima:
-  skin: dark
+  skin: auto
+  nav-pages:
