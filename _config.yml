@@ -1,0 +1,5 @@
+remote_theme: pages-themes/minima
+plugins:
+- jekyll-remote-theme 
+title: Purple Hack
+description: Dungeons & Dragons House Rules
