@@ -7,7 +7,6 @@ minima:
   skin: auto
 
 header_pages:
-  - README.md
   - background.md
   - equipmentupgrades.md
   - spells.md
