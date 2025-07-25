@@ -6,6 +6,6 @@ remote_theme: "jekyll/minima@8106bd4"
 minima:
   skin: auto
 
-header_pages:
+nav_pages:
   - spells.md
   - shopping.md
