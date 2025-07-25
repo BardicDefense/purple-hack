@@ -6,52 +6,30 @@ A * after a name means it can be bought used (already degraded); (i) after a pri
 
 Sturdy = must roll two 1s to degrade quality. Durable/Fresh/Delicacy = food qualities
 
-## Town Services
+## Inn Services
 
-### Inn - Kitchen
-
-| Item | Notes | Price |
-| --- | --- | --- |
-| Meal, delicious | e.g. "Hearty peppered venison stew, with fresh-baked bread & roasted root vegetables" | 10d. 1f. |
-| Meal, nosh | e.g. "Roasted sausage, hunk of cheese, small loaf of bread" | 1d. |
-| Meal, piquant | e.g. "Roast meat, stuffed with nuts & imported fruit, drizzled with saffron wine glaze, served w/ spiced pears" | 22d. 1f. |
-| Meal, tasty | e.g. "Thick meat & veggie pie, side of apple chutney" | 3d. 3f. |
-
-### Inn - Lodging
+### Drinks
 
 | Item | Notes | Price |
 | --- | --- | --- |
-| Bath | heated & prepared by innkeeper | 1f. |
-| Housekeeping | washing, dusting, and delousing of room & sheets; requires room be vacated for one hour | 2d. |
-| Laundering | cleaning of one suit of clothes, returned within 12 hours | 2d. 1f. |
-| Lodging, common, avg. inn (each) | space provided in the inn's common room shared with other ordinary lodgers | 1d. 1f. |
-| Lodging, common, cheap inn (each) |  | 1d. 2f. |
-| Lodging, double, boarding house (monthly-each) |  | 98d. |
-| Lodging, private, avg. inn (each) |  | 8d. 2f. |
-| Lodging, single, boarding house (monthly) |  | 124d. |
-| Lodging, single, religious hostel |  | 5d. |
-| Shave | provided by hired contractor known to the innkeeper | 3f. |
+| Jobim's lichen ale, buyer provides cup | pint | 1f. |
+| Jobim's lichen ale (S) | quart jug | 1d. |
+| Hak's mushroom ale (S) | quart | 2d. |
+| Rye whiskey | imported, shot | 6d. |
+| Corn whiskey | imported, shot | 3d. |
+| Brandy, bottle (S) | imported, shot | 200d. |
+| Archontean wine (S) | bottle | 284d. |
 
-### Inn - Stabling
+### Food
 
 | Item | Notes | Price |
 | --- | --- | --- |
-| Feed, mule | one night's provisioning | 1d. |
-| Feed, pony/donkey | one night's provisioning | 3f. |
-| Feed, riding horse | one night's provisioning | 1d. 2f. |
-| Feed, warhorse | one night's provisioning | 2d. |
-| Stabling | stall provided for period of one night | 1d. 1f. |
-
-### Inn - Tavern
-
-| Item | Notes | Price |
-| --- | --- | --- |
-| Ale | pint flagon | 1f. |
-| Cider | pint flagon | 3f. |
-| Cyser, dwarven | Goblet | 27d. |
-| Mead | Goblet | 20d. |
-| Perry | Goblet | 2d. 3f. |
-| Wine | Goblet | 4d. 2f. |
+| Spiced meat, shaved (S) | fresh, 3oz. | 3f. |
+| Forum stew, with bowl (S) | fresh, 3oz. | 2d. |
+| Forum stew, buyer provides bowl | fresh | 1d. |
+| Mushroom cake (S) | fresh, 4oz | 1d. |
+| Bread, when available (S) | fresh, 4oz loaf | 2d. |
+| The green friend (S) | 3' strand | 3d. |
 
 ## Apothecary
 
