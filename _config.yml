@@ -1,6 +1,7 @@
 title: Purple Hack
 description: Dungeons & Dragons House Rules
 
+remote_theme: pages-themes/minima
 theme: minima
 
 minima:
