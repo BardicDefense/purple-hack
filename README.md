@@ -1051,7 +1051,7 @@ If appropriate, the referee can choose to roll on the Offer Reaction Table below
 
 Sea travel usually involves an individually owned vessel or a charter. Scheduled services are rarely available. Passengers must make inquiries at harborside, and pay for passage on a ship heading to their intended destination, or perhaps to some port along the way.
 
-For game purposes, most trade occurs between important ports, separated by one week of sailing time. Ships typically spend one week in port off-loading and on-loading cargo, finding passengers, and perhaps engaging in a little recreation. Sailing to an intended destination is called a voyage, and each trip to a port on the way is called a leg. A voyage may have only one leg, or it may have several.
+For game purposes, most trade occurs between important ports, separated by one week of sailing time. Ships typically spend one week in port off-loading and on-loading cargo, finding passengers, and perhaps engaging in a little recreation. Sailing to an intended destination is called a _voyage_, and each trip to a port on the way is called a _leg_. A voyage may have only one leg, or it may have several.
 
 **Passengers**: While cargo is another matter entirely, there are two types of passengers: deck passengers and cabin passengers.
 
@@ -1299,7 +1299,7 @@ destroy sails, masts, and rigging, and to smash hull planking to sink
 the enemy ship. Large ships may carry 1 artillery piece, great ships may
 carry 2, and colossal ships may carry 4.
 
-- Catapults (600kg, 4 crew, 600d., 1 attack per turn) have an arm under
+- Catapults (600 stone wgt., 4 crew, 600d., 1 attack per turn) have an arm under
   tension, flinging its stone or incendiary missile in a high arc. Roll
   2d6 and hit 8+, -4 at Very Long range, -2 at Medium range. Cannot fire
   at Short range.
