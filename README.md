@@ -41,6 +41,7 @@ Some highlights:
   - [Perception Checks](#perception-checks)
   - [Readied Items](#readied-items)
   - [Retainers](#retainers)
+  - [Sailing](#sailing)
   - [Trap Detection](#trap-detection)
 - [Wilderness Exploration](#wilderness-exploration)
   - [Entering a Hex](#entering-a-hex)
