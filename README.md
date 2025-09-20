@@ -1199,7 +1199,7 @@ ship is ideal for coastal work and travel up rivers. It has a single
 mast forward, with a square sail and a hatch for cargo. Additional cargo
 can be tied down to the deck.
 
-**War Galleys **(_longship_): War galleys are used for royal courier
+**War Galleys** (_longship_): War galleys are used for royal courier
 duties, patrolling, transport of important officials, and for battle.
 They have rams at the bow, and raised platforms fore and aft from which
 marines can shoot at opposing ships. Artillery pieces are fitted as
