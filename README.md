@@ -1046,6 +1046,305 @@ If appropriate, the referee can choose to roll on the Offer Reaction Table below
 \* The reaction is so bad that the NPC spreads negative rumors about the PC and/or party, resulting in a -2 on further hiring rolls on this table if the PC and/or party attempt further recruitment in this area.  
 \*\* Permanent -1 bonus to the retainer's Morale threshold.
 
+## Sailing
+
+Sea travel usually involves an individually owned vessel or a charter. Scheduled services are rarely available. Passengers must make inquiries at harborside, and pay for passage on a ship heading to their intended destination, or perhaps to some port along the way.
+
+For game purposes, most trade occurs between important ports, separated by one week of sailing time. Ships typically spend one week in port off-loading and on-loading cargo, finding passengers, and perhaps engaging in a little recreation. Sailing to an intended destination is called a voyage, and each trip to a port on the way is called a leg. A voyage may have only one leg, or it may have several.
+
+**Passengers**: While cargo is another matter entirely, there are two types of passengers: deck passengers and cabin passengers.
+
+_Deck passengers_ pay a 20d. fee per leg to sleep on the deck with the rest of the crew. They provide their own food, or buy it from the crew. The wealthy can travel as _cabin passengers_ for 200d. per leg, and take a cabin. Most ships have one or perhaps two cabins, for the captain and the windcaster. Larger ships may have additional cabins for the owner and their family to use if aboard, and cabin passengers usually use these extra cabins for their accommodation. They also must provide their own food. _Working passage_ can be secured if the captain has a crew shortage; instead of paying wages, the captain provides passage. This usually does not continue for more than three legs of a voyage, or the individual is considered to be hired for standard salary.
+
+**Ship Crew**: A merchant ship will have both an owner and a captain (who may or may not be the same person), a steersman, navigator, merchants on board, sailors, and rowers. Many positions can be taken by the same person.
+
+**Navigation**: Compasses and astrolabes help sailors find their way, but advanced tools like sextants do not exist. Navigators try to keep the coast in sight at all times, looking out for landmarks along the route. At night, the ship pulls up on a beach or into a bay where it can shelter for the night, the crew camping on the beach. When storms threaten, ships likewise head for the safety of land. Some of the larger ports have lighthouses, guiding ships toward them rather than warning of dangerous reefs. Crossing the deep sea is a dangerous thing – here be monsters, and the tales are all true.
+
+Once a ship has left port, it will be at sea for usually a week. The navigator makes a roll to successfully chart a safe course for the vessel, creating a dice result that the helmsman may have to then overcome with his pilot skill.
+
+Navigator’s Result: 6 + 1d6 – navigator skill (1 if skilled, 2 if expert).
+
+Next, the referee rolls 1d6 for that leg of the journey to determine any potential hazard. If a hazard occurs, the helmsman must avoid the hazard by rolling equal to or over the navigator’s result on 2d6. He may add his piloting skill as a positive modifier (1 if skilled, 2 if expert).
+
+_Potential Hazards_
+| Die | Type of Hazard |
+|:---:|----------------|
+| 1 | **Reef**. Roll for damage +1.|
+| 2 | **Prone to Storm**. Roll for damage. Immediate landfall.|
+| 3 | **Sandbank**. Roll for damage.|
+| 4 | **Prone to Squall**. Roll for damage -1. |
+| 5-6 | No hazard.|
+
+**Encounters at Sea**: During the ship’s time at sea, it may encounter another ship or perhaps wreckage. The referee rolls at least once once per week, with the rolled encounter occurring during a point in the journey decided by the referee. If a dash is shown, then no encounter occurs. The encounter may be routine, or it may involve interaction, or even combat.
+
+_Coastal Encounters_
+| Dice | Encounter |
+|:---:|-----------|
+| 2 | Vessel in trouble|
+| 3| Pirate/marauder ship|
+| 4 | Wreckage |
+| 5 | Vessel with secret |
+| 6 | Merchant ship |
+| 7-8 | -- |
+| 9 | Military patrol |
+| 10 | Royal courier ship |
+| 11 | Familiar vessel |
+| 12 | Monster |
+
+_Deep Sea Encounters_
+| Dice | Encounter |
+|:---:|-----------|
+| 2 | Vessel in trouble|
+| 3| Merchant ship|
+| 4 | Wreckage |
+| 5 | Pirate/marauder ship |
+| 6 | Monster |
+| 7-8 | -- |
+| 9 | Monster |
+| 10 | Pirate/marauder ship |
+| 11 | Merchant ship |
+| 12 | Military patrol |
+
+### Maritime Trade
+
+Usually ¼ of the profits of a given voyage go to the captain, from which he pays the crew and any outstanding expenses. The rest goes to the owner and any partners he may have. Many merchant captains own their own ship.
+
+#### Ship Expenses
+
+Some basic running costs:
+
+1.  **Supplies**: Food and water for each crewman, costing 4d./week.
+    Passengers bring their own supplies.
+2.  **Wages**: Crew wages are paid every four weeks, typically at a
+    port.
+
+| Position    | Monthly Pay |
+| ----------- | ----------- |
+| Captain     | 250d.       |
+| Navigator   | 175d.       |
+| Helmsman    | 150d.       |
+| Windcaster  | 100d.       |
+| Senior Crew | 60d.        |
+| Crew        | 40d.        |
+
+3.  **Cargo Handling**: Ports charge every ship a fee for taking up
+    space on the quayside, and for unloading cargos. The cost is usually
+    4d./week. Merchant ships who shift their own cargo pay half this
+    fee.
+4.  **Repairs**: Each ship strength point repaired takes one week and
+    costs 20d. in materials.
+5.  **Taxes**: Vary, but usually 2% of the flat cost of cargo or trade
+    goods. A captain does not pay the tax on a contracted cargo, the
+    recipient awaiting delivery does that.
+
+#### Revenue
+
+Ships generate revenue transporting cargo and passengers from one port
+to another. The captain must inquire at the port for a week to determine
+availability. Roll once for each column a maximum of once per week. The
+cargo/passengers will be heading for the ship’s next destination (which
+must be stated beforehand).
+
+| Type of Port | Deck Passengers | Cabin Passengers | Contracted Cargoes |
+| ------------ | --------------- | ---------------- | ------------------ |
+| Minor        | 1d6-1           | 1d6-5            | 1d6-3              |
+| Medium       | 2d6-1d6         | 1d6-3            | 1d6-1              |
+| Major        | 3d6-1d6         | 1d6-1            | 1d6+2              |
+
+**Cargo**: The captain chooses either a small (1d6 ton), medium (1d6x5
+ton) or large (2d6x10 ton) cargo, as fits the size of his ship. The
+payment for shipping this cargo is received at the destination, at the
+rate of 50d. per ton. Any losses must be made up by the captain/owner,
+and the recipient at the destination unloads the cargo and pays the tax.
+Most cargos will be low cost high bulk, such as grain or wool, oil or
+timber. Contractors usually prefer to use well-known and reliable
+vessels to transport more costly items.
+
+**Passengers**: Cabin passengers pay well (200d. per leg) but require a
+cabin for their journey. They are the captain’s guests and eat with him.
+Deck passengers camp out on deck and bring along or buy their own food,
+paying 20d. per leg.
+
+**Private Messages:** Ship crews are routinely approached by civilians
+to carry private messages, sometimes verbally, but more often in the
+form of a letter. These messages will need delivering to an actual
+address or location at the destination port. On a 9 or higher on a 2d6
+roll, a crew member will be approached in this way. Small payment may be
+offered, from 5d. to 25d. Rendering such service is a good way to make
+friends and contacts, and perhaps find patrons.
+
+**Speculative Trade Goods**: A designated crew member, usually a
+merchant, can buy a cargo in hope of selling it for profit somewhere
+else. It requires some money up front, and of course success (and
+therefore profit) is not guaranteed.
+
+### Ships
+
+**Sailing Ships** (_knarr_): Tubby merchantmen who stow their cargo
+directly on the keel and ship’s frame. There’s a deck, used by the crew
+for working and cooking and sleeping. A large hatch allows cargo to be
+lowered down below deck. There are a pair of steering oars at the stern,
+and larger vessels have one or more cabins below the stern deck as a
+refuge for the captain, owner, windcaster, and perhaps a passenger. Each
+has a mast, maybe two.
+
+**Merchant Galleys** (_dromond_): Long and narrow, fast and
+maneuverable. Sometimes used as warships. Helmsmen of merchant galleys
+receive a +1 bonus to their skill rolls. The galley is rowed, with
+benches down either side and a gangway for movement. There is no ‘below
+decks;’ cargo is stacked up in the bow, at the stern, and tied against
+the single mast. The advantage of the galley is its ability to row
+through calm weather. Galleys have rams and can attempt to sink opposing
+ships.
+
+**Coastal Trader** (_karve_): With low sides and a flat bottom, this
+ship is ideal for coastal work and travel up rivers. It has a single
+mast forward, with a square sail and a hatch for cargo. Additional cargo
+can be tied down to the deck.
+
+**War Galleys **(_longship_): War galleys are used for royal courier
+duties, patrolling, transport of important officials, and for battle.
+They have rams at the bow, and raised platforms fore and aft from which
+marines can shoot at opposing ships. Artillery pieces are fitted as
+standard, and the crews are trained to fight. Most include cabins.
+
+| Ship Type              | Passengers (cabin/deck) | Capacity (tons) | Crew                               | Strength | Cost      |
+| ---------------------- | ----------------------- | --------------- | ---------------------------------- | -------- | --------- |
+| Sailing ship, small    | 0/2                     | 70              | 8 sailors                          | 4        | 8,000d.   |
+| Sailing ship, large    | 1/5                     | 250             | 12 sailors                         | 5        | 20,000d.  |
+| Sailing ship, great    | 3/10                    | 500             | 24 sailors                         | 6        | 30,000d.  |
+| Coastal trader, small  | 0/2                     | 30              | 6 sailors                          | 3        | 4,000d.   |
+| Coastal trader, large  | 0/4                     | 50              | 10 sailors                         | 4        | 6,000d.   |
+| Merchant galley, small | 0/4                     | 10              | 4 sailors, 20 rowers               | 3        | 10,000d.  |
+| Merchant galley, large | 1/8                     | 30              | 4 sailors, 50 rowers               | 4        | 30,000d.  |
+| War galley, large      | 2/15\*                  | 40              | 10 sailors, 144 rowers, 15 marines | 4        | 40,000d.  |
+| War galley, great      | 4/40\*                  | 60              | 20 sailors, 270 rowers, 40 marines | 5        | 60,000d.  |
+| War galley, colossal   | 6/60\*                  | 100             | 30 sailors, 572 rowers, 60 marines | 6        | 100,000d. |
+
+\* usually the shipboard marines
+
+### Naval Combat
+
+When ships encounter one another, they may end up in a confrontation
+depending on the situation. This ruleset assumes two sides, with each
+comprised of one or more vessels.
+
+#### Damage and Repair
+
+All ships have a hull strength rating. When a vessel is in danger of
+suffering damage, either from a reef, sandbank, squall, storm, shipboard
+artillery, or monster of the deep, roll 1d6. If the result is equal to
+or greater than the ship’s hull strength, lower ship strength by 1. When
+a ship only has a strength of 2, it’s taking on water, or has damaged
+rigging or sails, and now travels at ½ normal movement. When a ship’s
+strength is reduced to 0, it founders at sea and is lost, taking 2d6
+turns to sink. If half the crew works to save the vessel, it might (50%
+chance) avoid this fate. This takes 1d6 turns and cannot be done if
+under attack. All crew and passengers able to jump clear must roll a
+Strength saving throw and hit or beat their AC to find debris which will
+help them make it to shore. On a failure, usual [swimming rules](##swimming) apply.
+Note that wearing medium or heavy armor will cause one to sink and begin
+to drown immediately on a failed roll.
+
+Hull strength can be repaired, though it requires a full week while the
+ship is brought ashore. It costs 100d. of spare parts, plus timbers
+felled from shore, to bring hull strength to full. The crew cannot carry
+out any more repairs until those spare parts are replaced at a port.
+
+**Fire**: When a vessel is struck by a flaming missile (or suffers an
+incendiary mishap), the referee rolls 2d6. On a 5 or higher, the ship
+catches fire with no immediate effect. Every turn after, he rolls again,
+and each roll of 5+ results in lowering the vessel’s hull strength by 1.
+The crew can try to put out the fire, but it gets more difficult each
+turn: on a 2d6, roll 7+ before the first fire damage roll, 8+ before the
+second fire damage roll, etc. until the ship sinks or the fire is
+extinguished. The difficulty is modified by -1 if all sailors are trying
+to put it out, -2 if it’s a galley and has stopped to allow large
+numbers of rowers to help, and -1 if marines are trying to put it out.
+
+**Pursuit & Evasion**: To track the distance between ships (or forces if
+each side has allies), a range band is used with counters representing
+the two ships moving forwards and backwards along the range band. Range
+band correspond to certain real-life ranges measured in yards:
+
+- Short: 0 bands – 1-5 yards
+- Medium: 1-2 bands – 6-50 yards
+- Long: 3-5 bands – 51-250 yards
+- Very Long: 6-10 bands – 251-500 yards
+- Distant: 11+ bands – 500+ yards
+
+**Encounter Distance**: Under usual circumstances, combatants see each
+other at Distant range (1d6+10 range bands). If the ships are ever
+separated by 20 range bands or more, then contact between them is lost.
+
+**Time Unit**: Each turn of pursuit, evasion, or combat takes 1 minute.
+This is a ship turn.
+
+**Favorable Winds**: One or other of the ships will have the winds in
+their favor. A ship lying in ambush around a headland will always begin
+combat with favorable winds; otherwise, each ship rolls a contested 1d6
+at the start of each turn to determine who has the favorable wind.
+
+**Movement**: A ship will move a variable number of range bands
+depending on whether the wind is favorable to it, or unfavorable. In
+addition, a successful Hard (14+) navigation check increases speed by 1
+range band that turn. Galleys can ignore an unfavorable wind by lowering
+the sails and rowing; oars will move galleys at 2 range bands per turn.
+
+#### Into Combat
+
+**Personal weaponry**: At Long range or shorter, missile combat can
+begin between the crews of the two ships. Long range applies a -8
+modifier to hit, Medium range applies a -4 modifier.
+
+**Artillery**: Artillery weapons are ship-mounted weapons designed to
+destroy sails, masts, and rigging, and to smash hull planking to sink
+the enemy ship. Large ships may carry 1 artillery piece, great ships may
+carry 2, and colossal ships may carry 4.
+
+- Catapults (600kg, 4 crew, 600d., 1 attack per turn) have an arm under
+  tension, flinging its stone or incendiary missile in a high arc. Roll
+  2d6 and hit 8+, -4 at Very Long range, -2 at Medium range. Cannot fire
+  at Short range.
+- Ballista (200 stone wgt., 3 crew, 1000d., 2 attacks per turn) is a
+  high-tension metal-framed crossbow throwing spherical stones or
+  grappling hooks (up to Medium range). Roll 2d6 and hit 8+, -4 at Very
+  Long range, -2 at Long range. Cannot fire at Short range.
+
+**Ramming**: Getting into Short range is not enough, the captain must
+also roll 8+ on 2d6. Success indicates a ram attack, with a 1d6+2 test
+vs. the opponent’s hull strength. If the test is successful, the
+target’s hull strength lowers immediately to 0, and the two ships are
+locked together. Failure indicates a mild collision, with the boats
+pushing past one another. To ‘unhook,’ a ramming galley can back-oar
+with a roll of 7+, and pull away from a target vessel, allowing it to
+sink.
+
+**Oar-Shearing**: Rather than ram their ship into another, some captains
+prefer to shear oars, smashing through the oars of opposing ships to
+immobilize them. Once in Short range, the ship’s pilot must make a 9+
+roll on 2d6. A success disables any oar-powered craft until it can raise
+its mast (typically taking all available sailors 1d6+6 ship turns).
+
+**Grappling**: If an aggressor does not ram, it can choose to grapple
+with ropes and hooks, in an attempt to pull it closer for boarding. This
+requires a successful roll of 6+ on 2d6. If the roll fails, the
+defending ship may attempt to open range and flee if desired. The
+defending ship can also cut the ropes, and will be successful on an 8+
+roll on 2d6.
+
+**Boarding**: A ship that has rammed another (successfully or
+unsuccessfully) or that has pulled its target closer with grappling
+hooks can send across a boarding party. Likewise, a ship that has been
+rammed or grappled can send out fighting men to defend itself. Anyone
+attacking from a ship that has rammed gets a single combat round of
+surprise. When hand-to-hand combat is initiated, the ship turn is
+dropped in favor of usual combat rounds.
+
+**Using Fire**: Incendiaries can be shot from catapults, and each
+catapult is capable of firing incendiaries up to three times in a single
+battle.
+
 ## Strongholds & Domains
 
 Strongholds and domains are as in OSE Advanced, with clarifications and detailed procedures as in [ACKS](https://alexmooney.github.io/ACKS_SRD/Chapter07.html#strongholds-and-domains).
