@@ -1115,16 +1115,6 @@ Some basic running costs:
     Passengers bring their own supplies.
 2.  **Wages**: Crew wages are paid every four weeks, typically at a
     port.
-
-| Position    | Monthly Pay |
-| ----------- | ----------- |
-| Captain     | 250d.       |
-| Navigator   | 175d.       |
-| Helmsman    | 150d.       |
-| Windcaster  | 100d.       |
-| Senior Crew | 60d.        |
-| Crew        | 40d.        |
-
 3.  **Cargo Handling**: Ports charge every ship a fee for taking up
     space on the quayside, and for unloading cargos. The cost is usually
     4d./week. Merchant ships who shift their own cargo pay half this
@@ -1134,6 +1124,15 @@ Some basic running costs:
 5.  **Taxes**: Vary, but usually 2% of the flat cost of cargo or trade
     goods. A captain does not pay the tax on a contracted cargo, the
     recipient awaiting delivery does that.
+
+| Position    | Monthly Pay |
+| ----------- | ----------- |
+| Captain     | 250d.       |
+| Navigator   | 175d.       |
+| Helmsman    | 150d.       |
+| Windcaster  | 100d.       |
+| Senior Crew | 60d.        |
+| Crew        | 40d.        |
 
 #### Revenue
 
