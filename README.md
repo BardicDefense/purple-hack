@@ -1067,44 +1067,41 @@ Navigator’s Result: 6 + 1d6 – navigator skill (1 if skilled, 2 if expert).
 
 Next, the referee rolls 1d6 for that leg of the journey to determine any potential hazard. If a hazard occurs, the helmsman must avoid the hazard by rolling equal to or over the navigator’s result on 2d6. He may add his piloting skill as a positive modifier (1 if skilled, 2 if expert).
 
-_Potential Hazards_
-| Die | Type of Hazard |
-|:---:|----------------|
-| 1 | **Reef**. Roll for damage +1.|
-| 2 | **Prone to Storm**. Roll for damage. Immediate landfall.|
-| 3 | **Sandbank**. Roll for damage.|
-| 4 | **Prone to Squall**. Roll for damage -1. |
-| 5-6 | No hazard.|
+| Die | Type of Hazard                                           |
+| :-: | -------------------------------------------------------- |
+|  1  | **Reef**. Roll for damage +1.                            |
+|  2  | **Prone to Storm**. Roll for damage. Immediate landfall. |
+|  3  | **Sandbank**. Roll for damage.                           |
+|  4  | **Prone to Squall**. Roll for damage -1.                 |
+| 5-6 | No hazard.                                               |
 
 **Encounters at Sea**: During the ship’s time at sea, it may encounter another ship or perhaps wreckage. The referee rolls at least once once per week, with the rolled encounter occurring during a point in the journey decided by the referee. If a dash is shown, then no encounter occurs. The encounter may be routine, or it may involve interaction, or even combat.
 
-_Coastal Encounters_
-| Dice | Encounter |
-|:---:|-----------|
-| 2 | Vessel in trouble|
-| 3| Pirate/marauder ship|
-| 4 | Wreckage |
-| 5 | Vessel with secret |
-| 6 | Merchant ship |
-| 7-8 | -- |
-| 9 | Military patrol |
-| 10 | Royal courier ship |
-| 11 | Familiar vessel |
-| 12 | Monster |
+| Dice | Coastal Encounters   |
+| :--: | -------------------- |
+|  2   | Vessel in trouble    |
+|  3   | Pirate/marauder ship |
+|  4   | Wreckage             |
+|  5   | Vessel with secret   |
+|  6   | Merchant ship        |
+| 7-8  | --                   |
+|  9   | Military patrol      |
+|  10  | Royal courier ship   |
+|  11  | Familiar vessel      |
+|  12  | Monster              |
 
-_Deep Sea Encounters_
-| Dice | Encounter |
-|:---:|-----------|
-| 2 | Vessel in trouble|
-| 3| Merchant ship|
-| 4 | Wreckage |
-| 5 | Pirate/marauder ship |
-| 6 | Monster |
-| 7-8 | -- |
-| 9 | Monster |
-| 10 | Pirate/marauder ship |
-| 11 | Merchant ship |
-| 12 | Military patrol |
+| Dice | Deep Sea Encounters  |
+| :--: | -------------------- |
+|  2   | Vessel in trouble    |
+|  3   | Merchant ship        |
+|  4   | Wreckage             |
+|  5   | Pirate/marauder ship |
+|  6   | Monster              |
+| 7-8  | --                   |
+|  9   | Monster              |
+|  10  | Pirate/marauder ship |
+|  11  | Merchant ship        |
+|  12  | Military patrol      |
 
 ### Maritime Trade
 
