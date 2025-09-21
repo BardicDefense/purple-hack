@@ -1177,7 +1177,7 @@ therefore profit) is not guaranteed.
 
 ### Ships
 
-**Sailing Ships** (_knarr_): Tubby merchantmen who stow their cargo
+**Sailing Ships** (_knarr_): Tubby merchantmen (50'-70' long, 10'-15' wide) who stow their cargo
 directly on the keel and ship’s frame. There’s a deck, used by the crew
 for working and cooking and sleeping. A large hatch allows cargo to be
 lowered down below deck. There are a pair of steering oars at the stern,
@@ -1185,7 +1185,7 @@ and larger vessels have one or more cabins below the stern deck as a
 refuge for the captain, owner, windcaster, and perhaps a passenger. Each
 has a mast, maybe two.
 
-**Merchant Galleys** (_dromond_): Long and narrow, fast and
+**Merchant Galleys** (_dromond_): Long (90'-130') and narrow (20'-30'), fast and
 maneuverable. Sometimes used as warships. Helmsmen of merchant galleys
 receive a +1 bonus to their skill rolls. The galley is rowed, with
 benches down either side and a gangway for movement. There is no ‘below
@@ -1195,30 +1195,31 @@ through calm weather. Galleys have rams and can attempt to sink opposing
 ships.
 
 **Coastal Trader** (_karve_): With low sides and a flat bottom, this
-ship is ideal for coastal work and travel up rivers. It has a single
+ship (30'-50' long, 10'-15' wide) is ideal for coastal work and travel up rivers. It has a single
 mast forward, with a square sail and a hatch for cargo. Additional cargo
 can be tied down to the deck.
 
-**War Galleys** (_longship_): War galleys are used for royal courier
+**War Galleys** (_longship_): Long (70'-100') and narrow (10'-15' wide) war galleys are used for royal courier
 duties, patrolling, transport of important officials, and for battle.
 They have rams at the bow, and raised platforms fore and aft from which
 marines can shoot at opposing ships. Artillery pieces are fitted as
 standard, and the crews are trained to fight. Most include cabins.
 
-| Ship Type              | Passengers (cabin/deck) | Capacity (tons) | Crew                               | Strength | Cost      |
-| ---------------------- | ----------------------- | --------------- | ---------------------------------- | -------- | --------- |
-| Sailing ship, small    | 0/2                     | 70              | 8 sailors                          | 4        | 8,000d.   |
-| Sailing ship, large    | 1/5                     | 250             | 12 sailors                         | 5        | 20,000d.  |
-| Sailing ship, great    | 3/10                    | 500             | 24 sailors                         | 6        | 30,000d.  |
-| Coastal trader, small  | 0/2                     | 30              | 6 sailors                          | 3        | 4,000d.   |
-| Coastal trader, large  | 0/4                     | 50              | 10 sailors                         | 4        | 6,000d.   |
-| Merchant galley, small | 0/4                     | 10              | 4 sailors, 20 rowers               | 3        | 10,000d.  |
-| Merchant galley, large | 1/8                     | 30              | 4 sailors, 50 rowers               | 4        | 30,000d.  |
-| War galley, large      | 2/15\*                  | 40              | 10 sailors, 144 rowers, 15 marines | 4        | 40,000d.  |
-| War galley, great      | 4/40\*                  | 60              | 20 sailors, 270 rowers, 40 marines | 5        | 60,000d.  |
-| War galley, colossal   | 6/60\*                  | 100             | 30 sailors, 572 rowers, 60 marines | 6        | 100,000d. |
+| Ship Type              | Passengers (cabin/deck) | Capacity (cwt\*) | Crew                               | Strength | Cost      |
+| ---------------------- | ----------------------- | ---------------- | ---------------------------------- | -------- | --------- |
+| Sailing ship, small    | 0/2                     | 70               | 8 sailors                          | 4        | 8,000d.   |
+| Sailing ship, large    | 1/5                     | 250              | 12 sailors                         | 5        | 20,000d.  |
+| Sailing ship, great    | 3/10                    | 500              | 24 sailors                         | 6        | 30,000d.  |
+| Coastal trader, small  | 0/2                     | 10               | 6 sailors                          | 3        | 4,000d.   |
+| Coastal trader, large  | 0/4                     | 20               | 10 sailors                         | 4        | 6,000d.   |
+| Merchant galley, small | 0/4                     | 100              | 4 sailors, 20 rowers               | 3        | 10,000d.  |
+| Merchant galley, large | 1/8                     | 300              | 4 sailors, 50 rowers               | 4        | 30,000d.  |
+| War galley, large      | 2/15\*\*                | 4                | 10 sailors, 144 rowers, 15 marines | 4        | 40,000d.  |
+| War galley, great      | 4/40\*\*                | 6                | 20 sailors, 270 rowers, 40 marines | 5        | 60,000d.  |
+| War galley, colossal   | 6/60\*\*                | 10               | 30 sailors, 572 rowers, 60 marines | 6        | 100,000d. |
 
-\* usually the shipboard marines
+\* A hundredweight (cwt) for shipping purposes is equal to 10 stone (i.e. 10 slots)
+\*\* usually the shipboard marines
 
 ### Naval Combat
 
