@@ -1142,11 +1142,11 @@ availability. Roll once for each column a maximum of once per week. The
 cargo/passengers will be heading for the ship’s next destination (which
 must be stated beforehand).
 
-| Type of Port | Deck Passengers | Cabin Passengers | Contracted Cargoes |
-| ------------ | --------------- | ---------------- | ------------------ |
-| Minor        | 1d6-1           | 1d6-5            | 1d6-3              |
-| Medium       | 2d6-1d6         | 1d6-3            | 1d6-1              |
-| Major        | 3d6-1d6         | 1d6-1            | 1d6+2              |
+| Type of Port        | Deck Passengers | Cabin Passengers | Contracted Cargoes |
+| ------------------- | --------------- | ---------------- | ------------------ |
+| Minor (V and below) | 1d6-1           | 1d6-5            | 1d6-3              |
+| Medium (III-IV)     | 2d6-1d6         | 1d6-3            | 1d6-1              |
+| Major (I-II)        | 3d6-1d6         | 1d6-1            | 1d6+2              |
 
 **Cargo**: The captain chooses either a small (1d6 ton), medium (1d6x5
 ton) or large (2d6x10 ton) cargo, as fits the size of his ship. The
@@ -1342,6 +1342,38 @@ dropped in favor of usual combat rounds.
 **Using Fire**: Incendiaries can be shot from catapults, and each
 catapult is capable of firing incendiaries up to three times in a single
 battle.
+
+## Speculative Trade
+
+Characters can engage in speculative trade from one settlement to another. Profits are far from guaranteed, however, and getting cargo safely to its destination can be its own source of adventure.
+
+Each major settlement will have categories of goods in surplus that it exports (and which thus are bought and sold for a price lower than average) and goods in demand that it imports (and which are thus bought and sold for a price higher than average).
+
+Local prices are determined by a 2d10 roll, and compared to the following table, adding 10% to the resulting modifier if the goods are in demand, and subtracting 10% if the goods are in surplus, before applying the final modifier to the goods' base price. The rolled price modifier represents the characters' best attempts to negotiate a deal, and are good for one week before being re-rolled.
+
+| 2d10 | Price Modifier |
+| :--: | :------------: |
+|  2   |      -9%       |
+|  3   |      -8%       |
+|  4   |      -7%       |
+|  5   |      -6%       |
+|  6   |      -5%       |
+|  7   |      -4%       |
+|  8   |      -3%       |
+|  9   |      -2%       |
+|  10  |      -1%       |
+|  11  |       0%       |
+|  12  |      +1%       |
+|  13  |      +2%       |
+|  14  |      +3%       |
+|  15  |      +4%       |
+|  16  |      +5%       |
+|  17  |      +6%       |
+|  18  |      +7%       |
+|  19  |      +8%       |
+|  20  |      +9%       |
+
+Player characters may purchase bulk goods by hundredweight (cwt, where 1 hundredweight is 10 slots) up to their carrying capacity (or the carrying capacity of any pack animals, carts or wagons, or ships they may own).
 
 ## Strongholds & Domains
 
