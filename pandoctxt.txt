@@ -1,0 +1,2 @@
+pandoc README.md -o output.pdf --pdf-engine=xelatex -V mainfont="IM
+FELL Great Primer" -V geometry:margin=1in -V column=2 -V documentclass=article -V twocolumn
