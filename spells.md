@@ -798,7 +798,7 @@ This spell enables the caster to concentrate upon a familiar locale, no matter h
 #### Confusion
 
 _Enchantment (R: Medium, D: 10 minutes)_  
-Save: Hard (Will). This spell causes creatures to behave unpredictably. It affects 1d6 HD worth of enemy creatures per caster level (up to 15d6). Roll 1d6 to determine the affected group’s actions each round: 1-2 act normally, 3-4 do nothing, 5-6 attack friends. Only creatures with 8 HD or less are affected; creatures with the fewest HD are affected first.
+Save: Hard (Will). AoE: 30-ft radius/12 x 12. This spell causes creatures to behave unpredictably. It affects 1d6 HD worth of enemy creatures per caster level (up to 15d6). Roll 1d6 to determine the affected group’s actions each round: 1-2 act normally, 3-4 do nothing, 5-6 attack friends. Only creatures with 8 HD or less are affected; creatures with the fewest HD are affected first.
 
 #### Destroy Undead
 
