@@ -31,7 +31,6 @@ Some highlights:
   - [Equipment Wear & Tear](#equipment-wear--tear)
   - [Experience & Leveling](#experience--leveling)
   - [Fatigue](#fatigue)
-  - [Food](#food)
   - [Item Saving Throws](#item-saving-throws)
   - [Light & Vision](#light--vision)
   - [Lockpicking](#lockpicking)
@@ -767,77 +766,9 @@ Per positive Con modifier point, a character can ignore 30 seconds without air, 
 
 If total exposure to a cause of fatigue is avoided (e.g. a bit of water drank, a fitful nap here or there), the current fatigue level increment is doubled.
 
-## Food
-
-Food is necessary for survival! You can purchase it in settlements or hunt up your own; if not eaten, it will eventually spoil. One pound of food = a Small item (1/4 slot).
-
-### Food Consumption
-
-Food consumption is divided into 12-hour periods ("1/2 days"); if you engage in combat in the morning, while resting in the evening, the amount of food required is different for each 1/2 day period.
-
-- **Combat**: 3lbs of food per 1/2 day. Strenuous work, requiring all your doggedness, while incorporating stress, cuts, bruises, torn ligaments, and a lot of food to refuel.
-- **Labor**: 2lbs of food per 1/2 day. Any steady activity, like travelling, manual labor, repairs, training, etc. Includes any combat in which no damage was taken.
-- **Resting**: 1lb of food per 1/2 day. Minimum physical activity, like healing, casual reading, shopping, etc.
-
-### Food Quality
-
-There are three general types of food:
-
-- **Durable**: Includes preserved meats, dried fruit, biscuits, root vegetables, and beverages such as beer, wine, and distilled drinks.
-- **Fresh**: Recently picked vegetables and fruits, butchered meats, prepared dishes, and the like.
-- **Delicacies**: Unusual dishes or foods that provide a complex dining experience, like caviar, suckling pig, unusual distilled spirits, wines, and some prepared desserts.
-
-Spices are expensive, but they make the food taste better! Spice (sensibly used) will make Fresh food into a Delicacy. Spices degrade one stage each use (see [item degradation](#equipment-wear---tear)).
-
-### Food Preparation
-
-There are five "standards" of preparing food:
-
-- **Cold Camp**: Eating outdoors, without a fire or cooking, with raw or minimally processed ingredients.
-- **Campfire**: Gains the benefits of cooking over an open fire, but without much more than a rock or a board and a frying pan.
-- **Scullery**: The simple kitchen of a home cottage, stocked with the basic necessities.
-- **Guestkitchen**: A kitchen designed for multiple expert cooks to serve multiple meals at once, stocked with anything needed for most ordinary meals.
-- **Noble's Kitchen**: A kitchen for producing food for hundreds at a time, where no expense is spared, and no dish cannot be created.
-
-### Food sensation
-
-Combine the quality of the food with its cooking standard to arrive at the sensation felt by those eating it. A food's goodness counts according to the best 1/4 of its ingredients' mass. For example, if a character needed to eat 3 pounds of food after a combat-filled afternoon, and combined 2 pounds of Durable food with 1 pound of Fresh food, the meal would count as "Fresh."
-
-| Cooking Standard | Durables  | Fresh Foods | Delicacies |
-| ---------------- | --------- | ----------- | ---------- |
-| Cold camp        | grub      | nosh        | tasty      |
-| Campfire         | grub      | tasty       | delicious  |
-| Scullery         | nosh      | tasty       | delicious  |
-| Guestkitchen     | tasty     | delicious   | piquant    |
-| Noble's Kitchen  | delicious | piquant     | piquant    |
-
-To provide a general description, **_grub_** is food you eat to get by because it keeps you alive; **_nosh_** is more agreeable (you might even scrape the plate); **_tasty_** is distinctly pleasurable and almost always calls for seconds; **_delicious_** is when silence falls as food reigns supreme, followed by the urge for the diner to share aloud the eating experience, declaring its noteworthiness; and **_piquant_** is distinct and memorable for weeks later, possibly even eaten with eyes closed at the sheer pleasure of being alive.
-
-### Effects of Eating
-
-Once the sensation is known, each imbimber of the meal must roll 3d6 to determine the effects on the character's system. The effects below take effect for the character for eight hours (or more, in some cases) after the "moning" or "evening" meal:
-
-| Sensation | 17 to 18 (~2%) | 11 to 16 (48%) | 10 (12.5%) | 9 (11.6%) | 8 (10%)   | 7 (7%)    | 6 (4.6%)  | 5 (2.8%)  | 4 (1.4%)  | 3 (.5%)   |           |
-| --------- | -------------- | -------------- | ---------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
-| grub      | no effect      | no effect      | no effect  | grumpy    | tired     | miserable | vomiting  | vomiting  | diarrhea  | diarrhea  | grub      |
-| nosh      | no effect      | no effect      | no effect  | no effect | no effect | grumpy    | tired     | miserable | vomiting  | diarrhea  | nosh      |
-| tasty     | no effect      | no effect      | no effect  | no effect | no effect | no effect | no effect | grumpy    | tired     | miserable | tasty     |
-| delicious | sated          | no effect      | no effect  | no effect | no effect | no effect | no effect | no effect | no effect | grumpy    | delicious |
-| piquant   | happy          | sated          | sated      | sated     | no effect | no effect | no effect | no effect | no effect | no effect | piquant   |
-
-The character:
-
-- **Diarrhea**: Acquires mild, acute food poisoning, resulting in -3 penalties to Strength and Constitution checks and saves, pain, and forced bed rest for 4 hours, after which they can move normally. The initial loss of 3 Str/Con improves to -2 after four hours, and -1 after 8 hours, until a full 24 hours has passed (the character will have no appetite for the following meal).
-- **Grumpy**: Feels disturbed and unsatisfied by the meal, suffering a -1 penalty to Willpower checks for 6 hours.
-- **Happy**: Is in such good spirits they gain a +1 save bonus for 24 hours and automatically heal 1hp.
-- **Miserable**: Is bad-tempered and moody due to the meal rumbling in their stomach unpleasantly, suffering a -1 penalty to all checks for 8 hours.
-- **Sated**: Feels wonderfully stuffed and pleasant. Any healing done that day through rest receives a +1hp bonus per level of the character, and the character receives a +1 bonus to Perception checks for 8 hours.
-- **Tired**: Feels dull and sluggish, making it difficult to feel enthusiasm or think properly, suffering a -1 penalty to Arcana checks for 8 hours.
-- **Vomiting**: Digestively disagrees with the meal, throwing it up between 2-5 hours after eating, bringing a -1 penalty to Strength and Constitution checks and saves for 1-4 hours afterwards, whereupon the character is fully restored.
-
 ## Healing
 
-A character will recover 1 HP by resting overnight in a safe and comfortable location, and HP equal to their level per day of uninterrupted rest. Even while adventuring, a character might get a comfortable night's rest (see [Wilderness Exploration > Rest Checks](#rest-checks) and naturally heal 1 HP. 30 days of rest will return any character to full HP.
+A character will recover 1 HP by resting overnight in a safe and comfortable location, assuming a meal of poor quality has been eaten. A character who dines on common food will recover 2 HP overnight, and a character who dines on fancy food will recover 3 HP overnight. A character will heal HP equal to their level per day of uninterrupted rest. Even while adventuring, a character might get a comfortable night's rest (see [Wilderness Exploration > Rest Checks](#rest-checks) and naturally heal HP. 30 days of rest will return any character to full HP.
 
 ## Item Saving Throws
 
@@ -1106,19 +1037,19 @@ Usually ¼ of the profits of a given voyage go to the captain, from which he pay
 
 Some basic running costs:
 
-1.  **Supplies**: Food and water for each crewman, costing 4d./week.
-    Passengers bring their own supplies.
-2.  **Wages**: Crew wages are paid every four weeks, typically at a
-    port.
-3.  **Cargo Handling**: Ports charge every ship a fee for taking up
-    space on the quayside, and for unloading cargos. The cost is usually
-    4d./week. Merchant ships who shift their own cargo pay half this
-    fee.
-4.  **Repairs**: Each ship strength point repaired takes one week and
-    costs 20d. in materials.
-5.  **Taxes**: Vary, but usually 2% of the flat cost of cargo or trade
-    goods. A captain does not pay the tax on a contracted cargo, the
-    recipient awaiting delivery does that.
+1. **Supplies**: Food and water for each crewman, costing 4d./week.
+   Passengers bring their own supplies.
+2. **Wages**: Crew wages are paid every four weeks, typically at a
+   port.
+3. **Cargo Handling**: Ports charge every ship a fee for taking up
+   space on the quayside, and for unloading cargos. The cost is usually
+   4d./week. Merchant ships who shift their own cargo pay half this
+   fee.
+4. **Repairs**: Each ship strength point repaired takes one week and
+   costs 20d. in materials.
+5. **Taxes**: Vary, but usually 2% of the flat cost of cargo or trade
+   goods. A captain does not pay the tax on a contracted cargo, the
+   recipient awaiting delivery does that.
 
 | Position    | Monthly Pay |
 | ----------- | ----------- |
@@ -1515,17 +1446,39 @@ Searching a hex requires spending the same number of hex points that it cost to 
 
 ## Camping in the Wilds
 
+### Setting up Camp
+
+**Preparing the Campsite:** At least one character must remain at the campsite to clear away branches and rocks, set up tents and bedrolls, prepare a fire pit, and so forth.
+
+**Fetching Firewood:** Each character who goes fetching wood can collect enough to keep a campfire burning for 1d6 hours. Situational modifiers for the amount of wood found may be applied, for example: -1 for damp conditions, -2 in snow, -4 in heavy rain.
+
+### Fetching Water
+
+Finding water to drink is assumed to have happened naturally while traveling, except in an exceptionally dry environment, when it is only found on a 2-in-6 chance per hex.
+
 ### Building a Fire
 
 Given a means of producing flame (e.g. a tinderbox, magic) and a stash of wood (either gathered from the forest or carried in packs), a character may attempt to build a fire.
 
 **Good conditions:** In favorable conditions, with decent wood and a relatively dry campsite, fire-building automatically succeeds.
 
-**Bad conditions:** In more troublesome circumstances, getting a fire going requires a Moderate (8+) check, though "Dwarves can make a fire almost anywhere out of almost anything, wind or no wind" and will automatically succeed. However, the referee may reduce the chance of success to account for extreme cold or damp.
+**Bad conditions:** In more troublesome circumstances, getting a fire going requires a Daunting (11+) check, though "Dwarves can make a fire almost anywhere out of almost anything, wind or no wind" and will automatically succeed. However, the referee may reduce the chance of success to account for extreme cold or damp.
 
-### Fetching Water
+### Cooking
 
-Finding water to drink is assumed to have happened naturally while traveling, except in an exceptionally dry environment, when it is only found on a 2-in-6 chance per hex.
+Given a fire, cooking pots, and ingredients (e.g., foraged food, fresh rations, hunted game), someone may cook a meal. The cook should must make a Daunting (11+) cooking skill check. (Eating trail food does not give any bonsues to Con checks required to rest.)
+
+**If the check succeeds:** An especially tasty dish is produced. Those who eat a meal created with poor ingredients gain a +1 bonus to any Con checks required to rest, due to their plain but hearty supper. A successful meal with common ingredients will gain a +2 bonus to any Con checks required to rest and 2 HP gained overnight if successful. A successful meal with fancy ingredients will gain a +3 to any Con checks required to rest, and 3 HP healed overnight.
+
+**If the check fails:** A palatable but not exemplary dish is produced. On a natural 1, the cook must make a Daunting (11+) saving throw or produce a ruined and utterly inedible meal, wasting the ingredients used.
+
+### Camaraderie
+
+Time spent around the fireside with one's companions may lift the spirits and induce restful sleep. A character may attempt to entertain with music, song, stirring tales, jokes, and so forth. The entertainer should make a Daunting (11+) check.
+
+**If the check succeeds:** All characters gain a +1 bonus to any Con checks required to rest.
+
+**If the check fails:** The attempt to entertain falls flat. On a natural 1, the entertainer must make a Daunting (11+) saving throw or incur ridicule and discord, incurring a -1 penalty to any Con checks required to rest.
 
 ### Rest Checks
 
@@ -1539,9 +1492,9 @@ When camping in the wild, characters’ ability to get a good night’s rest is 
 | Y    | No bedding      | Auto failure   | Daunting (11+) | Moderate (8+) | Daunting (11+) |
 | Y    | Bedroll or tent | Daunting (11+) | Good rest      | Good rest     | Good rest      |
 
-**If the check succeeds:** The character gets a good night’s sleep and regains 1hp overnight.
+**If the check succeeds:** The character gets a good night’s sleep and regains 1 HP overnight.
 
-**If the check fails:** The character fails to get a good night’s sleep and suffers one level of fatigue due to lack of sleep.
+**If the check fails:** The character fails to get a good night’s sleep and suffers one level of fatigue due to lack of sleep. For each spell the character attempts to memorize, there is a 1-in-6 chance of failure. If the roll fails, the attempt to memorize fails - the spell slot remains empty and unusable this day.
 
 ## Hunting
 
