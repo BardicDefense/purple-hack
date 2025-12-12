@@ -1466,9 +1466,9 @@ Given a means of producing flame (e.g. a tinderbox, magic) and a stash of wood (
 
 ### Cooking
 
-Given a fire, cooking pots, and ingredients (e.g., foraged food, fresh rations, hunted game), someone may cook a meal. The cook should must make a Daunting (11+) cooking skill check. (Eating trail food does not give any bonuses to Con checks required to rest.)
+Given a fire, cooking pots, and ingredients (e.g., foraged food, fresh rations, hunted game), someone may cook a meal. The cook must make a Daunting (11+) cooking skill check. (Eating trail food does not give any bonuses to Con checks required to rest.)
 
-**If the check succeeds:** An especially tasty dish is produced. Those who eat a meal created with poor ingredients gain a +1 bonus to any Con checks required to rest, due to their plain but hearty supper. A successful meal with common ingredients will gain a +2 bonus to any Con checks required to rest and 2 HP gained overnight if successful. A successful meal with fancy ingredients will gain a +3 to any Con checks required to rest, and 3 HP healed overnight.
+**If the check succeeds:** An especially tasty dish is produced. All who eat the meal gain a bonus to any Con checks required to rest: +1 for meals made with poor ingredients, +2 for meals made with common ingredients, and +3 for meals made with fancy ingredients.
 
 **If the check fails:** A palatable but not exemplary dish is produced. On a natural 1, the cook must make a Daunting (11+) saving throw or produce a ruined and utterly inedible meal, wasting the ingredients used.
 
@@ -1492,7 +1492,7 @@ When camping in the wild, characters’ ability to get a good night’s rest is 
 | Y    | No bedding      | Auto failure   | Daunting (11+) | Moderate (8+) | Daunting (11+) |
 | Y    | Bedroll or tent | Daunting (11+) | Good rest      | Good rest     | Good rest      |
 
-**If the check succeeds:** The character gets a good night’s sleep and regains 1 HP overnight.
+**If the check succeeds:** The character gets a good night’s sleep and regains 1 HP overnight if they ate a poor meal or trail food, 2 HP if they ate a common meal, and 3 HP if they ate a fancy meal.
 
 **If the check fails:** The character fails to get a good night’s sleep and suffers one level of fatigue due to lack of sleep. For each spell the character attempts to memorize, there is a 1-in-6 chance of failure. If the roll fails, the attempt to memorize fails - the spell slot remains empty and unusable this day.
 
