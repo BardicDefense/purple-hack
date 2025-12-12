@@ -1466,7 +1466,7 @@ Given a means of producing flame (e.g. a tinderbox, magic) and a stash of wood (
 
 ### Cooking
 
-Given a fire, cooking pots, and ingredients (e.g., foraged food, fresh rations, hunted game), someone may cook a meal. The cook should must make a Daunting (11+) cooking skill check. (Eating trail food does not give any bonsues to Con checks required to rest.)
+Given a fire, cooking pots, and ingredients (e.g., foraged food, fresh rations, hunted game), someone may cook a meal. The cook should must make a Daunting (11+) cooking skill check. (Eating trail food does not give any bonuses to Con checks required to rest.)
 
 **If the check succeeds:** An especially tasty dish is produced. Those who eat a meal created with poor ingredients gain a +1 bonus to any Con checks required to rest, due to their plain but hearty supper. A successful meal with common ingredients will gain a +2 bonus to any Con checks required to rest and 2 HP gained overnight if successful. A successful meal with fancy ingredients will gain a +3 to any Con checks required to rest, and 3 HP healed overnight.
 
