@@ -761,16 +761,15 @@ Possession four or more levels of fatigue results in death. Fatigue levels from 
 
 A character exposed to any of the causes of fatigue below gains one fatigue level at the increments listed next to each cause (e.g. every full day without water applies one level).
 
-| Cause of Fatigue  | Fatigue Level Increments |
-| :---------------: | :----------------------: |
-| Unable to breathe |  30 seconds (3 rounds)   |
-|   Lack of water   |       Days 1/2/3/4       |
-|   Lack of sleep   |     Days 2/4/8/--\*      |
-|   Lack of food    |     Days 2/10/20/30      |
+| Cause of Fatigue | Fatigue Level Increments |
+| :--------------: | :----------------------: |
+|  Lack of water   |       Days 1/2/3/4       |
+|  Lack of sleep   |     Days 2/4/8/--\*      |
+|   Lack of food   |     Days 2/10/20/30      |
 
 \*A lack of sleep can only apply up to three fatigue levels, i.e. it cannot kill you alone.
 
-Per positive Con modifier point, a character can ignore 30 seconds without air, or one day of a lack of water, sleep, and/or food.
+Per positive Con modifier point, a character can ignore one day of a lack of water, sleep, and/or food.
 
 If total exposure to a cause of fatigue is avoided (e.g. a bit of water drank, a fitful nap here or there), the current fatigue level increment is doubled.
 
@@ -1156,7 +1155,7 @@ standard, and the crews are trained to fight. Most include cabins.
 | War galley, great      | 4/40\*\*                | 6                | 20 sailors, 270 rowers, 40 marines | 5        | 60,000d.  |
 | War galley, colossal   | 6/60\*\*                | 10               | 30 sailors, 572 rowers, 60 marines | 6        | 100,000d. |
 
-\* A hundredweight (cwt) for shipping purposes is equal to 10 stone (i.e. 10 slots)
+\* A hundredweight (cwt) for shipping purposes is equal to 10 stone (i.e. 10 slots)  
 \*\* usually the shipboard marines
 
 ### Naval Combat
@@ -1227,7 +1226,7 @@ addition, a successful Hard (14+) navigation check increases speed by 1
 range band that turn. Galleys can ignore an unfavorable wind by lowering
 the sails and rowing; oars will move galleys at 2 range bands per turn.
 
-#### Into Combat
+#### Ship Combat
 
 **Personal weaponry**: At Long range or shorter, missile combat can
 begin between the crews of the two ships. Long range applies a -8
@@ -1317,9 +1316,20 @@ Player characters may purchase bulk goods by hundredweight (cwt, where 1 hundred
 
 Strongholds and domains are as in OSE Advanced, with clarifications and detailed procedures as in [ACKS](https://alexmooney.github.io/ACKS_SRD/Chapter07.html#strongholds-and-domains).
 
+## Suffocation
+
+A character can survive for up to 1 round (10 seconds) per point of Constitution before suffocating to death. For example, a character with Constitution 12 can survive without breath for at most 2 minutes. After this time limit, the character is knocked unconscious and must make a saving throw as per the rules about [Death](#death).
+
 ## Swimming
 
-All characters can swim, barring an unusual background. Assuming no current, a land-dweller swims at half their combat speed, and can do so for hours equal to 1/4 their Con score (3/4 speed and 1/2 Con with the Swimming skill); round down. If lightly encumbered, halve the amount of time a character can swim. Higher encumbrance (or wearing medium or heavy armour) causes one to sink and begin to drown if in deep enough water (see [Fatigue](#fatigue)).
+All characters can swim, barring an unusual background. Assuming no current, a land-dweller swims at half their combat speed, and can do so for hours equal to 1/4 their Con score (3/4 speed and 1/2 Con with the Swimming skill); round down.
+
+Attempting to swim while wearing armour is extremely dangerous. Characters must make a strength check to avoid going under, modified as follows:
+
+- **Light armour** or **Speed 30 due to encumbrance**: Daunting (11+)
+- **Medium armour** or **Speed 20 due to encumbrance**: Very Hard (17+)
+- **Heavy armour** or **Speed 10 due to encumbrance**: Heroic (20+)
+- **Rough waters**: one tier harder
 
 ## Trap Detection
 
