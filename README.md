@@ -805,7 +805,11 @@ If a creature must make a saving throw and it passes, no item carried by that cr
 
 ## Jumping
 
-A long jump lets you safely clear 10 feet (20, with the Jumping skill), if you run at least 10 feet first (if not, halve the result). With a 10-foot run, a vertical high jump gives you a reach with your hands of about 5 feet (a standing high jump gives you a reach of about 3 feet). If encumbered, apply the combat speed penalty to your jump distance. In combat, a jump ends your move.
+**Long jumps**: Characters can jump across a stream, chasm, or pit of up to 5' wide with a 10' run-up--no roll is required. For longer jumps of up to 10', a Daunting (11+) Strength check is required. In combat, a jump ends your move.
+
+**High jumps**: Characters can jump over obstackles of up to 3' high with a 10' run-up--no roll is required. For higher jumps of up to 5', a Daunting (11+) Strength check is required.
+
+**Modifiers**: The difficulty level is lowered one tier if the character has the Jumping skill, raised one tier (usually to Hard (14+)) if the character is wearing Medium armour, and two tiers (usually to Very Hard (17+)) if wearing Heavy armour.
 
 ## Lifting
 
