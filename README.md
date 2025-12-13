@@ -650,6 +650,14 @@ Base climbing speed is 5' per round. Add 5' if the climber has the Climbing skil
 
 The following each raise the difficulty by one level: high winds, extreme cold, smooth surfaces, slippery surfaces, each encumbrance level. The aid of appropriate equipment--a rope and grapnel, or pitons and a hammer--will lower the difficulty.
 
+## Darkness & Blindness
+
+Wise characters carry illumination--magical or mundane--when exploring at night or underground. Typical light sources enable normal vision within a particular radius.
+
+**Low light**: In low light conditions (e.g. at night without a light source), characters suffer a -2 penalty to attack rolls and move at half speed.
+
+**Pitch darkness or blindness**: Characters in pitch darkness or blindness suffer a -4 penalty to attack rolls, armor class, and saving throws, and have Speed 10. A character with the Blindfighting skill would not suffer the penalties while in combat.
+
 ## Doors
 
 Along with puddles, the bane of adventurers' existence.
@@ -1507,11 +1515,23 @@ When camping in the wild, characters’ ability to get a good night’s rest is 
 
 **If the check fails:** The character fails to get a good night’s sleep and suffers one level of fatigue due to lack of sleep. For each spell the character attempts to memorize, there is a 1-in-6 chance of failure. If the roll fails, the attempt to memorize fails - the spell slot remains empty and unusable this day.
 
-## Hunting
+## Finding Food in the Wild
 
-In the wilderness, the party can stop and hunt for food. Hunting must be the sole activity that day (i.e. no resting or traveling), and generates a random encounter for that hex, with the party having surprise and beginning combat 1d4 x 30' away from the quarry. A successful hunt yields fresh rations based on the HP of game animals killed: 1 ration per HP for small animals, 2 rations per HP for medium, and 4 rations per HPH for large.
+When on a journey, a party may try to find food in the wilds rather than rely on rations purchased in a settlement. The party may choose to fish, forage, or hunt.
 
-Hunting is a Daunting (11+) check, though the Fieldcraft feat lowers the difficulty in favored terrain to Moderate (8+). However, some hexes may be more or less difficult, others might require a character with Fieldcraft and the matching favored terrain to hunt in at all, while still others are too barren for any hunter.
+If the party attempts to find food as they travel, the default difficulty of the check is Very Hard (17+). If the characters devote a whole day exclusively to finding food, without travel or rest, the difficulty is Daunting (11+). A single check is made for the entire party. A character with The Fieldcraft feat has an easier time finding food, and makes the check one tier easier.
+
+### Fishing
+
+Using a fishing pole, hook, and something for bait, fishing is possible in any hex which contains a lake or river. Successful fishing provides 2d6 rations.
+
+### Foraging
+
+Plants and mushrooms can be found in many hexes. Successful foraging provides 1d6 fresh rations (1d4 in winter, 1d8 in autumn). Rare and magical herbs may also turn up in the harvest.
+
+### Hunting
+
+Successful hunting means that the party has crept up on game animals, and must then attempt to kill them. The party has surprise and beginning combat 1d4 x 30' away from the quarry. A successful hunt yields fresh rations based on the HP of game animals killed: 1 ration per HP for small animals, 2 rations per HP for medium, and 4 rations per HPH for large.
 
 ## Weather
 
