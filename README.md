@@ -1568,12 +1568,15 @@ Short-term services of simple craftsmen and laborers are relatively easily procu
 | Limner                                | 2d.        | 50d.         |
 | Teamster                              | 3d.        | 72d.         |
 | Carpenter, Mason, Leatherer, Tailor   | 4d.        | 100d.        |
+| Guide                                 | 5d.        | 130d.        |
 
 **Carpenter**: Skilled in the working of wood, a carpenter might be retained to construct anything from a table to a palisade. Their expertise is also invaluable for the manufacturing of shields and similar items.
 
 **Cook**: Familiar with the preparation of various types of food, and sometimes also knows a little herblore.
 
 **Groom**: Proficient in the care of horses, an attentive groom can usually tell a good mount from a bad; also known as an ostler or stable hand.
+
+**Guide**: Knows the local landmarks within their specialist region (determined by the referee) and can lead the PCs to and from these landmarks without the risk of getting lost. If the party does get lost with a guide, there's a 4-in-6 chance that the guide is able to find the path again quickly. Guides sometimes enter dangerous regions, but they charge double for doing so.
 
 **Laborer**: Essentially unskilled, laborers are suitable for only the most menial sorts of work; this category includes bearers and porters, each of which is able to carry up to 12 slots of items, or twice that if a pole or other contrivance is utilized.
 
@@ -1671,6 +1674,7 @@ _Note: Note any increase in value as “profit” in your notes (e.g., “ring \
 | Initial Material Expenditure | 5,000d. minimum\* |
 
 _\*A 5,000d. expenditure will allow the sage to operate at 50% of normal efficiency, and for each additional 250d. thereafter, the sage will add 1% to efficiency until 90% is reached (upon expenditure of 15,000d.). After 90%, to achieve 100% efficiency the cost per 1% is 1,000d. (for the obviously erudite and rare tomes, special supplies and equipment, etc. - assuming such are available, of course). All told, expenditures must be 25,000d. for 100% sage efficiency in specific and exacting question areas._
+A sage can translate any language associated with their specialist field, costing 50d. per inscription or per page of text. A sage can also identify items and answer basic questions relating to their specialist field, costing 100d. per consultation. Longer employment requires a full commitment from a player character and full hiring as noted above.
 
 **Scribe**: Practiced in the art of writing, a typical scribe is expected to keep records, write letters and copy documents. Others may possess additional skills, such as cartography, counterfeiting, cryptography, illuminating or the ability to write, read or otherwise comprehend more than one language. Such accomplished individuals might command up to ten times the standard wage.
 
