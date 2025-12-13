@@ -190,7 +190,7 @@ Sample skills include: Acrobatics, Blindfighting, Climbing, Disguise, Etiquette,
 
 ## Buy Equipment
 
-Roll 6d6 and multiply the number by 10. That’s your starting silver pieces (d.). See the [equipment](#armour-weapons-and-equipment) list for things to buy (don't forget armour!) or choose a [quick pack](#quick-packs). Make a note (an asterisk is a good way) of what items you're declaring as "readied" (see [readied items](#readied-items)).
+Roll 6d6 and multiply the number by 10. That’s your starting silver pieces (d.). See the [equipment](#armour-weapons-and-equipment) list for things to buy (don't forget armour!) or choose a [quick pack](#quick-packs).
 
 If you plan to cast Turn Undead, be sure to buy a holy symbol! If you’re a thief, you’ll want lockpicks. A magic-user needs a book to use as a spellbook.
 
@@ -248,17 +248,12 @@ The following base gear is automatically added to your character for free:
 After this, you can have whatever basic gear you wish (within reason, as determined by the referee). Some common basic adventuring items include but are not limited to (size listed after each):
 
 - **Bedroll (M)**: A blanket that can double as a sleeping bag. Helps protect against the cold when [sleeping in the wilds](#sleeping-in-the-wilds).
-- **Beef jerky (S)**: Durable, 1lb
-- **Beef, fresh (S)**: Butchered & packaged, 1lb
-- **Biscuits, hardtack (S)**: Durable, 1lb
 - **Caltrops, bag (M)**: Small metal spikes sufficient to cover a 5' × 5' area. Creatures moving through have a 2-in-6 chance of treading on a spike for a 50% penalty to movement rate for 24 hours (or until magically healed). Intelligent creatures can move cautiously through areas with known caltrops, which requires their entire Movement Phase to travel 5', but eliminates any risk of impalement.
 - **Candle (S)**: Dimly illuminates a 5' radius, and burns for 4 hours.
 - **Chalk (S)**: Useful for marking trails in dungeons.
-- **Cheese (S)**: Durable, 1lb
 - **Crowbar (M)**: Makes it easier to force open doors, and doubles as an improvised medium weapon.
-- **Fruit, dried (S)**: Durable, 1lb (apples, pears, raisins)
-- **Fruit or vegetables, fresh (S)**: 1lb (apples, pears, carrots, cabbage, etc.)
-- **Garlic, spice (S)**: Durable, bundle of bulbs, also repels vampires.
+- **Food, fresh, poor** (M): Poor-quality fresh food, 1 day's worth. Won't win awards, but it'll keep you fed.
+- **Food, trail** (M): Preserved and packaged food, 1 day's worth. Won't go bad.
 - **Grappling Hook (S)**: Steel, 1'x8", four prongs
 - **Hammer (S)**: Doubles as an improvised small weapon.
 - **Sack, canvas (M)**: Holds 10 + str mod slots of items.
@@ -342,7 +337,13 @@ Weapons are divided into three basic damage categories: small, medium, and large
 - **Medium** weapons deal 1d6+1 damage (plus the user's Str modifier), are one-handed, and include most swords, spears, maces, flails, and battle axes. Can be wielded two-handed, which adds +1 damage. Average cost: 20d.
 - **Large** weapons deal 1d8+3 damage (plus the user's Str modifier), are two-handed, and include polearms and pikes, as well as large swords, spears, axes, and maces. A minimum Str of 9 is required to wield large weapons. Average cost: 75d.
 
-_Note: You can get a weapon "silvered" for 3x its base cost._
+#### Weapons of Special Metals
+
+Adventurers sometimes seek out weapons made of cold iron or silver, as these are harmful to fey or certain undead monsters. Cold iron and silver weapons must be crafted to special order, incurring a delay of 2d6 days.
+
+**Cold Iron Weapons** are made of pure iron, forged in flames of ancient yew wood, and doused in water infused with mandrake root. They cost double the weapon's normal price. They gain a +1 damage bonus against fey and demi-fey, but suffer a -1 damage penalty against other creatures.
+
+**Silver Weapons** are made of pure silver, and cost ten times the weapon's normal price. They inflict +1 damage against undead, and normal damage against other foes, and certain foes can _only_ be harmed by silver (or magic) weapons. They don't hold an edge well, and are prone to wear and tear, making all item degradation checks with disadvantage (rolling twice and taking the lower die).
 
 ### Missile Weapons
 
@@ -367,33 +368,32 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 ## Quick Packs
 
-- **The Gygax** (10 slots, 25d. cost): Hempen rope 50' (L), 10’ pole (L), Iron spikes x4 (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), Dried Fruit (S) x2, Beef jerky (S) x4, Cheese (S) x2.
-- **The Generalist** (6 slots, 10d. cost): Candle (S), Chalk (S), Hammer (S), Iron spike x4 (S), Crowbar (M), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10d.).
-- **The Cautious** (6 slots): Candle, pillar (S), Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Beef jerky (S) x2, Cheese (S) x2, Dried fruit (S) x3, 10' pole (L).
+- **The Gygax** (10 slots, 25d. cost): Hempen rope 50' (L), 10’ pole (L), Iron spikes x4 (S) x2, Hammer (S), Lantern (M), Oil flask (M) x2, Holy water vial (S, 25sp), Trail food (M) x2.
+- **The Generalist** (6 slots, 10d. cost): Candle (S), Chalk (S), Hammer (S), Iron spike x4 (S), Crowbar (M), Trail food (M), Oil flask (M), Lantern (M), Mapping kit (M, 10d.).
+- **The Cautious** (7 slots): Candle, pillar (S) x4, Chalk (S), Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Trail food (M) x2, 10' pole (L).
 - **The Delver** (6 slots): Candle, pillar (S) x3, Hammer (S), Beef jerky (S) x2, Cheese (S), Dried fruit (S), Pickaxe (L) or Shovel (L) or Sledgehammer (L), Hempen rope (L).
-- **The Scholar** (6 slots, 10d. cost): Chalk (S), Vial (S) x3, Beef jerky (S) x2, Cheese (S), Dried fruit (S), Oil flask (M), Lantern (M), Mapping kit (M, 10d.), Scrollcase (M).
-- **The Torchbearer** (6 slots): Beef jerky (S) x4, Cheese (S) x2, Dried fruit (S) x2, Oil flask (M) x2, Torches (S) x8.
+- **The Scholar** (6 slots, 10d. cost): Chalk (S), Vial (S) x3, Trail food (M), Oil flask (M), Lantern (M), Mapping kit (M, 10d.), Scrollcase (M).
+- **The Torchbearer** (6 slots): Trail food (M) x2, Oil flask (M) x2, Torches (S) x8.
 
 ## Animals & Mounts
 
-| Animal        | Cost  | Size | Combat Speed | Daily Hex Pts | Item Slot Limit |
-| ------------- | :---: | :--: | :----------: | :-----------: | :-------------: |
-| Donkey/Pony   | 70d.  |  L   |      50      |       5       |       20        |
-| Dog, hunting  | 35d.  |  M   |      50      |       -       |        -        |
-| Dog, war      | 65d.  |  M   |      50      |       -       |        -        |
-| Hawk          | 40d.  |  S   |      80      |       -       |        -        |
-| Horse, draft  | 150d. |  L   |      50      |       5       |       30        |
-| Horse, riding | 100d. |  L   |      80      |       6       |       20        |
-| Horse, war    | 300d. |  L   |      65      |       5       |       25        |
-| Mule          | 90d.  |  L   |      65      |       5       |       25        |
-| Ox            | 120d. |  L   |      50      |       4       |       35        |
+| Animal        | Cost  | Size | Combat Speed | Item Slot Limit |
+| ------------- | :---: | :--: | :----------: | :-------------: |
+| Donkey/Pony   | 70d.  |  L   |      50      |       20        |
+| Dog, hunting  | 35d.  |  M   |      50      |        -        |
+| Dog, war      | 65d.  |  M   |      50      |        -        |
+| Hawk          | 40d.  |  S   |      80      |        -        |
+| Horse, draft  | 150d. |  L   |      50      |       30        |
+| Horse, riding | 100d. |  L   |      80      |       20        |
+| Horse, war    | 300d. |  L   |      65      |       25        |
+| Mule          | 90d.  |  L   |      65      |       25        |
+| Ox            | 120d. |  L   |      50      |       35        |
 
-| Item              |  Cost   |
-| ----------------- | :-----: |
-| Cart              |  40d.   |
-| \*\*Feed, per day |   2d.   |
-| Stabling, per day |   1d.   |
-| Wagon             | 1,200d. |
+| Item          | Cost  |
+| ------------- | :---: |
+| Cart          | 60d.  |
+| Feed, per day |  1d.  |
+| Wagon         | 800d. |
 
 **Cart**: Open, road-bound, two-wheeled vehicle. Pulled by 1-2 beasts of burden. Capacity: 2x of the animals drawing it.
 
@@ -402,6 +402,8 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 **Wagon**: Open, four-wheeled, road-bound vehicle for heavy loads. Pulled by 4-6 beasts of burden. Capacity: 2x of the animals drawing it.
 
 **War**: An animal not trained for combat may panic in battle. If it's wounded, its owner must make a Hard (14+) check to keep it from fleeing or tossing its rider.
+
+_For water vehicles, see [ships](#ships)._
 
 ---
 
