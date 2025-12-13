@@ -649,14 +649,6 @@ Base climbing speed is 5' per round. Add 5' if the climber has the Climbing skil
 
 The following each raise the difficulty by one level: high winds, extreme cold, smooth surfaces, slippery surfaces, each encumbrance level. The aid of appropriate equipment--a rope and grapnel, or pitons and a hammer--will lower the difficulty.
 
-## Darkness & Blindness
-
-Wise characters carry illumination--magical or mundane--when exploring at night or underground. Typical light sources enable normal vision within a particular radius.
-
-**Low light**: In low light conditions (e.g. at night without a light source), characters suffer a -2 penalty to attack rolls and move at half speed.
-
-**Pitch darkness or blindness**: Characters in pitch darkness or blindness suffer a -4 penalty to attack rolls, armor class, and saving throws, and have Speed 10. A character with the Blindfighting skill would not suffer the penalties while in combat.
-
 ## Doors
 
 Along with puddles, the bane of adventurers' existence.
@@ -817,7 +809,13 @@ The encumbrance rules are the standard way to measure how much a PC can carry ar
 
 ## Light & Vision
 
-A party needs one light source for approximately every three members of the party. For every missing light source, PCs incur a -1 penalty to attack, up to -4. Note that light sources can be seen from much further away than the illumination they shed for those holding them. Approaching light will warn intelligent creatures of the approach of surface-dwellers, perhaps giving them a chance to prepare; creatures around a corner can see a light source whose radius projects around that corner, while two corners between prevent its detection.
+Wise characters carry illumination--magical or mundane--when exploring at night or underground. Typical light sources enable normal vision within a particular radius. A party needs one light source for approximately every three members of the party.
+
+Note that light sources can be seen from much further away than the illumination they shed for those holding them. Approaching light will warn intelligent creatures of the approach of surface-dwellers, perhaps giving them a chance to prepare; creatures around a corner can see a light source whose radius projects around that corner, while two corners between prevent its detection.
+
+**Low light**: In low light conditions (e.g. at night without a light source, or if a party has insufficient light sources), characters suffer a -2 penalty to attack rolls and move at half speed.
+
+**Pitch darkness or blindness**: Characters in pitch darkness or blindness suffer a -4 penalty to attack rolls, armor class, and saving throws, and have Speed 10. A character with the Blindfighting skill would not suffer the penalties while in combat.
 
 ## Lockpicking
 
