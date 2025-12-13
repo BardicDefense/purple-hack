@@ -634,7 +634,7 @@ If the pursuers catch the fleeing side, a new combat round begins in the Melee P
 
 When a player character’s hit points reach 0, the character is unconscious and must make a Daunting (11+) Con saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, requiring a successful Very Hard (17+) check; if the aiding PC uses proper bandages, the check's difficulty is lowered to Hard (14+). Other modifiers may apply.
 
-Even after returning to 1 or more hp, the character will remain in a coma for 1d6 turns and must rest for a minimum of one week before resuming any sort of strenuous activity, mental or physical.
+Even after returning to 1 or more hp, the character will remain in a coma for 1d6 turns and must rest for a minimum of one week before resuming any sort of strenuous activity, mental or physical. Magical healing that returns characters to consciousness does not incur these penalties.
 
 Characters who are slain may be raised from the dead if a Mage of sufficient level is available to perform the casting. Each time a character is brought back from the dead, their CON score is reduced by one point.
 
@@ -644,7 +644,7 @@ Characters who are slain may be raised from the dead if a Mage of sufficient lev
 
 ## Climbing
 
-No roll is required for simple climbs, like a basic rope or tree. A more difficult climb might require a Moderate (Dex) check. A climber must make one check before every 40' section to be climbed or portion thereof. A failed check indicates a fall from halfway up that section.
+No roll is required for simple climbs, like a basic rope or tree. A more difficult climb might require a Moderate (Dex) check. A climber must make one check before every 40' section to be climbed or portion thereof. If the check fails, the character falls at the halfway point (see [falling](#falling)).
 
 Base climbing speed is 5' per round. Add 5' if the climber has the Climbing skill or is using rope (not cumulative).
 
