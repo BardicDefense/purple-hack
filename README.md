@@ -1333,7 +1333,7 @@ Attempting to swim while wearing armour is extremely dangerous. Characters must 
 
 ## Trap Detection
 
-Spotting a trap is a Perception check. A character can actively search a 10' square for traps. This takes 1 turn; only one person can search a given square at any one time. Subtle but ultimately visible traps and triggers (such as tripwires) should be automatically detected by this; a failed search usually does not trigger traps.
+Spotting a trap requires a successful Perception check, usually rolled in secret by the referee. A character can actively search a 10' square for traps. This takes 1 turn; only one person can search a given square at any one time. Subtle but ultimately visible traps and triggers (such as tripwires) should be automatically detected by this; a failed search usually does not trigger traps.
 
 How well a trap is concealed determines the difficulty. The average concealed trap is Very Hard (17+) to spot during cautious exploration, or Daunting (11+) if actively being searched for and not visible.
 
@@ -1431,7 +1431,7 @@ The base cost in hex points to enter a hex depends on its terrain type. Unlisted
 | :-------------------------: | :---------------: | :-------------: | :-----------------------------: |
 |  Plains, steppe, farmland   |         2         |     1 in 6      |            May enter            |
 | Hills, woods, desert, rough |         3         |     2 in 6      | Mounts must be led, no vehicles |
-|  Mountains, jungle, swamps  |         4         |     3 in 6      |      No mounts or vechiles      |
+|  Mountains, jungle, swamps  |         4         |     3 in 6      |      No mounts or vehicles      |
 
 If the party is travelling on a road and does not leave, a hex costs 2 travel points to enter; but only roadside features will be explored; features further from the road are missed.
 
@@ -1508,13 +1508,14 @@ Time spent around the fireside with one's companions may lift the spirits and in
 
 When camping in the wild, characters’ ability to get a good night’s rest is determined by their equipment (whether they have a bedroll and/or tent), their warmth (whether they have a fire burning), and the season. Non-ideal circumstances require PCs to make a Con check, with the difficulty listed below.
 
-| Fire | Bed             | Winter         | Spring         | Summer        | Autumn         |
-| ---- | --------------- | -------------- | -------------- | ------------- | -------------- |
-| N    | No bedding      | Auto failure   | Daunting (11+) | Moderate (8+) | Daunting (11+) |
-| N    | Bedroll or tent | Auto failure   | Moderate (8+)  | Good rest     | Moderate (8+)  |
-| N    | Bedroll & tent  | Daunting (11+) | Moderate (8+)  | Good rest     | Moderate (8+)  |
-| Y    | No bedding      | Auto failure   | Daunting (11+) | Moderate (8+) | Daunting (11+) |
-| Y    | Bedroll or tent | Daunting (11+) | Good rest      | Good rest     | Good rest      |
+| Fire | Bed             | Winter         | Spring         | Summer         | Autumn         |
+| ---- | --------------- | -------------- | -------------- | -------------- | -------------- |
+| N    | No bedding      | Auto failure   | Hard (14+)     | Daunting (11+) | Hard (14+)     |
+| N    | Bedroll or tent | Auto failure   | Daunting (11+) | Good rest      | Daunting (11+) |
+| N    | Bedroll & tent  | Hard (14+)     | Daunting (11+) | Good rest      | Daunting (11+) |
+| Y    | No bedding      | Auto failure   | Hard (14+)     | Daunting (11+) | Hard (14+)     |
+| Y    | Bedroll or tent | Hard (14+)     | Moderate (8+)  | Good rest      | Moderate (8+)  |
+| Y    | Bedroll & tent  | Daunting (11+) | Good rest      | Good rest      | Good rest      |
 
 **If the check succeeds:** The character gets a good night’s sleep and regains 1 HP overnight if they ate a poor meal or trail food, 2 HP if they ate a common meal, and 3 HP if they ate a fancy meal.
 
