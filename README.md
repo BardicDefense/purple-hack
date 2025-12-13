@@ -36,7 +36,6 @@ Some highlights:
   - [Lockpicking](#lockpicking)
   - [Magic & Spells](#magic--spells)
   - [Perception Checks](#perception-checks)
-  - [Readied Items](#readied-items)
   - [Retainers](#retainers)
   - [Sailing](#sailing)
   - [Trap Detection](#trap-detection)
@@ -491,7 +490,7 @@ If a PC rolls a natural 20 on an attack, a **critical hit** is scored: the attac
 Each combat round is 10 seconds and has seven steps, taken in the following order:
 
 - **Declarations**: All spellcasting and combat stances for the round must be declared _before_ anything else in the round happens.
-- **Missile**: Combatants with readied missile weapons can fire. Players who chose the Dash combat stance fire first, then all remaining missile attacks from all sides are resolved simultaneously.
+- **Missile**: Combatants with equipped missile weapons can fire. Players who chose the Dash combat stance fire first, then all remaining missile attacks from all sides are resolved simultaneously.
 - **Initiative**: 1d12 is rolled by each side involved, with the side that rolled the highest winning (re-roll ties). Only determines movement order, not action order.
 - **Movement**: Everyone on the side that won initiative for the round can move, followed by any movement by the losing side.
 - **Melee**: Combatants that did not fire a missile weapon can attack with melee weapons (or take a miscellaneous action). Players who chose the Dash combat stance act first, and then all remaining actions from all sides are resolved simultaneously.
@@ -512,7 +511,7 @@ Any character not surprised or casting a spell must pick a stance. A character c
 
 ### Missile Phase
 
-Missile attacks can be made if you have a ranged weapon readied at the start of the round, are not locked in melee, and the target is not blocked (by one or more creatures along direct line of sight, unless the target is one or more sizes larger than any blockers).
+Missile attacks can be made if you have a ranged weapon equipped at the start of the round, are not locked in melee, and the target is not blocked (by one or more creatures along direct line of sight, unless the target is one or more sizes larger than any blockers).
 
 Missile attacks use all relevant modifiers above, except the bonus for being on a mount or the target being prone. Missile-specific modifiers include:
 
@@ -793,12 +792,12 @@ Generally, only creatures make saving throws. However, some items are especially
 
 If a creature must make a saving throw and it passes, no item carried by that creature needs to make a save unless the effect specifies otherwise.
 
-**Fragile items** can be almost anything (not including weapons, armour, or typical adventuring gear), but most notably include potions, scrolls, and wands that have been **readied** (kept close at hand, so that they're usable in combat without requiring an action to draw). The price of having such useful items at hand for immediate use is that they're vulnerable to destruction. For example, a potion in a backpack is not available for drinking in combat, but at the same time, if its owner is hit by a fireball, the potion is safe. Fragile items are the exception rather than the rule, and tend to be consumable, creating a risk to their use.
+**Fragile items** can be almost anything (not including weapons, armour, or typical adventuring gear), but most notably include potions, scrolls, and wands that is equipped (kept close at hand, so that they're usable in combat without requiring an action to draw). The price of having such useful items at hand for immediate use is that they're vulnerable to destruction. For example, a potion in a backpack is not available for drinking in combat, but at the same time, if its owner is hit by a fireball, the potion is safe. Fragile items are the exception rather than the rule, and tend to be consumable, creating a risk to their use.
 
-- **Area-effect Attacks**: Affect any item that's both fragile and readied. Daunting (11+) save.
+- **Area-effect Attacks**: Affect any item that's both fragile and equipped. Daunting (11+) save.
 - **Bashing Containers**: Potions in a container require a Hard (14+) save, while scrolls, wands, and gemstones require a Moderate (8+) save.
-- **Disintegration**: Affects all readied items, fragile or not. Very Hard (17+) save, Hard (14+) if the item is magical.
-- **Falls**: Affects carried potions (readied or not), requires a fall of at least 20' onto a hard surface. Hard (14+) save, -1 penalty for each additional full 10' fallen over 20'.
+- **Disintegration**: Affects all equipped items, fragile or not. Very Hard (17+) save, Hard (14+) if the item is magical.
+- **Falls**: Affects carried potions (equipped or not), requires a fall of at least 20' onto a hard surface. Hard (14+) save, -1 penalty for each additional full 10' fallen over 20'.
 - **Magic Items**: Any that provide magic attack, save, or AC bonuses apply this modifier to any save such items are forced to make.
 - **Shields**: If used to provide a save bonus against a breath weapon attack, and the shield's wielder fails their save, the shield must save as well. The save is Moderate (8+).
 - **Water**: Affects paper and parchment, Heroic (20+) save. Standard spellbooks (with vellum pages and magical inks) and scrolls in scroll cases always pass their save.
@@ -948,12 +947,6 @@ However, sometimes a scenario involves something unusually subtle or a creature 
 Overall, checks aren't made just to use one's eyes or ears or otherwise notice the obvious. A Perception check only occurs when the rules call for one (e.g. looking for traps or secret doors), or if the referee decides one is needed.
 
 For a group Perception check, the referee applies the group's average Per modifier, if any, rounding normally. For checks by individuals with a positive Per modifier, _twice_ the searcher's bonus is applied.
-
-## Readied Items
-
-Small, easily accessible items (e.g., sheathed daggers, wands, or potions) on your character can be declared as **readied**. A scroll in a scroll case, or something buried in your backpack, could not be readied. A readied item takes no action to draw. For example, you could take out a readied wand and fire it in the same Missile Phase.
-
-The downside is that readied items are vulnerable to destruction. If a creature fails certain types of saving throws (most notably, against an area-effect attack), most readied items then have to make saves of their own to avoid destruction. See [item saving throws](#item-saving-throws) for more details.
 
 ## Retainers
 
