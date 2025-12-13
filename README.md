@@ -220,15 +220,22 @@ _Why is your character risking their life for adventure? This can be one word, o
 
 We’re using container-based “item slot” encumbrance, measuring both weight and awkwardness.
 
-You can carry 5 slots of items about your character's person (like weapons, worn armour, belt pouches, quivers, etc.). A backpack can carry an additional 10 + Str mod slots. A sack can also be carried, for another 10 + Str mod slots, but requires one hand to carry, or two hands if filled more than halfway. A carried sack reduces a character's hex point allowance by the number of hands used to carry it (see [Wilderness Exploration](#wilderness-exploration)), and a character cannot effectively fight while carrying a sack.
+You can carry 10 + Str mod slots of equipped items (anything you're wearing, holding, actively using, ready to use at short notice). You can carry 16 + Str mod slots of stowed items. Your encumbrance is based on how many slots you have occupied:
+
+| Equipped Slots |  Stowed Slots   | Combat Speed | Exploration Speed | Normal Travel | Forced March |
+| :------------: | :-------------: | :----------: | :---------------: | :-----------: | :----------: |
+|      0-3       |      0-10       |     40'      |       120'        |     8 pts     |    12 pts    |
+|      4-5       |      11-12      |     30'      |        90'        |     6 pts     |    9 pts     |
+|      6-7       |      13-14      |     20'      |        60'        |     4 pts     |    6 pts     |
+| 8-10 + Str mod | 15-16 + Str mod |     10'      |        30'        |     2 pts     |    3 pts     |
+
+A backpack can only carry 12 stowed slots of items; more than that, and you must use a sack. 13-14 slots of items means you're carrying the sack with one hand, and 15 or more slots requires two hands to carry.
 
 - **Small** items (like chalk or potions) fit four to a slot.
 - **Medium** items (most things) are 1 slot.
-- **Large** items like 2h weapons and medium armour are 2 slots. Heavy armour takes 3 slots (as do all items listed as L+) and is bulky (see below).
+- **Large** items like 2h weapons and medium armour are 2 slots. Heavy armour takes 3 slots (as do all items listed as L+) and adds a level of encumbrance.
 
-If an item is listed as "bulky," it reduces the character's combat speed by 10' and hex point allowance by 1. This effect does not stack.
-
-Coins & gems stack 500 to a slot. A typical body (willing or unconscious) fills 9 slots, before gear, and is bulky.
+Coins & gems stack 500 to a slot. A typical body (willing or unconscious) fills 9 slots, before gear, and adds a level of encumbrance.
 
 ## Starting Gear
 
@@ -323,7 +330,7 @@ An unarmoured character has a base Armour Class of 10.
 | Splint (heavy armour) (L+)         | 16  | 580d. |      10 min      |
 | Plate (heavy armour) (L+)          | 17  | 850d. |      10 min      |
 
-Heavy armour (L+ = 3 slot) and Large Shields require minimum 9 Str to wear. Heavy armour also encumbers. A Shield also provides a save bonus vs non-gaseous breath weapons equal to its AC bonus.
+Heavy armour (L+ = 3 slot) and Large Shields require minimum 9 Str to equip. Heavy armour adds a level of encumbrance. A Shield also provides a save bonus vs non-gaseous breath weapons equal to its AC bonus.
 
 ## Weapons
 
@@ -743,11 +750,11 @@ Damage from falling is determined as follows: Falls of less than 5 ft do no dama
 
 Fatigue represents a serious depletion of body, mind, or spirit.
 
-| Fatigue Level |                  Effect                  |
-| :-----------: | :--------------------------------------: |
-|     Light     | -2 to attacks, checks, and Morale checks |
-|     Heavy     |  Raise above to -4, halve all movement   |
-|  Exhaustion   |      Halve HP, halve movement again      |
+| Fatigue Level |                   Effect                   |
+| :-----------: | :----------------------------------------: |
+|     Light     |  -2 to attacks, checks, and Morale checks  |
+|     Heavy     | Raise above to -4, +1 level of encumbrance |
+|  Exhaustion   |     Halve HP, +2 levels of encumbrance     |
 
 Possession four or more levels of fatigue results in death. Fatigue levels from different sources stack.
 
@@ -768,7 +775,7 @@ If total exposure to a cause of fatigue is avoided (e.g. a bit of water drank, a
 
 ## Healing
 
-A character will recover 1 HP by resting overnight in a safe and comfortable location, assuming a meal of poor quality has been eaten. A character who dines on common food will recover 2 HP overnight, and a character who dines on fancy food will recover 3 HP overnight. A character will heal HP equal to their level per day of uninterrupted rest. Even while adventuring, a character might get a comfortable night's rest (see [Wilderness Exploration > Rest Checks](#rest-checks) and naturally heal HP. 30 days of rest will return any character to full HP.
+A character will recover 1 HP by resting overnight in a safe and comfortable location, assuming a meal of poor quality has been eaten. A character who dines on common food will recover 2 HP overnight, and a character who dines on fancy food will recover 3 HP overnight. A character will heal HP equal to their level per day of uninterrupted rest. Even while adventuring, a character might get a comfortable night's rest (see [Wilderness Exploration > Rest Checks](#rest-checks)) and naturally heal HP. 30 days of rest will return any character to full HP.
 
 ## Item Saving Throws
 
@@ -1401,30 +1408,24 @@ Upgrades are grouped by tier for the purposes of this cost scaling: continuing w
 
 In a campaign where the journey is as important as the destination (or where there isn't even necessarily a main destination _per se_), overland movement comes into play.
 
-Travel overland is measured in 6-mile hexes. **Hex points** are spent to travel through hexes, and all player characters have a base hex point allowance of **four per day**, which can be modified by mounts, encumbrance, and fatigue (applied before encumbrance). A party travels at the rate of its slowest member. Mounts halve their hex points when travelling in Mountains, Jungle, or Swamps.
+Travel overland is measured in 6-mile hexes. **Travel points** are spent to enter a hex; player characters have travel points based on their [encumbrance](#item-slots). A mounted party has speed 40 (8 travel points per day), and a party travelling with a cart or wagon has speed 30 (6 travel points per day).
 
 The base cost in hex points to enter a hex depends on its terrain type. Unlisted terrain features like great rivers, canyons, etc. can further raise the cost.
 
-|        Terrain Type         | Entry Cost |
-| :-------------------------: | :--------: |
-|  Plains, steppe, farmland   |     1      |
-| Hills, woods, desert, rough |     2      |
-|  Mountains, jungle, swamps  |     4      |
+|        Terrain Type         | Entry/Search Cost | Lost/Encounters |        Mounts & Vehicles        |
+| :-------------------------: | :---------------: | :-------------: | :-----------------------------: |
+|  Plains, steppe, farmland   |         2         |     1 in 6      |            May enter            |
+| Hills, woods, desert, rough |         3         |     2 in 6      | Mounts must be led, no vehicles |
+|  Mountains, jungle, swamps  |         4         |     3 in 6      |      No mounts or vechiles      |
 
-Terrain factors can affect the base entry cost of a hex:
+If the party is travelling on a road and does not leave, a hex costs 2 travel points to enter; but only roadside features will be explored; features further from the road are missed.
 
-|       Terrain Modifiers        | Cost Modifier |
-| :----------------------------: | :-----------: |
-| Heavy rain/deep snow/thick fog |      +1       |
-|      Temperature extremes      |      +1       |
-| Good roads or excellent trails |      -1       |
-
-The good roads bonus can apply once per day; at least two hexes of good roads must be covered that day.
+Travel may be impeded by poor weather, reducing the party's travel points by 2. If this reduces the party's travel points to 0 or below, they can only progress by forced marching.
 
 A party may choose one of two optional march types each day, reflecting its priorities: either caution or speed.
 
-- **Cautious March**: Reduce the party's hex allowance by one, and apply a +1 bonus to all rolls for overland random encounters, and the party has a better chance of tactically favorable encounters.
-- **Forced March**: Add one to the party's hex allowance, but gain one fatigue level at day's end. Can be kept up until a marcher is heavily fatigued. A day of full rest is required to remove one level of forced march fatigue from most creatures.
+- **Cautious March**: Decrease travel points by one, apply a +1 bonus to all rolls for overland random encounters, and the party has a better chance of tactically favorable encounters.
+- **Forced March**: Gain a 50% increase in travel points, but gain one fatigue level at day's end. Can be kept up until a marcher is heavily fatigued. A day of full rest is required to remove one level of forced march fatigue from most creatures.
 
 ## Entering a Hex
 
@@ -1432,9 +1433,17 @@ If a party wants to enter a hex, but lacks some of the points needed, they point
 
 ### Navigation and Getting Lost
 
-If the party has never been to a hex they've just entered, the party makes a **navigation check** by rolling 1d12. Subtract the hex's base Entry Cost, and another -6 if there's thick fog, a blizzard, a sandstorm, or the like in the hex. Remove up to 2 points of these penalties if the party has any members with the Fieldcraft feat for that hex's terrain type. This check is skipped if the party has a respectable map or knowledgeable guide, or if there is a road, trail, coastline, or river in the current hex they can logically follow to their next hex. The party is assumed to map any hex passed through.
+If the party enters a hex they have not fully searched, the party makes a **navigation check** by rolling 1d6. The chance of getting lost depends on the terrain being explored (see table above).
 
-On a result of 1 or less, the check fails & the party is lost. To leave the hex, the party must spend hex points equal to the amount they spent to enter it originally, and then make a new navigation check. Failure means that the party is still lost.
+There is no chance of getting lost if the party is following a road, and there is only a 1-in-6 chance of getting lost if the party is following a trail or track.
+
+In conditions of reduced visibility, like a thick fog or blizzard, the chance of getting lost increases by 1, and in darkness by 2.
+
+If the party has a member with the Fieldcraft feat for that hex's terrain type, the chance of getting lost decreases by 1.
+
+This check is skipped if the party has a respectable map or knowledgeable guide, or if there is a road, trail, coastline, or river in the current hex they can logically follow to their next hex. The party is assumed to map any hex passed through.
+
+If the check fails, the party is lost. To leave the hex, the party must spend hex points equal to the amount they spent to enter it originally, and then make a new navigation check. Failure means that the party is still lost.
 
 ### Searching
 
@@ -1442,7 +1451,7 @@ Entering a hex allows a party to determine its features. There are two types: **
 
 Overt features require no special effort to find. Hidden features may or may not exist, but can only be found if the party searches the hex, moving off the beaten path to seek out points of interest there. A hex may have both types.
 
-Searching a hex requires spending the same number of hex points that it cost to enter the hex, and, like entering a hex, is only complete when the full hex point cost is paid. The party then makes another navigation check; failure means the party is lost, which is resolved normally. Success reveals one hidden feature in the hex, if any.
+Searching a hex requires spending the same number of hex points that it cost to enter the hex, and, like entering a hex, is only complete when the full hex point cost is paid. Such a search will reveal any hidden features present in a hex. Once a hidden feature has been located, it can be found again without searching.
 
 ## Camping in the Wilds
 
@@ -1498,7 +1507,7 @@ When camping in the wild, characters’ ability to get a good night’s rest is 
 
 ## Hunting
 
-In the wilderness, the party can stop and hunt for food. Hunting must be the sole activity that day (i.e. no resting or traveling), and generates a random encounter check for that hex. So long as the hex has game, hunting always feeds the party for the day, even if the hunting check fails; if successful, it also provides 4 additional pounds of fresh meat for every point over the result needed.
+In the wilderness, the party can stop and hunt for food. Hunting must be the sole activity that day (i.e. no resting or traveling), and generates a random encounter for that hex, with the party having surprise and beginning combat 1d4 x 30' away from the quarry. A successful hunt yields fresh rations based on the HP of game animals killed: 1 ration per HP for small animals, 2 rations per HP for medium, and 4 rations per HPH for large.
 
 Hunting is a Daunting (11+) check, though the Fieldcraft feat lowers the difficulty in favored terrain to Moderate (8+). However, some hexes may be more or less difficult, others might require a character with Fieldcraft and the matching favored terrain to hunt in at all, while still others are too barren for any hunter.
 
@@ -1506,40 +1515,17 @@ Hunting is a Daunting (11+) check, though the Fieldcraft feat lowers the difficu
 
 At the start of each day, the referee rolls 1d8 (the travel die) and 1d6 (the combat die).
 
-On a roll of 1 on the travel die, heavy rain, snow, a sandstorm, or other similar natural environmental hindrance appropriate to the terrain occurs: apply the standard +1 Hex Terrain Modifier from such for all hexes entered that day. If rain is falling, the good roads hex terrain bonus does not apply that day to dirt roads (most of them), as they are rapidly reduced to mud.
+On a roll of 1 on the travel die, heavy rain, snow, a sandstorm, or other similar natural environmental hindrance appropriate to the terrain occurs, and the party's travel points are reduced by 2. If rain is falling, the good roads hex terrain bonus does not apply that day to dirt roads (most of them), as they are rapidly reduced to mud.
 
 On a roll of 1 on the combat die, strong winds occur: apply the poor conditions modifier to outdoor missile attacks that day, and _Fog_, _Stinking Cloud_, _Cloudkill_ and any similar effects do not function outdoors.
 
-### Storms
-
-If both rolls have "1" results, the weather is a severe storm. In addition to the above effects, apply another +1 Hex Terrain Modifier to all hexes entered that day (+2 total). In winter, this is extreme snowfall, enough to make further movement impossible that day without proper gear or magical aid. A storm's effects may linger for a while after the storm: a +1 Hex Terrain Modifier to all hexes the next day.
+If both dice show a 1, then visibility is poor: the distance at which encounters occur is halved, and the chanced of getting lost while traveling off-road is increased by 1.
 
 ## Wilderness Random Encounters
 
-One random encounter check (aka "wandering monster check") is made each time a navigation check is made. One check is also made if the party enters a wilderness hex without need of a navigation check (i.e. they have a map), or if the party isn't lost but does not leave the wilderness hex they are in that day.
+One check for wandering monsters is made each day. The chance of an encounter depends on the type of terrain being traversed. If a party has one or more members with Fieldcraft for that hex's terrain type, add 1 to the roll.Wandering monsters are encountered 2d6 x 30' away. If both sides are surprised, this is reduced to 1d4 x 30'.
 
-To make a check, the referee rolls 1d12, subtracts the hex's base entry cost, and applies all relevant modifiers to the roll:
-
-|                            Situation                             | Modifier |
-| :--------------------------------------------------------------: | :------: |
-|                    Hex is unusually dangerous                    | -1 or -2 |
-|                   Hex is safe (e.g. patrolled)                   |    +1    |
-| Party has 1+ members with Fieldcraft for that hex's terrain type |    +1    |
-|              Players are moving at a cautious march              |    +1    |
-
-On a result of 1 or less, an encounter occurs.
-
-If the party spends the night in the wilderness, make an additional random encounter check. Subtract 1 if the party keeps a fire big enough to see by going through the night (although fire scares off some of the creatures that notice it, like bears or wolves). If an encounter occurs, the referee randomly rolls to see on whose watch (if any) the encounter takes place.
-
-After determining the type of creature(s) encountered, the referee rolls on the following table, applying a +2 bonus if the party is moving at a cautious march:
-
-| 1d12 |                                Encounter Type                                 |
-| :--: | :---------------------------------------------------------------------------: |
-|  1   |           _Ambushed_: The creatures attempt to ambush the players.            |
-| 2-4  |                _Stumbled Upon_: Halve the encounter distance.                 |
-| 5-8  |                                   _Normal_                                    |
-| 9-11 | _Brief Warning_: The players have 1 round to act before the encounter begins. |
-|  12  |                _Sign_: Party may escape, or prepare an ambush.                |
+If the party spends the night in the wilderness, an additional random encounter check is made. If an encounter occurs, the referee randomly rolls to see on whose watch (if any) the encounter takes place.
 
 # Hirelings
 
