@@ -115,9 +115,7 @@ Using the [character background generator](background.md), determine your charac
 
 Using the [character background generator](/background.md#institution), determine formative institution.
 
-## Note Your Saving Throw & Check Bonuses
-
-**Check Bonuses**: Starts at 0. Characters gain +1 to regular checks at each name level.
+## Note Your Saving Throw Bonuses
 
 **Save Bonuses:** Starts at 0. Characters gain a +1 save bonus for every 2 full Hit Dice they have.
 
@@ -136,10 +134,10 @@ All characters receive one feat at 1st level, and another feat at each name leve
   2. Trip them (they become prone; two-legged creatures only)
   3. Drive them directly back 5 feet, if the space is available to do so. You may follow up immediately with a free 5-foot move of your own, even if you have already made your full move this turn or are otherwise locked in combat.  
      If none of those are possible or desired, then instead you bash them for an additional 1d4 damage (+2 per name level).
-- **Captain**: Some are born to command. Your party gains a +1 initiative bonus. Add a +1 attack bonus to all other party members and associated NPCs, raised to +2 at level 10 or higher (this does not benefit yourself). Apply +2 to friendly Morale checks. These bonuses apply only as long as your orders can be understood and the individuals benefiting are willing to be led by you. Multiple captains in a group do not stack these benefits.
+- **Captain**: Some are born to command. Your party gains a +1 initiative bonus. Add a +1 attack bonus to all other party members and associated NPCs, raised to +2 at level 10 or higher (this does not benefit yourself). Apply +1 to friendly Morale checks. These bonuses apply only as long as your orders can be understood and the individuals benefiting are willing to be led by you. Multiple captains in a group do not stack these benefits.
 - **Defender**: If you decide that none will pass, then _none will pass_. You ignore all magical commands to move aside, flee, surrender and the like, and are immune to all fear-based effects, magical or not. You gain a 4-point modifier in your favor when resisting any other effect that would result in you being involuntarily moved. Also, in combat, you can always choose to receive the effects of the Guard combat stance, even if using another stance. If you actually choose the Guard stance, you can intercept up to four enemies instead of two.
 - **Great-Weapon Fighter**: When attacking with a two-handed melee weapon, your critical hit range improves by 1, plus 1 per name level (e.g. you score critical hits on a natural to-hit roll of 19-20 at level 1, 18-20 at level 5, etc.).
-- **Marksman**: If firing into melee, you can pick your target instead of rolling randomly. Your ranged to-hit penalties are reduced by 2 points, plus 2 per name level. Your rate of fire with small thrown weapons increases from 1 to 2.
+- **Marksman**: You can fire into melee without penalty. Your ranged to-hit penalties are reduced by 2 points, plus 2 per name level. Your rate of fire with small thrown weapons increases from 1 to 2.
 - **Read Scrolls**: You can read Mithric, as well as cast from scrolls containing spells from four schools of your choice; if an Arcanist, two of these schools must be the two schools you already know. This does not grant the ability to create scrolls.
 - **True Grit**: You may reroll failed death saves.
 - **Whirlwind**: +2 AC (and a further +1 AC per name level). If not casting a spell that round, you receive the effects of the Dash combat stance (this does not count as your stance pick for the round). You are not locked in melee combat unless in melee with at least three opponents. To gain these benefits, you must be able to move freely, not wearing medium or heavy armour, and cannot be encumbered.
@@ -166,27 +164,32 @@ A mage can combine multiple feats on a spell. The spell adjustments from these s
 - **Conditioning**: Gain +2 to a chosen ability score. This feat can be taken only once for a given ability score.
 - **Fieldcraft**: Gain +1 Constitution. Pick two broad terrain types (forest, desert, swamps, jungle, tundra, mountains, etc.). In these terrain types, your difficulties for tasks such as stealth, tracking, and concealing tracks are lowered, and you:
   - Heal +2 HP per day, and still heal even if marching in terrain that normally prevents such.
-  - Succeed more often when hunting.
+  - Lower Survival Skill Target by 1.
   - Are less likely to get lost, have random encounters, or be surprised.
-- **Lockpicking**: Gain +1 Dexterity. You have the tools and expertise to pick locks. Your search for traps on a lock are one difficulty level lower.
+- **Lockpicking**: Gain +1 Dexterity. You have the tools and expertise to pick locks; add -2 to the Lockpicking Skill (or start at 4 if the Skill is not already acquired).
 - **Tough**: Your hit die is one die higher (i.e. a warrior will use a d10, and a mage will use a d8).
 
 ## Determine Starting Age & Choose Skills
 
 Using the [character background generator](background.md#starting-age), determine your character's starting age. Then, select appropriate skills.
 
-Skills represent specialized knowledge of or training in a particular field. All characters select one to three skills at 1st level, and another at each name level.
+Skills represent specialized knowledge of or training in a particular field. All characters select one to three skills at 1st level, depending on starting age, and two more at each name level.
 
-It's assumed that characters possess all the skills and knowledge appropriate to their background, along with a host of everyman abilities that nearly all posses, such as climbing, hiding, or moving silently. Skills for adventurers' purposes are almost always specialized (like reading lips) or non-intuitive (like lockpicking), and reflect special training, deep knowledge, or intense & focused practice in that particular narrow area. Broad interaction (e.g. Conversation), social skills that achieve a result otherwise possible only through roleplay (e.g. Deception or Intimidation), skills that boil down a non-linear non-standard task down to a simple roll (e.g. Dungeoneering or Investigation) or skills that allow for ready identification of magical items cannot be taken. **Skills are largely meant to measure a proficiency over and above what one could reasonably be expected to have, NOT to define what is possible!**
+All character start innumerable general adventuring skills (like Survival, Climbing, or Stealth) at a Skill Target of 6. In general, each time a character selects a skill, the Skill Target of that skill is reduced by 1. A Skill Target cannot be reduced below 2.
+
+Other skills are more specialized or non-intuitive (like reading lips or lockpicking), and reflect special training, deep knowledge, or intense & focused practice in that particular narrow area. These skills must be selected in order to even be attempted by a character. Which skills are general skills and which are specialized which is up to the referee.
+
+Note: Broad interaction (e.g. Conversation), social skills that achieve a result otherwise possible only through roleplay (e.g. Deception or Intimidation), skills that boil down a non-linear non-standard task down to a simple roll (e.g. Dungeoneering or Investigation) or skills that allow for ready identification of magical items cannot be taken. **Skills are largely meant to measure a proficiency over and above what one could reasonably be expected to have, NOT to define what is possible!**
 
 Concretely, skills might, depending on the circumstances, allow you to:
 
 - Avoid what might otherwise involve a roll.
-- Lower the difficulty of a check or negate penalties.
 - Lessen the consequences of failure.
 - Gain information not obvious to the average observer.
 
-Sample skills include: Acrobatics, Blindfighting, Climbing, Disguise, Etiquette, Gambling, Herbalism, Jumping, Language (_choose one_), Lockpicking (_a character cannot have both the skill and the feat_), Lore (_specific subject_), Performing, Pick Pockets, Read Lips, Riding, Running, Seafaring, Shadowing, Stealth, Swimming, Tracking, Wrestling.
+Sample general skills include: Acrobatics, Climbing, Disguise, Etiquette, Gambling, Herbalism, Jumping, Language (_choose one_), Lore (_specific subject_), Navigation (Nautical), Performance, Riding, Running, Shadowing, Ship Piloting, Stealth, Survival, Swimming, Tracking, Wrestling.
+
+Sample specialized skills include: Blindfighting, Decipher Document, Lockpicking, Pick Pockets, Read Lips.
 
 ## Buy Equipment
 
@@ -308,8 +311,7 @@ Finally, you can add "costed" items, which do cost money at character creation.
 
 **Tent**: Protects against adverse weather when adventuring in the wilds. See [sleeping in the wilds](#sleeping-in-the-wilds).
 
-**Wolfsbane**: If a lycanthrope is hit by wolfsbane, it must make a Very Hard (17+) save or run away in fear. The sprig must be swung or thrown as a weapon.
-
+**Wolfsbane**: A werewolf must make a successful saving throw against a target of 11 each round in order to make a melee attack against someone decorated with sprigs of wolfsbane.
 ## Armour
 
 An unarmoured character has a base Armour Class of 10.
@@ -401,7 +403,7 @@ Missile weapons have a rate of fire of 1 shot per attack (except for small throw
 
 **Wagon**: Open, four-wheeled, road-bound vehicle for heavy loads. Pulled by 4-6 beasts of burden. Capacity: 2x of the animals drawing it.
 
-**War**: An animal not trained for combat may panic in battle. If it's wounded, its owner must make a Hard (14+) check to keep it from fleeing or tossing its rider.
+**War**: An animal not trained for combat may panic in battle. If it's wounded, its owner must make a saving throw against a target of 14 to keep it from fleeing or tossing its rider.
 
 _For water vehicles, see [ships](#ships)._
 
@@ -409,23 +411,13 @@ _For water vehicles, see [ships](#ships)._
 
 # Checks & Saves
 
-**Checks** are a single roll against a target number, used to resolve situations with interesting stakes that would either be too tedious or difficult to describe, or involve a strong element of chance. Even if it comes down to a die roll, players will be rewarded for thinking the action through, and sometimes penalized for not. For example, if a player thinks to first apply some lamp oil to the chain and gearing responsible for raising a stuck gate, this would reduce the difficulty.
+**Checks** are a single roll against a target number, used to resolve situations with interesting stakes that would either be too tedious or difficult to describe, or involve a strong element of chance. Even if it comes down to a die roll, players will be rewarded for thinking the action through, and sometimes penalized for not. For example, if a player thinks to first apply some lamp oil to the chain and gearing responsible for raising a stuck gate, this would reduce the difficulty. Some checks are made in secret by the referee in cases where success or failure is not obvious to the character (like Listen, Search, or Stealth).
 
-First, the referee decides how difficult a check is:
+For **Ability Checks**, the player rolls 1d6 and adds the modifier of the ability being tested, along with any situational modifiers. If the result equals or exceeds a target number of 4, the check succeeds. A roll of a natural 1 always fails, and a roll of a natural 6 always succeeds, irrespective of modifiers.
 
-| Difficulty Level | Result Needed |
-| :--------------: | :-----------: |
-|     Moderate     |      8+       |
-|     Daunting     |      11+      |
-|       Hard       |      14+      |
-|    Very Hard     |      17+      |
-|      Heroic      |      20+      |
+For **Skill Checks**, the player rolls 1d6 and adds any situational modifiers. If the result equals or exceeds the character's Skill Target for the skill being tested, the check succeeds. Skills default to a target of 6, unless the character has a Skill improvement that indicates a lower target. A roll of natural 1 always fails, and a roll of a natural 6 always succeeds, irrespective of modifiers.
 
-The player rolls 1d20 (unless success or failure would not be obvious, in which case the referee rolls instead, in secret). If an ability score modifier is relevant, the check will note this (e.g. "Hard (Con x2)" means apply double the character's Con mod). If the modified total equals or exceeds the result needed, the check succeeds. Rolling under indicates failure. A natural 20 is not an automatic success for a check.
-
-**Saving throws** or **saves** represent an attempt to resist a notable threat, such as magic, poison, or disease. A creature can always choose to fail a saving throw. A save is a check with any relevant ability score listed as normal (e.g. "Save: Hard (Con)"). The default save is Hard (14+). The exception is saves for instant-death effects (known as "death saves"); their default save is Daunting (11+). Unlike a regular check, a natural 20 always saves, and a natural 1 always fails. See also [item saving throws](#item-saving-throws).
-
-**Check Bonuses**: Characters gain +1 to regular checks at each name level.
+**Saving throws** or **saves** represent an attempt to resist a notable threat, such as magic, poison, or disease. A creature can always choose to fail a saving throw. The player rolls 1d20 and adds the modifier of any relevant ability score or situational modifiers. On a 14 or higher, the save succeeds; the exception is saves for instant-death effects (known as "death saves"); their default save is 11. A natural 20 always saves, and a natural 1 always fails. See also [item saving throws](#item-saving-throws).
 
 **Save Bonuses**: Characters gain a +1 save bonus for every 2 full Hit Dice they have.
 
@@ -632,7 +624,7 @@ If the pursuers catch the fleeing side, a new combat round begins in the Melee P
 
 ## Death
 
-When a player character’s hit points reach 0, the character is unconscious and must make a Daunting (11+) Con saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, requiring a successful Very Hard (17+) check; if the aiding PC uses proper bandages, the check's difficulty is lowered to Hard (14+). Other modifiers may apply.
+When a player character’s hit points reach 0, the character is unconscious and must make a Save Target Con saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, requiring a successful Medicine skill check (default Skill Target of 6); if the aiding PC uses proper bandages, the check's target is lowered by 1. Other modifiers may apply.
 
 Even after returning to 1 or more hp, the character will remain in a coma for 1d6 turns and must rest for a minimum of one week before resuming any sort of strenuous activity, mental or physical. Magical healing that returns characters to consciousness does not incur these penalties.
 
@@ -644,11 +636,11 @@ Characters who are slain may be raised from the dead if a Mage of sufficient lev
 
 ## Climbing
 
-No roll is required for simple climbs, like a basic rope or tree. A more difficult climb might require a Moderate (Dex) check. A climber must make one check before every 40' section to be climbed or portion thereof. If the check fails, the character falls at the halfway point (see [falling](#falling)).
+No roll is required for simple climbs, like a basic rope or tree. A more difficult climb might require a Dexterity ability check. If the check fails, the character falls at the halfway point (see [falling](#falling)).
 
 Base climbing speed is 5' per round. Add 5' if the climber has the Climbing skill or is using rope (not cumulative).
 
-The following each raise the difficulty by one level: high winds, extreme cold, smooth surfaces, slippery surfaces, each encumbrance level. The aid of appropriate equipment--a rope and grapnel, or pitons and a hammer--will lower the difficulty.
+The following each add a -1 to the ability check: high winds, extreme cold, smooth surfaces, slippery surfaces, each encumbrance level. The aid of appropriate equipment--a rope and grapnel, or pitons and a hammer--will add +1 to the ability check.
 
 ## Doors
 
@@ -656,15 +648,17 @@ Along with puddles, the bane of adventurers' existence.
 
 ### Listening at Doors
 
-While exceptions can occur, it's assumed that player characters cannot hear through the typical dungeon door. If the situation is such that noise would carry through the door, the referee will notify players that they hear something without the need of the players to ask.
+Most doors do not block obvious, loud noises, but characters may attempt to detect the presence of monsters waiting quietly beyond a closed door by pressing an ear against it to listen. The referee then rolls a secret Perception check.
+
+Each listening attempt takes 1 Turn. Up to two characters can simultaneously listen at a typical door, and a check is made for each. Characters can listen at the same door as often as they wish, each attempt requiring an additional Turn.
 
 ### Spotting Secret Doors
 
-Requires a Perception check, with the difficulty based on how well-concealed the door is. During cautious exploration, this is a group check made automatically by the referee in secret for each secret door within 10'.
+Requires a Perception ability check, with the difficulty based on how well-concealed the door is. During cautious exploration, this is a group check made automatically by the referee in secret for each secret door within 10'.
 
 A character can also actively search a 10' square area for secret doors. This takes one turn; more than one person cannot search the same area at the same time.
 
-Spotting the average secret door is Very Hard (17+) during cautious exploration, and Daunting (11+) via an active search. Finding one does not necessarily reveal how it opens. Describing narratively how one is searching might bypass the Perception check if the searching technique would logically reveal the door.
+Spotting the average secret door during cautious exploration incurs a -2 penalty on the roll (i.e. a 1-in-6 chance), but no penalty via an active search (i.e. a 3-in-6 chance). Finding one does not necessarily reveal how it opens. Describing narratively how one is searching might bypass the Perception check if the searching technique would logically reveal the door.
 
 ### Stuck Doors
 
@@ -754,9 +748,9 @@ Fatigue represents a serious depletion of body, mind, or spirit.
 
 | Fatigue Level |                   Effect                   |
 | :-----------: | :----------------------------------------: |
-|     Light     |  -2 to attacks, checks, and Morale checks  |
-|     Heavy     | Raise above to -4, +1 level of encumbrance |
-|  Exhaustion   |     Halve HP, +2 levels of encumbrance     |
+|     Light     |  -1 to attacks, checks, and Morale checks  |
+|     Heavy     | -2 to attacks, checks, and Morale checks, -10 Speed |
+|  Exhaustion   |     -2 to attacks, checks, and Morale checks, halve HP, -20 Speed     |
 
 Possession four or more levels of fatigue results in death. Fatigue levels from different sources stack.
 
@@ -774,34 +768,36 @@ Per positive Con modifier point, a character can ignore one day of a lack of wat
 
 If total exposure to a cause of fatigue is avoided (e.g. a bit of water drank, a fitful nap here or there), the current fatigue level increment is doubled.
 
+A character can remove one level of fatigue for every good night's rest obtained, assuming all other causes of fatigue are also resolved.
+
 ## Healing
 
 A character will recover 1 HP by resting overnight in a safe and comfortable location, assuming a meal of poor quality has been eaten. A character who dines on common food will recover 2 HP overnight, and a character who dines on fancy food will recover 3 HP overnight. A character will heal HP equal to their level per day of uninterrupted rest. Even while adventuring, a character might get a comfortable night's rest (see [Wilderness Exploration > Rest Checks](#rest-checks)) and naturally heal HP. 30 days of rest will return any character to full HP.
 
 ## Item Saving Throws
 
-Generally, only creatures make saving throws. However, some items are especially fragile, and some rare effects (like area-effect attacks or puddings/oozes) specifically target objects. A failed item save results in the item's destruction, while a successful save results in no damage or effect.
-
+Generally, only creatures make saving throws. However, some items are especially fragile, and some rare effects (like area-effect attacks or puddings/oozes) specifically target objects. A failed item save results in the item's destruction, while a successful save results in no damage or effect. 
 If a creature must make a saving throw and it passes, no item carried by that creature needs to make a save unless the effect specifies otherwise.
 
 **Fragile items** can be almost anything (not including weapons, armour, or typical adventuring gear), but most notably include potions, scrolls, and wands that is equipped (kept close at hand, so that they're usable in combat without requiring an action to draw). The price of having such useful items at hand for immediate use is that they're vulnerable to destruction. For example, a potion in a backpack is not available for drinking in combat, but at the same time, if its owner is hit by a fireball, the potion is safe. Fragile items are the exception rather than the rule, and tend to be consumable, creating a risk to their use.
 
-- **Area-effect Attacks**: Affect any item that's both fragile and equipped. Daunting (11+) save.
-- **Bashing Containers**: Potions in a container require a Hard (14+) save, while scrolls, wands, and gemstones require a Moderate (8+) save.
-- **Disintegration**: Affects all equipped items, fragile or not. Very Hard (17+) save, Hard (14+) if the item is magical.
-- **Falls**: Affects carried potions (equipped or not), requires a fall of at least 20' onto a hard surface. Hard (14+) save, -1 penalty for each additional full 10' fallen over 20'.
+The following are examples of times when an item saving throw may be required. The items use the character's Save Target to survive unless specified otherwise:
+
+- **Area-effect Attacks**: Affect any item that's both fragile and equipped.
+- **Bashing Containers**: Potions in a container have a Save Target of 14, while scrolls, wands, and gemstones have a Save Target of 11.
+- **Disintegration**: Affects all equipped items, fragile or not. Save Target of 17, or 14 if the item is magical.
+- **Falls**: Affects carried potions (equipped or not), requires a fall of at least 20' onto a hard surface. -1 penalty to the roll for each additional full 10' fallen over 20'.
 - **Magic Items**: Any that provide magic attack, save, or AC bonuses apply this modifier to any save such items are forced to make.
-- **Shields**: If used to provide a save bonus against a breath weapon attack, and the shield's wielder fails their save, the shield must save as well. The save is Moderate (8+).
-- **Water**: Affects paper and parchment, Heroic (20+) save. Standard spellbooks (with vellum pages and magical inks) and scrolls in scroll cases always pass their save.
-- **Other Cases**: Cases not covered above are a Hard (14+) save.
+- **Shields**: If used to provide a save bonus against a breath weapon attack, and the shield's wielder fails their save, the shield must save as well.
+- **Water**: Affects paper and parchment. Save Target 20. Standard spellbooks (with vellum pages and magical inks) and scrolls in scroll cases always pass their save.
 
 ## Jumping
 
-**Long jumps**: Characters can jump across a stream, chasm, or pit of up to 5' wide with a 10' run-up--no roll is required. For longer jumps of up to 10', a Daunting (11+) Strength check is required. In combat, a jump ends your move.
+**Long jumps**: Characters can jump across a stream, chasm, or pit of up to 5' wide with a 10' run-up--no roll is required. For longer jumps of up to 10', a Strength check is required. In combat, a jump ends your move.
 
-**High jumps**: Characters can jump over obstackles of up to 3' high with a 10' run-up--no roll is required. For higher jumps of up to 5', a Daunting (11+) Strength check is required.
+**High jumps**: Characters can jump over obstackles of up to 3' high with a 10' run-up--no roll is required. For higher jumps of up to 5', a Strength check is required.
 
-**Modifiers**: The difficulty level is lowered one tier if the character has the Jumping skill, raised one tier (usually to Hard (14+)) if the character is wearing Medium armour, and two tiers (usually to Very Hard (17+)) if wearing Heavy armour.
+**Modifiers**: +1 if the character has the Jumping skill, -1 if wearing Medium armour, -2 if wearing Heavy armour.
 
 ## Lifting
 
@@ -819,13 +815,13 @@ Note that light sources can be seen from much further away than the illumination
 
 ## Lockpicking
 
-Characters with the proper tools and either the Lockpicking feat or skill can attempt to pick locks. This is a Dex check, the difficulty scaling with the locks' complexity. If a character's lockpicking ability is from a feat rather than a skill, the difficulty should be a level lower.
+Characters with the proper tools and either the Lockpicking Skill can attempt to pick locks.
 
 A lockpicking attempt requires 1 turn. If a character fails, they can try again, but after two failed attempts, the character cannot try that lock again until they gain a level.
 
 ### Trapped Locks
 
-Noticing a trap on a lock requires a successful Perception check (having the Lockpicking feat reduces the difficulty to notice such traps by one level). Only an active search for traps can reveal such traps without triggering them. In the case of multiple traps on a single lock, the referee will roll a separate Per check for each trap.
+Noticing a trap on a lock requires a successful Perception ability check (having the Lockpicking feat adds +1 to the roll). Only an active search for traps can reveal such traps without triggering them. In the case of multiple traps on a single lock, the referee will roll a separate Perception check for each trap.
 
 A successful lockpicking attempt disarms all detected traps in addition to opening the lock, but undetected traps will be set off automatically before any lockpicking roll is made, unless specified otherwise.
 
@@ -841,8 +837,12 @@ Potion brewing requires a stocked laboratory of at least 500d. in value. A mage 
 
 Mages learn one random spell each time they gain a level from a random school they can access (plus another spell if a specialist). If the caster has just gained access to a new spell level, the spell(s) are from that level. They can also gain access to new spells via the following methods:
 
-- **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 week + 100d. per level of the spell, and a successful Moderate (Arc x2) check, rolled at the end of the binding period; apply +2 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
-- **Research**: Casters can research new spells. These can be variants of spells the caster already knows--a Hard (Arc) check--spells the caster has witnessed being cast--a Very Hard (Arc) check--or spells the caster has only heard of--a Heroic (Arc) check. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 1d4+1x50d. in materials and 1 week.
+- **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 day + 100d. per level of the spell, and a successful Arcana ability check, applying the ability modifier twice, rolled at the end of the binding period; apply +1 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
+- **Research**: Casters can research new spells. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 100d. in materials and 1 week of time.
+
+### Lost Spellbooks
+
+In the event of disaster, a spellcaster can rewrite spells they have learned into a blank spellbook. This requires 1 day and 100d. per Rank of spell to be written.
 
 ### Spell Slot Progression Table
 
@@ -900,7 +900,7 @@ A spell on a scroll is not a prepared spell and can be cast even if the caster d
 
 For the purposes of range and so on, a scroll spell is treated as if the reader is casting it normally or is the minimum level required to cast it normally, whichever is higher.
 
-Scrolls may be scribed by anyone who has the ability to both read scrolls and to cast the spell being scribed. It costs 250d. and one week per level of the spell, which can be broken up into multiple sessions. This is a Moderate (Arc x2) check, rolled in secret by the referee at the end of the week. On a roll of a 1, the referee rerolls: a result of 1-10 means that a cursed scroll has been created.
+Scrolls may be scribed by anyone who has the ability to both read scrolls and to cast the spell being scribed. It costs 250d. and one week per level of the spell, which can be broken up into multiple sessions. This requires a successful Arcana ability check, applying the ability modifier twice, rolled at the end of the week.
 
 **Creating Magic Items:** Potions are created by alchemists, with the more powerful potions usually requiring the help of a Magic-User. A Magic-User seeking to create potions must employ an alchemist. A Magic-User must be 9th level to create potions on their own, and 11th level to create other magic items.
 
@@ -916,13 +916,10 @@ Maps are usually best made simply: boxes and lines are sufficient to keep you fr
 
 Anyone can attempt to sneak. A check is called for when attempting movement that normally attracts attention, such as slipping past a guard, or maneuvering behind a target for a surprise attack.
 
-Moving silently requires a successful Dex check, the difficulty of which is set by the referee, and which is rolled in secret by the referee. While a failed move silently check will alert the enemy in some fashion, it does not necessarily give away your position, let alone imply a bumbling, noisy disaster.
+When attempting to sneak up on or past a creature, a Surprise Roll is made each round, adding the sneaking party's Dexterity modifier. If the roll indicates Surprise, the sneaking party may move for 1 Round without being detected. Otherwise, the sneaking party is spotted. If a sneaking character has the Stealth skill, and the Surprise Roll indicates that the sneaking character has been detected, that character may make a Stealth Skill Check to remain undetected.
 
-A move silently attempt reduces your movement to 1/4 (normally, to 10' per round). Every additional 10' per round added to that movement rate raises the difficulty by one level.
-
-- **Alert Enemies**: The attention of most intelligent undead (e.g., skeletons, zombies) and constructs (e.g. golems) never wavers. As such, the difficulty of move silently checks against them is one difficulty higher.
-- **Armour**: If wearing non-magical medium or heavy armour, increase the difficulty by one level.
-- **Group Checks**: If a group attempts to sneak together, this is a group check, with the difficulty based on the group's least stealthy member.
+- **Alert Enemies**: The attention of most intelligent undead (e.g., skeletons, zombies) and constructs (e.g. golems) never wavers. As such, sneaking checks against them incurs a -1 penalty on the roll.
+- **Armour**: Wearing non-magical medium or heavy armour incurs a -1 penalty on the roll.
 - **Surprise**: Moving silently can be used to set up surprise attacks.
 
 ## NPC Spellcasting
@@ -942,13 +939,13 @@ Sages or alchemists not employed by a PC will often charge around 50d. to identi
 
 ## Perception Checks
 
-Perception checks are always made in secret by the referee. There's no requirement for players to constantly state that they're doing basic investigative tasks that are repetitive and/or obvious, like "I'm looking at the floor" or "I'm listening for noises." The slow pace of cautious exploration accounts for these.
+Perception checks are Ability Checks always made in secret by the referee. There's no requirement for players to constantly state that they're doing basic investigative tasks that are repetitive and/or obvious, like "I'm looking at the floor" or "I'm listening for noises." The slow pace of cautious exploration accounts for these.
 
 However, sometimes a scenario involves something unusually subtle or a creature has the abilities or has taken the effort to evade typical scrutiny, and calling out a specific action might be required.
 
 Overall, checks aren't made just to use one's eyes or ears or otherwise notice the obvious. A Perception check only occurs when the rules call for one (e.g. looking for traps or secret doors), or if the referee decides one is needed.
 
-For a group Perception check, the referee applies the group's average Per modifier, if any, rounding normally. For checks by individuals with a positive Per modifier, _twice_ the searcher's bonus is applied.
+For a group Perception check, the referee applies the group's average Per modifier, if any, rounding normally.
 
 ## Retainers
 
@@ -1001,9 +998,9 @@ _Deck passengers_ pay a 20d. fee per leg to sleep on the deck with the rest of t
 
 Once a ship has left port, it will be at sea for usually a week. The navigator makes a roll to successfully chart a safe course for the vessel, creating a dice result that the helmsman may have to then overcome with his pilot skill.
 
-Navigator’s Result: 6 + 1d6 – navigator skill (1 if skilled, 2 if expert).
+Navigator’s Result: 1d6 + navigator's Navigation (Nautical) Skill Target
 
-Next, the referee rolls 1d6 for that leg of the journey to determine any potential hazard. If a hazard occurs, the helmsman must avoid the hazard by rolling equal to or over the navigator’s result on 2d6. He may add his piloting skill as a positive modifier (1 if skilled, 2 if expert).
+Next, the referee rolls 1d6 for that leg of the journey to determine any potential hazard. If a hazard occurs, the helmsman must avoid the hazard by rolling equal to or over the navigator’s result on 2d6. He may add (6 - his Ship Piloting Skill Target) as a positive modifier.
 
 | Die | Type of Hazard                                           |
 | :-: | -------------------------------------------------------- |
@@ -1223,7 +1220,7 @@ at the start of each turn to determine who has the favorable wind.
 
 **Movement**: A ship will move a variable number of range bands
 depending on whether the wind is favorable to it, or unfavorable. In
-addition, a successful Hard (14+) navigation check increases speed by 1
+addition, a successful Navigation Skill Check increases speed by 1
 range band that turn. Galleys can ignore an unfavorable wind by lowering
 the sails and rowing; oars will move galleys at 2 range bands per turn.
 
@@ -1325,18 +1322,18 @@ A character can survive for up to 1 round (10 seconds) per point of Constitution
 
 All characters can swim, barring an unusual background. Assuming no current, a land-dweller swims at half their combat speed, and can do so for hours equal to 1/4 their Con score (3/4 speed and 1/2 Con with the Swimming skill); round down.
 
-Attempting to swim while wearing armour is extremely dangerous. Characters must make a strength check to avoid going under, modified as follows:
+Attempting to swim while wearing encumbered or wearing armour is extremely dangerous. Characters must make a Strength check to avoid going under, modified as follows:
 
-- **Light armour** or **Speed 30 due to encumbrance**: Daunting (11+)
-- **Medium armour** or **Speed 20 due to encumbrance**: Very Hard (17+)
-- **Heavy armour** or **Speed 10 due to encumbrance**: Heroic (20+)
-- **Rough waters**: one tier harder
+- **Light armour** or **Speed 30 due to encumbrance**: No modifier.
+- **Medium armour** or **Speed 20 due to encumbrance**: -2 penalty
+- **Heavy armour** or **Speed 10 due to encumbrance**: -4 penalty
+- **Rough waters**: -1 or -2 penalty, as judged by the referee.
 
 ## Trap Detection
 
 Spotting a trap requires a successful Perception check, usually rolled in secret by the referee. A character can actively search a 10' square for traps. This takes 1 turn; only one person can search a given square at any one time. Subtle but ultimately visible traps and triggers (such as tripwires) should be automatically detected by this; a failed search usually does not trigger traps.
 
-How well a trap is concealed determines the difficulty. The average concealed trap is Very Hard (17+) to spot during cautious exploration, or Daunting (11+) if actively being searched for and not visible.
+How well a trap is concealed determines the difficulty. The average concealed trap has a -2 penalty to the Perception check during cautious exploration, or no modifier if actively being searched for and not visible.
 
 **10-foot Poles**: Prodding ahead with one or more of these and using cautious exploration gives a 2-in-6 chance of triggering area traps (safely, unless the trap specifies otherwise).
 
@@ -1380,7 +1377,7 @@ In addition to proofing, various other upgrades are available to armours meeting
 | **Armour proofing: 2nd tier** | 2000d.        | Medium or heavy armour with the _1st tier armour proofing_ tag | While wearing this armour, if you would take 4 or less nonmagical slashing or piercing damage before resistance is applied, you take none of that damage instead.                                                                  |
 | **Armour proofing: 3rd tier** | 3000d.        | Heavy armour with the _2nd tier armour proofing_ tag           | While wearing this armour, if you would take 5 or less non- magical slashing, piercing, or bludgeoning damage before resistance is applied, you take none of that damage instead.                                                  |
 | **Breathable**                | 100d.         | Light or medium armour. Incompatible with _insulated_.         | While wearing this armour, you have a +2 bonus on saving throws against fatigue due to extreme heat.                                                                                                                               |
-| **Climbing harness**          | 100d.         | Light, medium, or heavy armour                                 | This armour has been modified with a climbing harness around the midriff, comprising leather straps and quick- draws. While wearing it, you gain a +2 bonus to checks to scale vertical surfaces when using a rope or similar aid. |
+| **Climbing harness**          | 100d.         | Light, medium, or heavy armour                                 | This armour has been modified with a climbing harness around the midriff, comprising leather straps and quick- draws. While wearing it, you gain a +1 bonus to checks to scale vertical surfaces when using a rope or similar aid. |
 | **Decorated**                 | 5d.           | Medium or heavy armour and shields                             | This armour or shield is adorned with a holy symbol and allows its bearer to cast _Turn Undead_ without holding a holy symbol.                                                                                                     |
 | **Insulated**                 | 100d.         | Incompatible with _breathable_.                                | This armour counts as cold weather gear in conditions of extreme cold.                                                                                                                                                             |
 | **Quick-release clasps**      | 200d.         | Light, medium, or heavy armour                                 | You can doff this light armour as an action, medium armour in 1 minute, and heavy armour in 5 minutes.                                                                                                                             |
@@ -1453,11 +1450,11 @@ If the party enters a hex they have not fully searched, the party makes a **navi
 
 There is no chance of getting lost if the party is following a road, and there is only a 1-in-6 chance of getting lost if the party is following a trail or track.
 
-In conditions of reduced visibility, like a thick fog or blizzard, the chance of getting lost increases by 1, and in darkness by 2.
+In conditions of reduced visibility, like a thick fog or blizzard, the chance of getting lost increases by 1 (e.g., 2-in-6 becomes 3-in-6), and in darkness by 2.
 
 If the party has a member with the Fieldcraft feat for that hex's terrain type, the chance of getting lost decreases by 1.
 
-This check is skipped if the party has a respectable map or knowledgeable guide, or if there is a road, trail, coastline, or river in the current hex they can logically follow to their next hex. The party is assumed to map any hex passed through.
+This check is skipped if the party has a respectable map or knowledgeable guide, or if there is a road, trail, coastline, or river in the current hex they can logically follow to their next hex.
 
 If the check fails, the party is lost. To leave the hex, the party must spend hex points equal to the amount they spent to enter it originally, and then make a new navigation check. Failure means that the party is still lost.
 
@@ -1487,23 +1484,23 @@ Given a means of producing flame (e.g. a tinderbox, magic) and a stash of wood (
 
 **Good conditions:** In favorable conditions, with decent wood and a relatively dry campsite, fire-building automatically succeeds.
 
-**Bad conditions:** In more troublesome circumstances, getting a fire going requires a Daunting (11+) check, though "Dwarves can make a fire almost anywhere out of almost anything, wind or no wind" and will automatically succeed. However, the referee may reduce the chance of success to account for extreme cold or damp.
+**Bad conditions:** In more troublesome circumstances, getting a fire going may require a Survival check with a +2 bonus, though "Dwarves can make a fire almost anywhere out of almost anything, wind or no wind" and will automatically succeed. However, the referee may reduce the chance of success to account for extreme cold or damp.
 
 ### Cooking
 
-Given a fire, cooking pots, and ingredients (e.g., foraged food, fresh rations, hunted game), someone may cook a meal. The cook must make a Daunting (11+) cooking skill check. (Eating trail food does not give any bonuses to Con checks required to rest.)
+Given a fire, cooking pots, and ingredients (e.g., foraged food, fresh rations, hunted game), someone may cook a meal. The cook must make a Survival Skill Check. (Eating trail food does not give any bonuses to Con checks required to rest.)
 
 **If the check succeeds:** An especially tasty dish is produced. All who eat the meal gain a bonus to any Con checks required to rest: +1 for meals made with poor ingredients, +2 for meals made with common ingredients, and +3 for meals made with fancy ingredients.
 
-**If the check fails:** A palatable but not exemplary dish is produced. On a natural 1, the cook must make a Daunting (11+) saving throw or produce a ruined and utterly inedible meal, wasting the ingredients used.
+**If the check fails:** A palatable but not exemplary dish is produced. On a natural 1, the cook must make a saving throw against a Target of 11 or produce a ruined and utterly inedible meal, wasting the ingredients used.
 
 ### Camaraderie
 
-Time spent around the fireside with one's companions may lift the spirits and induce restful sleep. A character may attempt to entertain with music, song, stirring tales, jokes, and so forth. The entertainer should make a Daunting (11+) check.
+Time spent around the fireside with one's companions may lift the spirits and induce restful sleep. A character may attempt to entertain with music, song, stirring tales, jokes, and so forth. The entertainer should make a Performance Skill Check.
 
 **If the check succeeds:** All characters gain a +1 bonus to any Con checks required to rest.
 
-**If the check fails:** The attempt to entertain falls flat. On a natural 1, the entertainer must make a Daunting (11+) saving throw or incur ridicule and discord, incurring a -1 penalty to any Con checks required to rest.
+**If the check fails:** The attempt to entertain falls flat. On a natural 1, the entertainer must make a saving throw against a Target of 11 or incur ridicule and discord, incurring a -1 penalty to any Con checks required to rest.
 
 ### Rest Checks
 
@@ -1511,12 +1508,16 @@ When camping in the wild, characters’ ability to get a good night’s rest is 
 
 | Fire | Bed             | Winter         | Spring         | Summer         | Autumn         |
 | ---- | --------------- | -------------- | -------------- | -------------- | -------------- |
-| N    | No bedding      | Auto failure   | Hard (14+)     | Daunting (11+) | Hard (14+)     |
-| N    | Bedroll or tent | Auto failure   | Daunting (11+) | Good rest      | Daunting (11+) |
-| N    | Bedroll & tent  | Hard (14+)     | Daunting (11+) | Good rest      | Daunting (11+) |
-| Y    | No bedding      | Auto failure   | Hard (14+)     | Daunting (11+) | Hard (14+)     |
-| Y    | Bedroll or tent | Hard (14+)     | Moderate (8+)  | Good rest      | Moderate (8+)  |
-| Y    | Bedroll & tent  | Daunting (11+) | Good rest      | Good rest      | Good rest      |
+| N    | No bedding      | Auto failure   | Difficult     | Moderate | Difficult     |
+| N    | Bedroll or tent | Auto failure   | Moderate | Good rest      | Moderate |
+| N    | Bedroll & tent  | Difficult     | Moderate | Good rest      | Moderate |
+| Y    | No bedding      | Auto failure   | Difficult     | Moderate | Difficult     |
+| Y    | Bedroll or tent | Difficult    | Good rest  | Good rest      | Good rest  |
+| Y    | Bedroll & tent  | Moderate | Good rest      | Good rest      | Good rest      |
+
+Moderate: The character must make a Constitution check to get a good night's rest.
+
+Difficult: The character must make a Constitution check with a -2 penalty to get a good night's rest.
 
 **If the check succeeds:** The character gets a good night’s sleep and regains 1 HP overnight if they ate a poor meal or trail food, 2 HP if they ate a common meal, and 3 HP if they ate a fancy meal.
 
@@ -1526,7 +1527,7 @@ When camping in the wild, characters’ ability to get a good night’s rest is 
 
 When on a journey, a party may try to find food in the wilds rather than rely on rations purchased in a settlement. The party may choose to fish, forage, or hunt.
 
-If the party attempts to find food as they travel, the default difficulty of the check is Very Hard (17+). If the characters devote a whole day exclusively to finding food, without travel or rest, the difficulty is Daunting (11+). A single check is made for the entire party. A character with The Fieldcraft feat has an easier time finding food, and makes the check one tier easier.
+If the party attempts to find food as they travel, make a Survival check. If the characters devote a whole day exclusively to finding food, without travel or rest, they gain a +2 bonus to the check. A single check is made for the entire party.
 
 ### Fishing
 
@@ -1538,7 +1539,7 @@ Plants and mushrooms can be found in many hexes. Successful foraging provides 1d
 
 ### Hunting
 
-Successful hunting means that the party has crept up on game animals, and must then attempt to kill them. The party has surprise and beginning combat 1d4 x 30' away from the quarry. A successful hunt yields fresh rations based on the HP of game animals killed: 1 ration per HP for small animals, 2 rations per HP for medium, and 4 rations per HPH for large.
+Successful hunting means that the party has crept up on game animals, and must then attempt to kill them. The party has surprise and beginning combat 1d4 x 30' away from the quarry. A successful hunt yields fresh rations based on the HP of game animals killed: 1 ration per HP for small animals, 2 rations per HP for medium, and 4 rations per HP for large.
 
 ## Weather
 
@@ -1552,7 +1553,7 @@ If both dice show a 1, then visibility is poor: the distance at which encounters
 
 ## Wilderness Random Encounters
 
-One check for wandering monsters is made each day. The chance of an encounter depends on the type of terrain being traversed. If a party has one or more members with Fieldcraft for that hex's terrain type, add 1 to the roll.Wandering monsters are encountered 2d6 x 30' away. If both sides are surprised, this is reduced to 1d4 x 30'.
+One check for wandering monsters is made each day. The chance of an encounter depends on the type of terrain being traversed. If a party has one or more members with Fieldcraft for that hex's terrain type, add 1 to the roll. Wandering monsters are encountered 2d6 x 30' away. If both sides are surprised, this is reduced to 1d4 x 30'.
 
 If the party spends the night in the wilderness, an additional random encounter check is made. If an encounter occurs, the referee randomly rolls to see on whose watch (if any) the encounter takes place.
 
