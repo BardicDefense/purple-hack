@@ -437,11 +437,11 @@ A character with a Perception modifier subtracts that modifier from the surprise
 
 For example, the player party’s die roll is a “3,” indicating the party is surprised. However, the surprise occurs in a forest, a terrain for which one character has a Fieldcraft feat. That character is not surprised; while the rest of the party would be unable to act in the first round of combat, that character can act normally.
 
-### **Effects of Surprise**
+### Effects of Surprise
 
 Surprise lasts one round. In that round, those that are surprised cannot take any actions. Attacks against surprised targets from behind also ignore any shield modifiers and raise the range for a critical hit by 4. Killing surprised foes might force a Morale check.
 
-## **Reactions**
+## Reactions
 
 Some encounters are essentially pre-determined due to the nature of the creatures or the encounter itself, and will end up in combat no matter what (e.g., intelligent undead and sentinels like golems will almost always attack).
 
@@ -457,7 +457,7 @@ If the players do not immediately attack, the referee rolls on the Reaction Tabl
 | 9-11                                            | Unthreatening                                   |
 | 12                                              | Actively helpful (unintelligent: Unthreatening) |
 
-## **Attacking**
+## Attacking
 
 To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceeds the target’s Armour Class (AC), the attack hits. The most common attack modifiers are:
 
@@ -481,7 +481,7 @@ To attack, the attacker rolls 1d20 and adds their attack bonus and all applicabl
 
 For PCs, a natural 20 is always a hit. The attack is also a critical hit, unless the attacker could only hit by rolling a natural 20. Melee and short-range missile attacks against sleeping, paralyzed, willing, and similar targets always hit and deal maximum damage. Such targets include PCs at 0hp.
 
-#### **Damage**
+#### Damage
 
 An attacker’s Strength modifier is applied to melee and thrown weapon attack damage. Modifiers cannot drop a successful attack below 1 point of damage. A successful charge or set vs. charge adds two weapon dice to the attack. Attacks against helpless targets automatically deal maximum damage.
 
@@ -491,7 +491,7 @@ An **unarmed strike** deals 1d2 damage (a critical hit does 4 damage), plus the 
 
 If a PC rolls a natural 20 on an attack, a **critical hit** is scored: the attack deals its maximum possible damage. However, you cannot score a critical hit if you can only hit by rolling a 20. The critical hit range is increased by 4 for all attacks from behind against a surprised target.
 
-## **Combat Phases**
+## Combat Phases
 
 Each combat round is 10 seconds and has eight steps, taken in the following order:
 
@@ -506,7 +506,7 @@ Each combat round is 10 seconds and has eight steps, taken in the following orde
 
 A character can move and take one action. Any action can be delayed until the end of the combat round. One Medium or Large weapon can be freely drawn or stowed each round; a character can draw two Small weapons simultaneously.
 
-### **Declaration Phase**
+### Declaration Phase
 
 A character charging or fleeing must declare their intent to do so at this time, and a character casting a spell must pick the exact spell at this time. A fleeing character may take no actions.
 
@@ -516,7 +516,7 @@ After declarations, certain actions can be taken this phase:
 - **Guard:** Defend an adjacent ally, granting them +2 AC. A character cannot benefit from multiple Guards. Ends if either character moves away from the other, though both characters can move together.
 - **Brace vs. Charge:** Only possible with a pike, spiked polearm, or spear, and if not prone or engaged in melee. A set combatant attacks first against the first charge made against them and adds two weapon dice if the attack hits.
 
-### **Missile Phase**
+### Missile Phase
 
 Missile attacks can be made if you are not locked in melee.
 
@@ -535,7 +535,7 @@ Other considerations:
 
 1d6 is rolled by the referee: On a 1-3 the monsters’ side moves first. On a 4-6 the players’ side moves first.
 
-### **Movement Phase**
+### Movement Phase
 
 Each combatant not locked in melee can move up to its combat speed, starting with the side that won initiative.
 
@@ -556,7 +556,7 @@ Other considerations:
 - A combatant can move 5’ per round **crawling** while prone.
 - A character can **jump** up to 5’ wide with a 10’ run-up. For longer jumps of up to 10’, a Daunting (11+) Strength check is required. This ends the combatant’s movement for the round.
 
-#### **Locked in Melee**
+#### Locked in Melee
 
 A creature within 5 feet of one or more enemies (three or more if it has the Whirlwind feat) is **locked **in melee with those enemies. Locked combatants cannot use missile weapons or leave their location until the defensive movement phase.
 
@@ -566,7 +566,7 @@ A creature within 5 feet of one or more enemies (three or more if it has the Whi
 - **Prone** creatures cannot lock opponents in melee.
 - **Size**: A creature more than two sizes large than any of their melee opponents is not locked, even if surrounded.
 
-### **Melee Phase**
+### Melee Phase
 
 Actions that can be taken this phase:
 
@@ -586,13 +586,13 @@ Other considerations:
 
 Each combatant that is locked in melee and has not yet moved this round can move up to half its movement speed, starting with the side that won initiative. A character that declared its intent to flee does so now, moving its full movement speed.
 
-### **Magic Phase**
+### Magic Phase
 
 If a caster wants to cancel a spell they’re casting that hasn’t been disrupted by having been attacked or jostled, they must do so before any spells are resolved. The spell is not lost.
 
 After spells are canceled, spells still being cast are revealed and cast in the order of their **casting time**, which is equal to their spell level, unless stated otherwise. Spells with the same casting time are cast simultaneously, unless stated otherwise. For each instance of the Quickcast feat that they have, a mage reduces their spells’ casting times by 1. Other feats raise a spell’s level, raising its casting time to match. Spells cast from scrolls add 2 to their casting time.
 
-### **Morale Phase**
+### Morale Phase
 
 If a battle is going against them, combatants may decide to retreat, flee, or surrender. Players always make this decision for their characters, but the referee may roll to determine if monsters or other NPCs break morale.
 
