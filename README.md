@@ -949,28 +949,31 @@ For a group Perception check, the referee applies the group's average Per modifi
 
 ## Retainers
 
-Retainers cost 50d. on initial hire (+50d. to request a class), plus ½ share of treasure. They will be level 1d3, but cannot be higher than the hiring PC’s level. Retainers' starting Morale typically ranges from 18 (the craven) to 6 (the elite), and can be randomly determined at hiring with a 2d6+6 roll.
+A party can hire a number of retainers equal to 4 + (the highest-level party member's level divided by 2). For example, a party with a 3rd level character could hire 5 retainers, but a party with a 4th level character could hire 6 retainers.
 
-Loyalty is checked with a Morale roll after each adventure, if the retainer is reduced to 1/4 or less of its full HP total, or if their loyalty is severely tested. If a success is rolled, the retainer’s Morale threshold decreases by one to a minimum of 6. On a failure, the retainer departs. If a retainer dies while in your service, your character is expected to pay the retainer's family a weregild of 100d. or its equivalent.
+Potential retainers may be located by frequenting inns and pubs or by paying to post notices of help wanted.
 
-Porters/torchbearers come with no equipment. Equipment purchased by the PC is kept by the PC. Retainers come with the same basic starting equipment as PCs, but no starting silver. Stats, specializations & feats are rolled randomly, and no skills are included (but can be chosen if a player ends up playing the retainer as a replacement for a lost PC, for example).
+**Frequenting inns and pubs:** Spending a night buying rounds and greasing palms in drinking establishments costs 50d. Per attempt, there is a 3-in-6 chance of successfully locating applicants. This cost can be doubled to request a certain class or abilities.
 
-Starting armour is based on class. Mages roll 1d6-1; Warriors roll 1d6+1:
+**Posting notices of help wanted:** Spending a day posting notices in public places costs 25d. Per attempt, there is a 2-in-6 chance of successfully locating applicants, who apply at the specified location 1d4 days later. This cost can be doubled to request a certain class or abilities.
 
-- 0-1=No armour (AC 9)
-- 2-3=Leather (AC 12)
-- 4-5=Ring (AC 13)
-- 6=Scale (AC 14)
-- 7=Chainmail (AC 15)
+When a search succeeds, roll on the following table:
 
-Choose a weapon option:
+|Settlement Size | Townsfolk | Retainers |
+|:---:|:---:|:---:|
+|Hamlet | 1d2 | -- |
+| Village | 1d4 | 1 |
+| Small Town | 1d6 | 1d3 |
+| Large Town | 2d4 | 1d4 |
+| City | 2d6 | 1d6 |
 
-- Option A: One medium melee weapon & a shield
-- Option B: One large weapon
-- Option C: Two medium one-handed weapons (+1 to hit)
-- Option D: One medium melee weapon & one ranged weapon (plus ammo)
+Townsfolk are everyday folk without a Class willing to join an adventuring party. Often used as torchbearers or porters, they come with no equipment, have 1d4 HP and a Loyalty of 6.
 
-If appropriate, the referee can choose to roll on the Offer Reaction Table below--applying modifiers based on party reputation, the mission description, or lavish or miserly rates of pay if desired--to decide the potential retainer's reaction:
+Retainers are classed adventurers. They will be level 1d3, but cannot be higher than the hiring PC's level. They start at a Loyalty of 7 and come with basic adventuring gear as PCs, but no starting silver. Equipment purchased by the hiring PC is kept by the PC. No skills are included (but can be chosen if a player ends up playing the retainer as a replacement for a lost PC, for example).
+
+Once an applicant has been located, the hiring PC must explain what the job entails and offer a certain wage. Townsfolk expect a daily rate of pay, depending on the job being done, while adventurers ask for a share of any treasure recovered.
+
+The applicant's reaction to the offer is determined by rolling on the Offer Reaction Table below--applying modifiers based on party reputation, the mission description, or lavish or miserly rates of pay if desired:
 
 | 2d6  |  Reaction to Offer   |
 | :--: | :------------------: |
@@ -980,7 +983,24 @@ If appropriate, the referee can choose to roll on the Offer Reaction Table below
 |  12  | Eagerly accepts\*\*  |
 
 \* The reaction is so bad that the NPC spreads negative rumors about the PC and/or party, resulting in a -2 on further hiring rolls on this table if the PC and/or party attempt further recruitment in this area.  
-\*\* Permanent -1 bonus to the retainer's Morale threshold.
+\*\* Permanent +1 bonus to the retainer's Loyalty.
+
+Loyalty is checked with a Morale roll after each adventure, if the retainer is reduced to 1/4 or less of its full HP total, or if their loyalty is severely tested. If a success is rolled, the retainer’s Morale increases by one to a maximum of 10. On a failure, the retainer departs. If a retainer dies while in your service, your character is expected to pay the retainer's family a weregild of 100d. or its equivalent.
+
+Starting armour is based on class. Mages start with no armour; battlemages start with Leather; Warriors roll 1d6:
+
+- 1-2=Leather (AC 12)
+- 3-4=Ring (AC 13)
+- 5=Scale (AC 14)
+- 6=Chainmail (AC 15)
+
+Choose a weapon option:
+
+- Option A: One medium melee weapon & a shield
+- Option B: One large weapon
+- Option C: Two medium one-handed weapons (+1 to hit)
+- Option D: One medium melee weapon & one ranged weapon (plus ammo)
+
 
 ## Sailing
 
