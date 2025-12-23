@@ -70,6 +70,7 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 - **Elf**: +1 Per, -1 Str. 90% resistance to sleep and charm spells. Immune to ghoul paralysis.
 - **Half-Elf**: 30% resistance to sleep and charm spells.
 - **Halfling**: -1 Str, +1 Dex. +1 bonus to missile weapon attacks. +2 AC vs large enemies. Cannot wield large weapons.
+- **Breggle**: +1 AC if wearing no or light armour; natural horn attack that deals level/2 damage, rounded down.
 
 ## Note Ability Score Modifiers
 
