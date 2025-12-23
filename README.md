@@ -427,118 +427,138 @@ For **Skill Checks**, the player rolls 1d6 and adds any situational modifiers. I
 
 ## Surprise
 
-Surprise is a circumstance that might occur between parties at the moment of contacting one another, indicating the possibility that one or both might be taken aback by the occurrence.
+Each party unaware of the other's presence rolls to see if they're surprised. One player rolls for the party as a whole, and the referee rolls for each other side.
 
-Once it has been determined that surprise might occur, each party potentially affected rolls a d12. The default chance of surprise is 4 in 12 (i.e., on a die roll of 4 or lower). Each roll applies to all the individuals on each side of a conflict; individuals may, however, adjust the die roll in their favor.
+The default chance of surprise is 4 in 12 (i.e., on a die roll of 4 or lower). Each roll applies to all the individuals on each side of a conflict; individuals may, however, adjust the die roll in their favor.
 
-A character with a Perception modifier subtracts that modifier from the surprise threshold (i.e., a character with a +1 Per mod is surprised on a 3 or lower; a character with a -1 Per mod is surprised on a 5 or lower, etc.). A character with the Fieldcraft feat has a default chance of being surprised of 2 in 12. The minimum chance of being surprised is 1 in 12.
+If one side is hidden or has set up an ambush, the other side has a 6 in 12 chance of being surprised.
 
-For example, the player party's die roll is a "3," indicating the party is surprised. However, the surprise occurs in a forest, a terrain for which one character has a Fieldcraft feat. That character is not surprised; while the rest of the party would be unable to act in the first round of combat, that character can act normally.
+A character with a Perception modifier subtracts that modifier from the surprise threshold (i.e., a character with a +1 Per mod is surprised on a 3 or lower; a character with a -1 Per mod is surprised on a 5 or lower, etc.). A character with the Fieldcraft feat has a default chance of being surprised of 2 in 12 while in their chosen terrain. The minimum chance of being surprised is 1 in 12.
 
-### Effects of Surprise
+For example, the player party’s die roll is a “3,” indicating the party is surprised. However, the surprise occurs in a forest, a terrain for which one character has a Fieldcraft feat. That character is not surprised; while the rest of the party would be unable to act in the first round of combat, that character can act normally.
 
-Surprise lasts one round. In that round, those that are surprised cannot move, act, or apply Dex-based AC modifiers, and attacks on them gain a +4 bonus. Attacks against surprised targets from behind also ignore any shield modifiers, and raise the range for a critical hit by 4. Killing surprised foes might force a Morale check.
+### **Effects of Surprise**
 
-## Reactions
+Surprise lasts one round. In that round, those that are surprised cannot take any actions. Attacks against surprised targets from behind also ignore any shield modifiers and raise the range for a critical hit by 4. Killing surprised foes might force a Morale check.
+
+## **Reactions**
 
 Some encounters are essentially pre-determined due to the nature of the creatures or the encounter itself, and will end up in combat no matter what (e.g., intelligent undead and sentinels like golems will almost always attack).
 
-However, when any creatures are encountered, if their nature or the circumstances don't automatically dictate their behavior, the referee _always_ rolls to see how they react to the players _before_ actions are taken.
+However, when any creatures are encountered, if their nature or the circumstances don’t automatically dictate their behavior, the referee *always* rolls to see how they react to the players *before* actions are taken.
 
 If the players do not immediately attack, the referee rolls on the Reaction Table, applying -2 to the roll if the creatures encountered are Evil, and rerolling Hostile results if the creatures are Good:
 
-| 2d6  |                    Behavior                     |
-| :--: | :---------------------------------------------: |
-|  2   |                     Hostile                     |
-| 3-6  |       Unfriendly (unintelligent: Hostile)       |
-| 7-8  |                Neutral/uncertain                |
-| 9-11 |                  Unthreatening                  |
-|  12  | Actively helpful (unintelligent: Unthreatening) |
+| 2d6                                             | Behavior                                        |
+| ----------------------------------------------- | ----------------------------------------------- |
+| 2                                               | Hostile                                         |
+| 3-6                                             | Unfriendly (unintelligent: Hostile)             |
+| 7-8                                             | Neutral/uncertain                               |
+| 9-11                                            | Unthreatening                                   |
+| 12                                              | Actively helpful (unintelligent: Unthreatening) |
 
-## Attacking
+## **Attacking**
 
-To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceeds the target's Armour Class (AC), the attack hits. The most common attack modifiers are:
+To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceeds the target’s Armour Class (AC), the attack hits. The most common attack modifiers are:
 
-- Attacker is striking from the rear: +2
+- Missile:
+    - Dexterity modifier (does not apply to damage)
+    - Range: Short: no modifier, Medium: -1, Long: -2. Beyond Long range: impossible.
+    - Target is prone: -2
+    - Low visibility (gloom, smoke, fog, etc.): -2
+    - Target has cover: -2 (half cover) or -4 (heavy cover)
+    - Firing from a moving or unsteady position: -4
+- Melee
+    - Strength modifier (also applies to damage)
+    - Dual wielding: +1
+    - Target is prone: +2
+- Attacker is striking from the rear: +2 and no shield bonus to AC
 - Target is surprised or attacker is invisible: +4 (replaces above)
-- Attacker declared an offensive stance: +2
+- Attacker is on a mount, target is upright: +1
 - Attacker cannot see target: -4
 - Attacker is fatigued: -2 (light) or -4 (heavy)
-- Attacker is on a mount, target is upright: +2
 - Attacker is using improvised weapon: -2
-- Target is prone, attacker is in melee: +4
 
 For PCs, a natural 20 is always a hit. The attack is also a critical hit, unless the attacker could only hit by rolling a natural 20. Melee and short-range missile attacks against sleeping, paralyzed, willing, and similar targets always hit and deal maximum damage. Such targets include PCs at 0hp.
 
-#### Dealing Damage
+#### **Damage**
 
-An attacker's Strength modifier is applied to melee and thrown weapon attack damage. Modifiers cannot drop a successful attack below 1 point of damage. Ar successful charge or set vs. charge adds two weapon dice to the attack. Attacks against helpless targets automatically deal maximum damage.
+An attacker’s Strength modifier is applied to melee and thrown weapon attack damage. Modifiers cannot drop a successful attack below 1 point of damage. A successful charge or set vs. charge adds two weapon dice to the attack. Attacks against helpless targets automatically deal maximum damage.
 
-An **unarmed strike** deals 1d2 damage (a critical hit does 4 damage), plus the attacker's Strength modifier. Weapon dice do not apply.
+A character who takes more than 11 hit points of damage in a single attack is dealt a serious **wound**, and will bleed an additional 1hp of damage per round at the end of each melee phase. This scales linearly: 22 damage taken at once will bleed 2hp per round, etc. A bleed can be stopped with magical healing or using an action to bandage the wound (which requires bandages).
+
+An **unarmed strike** deals 1d2 damage (a critical hit does 4 damage), plus the attacker’s Strength modifier. Weapon dice do not apply.
 
 If a PC rolls a natural 20 on an attack, a **critical hit** is scored: the attack deals its maximum possible damage. However, you cannot score a critical hit if you can only hit by rolling a 20. The critical hit range is increased by 4 for all attacks from behind against a surprised target.
 
-## Combat Phases
+## **Combat Phases**
 
-Each combat round is 10 seconds and has seven steps, taken in the following order:
+Each combat round is 10 seconds and has eight steps, taken in the following order:
 
-- **Declarations**: All spellcasting and combat stances for the round must be declared _before_ anything else in the round happens.
-- **Missile**: Combatants with equipped missile weapons can fire. Players who chose the Dash combat stance fire first, then all remaining missile attacks from all sides are resolved simultaneously.
-- **Initiative**: 1d12 is rolled by each side involved, with the side that rolled the highest winning (re-roll ties). Only determines movement order, not action order.
-- **Movement**: Everyone on the side that won initiative for the round can move, followed by any movement by the losing side.
-- **Melee**: Combatants that did not fire a missile weapon can attack with melee weapons (or take a miscellaneous action). Players who chose the Dash combat stance act first, and then all remaining actions from all sides are resolved simultaneously.
-- **Magic**: Spells are canceled if desired, and then all spells declared and not disrupted are cast.
-- **Morale**: The referee may need to make morale checks for opponents, retainers, and other NPCs.
+- **Declarations:** Dodging/parrying & guarding. Declaring spells, charging & fleeing.
+- **Missile:** Combatants with equipped missile weapons can attack.
+- **Initiative:** 1d6 is rolled by the referee: On a 1-3 the monsters’ side moves first. On a 4-6 the players’ side moves first. Only governs the movement phase; other phases happen simultaneously.
+- **Movement:** Characters not locked in melee can move.
+- **Melee:** Melee attacks and other actions
+- **Defensive Movement:** Characters locked in melee who haven’t yet moved can move.
+- **Magic:** Spells go off in order of spell level.
+- **Morale:** 2d6 for NPCs and monsters
 
-### Declaration Phase
+A character can move and take one action. Any action can be delayed until the end of the combat round. One Medium or Large weapon can be freely drawn or stowed each round; a character can draw two Small weapons simultaneously.
 
-Any character not surprised or casting a spell must pick a stance. A character casting a spell must pick the exact spell at this time, and cannot do anything else that round (i.e., no moves, attacks, actions, etc.).
+### **Declaration Phase**
 
-#### **Combat Stances**
+A character charging or fleeing must declare their intent to do so at this time, and a character casting a spell must pick the exact spell at this time. A fleeing character may take no actions.
 
-- **Offensive**: +2 attack bonus
-- **Defensive**: +2 Armour Class
-- **Dash**: Your action occurs before those of the enemy (exceptions: charging a set opponent; attacking a pike/spear wall; grapple attempts)
-- **Guard**: Pick a 5' square. If you remain within 10' of it and can move freely, the first two enemies you are in the way of that try to move up to or make a ranged attack against anything in that square must engage you instead. Enemies already within 5' of the square or whom you are not in the way of are unaffected. Additionally, if an enemy can't be locked in melee, you cannot block its move.
-  The effects of a stance last only for that round. Monsters and NPCs do not use stances.
+After declarations, certain actions can be taken this phase:
 
-### Missile Phase
+- **Parry/Dodge:** Gain +1 AC or +Str mod AC or +Dex mod AC, whichever is higher.
+- **Guard:** Defend an adjacent ally, granting them +2 AC. A character cannot benefit from multiple Guards. Ends if either character moves away from the other, though both characters can move together.
+- **Brace vs. Charge:** Only possible with a pike, spiked polearm, or spear, and if not prone or engaged in melee. A set combatant attacks first against the first charge made against them and adds two weapon dice if the attack hits.
 
-Missile attacks can be made if you have a ranged weapon equipped at the start of the round, are not locked in melee, and the target is not blocked (by one or more creatures along direct line of sight, unless the target is one or more sizes larger than any blockers).
+### **Missile Phase**
 
-Missile attacks use all relevant modifiers above, except the bonus for being on a mount or the target being prone. Missile-specific modifiers include:
+Missile attacks can be made if you are not locked in melee.
 
-- Target is prone, attacker is at range: -2
-- Firing from a moving or unsteady position: -4
-- Low visibility (gloom, smoke, fog, etc.): -2
-- Target has cover: -2 (half cover) or -4 (heavy cover)
-- Target is at medium range: -4
-- Target is at long range: -8
+Actions that can be taken this phase:
 
-A miss is generally presumed to hit no other target. Other considerations:
+- **Attack:** Attack with a missile weapon. A second attack this round can only be made if both attacks are made with small weapons, and it incurs a -4 penalty to hit. A Marksman character can ignore this penalty.
+- **Reload:** Reload a crossbow.
 
-- **Crossbows** can be fired while kneeling or prone.
-- **Firing into Melee**: To pick a target that is in melee, the target must be one or more sizes larger than all those with which it is in melee (unless the attacker is a warrior with the marksman feat). Otherwise, the attacker randomly rolls to see who in that melee (friend or foe) they roll their attack against. A target's melee opponents do not provide it cover.
-- **Holding Fire**: Instead of firing in the Missile Phase, an attacker can choose to wait until the end of any other Phase. This allows the use of thrown weapons "on the run" at the end of the Movement Phase at short range, just before being locked in melee.
-- **Magic Devices**: Ranged effects and spells from magic items are treated as missile attacks, except for line of sight.
+Other considerations:
+
+- **Crossbows** can be loosed while kneeling or prone.
+- **Firing into Melee**: The attack roll is penalized by -2 for each combatant in melee with the intended target (to a maximum penalty of -6). A character with the Marksman feat ignores this penalty. On a natural 1 attack roll, the missile hits a randomly determined combatant in melee with the intended target, inflicting damage.
 - **Poor Conditions**: If in very windy conditions, or if the target is above the attacker, long-range missile attacks cannot be made. If both, medium-range missile attacks also cannot be made.
 
-### Movement Phase
+### Initiative Phase
 
-In an encounter, a creature can move once per round up to its combat speed (for unencumbered PCs, this is 40'). One can move through creatures that allow it and aren't in a tight formation. Modifications include:
+1d6 is rolled by the referee: On a 1-3 the monsters’ side moves first. On a 4-6 the players’ side moves first.
 
-- **Backwards Movement** applies a x2 movement cost penalty (e.g. 5' of clear terrain costs 10' of movement).
-- **Charging**: An attacker with a lance, pike, large spear, or similar large pole weapon and no more than lightly encumbered can charge. So too can creatures with large horns/tusks. A charge must be in a straight line from at least 30' away, in non-difficult terrain, and not uphill. The attacker's first strike on the round it makes the charge adds two weapon dice if it hits.
-- **Difficult Terrain** applies a x2 movement cost penalty (or x3 if moving backward).
-- **Encumbrance**: Being encumbered reduces your combat speed.
+### **Movement Phase**
+
+Each combatant not locked in melee can move up to its combat speed, starting with the side that won initiative.
+
+Actions that can be taken this phase:
+
+- **Charge:** Move at least 20' in a straight line and attack, gaining +1 to hit and two additional damage dice on a hit, but a -1 to AC for the round. This uses both your action and movement for the round.
+- **Drop Prone/Stand Up**
+- **Take Cover:** Hunker down behind cover for “half cover” (-2 penalty on incoming missile attacks). If this action is taken again and it makes sense, “full cover” is granted (-4 penalty on incoming missile attacks).
+- **Hide:** Use cover or concealment to become hidden. Requires a successful Stealth check with a target of 6. Feats and abilities may lower this target.
+- **Something cool:** Take a movement-related action of some sort not on the list.
+
+Other considerations:
+
+- A character can **move through creatures** at that allow it and aren’t in a tight formation. This costs 10’ of movement per 5’ of creatures moved through.
+- **Difficult Terrain** applies a x2 movement cost penalty.
 - **Holding Movement**: A combatant on the side that won initiative can choose to move after the enemy in the round.
-- **Jumping** ends your move that round.
-- **Prone**: To stand up, a prone creature must use all their movement for the round.
-- **Set vs. Charge**: If armed with a pike, spiked polearm, or large spear, a combatant not prone or locked in melee can choose not to move that round and instead hold their weapon firm, braced against the ground. A set combatant attacks first against the first charge made against them (even if the attacker has the Dash stance), and adds two weapon dice if it hits.
+- A combatant can move half speed while dragging a **grappled **opponent or while **sneaking** to remain hidden.
+- A combatant can move 5’ per round **crawling** while prone.
+- A character can **jump** up to 5’ wide with a 10’ run-up. For longer jumps of up to 10’, a Daunting (11+) Strength check is required. This ends the combatant’s movement for the round.
 
-#### Locked in Melee
+#### **Locked in Melee**
 
-A creature within 5 feet of one or more enemies (three or more if it has the Whirlwind feat) is **locked** in melee with those enemies. Locked combatants cannot use missile weapons or leave their location unless they make a fighting withdrawal or flee.
+A creature within 5 feet of one or more enemies (three or more if it has the Whirlwind feat) is **locked **in melee with those enemies. Locked combatants cannot use missile weapons or leave their location until the defensive movement phase.
 
 - **Blind** creatures can only lock opponents in melee if surrounding them.
 - **Flight and Teleportation** allow one to leave melee without penalty, even if surrounded.
@@ -546,47 +566,46 @@ A creature within 5 feet of one or more enemies (three or more if it has the Whi
 - **Prone** creatures cannot lock opponents in melee.
 - **Size**: A creature more than two sizes large than any of their melee opponents is not locked, even if surrounded.
 
-#### Fighting Withdrawal
+### **Melee Phase**
 
-A creature locked in melee can move out of that melee if they didn't make a missile attack that round, but all their movement for the round must be backwards (applying the standard x2 movement cost penalty). They can take no actions that round.
+Actions that can be taken this phase:
 
-#### Fleeing
+- **Attack:** Strike with a weapon, making an attack roll to hit.
+- **Trip/Grapple/Push/Escape:** The attacker makes a melee attack roll with a -4 penalty. If successful, the defender must succeed on a saving throw. If the save fails, the defender is knocked prone, held by the attacker (who must have a free hand to do so), or pushed 5’, respectively. Escape as an action allows for a saving throw to escape being grappled or immobilized. Special attacks like these happen before regular weapon attacks.
+- **Use Item:** Use a magic item, drink a potion, etc.
+- **First Aid:** Attempt to bind a wound or stabilize a dying companion.
+- **Something cool:** Take an action of some sort not on the list.
 
-A fleeing creature can move as normal, but must leave the melee they're in. However, any enemy with which they were in melee prior to fleeing may first choose to take its attack(s) for the round against the fleeing creature, instead of in the Melee Phase. Such attacks gain the +2 rear attack bonus, while the fleeing creature loses all shield and stance AC bonuses.
+Other considerations:
 
-#### Running
-
-If a combatant did not act in the Missile Phase and commits to taking no actions this round, they may **run**. This raises their movement this round by 50% (rounded down to the nearest 5'), or by 100% with the Running skill.
-
-### Melee Phase
-
-In the Melee Phase, a combatant can take one action: a single attack against an opponent with which they are in melee, or a single non-attack action. All actions in this phase are simultaneous, not affecting any other action that phase, unless specifically stated otherwise. Considerations include:
-
-- **Dash**: Choosing this combat stance allows a PC to act first that round, instead of simultaneously.
-- **Grappling:** The attackers (or attacker) make individual to-hit rolls. The grapple is resolved among those who hit: Each combatant rolls their total hit dice. If the sum of the attackers’ dice is higher than the defender’s total, the defender is grappled. If the sums are exactly equal, everyone is struggling, and none of them can attack with a weapon. If the defender wins, the attackers are beaten back and stunned for a number of rounds equal to the number of points by which the defender beat them. Breaking free of a grapple requires another HD contest; all currently grappling together are counted as automatically having hit.
-- **Polearms** (spears, pikes, etc.) in the second rank of a battle formation can attack by reaching through the first rank.
+- **Polearms** (spears, pikes, etc.) in the second rank of a battle formation can melee attack by reaching through the first rank.
 - **Spacing & the Second Rank:** Only daggers, shortswords, spears, and polearms can be used three-abreast in a 10’ area. All other one-handed weapons require five feet of room (two-abreast in a 10’ area), and non-thrusting two-handed weapons require a full 10’ space to wield.
-- **Two-weapon fighting**: A combatant can use two melee weapons at once, which grants a +1 attack bonus (but no additional attacks).
+- **Attacks vs Fleeing Enemies** gain a +2 bonus to hit and ignore the defender’s shield bonus to AC.
 
-### Magic Phase
+### Defensive Movement
 
-If a caster wants to cancel a spell they're casting that hasn't been disrupted by having been attacked or jostled, they must do so before any spells are resolved.
+Each combatant that is locked in melee and has not yet moved this round can move up to half its movement speed, starting with the side that won initiative. A character that declared its intent to flee does so now, moving its full movement speed.
 
-After spells are canceled, spells still being cast are revealed and cast in the order of their **casting time**, which is equal to their spell level, unless stated otherwise. Spells with the same casting time are cast simultaneously, unless stated otherwise. For each instance of the Quickcast feat that they have, a mage reduces their spells' casting times by 1. Other feats raise a spell's level, raising its casting time to match. Spells cast from scrolls add 2 to their casting time.
+### **Magic Phase**
 
-### Morale Phase
+If a caster wants to cancel a spell they’re casting that hasn’t been disrupted by having been attacked or jostled, they must do so before any spells are resolved. The spell is not lost.
 
-Monsters and NPCs (but not PCs) have a **Morale threshold** between 1 and 20, representing how likely they are to fight or flee; the lower the threshold, the better.
+After spells are canceled, spells still being cast are revealed and cast in the order of their **casting time**, which is equal to their spell level, unless stated otherwise. Spells with the same casting time are cast simultaneously, unless stated otherwise. For each instance of the Quickcast feat that they have, a mage reduces their spells’ casting times by 1. Other feats raise a spell’s level, raising its casting time to match. Spells cast from scrolls add 2 to their casting time.
 
-Creatures with a Morale of 20 only fight if cornered and always flee if able, while those with a Morale of 1 never retreat unwillingly, but can be convinced to (if intelligent), and are still susceptible to magical fear. A score of -- means the creature ignores the Morale rules altogether, just like PCs.
+### **Morale Phase**
 
-The referee makes a Morale check--rolling 1d20, applying any situational modifiers (light fatigue gives -2, heavy fatigue gives -4, etc.)--at the end of a round for each of the following that occurred that round:
+If a battle is going against them, combatants may decide to retreat, flee, or surrender. Players always make this decision for their characters, but the referee may roll to determine if monsters or other NPCs break morale.
 
-- Half or more of the side present at the battle's start has been incapacitated or killed.
-- The last of the side (or its only member) was reduced to 1/4 or less of its full Hit Point total.
-- A group with a Morale of 12 or higher that has any of its members killed during the surprise round.
-- Any other unusually trying circumstance, at the referee's discretion.
-  If the roll is lower than the Morale threshold, the check fails: the creature or side attempts to flee.
+**Morale Checks:** Roll 2d6 for a given side. If the result exceeds the combatant's Morale, their morale breaks and they try to flee or surrender in the next round. Otherwise, they keep fighting.
+
+**When to check:**
+
+- The first time a combatant on that side has been killed, and when half the side has been killed.
+- For a creature encountered alone, when first harmed and when at 1/4 or less of its full Hit Point total.
+
+If a side makes two successful Morale checks in an encounter, they will fight to the death, with no further checks necessary.
+
+**Modifiers:** Light fatigue gives -1, heavy fatigue gives -2. Other situational modifiers may apply.
 
 ## Escaping an Encounter
 
