@@ -54,7 +54,7 @@ Conversion guide is found [here](conversion.md).
 
 ## Roll Your Stats
 
-Roll 3d6 down the line for each of the skills below. You can swap one set of stats.
+Roll 3d6 down the line for each of the skills below. You can swap one set of stats. If your total ability score modifiers equals -3 or lower, you may discard the character and start again.
 
 - **Strength** measures physical might. It affects your lifting, carrying, and grappling. Any Str modifier is applied to your melee and thrown weapon attack damage.
 - **Dexterity** measures agility, reflexes, and hand-eye coordination. Any Dex mod is applied to your Armour Class, as long as you can move freely.
