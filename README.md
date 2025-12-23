@@ -643,11 +643,11 @@ If the pursuers catch the fleeing side, a new combat round begins in the Melee P
 
 ## Death
 
-When a player character’s hit points reach 0, the character is unconscious and must make a Save Target Con saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, requiring a successful First Aid skill check (default Skill Target of 6); if the aiding PC uses proper bandages, the check's target is lowered by 1. Other modifiers may apply.
+When a player character’s hit points reach 0, the character is unconscious and must make a Save Target 11 Constitution saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, requiring a successful First Aid skill check (default Skill Target of 6); if the aiding PC uses proper bandages, the check's target is lowered by 1. Other modifiers may apply.
 
 Even after returning to 1 or more hp, the character will remain in a coma for 1d6 turns and must rest for a minimum of one week before resuming any sort of strenuous activity, mental or physical. Magical healing that returns characters to consciousness does not incur these penalties.
 
-Characters who are slain may be raised from the dead if a Mage of sufficient level is available to perform the casting. Each time a character is brought back from the dead, their CON score is reduced by one point.
+Characters who are slain may be raised from the dead if a Mage of sufficient level is available to perform the casting. Each time a character is brought back from the dead, their Constitution score is reduced by one point.
 
 ---
 
@@ -990,7 +990,7 @@ Townsfolk are everyday folk without a Class willing to join an adventuring party
 
 Retainers are classed adventurers. They will be level 1d3, but cannot be higher than the hiring PC's level. They start at a Loyalty of 7 and come with basic adventuring gear as PCs, but no starting silver. Equipment purchased by the hiring PC is kept by the PC. No skills are included (but can be chosen if a player ends up playing the retainer as a replacement for a lost PC, for example).
 
-Once an applicant has been located, the hiring PC must explain what the job entails and offer a certain wage. Townsfolk expect a daily rate of pay, depending on the job being done, while adventurers ask for a share of any treasure recovered.
+Once an applicant has been located, the hiring PC must explain what the job entails and offer a certain wage. Townsfolk expect a daily rate of pay, depending on the job being done (see [hirelings](#hirelings)) while adventurers ask for a share of any treasure recovered, usually a half share.
 
 The applicant's reaction to the offer is determined by rolling on the Offer Reaction Table below--applying modifiers based on party reputation, the mission description, or lavish or miserly rates of pay if desired:
 
@@ -1554,9 +1554,9 @@ When camping in the wild, characters’ ability to get a good night’s rest is 
 | Y    | Bedroll or tent | Difficult    | Good rest  | Good rest      | Good rest  |
 | Y    | Bedroll & tent  | Moderate | Good rest      | Good rest      | Good rest      |
 
-Moderate: The character must make a Constitution check to get a good night's rest.
+**Moderate:** The character must make a Constitution check to get a good night's rest.
 
-Difficult: The character must make a Constitution check with a -2 penalty to get a good night's rest.
+**Difficult:** The character must make a Constitution check with a -2 penalty to get a good night's rest.
 
 **If the check succeeds:** The character gets a good night’s sleep and regains 1 HP overnight if they ate a poor meal or trail food, 2 HP if they ate a common meal, and 3 HP if they ate a fancy meal.
 
