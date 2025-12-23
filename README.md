@@ -187,7 +187,7 @@ Concretely, skills might, depending on the circumstances, allow you to:
 - Lessen the consequences of failure.
 - Gain information not obvious to the average observer.
 
-Sample general skills include: Acrobatics, Climbing, Disguise, Etiquette, Gambling, Herbalism, Jumping, Language (_choose one_), Lore (_specific subject_), Navigation (Nautical), Performance, Riding, Running, Shadowing, Ship Piloting, Stealth, Survival, Swimming, Tracking, Wrestling.
+Sample general skills include: Acrobatics, Climbing, Disguise, Etiquette, First Aid, Gambling, Herbalism, Jumping, Language (_choose one_), Lore (_specific subject_), Navigation (Nautical), Performance, Riding, Running, Shadowing, Ship Piloting, Stealth, Survival, Swimming, Tracking, Wrestling.
 
 Sample specialized skills include: Blindfighting, Decipher Document, Lockpicking, Pick Pockets, Read Lips.
 
@@ -643,7 +643,7 @@ If the pursuers catch the fleeing side, a new combat round begins in the Melee P
 
 ## Death
 
-When a player character’s hit points reach 0, the character is unconscious and must make a Save Target Con saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, requiring a successful Medicine skill check (default Skill Target of 6); if the aiding PC uses proper bandages, the check's target is lowered by 1. Other modifiers may apply.
+When a player character’s hit points reach 0, the character is unconscious and must make a Save Target Con saving throw. On a failure, the character dies. On a success, the character will die in 1d4 rounds, rolled in secret by the referee, unless magically healed or aided by another player character. Each PC may attempt to aid once, requiring a successful First Aid skill check (default Skill Target of 6); if the aiding PC uses proper bandages, the check's target is lowered by 1. Other modifiers may apply.
 
 Even after returning to 1 or more hp, the character will remain in a coma for 1d6 turns and must rest for a minimum of one week before resuming any sort of strenuous activity, mental or physical. Magical healing that returns characters to consciousness does not incur these penalties.
 
