@@ -66,8 +66,8 @@ Roll 3d6 down the line for each of the skills below. You can swap one set of sta
 ## Choose a Character Race & Make Any Adjustments
 
 - **Humans**: The most flexible & common. +1 to one stat of your choice.
-- **Dwarf**: +1 Con, -1 Dex. Add Con mod to saves vs poison. Cannot wield large weapons.
-- **Elf**: +1 Per, -1 Str. 90% resistance to sleep and charm spells. Immune to ghoul paralysis.
+- **Dwarf**: +1 Con, -1 Dex. Add double Con mod to saves vs poison. Cannot wield large weapons.
+- **Elf**: +1 Per, -1 Str. Add double Arc mod to saves vs magic. 90% resistance to sleep and charm spells. Immune to ghoul paralysis.
 - **Half-Elf**: 30% resistance to sleep and charm spells.
 - **Halfling**: -1 Str, +1 Dex. +1 bonus to missile weapon attacks. +2 AC vs large enemies. Cannot wield large weapons.
 - **Breggle**: +1 AC if wearing no or light armour; natural horn attack that deals level/2 damage, rounded down.
