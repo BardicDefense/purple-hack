@@ -121,7 +121,7 @@ Using the [character background generator](/background.md#institution), determin
 
 ## Choose Languages
 
-You start play knowing your native language(s). Additionally, roll 1d6. On a 5, you gain one more language. On a 6, you gain two more languages. Mages also know Mithric (the language of magic), plus one additional language of their choice.
+You start play knowing your native language(s). Additionally, roll 1d6. On a 5, you gain one more language. On a 6, you gain two more languages. Mages automatically know Mithric (the language of magic).
 
 ## Choose Feat(s)
 
