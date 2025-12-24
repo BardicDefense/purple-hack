@@ -331,7 +331,7 @@ and neither does a Shield spell and a Shield effect from a magical item.
 
 ## Spell Descriptions
 
-### 1st Rank Spells
+### RANK 1 SPELLS
 
 #### Alarm
 
@@ -433,7 +433,9 @@ All illusions within view are revealed as such to the subject.
 _Divination (R: Self, D: 10 minutes)_  
 AoE: 60-ft radius. All magical emanations glow softly. The caster knows the
 magic’s strength (faint, moderate, strong, overwhelming) and the school(s)
-associated with that magic.
+associated with that magic. The imprinted energy patterns of memorised arcane
+spells glow, surrounding arcane spell-casters’ heads with a halo of rainbow
+hues.
 
 #### Detect Portals & Passages
 
@@ -628,7 +630,7 @@ _Illusion (R: Short, D: 20 minutes)_
 The caster’s voice emanates from anywhere within range (e.g. a statue, a
 tapestry, an animal).
 
-### 2ND RANK SPELLS
+### Rank 2 Spells
 
 #### Arcane Lock
 
@@ -706,9 +708,9 @@ _Abjuration (R: Short, D: Instant)_ A caster can always pick this spell (if
 prepared) as their declared spell in response to an enemy casting a spell,
 replacing any other declared spell. In the Magic Phase, before spells are
 resolved, the dispeller and the enemy each make a dispel check: roll 1d6 +
-caster level. The enemy adds the level of the spell they are trying to cast, and
-the highest result wins; ties go to the dispeller. If the dispeller wins, the
-enemy spell is disrupted.
+caster level + rank of the spell being cast (e.g., Counterspell will usually be
+2). The highest result wins; ties go to the dispeller. If the dispeller wins,
+the enemy spell is disrupted.
 
 #### Detect Invisibility
 
@@ -847,9 +849,12 @@ constructs).
 #### Shocking Strike
 
 _Evocation (R: Self, D: 2 hours)_  
-This spell charges the caster’s hand or a weapon they are holding. The first
-strike made by such deals an additional 1d6+2 electrical damage, dissipating the
-charge. Add +5 damage and one strike before dissipating per name level.
+This spell charges the caster’s hand or a weapon they are holding with a number
+of charges equal to the caster's level. While charged, attacks made with the
+hand or weapon deal an additional 1d6 electrical damage. For a missile weapon,
+one charge is dissipated per attack whether or not the attack hits, but a melee
+weapon's charges are dissipated only on a hit. The spell adds one damage die per
+name level of the caster.
 
 #### Silence
 
