@@ -148,7 +148,7 @@ All characters receive one feat at 1st level, and another feat at each name leve
 A mage can combine multiple feats on a spell. The spell adjustments from these stack (e.g. a _Silent Undeniable Magic Missile_ spell would in all ways be treated as a 3rd level spell). A feat cannot take a spell over 6th level.
 
 - **Arcane Antipathy**: You dedicate yourself to rooting out practitioners of dark magic. You gain a +2 bonus to Saving Throws against magic, and spellcasters suffer a -2 penalty to Saving Throws against spells cast by you.
-- **Detect Magic**: You gain a "Detect Magic" skill with a starting Skill Target of 6 that allows you to touch an object, place, or creature for 1 Turn to see if it is magical. On a success, you know if the object, place, or creature is magical--i.e., enchanted, affected by a spell, or possessed of innate magic of some kind. The Skill Target lowers by 1 every name level.
+- **Detect Magic**: You gain a "Detect Magic" skill with a starting Skill Target of 6 that allows you to touch an object, place, or creature for 1 Turn to see if it is magical. On a success, you know if the object, place, or creature is magical--i.e., enchanted, consecrated, affected by a spell, or possessed of innate magic of some kind. The Skill Target lowers by 1 every name level.
 - **Dextrous**: You can cast 1st-level spells using only one hand. For each name level you have, the level of spells that can be cast in this way increase by one.
 - **Familiar**: You acquire a Tiny or Small mundane creature appropriate to the area that obeys your commands. You can see through its eyes, and gain a small power appropriate to the creature while doing so (e.g. +2 visual Perception for a bird). Regardless of its normal statblock, the creature has 2 Hit Dice. Its death applies one level of fatigue to you for the next week, after which you may take a new familiar.
 - **Metamagic**: You can craft your spells to require either no vocal component ("Silent") or no somatic component ("Stilled"). Preparing a Metamagic spell uses up a spell slot one level higher than the spell's normal level. This feat may be taken three times. The second time removes either vocal or somatic components from your spells permanently (must be chosen at the time of the feat), with no level adjustment to them required. A spell may not be both Silent and Stilled until the feat is taken a third time, which allows this combination.
@@ -159,7 +159,8 @@ A mage can combine multiple feats on a spell. The spell adjustments from these s
 
 - **Animal Companion**: You may attempt to forge a bond with a single wild or domestic ordinary animal. If the animal companion dies or is dismissed, you may attempt to forge a connection with a new animal. An animal companion may not exceed your Level and does not level in any way. To establish a connection, you must approach the animal and interact in a peaceful manner for 1 Turn. On a successful Animal Handling check with a default Skill Target of 4, the animal becomes your companion. Once a connection is established, the companion follows you everywhere, understands basic commands, and fights to the death to defend you.
 - **Anointed**: You are zealous for your god or extra-planar benefactor. Spells or effects that would target supernatural creatures aligned with your patron also affect you.
-  - You lose access to the usual arcane spell list and instead gain access to the holy spell list. You do not need a spellbook, and instead pray daily for spells, choosing from all the spells available to you each day.
+  - You lose access to the usual arcane spell list and instead gain access to the holy spell list. You do not need a spellbook, and instead pray daily for spells, choosing from all the spells available to you each day. You must carry a holy symbol and hold it to cast your spells.
+  - Gain access to the Turn Undead spell, but as a once-per-Turn ability that does not consume any spell slots.
   - Gain the "Laying on hands" ability, a healing touch once per day that heals HP equal to your level.
 - **Conditioning**: Gain +2 to a chosen ability score. This feat can be taken only once for a given ability score.
 - **Fieldcraft**: Gain +1 Constitution. Pick two broad terrain types (forest, desert, swamps, jungle, tundra, mountains, etc.). In these terrain types, your difficulties for tasks such as stealth, perception, tracking, and concealing tracks are lowered by 1, and you:
@@ -312,6 +313,7 @@ Finally, you can add "costed" items, which do cost money at character creation.
 **Tent**: Protects against adverse weather when adventuring in the wilds. See [sleeping in the wilds](#sleeping-in-the-wilds).
 
 **Wolfsbane**: A werewolf must make a successful saving throw against a target of 11 each round in order to make a melee attack against someone decorated with sprigs of wolfsbane.
+
 ## Armour
 
 An unarmoured character has a base Armour Class of 10.
@@ -445,33 +447,33 @@ Surprise lasts one round. In that round, those that are surprised cannot take an
 
 Some encounters are essentially pre-determined due to the nature of the creatures or the encounter itself, and will end up in combat no matter what (e.g., intelligent undead and sentinels like golems will almost always attack).
 
-However, when any creatures are encountered, if their nature or the circumstances don’t automatically dictate their behavior, the referee *always* rolls to see how they react to the players *before* actions are taken.
+However, when any creatures are encountered, if their nature or the circumstances don’t automatically dictate their behavior, the referee _always_ rolls to see how they react to the players _before_ actions are taken.
 
 If the players do not immediately attack, the referee rolls on the Reaction Table, applying -2 to the roll if the creatures encountered are Evil, and rerolling Hostile results if the creatures are Good:
 
-| 2d6                                             | Behavior                                        |
-| ----------------------------------------------- | ----------------------------------------------- |
-| 2                                               | Hostile                                         |
-| 3-6                                             | Unfriendly (unintelligent: Hostile)             |
-| 7-8                                             | Neutral/uncertain                               |
-| 9-11                                            | Unthreatening                                   |
-| 12                                              | Actively helpful (unintelligent: Unthreatening) |
+| 2d6  | Behavior                                        |
+| ---- | ----------------------------------------------- |
+| 2    | Hostile                                         |
+| 3-6  | Unfriendly (unintelligent: Hostile)             |
+| 7-8  | Neutral/uncertain                               |
+| 9-11 | Unthreatening                                   |
+| 12   | Actively helpful (unintelligent: Unthreatening) |
 
 ## Attacking
 
 To attack, the attacker rolls 1d20 and adds their attack bonus and all applicable modifiers. If the result equals or exceeds the target’s Armour Class (AC), the attack hits. The most common attack modifiers are:
 
 - Missile:
-    - Dexterity modifier (does not apply to damage)
-    - Range: Short: no modifier, Medium: -1, Long: -2. Beyond Long range: impossible.
-    - Target is prone: -2
-    - Low visibility (gloom, smoke, fog, etc.): -2
-    - Target has cover: -2 (half cover) or -4 (heavy cover)
-    - Firing from a moving or unsteady position: -4
+  - Dexterity modifier (does not apply to damage)
+  - Range: Short: no modifier, Medium: -1, Long: -2. Beyond Long range: impossible.
+  - Target is prone: -2
+  - Low visibility (gloom, smoke, fog, etc.): -2
+  - Target has cover: -2 (half cover) or -4 (heavy cover)
+  - Firing from a moving or unsteady position: -4
 - Melee
-    - Strength modifier (also applies to damage)
-    - Dual wielding: +1
-    - Target is prone: +2
+  - Strength modifier (also applies to damage)
+  - Dual wielding: +1
+  - Target is prone: +2
 - Attacker is striking from the rear: +2 and no shield bonus to AC
 - Target is surprised or attacker is invisible: +4 (replaces above)
 - Attacker is on a mount, target is upright: +1
@@ -552,13 +554,13 @@ Other considerations:
 - A character can **move through creatures** at that allow it and aren’t in a tight formation. This costs 10’ of movement per 5’ of creatures moved through.
 - **Difficult Terrain** applies a x2 movement cost penalty.
 - **Holding Movement**: A combatant on the side that won initiative can choose to move after the enemy in the round.
-- A combatant can move half speed while dragging a **grappled **opponent or while **sneaking** to remain hidden.
+- A combatant can move half speed while dragging a **grappled**opponent or while **sneaking** to remain hidden.
 - A combatant can move 5’ per round **crawling** while prone.
 - A character can **jump** up to 5’ wide with a 10’ run-up. For longer jumps of up to 10’, a Daunting (11+) Strength check is required. This ends the combatant’s movement for the round.
 
 #### Locked in Melee
 
-A creature within 5 feet of one or more enemies (three or more if it has the Whirlwind feat) is **locked **in melee with those enemies. Locked combatants cannot use missile weapons or leave their location until the defensive movement phase.
+A creature within 5 feet of one or more enemies (three or more if it has the Whirlwind feat) is **locked**in melee with those enemies. Locked combatants cannot use missile weapons or leave their location until the defensive movement phase.
 
 - **Blind** creatures can only lock opponents in melee if surrounding them.
 - **Flight and Teleportation** allow one to leave melee without penalty, even if surrounded.
@@ -765,11 +767,11 @@ Damage from falling is determined as follows: Falls of less than 5 ft do no dama
 
 Fatigue represents a serious depletion of body, mind, or spirit.
 
-| Fatigue Level |                   Effect                   |
-| :-----------: | :----------------------------------------: |
-|     Light     |  -1 to attacks, checks, and Morale checks  |
-|     Heavy     | -2 to attacks, checks, and Morale checks, -10 Speed |
-|  Exhaustion   |     -2 to attacks, checks, and Morale checks, halve HP, -20 Speed     |
+| Fatigue Level |                            Effect                             |
+| :-----------: | :-----------------------------------------------------------: |
+|     Light     |           -1 to attacks, checks, and Morale checks            |
+|     Heavy     |      -2 to attacks, checks, and Morale checks, -10 Speed      |
+|  Exhaustion   | -2 to attacks, checks, and Morale checks, halve HP, -20 Speed |
 
 Possession four or more levels of fatigue results in death. Fatigue levels from different sources stack.
 
@@ -795,7 +797,7 @@ A character will recover 1 HP by resting overnight in a safe and comfortable loc
 
 ## Item Saving Throws
 
-Generally, only creatures make saving throws. However, some items are especially fragile, and some rare effects (like area-effect attacks or puddings/oozes) specifically target objects. A failed item save results in the item's destruction, while a successful save results in no damage or effect. 
+Generally, only creatures make saving throws. However, some items are especially fragile, and some rare effects (like area-effect attacks or puddings/oozes) specifically target objects. A failed item save results in the item's destruction, while a successful save results in no damage or effect.
 If a creature must make a saving throw and it passes, no item carried by that creature needs to make a save unless the effect specifies otherwise.
 
 **Fragile items** can be almost anything (not including weapons, armour, or typical adventuring gear), but most notably include potions, scrolls, and wands that is equipped (kept close at hand, so that they're usable in combat without requiring an action to draw). The price of having such useful items at hand for immediate use is that they're vulnerable to destruction. For example, a potion in a backpack is not available for drinking in combat, but at the same time, if its owner is hit by a fireball, the potion is safe. Fragile items are the exception rather than the rule, and tend to be consumable, creating a risk to their use.
@@ -978,13 +980,13 @@ Potential retainers may be located by frequenting inns and pubs or by paying to 
 
 When a search succeeds, roll on the following table:
 
-|Settlement Size | Townsfolk | Retainers |
-|:---:|:---:|:---:|
-|Hamlet | 1d2 | -- |
-| Village | 1d4 | 1 |
-| Small Town | 1d6 | 1d3 |
-| Large Town | 2d4 | 1d4 |
-| City | 2d6 | 1d6 |
+| Settlement Size | Townsfolk | Retainers |
+| :-------------: | :-------: | :-------: |
+|     Hamlet      |    1d2    |    --     |
+|     Village     |    1d4    |     1     |
+|   Small Town    |    1d6    |    1d3    |
+|   Large Town    |    2d4    |    1d4    |
+|      City       |    2d6    |    1d6    |
 
 Townsfolk are everyday folk without a Class willing to join an adventuring party. Often used as torchbearers or porters, they come with no equipment, have 1d4 HP and a Loyalty of 6.
 
@@ -1019,7 +1021,6 @@ Choose a weapon option:
 - Option B: One large weapon
 - Option C: Two medium one-handed weapons (+1 to hit)
 - Option D: One medium melee weapon & one ranged weapon (plus ammo)
-
 
 ## Sailing
 
@@ -1545,14 +1546,14 @@ Time spent around the fireside with one's companions may lift the spirits and in
 
 When camping in the wild, characters’ ability to get a good night’s rest is determined by their equipment (whether they have a bedroll and/or tent), their warmth (whether they have a fire burning), and the season. Non-ideal circumstances require PCs to make a Con check, with the difficulty listed below.
 
-| Fire | Bed             | Winter         | Spring         | Summer         | Autumn         |
-| ---- | --------------- | -------------- | -------------- | -------------- | -------------- |
-| N    | No bedding      | Auto failure   | Difficult     | Moderate | Difficult     |
-| N    | Bedroll or tent | Auto failure   | Moderate | Good rest      | Moderate |
-| N    | Bedroll & tent  | Difficult     | Moderate | Good rest      | Moderate |
-| Y    | No bedding      | Auto failure   | Difficult     | Moderate | Difficult     |
-| Y    | Bedroll or tent | Difficult    | Good rest  | Good rest      | Good rest  |
-| Y    | Bedroll & tent  | Moderate | Good rest      | Good rest      | Good rest      |
+| Fire | Bed             | Winter       | Spring    | Summer    | Autumn    |
+| ---- | --------------- | ------------ | --------- | --------- | --------- |
+| N    | No bedding      | Auto failure | Difficult | Moderate  | Difficult |
+| N    | Bedroll or tent | Auto failure | Moderate  | Good rest | Moderate  |
+| N    | Bedroll & tent  | Difficult    | Moderate  | Good rest | Moderate  |
+| Y    | No bedding      | Auto failure | Difficult | Moderate  | Difficult |
+| Y    | Bedroll or tent | Difficult    | Good rest | Good rest | Good rest |
+| Y    | Bedroll & tent  | Moderate     | Good rest | Good rest | Good rest |
 
 **Moderate:** The character must make a Constitution check to get a good night's rest.
 
