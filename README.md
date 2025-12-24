@@ -542,6 +542,8 @@ Other considerations:
 - **Crossbows** can be loosed while kneeling or prone.
 - **Firing into Melee**: The attack roll is penalized by -2 for each combatant in melee with the intended target (to a maximum penalty of -6). A character with the Marksman feat ignores this penalty. On a natural 1 attack roll, the missile hits a randomly determined combatant in melee with the intended target, inflicting damage.
 - **Poor Conditions**: If in very windy conditions, or if the target is above the attacker, long-range missile attacks cannot be made. If both, medium-range missile attacks also cannot be made.
+- A **splash weapon** may be thrown on a hard surface instead of at a creature; this is considered a missile attack vs AC 10. On a success, all creatures within 5' of the targeted surface are splashed with the liquid and, if it's harmful to them, suffer 1/4 normal damage (rounded up).
+- When a **splash weapon misses**, the container smashes 10' from the intended target in a random direction. Creatures within 5' of this point are splashed with the liquid and, if it is harmful to them, suffer 1/4 normal damage (rounded up).
 
 ### Initiative Phase
 
