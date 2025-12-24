@@ -495,7 +495,7 @@ For PCs, a natural 20 is always a hit. The attack is also a critical hit, unless
 
 #### Damage
 
-An attacker’s Strength modifier is applied to melee and thrown weapon attack damage. Modifiers cannot drop a successful attack below 1 point of damage. A successful charge or set vs. charge adds two weapon dice to the attack. Attacks against helpless targets automatically deal maximum damage.
+An attacker’s Strength modifier is applied to melee and thrown weapon attack damage. Modifiers cannot drop a successful attack below 1 point of damage. A successful charge or set vs. charge adds one weapon die to the attack. Attacks against helpless targets automatically deal maximum damage.
 
 A character who takes more than 11 hit points of damage in a single attack is dealt a serious **wound**, and will bleed an additional 1hp of damage per round at the end of each melee phase. This scales linearly: 22 damage taken at once will bleed 2hp per round, etc. A bleed can be stopped with magical healing or using an action to bandage the wound (which requires bandages).
 
@@ -526,7 +526,7 @@ After declarations, certain actions can be taken this phase:
 
 - **Parry/Dodge:** Gain +1 AC or +Str mod AC or +Dex mod AC, whichever is higher.
 - **Guard:** Defend an adjacent ally, granting them +2 AC. A character cannot benefit from multiple Guards. Ends if either character moves away from the other, though both characters can move together.
-- **Brace vs. Charge:** Only possible with a pike, spiked polearm, or spear, and if not prone or engaged in melee. A set combatant attacks first against the first charge made against them and adds two weapon dice if the attack hits.
+- **Brace vs. Charge:** Only possible with a pike, spiked polearm, or spear, and if not prone or engaged in melee. A set combatant attacks first against the first charge made against them and adds one weapon die if the attack hits.
 
 ### Missile Phase
 
@@ -553,7 +553,7 @@ Each combatant not locked in melee can move up to its combat speed, starting wit
 
 Actions that can be taken this phase:
 
-- **Charge:** Move at least 20' in a straight line and attack, gaining +1 to hit and two additional damage dice on a hit, but a -1 to AC for the round. This uses both your action and movement for the round.
+- **Charge:** Move at least 20' in a straight line and attack, gaining +1 to hit and an additional damage die on a hit, but a -1 to AC for the round. This uses both your action and movement for the round.
 - **Drop Prone/Stand Up**
 - **Take Cover:** Hunker down behind cover for “half cover” (-2 penalty on incoming missile attacks). If this action is taken again and it makes sense, “full cover” is granted (-4 penalty on incoming missile attacks).
 - **Hide:** Use cover or concealment to become hidden. Requires a successful Stealth check with a target of 6. Feats and abilities may lower this target.
