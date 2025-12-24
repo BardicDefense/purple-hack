@@ -440,7 +440,18 @@ Save: Hard (Will × 2). AoE: 30-ft radius / 12 × 12. The caster rolls 2d6 and a
 #### Turn Undead
 
 _Necromancy (R: Self, D: 1D6 × 10 minutes)_  
-Save: None. AoE: 50-ft radius / 20 × 20. The duration of this spell is rolled in secret by the GM. The caster rolls 2d6 and adds their level to the result. That many Hit Dice of undead equal to the result are turned: they will try to flee out of range to the best of their ability for the spell’s duration. If they cannot, they will cower as far from the caster as possible. Creatures with 3 or more Hit Dice than the caster has levels are immune. If the caster’s level is 5 or more than the Hit Dice of any affected undead, those undead are destroyed, not turned. If there are undead of multiple Hit Dice values in range, the roll is applied to all types; lower Hit Dice undead are turned first. Surplus Hit Dice are lost (for example, if the result indicates that 7 Hit Dice are turned, and there are four undead of 2 Hit Dice each, then only three undead are turned). Attacking a turned undead negates the spell for that creature.
+Save: None. AoE: 30-ft radius / 12 × 12. The caster rolls 2d6 to determine the result:
+
+- 4 or lower: The undead are unaffected
+- 5-6: 2d4 undead are stunned for 1 Round, unable to act.
+- 7-12: 2d4 undead flee from the caster for 1 Turn.
+- 13 or higher: 2d4 undead are permanently destroyed.
+
+If the caster is a higher level than the targeted undead, add a bonus of +2 per level, to a maximum of +6. If the caster is a lower level than the targeted undead, add a penalty of -2 per level, to a maximum of -6.
+
+Attacking a turned undead creature frees it from the effects of the spell at the end of the current combat round.
+
+In a mixed group of undead with multiple Levels, those of lowest Level are affected first. On a successful turning roll, the caster may make another roll the following Round, affecting the next lowest Level type of undead present. This process may be repeated until all types of undead have been affected or a turning roll fails.
 
 #### Unseen Servant
 
@@ -486,7 +497,8 @@ Save: Hard (Will). This makes one living humanoid of Medium size or smaller see 
 
 #### Counterspell
 
-#_Abjuration (R: Short, D: Instant)_  
+# _Abjuration (R: Short, D: Instant)_
+
 A caster can always pick this spell (if prepared) as their declared spell in response to an enemy casting a spell, replacing any other declared spell. In the Magic Phase, before spells are resolved, the dispeller and the enemy each make a dispel check: roll 1d6 + caster level. The enemy adds the level of the spell they are trying to cast, and the highest result wins; ties go to the dispeller. If the dispeller wins, the enemy spell is disrupted.
 
 #### Detect Invisibility
