@@ -166,7 +166,7 @@ A mage can combine multiple feats on a spell. The spell adjustments from these s
 - **Conditioning**: Gain +2 to a chosen ability score. This feat can be taken only once for a given ability score.
 - **Fieldcraft**: Gain +1 Constitution. Pick two broad terrain types (forest, desert, swamps, jungle, tundra, mountains, etc.). In these terrain types, your difficulties for tasks such as stealth, perception, tracking, and concealing tracks are lowered by 1, and you:
   - Heal +2 HP per day, and still heal even if marching in terrain that normally prevents such.
-  - Lower your Survival Skill Target by 1.
+  - Lower your Survival and Tracking Skill Targets by 1.
 - **Lockpicking**: Gain +1 Dexterity. You have the tools and expertise to pick locks; add -2 to the Lockpicking Skill Target (or start at 4 if the Skill is not already acquired).
 - **Tough**: Your hit die is one die higher (i.e. a warrior will use a d10, and a mage will use a d8).
 - **Undead Slayer**: Gain a +1 Attack bonus and +1 weapon die of damage against undead monsters. Your attacks harm undead monsters that can normally only be harmed by magical or silver weapons, even when not wielding a weapon of the appropriate type.
