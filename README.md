@@ -2409,13 +2409,12 @@ extreme cold or damp.
 
 Given a fire, cooking pots, and ingredients (e.g., foraged food, fresh rations,
 hunted game), someone may cook a meal. The cook must make a Survival Skill
-Check. (Eating trail food does not give any bonuses to Con checks required to
-rest.)
+Check. (Eating trail food or food made with poor quality fresh ingredients does
+not give any bonuses to Con checks required to rest.)
 
 **If the check succeeds:** An especially tasty dish is produced. All who eat the
 meal gain a bonus to any Con checks required to rest: +1 for meals made with
-poor ingredients, +2 for meals made with common ingredients, and +3 for meals
-made with fancy ingredients.
+common ingredients, and +2 for meals made with fancy ingredients.
 
 **If the check fails:** A palatable but not exemplary dish is produced. On a
 natural 1, the cook must make a saving throw against a Target of 11 or produce a
