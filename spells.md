@@ -15,8 +15,8 @@
 | 2    | Protection from Missiles       |
 | 2    | Protection from Poison         |
 | 3    | Dispel Magic                   |
-| 3    | Negative Plane Protection      |
 | 3    | Nondetection                   |
+| 3    | Protection from Undead         |
 | 3    | Protection from Unnatural      |
 | 4    | Free Action                    |
 | 4    | Minor Globe of Invulnerability |
@@ -70,7 +70,7 @@
 | 2    | Guide                     |
 | 2    | Mind Crystal              |
 | 2    | Perceive the Invisible    |
-| 3    | ESP                       |
+| 3    | Crystal Vision            |
 | 3    | Locate Object             |
 | 3    | Tongues                   |
 | 3    | Wizard Eye                |
@@ -127,9 +127,9 @@
 | 2    | Shocking Strike        |
 | 2    | Silence                |
 | 3    | Chromatic Orb          |
-| 3    | Dig                    |
 | 3    | Fireball               |
 | 3    | Lightning Bolt         |
+| 3    | Serpent Glyph          |
 | 4    | Mnemonic Enhancer      |
 | 4    | Telekinesis            |
 | 4    | Thunderclap            |
@@ -210,7 +210,7 @@
 | 2    | Knock                     |
 | 2    | Spider Climb              |
 | 2    | Water Breathing           |
-| 3    | Blink                     |
+| 3    | Darkvision                |
 | 3    | Gaseous Form              |
 | 3    | Haste (R)                 |
 | 3    | Plant Growth              |
@@ -812,16 +812,16 @@ in glittering gold.
 
 _Illusion (R: Medium, D: Concentration)_  
 Save: Perception 14. This spell creates the visual or auditory illusion of a
-known object, creature, scene, attack, or force of up to a 20' cube area. The
-caster can move the image within the spell’s range. Any “damage” dealt directly
-by the illusion is believed to be real (illusory arrows, pit trap, monster,
-etc), but vanishes when the illusion is disbelieved or gone and does no real
-damage and has no permanent effect. A creature reduced to 0 HP in this way falls
-unconscious. Illusory damage and effects last for 1d4 Turns. An illusory monster
-can be of a Level no greater than the caster's. The monster may be directed to
-attack, having all its normal capabilities and attack forms. It has AC 10 and
-vanishes if hit in combat. If the illusion is of something the caster has not
-personally seen, viewers gain a +4 bonus to their save.
+known object, creature, scene, attack, or force of up to Medium size (5'
+square). The caster can move the image within the spell’s range. Any “damage”
+dealt directly by the illusion is believed to be real (illusory arrows, pit
+trap, monster, etc), but vanishes when the illusion is disbelieved or gone and
+does no real damage and has no permanent effect. A creature reduced to 0 HP in
+this way falls unconscious. Illusory damage and effects last for 1d4 Turns. An
+illusory monster can be of a Level no greater than the caster's. The monster may
+be directed to attack, having all its normal capabilities and attack forms. It
+has AC 10 and vanishes if hit in combat. If the illusion is of something the
+caster has not personally seen, viewers gain a +4 bonus to their save.
 
 #### Phantom Steed
 
@@ -907,7 +907,7 @@ enfeeblement.
 #### Water Breathing
 
 _Transmutation (R: Short, D: 1 day)_  
-Up to two subjects per caster level can breathe water freely.
+Up to one subject per caster level can breathe water freely.
 
 #### Web
 
@@ -920,33 +920,24 @@ Strength 13 or above can break free in 1d4 Turns. Large creatures of greater
 than human Strength can break free in 1d4 Rounds. The web can be destroyed by
 fire in 2 Rounds. Creatures caught within flaming webs suffer 1d6 damage.
 
-# 3RD RANK SPELLS
+# Rank 3 Spells
 
 #### Black Tentacles
 
 _Conjuration (R: Medium, D: 10 minutes)_  
-Save: Hard (Dex). AoE: 20-ft radius / 8 × 8. Flailing ebony tentacles erupt from
-the ground. The area becomes difficult terrain. A creature size Large or less
-that starts its round in or enters the area must save or take 3d6 crushing
-damage and become immobile. Those restrained save at the start of each round to
-free themselves; failure means the damage is dealt again.
+Save: Dexterity 14. AoE: 20-ft radius / 8 × 8. Flailing ebony tentacles erupt
+from the ground. The area becomes difficult terrain. A creature size Large or
+smaller that starts its round in or enters the area must save or take 3d6
+crushing damage and become immobile. Those restrained save at the start of each
+round to free themselves; failure means the damage is dealt again.
 
 #### Blindness
 
 _Illusion (R: Short, D: Permanent)_  
-Save: Hard (Arc). One target sees only an impenetrable grey mist (–4 attack
+Save: Arcana 14. One target sees only an impenetrable grey mist (–4 attack
 penalty, no ranged casting possible unless LoS is not required by the spell). A
 blinded creature can still deliver gaze attacks. Only Dispel Magic, Remove
 Curse, or the caster dismissing the spell ends the effect.
-
-#### Blink
-
-_Transmutation (R: Self, D: 10 minutes)_  
-The caster rolls 1D6 at the end of each round: on a 4+, they vanish, reappearing
-in the Ethereal Plane. The caster returns at the start of their next round (and
-when the spell ends, if on the Ethereal Plane), to a visible unoccupied space of
-their choice within 10 feet of the space left from (or, if there is no such
-space, the nearest unoccupied space instead).
 
 #### Chromatic Orb
 
@@ -963,7 +954,7 @@ attack is rolled). This can only occur once per orb cast.
 _Necromancy (R: Self, D: 10 minutes)_  
 The caster is wreathed in black flames of negative energy. Any living creature
 touching the caster with its body or handheld weapons takes 2d6 necrotic damage,
-+1D6 per caster name level. However, undead touching the caster are healed for
++1d6 per caster name level. However, undead touching the caster are healed for
 the same amount. This effect is not applied if the caster strikes a target, only
 if they are struck.
 
@@ -973,16 +964,30 @@ _Conjuration (R: Short, D: 1 hour)_
 This spell calls local wild animal spirits of the caster’s choice, which
 manifest as living examples of those creatures. Hit Dice equal to twice the
 caster’s level are summoned, in any combination desired. No single creature can
-be above 10 Hit Dice; none can be intelligent or magical. The creatures serve
+be above Level 10; none can be intelligent or magical. The creatures serve
 without question, but if abused by the caster the spirits will refuse future
 calls.
+
+#### Crystal Vision
+
+_Divination (R: Short, D: 2 hours)_  
+Attunes a gem or crystal (of at least 500gp value) to pick up the visual
+impressions of living creatures, allowing the caster to see through others’
+eyes. To establish a connection with a creature, the caster must gaze into the
+crystal and focus their concentration in a particular direction for 1 Turn
+without moving. After 1 Turn, facets of the crystal reflect silent images of the
+current visual perceptions of one creature within range. If multiple creatures
+are within range in the direction being focused on, the crystal connects with
+the closest. Once a connection is established, the caster may choose to maintain
+it or to change to another subject. This spell is blocked by 2′ of rock or a
+thin layer of lead.
 
 #### Cure Sickness
 
 _Necromancy (R: Short, D: Permanent)_  
-This spell cures the subject of artificial blindness and deafness (assuming the
-subject still has its eyes/ears) and all sicknesses and diseases, including
-mummy rot, green slime infection, and lycanthropy.
+This spell cures the subject of artificial or magical blindness and deafness
+(assuming the subject still has its eyes/ears) and all sicknesses and diseases,
+including mummy rot, green slime infection, and lycanthropy.
 
 #### Cure Serious Wounds
 
@@ -990,19 +995,15 @@ _Necromancy (R: Touch, D: Instant)_
 This spell heals the subject of 2d6+2 damage. Add 2d6 for each name level the
 subject has.
 
-#### Dig
+#### Darkvision
 
-_Evocation (R: Short, D: Instant)_  
-Save: Hard (Dex). The caster can excavate 125 cubic feet of mud or dirt (clay,
-loam, sand; not stone) per round (i.e. a cube 5 ft per side), the material
-thrown from the excavation scattering evenly around the pit. Any creature within
-5 ft of the pit when it is dug must save to avoid falling in, as does any moving
-rapidly towards the pit.
+_Transmutation (R: Touch, D: 1 day)_  
+The subject gains the ability to see normally in darkness up to 60′.
 
 #### Disguise
 
 _Illusion (R: Long, D: Concentration—2 hours)_  
-Save: Very Hard (Per). The appearance of up to one subject per two caster
+Save: Perception 17. The appearance of up to one willing subject per two caster
 levels—including all carried items—is altered. Height can be altered up to one
 full size category shorter or taller; weight can be altered to a similar degree.
 The same basic limb arrangement must be kept. If only one subject is disguised,
@@ -1010,34 +1011,28 @@ the need for concentration is waived.
 
 #### Dispel Magic
 
-_Abjuration (R: Self or Short, D: Instant)_  
-This spell can end ongoing, non-permanent spells cast on a creature, object, or
-area. Each caster involved makes a dispel check: roll 1d6 + caster level, with
-the higher result winning (ties go to the dispeller). Magic items cannot be
-affected.
-
-#### ESP
-
-_Divination (R: Self, D: 10 minutes)_  
-AoE: 40-ft radius / 16 × 16. The caster can detect surface thoughts from one
-intelligent living creature. The effect is stopped by 2 or more feet of rock, 2
-or more inches of any metal other than lead, or a thin sheet of lead (and so
-will carry through most doors).
+_Abjuration (R: Short, D: Instant)_  
+All spell effects within range are unravelled, disintegrating in coils of
+coloured energy. Magic items are unaffected. Curses incurred by a spell are
+affected; those incurred by a magic item are not. Effects created by lower Level
+casters are automatically dispelled. If the effect is created by a higher-level
+spellcaster, each caster involved makes a dispel check: roll 1d6 + caster level,
+with the higher result winning (ties go to the dispeller).
 
 #### Fear
 
 _Enchantment (R: Medium, D: 1 minute)_  
-Save: Very Hard (Will). AoE: 30-ft radius / 12 × 12. Chosen enemies in the area
-of effect that fail their save drop anything held and flee from the caster by
-the quickest safe route; if cornered, they cower. Targets must be able to feel
-fear (even instinctually) to be affected.
+Save: Willpower 17. AoE: 30-ft radius / 12 × 12. Chosen enemies in the area of
+effect that fail their save drop anything held and flee from the caster by the
+quickest safe route; if cornered, they cower. Targets must be able to feel fear
+(even instinctually) to be affected.
 
 #### Fireball
 
 _Evocation (R: Medium, D: Instant)_  
-Save: Hard (Arc). AoE: 20-ft radius / 8 × 8. LoS not required. The blast deals
+Save: Dexterity 14. AoE: 20-ft radius / 8 × 8. LoS not required. The blast deals
 1d6 fire damage per caster level (max 12d6). Combustibles in the AoE are set
-alight, and failed saves force item saves (see p. 21).
+alight, and failed saves force item saves.
 
 #### Gaseous Form
 
@@ -1051,41 +1046,44 @@ fewer Hit Points.
 
 #### Haste (R)
 
-_Transmutation (R: Medium, D: 10 minutes)_  
-Save: Hard (Arc). Up to one creature per caster level gains the effects of the
-Dash combat stance (even if they don’t use stances), and their combat speed
-doubles. The reverse, Slow, instead forces targets to act last in the Melee
-Phase, and their combat speed is halved. One of these spells can negate its
-reverse; such a use has no other effect.
+_Transmutation (R: Medium, D: 30 minutes)_  
+Save: Arcana 14. Up to one creature per caster level has their Speed doubled and
+can take two actions each combat round. The number of spells a subject may cast
+per round is not doubled, nor is the use of magic items such as wands. The
+reverse, Slow, instead forces targets to act last in the Melee Phase, and their
+combat speed is halved. One of these spells can negate its reverse; such a use
+has no other effect.
 
 #### Hold Person
 
 _Enchantment (R: Medium, D: 1 minute)_  
-Save: Special (Arc). One or more living intelligent creatures of up to size
-Medium are hypnotised and become helpless. The caster can choose one target
-(Very Hard save), or up to four (separate Hard saves).
+Save: Arcana 17. One living intelligent creature of up to size Medium is
+hypnotised and becomes helpless. Damage does not break the affected creature out
+of its hold, but the death or unconsciousness of the caster does.
 
 #### Hypnotic Pattern
 
 _Enchantment (R: Short, D: 10 minutes)_  
-Save: Hard (Will). AoE: 30-ft radius / 12 × 12. A twisting pattern of colours is
-created. On a failed save, intelligent enemies viewing this can no longer act:
-they do not move and become helpless targets. The spell ends for an affected
-creature if it takes any damage.
+Save: Willpower 14. AoE: 20-ft radius / 12 × 12. A twisting pattern of colours
+is created. On a failed save, intelligent enemies viewing this can no longer
+act: they do not move and become helpless targets. The spell ends for an
+affected creature if it takes any damage.
 
 #### Invisibility Sphere
 
-_Illusion (R: Short, D: Concentration—1 hour)_  
-AoE: 20-ft radius / 8 × 8. One focus creature is the centre for the sphere: it
-and any creature in the area of effect when cast become invisible (not to each
-other). The sphere moves with the focus creature. Invisibility ends for anything
-that leaves the sphere or attacks; this does not affect the others. Any entering
-the sphere after the spell is cast do not become invisible.
+_Illusion (R: Short, D: Concentration—1 hour per caster level)_  
+A selected creature and all creatures within 10′ of it shimmer and disappear
+from sight. The spell's effect moves with the chosen creature. Invisibility ends
+for anything that leaves the sphere or attacks; this does not affect the others.
+Creatures that move into the area after the spell is cast do not become
+invisible. Any gear a subject is carrying is also rendered invisible (this
+includes clothing and armour). Items subsequently put down become visible.
+Carried light sources become invisible, but the emitted light does not.
 
 #### Lightning Bolt
 
 _Evocation (R: Medium, D: Instant)_  
-Save: Hard (Arc). AoE: 80 ft long & 5 ft wide or 40 ft long & 10 ft wide;
+Save: Dexterity 14. AoE: 80 ft long & 5 ft wide or 40 ft long & 10 ft wide;
 doubled in water. LoS not required. This bolt deals 1d6 electrical damage per
 caster level (max 12D6). Failed saves force item saves (see p. 21).
 
@@ -1098,18 +1096,11 @@ search for a general item category well known to them (e.g. “sword”, “jewe
 in which case the nearest one (if any) is located. Trying to locate a specific
 item requires an accurate mental image of that item.
 
-#### Negative Plane Protection
-
-_Abjuration (R: Short, D: 1 hour)_  
-Up to five subjects (+5 per caster name level) are immune to ability score and
-level draining by undead. This does not protect against other drain types. Saves
-versus Necromantic spells are one difficult level lower.
-
 #### Nondetection
 
 _Abjuration (R: Short, D: 4 hours)_  
-Up to five subjects (+5 per caster name level) are invisible to all forms of
-magical location, scrying, and divination, including Wizard Eye.
+Up to one subject per caster level are invisible to all forms of magical
+location, scrying, and divination, including Wizard Eye.
 
 #### Plant Growth
 
@@ -1119,6 +1110,13 @@ thicken and grow. Within the area of effect, combat speed drops to 5 for
 creatures up to Medium size (10 for creatures Large and greater). Line of sight
 drops to 10 ft; anything in sight in the growth has heavy cover. The area must
 already have at least living brush in it for this spell to function.
+
+#### Protection from Undead
+
+_Abjuration (R: Short, D: 1 hour)_  
+Up to one subject per caster level are immune to ability score and level
+draining by undead. This does not protect against other drain types. Saves
+versus Necromantic spells are one difficult level lower.
 
 #### Protection from Unnatural
 
@@ -1137,34 +1135,52 @@ anything inside is hidden from all senses, even magic. The chamber holds up to
 and a Tiny creature 1—along with sufficient air to breathe. Anything inside is
 expelled when the spell ends.
 
+#### Serpent Glyph
+
+_Evocation (R: Touch, D: Permanent until triggered)_  
+The caster traces a magical, serpent-shaped warding glyph upon a page of text or
+a surface, followed by a sprinkling of powdered amber (100gp value). Cast on a
+text, the glyph quickly mingles into the script. It can only be detected by
+magic. Reading the page triggers the warding magic. Cast on a surface, the glyph
+remains visible, glowing pale yellow. Touching the surface triggers the warding
+magic. When triggered, a glowing, serpent-like form leaps from the glyph and
+makes a single attack against the nearest creature. Its Attack is equal to the
+caster’s Level. If the attack hits, the victim is frozen in a glittering amber
+bubble of time distortion for 1d4 days (or until dispelled or released by the
+caster). While trapped, the victim is in temporal stasis and cannot move,
+perceive, think, or act. Likewise, the bubble cannot be moved or penetrated. If
+the attack misses, the serpent dissipates with a flash, a bang, and a puff of
+smoke.
+
 #### Solvent
 
 _Conjuration (R: Short, D: 1 hour)_  
-Save: Hard (Arc). This spell conjures acid covering up to 1-ft area per caster
+Save: Arcana 14. This spell conjures acid covering up to 1-ft area per caster
 level. The acid eats through 6” of wood, leather, or bone, 4” of stone, or 1” of
 metal, per round for three rounds. Creatures made of such, take 1d6 acid damage
 per caster level in the first round, half that (round up) in the second. Other
 creatures only take the damage for one round. Saves are made each round. The
-target must make one set of item saving throws (see p. 21), even if they save
-against the solvent damage.
+target must make one set of item saving throws, even if they save against the
+solvent damage.
 
 #### Spectral Force
 
 _Illusion (R: Medium, D: Concentration)_  
-Save: Hard (Per). This spell creates the visual illusion of a known object,
-creature, or force. The maximum size is Medium, plus one size category per
-caster’s name level. The illusion can also have auditory, olfactory and
-temperature components, and can be moved within the spell’s range. Any “damage”
-dealt directly by the illusion is believed to be real, but vanishes when the
-illusion is disbelieved or gone. A creature reduced to 0 HP in this way passes
-out for 1D6+2 rounds, then recovers with any phantasmal damage removed. The
-illusion is dispelled if attacked and struck (AC 18); it fights with the same
-base attack bonus as the caster.
+Save: Perception 14. This spell creates the visual illusion of a known object,
+creature, or force of up to a 20' cube area, plus 10' per caster’s name level.
+The illusion can also have auditory, olfactory and temperature components, and
+can be moved within the spell’s range. Any “damage” dealt directly by the
+illusion is believed to be real, but vanishes when the illusion is disbelieved
+or gone and does no real damage and has no permanent effect. A creature reduced
+to 0 HP in this way falls unconscious. Illusory damage and effects last for 1d4
+Turns. The illusion has AC 18 and vanishes if hit in combat. If the illusion is
+of something the caster has not personally seen, viewers gain a +4 bonus to
+their save.
 
 #### Suggestion
 
 _Enchantment (R: Short, D: 12 hours)_  
-Save: Hard (Will). One intelligent living creature will follow a single spoken
+Save: Willpower 14. One intelligent living creature will follow a single spoken
 course of action (language permitting, and limited to a sentence or two), if the
 caster can phrase it to sound reasonable—even if it isn’t.
 
@@ -1546,8 +1562,9 @@ The caster knows the shortest, most direct route to a specific location.
 
 #### Fly
 
-_Transmutation (R: Touch, D: 10 minutes)_  
-The subject can fly at a speed of 60 ft.
+_Transmutation (R: Touch, D: 1d6x10 minutes, plus 10 minutes per caster
+level)_  
+The subject can fly at Speed 120.
 
 #### Hold Monster
 
