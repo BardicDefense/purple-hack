@@ -1477,7 +1477,7 @@ In the event of disaster, a spellcaster can rewrite spells they have learned
 into a blank spellbook. This requires 1 day and 100d. per Rank of spell to be
 written.
 
-### Spell Slot Progression Table
+### Arcane Spell Slot Progression Table
 
 This shows the number of spells of a given spell rank that a caster can prepare
 per day (also known as their spell slots). Mages are the first number, Arcanist
@@ -1588,6 +1588,41 @@ items.
 ### Spell List
 
 See full spell list [here](/spells.md).
+
+### Holy Magic
+
+Holy spells take the form of blessings bestowed upon characters by the grace of
+their patrons, usually saints of the Pluritine Church.
+
+A holy spellcaster may pray to the saints once per day, receiving their
+blessings in the form of spells. Once bestowed, a blessing remains with the
+character until the spell is cast. A character can only pray for spells
+following a night's rest, and it takes one hour of quiet prayer. Characters
+capable of casting more than one spell of a given Rank may pray for up to two
+copies of the same spell.
+
+A bestowed prayer may be cast by reciting a prayer in the Mithric tongue. When a
+spell is cast, the blessing expires until it is bestowed again. The character
+must be able to speak. A holy spellcaster cannot cast spells if gagged or in an
+area of magical silence.
+
+#### Praying at Shrines
+
+Shrines and churches dedicated to specific saints or aspects of divinity are
+scattered throughout the world. A holy spellcaster who prays for one hour at
+such a shrine earns the blessing of the saint in the form of an additional
+spell. Once bestowed, this blessing remains with the character until the spell
+is cast. A character may only have the blessing of a single saint at any one
+time. Praying at a shrine dedicated to a different saint causes the spell
+bestowed by the new saint to replace that bestowed by the previous saint. The
+spell may be of higher Rank than what the character is usually able to cast, but
+subsequent blessings are bestowed only if the spell is of a Rank that the
+character can normally memorize and if at least one day has passed.
+
+Characters who can not normally cast holy spells can also pray at shrines and
+receive blessings. The character must be of 3rd Level or higher, have performed
+worthy deeds in service of the saint or the Church associated with the blessing,
+and can receive the blessing of each saint only one time ever.
 
 ## Mapping
 
