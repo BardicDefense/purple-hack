@@ -188,9 +188,18 @@ Concretely, skills might, depending on the circumstances, allow you to:
 - Lessen the consequences of failure.
 - Gain information not obvious to the average observer.
 
-Sample general skills include: Acrobatics, Climbing, Disguise, Etiquette, First Aid, Gambling, Herbalism, Jumping, Language (_choose one_), Lore (_specific subject_), Navigation (Nautical), Performance, Riding, Running, Shadowing, Ship Piloting, Stealth, Survival, Swimming, Tracking, Wrestling.
+Sample general skills include: Acrobatics, Alertness, Climbing, Disguise, Etiquette, First Aid, Gambling, Herbalism, Jumping, Language (_choose one_), Lore (_specific subject_), Navigation (Nautical), Performance, Riding, Running, Shadowing, Ship Piloting, Stealth, Survival, Swimming, Tracking, Wrestling.
 
-Sample specialized skills include: Blindfighting, Decipher Document, Lockpicking, Pick Pockets, Read Lips.
+Sample specialized skills include: Alertness, Blindfighting, Decipher Document, Herbalism, Lockpicking, Pick Pockets, Read Lips.
+
+Examples of some skills that impart concrete mechanical benefits other than a simple -1 to a Skill Target:
+
+- **Alertness**: Make an Alertness check to act normally if surprised.
+- **Acrobatics**: Move at full speed through allies' spaces.
+- **Blindfighting**: Removes penalty for fighting while blinded.
+- **Herbalism**: A single dose of a medicinal herb is sufficient for two subjects.
+- **Tracking**: Find tracks left by creatures in a 30' square area. Takes 1 Turn to search, with only one attempt allowed. Some modifiers may apply, and it can only be done in the wild.
+- **Wrestling**: Grants a +2 on grappling attack rolls.
 
 ## Buy Equipment
 
