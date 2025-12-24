@@ -1114,9 +1114,9 @@ already have at least living brush in it for this spell to function.
 #### Protection from Undead
 
 _Abjuration (R: Short, D: 1 hour)_  
-Up to one subject per caster level are immune to ability score and level
-draining by undead. This does not protect against other drain types. Saves
-versus Necromantic spells are one difficult level lower.
+Up to one subject per caster level gains a +4 bonus to saving throws against
+Necromantic spells, and are immune to ability score and level draining by
+undead. This does not protect against other drain types.
 
 #### Protection from Unnatural
 
