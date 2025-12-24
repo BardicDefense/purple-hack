@@ -1,6 +1,6 @@
 # Purple Hack
 
-> _The following are "house rules" and clarifications, a mish-mash of D&D Basic/Expert a la OSE, and a fantastic ruleset called [Simulacrum](https://osrsimulacrum.blogspot.com/2021/06/simulacrum-beta-release.html). Rampant stealing has occurred below, and is intended only for use in my own home games._
+> _The following are "house rules" and clarifications, a mish-mash of D&D Basic/Expert a la OSE, Dolmenwood, and a fantastic ruleset called [Simulacrum](https://osrsimulacrum.blogspot.com/2021/06/simulacrum-beta-release.html). Rampant stealing has occurred below, and is intended only for use in my own home games._
 
 # Table of Contents
 
@@ -129,45 +129,45 @@ All characters receive one feat at 1st level, and another feat at each name leve
 
 ### Warrior feats
 
+- **Battle Rage**: When in melee, the warrior can choose to enter a berserk rage that last until the end of combat. While in the rage, the warrior gains a +2 bonus to Attack and Damage rolls, but suffers a -4 penalty to Armour Class and is unable to flee.
 - **Brawler**: If your melee opponent is no more than one size level larger than you, and your attack roll against them is a natural 18 or 19, then in addition to your regular damage you can either:
   1. Disarm them
   2. Trip them (they become prone; two-legged creatures only)
   3. Drive them directly back 5 feet, if the space is available to do so. You may follow up immediately with a free 5-foot move of your own, even if you have already made your full move this turn or are otherwise locked in combat.  
      If none of those are possible or desired, then instead you bash them for an additional 1d4 damage (+2 per name level).
 - **Captain**: Some are born to command. Your party gains a +1 initiative bonus. Add a +1 attack bonus to all other party members and associated NPCs, raised to +2 at level 10 or higher (this does not benefit yourself). Apply +1 to friendly Morale checks. These bonuses apply only as long as your orders can be understood and the individuals benefiting are willing to be led by you. Multiple captains in a group do not stack these benefits.
-- **Defender**: If you decide that none will pass, then _none will pass_. You ignore all magical commands to move aside, flee, surrender and the like, and are immune to all fear-based effects, magical or not. You gain a 4-point modifier in your favor when resisting any other effect that would result in you being involuntarily moved. Also, in combat, you can always choose to receive the effects of the Guard combat stance, even if using another stance. If you actually choose the Guard stance, you can intercept up to four enemies instead of two.
+- **Defender**: If you decide that none will pass, then _none will pass_. You ignore all magical commands to move aside, flee, surrender and the like, and are immune to all fear-based effects, magical or not. You gain a 4-point modifier in your favor when resisting any other effect that would result in you being involuntarily moved. Also, in combat, you can always choose to receive the effects of having taken the Guard action, even if taking another action. If you actually choose the Guard action, you impart a +4 bonus to AC instead of +2.
 - **Great-Weapon Fighter**: When attacking with a two-handed melee weapon, your critical hit range improves by 1, plus 1 per name level (e.g. you score critical hits on a natural to-hit roll of 19-20 at level 1, 18-20 at level 5, etc.).
 - **Marksman**: You can fire into melee without penalty. Your ranged to-hit penalties are reduced by 2 points, plus 2 per name level. Your rate of fire with small thrown weapons increases from 1 to 2.
 - **Read Scrolls**: You can read Mithric, as well as cast from scrolls containing spells from four schools of your choice; if an Arcanist, two of these schools must be the two schools you already know. This does not grant the ability to create scrolls.
 - **True Grit**: You may reroll failed death saves.
-- **Whirlwind**: +2 AC (and a further +1 AC per name level). If not casting a spell that round, you receive the effects of the Dash combat stance (this does not count as your stance pick for the round). You are not locked in melee combat unless in melee with at least three opponents. To gain these benefits, you must be able to move freely, not wearing medium or heavy armour, and cannot be encumbered.
+- **Whirlwind**: +2 AC (and a further +1 AC per name level). Your melee attacks happen first before all other simultaneous attacks in the phase. You are not locked in melee combat unless in melee with at least three opponents. To gain these benefits, you must be able to move freely, not wearing medium or heavy armour, and cannot be encumbered.
 
 ### Mage Feats
 
-A mage can combine multiple feats on a spell. The spell adjustments from these stack (e.g. a _Silent Magic Missile_ spell with extended range would in all ways be treated as a 3rd level spell). A feat cannot take a spell over 6th level. Note that a spell cannot be both Silent and Stilled.
+A mage can combine multiple feats on a spell. The spell adjustments from these stack (e.g. a _Silent Undeniable Magic Missile_ spell would in all ways be treated as a 3rd level spell). A feat cannot take a spell over 6th level.
 
-- **Concentration**: You can cast spells while being jostled (e.g. on a ship or a horse).
+- **Arcane Antipathy**: You dedicate yourself to rooting out practitioners of dark magic. You gain a +2 bonus to Saving Throws against magic, and spellcasters suffer a -2 penalty to Saving Throws against spells cast by you.
+- **Detect Magic**: You gain a "Detect Magic" skill with a starting Skill Target of 6 that allows you to touch an object, place, or creature for 1 Turn to see if it is magical. On a success, you know if the object, place, or creature is magical--i.e., enchanted, affected by a spell, or possessed of innate magic of some kind. The Skill Target lowers by 1 every name level.
 - **Dextrous**: You can cast 1st-level spells using only one hand. For each name level you have, the level of spells that can be cast in this way increase by one.
 - **Familiar**: You acquire a Tiny or Small mundane creature appropriate to the area that obeys your commands. You can see through its eyes, and gain a small power appropriate to the creature while doing so (e.g. +2 visual Perception for a bird). Regardless of its normal statblock, the creature has 2 Hit Dice. Its death applies one level of fatigue to you for the next week, after which you may take a new familiar.
-- **Metamagic**: You can double the duration of your spells (not concentration, permanent, or instant spells), or you can double the base range of spells with Short, Medium or Long range (range increases due to gaining levels are unaffected). Preparing a Metaspell uses up a spell slot one level higher than the spell's normal level for each alteration you make (e.g. duration is +1 spell level; duration & range is +2).
+- **Metamagic**: You can craft your spells to require either no vocal component ("Silent") or no somatic component ("Stilled"). Preparing a Metamagic spell uses up a spell slot one level higher than the spell's normal level. This feat may be taken three times. The second time removes either vocal or somatic components from your spells permanently (must be chosen at the time of the feat), with no level adjustment to them required. A spell may not be both Silent and Stilled until the feat is taken a third time, which allows this combination.
 - **Quickcast**: Casting times of your spells are reduced by 1 (see [magic phase](#combat-phases)). This can take them to 0 or below. This feat may be taken up to twice.
-- **Spell Silence**: You can craft your spells to require no vocal component. Preparing a Silent spell uses up a spell slot one level higher than the spell's normal level. This feat may be taken twice. The second time removes the vocal component from your spells permanently, with no level adjustment to them required.
-- **Stillcasting**: You can craft your spells to require no somatic components. Preparing a Stilled spell uses up a spell slot one level higher than the spell's normal level. This feat may be taken twice. The second time removes the somatic component from your spells permanently, with no level adjustment to them required.
 - **Undeniable**: Once an Undeniable spell is declared, loss of concentration does not disrupt it (unless you are killed or otherwise rendered incapable of casting). All other restrictions apply. Preparing an Undeniable spell uses up a spell slot one level higher than the spell's normal level.
 
 ### Unrestricted Feats
 
+- **Animal Companion**: You may attempt to forge a bond with a single wild or domestic ordinary animal. If the animal companion dies or is dismissed, you may attempt to forge a connection with a new animal. An animal companion may not exceed your Level and does not level in any way. To establish a connection, you must approach the animal and interact in a peaceful manner for 1 Turn. On a successful Animal Handling check with a default Skill Target of 4, the animal becomes your companion. Once a connection is established, the companion follows you everywhere, understands basic commands, and fights to the death to defend you.
 - **Anointed**: You are zealous for your god or extra-planar benefactor. Spells or effects that would target supernatural creatures aligned with your patron also affect you.
-  - Your weapon attacks against undead or supernatural beings opposed to your patron add +1 weapon die of damage (add/gain another if level 10 or higher). This always counts as a magical attack.
-  - When resisting spells and effects that would place you in direct conflict with your patron's known tenets and goals, the saving throw difficulty is one level lower.
-  - Gain a small power appropriate to your patron (e.g. healing touch once per day that heals hp equal to your level for a god of life or healing).
+  - You lose access to the usual arcane spell list and instead gain access to the holy spell list. You do not need a spellbook, and instead pray daily for spells, choosing from all the spells available to you each day.
+  - Gain the "Laying on hands" ability, a healing touch once per day that heals HP equal to your level.
 - **Conditioning**: Gain +2 to a chosen ability score. This feat can be taken only once for a given ability score.
-- **Fieldcraft**: Gain +1 Constitution. Pick two broad terrain types (forest, desert, swamps, jungle, tundra, mountains, etc.). In these terrain types, your difficulties for tasks such as stealth, tracking, and concealing tracks are lowered, and you:
+- **Fieldcraft**: Gain +1 Constitution. Pick two broad terrain types (forest, desert, swamps, jungle, tundra, mountains, etc.). In these terrain types, your difficulties for tasks such as stealth, perception, tracking, and concealing tracks are lowered by 1, and you:
   - Heal +2 HP per day, and still heal even if marching in terrain that normally prevents such.
-  - Lower Survival Skill Target by 1.
-  - Are less likely to get lost, have random encounters, or be surprised.
-- **Lockpicking**: Gain +1 Dexterity. You have the tools and expertise to pick locks; add -2 to the Lockpicking Skill (or start at 4 if the Skill is not already acquired).
+  - Lower your Survival Skill Target by 1.
+- **Lockpicking**: Gain +1 Dexterity. You have the tools and expertise to pick locks; add -2 to the Lockpicking Skill Target (or start at 4 if the Skill is not already acquired).
 - **Tough**: Your hit die is one die higher (i.e. a warrior will use a d10, and a mage will use a d8).
+- **Undead Slayer**: Gain a +1 Attack bonus and +1 weapon die of damage against undead monsters. Your attacks harm undead monsters that can normally only be harmed by magical or silver weapons, even when not wielding a weapon of the appropriate type.
 
 ## Determine Starting Age & Choose Skills
 
