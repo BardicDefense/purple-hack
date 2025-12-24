@@ -868,7 +868,7 @@ Potion brewing requires a stocked laboratory of at least 500d. in value. A mage 
 
 ### Gaining New Spells
 
-Mages learn one random spell each time they gain a level from a random school they can access (plus another spell if a specialist). If the caster has just gained access to a new spell level, the spell(s) are from that level. They can also gain access to new spells via the following methods:
+Mages learn one random spell each time they gain a level from a random school they can access (plus another spell if a specialist). If the caster has just gained access to a new spell rank, the spell(s) are from that level. They can also gain access to new spells via the following methods:
 
 - **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 day + 100d. per level of the spell, and a successful Arcana ability check, applying the ability modifier twice, rolled at the end of the binding period; apply +1 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
 - **Research**: Casters can research new spells. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 100d. in materials and 1 week of time.
@@ -879,7 +879,7 @@ In the event of disaster, a spellcaster can rewrite spells they have learned int
 
 ### Spell Slot Progression Table
 
-This shows the number of spells of a given spell level that a caster can prepare per day (also known as their spell slots). Mages are the first number, Arcanist Warriors are the number in parentheses. If the mage is a specialist, they add one to each level's spell slot total, but the extra spell must be from the school specialized in. If a spell is level-adjusted through feats, that spell is treated in all ways as a spell of the level to which it has been modified.
+This shows the number of spells of a given spell rank that a caster can prepare per day (also known as their spell slots). Mages are the first number, Arcanist Warriors are the number in parentheses. If the mage is a specialist, they add one to each level's spell slot total, but the extra spell must be from the school specialized in. If a spell is level-adjusted through feats, that spell is treated in all ways as a spell of the level to which it has been modified.
 
 | Mage Level |  1   |  2   |  3   |  4   |  5   |  6   |
 | :--------: | :--: | :--: | :--: | :--: | :--: | :--: |
@@ -908,7 +908,7 @@ This shows the number of spells of a given spell level that a caster can prepare
 
 **Preparing Spells:** Once a spell is mentally in place, it remains until either intentionally dismantled or the caster uses the spell. If a spell is unused, it remains in the caster's mind, even though sleep has occurred.
 
-To reconstruct spells (called "memorizing" or "preparing" them), a caster must first have a night's rest (at least 4 hours of uninterrupted sleep) and no fatigue levels from exhaustion or lack of sleep, to regain the clarity and focus needed. The time required to prepare a spell is 10 minutes per spell level of uninterrupted concentration. For example, a third-level spell would require 30 minutes to prepare. A caster can prepare no more than two uses of the same spell.
+To reconstruct spells (called "memorizing" or "preparing" them), a caster must first have a night's rest (at least 4 hours of uninterrupted sleep) and no fatigue levels from exhaustion or lack of sleep, to regain the clarity and focus needed. The time required to prepare a spell is 10 minutes per spell rank of uninterrupted concentration. For example, a third-level spell would require 30 minutes to prepare. A caster can prepare no more than two uses of the same spell.
 
 **Spell Disruption**: If, between declaring a spell and casting it, the caster is hit by an attack or the like (even if no damage is dealt), or fails a saving throw, the spell is disrupted: it fails and its spell slot is emptied with no other effect. Note that only spells being cast can be disrupted. Spell effects from a rod, staff, wand, etc. and spell-like innate creature abilities are immune to disruption.
 
@@ -959,14 +959,14 @@ When attempting to sneak up on or past a creature, a Surprise Roll is made each 
 
 Non-player characters may be hired to cast spells or perform other services. As a general guideline, spells cost _roughly_ the following, and will be subject to a host of in-the-fiction considerations:
 
-| Spell Level | Cost per Casting |
-| :---------: | :--------------: |
-|     1st     |       25d.       |
-|     2nd     |       50d.       |
-|     3rd     |      100d.       |
-|     4th     |      200d.       |
-|     5th     |      500d.       |
-|     6th     |     1,000d.+     |
+| Spell Rank | Cost per Casting |
+| :--------: | :--------------: |
+|    1st     |       50d.       |
+|    2nd     |      100d.       |
+|    3rd     |      250d.       |
+|    4th     |      500d.       |
+|    5th     |     1,250d.      |
+|    6th     |     2,500d.+     |
 
 Sages or alchemists not employed by a PC will often charge around 50d. to identify a potion (which takes an hour or so), or 100d.+ to identify a magical item (which can take upwards of a week).
 
