@@ -4,235 +4,231 @@
 
 ### Abjuration
 
-| Level | Spell                          |
-| ----- | ------------------------------ |
-| 1     | Alarm                          |
-| 1     | Bless                          |
-| 1     | Endure Heat & Cold             |
-| 1     | Shield                         |
-| 2     | Counterspell                   |
-| 2     | Mind Shield                    |
-| 2     | Protection from Missiles       |
-| 2     | Protection from Poison         |
-| 3     | Dispel Magic                   |
-| 3     | Negative Plane Protection      |
-| 3     | Nondetection                   |
-| 3     | Protection from Unnatural      |
-| 4     | Free Action                    |
-| 4     | Minor Globe of Invulnerability |
-| 4     | Remove Curse                   |
-| 4     | Sanctum                        |
-| 5     | Antimagic Shell                |
-| 5     | Banish Supernatural            |
-| 5     | Spell Turning                  |
-| 5     | Wall of Force                  |
-| 6     | Globe of Invulnerability       |
-| 6     | Symbol                         |
-| 6     | Unbinding                      |
-
-### Evocation
-
-| Level | Spell                  |
-| ----- | ---------------------- |
-| 1     | Floating Disc          |
-| 1     | Light (R)              |
-| 1     | Magic Missile          |
-| 1     | Shocking Grasp         |
-| 2     | Acid Arrow             |
-| 2     | Arcane Lock            |
-| 2     | Burning Hands          |
-| 2     | Silence                |
-| 3     | Chromatic Orb          |
-| 3     | Dig                    |
-| 3     | Fireball               |
-| 3     | Lightning Bolt         |
-| 4     | Mnemonic Enhancer      |
-| 4     | Telekinesis            |
-| 4     | Thunderclap            |
-| 4     | Wingbind               |
-| 5     | Blade Barrier          |
-| 5     | Clenched Fist          |
-| 5     | Contingency            |
-| 5     | Delayed Blast Fireball |
-| 6     | Disintegrate           |
-| 6     | Earthquake             |
-| 6     | Power Word             |
+| Rank | Spell                          |
+| ---- | ------------------------------ |
+| 1    | Alarm                          |
+| 1    | Bless                          |
+| 1    | Endure Heat & Cold             |
+| 1    | Shield                         |
+| 2    | Counterspell                   |
+| 2    | Mind Shield                    |
+| 2    | Protection from Missiles       |
+| 2    | Protection from Poison         |
+| 3    | Dispel Magic                   |
+| 3    | Negative Plane Protection      |
+| 3    | Nondetection                   |
+| 3    | Protection from Unnatural      |
+| 4    | Free Action                    |
+| 4    | Minor Globe of Invulnerability |
+| 4    | Remove Curse                   |
+| 4    | Sanctum                        |
+| 5    | Antimagic Shell                |
+| 5    | Banish Supernatural            |
+| 5    | Spell Turning                  |
+| 5    | Wall of Force                  |
+| 6    | Globe of Invulnerability       |
+| 6    | Symbol                         |
+| 6    | Unbinding                      |
 
 ### Conjuration
 
-| Level | Spell             |
-| ----- | ----------------- |
-| 1     | Curse             |
-| 1     | Fog               |
-| 1     | Grease            |
-| 1     | Unseen Servant    |
-| 2     | Gust of Wind      |
-| 2     | Phantom Steed     |
-| 2     | Stinking Cloud    |
-| 2     | Web               |
-| 3     | Black Tentacles   |
-| 3     | Conjure Animals   |
-| 3     | Rope Trick        |
-| 3     | Solvent           |
-| 4     | Banishment        |
-| 4     | Dimension Door    |
-| 4     | Duplicate         |
-| 4     | Ice Storm         |
-| 5     | Cloudkill         |
-| 5     | Elemental Wall    |
-| 5     | Limited Wish      |
-| 5     | Teleport          |
-| 6     | Invisible Stalker |
-| 6     | Meteor Swarm      |
-| 6     | Wish              |
-
-### Illusion
-
-| Level | Spell                 |
-| ----- | --------------------- |
-| 1     | Blur                  |
-| 1     | Change Self           |
-| 1     | Faerie Fire           |
-| 1     | Minor Illusion        |
-| 2     | Fool’s Gold           |
-| 2     | Invisibility          |
-| 2     | Mirror Image          |
-| 2     | Phantasmal Force      |
-| 3     | Blindness             |
-| 3     | Disguise              |
-| 3     | Invisibility Sphere   |
-| 3     | Spectral Force        |
-| 4     | Hallucinatory Terrain |
-| 4     | Improved Invisibility |
-| 4     | Phantasmal Killer     |
-| 4     | Programmed Illusion   |
-| 5     | Advanced Illusion     |
-| 5     | Permanent Illusion    |
-| 5     | Seeming               |
-| 5     | Sensory Deprivation   |
-| 6     | Illusory Kingdom      |
-| 6     | Phantasmal Slayer     |
-| 6     | Project Image         |
+| Rank | Spell             |
+| ---- | ----------------- |
+| 1    | Curse             |
+| 1    | Fog               |
+| 1    | Grease            |
+| 1    | Unseen Servant    |
+| 2    | Gust of Wind      |
+| 2    | Phantom Steed     |
+| 2    | Stinking Cloud    |
+| 2    | Web               |
+| 3    | Black Tentacles   |
+| 3    | Conjure Animals   |
+| 3    | Rope Trick        |
+| 3    | Solvent           |
+| 4    | Banishment        |
+| 4    | Dimension Door    |
+| 4    | Duplicate         |
+| 4    | Ice Storm         |
+| 5    | Cloudkill         |
+| 5    | Elemental Wall    |
+| 5    | Limited Wish      |
+| 5    | Teleport          |
+| 6    | Invisible Stalker |
+| 6    | Meteor Swarm      |
+| 6    | Wish              |
 
 ### Divination
 
-| Level | Spell                     |
-| ----- | ------------------------- |
-| 1     | Comprehend Languages      |
-| 1     | Detect Illusion           |
-| 1     | Detect Magic              |
-| 1     | Detect Portals & Passages |
-| 2     | Augury                    |
-| 2     | Detect Invisibility       |
-| 2     | Detect Traps              |
-| 2     | Guide                     |
-| 3     | ESP                       |
-| 3     | Locate Object             |
-| 3     | Tongues                   |
-| 3     | Wizard Eye                |
-| 4     | Clairvoyance              |
-| 4     | Divination                |
-| 4     | Know Weakness             |
-| 4     | Magic Mirror              |
-| 5     | Anticipation              |
-| 5     | Contact Other Plane       |
-| 5     | Find the Path             |
-| 5     | True Seeing               |
-| 6     | Foresight                 |
-| 6     | Legend Lore               |
-| 6     | Scrye                     |
-
-### Necromancy
-
-| Level | Spell                |
-| ----- | -------------------- |
-| 1     | Chill Touch          |
-| 1     | Cure Light Wounds    |
-| 1     | Grave Shroud         |
-| 1     | Turn Undead          |
-| 2     | Assist               |
-| 2     | Unflagging Endurance |
-| 2     | Ray of Fatigue       |
-| 2     | Transfer             |
-| 3     | Cloak of the Void    |
-| 3     | Cure Sickness        |
-| 3     | Cure Serious Wounds  |
-| 3     | Vampiric Touch       |
-| 4     | Animate Dead         |
-| 4     | Blight               |
-| 4     | Destroy Undead       |
-| 4     | Speak with Dead      |
-| 5     | Control Undead       |
-| 5     | Cure Critical Wounds |
-| 5     | Raise Dead           |
-| 5     | Restoration          |
-| 6     | Deathshroud          |
-| 6     | Energy Drain         |
-| 6     | Finger of Death      |
+| Rank | Spell                     |
+| ---- | ------------------------- |
+| 1    | Comprehend Languages      |
+| 1    | Detect Illusion           |
+| 1    | Detect Magic              |
+| 1    | Detect Portals & Passages |
+| 2    | Augury                    |
+| 2    | Detect Invisibility       |
+| 2    | Detect Traps              |
+| 2    | Guide                     |
+| 3    | ESP                       |
+| 3    | Locate Object             |
+| 3    | Tongues                   |
+| 3    | Wizard Eye                |
+| 4    | Clairvoyance              |
+| 4    | Divination                |
+| 4    | Know Weakness             |
+| 4    | Magic Mirror              |
+| 5    | Anticipation              |
+| 5    | Contact Other Plane       |
+| 5    | Find the Path             |
+| 5    | True Seeing               |
+| 6    | Foresight                 |
+| 6    | Legend Lore               |
+| 6    | Scrye                     |
 
 ### Enchantment
 
-| Level | Spell             |
-| ----- | ----------------- |
-| 1     | Animal Friendship |
-| 1     | Command           |
-| 1     | Friends           |
-| 1     | Sleep             |
-| 2     | Charm             |
-| 2     | Enrage            |
-| 2     | Forget            |
-| 2     | Pacify            |
-| 3     | Fear              |
-| 3     | Hold Person       |
-| 3     | Hypnotic Pattern  |
-| 3     | Suggestion        |
-| 4     | Confusion         |
-| 4     | Domination        |
-| 4     | Fumble            |
-| 4     | Overlook          |
-| 5     | Feeblemind        |
-| 5     | Hold Monster      |
-| 5     | Mass Charm        |
-| 5     | Mass Suggestion   |
-| 6     | Geas/Quest        |
-| 6     | Glamer            |
-| 6     | Mass Domination   |
+| Rank | Spell             |
+| ---- | ----------------- |
+| 1    | Animal Friendship |
+| 1    | Command           |
+| 1    | Friends           |
+| 1    | Sleep             |
+| 2    | Charm             |
+| 2    | Enrage            |
+| 2    | Forget            |
+| 2    | Pacify            |
+| 3    | Fear              |
+| 3    | Hold Person       |
+| 3    | Hypnotic Pattern  |
+| 3    | Suggestion        |
+| 4    | Confusion         |
+| 4    | Domination        |
+| 4    | Fumble            |
+| 4    | Overlook          |
+| 5    | Feeblemind        |
+| 5    | Hold Monster      |
+| 5    | Mass Charm        |
+| 5    | Mass Suggestion   |
+| 6    | Geas/Quest        |
+| 6    | Glamer            |
+| 6    | Mass Domination   |
+
+### Evocation
+
+| Rank | Spell                  |
+| ---- | ---------------------- |
+| 1    | Floating Disc          |
+| 1    | Light (R)              |
+| 1    | Magic Missile          |
+| 1    | Shocking Grasp         |
+| 2    | Acid Arrow             |
+| 2    | Arcane Lock            |
+| 2    | Burning Hands          |
+| 2    | Silence                |
+| 3    | Chromatic Orb          |
+| 3    | Dig                    |
+| 3    | Fireball               |
+| 3    | Lightning Bolt         |
+| 4    | Mnemonic Enhancer      |
+| 4    | Telekinesis            |
+| 4    | Thunderclap            |
+| 4    | Wingbind               |
+| 5    | Blade Barrier          |
+| 5    | Clenched Fist          |
+| 5    | Contingency            |
+| 5    | Delayed Blast Fireball |
+| 6    | Disintegrate           |
+| 6    | Earthquake             |
+| 6    | Power Word             |
+
+### Illusion
+
+| Rank | Spell                 |
+| ---- | --------------------- |
+| 1    | Blur                  |
+| 1    | Change Self           |
+| 1    | Faerie Fire           |
+| 1    | Minor Illusion        |
+| 2    | Fool’s Gold           |
+| 2    | Invisibility          |
+| 2    | Mirror Image          |
+| 2    | Phantasmal Force      |
+| 3    | Blindness             |
+| 3    | Disguise              |
+| 3    | Invisibility Sphere   |
+| 3    | Spectral Force        |
+| 4    | Hallucinatory Terrain |
+| 4    | Improved Invisibility |
+| 4    | Phantasmal Killer     |
+| 4    | Programmed Illusion   |
+| 5    | Advanced Illusion     |
+| 5    | Permanent Illusion    |
+| 5    | Seeming               |
+| 5    | Sensory Deprivation   |
+| 6    | Illusory Kingdom      |
+| 6    | Phantasmal Slayer     |
+| 6    | Project Image         |
+
+### Necromancy
+
+| Rank | Spell                |
+| ---- | -------------------- |
+| 1    | Chill Touch          |
+| 1    | Cure Light Wounds    |
+| 1    | Grave Shroud         |
+| 1    | Turn Undead          |
+| 2    | Assist               |
+| 2    | Unflagging Endurance |
+| 2    | Ray of Fatigue       |
+| 2    | Transfer             |
+| 3    | Cloak of the Void    |
+| 3    | Cure Sickness        |
+| 3    | Cure Serious Wounds  |
+| 3    | Vampiric Touch       |
+| 4    | Animate Dead         |
+| 4    | Blight               |
+| 4    | Destroy Undead       |
+| 4    | Speak with Dead      |
+| 5    | Control Undead       |
+| 5    | Cure Critical Wounds |
+| 5    | Raise Dead           |
+| 5    | Restoration          |
+| 6    | Deathshroud          |
+| 6    | Energy Drain         |
+| 6    | Finger of Death      |
 
 ### Transmutation
 
-| Level | Spell                     |
-| ----- | ------------------------- |
-| 1     | Enlarge (R)               |
-| 1     | Feather Fall              |
-| 1     | Nullify Poison            |
-| 1     | Pass Without Trace        |
-| 2     | Bolster                   |
-| 2     | Knock                     |
-| 2     | Spider Climb              |
-| 2     | Water Breathing           |
-| 3     | Blink                     |
-| 3     | Gaseous Form              |
-| 3     | Haste (R)                 |
-| 3     | Plant Growth              |
-| 4     | Polymorph Self            |
-| 4     | Stone to Flesh            |
-| 4     | Strength                  |
-| 4     | Transmute Rock to Mud (R) |
-| 5     | Fly                       |
-| 5     | Iron Body                 |
-| 5     | Reverse Gravity           |
-| 5     | Shape Earth               |
-| 6     | Control Water             |
-| 6     | Control Weather           |
-| 6     | Shape Change              |
+| Rank | Spell                     |
+| ---- | ------------------------- |
+| 1    | Enlarge (R)               |
+| 1    | Feather Fall              |
+| 1    | Nullify Poison            |
+| 1    | Pass Without Trace        |
+| 2    | Bolster                   |
+| 2    | Knock                     |
+| 2    | Spider Climb              |
+| 2    | Water Breathing           |
+| 3    | Blink                     |
+| 3    | Gaseous Form              |
+| 3    | Haste (R)                 |
+| 3    | Plant Growth              |
+| 4    | Polymorph Self            |
+| 4    | Stone to Flesh            |
+| 4    | Strength                  |
+| 4    | Transmute Rock to Mud (R) |
+| 5    | Fly                       |
+| 5    | Iron Body                 |
+| 5    | Reverse Gravity           |
+| 5    | Shape Earth               |
+| 6    | Control Water             |
+| 6    | Control Weather           |
+| 6    | Shape Change              |
 
 ## Spell Details
 
-Each spell has a spell level, range, and duration.
-
-### Level
-
-This is the spell level, not the level required to cast it.
+Each spell has a spell rank, range, and duration.
 
 ### Range
 
@@ -281,7 +277,7 @@ Regardless of the source, the same spell (or equivalent effect from another sour
 
 ## Spell Descriptions
 
-### 1st Level Spells
+### 1st Rank Spells
 
 #### Alarm
 
@@ -458,7 +454,7 @@ In a mixed group of undead with multiple Levels, those of lowest Level are affec
 _Conjuration (R: Short, D: 2 hours)_  
 The spell summons an invisible spirit, weightless and Small in size, that serves tirelessly and fearlessly without question. The servant must remain within 40 feet of its summoner or it is dispelled. It moves as a normal PC, but ignores terrain. It can carry up to 1 point of encumbrance, and open normal doors, lids, drawers, etc, but perform no greater feats of strength. The servant cannot fight or take any other action requiring an attack roll. Nor can it block spaces, provide cover, or lock opponents in melee. It can be magically dispelled, banished by anything that banishes spirits, or eliminated after taking 6 points of magical damage.
 
-# 2ND LEVEL SPELLS
+# 2ND RANK SPELLS
 
 #### Acid Arrow
 
@@ -621,9 +617,7 @@ Up to two subjects per caster level can breathe water freely.
 _Conjuration (R: Short, D: 10 minutes)_  
 Save: Hard (Str). AoE: Up to 30-ft radius / 12 × 12. This spell creates a barrier of sticky strands. To be cast, the Web must be anchored on at least two opposite sides to solid points. Any creature of size Large or smaller that moves into the web or is in its area when it is cast must save or become stuck. Victims can make a save at the end of each round to break free. Those with 18+ Strength can break free or rip through with 1 round of effort. The strands are also flammable, a 5-ft square burning per round.
 
-#### _NOTE: SPELLS BELOW THIS LEVEL HAVE NOT BEEN CHECKED AND ARE SUBJECT TO CHANGE_</u>\*\*
-
-# 3RD LEVEL SPELLS
+# 3RD RANK SPELLS
 
 #### Black Tentacles
 
@@ -785,7 +779,7 @@ The first touch the caster makes on a living target deal 1d6 damage for every tw
 _Divination (R: Short, D: Concentration—1 hour)_  
 The caster creates an invisible, magical eye through which they can see, even in darkness. The eye can travel up to 240 ft from the caster, at a rate of 120 ft per turn, and can pass through gaps about the size of a mouse-hole. If a caster moves, it cannot move the eye that same turn / round.
 
-# 4TH LEVEL SPELLS
+# 4TH RANK SPELLS
 
 #### Animate Dead
 
@@ -875,7 +869,7 @@ The caster creates a mirror-like surface on any solid object. The caster can see
 #### Minor Globe of Invulnerability
 
 _Abjuration (R: Self, D: 10 minutes)_  
-The caster is immune to all spells of 3rd level or lower.
+The caster is immune to all spells of 3rd rank or lower.
 
 #### Mnemonic Enhancer
 
@@ -947,7 +941,7 @@ Save: Hard (Arc). AoE: Up to 20-ft radius / 8 × 8. The spell turns stone into m
 _Evocation (R: Medium, D: 1 hour)_  
 Save: Hard (Arc). One flying creature has its wings bound and cannot fly. If the creature fails its save, it crashes to the ground, taking damage as appropriate.
 
-# 5TH LEVEL SPELLS
+# 5TH RANK SPELLS
 
 #### Advanced Illusion
 
@@ -992,7 +986,7 @@ The caster attempts to contact a being on another plane of existence. The caster
 #### Contingency
 
 _Evocation (R: Self, D: Special)_  
-The caster places a spell upon themselves that will trigger under a certain condition. The spell must be of 4th level or lower. The triggering condition must be clear and specific.
+The caster places a spell upon themselves that will trigger under a certain condition. The spell must be of 4th rank or lower. The triggering condition must be clear and specific.
 
 #### Control Undead
 
@@ -1109,7 +1103,7 @@ The subject can see all things as they truly are, ignoring any illusions or tran
 _Abjuration (R: Medium, D: Concentration)_  
 The caster creates an invisible wall of force up to 100 ft long, 20 ft high, and 1 ft thick. The wall is impervious to all forms of attack.
 
-# 6TH LEVEL SPELLS
+# 6TH RANK SPELLS
 
 #### Control Water
 
@@ -1164,7 +1158,7 @@ Save: Very Hard (Per). This spell alters the appearance of one or more creatures
 #### Globe of Invulnerability
 
 _Abjuration (R: Self, D: 10 minutes)_  
-The caster is immune to all spells of 6th level or lower.
+The caster is immune to all spells of 6th rank or lower.
 
 #### Illusory Kingdom
 
@@ -1238,9 +1232,9 @@ The caster inscribes one of the following symbols on a surface. Creatures that p
 #### Unbinding
 
 _Abjuration (R: Medium, D: Instant)_  
-AoE: 40-ft radius / 16 × 16. All spell effects present are ended, all magic constructs and animated dead are destroyed (Heroic save to prevent), and all magically summoned creatures are banished to their place of origin. The spell does not affect non-animated undead, or creatures that have been gated or otherwise transported to a plane by means other than direct summoning. If a spell effect is permanent, and greater than 2nd level, then it is instead merely suppressed for 2d6 hours.
+AoE: 40-ft radius / 16 × 16. All spell effects present are ended, all magic constructs and animated dead are destroyed (Heroic save to prevent), and all magically summoned creatures are banished to their place of origin. The spell does not affect non-animated undead, or creatures that have been gated or otherwise transported to a plane by means other than direct summoning. If a spell effect is permanent, and greater than 2nd rank, then it is instead merely suppressed for 2d6 hours.
 
 #### Wish
 
 _Conjuration (R: Special, D: Special)_  
-The spell will fulfill literally the utterance of the caster, or duplicate the function of any lower-level Evocation spell. Greedy desires will usually end in disaster for the wisher.
+The spell will fulfill literally the utterance of the caster, or duplicate the function of any lower-rank Evocation spell. Greedy desires will usually end in disaster for the wisher.

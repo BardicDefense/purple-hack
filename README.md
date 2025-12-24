@@ -106,11 +106,11 @@ Using the [character background generator](background.md), determine your charac
 - **Battlemage**: You can cast spells while wearing light armour, and your class attack bonus improves to +1 every level, starting at level 1, stopping at +15.
 - **Focused**: Select one additional mage feat.
 - **Innate**: While you can still use them, you need not own a spellbook or consult one to prepare your spells.
-- **Specialist**: Choose one school you can already access. You have one additional spell slot at each spell level, to fill with a spell from this school. When you gain a level, you learn one extra random new spell from this school. Spells from this school are easier to bind.
+- **Specialist**: Choose one school you can already access. You have one additional spell slot at each spell rank, to fill with a spell from this school. When you gain a level, you learn one extra random new spell from this school. Spells from this school are easier to bind.
 
-**Starting Spells**: Mages start with one random 1st-level spell from each school to which they have access. Specialists then select one extra 1st-level spell of their choice from their specialty school. Mages can prepare a limited number of spells each day, and gain further spell slots as they gain levels (see [Magic & Spells](#magic--spells)).
+**Starting Spells**: Mages start with one random 1st-rank spell from each school to which they have access. Specialists then select one extra 1st-rank spell of their choice from their specialty school. Mages can prepare a limited number of spells each day, and gain further spell slots as they gain levels (see [Magic & Spells](#magic--spells)).
 
-**New Spells**: Mages learn one random new spell each time they gain a level. You also gain access to a new school of your choice at each name level. When this happens, you learn random spells of that school, one at each spell level you can cast.
+**New Spells**: Mages learn one random new spell each time they gain a level. You also gain access to a new school of your choice at each name level. When this happens, you learn random spells of that school, one at each spell rank you can cast.
 
 ## Determine Formative Institution
 
@@ -146,15 +146,15 @@ All characters receive one feat at 1st level, and another feat at each name leve
 
 ### Mage Feats
 
-A mage can combine multiple feats on a spell. The spell adjustments from these stack (e.g. a _Silent Undeniable Magic Missile_ spell would in all ways be treated as a 3rd level spell). A feat cannot take a spell over 6th level.
+A mage can combine multiple feats on a spell. The spell adjustments from these stack (e.g. a _Silent Undeniable Magic Missile_ spell would in all ways be treated as a 3rd rank spell). A feat cannot take a spell over 6th rank.
 
 - **Arcane Antipathy**: You dedicate yourself to rooting out practitioners of dark magic. You gain a +2 bonus to Saving Throws against magic, and spellcasters suffer a -2 penalty to Saving Throws against spells cast by you.
 - **Detect Magic**: You gain a "Detect Magic" skill with a starting Skill Target of 6 that allows you to touch an object, place, or creature for 1 Turn to see if it is magical. On a success, you know if the object, place, or creature is magical--i.e., enchanted, consecrated, affected by a spell, or possessed of innate magic of some kind. The Skill Target lowers by 1 every name level.
-- **Dextrous**: You can cast 1st-level spells using only one hand. For each name level you have, the level of spells that can be cast in this way increase by one.
+- **Dextrous**: You can cast 1st-rank spells using only one hand. For each name level you have, the rank of spells that can be cast in this way increase by one.
 - **Familiar**: You acquire a Tiny or Small mundane creature appropriate to the area that obeys your commands. You can see through its eyes, and gain a small power appropriate to the creature while doing so (e.g. +2 visual Perception for a bird). Regardless of its normal statblock, the creature has 2 Hit Dice. Its death applies one level of fatigue to you for the next week, after which you may take a new familiar.
-- **Metamagic**: You can craft your spells to require either no vocal component ("Silent") or no somatic component ("Stilled"). Preparing a Metamagic spell uses up a spell slot one level higher than the spell's normal level. This feat may be taken three times. The second time removes either vocal or somatic components from your spells permanently (must be chosen at the time of the feat), with no level adjustment to them required. A spell may not be both Silent and Stilled until the feat is taken a third time, which allows this combination.
+- **Metamagic**: You can craft your spells to require either no vocal component ("Silent") or no somatic component ("Stilled"). Preparing a Metamagic spell uses up a spell slot one rank higher than the spell's normal rank. This feat may be taken three times. The second time removes either vocal or somatic components from your spells permanently (must be chosen at the time of the feat), with no rank adjustment to them required. A spell may not be both Silent and Stilled until the feat is taken a third time, which allows this combination.
 - **Quickcast**: Casting times of your spells are reduced by 1 (see [magic phase](#combat-phases)). This can take them to 0 or below. This feat may be taken up to twice.
-- **Undeniable**: Once an Undeniable spell is declared, loss of concentration does not disrupt it (unless you are killed or otherwise rendered incapable of casting). All other restrictions apply. Preparing an Undeniable spell uses up a spell slot one level higher than the spell's normal level.
+- **Undeniable**: Once an Undeniable spell is declared, loss of concentration does not disrupt it (unless you are killed or otherwise rendered incapable of casting). All other restrictions apply. Preparing an Undeniable spell uses up a spell slot one rank higher than the spell's normal rank.
 
 ### Unrestricted Feats
 
@@ -277,7 +277,7 @@ After this, you can have whatever basic gear you wish (within reason, as determi
 - **Pick, mining (M)**: This excavating tool doubles as an improvised medium weapon.
 - **Pole, 10' (L)**: Often used to prod potential dangers at a safe distance. When wielded during cautious exploration, has a 2-in-6 chance of setting off most traps.
 - **Rope, hemp, 3/8" (L)**: Holds 250lbs, 50' length.
-- **Scroll case, leather (M)**: Each holds up to 10 spell levels in spell scrolls.
+- **Scroll case, leather (M)**: Each holds up to 10 spell ranks in spell scrolls.
 - **Shovel (L)**: Excavating tool doubles as an improvised medium weapon.
 - **Sledgehammer (L)**: Excavating tool doubles as an improvised medium weapon.
 - **Torch (S)**: Burns for 1 hour, illuminating a 40' radius. Will remain lit if dropped to the ground or thrown. Can be used as a small weapon without dousing it; some targets take further damage due to the fire. Also useful to burn away rot grubs, green slime, and webs.
@@ -513,7 +513,7 @@ Each combat round is 10 seconds and has eight steps, taken in the following orde
 - **Movement:** Characters not locked in melee can move.
 - **Melee:** Melee attacks and other actions
 - **Defensive Movement:** Characters locked in melee who haven’t yet moved can move.
-- **Magic:** Spells go off in order of spell level.
+- **Magic:** Spells go off in order of spell rank.
 - **Morale:** 2d6 for NPCs and monsters
 
 A character can move and take one action. Any action can be delayed until the end of the combat round. One Medium or Large weapon can be freely drawn or stowed each round; a character can draw two Small weapons simultaneously.
@@ -604,7 +604,7 @@ Each combatant that is locked in melee and has not yet moved this round can move
 
 If a caster wants to cancel a spell they’re casting that hasn’t been disrupted by having been attacked or jostled, they must do so before any spells are resolved. The spell is not lost.
 
-After spells are canceled, spells still being cast are revealed and cast in the order of their **casting time**, which is equal to their spell level, unless stated otherwise. Spells with the same casting time are cast simultaneously, unless stated otherwise. For each instance of the Quickcast feat that they have, a mage reduces their spells’ casting times by 1. Other feats raise a spell’s level, raising its casting time to match. Spells cast from scrolls add 2 to their casting time.
+After spells are canceled, spells still being cast are revealed and cast in the order of their **casting time**, which is equal to their spell rank, unless stated otherwise. Spells with the same casting time are cast simultaneously, unless stated otherwise. For each instance of the Quickcast feat that they have, a mage reduces their spells’ casting times by 1. Other feats raise a spell’s rank, raising its casting time to match. Spells cast from scrolls add 2 to their casting time.
 
 ### Morale Phase
 
@@ -727,7 +727,6 @@ Objects are subject to a decay roll after:
 - Armour: Receiving a natural-20 hit
 - Weapons: Rolling a natural 1 to hit
 - Food: Every day, fresh foods decay one level automatically, and then roll as usual.
-- Spice: Each use, spices decay one level automatically, in addition to usual rolls.
 
 Objects that are expressly protected (e.g., a scroll in a scrollcase, or a spellbook in a metal box, etc.) are exempt. Thoughtful storage can reduce wear & tear!
 
@@ -862,16 +861,16 @@ A successful lockpicking attempt disarms all detected traps in addition to openi
 
 ### Creating Potions
 
-Potions can be crafted by any mage of 5th level or above, with the aid of an alchemist (or with the Skill), and only one potion may be made at any one time.
+Potions can be crafted by any mage of 5th level or above, with the aid of an alchemist, and only one potion may be made at any one time.
 
 Potion brewing requires a stocked laboratory of at least 500d. in value. A mage can only brew potions they have drank or own the recipe for, and costs silver per dose to brew; the referee will have these costs.
 
 ### Gaining New Spells
 
-Mages learn one random spell each time they gain a level from a random school they can access (plus another spell if a specialist). If the caster has just gained access to a new spell rank, the spell(s) are from that level. They can also gain access to new spells via the following methods:
+Mages learn one random spell each time they gain a level from a random school they can access (plus another spell if a specialist). If the caster has just gained access to a new spell rank, the spell(s) are from that rank. They can also gain access to new spells via the following methods:
 
-- **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 day + 100d. per level of the spell, and a successful Arcana ability check, applying the ability modifier twice, rolled at the end of the binding period; apply +1 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
-- **Research**: Casters can research new spells. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per level of the spell, 100d. in materials and 1 week of time.
+- **Binding**: Anyone that can read Mithric can read a spellbook or scroll to see what it is, but you cannot prepare and thus cast a spell until you have bound it to you. Only spells from schools the caster can access can be bound. Binding a spell takes 1 day + 100d. per rank of the spell, and a successful Arcana ability check, applying the ability modifier twice, rolled at the end of the binding period; apply +1 if a specialist is binding a spell from their specialist school. Failure means the spell is permanently erased from the source scroll or spellbook. Success means that the spell has been copied to your own spellbook, and that a permanent bond between the caster and spell has been created: you can always write the spell into a spellbook or scroll, even if you don't have another written copy on hand to reference or have the spell prepared for casting.
+- **Research**: Casters can research new spells. Only spells from schools the caster can access can be researched, and any given spell can only be attempted once per level. Researching a new spell requires, on average and per rank of the spell, 100d. in materials and 1 week of time.
 
 ### Lost Spellbooks
 
@@ -879,7 +878,7 @@ In the event of disaster, a spellcaster can rewrite spells they have learned int
 
 ### Spell Slot Progression Table
 
-This shows the number of spells of a given spell rank that a caster can prepare per day (also known as their spell slots). Mages are the first number, Arcanist Warriors are the number in parentheses. If the mage is a specialist, they add one to each level's spell slot total, but the extra spell must be from the school specialized in. If a spell is level-adjusted through feats, that spell is treated in all ways as a spell of the level to which it has been modified.
+This shows the number of spells of a given spell rank that a caster can prepare per day (also known as their spell slots). Mages are the first number, Arcanist Warriors are the number in parentheses. If the mage is a specialist, they add one to each rank's spell slot total, but the extra spell must be from the school specialized in. If a spell is rank-adjusted through feats, that spell is treated in all ways as a spell of the rank to which it has been modified.
 
 | Mage Level |  1   |  2   |  3   |  4   |  5   |  6   |
 | :--------: | :--: | :--: | :--: | :--: | :--: | :--: |
@@ -908,7 +907,7 @@ This shows the number of spells of a given spell rank that a caster can prepare 
 
 **Preparing Spells:** Once a spell is mentally in place, it remains until either intentionally dismantled or the caster uses the spell. If a spell is unused, it remains in the caster's mind, even though sleep has occurred.
 
-To reconstruct spells (called "memorizing" or "preparing" them), a caster must first have a night's rest (at least 4 hours of uninterrupted sleep) and no fatigue levels from exhaustion or lack of sleep, to regain the clarity and focus needed. The time required to prepare a spell is 10 minutes per spell rank of uninterrupted concentration. For example, a third-level spell would require 30 minutes to prepare. A caster can prepare no more than two uses of the same spell.
+To reconstruct spells (called "memorizing" or "preparing" them), a caster must first have a night's rest (at least 4 hours of uninterrupted sleep) and no fatigue levels from exhaustion or lack of sleep, to regain the clarity and focus needed. The time required to prepare a spell is 10 minutes per spell rank of uninterrupted concentration. For example, a third-rank spell would require 30 minutes to prepare. A caster can prepare no more than two uses of the same spell.
 
 **Spell Disruption**: If, between declaring a spell and casting it, the caster is hit by an attack or the like (even if no damage is dealt), or fails a saving throw, the spell is disrupted: it fails and its spell slot is emptied with no other effect. Note that only spells being cast can be disrupted. Spell effects from a rod, staff, wand, etc. and spell-like innate creature abilities are immune to disruption.
 
@@ -929,11 +928,11 @@ All spells belong to one of eight schools of magic. A caster can only learn spel
 
 Spells can be bound to scrolls; each holds one spell. Holding it with both hands and reading from it aloud casts its spell, disintegrating the scroll.
 
-A spell on a scroll is not a prepared spell and can be cast even if the caster does not own the spell or isn't able to cast spells at that spell's level. The caster must still have access to the school to which the spell belongs, however. Spells on scrolls can't be modified through feats, though a caster can scribe a modified spell, and spells can't be prepared from scrolls.
+A spell on a scroll is not a prepared spell and can be cast even if the caster does not own the spell or isn't able to cast spells at that spell's rank. The caster must still have access to the school to which the spell belongs, however. Spells on scrolls can't be modified through feats, though a caster can scribe a modified spell, and spells can't be prepared from scrolls.
 
 For the purposes of range and so on, a scroll spell is treated as if the reader is casting it normally or is the minimum level required to cast it normally, whichever is higher.
 
-Scrolls may be scribed by anyone who has the ability to both read scrolls and to cast the spell being scribed. It costs 250d. and one week per level of the spell, which can be broken up into multiple sessions. This requires a successful Arcana ability check, applying the ability modifier twice, rolled at the end of the week.
+Scrolls may be scribed by anyone who has the ability to both read scrolls and to cast the spell being scribed. It costs 250d. and one week per rank of the spell, which can be broken up into multiple sessions. This requires a successful Arcana ability check, applying the ability modifier twice, rolled at the end of the week.
 
 **Creating Magic Items:** Potions are created by alchemists, with the more powerful potions usually requiring the help of a Magic-User. A Magic-User seeking to create potions must employ an alchemist. A Magic-User must be 9th level to create potions on their own, and 11th level to create other magic items.
 
