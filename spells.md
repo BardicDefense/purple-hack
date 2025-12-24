@@ -66,10 +66,10 @@
 | 1    | Detect Illusion           |
 | 1    | Detect Magic              |
 | 1    | Detect Portals & Passages |
-| 2    | Augury                    |
-| 2    | Detect Invisibility       |
 | 2    | Detect Traps              |
 | 2    | Guide                     |
+| 2    | Mind Crystal              |
+| 2    | Perceive the Invisible    |
 | 3    | ESP                       |
 | 3    | Locate Object             |
 | 3    | Tongues                   |
@@ -206,7 +206,7 @@
 | 1    | Feather Fall              |
 | 1    | Nullify Poison            |
 | 1    | Pass Without Trace        |
-| 2    | Bolster                   |
+| 2    | Arcane Cipher             |
 | 2    | Knock                     |
 | 2    | Spider Climb              |
 | 2    | Water Breathing           |
@@ -261,8 +261,8 @@ non-Instant spell effect at will, as a free action.
   has passed. If a spell’s duration is variable, the duration is rolled secretly
   by the GM (i.e. the caster doesn’t know how long their spell will last).
 - Concentration: The spell requires that the caster concentrate on it to keep
-  its effect active. This prevents the casting of another spell, but movement
-  and other actions are still allowed. Anything that would disrupt a spell’s
+  its effect active. This prevents the casting of another spell and other
+  actions, but movement is still allowed. Anything that would disrupt a spell’s
   casting also breaks a caster’s concentration while maintaining one, thus
   ending the spell.
 - Permanent: Unless dispelled by the caster, the effect is permanent. The effect
@@ -632,6 +632,14 @@ tapestry, an animal).
 
 ### Rank 2 Spells
 
+#### Arcane Cypher
+
+_Transmutation (R: 5', D: Permanent)_ Script which the caster passes their hand
+over glows and is transformed into arcane sigils incomprehensible to all except
+the caster. The text of a single spell in a spell book may be affected, or up to
+1 page of normal text per Level of the caster. Magical text cannot be affected.
+The Arcane Cypher is only decoded by magic (e.g. by the Decipher spell).
+
 #### Arcane Lock
 
 _Evocation (R: Touch, D: Permanent)_  
@@ -654,30 +662,10 @@ All Assist HP are lost at the end of the hour; this might conceivably kill a
 recipient. A creature can only be the subject of one active Assist at any one
 time.
 
-#### Augury
-
-_Divination (R: Self, D: Instant)_  
-The caster can divine whether an action in the near future (within 30 minutes)
-will be beneficial or harmful to the party. The base chance success is 70%, plus
-1% for each level of caster—i.e. 71% at 1st level, 72% at 2nd, etc—but only a
-tightly-bound inquiry will return meaningful results. For example, asking “will
-going down the west corridor be beneficial” is likely to get a non-committal
-response unless the corridor does not branch and also ends shortly in clear
-riches or clear disaster.
-
-#### Bolster
-
-_Transmutation (R: Short, D: 12 hours)_  
-This spell magically bolsters an ability score of the caster’s choice, with the
-exception of Arcana. Tasks related to the chosen ability score are one
-difficulty level lower; Opposed Checks related to it receive a –3 bonus. One
-additional target per caster name level can be selected; the same score must be
-boosted for all targets chosen by that particular casting.
-
 #### Burning Hands
 
 _Evocation (R: Self—30 ft × 10 ft line, D: Instant)_  
-Save: Hard (Arc). A burst of flame erupts from the caster’s hands. This deals
+Save: Dexterity 14. A burst of flame erupts from the caster’s hands. This deals
 2d6 damage, plus 1D6 for every two levels of the caster beyond the second (e.g.
 3d6 at level 4, 4d6 at level 6, 5d6 at level 8; maximum 10d6 at level 16) and
 sets combustibles alight.
@@ -685,7 +673,7 @@ sets combustibles alight.
 #### Change Self
 
 _Illusion (R: Self, D: 1 hour)_  
-Save: Very Hard (Per). The subject’s appearance—including all personal items—is
+Save: Perception 17. The subject’s appearance—including all personal items—is
 altered. Height can be altered up to 1 ft shorter or taller, and weight can be
 altered to a similar degree along with it. The same basic limb arrangement must
 be kept.
@@ -693,7 +681,7 @@ be kept.
 #### Charm
 
 _Enchantment (R: Touch, D: 1 day)_  
-Save: Hard (Will). Enchants a small object with the power to charm a living
+Save: Willpower 14. Enchants a small object with the power to charm a living
 humanoid of Medium size or smaller who willingly accepts it as a gift. A single
 recipient who accepts the enchanted object must succeed on the save or regard
 the caster as a trusted friend and come to their defence. The caster can give
@@ -704,19 +692,13 @@ permitting, of up to Large size.
 
 #### Counterspell
 
-_Abjuration (R: Short, D: Instant)_ A caster can always pick this spell (if
-prepared) as their declared spell in response to an enemy casting a spell,
-replacing any other declared spell. In the Magic Phase, before spells are
-resolved, the dispeller and the enemy each make a dispel check: roll 1d6 +
-caster level + rank of the spell being cast (e.g., Counterspell will usually be
-2). The highest result wins; ties go to the dispeller. If the dispeller wins,
-the enemy spell is disrupted.
-
-#### Detect Invisibility
-
-_Divination (R: Self, D: 1 hour)_  
-The caster can see any objects or beings that are invisible, ethereal, or astral
-as if they were not invisible.
+_Abjuration (R: Short, D: Instant)_  
+A caster can always pick this spell (if prepared) as their declared spell in
+response to an enemy casting a spell, replacing any other declared spell. In the
+Magic Phase, before spells are resolved, the dispeller and the enemy each make a
+dispel check: roll 1d6 + caster level + rank of the spell being cast (e.g.,
+Counterspell will usually be 2). The highest result wins; ties go to the
+dispeller. If the dispeller wins, the enemy spell is disrupted.
 
 #### Detect Traps
 
@@ -729,15 +711,15 @@ bookshelf).
 #### Enrage
 
 _Enchantment (R: Short, D: 10 minutes)_  
-Save: Very Hard (Will). The subject flies into a berserker rage. Regardless of
-its armament, it always attacks in melee the creature closest to it, friend or
-foe, and will fight as offensively as possible, though it will not throw itself
-over a cliff or the like in order to reach an opponent.
+Save: Willpower 17. The subject flies into a berserker rage. Regardless of its
+armament, it always attacks in melee the creature closest to it, friend or foe,
+and will fight as offensively as possible, though it will not throw itself over
+a cliff or the like in order to reach an opponent.
 
 #### Forget
 
 _Enchantment (R: Short, D: Permanent)_  
-Save: Hard (Will). AoE: Up to 20-ft radius / 8 × 8. Chosen subjects within the
+Save: Willpower 14. AoE: Up to 20-ft radius / 8 × 8. Chosen subjects within the
 area of effect forget the events of the previous minute. For every name level of
 the caster, another two minutes of past time is forgotten. A Restoration will
 recover the lost memories.
@@ -746,75 +728,100 @@ recover the lost memories.
 
 _Divination (R: Self, D: 12 hours)_  
 The caster gains a supernatural knowledge of the paths and perils of their
-surroundings while travelling overland. The caster may choose to apply a +1
-bonus that day to either their party’s navigation checks, or their party’s
-overland random encounter checks.
+surroundings while travelling overland. The caster applies a +1 bonus that day
+to their party’s navigation checks.
 
 #### Gust of Wind
 
 _Conjuration (R: Self—60 ft × 10 ft line, D: 1 minute)_  
 Wind blasts from the caster in the direction faced. Unless braced, creatures
-that start their round in the line must roll equal to or under their Strength on
-1D20 or be pushed 5 ft away for each point that they failed the roll by; apply a
-–5 roll modifier to flying creatures. Any creature in the line must spend 2 ft
-of movement for every 1 ft it moves within the line. The gust disperses Fog,
-Stinking Cloud, and Cloudkill spells, smoke, vapour etc, and extinguishes small
-open flames like torches. Protected flames such as lanterns have a 50% chance to
-be extinguished. The caster can change the direction the line travels as an
-action during their round.
+that start their round in the line must make a Strength check or be pushed 5 ft
+away for each point that they failed the roll by; apply a –2 roll modifier to
+flying creatures. Any creature in the line must spend 2 ft of movement for every
+1 ft it moves within the line. The gust disperses Fog, Stinking Cloud, and
+Cloudkill spells, smoke, vapour etc, and extinguishes small open flames like
+torches. Protected flames such as lanterns have a 50% chance to be extinguished.
+The caster can change the direction the line travels as an action during their
+round.
 
 #### Invisibility
 
-_Illusion (R: Short, D: Concentration—1 hour)_  
+_Illusion (R: Touch, D: Concentration—1 hour per caster level)_  
 One creature or object of up to one size level larger than the caster vanishes
 from sight. An invisible creature can see itself. Any light source carried is
-still visible, and dropped personal items become visible. The spell ends if the
-subject attacks, though surprise is very likely. Attacks against invisible
-targets apply a –4 penalty.
+invisible, but the light it casts is unaffected; dropped personal items become
+visible. The spell ends if the subject attacks, though surprise is very likely.
+Attacks against invisible targets apply a –4 penalty.
 
 #### Knock
 
-_Transmutation (R: Short, D: Instant)_  
-AoE: 10 ft, +50 ft per name level. The spell opens any stuck, barred, or locked
-box, door, panel or chest in the area of effect, even if hidden. It also loosens
-shackles or chains, but will not raise a portcullis or the like. It temporarily
-negates Arcane Lock, but otherwise does not affect magic. A loud knock sounds
-when the spell is cast: this counts as noisy.
+_Transmutation (R: Touch, D: Instant)_  
+The caster knocks on a single closed door, gate, lid, or similar portal with
+their hand or a staff. The portal groans, grumbles, and magically opens. Locks
+and bars are unlocked or removed. Arcane Locks are disabled for 1 Turn. Shackles
+or chains are loosened, but the spell will not raise a portcullis or the like.
+Secret doors may be opened, but they must be known to the caster.
+
+#### Mind Crystal
+
+_Divination (R: Short, D: 2 hours)_  
+Attunes a gem or crystal (of at least 250gp value) to the subtly radiating
+energies of living minds, allowing the caster to detect the presence of
+creatures and perceive their thoughts. To pick up thoughts, the caster must hold
+the crystal aloft and focus their concentration in a particular direction for 1
+Turn without moving. After 1 Turn, the crystal projects the thoughts of all
+creatures within range in the chosen direction into the caster’s mind. If
+multiple creatures are within range in the direction being focused on, the
+caster perceives an incomprehensible mix of all their thoughts. If the caster
+focuses for an additional Turn, they can isolate a single creature’s thoughts.
+The spell can be maintained for the duration only if the caster continues to
+hold the crystal. This spell is blocked by 2′ of rock or a thin layer of lead.
 
 #### Mind Shield
 
-_Abjuration (R: Touch, D: 4 hours)_  
+_Abjuration (R: Touch, D: 12 hours)_  
 The subject cannot be detected by mental scans or have their mind or thoughts
 read, and their saves against mental attacks are one difficulty level lower.
 However, the subject cannot use or receive telepathic signals.
 
 #### Mirror Image
 
-_Illusion (R: Self, D: 10 minutes)_  
-1d6 illusory duplicates of the caster appear. On a successful direct attack
-against the caster, roll to see if the caster or an image is struck; any hit on
-an image causes it to disappear.
+_Illusion (R: Self, D: 1 hour)_  
+In a flash of prismatic light, 1d6 illusory duplicates of the caster appear. The
+mirror images look and behave exactly as the caster, remaining within 3′. The
+caster’s voice, as well as any subsequent spells cast, emanate randomly from one
+of the mirror images or the caster’s true form. Attacks on the caster destroy
+one of the mirror images (even if the attack misses).
 
 #### Pacify
 
 _Enchantment (R: Medium, D: 1 hour)_  
-Save: Hard (Will). AoE: Up to 40-ft radius / 16 × 16. This spell calms 1d6
+Save: Willpower 14. AoE: Up to 40-ft radius / 16 × 16. This spell calms 1d6
 living creatures, ending any arguments, combats, or inclinations to them. This
 does not create friendly feelings, however. Creatures with the fewest HD are
 affected first. A pacified creature that takes damage or is attacked breaks free
 of the spell.
 
+#### Perceive the Invisible
+
+_Divination (R: 10' per caster level, D: 1 hour)_  
+Invisible creatures and objects in range become visible to the caster, outlined
+in glittering gold.
+
 #### Phantasmal Force
 
 _Illusion (R: Medium, D: Concentration)_  
-Save: Hard (Per). This spell creates the visual and/or auditory illusion of a
-known object, creature, or force of up to Medium size. The caster can move the
-image within the spell’s range. Any “damage” dealt directly by the illusion is
-believed to be real (illusory arrows, pit trap, monster, etc), but vanishes when
-the illusion is disbelieved or gone. A creature reduced to 0 HP in this way
-passes out for 1D6+2 rounds, then recovers with any phantasmal damage removed.
-The illusion is dispelled if attacked and struck (it has AC 10); illusionary
-attacks strike with the same base attack bonus as the caster.
+Save: Perception 14. This spell creates the visual or auditory illusion of a
+known object, creature, scene, attack, or force of up to a 20' cube area. The
+caster can move the image within the spell’s range. Any “damage” dealt directly
+by the illusion is believed to be real (illusory arrows, pit trap, monster,
+etc), but vanishes when the illusion is disbelieved or gone and does no real
+damage and has no permanent effect. A creature reduced to 0 HP in this way falls
+unconscious. Illusory damage and effects last for 1d4 Turns. An illusory monster
+can be of a Level no greater than the caster's. The monster may be directed to
+attack, having all its normal capabilities and attack forms. It has AC 10 and
+vanishes if hit in combat. If the illusion is of something the caster has not
+personally seen, viewers gain a +4 bonus to their save.
 
 #### Phantom Steed
 
@@ -834,7 +841,7 @@ damage by 1 point per die of damage.
 
 #### Protection from Poison
 
-_Abjuration (R: Touch, D: 1 hour)_  
+_Abjuration (R: Touch, D: 12 hours)_  
 The subject is immune to poison for the spell’s duration (including to any
 afflicting them). If cast on one who has failed a lethal poison save within a
 turn of their being poisoned, the poison is nullified and the subject lives.
@@ -842,8 +849,8 @@ turn of their being poisoned, the poison is nullified and the subject lives.
 #### Ray of Fatigue
 
 _Necromancy (R: Short, D: 10 minutes)_  
-Save: Hard (Arc). The subject becomes heavily fatigued. This has no effect if
-the target is already this fatigued or worse, or does not tire (e.g. undead,
+Save: Constitution 14. The subject becomes heavily fatigued. This has no effect
+if the target is already this fatigued or worse, or does not tire (e.g. undead,
 constructs).
 
 #### Shocking Strike
@@ -875,10 +882,10 @@ difficulty is one level lower than normal.
 #### Stinking Cloud
 
 _Conjuration (R: Medium, D: 10 minutes)_  
-Save: Hard (Con). AoE: Up to 15-ft radius / 6 × 6. A mass of nauseous vapors is
-created; any within that fail their save is rendered a helpless target for 1d6
-rounds. Passing reduces a victim’s combat speed by half; if in the cloud at the
-round’s end the creature must save anew.
+Save: Constitution 14. AoE: Up to 15-ft radius / 6 × 6. A mass of nauseous
+vapors is created; any within that fail their save is rendered a helpless target
+for 1d6 rounds. Passing reduces a victim’s combat speed by half; if in the cloud
+at the round’s end the creature must save anew.
 
 #### Transfer
 
@@ -894,8 +901,8 @@ healing.
 _Necromancy (R: Short, D: 12 hours)_  
 Up to one subject per caster level becomes nearly immune to exhaustion. Subjects
 can force-march that day with no ill effect, ignore the first burden level from
-encumbrance, and the difficulty of their saves vs. fatigue, sleep, weakness, or
-enfeeblement effects is one level lower.
+encumbrance, and gain a +4 on saves vs. fatigue, sleep, weakness, or
+enfeeblement.
 
 #### Water Breathing
 
@@ -904,14 +911,14 @@ Up to two subjects per caster level can breathe water freely.
 
 #### Web
 
-_Conjuration (R: Short, D: 10 minutes)_  
-Save: Hard (Str). AoE: Up to 30-ft radius / 12 × 12. This spell creates a
-barrier of sticky strands. To be cast, the Web must be anchored on at least two
-opposite sides to solid points. Any creature of size Large or smaller that moves
-into the web or is in its area when it is cast must save or become stuck.
-Victims can make a save at the end of each round to break free. Those with 18+
-Strength can break free or rip through with 1 round of effort. The strands are
-also flammable, a 5-ft square burning per round.
+_Conjuration (R: Short, D: 20 minutes per caster Level)_  
+Conjures a volume of sticky webbing, blocking a 10′ cube area. Must be anchored
+on at least two opposite sides to solid points. Any creature of size Large or
+smaller that moves into the web or is in its area when it is cast is stuck and
+cannot move. Characters with Strength below 13 cannot break free. Those with
+Strength 13 or above can break free in 1d4 Turns. Large creatures of greater
+than human Strength can break free in 1d4 Rounds. The web can be destroyed by
+fire in 2 Rounds. Creatures caught within flaming webs suffer 1d6 damage.
 
 # 3RD RANK SPELLS
 
@@ -1320,12 +1327,11 @@ difficult terrain until the start of the caster’s next turn.
 
 #### Improved Invisibility
 
-_Illusion (R: Short, D: Concentration—1 hour)_  
-One creature or object of up to one size level larger than the caster vanishes
-from sight. An invisible creature can see itself. Any light source carried is
-still visible, and dropped personal items become visible. The spell ends if the
-subject attacks, though surprise is very likely. Attacks against invisible
-targets apply a –4 penalty.
+_Illusion (R: Touch, D: 1 turn, +1 per name level)_ This spell renders the
+subject invisible, but they are able to attack or cast their own spells without
+automatically nullifying the spell. The invisible creature can attacked with the
+usual –4 penalty applied to invisible targets, but in addition its saves are one
+difficulty level lower.
 
 #### Know Weakness
 
