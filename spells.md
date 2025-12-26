@@ -1,8 +1,8 @@
-# Spells
+# Arcane Spells
 
 ## Spells by School
 
-### Abjuration
+### Abjuration Spells
 
 | Rank | Spell                          |
 | ---- | ------------------------------ |
@@ -30,7 +30,7 @@
 | 6    | Symbol                         |
 | 6    | Unbinding                      |
 
-### Conjuration
+### Conjuration Spells
 
 | Rank | Spell             |
 | ---- | ----------------- |
@@ -58,7 +58,7 @@
 | 6    | Invisible Stalker |
 | 6    | Meteor Swarm      |
 
-### Divination
+### Divination Spells
 
 | Rank | Spell                     |
 | ---- | ------------------------- |
@@ -86,7 +86,7 @@
 | 6    | Legend Lore               |
 | 6    | Scrye                     |
 
-### Enchantment
+### Enchantment Spells
 
 | Rank | Spell             |
 | ---- | ----------------- |
@@ -114,7 +114,7 @@
 | 6    | Glamer            |
 | 6    | Mass Domination   |
 
-### Evocation
+### Evocation Spells
 
 | Rank | Spell                  |
 | ---- | ---------------------- |
@@ -142,7 +142,7 @@
 | 6    | Earthquake             |
 | 6    | Power Word             |
 
-### Illusion
+### Illusion Spells
 
 | Rank | Spell                 |
 | ---- | --------------------- |
@@ -170,7 +170,7 @@
 | 6    | Phantasmal Slayer     |
 | 6    | Project Image         |
 
-### Necromancy
+### Necromancy Spells
 
 | Rank | Spell                |
 | ---- | -------------------- |
@@ -198,7 +198,7 @@
 | 6    | Energy Drain         |
 | 6    | Finger of Death      |
 
-### Transmutation
+### Transmutation Spells
 
 | Rank | Spell                     |
 | ---- | ------------------------- |
@@ -327,7 +327,7 @@ and neither does a Shield spell and a Shield effect from a magical item.
 
 ## Spell Descriptions
 
-### RANK 1 SPELLS
+### Rank 1 Spells
 
 #### Alarm
 
@@ -916,7 +916,7 @@ Strength 13 or above can break free in 1d4 Turns. Large creatures of greater
 than human Strength can break free in 1d4 Rounds. The web can be destroyed by
 fire in 2 Rounds. Creatures caught within flaming webs suffer 1d6 damage.
 
-# Rank 3 Spells
+### Rank 3 Spells
 
 #### Black Tentacles
 
@@ -1208,7 +1208,7 @@ at a rate of 120 ft per turn. Though invisible, the eye is tangible (as big as a
 normal human eye). It cannot pass through solid barriers. If a caster moves, it
 cannot move the eye that same turn / round.
 
-# Rank 4 Spells
+### Rank 4 Spells
 
 #### Animate Dead
 
@@ -1523,7 +1523,7 @@ illusion is in place, even creatures moving among the veiled subjects are
 deceived. Subjects who leave the affected area cease to be veiled. The caster
 may dismiss the illusion in its entirety at any time.
 
-# Rank 5 Spells
+### Rank 5 Spells
 
 #### Advanced Illusion
 
@@ -1784,7 +1784,7 @@ _Abjuration (R: Medium, D: Concentration)_
 The caster creates an invisible wall of force up to 100 ft long, 20 ft high, and
 1 ft thick. The wall is impervious to all forms of attack.
 
-# Rank 6 Spells
+### Rank 6 Spells
 
 #### Control Weather
 
