@@ -54,9 +54,9 @@
 | 5    | Cloudkill         |
 | 5    | Conjure Elemental |
 | 5    | Teleport          |
+| 6    | Dweomerfire       |
 | 6    | Invisible Stalker |
 | 6    | Meteor Swarm      |
-| 6    | Wish              |
 
 ### Divination
 
@@ -79,8 +79,8 @@
 | 4    | Know Weakness             |
 | 4    | Magic Mirror              |
 | 5    | Anticipation              |
-| 5    | Contact Other Plane       |
 | 5    | Find the Path             |
+| 5    | Oracle                    |
 | 5    | True Seeing               |
 | 6    | Foresight                 |
 | 6    | Legend Lore               |
@@ -219,6 +219,7 @@
 | 5    | Reverse Gravity           |
 | 6    | Control Water             |
 | 6    | Control Weather           |
+| 6    | Move Terrain              |
 | 6    | Shape Change              |
 
 ## Spell Details
@@ -1576,13 +1577,6 @@ _Evocation (R: Long, D: 1 round)_
 Save: Arcana 14. The caster creates a giant, spectral fist that strikes at a
 target within range. The fist deals 10d6 bludgeoning damage.
 
-#### Contact Other Plane
-
-_Divination (R: Special, D: Special)_  
-The caster attempts to contact a being on another plane of existence. The caster
-must make a Arcana check to succeed. If successful, the caster can ask up to
-three questions. The being may or may not answer truthfully.
-
 #### Contingency
 
 _Evocation (R: Self, D: Special)_  
@@ -1678,6 +1672,21 @@ Save: Willpower 14. All intelligent living creatures within a 30-ft radius will
 follow a single spoken course of action (language permitting, and limited to a
 sentence or two), if the caster can phrase it to sound reasonable—even if it
 isn’t.
+
+#### Oracle
+
+_Divination (R: Special, D: Special)_  
+Cast while burning 1,000d. of rare dust, the caster attempts to contact a being
+on another plane of existence. The caster must make a Arcana check to succeed.
+If successful, the caster can ask up to three questions. The questions must
+relate to a specific subject—an object, place, or creature. The caster must be
+in the presence of the subject or a closely related item (e.g. the tombstone of
+a deceased person, the sheath of a lost sword). Questions receive a brief,
+cryptic answer. Each answer has a 1-in-6 chance of being false or misleading.
+Each casting of this spell takes 1d6 Turns. The spell may be cast at most once
+per week. Contact with powerful extra-dimensional beings can shatter the
+caster’s mind. The caster must make an Arcana 12 saving throw or enter a coma
+for 1d6 weeks.
 
 #### Passwall
 
@@ -1775,61 +1784,85 @@ _Abjuration (R: Medium, D: Concentration)_
 The caster creates an invisible wall of force up to 100 ft long, 20 ft high, and
 1 ft thick. The wall is impervious to all forms of attack.
 
-# 6TH RANK SPELLS
-
-#### Control Water
-
-_Transmutation (R: Long, D: Concentration, 2 hrs)_  
-AoE: Up to 50-ft radius / 20 × 20. In the area of effect, the caster may raise
-or lower the water level up to 20 ft, create waves of up to that height, part
-the water, change its flow path, or (if water at least 25 ft deep) create a
-whirlpool that sucks any creature Huge or smaller to the bottom. The caster can
-choose any of the above effects when the spell is cast, and switch to a
-different one each round of the spell’s duration if desired.
+# Rank 6 Spells
 
 #### Control Weather
 
-_Transmutation (R: Self, 5-mi radius, D: 1 day)_  
-The caster changes the weather in the local area. Weather can be shifted up to
-one step up or down from natural on the following scale: Sunny, Cloudy, Rainy,
-Stormy, Disastrous. Repeat casts can shift the scale further, but Disastrous
-weather can only be maintained in a given area for one day. Any change takes 10
-minutes to occur.
+_Transmutation (R: Self, 3-mi radius, D: Concentration)_  
+Weather conditions of the caster’s choosing manifest in the local area (see list
+of common conditions below). If the caster is harmed, moves, or takes any other
+action, the spell ends. This spell only functions outdoors.
+
+The following are common weather conditions. Others may be possible, at the
+Referee’s discretion.
+
+- Calm: Clears bad weather (though side-effects—e.g. mud after rain—remain).
+- Extreme heat: Dries up snow or mud (including the Mire spell). Creatures in
+  the area move at half Speed.
+- Fog: Visibility drops to 20′. Creatures in the area move at half Speed and, at
+  the Referee’s option, may also have a chance of getting lost.
+- High winds: Creatures in the area move at half Speed. Missile fire and flight
+  are impossible. High winds may be used to increase the sailing speed of ships
+  by 50%. In sandy areas, high winds cause sandstorms, reducing visibility to
+  20′.
+- Rain: –2 penalty to Attack Rolls with missile weapons. Mud forms after 3
+  Turns, halving Speed.
+- Snow: Visibility drops to 20′. Creatures in the area move at half Speed.
+  Bodies of water begin to freeze. After the snow thaws, mud remains and impedes
+  movement.
 
 #### Deathshroud
 
 _Necromancy (R: Self, D: 10 minutes)_  
-Save: Very Hard (Arc). A living creature touched by the caster has a black haze
-form around it, draining 20% of its current Hit Points. At the end of every
-round thereafter, the same loss is taken. A living creature that touches or
-strikes the caster must also save, but at one difficult level lower. The spell
-can be ended by casting Dispel Magic, Restoration, or Cure Critical Wounds on
-the target, or killing the caster.
+Save: Arcana 17. A living creature touched by the caster has a black haze form
+around it, draining 20% of its current Hit Points. At the end of every round
+thereafter, the same loss is taken. A living creature that touches or strikes
+the caster must also save, but at with a +4 bonus. The spell can be ended by
+casting Dispel Magic, Restoration, or Cure Critical Wounds on the target, or
+killing the caster.
 
 #### Disintegrate
 
 _Evocation (R: Medium, D: Instant)_  
-Save: Hard (Arc). The spell targets a single creature or object. If the target
-fails its save, it is reduced to dust. If the target succeeds, it takes 10d6
-damage.
+Save: Arcana 14. The spell targets a single non-magical creature or object. If
+the target fails its save, it is reduced to dust. If the target succeeds, it
+takes 10d6 damage.
 
-#### Earthquake
+#### Dweomerfire
 
-_Evocation (R: Long, D: 1 round)_  
-AoE: 80-ft radius / 32 × 32. The ground shakes violently. All creatures within
-the area of effect must make a Hard (Dex) save or fall prone. Buildings may
-collapse.
+_Conjuration (R: Short, D: 1 Round)_  
+The caster conjures a magical, prismatic flame that briefly engulfs any magical
+energy in a selected 20′ cube within range. Objects, areas, or creatures under
+the influence of magic are wreathed in flame. Creatures in contact suffer 1d6
+damage. The imprinted energy patterns of memorised arcane spells burn the mind.
+Arcane spell-casters must make an Arcana 14 saving throw or suffer 1 damage per
+memorised spell. Spells cast by affected creatures this round and next explode
+in a conflagration of vivid energy. Creatures casting a spell must succeed on an
+Arcana 14 saving throw or suffer 3d6 damage, rendering the cast spell
+ineffective.
+
+#### Earthquake Wave
+
+_Evocation (R: Special, D: 1 round per 2 Levels of the caster)_  
+A repulsive earthquake 10' wide and 60' long emanates from the caster’s
+outstretched hands, pushing other creatures away and knocking them prone. The
+caster may turn to affect a new path each Round. All creatures in the path are
+pushed directly away from the caster at 30′ per Round and must make a Dexterity
+14 saving throw or fall prone. Creatures attempting to move towards the caster
+are repelled at their Speed, if it is greater than 30. The caster must
+concentrate (no movement or other actions allowed) while repelling creatures.
+They may halt to perform other actions and then resume concentration.
 
 #### Energy Drain
 
 _Necromancy (R: Touch, D: Instant)_  
-Save: Hard (Arc). The caster touches a living creature, draining 1d4 levels.
+Save: Arcana 14. The caster touches a living creature, draining 1d4 levels.
 
 #### Finger of Death
 
 _Necromancy (R: Medium, D: Instant)_  
-Save: Very Hard (Arc). The caster points at one living target; if they fail
-their save, they die.
+Save: Arcana 17. The caster points at one living target; if they fail their
+save, they die.
 
 #### Foresight
 
@@ -1840,14 +1873,17 @@ and has advantage on attack rolls, saving throws, and ability checks.
 #### Geas/Quest
 
 _Enchantment (R: Touch, D: Special)_  
-Save: Very Hard (Will). This spell places a magical command on a creature. The
-subject must follow the command to the best of its ability. If the subject fails
-to follow the command, it takes 1d6 damage per day.
+Save: Willpower 17. This spell places a magical command on a creature to
+perform--or avoid performing--a certain action. The subject must follow the
+command to the best of its ability. If the subject fails to follow the command,
+it takes 1d6 damage per day per name level and suffers a level of fatigue.
+Dispel Magic is ineffective against a geas. Remove Curse and Hex Weaving only
+work if the caster is 2 or more Levels higher than the caster of Geas.
 
 #### Glamer
 
 _Enchantment (R: Medium, D: 1 hour)_  
-Save: Very Hard (Per). This spell alters the appearance of one or more creatures
+Save: Perception 17. This spell alters the appearance of one or more creatures
 or objects. The illusion can change size, shape, and color.
 
 #### Globe of Invulnerability
@@ -1858,15 +1894,25 @@ The caster is immune to all spells of 6th rank or lower.
 #### Illusory Kingdom
 
 _Illusion (R: Long, D: Permanent)_  
-Save: Hard (Per). This spell creates a vast illusion of a kingdom or other large
-area. The illusion can include buildings, creatures, and terrain.
+Save: Perception 14. This spell creates a vast illusion of a kingdom or other
+large area. The illusion can include buildings, creatures, and terrain.
 
 #### Invisible Stalker
 
 _Conjuration (R: Medium, D: Special)_  
-The caster summons an invisible stalker, a powerful extraplanar creature, to
-serve them. The stalker will follow the caster’s command to the best of its
-ability, whereupon it disappears.
+Summons an invisible, extra-dimensional entity to the caster’s presence,
+magically binding it to perform a mission of the caster’s choosing. The caster
+must be careful with the wording of the mission. Invisible stalkers are
+intelligent and treacherous. Unless the assigned mission can be easily and
+quickly accomplished, the stalker follows the letter of the command while
+twisting the intent. The creature is bound to attempt the mission until it
+succeeds or is destroyed.
+
+**Invisible Stalker** Medium Monstrosity—Sentient—Neutral  
+Level 8 AC 16 HP 8d8 (36) Att Crush (+7, 4d4) Speed 40 Morale 12 XP 1,040  
+Tracking: Without fault.  
+Surprise: 5-in-6, unless target can detect invisibility.  
+If killed: Returns to dimension of origin.
 
 #### Legend Lore
 
@@ -1877,27 +1923,47 @@ object.
 #### Mass Domination
 
 _Enchantment (R: Medium, D: Permanent)_  
-Save: Very Hard (Will). AoE: 50-ft radius (20 × 20). The spell imposes
-Domination (see p. 54) on up to 2 HD / levels of intelligent creatures per
-caster level. Commands are transmitted telepathically, and language and distance
-are no barrier. The caster can release individuals at will.
+Save: Willpower 17. AoE: 50-ft radius (20 × 20). The spell imposes Domination
+(see p. 54) on up to 2 HD / levels of intelligent creatures per caster level.
+Commands are transmitted telepathically, and language and distance are no
+barrier. The caster can release individuals at will.
 
 #### Meteor Swarm
 
 _Conjuration (R: Long, D: Instant)_  
-Save: Very Hard (Arc). AoE: 10-ft radius / 4 × 4 per meteor. Blazing orbs of
-fire plummet to the ground at up to four different visible points. Each creature
-in a meteor’s takes 6d6 bludgeoning damage and 6d6 fire damage. The areas of
-effect cannot overlap; if the target area is too small to allow this, meteors
-are removed from the spell until no overlap occurs.
+Save: Arcana 17. AoE: 10-ft radius / 4 × 4 per meteor. Blazing orbs of fire
+plummet to the ground at up to four different visible points. Each creature in a
+meteor’s takes 6d6 bludgeoning damage and 6d6 fire damage. The areas of effect
+cannot overlap; if the target area is too small to allow this, meteors are
+removed from the spell until no overlap occurs.
+
+#### Move Terrain
+
+_Conjuration (R: Long, D: 1 hour)_  
+The land bulges and warps as a terrain feature moves under the caster’s control.
+A single feature (e.g. a hill, ridge, grove, pool, etc.) contained in a 120′
+square area may be moved. The caster can move terrain at up to 60′ per Turn. Any
+buildings or creatures present move with the terrain feature. The caster must
+concentrate (no movement or other actions allowed) while moving terrain. They
+may halt to perform other actions and then resume concentration.
+
+#### Petrification
+
+_Transmutation (R: Medium, D: Permanent or instant)_  
+Manifests one of the following effects when cast:
+
+- Flesh to stone: Permanently transforms a living creature (including equipment)
+  into stone. The victim may make a Constitution 14 to resist.
+- Stone to flesh: Restores a magically petrified creature (and its equipment) to
+  life.
 
 #### Phantasmal Slayer
 
 _Illusion (R: Short, D: 1 minute)_  
-Save: Very Hard (Per). This spell creates an illusory manifestation of a
-target’s worst fears. Creatures of Non- intelligence are immune, as are those
-immune to fear. The slayer attacks as a 10-HD monster; on a hit, if the target
-fails their save, they die. On a successful save, the spell ends.
+Save: Perception 17. This spell creates an illusory manifestation of a target’s
+worst fears. Mindless creatures are immune, as are those immune to fear. The
+slayer attacks as a Level 10 monster; on a hit, if the target fails their save,
+they die. On a successful save, the spell ends.
 
 #### Power Word
 
@@ -1917,14 +1983,15 @@ power, which determines the spell’s effect.
 #### Project Image
 
 _Illusion (R: Long, D: 1 hour)_  
-Save: Heroic (Per). The caster creates an illusory duplicate that looks, sounds,
-and smells like the caster. It reacts naturally to the environment (e.g. its
-clothes will move in a draft). The illusion mimics the caster’s actions,
+Save: Perception 20. The caster creates an illusory duplicate that looks,
+sounds, and smells like the caster. It reacts naturally to the environment (e.g.
+its clothes will move in a draft). The illusion mimics the caster’s actions,
 including speech, unless the caster makes it act differently; if the caster
 chooses such, then while doing so the spell is a concentration spell. The caster
 can replace their own sensory input with that of the illusion’s, thus seeing,
 smelling and so on only what the illusion would; if so, the caster’s spells can
-originate from the image.
+originate from the image. The image appears unaffected by spells or missile
+weapons, but if the image is touched or hit in melee, it disappears.
 
 #### Scrye
 
@@ -1939,17 +2006,6 @@ they were there. The eye moves with the target; True Seeing reveals it.
 Alternatively, the caster can choose a location they have seen before as the
 target. If so, the eye appears at that location and doesn’t move.
 
-#### Shape Change
-
-_Transmutation (R: Self, D: 1 hour)_  
-The caster can assume the form of any creature the caster has seen, short of a
-demigod or daemon prince. The caster’s original mind and Hit Points are kept;
-mental abilities, magic powers, and level-draining are never gained. Otherwise,
-all abilities, scores, and weaknesses of the new form are possessed. The form
-can be changed once per round: this requires the entire round. Damage and
-negative status effects (such as Slow, blindness, etc) are not healed by a
-change.
-
 #### Symbol
 
 _Abjuration (R: Touch, D: Special)_  
@@ -1961,8 +2017,8 @@ inscribed trigger it, after which it flares brightly, then vanishes.
 - Discord — All creatures are affected and immediately fall to loud bickering.
   There is a 50% chance that creatures in different groups attack one other. The
   bickering lasts 3d6+2 rounds; any fighting 1d6+1 rounds.
-- Fear — This operates as an extra-strong Fear spell, the difficulty of the save
-  being one level higher (Heroic).
+- Fear — This operates as an extra-strong Fear spell, with a target of
+  Willpower 20.
 - Hopelessness — All creatures are affected and are overcome with dejection
   unless they make a Very Hard (Arc) save. Those affected will submit to the
   demands of any opponent, i.e. get out, surrender, etc. Roll 2d6 for the
@@ -1971,12 +2027,13 @@ inscribed trigger it, after which it flares brightly, then vanishes.
   effect).
 - Insanity — Creatures totalling no more than 90 Hit Points act as if a
   Confusion spell had been placed upon them until a Restoration spell removes
-  the madness. -Pain — All creatures are affected. Wracking pains shoot through
-  their bodies, inflicting a –4 attack penalty for 3d6+2 turns.
+  the madness.
+- Pain — All creatures are affected. Wracking pains shoot through their bodies,
+  inflicting a –4 attack penalty for 3d6+2 turns.
 - Persuasion — All creatures are affected, becoming friendly to the caster for
-  3d6+2 turns unless they make a Very Hard (Arc) save.
-- Sleep — All creatures under 8+1 HD fall into a catatonic slumber. They cannot
-  be awakened for 2d6+4 turns.
+  3d6+2 turns unless they make an Arcana 17 save.
+- Sleep — All creatures under Level 8+1 fall into a catatonic slumber. They
+  cannot be awakened for 2d6+4 turns.
 - Stunning — Creatures totalling no more than 120 Hit Points are stunned for 2d6
   rounds: they are unable to act, drop anything held, and count as surprised.
 
@@ -1990,10 +2047,3 @@ does not affect non-animated undead, or creatures that have been gated or
 otherwise transported to a plane by means other than direct summoning. If a
 spell effect is permanent, and greater than 2nd rank, then it is instead merely
 suppressed for 2d6 hours.
-
-#### Wish
-
-_Conjuration (R: Special, D: Special)_  
-The spell will fulfill literally the utterance of the caster, or duplicate the
-function of any lower-rank Evocation spell. Greedy desires will usually end in
-disaster for the wisher.
