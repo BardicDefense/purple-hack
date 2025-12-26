@@ -348,7 +348,7 @@ allowed a Willpower Saving Throw to resist the spell.
 #### Arcane Ward
 
 _Abjuration (R: Short, D: 1 hour)_  
-AoE: 50-ft radius / 20 × 20. All chosen subjects apply a +2 AC bonus.
+AoE: 50-ft radius / 20 × 20. All chosen subjects apply a +1 AC bonus.
 
 #### Blur
 
