@@ -19,8 +19,8 @@
 | 3    | Protection from Undead         |
 | 3    | Protection from Unnatural      |
 | 4    | Free Action                    |
+| 4    | Hex Weaving                    |
 | 4    | Minor Globe of Invulnerability |
-| 4    | Remove Curse                   |
 | 4    | Sanctum                        |
 | 5    | Antimagic Shell                |
 | 5    | Banish Supernatural            |
@@ -103,7 +103,7 @@
 | 3    | Hypnotic Pattern  |
 | 3    | Suggestion        |
 | 4    | Confusion         |
-| 4    | Domination        |
+| 4    | Dominate          |
 | 4    | Fumble            |
 | 4    | Overlook          |
 | 5    | Feeblemind        |
@@ -160,8 +160,8 @@
 | 3    | Spectral Force        |
 | 4    | Hallucinatory Terrain |
 | 4    | Improved Invisibility |
-| 4    | Phantasmal Killer     |
 | 4    | Programmed Illusion   |
+| 4    | Woodland Veil         |
 | 5    | Advanced Illusion     |
 | 5    | Permanent Illusion    |
 | 5    | Seeming               |
@@ -214,9 +214,9 @@
 | 3    | Gaseous Form              |
 | 3    | Haste (R)                 |
 | 3    | Plant Growth              |
+| 4    | Enhance                   |
 | 4    | Polymorph Self            |
 | 4    | Stone to Flesh            |
-| 4    | Strength                  |
 | 4    | Transmute Rock to Mud (R) |
 | 5    | Fly                       |
 | 5    | Iron Body                 |
@@ -936,8 +936,8 @@ round to free themselves; failure means the damage is dealt again.
 _Illusion (R: Short, D: Permanent)_  
 Save: Arcana 14. One target sees only an impenetrable grey mist (–4 attack
 penalty, no ranged casting possible unless LoS is not required by the spell). A
-blinded creature can still deliver gaze attacks. Only Dispel Magic, Remove
-Curse, or the caster dismissing the spell ends the effect.
+blinded creature can still deliver gaze attacks. Only Dispel Magic, Hex Weaving,
+or the caster dismissing the spell ends the effect.
 
 #### Chromatic Orb
 
@@ -1206,12 +1206,13 @@ maximum are lost at the end of the hour.
 #### Wizard Eye
 
 _Divination (R: Short, D: Concentration—1 hour)_  
-The caster creates an invisible, magical eye through which they can see, even in
-darkness. The eye can travel up to 240 ft from the caster, at a rate of 120 ft
-per turn, and can pass through gaps about the size of a mouse-hole. If a caster
-moves, it cannot move the eye that same turn / round.
+The caster creates an invisible, magical eye through which they can see up to
+60' even in complete darkness. The eye can travel up to 240 ft from the caster,
+at a rate of 120 ft per turn. Though invisible, the eye is tangible (as big as a
+normal human eye). It cannot pass through solid barriers. If a caster moves, it
+cannot move the eye that same turn / round.
 
-# 4TH RANK SPELLS
+# Rank 4 Spells
 
 #### Animate Dead
 
@@ -1227,8 +1228,8 @@ when the spell is cast.
 #### Banishment
 
 _Conjuration (R: Medium, D: 1 minute)_  
-Save: Hard. This spell banishes one creature to another plane of existence. It
-remains there until the spell ends, then reappears in the nearest unoccupied
+Save: Arcana 14. This spell banishes one creature to another plane of existence.
+It remains there until the spell ends, then reappears in the nearest unoccupied
 space to its point of banishment. If the subject is native to the plane of
 existence the caster is on, the subject is instead sent to a harmless demiplane.
 If native to a different plane of existence than the one the caster is on, the
@@ -1237,9 +1238,9 @@ subject is banished to its home plane and must find another way to return.
 #### Blight
 
 _Necromancy (R: Medium, D: Instant)_  
-Save: Hard (Arc). The subject, which must be living, takes 8d6 necrotic damage.
+Save: Arcana 14. The subject, which must be living, takes 8d6 necrotic damage.
 If the caster targets a plant creature or a magical plant, the target’s saving
-throw is Very Hard instead, and the spell deals double damage. If a non-magical
+throw is Arcana 17 instead, and the spell deals double damage. If a non-magical
 plant that isn’t a creature is targeted, such as a tree or shrub, it withers and
 dies without a save.
 
@@ -1252,30 +1253,37 @@ effect; the caster knows that this has occurred.
 
 #### Confusion
 
-_Enchantment (R: Medium, D: 10 minutes)_  
-Save: Hard (Will). AoE: 30-ft radius/12 x 12. This spell causes creatures to
-behave unpredictably. It affects 1d6 HD worth of enemy creatures per caster
-level (up to 15d6). Roll 1d6 to determine the affected group’s actions each
-round: 1-2 act normally, 3-4 do nothing, 5-6 attack friends. Only creatures with
-8 HD or less are affected; creatures with the fewest HD are affected first.
+_Enchantment (R: Medium, D: 1 minute)_  
+Save: Willpower 14. AoE: 30-ft radius/12 x 12. This spell causes creatures to
+behave unpredictably. It affects 1d6 Levels of enemy creatures per caster level
+(up to 15d6). Roll 1d6 to determine the affected group’s actions each round: 1-2
+act normally, 3-4 do nothing, 5-6 attack friends. Only creatures of Level 8 or
+lower are affected; creatures with the lowest Level are affected first.
 
 #### Destroy Undead
 
 _Necromancy (R: Short, D: Instant)_  
-Save: Hard. This spell disintegrates corporeal undead with Hit Dice equal to or
-less than the caster’s own. Undead of 3 HD or less are automatically destroyed.
-Undead of 3+1 to 7 HD can save to avoid destruction, but suffer 3d6 damage even
-if they succeed. Undead of more than 7 HD instead suffer 1d6x10 damage (2d6
-damage if they succeed). Non-corporeal undead (e.g. banshees, wraiths, spectres,
-shadows, ghosts) are not affected.
+Save: Arcana 14. This spell disintegrates corporeal undead of equal Level or
+lower than the caster’s own. Undead of Level 3 or less are automatically
+destroyed. Undead of Level 3+1 to 7 can save to avoid destruction, but suffer
+3d6 damage even if they succeed. Undead of higher than Level 7 instead suffer
+1d6x10 damage (2d6 damage if they succeed). Non-corporeal undead (e.g. banshees,
+wraiths, spectres, shadows, ghosts) are not affected.
 
 #### Dimension Door
 
-_Conjuration (R: Touch, D: Instant)_  
-This spell transfers the subject to another spot up to 180 ft distant. The
-target location can be known, or the caster can just state a direction and
-distance. The subject arrives on a safe and stable surface as close as possible
-to the target; this may be the starting point.
+_Conjuration (R: 10'/360', D: 1 Round)_  
+A pair of glowing, door-shaped rifts in the fabric of space open up for a
+moment--one within 10′ of the caster and the other at a chosen destination
+location; the target location can be known, or the caster can just state a
+direction and distance. A single creature may step through the nearby door and
+instantly exit the destination door. Transfer in the other direction is
+impossible. The caster may forcibly transport an unwilling creature within 10′
+by manifesting the nearby door beside them. The target must make a Strength 14
+saving throw or be sucked through the dimensional door. The subject arrives on a
+safe and stable surface as close as possible to the target; this may be the
+starting point; the spell has no effect if the destination is occupied by a
+solid object.
 
 #### Divination
 
@@ -1285,16 +1293,18 @@ one question concerning a specific goal or event to occur within seven days. The
 reply might be short or cryptic, but will be truthful. However, the future is as
 yet unwritten and so events may render the reply inaccurate.
 
-#### Domination
+#### Dominate
 
-_Enchantment (R: Medium, D: 1 hour)_  
-Save: Hard (Will). The spell affects one intelligent subject, who becomes
-powerless to resist the caster. Commands can be given verbally or mentally, as a
-free action, as long as the subject is within range. The subject can be forced
-to use their powers and abilities, assuming the caster knows of them (a victim’s
-secrets are not automatically revealed). If the victim is ordered to do
-something they would find abhorrent, they are first granted another saving
-throw.
+_Enchantment (R: Medium, D: Permanent until broken)_  
+Places a powerful charm on one or more living creatures, either 3d6 creatures of
+up to Level 3 or a single creature of higher Level, as chosen by the caster.
+Each subject must make an Arcana 14 saving throw or be charmed. The charm lasts
+indefinitely, but each subject makes a further save once per day. If one of
+these saves succeeds, the charm ends. Subjects regard the caster as a close
+friend and come to the caster’s defense. If they share a language, the caster
+may give the charmed subjects commands, which they obey. Subjects may resist
+commands that contradict their habits or Alignment. Suicidal or clearly harmful
+commands are always refused.
 
 #### Duplicate
 
@@ -1304,6 +1314,11 @@ touches. The item to be copied must be able to fit inside a 20-foot cube. The
 duplicated item is identical to the original in every way, but Detect Magic
 reveals its true nature. At the duration’s end, or if a Dispel Magic is cast on
 the item, the item vanishes.
+
+#### Enhance
+
+_Transmutation (R: Touch, D: 1 hour)_  
+One chosen Ability score doubles for the subject.
 
 #### Free Action
 
@@ -1318,7 +1333,7 @@ grappling. Finally, being in or underwater imposes no movement or Dex penalties
 #### Fumble
 
 _Enchantment (R: Medium, D: 1 hour)_  
-Save: Hard (Will). One subject becomes clumsy and awkward. Running creatures
+Save: Willpower 14. One subject becomes clumsy and awkward. Running creatures
 will trip and fall, and those reaching for an item or wielding a weapon will
 drop it. While affected, recovery from a fall or of a fumbled object requires a
 full round (no movement possible). If the victim makes their save, they are
@@ -1326,28 +1341,48 @@ still affected as per a Slow spell (see Haste).
 
 #### Hallucinatory Terrain
 
-_Illusion (R: Long, D: 1 day)_  
-Save: Hard (Per). This spell makes natural terrain within a 1-mile radius look,
-sound, smell, and feel different. The general shape of the terrain cannot be
-altered, but minor aberrations can be added (e.g. occasional small buildings).
-Creatures in the area cannot be added or removed, but their secondary elements,
-such as bird calls, can be. True Seeing does not automatically pierce this
-illusion but does grant another save, which is one difficulty level lower.
+_Illusion (R: 1 mile, D: 1 day)_  
+Save: Perception 14. This spell makes natural terrain within a 1-mile radius
+look, sound, smell, and feel different. The general shape of the terrain cannot
+be altered, but minor aberrations can be added (e.g. occasional small
+buildings). Creatures in the area cannot be added or removed, but their
+secondary elements, such as bird calls, can be. True Seeing does not
+automatically pierce this illusion but does grant another save with a +4 bonus.
+If an intelligent being touches the illusion, that being can see through the
+illusion.
+
+#### Hex Weaving
+
+_Abjuration (R:Touch, D: Instant or permanent)_  
+Weaving the threads of fate surrounding the subject, this spell manifests one of
+the following effects when cast:
+
+Removing a curse: The subject is permanently cured of the affliction of a single
+curse. This spell may be used to enable a character to discard a cursed magic
+item. The duration is instant.
+
+Placing a curse: The subject must Save Versus Spell or suffer from a deleterious
+effect of the caster’s choosing. Maximum possible effects include: a –2 Saving
+Throw penalty, a –4 Attack Roll penalty, halving an Ability Score. The duration
+is permanent.
+
+Multiple curses: So long as each has a unique effect, multiple curses may
+afflict the same creature.
 
 #### Ice Storm
 
 _Conjuration (R: Long, D: 1 round)_  
-Save: Hard (Arc). AoE: 20-ft radius / 8 × 8. Hailstones and ice shards strike
-the ground, dealing 3d6 bludgeoning damage and 2d6 cold damage. The area becomes
+Save: Arcana 14. AoE: 20-ft radius / 8 × 8. Hailstones and ice shards strike the
+ground, dealing 3d6 bludgeoning damage and 2d6 cold damage. The area becomes
 difficult terrain until the start of the caster’s next turn.
 
 #### Improved Invisibility
 
-_Illusion (R: Touch, D: 1 turn, +1 per name level)_ This spell renders the
-subject invisible, but they are able to attack or cast their own spells without
-automatically nullifying the spell. The invisible creature can attacked with the
-usual –4 penalty applied to invisible targets, but in addition its saves are one
-difficulty level lower.
+_Illusion (R: Touch, D: 1 turn, +1 per name level)_  
+This spell renders the subject invisible, but they are able to attack or cast
+their own spells without automatically nullifying the spell. The invisible
+creature can attacked with the usual –4 penalty applied to invisible targets,
+but in addition its saves are one difficulty level lower.
 
 #### Know Weakness
 
@@ -1376,38 +1411,41 @@ The caster instantly recalls one spell they have previously cast.
 #### Overlook
 
 _Enchantment (R: Short, D: 1 hour)_  
-Save: Hard (Will). One subject becomes oblivious to the caster and their allies.
-The subject will ignore the caster and their allies unless attacked, in which
-case the spell ends.
+Save: Willpower 14. One subject becomes oblivious to the caster and their
+allies. The subject will ignore the caster and their allies unless attacked, in
+which case the spell ends.
 
-#### Phantasmal Killer
+#### Polymorph
 
-_Illusion (R: Short, D: 1 minute)_  
-Save: Very Hard (Per). This spell creates an illusory manifestation of a
-target’s worst fears. Creatures of Non- intelligence are immune, as are those
-immune to fear. The slayer attacks as a 10-HD monster; on a hit, if the target
-fails their save, they die. On a successful save, the spell ends.
+_Transmutation (R: Short, D: 1d6x10 + 10 minutes or permanent)_  
+Transforms the caster or another living subject into another type of living
+creature of the same size, as chosen by the caster. The spell cannot be used to
+duplicate a specific individual. If the subject dies while polymorphed, they
+return to their original form. An unwilling subject may make a Dexterity 14
+saving throw to resist being transformed.
 
-#### Polymorph Self
+**Cast on self:** The transformation fails if the new form’s Level is greater
+than the caster’s. The transformation does not alter the caster’s Hit Points,
+Saving Throw bonus, Attack, or intelligence. Physical capabilities of the new
+form (e.g. strength, physical attack forms, modes of movement) are acquired.
+Non-physical special traits or powers (e.g. immunities, breath weapons, spell
+casting) are not acquired. While polymorphed, the caster is unable to cast
+spells. The duration is 1d6 Turns + 1 Turn per Level.
 
-_Transmutation (R: Self, D: 1 hour)_  
-The caster can assume the form of any creature of the same size. The caster’s
-original mind and Hit Points are kept; mental abilities, magic powers, and
-level-draining are never gained. Otherwise, all abilities, scores, and
-weaknesses of the new form are possessed.
+**Cast on another:** The transformation fails if the new form’s Level is greater
+than double the caster’s. The transformation does not alter the subject’s Hit
+Points, but the subject otherwise truly becomes the new form: all special traits
+and powers are acquired, along with behavioural patterns, tendencies, and
+intelligence. The duration is permanent.
 
 #### Programmed Illusion
 
 _Illusion (R: Long, D: Permanent)_  
-Save: Hard (Per). This spell creates a visual illusion, plus one other sensory
-effect, of any object, creature, or force. The illusion can be programmed to
-react to a set of conditions, and can be up to 20 ft in any dimension. If a
-trigger condition occurs, the illusion acts in the programmed manner.
-
-#### Remove Curse
-
-_Abjuration (R: Touch, D: Instant)_  
-This spell ends one curse afflicting a creature or object.
+Save: Perception 14. This spell creates a visual illusion, plus one other
+sensory effect, of any object, creature, or force. The illusion can be
+programmed to react to a set of conditions, and can be up to 20 ft in any
+dimension. If a trigger condition occurs, the illusion acts in the programmed
+manner.
 
 #### Sanctum
 
@@ -1430,29 +1468,24 @@ _Transmutation (R: Touch, D: Instant)_
 This spell turns a stone object into flesh. The object must be no larger than 10
 cubic feet.
 
-#### Strength
-
-_Transmutation (R: Touch, D: 1 hour)_  
-The subject’s Strength score doubles.
-
 #### Telekinesis
 
 _Evocation (R: Long, D: Concentration)_  
 The caster can move objects with their mind. The maximum weight that can be
-moved is 25 pounds per caster level. The caster can hurl objects, dealing 1D6
+moved is 25 pounds per caster level. The caster can hurl objects, dealing 1d6
 damage per 25 pounds.
 
 #### Thunderclap
 
 _Evocation (R: Self, D: Instant)_  
 AoE: 10-ft radius / 4 × 4. A thunderous boom issues forth from the caster. All
-creatures within the area of effect must make a Hard (Con) save or be deafened
-for 1D6 rounds.
+creatures within the area of effect must make a Constitution 14 save or be
+deafened for 1d6 rounds.
 
 #### Transmute Rock to Mud (R)
 
 _Transmutation (R: Short, D: 10 minutes)_  
-Save: Hard (Arc). AoE: Up to 20-ft radius / 8 × 8. The spell turns stone into
+Save: Arcana 14. AoE: Up to 20-ft radius / 8 × 8. The spell turns stone into
 mud. The mud is 2 ft deep, and difficult terrain. Creatures in the area when the
 spell is cast must save or fall prone. The reverse, Mud to Rock, turns mud into
 stone.
@@ -1460,8 +1493,17 @@ stone.
 #### Wingbind
 
 _Evocation (R: Medium, D: 1 hour)_  
-Save: Hard (Arc). One flying creature has its wings bound and cannot fly. If the
+Save: Arcana 14. One flying creature has its wings bound and cannot fly. If the
 creature fails its save, it crashes to the ground, taking damage as appropriate.
+
+#### Woodland Veil
+
+_Illusion (R: Medium, D: Permanent)_  
+Up to 100 Small or Medium creatures (chosen by the caster) within range are
+veiled by illusion, appearing as a copse of trees or an orchard. Once the
+illusion is in place, even creatures moving among the veiled subjects are
+deceived. Subjects who leave the affected area cease to be veiled. The caster
+may dismiss the illusion in its entirety at any time.
 
 # 5TH RANK SPELLS
 
@@ -1545,8 +1587,9 @@ time. The fireball deals 1d6 fire damage per level of the caster, maximum 15d6.
 
 _Conjuration (R: Medium, D: Concentration)_  
 The caster creates a wall of fire, ice, or wind up to 100 ft long, 20 ft high,
-and 5 ft thick. The wall deals 2d6 damage of the chosen element to any creature
-passing through it.
+and 5 ft thick. Creatures of Level 3 or lower cannot pass through the wall;
+creatures of Level 4 or higher can pass through the wall, but take 3d6 damage of
+the chosen element.
 
 #### Feeblemind
 
