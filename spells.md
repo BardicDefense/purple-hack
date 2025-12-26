@@ -49,10 +49,10 @@
 | 4    | Banishment        |
 | 4    | Dimension Door    |
 | 4    | Duplicate         |
-| 4    | Ice Storm         |
+| 4    | Elemental Wall    |
+| 5    | Air Sphere        |
 | 5    | Cloudkill         |
-| 5    | Elemental Wall    |
-| 5    | Limited Wish      |
+| 5    | Conjure Elemental |
 | 5    | Teleport          |
 | 6    | Invisible Stalker |
 | 6    | Meteor Swarm      |
@@ -131,8 +131,8 @@
 | 3    | Lightning Bolt         |
 | 3    | Serpent Glyph          |
 | 4    | Mnemonic Enhancer      |
+| 4    | Sending                |
 | 4    | Telekinesis            |
-| 4    | Thunderclap            |
 | 4    | Wingbind               |
 | 5    | Blade Barrier          |
 | 5    | Clenched Fist          |
@@ -209,19 +209,14 @@
 | 2    | Arcane Cipher             |
 | 2    | Knock                     |
 | 2    | Spider Climb              |
-| 2    | Water Breathing           |
-| 3    | Darkvision                |
-| 3    | Gaseous Form              |
-| 3    | Haste (R)                 |
-| 3    | Plant Growth              |
 | 4    | Enhance                   |
+| 4    | Fabricate                 |
 | 4    | Polymorph Self            |
-| 4    | Stone to Flesh            |
 | 4    | Transmute Rock to Mud (R) |
 | 5    | Fly                       |
 | 5    | Iron Body                 |
+| 5    | Passwall                  |
 | 5    | Reverse Gravity           |
-| 5    | Shape Earth               |
 | 6    | Control Water             |
 | 6    | Control Weather           |
 | 6    | Shape Change              |
@@ -1217,13 +1212,19 @@ cannot move the eye that same turn / round.
 #### Animate Dead
 
 _Necromancy (R: Short, D: 1 day)_  
-This spell turns the bones or bodies of dead creatures into undead skeletons or
-zombies that follow the caster’s simple spoken commands. The maximum Hit Dice
-that can be animated and controlled at any one time is equal to the caster’s
-level. The dead are animated until destroyed, a Dispel Magic spell is cast upon
-them, or the duration expires. The caster can make the duration permanent by
-consuming 100 sp per Hit Die of the creature(s) animated in ritual components
+Up to 1 medium humanoid corpses or skeletons of the caster's choosing per Level
+of the caster rise as undead under the caster's command. Whatever their
+capabilities during life, all created undead use the stats below. They are
+unable to use any special traits or powers (including spell casting) possessed
+in life. The dead are animated until destroyed, a Dispel Magic spell is cast
+upon them, or the duration expires. The caster can make the duration permanent
+by consuming 100 sp per Hit Die of the creature(s) animated in ritual components
 when the spell is cast.
+
+**Medium Undead**  
+Level 1 AC 12 HP 1d8 (4) Att Weapon (+0) Speed 20 Morale 12 XP 10  
+Undead: Silent before attacking. Immune to biological effects (e.g. disease,
+poison) and mind-affecting spells.
 
 #### Banishment
 
@@ -1315,10 +1316,32 @@ duplicated item is identical to the original in every way, but Detect Magic
 reveals its true nature. At the duration’s end, or if a Dispel Magic is cast on
 the item, the item vanishes.
 
+#### Elemental Wall
+
+_Conjuration (R: Medium, D: Concentration or permanent)_  
+The caster creates a wall of fire, ice, stone, or wind up to 1,000 cubic feet of
+volume (e.g. 2' thick, 50' long, and 10' high). The caster must choose the
+wall's element at the time of memorizing the spell. If the wall is made of fire,
+ice, or wind, creatures of Level 3 or lower cannot pass through the wall;
+creatures of Level 4 or higher can pass through the wall, but take 3d6 damage of
+the chosen element per 10' traveled. A wall of stone is permanent and must be
+supported (e.g. by the ground) and cannot be created in an area occupied by
+objects.
+
 #### Enhance
 
 _Transmutation (R: Touch, D: 1 hour)_  
 One chosen Ability score doubles for the subject.
+
+#### Fabricate
+
+_Transmutation (R: Short, D: Permanent)_  
+Disassembles raw, inanimate materials within range and weaves them into objects
+of the caster’s choosing. Any simple object typically constructed from the raw
+materials may be fabricated. For example, a door could be made from trees,
+clothing from wool, etc. The object's size may be up to 1 cubic yard per Level
+of the caster. Objects fabricated from minerals may be up to 1 cubic foot per
+Level of the caster.
 
 #### Free Action
 
@@ -1368,13 +1391,6 @@ is permanent.
 
 Multiple curses: So long as each has a unique effect, multiple curses may
 afflict the same creature.
-
-#### Ice Storm
-
-_Conjuration (R: Long, D: 1 round)_  
-Save: Arcana 14. AoE: 20-ft radius / 8 × 8. Hailstones and ice shards strike the
-ground, dealing 3d6 bludgeoning damage and 2d6 cold damage. The area becomes
-difficult terrain until the start of the caster’s next turn.
 
 #### Improved Invisibility
 
@@ -1454,6 +1470,14 @@ AoE: Up to 40-ft radius / 16 × 16. This spell creates a zone of peace and quiet
 No sound can be created within the area of effect, and no creature can attack
 another while inside it.
 
+#### Sending
+
+_Evocation (R: Unlimited, D: Instant)_  
+The caster sends a mental message to another creature. The caster must be
+familiar with the recipient, including their name and appearance. The recipient
+must be of at least Animal Intelligence. The message may be up to 25 words. It
+is understood by the recipient, irrespective of language.
+
 #### Speak with Dead
 
 _Necromancy (R: Short, D: 10 minutes)_  
@@ -1462,25 +1486,18 @@ must not have been dead for more than one week. The corpse knows only what it
 knew in life, including the languages it spoke. Answers are usually brief,
 cryptic, or repetitive.
 
-#### Stone to Flesh
-
-_Transmutation (R: Touch, D: Instant)_  
-This spell turns a stone object into flesh. The object must be no larger than 10
-cubic feet.
-
 #### Telekinesis
 
 _Evocation (R: Long, D: Concentration)_  
 The caster can move objects with their mind. The maximum weight that can be
-moved is 25 pounds per caster level. The caster can hurl objects, dealing 1d6
-damage per 25 pounds.
+moved is 20 pounds per caster level. The caster may move the target up to 20′
+per Round in any direction desired (including vertically), but can also hurl the
+object, dealing 1d6 damage per 20 pounds and ending the spell. If the caster is
+harmed, moves, or takes any other action, the spell ends.
 
-#### Thunderclap
-
-_Evocation (R: Self, D: Instant)_  
-AoE: 10-ft radius / 4 × 4. A thunderous boom issues forth from the caster. All
-creatures within the area of effect must make a Constitution 14 save or be
-deafened for 1d6 rounds.
+If a creature is targeted, it may make a Strength 14 to resist the spell. If a
+held object is targeted, the owner may likewise make a Strength 14 to resist the
+spell.
 
 #### Transmute Rock to Mud (R)
 
@@ -1505,21 +1522,28 @@ illusion is in place, even creatures moving among the veiled subjects are
 deceived. Subjects who leave the affected area cease to be veiled. The caster
 may dismiss the illusion in its entirety at any time.
 
-# 5TH RANK SPELLS
+# Rank 5 Spells
 
 #### Advanced Illusion
 
 _Illusion (R: Long, D: Concentration—2 hours)_  
-Save: Hard (Per). This spell creates a visual illusion, plus any other sensory
-effect, of any object, creature, or force. The illusion can be up to 40 ft in
-any dimension. The illusion can be programmed to react to a set of conditions,
-and can include speech.
+Save: Perception 14. This spell creates a visual illusion, plus any other
+sensory effect, of any object, creature, or force. The illusion can be up to 40
+ft in any dimension. The illusion can be programmed to react to a set of
+conditions, and can include speech.
+
+#### Air Sphere
+
+_Conjuration (R: Self, D: 10 minutes per Level)_  
+When immersed in water, the caster is surrounded by a 10′ radius sphere of
+breathable air. The 10′ radius sphere of the spell’s effect moves with the
+caster. Swimming is not enhanced or affected.
 
 #### Anticipation
 
 _Divination (R: Self, D: 1 round)_  
 The caster can sense danger before it occurs. The caster gains advantage on
-initiative rolls and saving throws.
+surprise rolls and saving throws.
 
 #### Antimagic Shell
 
@@ -1529,7 +1553,7 @@ The caster is immune to all spells and magical effects.
 #### Banish Supernatural
 
 _Abjuration (R: Medium, D: 1 minute)_  
-Save: Hard. This spell banishes up to 20 HD worth of chosen supernatural
+Save: Arcana 14. This spell banishes up to 20 HD worth of chosen supernatural
 creatures back to their home plane.
 
 #### Blade Barrier
@@ -1542,21 +1566,21 @@ the caster, maximum 10d6.
 #### Cloudkill
 
 _Conjuration (R: Medium, D: 10 minutes)_  
-Save: Hard (Con). AoE: 20-ft radius / 8 × 8. A billowing cloud of poisonous gas
-appears. It moves 10 ft away from the caster each round. Creatures in the cloud
-take 1d6 poison damage per round.
+Save: Constitution 14. AoE: 20-ft radius / 8 × 8. A billowing cloud of poisonous
+gas appears. It moves 10 ft away from the caster each round. Creatures in the
+cloud take 1d6 poison damage per round.
 
 #### Clenched Fist
 
 _Evocation (R: Long, D: 1 round)_  
-Save: Hard (Arc). The caster creates a giant, spectral fist that strikes at a
+Save: Arcana 14. The caster creates a giant, spectral fist that strikes at a
 target within range. The fist deals 10d6 bludgeoning damage.
 
 #### Contact Other Plane
 
 _Divination (R: Special, D: Special)_  
 The caster attempts to contact a being on another plane of existence. The caster
-must make a Hard (Int) check to succeed. If successful, the caster can ask up to
+must make a Arcana check to succeed. If successful, the caster can ask up to
 three questions. The being may or may not answer truthfully.
 
 #### Contingency
@@ -1566,10 +1590,36 @@ The caster places a spell upon themselves that will trigger under a certain
 condition. The spell must be of 4th rank or lower. The triggering condition must
 be clear and specific.
 
+#### Conjure Elemental
+
+_Conjuration (R: Medium, D: Permanent until dismissed or slain)_  
+Conjures a giant being formed of pure elemental matter (air, earth, fire, or
+water) to do the caster’s bidding. The spell requires a large volume of the
+appropriate element. If the caster is harmed, moves at greater than half Speed,
+or takes any other action, their command over the elemental ends. An elemental
+unchained from a caster’s control immediately attempts to murder its creator and
+any who get in its way. While control over the elemental is maintained, the
+caster may dismiss it at any time, returning it to inert matter.
+
+**Elemental** Large Construct—Mindless—Neutral  
+Level 16 AC 21 HP 16d8 (72) Att Blow (+11, 3d8) Speed By type Morale 12 XP 3,050
+
+- Construct: Immune to biological effects (e.g. disease, poison) and
+  mind-affecting spells (e.g. Vapours of Dream, Paralysation, Dominate).
+- Immunities: Only harmed by magic or magic weapons.
+- Air: 32′ high, 8′ wide vortex of whirling air. +1d8 damage against flying
+  creatures. Speed 120.
+- Earth: 16′ high humanoid figure of earth or stone. Cannot cross water wider
+  than 16′. +1d8 damage against creatures on the ground. Speed 20.
+- Fire: 16′ high, 16′ wide column of whirling fire. Cannot cross water wider
+  than 16′. +1d8 damage against cold-based creatures. Speed 40.
+- Water: 8′ high, 32′ wide wave of water. Must remain within 60′ of water. +1d8
+  damage against creatures in water. Speed 20 (swimming 60).
+
 #### Control Undead
 
 _Necromancy (R: Short, D: 1 minute)_  
-Save: Hard (Will). One undead creature is forced to obey the caster’s commands.
+Save: Willpower 14. One undead creature is forced to obey the caster’s commands.
 
 #### Cure Critical Wounds
 
@@ -1580,23 +1630,16 @@ subject has.
 #### Delayed Blast Fireball
 
 _Evocation (R: Long, D: Special)_  
-Save: Hard (Arc). The caster creates a fireball that will detonate at a later
-time. The fireball deals 1d6 fire damage per level of the caster, maximum 15d6.
-
-#### Elemental Wall
-
-_Conjuration (R: Medium, D: Concentration)_  
-The caster creates a wall of fire, ice, or wind up to 100 ft long, 20 ft high,
-and 5 ft thick. Creatures of Level 3 or lower cannot pass through the wall;
-creatures of Level 4 or higher can pass through the wall, but take 3d6 damage of
-the chosen element.
+Save: Arcana 14. The caster creates a fireball that will detonate at a later
+time after a specified trigger. The fireball deals 1d6 fire damage per level of
+the caster, maximum 15d6.
 
 #### Feeblemind
 
 _Enchantment (R: Medium, D: Permanent)_  
-Save: Very Hard (Will). The subject’s Intelligence and Charisma scores are
-reduced to 1. The subject can only babble incoherently and cannot cast spells or
-use magic items.
+Save: Willpower 17. The subject’s intelligence is reduced to semi-intelligent
+level. The subject can only babble incoherently and cannot cast spells or use
+magic items.
 
 #### Find the Path
 
@@ -1612,9 +1655,9 @@ The subject can fly at Speed 120.
 #### Hold Monster
 
 _Enchantment (R: Medium, D: 1 minute)_  
-Save: Special (Arc). One or more living creatures of any size are hypnotised and
-become helpless. The caster can choose one target (Very Hard save), or up to
-four (separate Hard saves).
+Save: Special (Arcana). One or more living creatures of any size are hypnotised
+and become helpless. The caster can choose one target (Arcana 17 save), or up to
+four (separate Arcana 14 saves).
 
 #### Iron Body
 
@@ -1622,34 +1665,33 @@ _Transmutation (R: Touch, D: 1 hour)_
 The subject’s skin becomes as hard as iron, granting +8 AC. The subject’s
 movement speed is halved.
 
-#### Limited Wish
-
-_Conjuration (R: Special, D: Special)_  
-The spell will fulfill literally the utterance of the caster, or duplicate the
-function of any lower-level Evocation spell. Greedy desires will usually end in
-disaster for the wisher.
-
 #### Mass Charm
 
 _Enchantment (R: Medium, D: 1 hour)_  
-Save: Hard (Will). All creatures within a 30-ft radius become friendly to the
+Save: Willpower 14. All creatures within a 30-ft radius become friendly to the
 caster.
 
 #### Mass Suggestion
 
 _Enchantment (R: Short, D: 12 hours)_  
-Save: Hard (Will). All intelligent living creatures within a 30-ft radius will
+Save: Willpower 14. All intelligent living creatures within a 30-ft radius will
 follow a single spoken course of action (language permitting, and limited to a
 sentence or two), if the caster can phrase it to sound reasonable—even if it
 isn’t.
 
+#### Passwall
+
+_Transmutation (R: Touch, Duration: 1 hour)_  
+A 5′ diameter hole is temporarily opened in solid rock or stone, forming a
+passageway up to 10′ deep.
+
 #### Permanent Illusion
 
 _Illusion (R: Long, D: Permanent)_  
-Save: Hard (Per). This spell creates a visual illusion, plus any other sensory
-effect, of any object, creature, or force. The illusion can be up to 40 ft in
-any dimension. The illusion can be programmed to react to a set of conditions,
-and can include speech.
+Save: Perception 14. This spell creates a visual illusion, plus any other
+sensory effect, of any object, creature, or force. The illusion can be up to 40
+ft in any dimension. The illusion can be programmed to react to a set of
+conditions, and can include speech.
 
 #### Raise Dead
 
@@ -1672,7 +1714,7 @@ fall upward. At the end of the round, they fall back down.
 #### Seeming
 
 _Illusion (R: Long, D: 8 hours)_  
-Save: Very Hard (Per). The appearance of up to one subject per two caster
+Save: Perception 17. The appearance of up to one subject per two caster
 levels—including all carried items—is altered. Height can be altered up to one
 full size category shorter or taller; weight can be altered to a similar degree.
 The same basic limb arrangement must be kept. If only one subject is disguised,
@@ -1681,13 +1723,8 @@ the need for concentration is waived.
 #### Sensory Deprivation
 
 _Illusion (R: Medium, D: 1 round)_  
-Save: Very Hard (Per). One subject is blinded, deafened, and cannot smell or
+Save: Perception 17. One subject is blinded, deafened, and cannot smell or
 taste.
-
-#### Shape Earth
-
-_Transmutation (R: Touch, D: Instant)_  
-The caster can move up to 10 cubic feet of earth per level.
 
 #### Spell Turning
 
@@ -1697,7 +1734,34 @@ Any spell targeted at the caster is reflected back at the original caster.
 #### Teleport
 
 _Conjuration (R: Touch, D: Instant)_  
-This spell instantly transports the subject to a known location.
+The caster or a chosen creature vanishes and reappears at a location of the
+caster’s choosing with all its gear, up to its maximum load. An unwilling
+subject may Save Versus Spell to resist the teleportation. The destination may
+be at any distance, but must be known to the caster. The destination must be an
+open space at ground level. (The caster may not intentionally teleport a subject
+into mid-air or into solid matter.)
+
+When teleporting, there is a risk of accidentally arriving above or below ground
+level. The chance of a successful teleportation depends on the caster’s
+knowledge of the destination (see below). Roll d100 and consult the below table.
+
+| Knowledge of Dest. | Intended Dest. | Too High | Too Low |
+| :----------------: | :------------: | :------: | :-----: |
+|       Scant        |     01–50      |  51–75   |  76–00  |
+|      Moderate      |     01–80      |  81–90   |  91–00  |
+|       Exact        |     01–95      |  96–99   |   00    |
+
+- Scant: A location that the caster has visited once or twice, has seen by
+  magical scrying, or has heard of from descriptions.
+- Moderate: A location that the caster has visited often or has studied via
+  scrying for several weeks.
+- Exact: A location that the caster has studied in-person for several weeks,
+  memorising every minute detail.
+- Too high: The subject appears 1d10 × 10′ above the intended destination. If
+  this is inside solid matter, the subject dies instantly. Otherwise, they fall
+  from a height.
+- Too low: The subject appears 1d10 × 10′ below the intended destination. If
+  this is inside solid matter, the subject dies instantly.
 
 #### True Seeing
 
