@@ -7,4 +7,4 @@ minima:
   skin: auto
   nav_pages:
     - spells.md
-    - shopping.md
+    - holyspells.md

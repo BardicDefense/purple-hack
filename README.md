@@ -1482,32 +1482,63 @@ written.
 This shows the number of spells of a given spell rank that a caster can prepare
 per day (also known as their spell slots). Mages are the first number, Arcanist
 Warriors are the number in parentheses. If the mage is a specialist, they add
-one to each rank's spell slot total, but the extra spell must be from the school
-specialized in. If a spell is rank-adjusted through feats, that spell is treated
-in all ways as a spell of the rank to which it has been modified.
+one to each rank's spell slot total if they can cast spells of that rank. If a
+spell is rank-adjusted through feats, that spell is treated in all ways as a
+spell of the rank to which it has been modified.
 
-| Mage Level |  1   |  2   |  3   |  4   |  5   |  6   |
-| :--------: | :--: | :--: | :--: | :--: | :--: | :--: |
-|     1      | 2(1) |      |      |      |      |      |
-|     2      | 3(1) |      |      |      |      |      |
-|     3      | 3(1) | 1(1) |      |      |      |      |
-|     4      | 3(1) | 2(1) |      |      |      |      |
-|     5      | 4(2) | 2(1) |      |      |      |      |
-|     6      | 4(2) | 2(1) | 1(1) |      |      |      |
-|     7      | 4(2) | 3(1) | 2(1) |      |      |      |
-|     8      | 5(2) | 3(1) | 2(1) |      |      |      |
-|     9      | 5(2) | 3(1) | 2(1) | 1(1) |      |      |
-|     10     | 5(2) | 3(1) | 2(1) | 2(1) |      |      |
-|     11     | 5(2) | 4(2) | 3(1) | 2(1) |      |      |
-|     12     | 5(2) | 4(2) | 3(1) | 2(1) | 1(1) |      |
-|     13     | 6(3) | 4(2) | 3(1) | 2(1) | 1(1) |      |
-|     14     | 6(3) | 4(2) | 3(1) | 3(1) | 2(1) |      |
-|     15     | 6(3) | 5(2) | 4(2) | 3(1) | 2(1) | 1(1) |
-|     16     | 6(3) | 5(2) | 4(2) | 3(1) | 2(1) | 1(1) |
-|     17     | 6(3) | 5(2) | 4(2) | 3(1) | 3(1) | 1(1) |
-|     18     | 6(3) | 5(2) | 4(2) | 4(2) | 3(1) | 2(1) |
-|     19     | 6(3) | 6(3) | 5(2) | 4(2) | 3(1) | 2(1) |
-|     20     | 6(3) | 6(3) | 5(2) | 4(2) | 3(1) | 2(1) |
+| Character Level |  1   |  2   |  3   |  4   |  5   |  6   |
+| :-------------: | :--: | :--: | :--: | :--: | :--: | :--: |
+|        1        | 1(1) |      |      |      |      |      |
+|        2        | 2(1) |      |      |      |      |      |
+|        3        | 2(1) | 1(1) |      |      |      |      |
+|        4        | 2(1) | 2(1) |      |      |      |      |
+|        5        | 3(1) | 2(1) | 1(1) |      |      |      |
+|        6        | 3(1) | 2(1) | 2(1) |      |      |      |
+|        7        | 3(1) | 2(1) | 2(1) | 1(1) |      |      |
+|        8        | 3(1) | 3(1) | 2(1) | 2(1) |      |      |
+|        9        | 4(2) | 3(1) | 2(1) | 2(1) | 1(1) |      |
+|       10        | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) |      |
+|       11        | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) | 1(1) |
+|       12        | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) |
+|       13        | 5(2) | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) |
+|       14        | 5(2) | 4(2) | 4(1) | 3(1) | 3(1) | 2(1) |
+|       15        | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) |
+|       16        | 5(2) | 5(2) | 4(2) | 4(1) | 3(1) | 3(1) |
+|       17        | 6(3) | 5(2) | 4(2) | 4(1) | 3(1) | 3(1) |
+|       18        | 6(3) | 5(2) | 5(2) | 4(2) | 4(1) | 3(1) |
+|       19        | 6(3) | 5(2) | 5(2) | 4(2) | 4(1) | 3(1) |
+|       20        | 6(3) | 6(3) | 5(2) | 5(2) | 4(1) | 4(1) |
+
+### Holy Spell Slot Progression Table
+
+This shows the number of holy spells of a given spell rank that a caster with
+the Anointed can prepare per day (also known as their spell slots). Anointed
+Mages are the first number, Anointed Arcanist Warriors are the number in
+parentheses. If the mage is a specialist, they add one to each rank's spell slot
+total if they can cast spells of that rank.
+
+| Character Level |  1   |  2   |  3   |  4   |  5   |
+| :-------------: | :--: | :--: | :--: | :--: | :--: |
+|        1        | 1(0) |      |      |      |      |
+|        2        | 2(1) |      |      |      |      |
+|        3        | 2(1) | 1(0) |      |      |      |
+|        4        | 2(1) | 2(1) |      |      |      |
+|        5        | 3(1) | 2(1) | 1(0) |      |      |
+|        6        | 3(1) | 2(1) | 2(1) |      |      |
+|        7        | 3(1) | 3(1) | 2(1) | 1(0) |      |
+|        8        | 3(1) | 3(1) | 2(1) | 2(1) |      |
+|        9        | 4(2) | 3(1) | 3(1) | 2(1) | 1(0) |
+|       10        | 4(2) | 4(2) | 3(1) | 2(1) | 2(1) |
+|       11        | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) |
+|       12        | 5(2) | 4(2) | 4(2) | 3(1) | 2(1) |
+|       13        | 5(2) | 5(2) | 4(2) | 3(1) | 3(1) |
+|       14        | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) |
+|       15        | 6(3) | 5(2) | 5(2) | 4(2) | 3(1) |
+|       16        | 6(3) | 6(3) | 5(2) | 4(2) | 4(2) |
+|       17        | 6(3) | 6(3) | 5(2) | 5(2) | 4(2) |
+|       18        | 6(3) | 6(3) | 6(3) | 5(2) | 4(2) |
+|       19        | 6(3) | 6(3) | 6(3) | 5(2) | 5(2) |
+|       20        | 6(3) | 6(3) | 6(3) | 6(3) | 5(2) |
 
 ### Preparing & Casting
 
