@@ -295,9 +295,10 @@ treated as a 3rd-Rank spell). A feat cannot take a spell over 6th Rank.
   4, the animal becomes your companion. Once a connection is established, the
   companion follows you everywhere, understands basic commands, and fights to
   the death to defend you.
-- **Anointed**: You are zealous for your God and a saint whose particular
-  patronage you choose. Spells or effects that would target supernatural
-  creatures aligned with your patron also affect you.
+- **Anointed**: _Note: A Warrior can only take this if they are an Arcanist._
+  You are zealous for your God and a saint whose particular patronage you
+  choose. Spells or effects that would target supernatural creatures aligned
+  with your patron also affect you.
   - You lose access to the usual arcane spell list and instead gain access to
     the holy spell list. You do not need a spellbook, and instead pray daily for
     spells, choosing from all the spells available to you each day. You must
@@ -1489,13 +1490,13 @@ is treated in all ways as a spell of the Rank to which it has been modified.
 |       11        | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) | 1(1) |
 |       12        | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) |
 |       13        | 5(2) | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) |
-|       14        | 5(2) | 4(2) | 4(1) | 3(1) | 3(1) | 2(1) |
+|       14        | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) |
 |       15        | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) |
-|       16        | 5(2) | 5(2) | 4(2) | 4(1) | 3(1) | 3(1) |
-|       17        | 6(3) | 5(2) | 4(2) | 4(1) | 3(1) | 3(1) |
-|       18        | 6(3) | 5(2) | 5(2) | 4(2) | 4(1) | 3(1) |
-|       19        | 6(3) | 5(2) | 5(2) | 4(2) | 4(1) | 3(1) |
-|       20        | 6(3) | 6(3) | 5(2) | 5(2) | 4(1) | 4(1) |
+|       16        | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) |
+|       17        | 6(3) | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) |
+|       18        | 6(3) | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) |
+|       19        | 6(3) | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) |
+|       20        | 6(3) | 6(3) | 5(2) | 5(2) | 4(2) | 4(2) |
 
 ### Holy Spell Slot Progression Table
 
