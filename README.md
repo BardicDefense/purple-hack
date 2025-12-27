@@ -1273,11 +1273,11 @@ is divided equally among player characters only.
 
 ### Feats of Exploration
 
-Each feat performed grants 2% of the Total XP needed by the party to advance
+Each feat performed grants 2% of the Total XP Needed by the party to advance
 from the start of their current Level to the start of their next Level. For
-example, the Total XP of a party of four 2nd-Level characters is 8,000 (4,000
-for 3rd Level minus 2,000 for 2nd Level, times four); each Feat performed will
-grant 160 XP to the party.
+example, the Total XP Needed of a party of four 2nd-Level characters is 8,000
+(4,000 for 3rd Level minus 2,000 for 2nd Level, times four); each Feat performed
+will grant 160 XP to the party.
 
 Feats include:
 
