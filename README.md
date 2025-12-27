@@ -2270,6 +2270,15 @@ Player characters may purchase bulk goods by hundredweight (cwt), where 1
 hundredweight is 10 slots, up to their carrying capacity (or the carrying
 capacity of any pack animals, carts or wagons, or ships they may own).
 
+### Bulk Trade Loads Available
+
+|  Market Class  | Loads Available |
+| :------------: | :-------------: |
+|   Class I-II   |      1d6+2      |
+|  Class III-IV  |      1d6-1      |
+|    Class V     |      1d6-2      |
+| Class VI-below |      1d6-3      |
+
 ## Strongholds & Domains
 
 Strongholds and domains are as in OSE Advanced, with clarifications and detailed
