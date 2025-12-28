@@ -8,3 +8,4 @@ minima:
   nav_pages:
     - spells.md
     - holyspells.md
+    - lore.md
