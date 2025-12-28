@@ -360,7 +360,7 @@ If successful, the illusion is dispelled.
 #### Chill Touch
 
 _Necromancy (R: Touch, D: 1 minute)_  
-Save: Arcana 14. This spell deals 1D6+2 necrotic damage. If the target is
+Save: Arcana 14. This spell deals 1d6+2 necrotic damage. If the target is
 living, it cannot be healed for the spell’s duration; undead creatures instead
 must reroll any hits scored against the caster.
 
@@ -416,7 +416,7 @@ the subject (not the caster) has.
 #### Curse
 
 _Conjuration (R: Short, D: 1 hour)_  
-Save: Arcana. AoE: 50-ft radius / 20 × 20. All chosen targets receive a –2
+Save: Arcana 14. AoE: 50-ft radius / 20 × 20. All chosen targets receive a –2
 attack penalty, as well as –1 to Morale checks.
 
 #### Detect Illusion
@@ -585,7 +585,7 @@ action gives them an extra save; mere noise does not.
 
 #### Turn Undead
 
-_Necromancy (R: Self, D: 1D6 × 10 minutes)_  
+_Necromancy (R: Self, D: 1d6 × 10 minutes)_  
 Save: None. AoE: 30-ft radius / 12 × 12. The caster rolls 2d6 to determine the
 result:
 
@@ -630,11 +630,12 @@ tapestry, an animal).
 
 #### Arcane Cypher
 
-_Transmutation (R: 5', D: Permanent)_ Script which the caster passes their hand
-over glows and is transformed into arcane sigils incomprehensible to all except
-the caster. The text of a single spell in a spell book may be affected, or up to
-1 page of normal text per Level of the caster. Magical text cannot be affected.
-The Arcane Cypher is only decoded by magic (e.g. by the Decipher spell).
+_Transmutation (R: 5', D: Permanent)_  
+Script which the caster passes their hand over glows and is transformed into
+arcane sigils incomprehensible to all except the caster. The text of a single
+spell in a spell book may be affected, or up to 1 page of normal text per Level
+of the caster. Magical text cannot be affected. The Arcane Cypher is only
+decoded by magic (e.g. by the Decipher spell).
 
 #### Arcane Lock
 
@@ -1298,15 +1299,13 @@ yet unwritten and so events may render the reply inaccurate.
 #### Dominate
 
 _Enchantment (R: Medium, D: Permanent until broken)_  
-Places a powerful charm on one or more living creatures, either 3d6 creatures of
-up to Level 3 or a single creature of higher Level, as chosen by the caster.
-Each subject must make an Arcana 14 saving throw or be charmed. The charm lasts
-indefinitely, but each subject makes a further save once per day. If one of
-these saves succeeds, the charm ends. Subjects regard the caster as a close
-friend and come to the caster’s defense. If they share a language, the caster
-may give the charmed subjects commands, which they obey. Subjects may resist
-commands that contradict their habits or Alignment. Suicidal or clearly harmful
-commands are always refused.
+Save: Willpower 14. The spell affects one intelligent subject, who becomes
+powerless to resist the caster. Commands can be given verbally or mentally, as a
+free action, as long as the subject is within range. The subject can be forced
+to use their powers and abilities, assuming the caster knows of them (a victim’s
+secrets are not automatically revealed). If the victim is ordered to do
+something they would find abhorrent, they are first granted another saving
+throw.
 
 #### Duplicate
 
@@ -1404,13 +1403,13 @@ but in addition its saves are one difficulty level lower.
 #### Know Weakness
 
 _Divination (R: Short, D: Instant)_  
-The caster discerns a single weakness in one creature, either a physical or
-magical vulnerability. The caster gains advantage on attack rolls against this
-weakness, and the target suffers disadvantage on saving throws against it.
+The caster learns the target’s current weaknesses and resistances. This includes
+anything that causes the target more than the normal amount of damage, and
+effects that reduce or negate damage.
 
 #### Magic Mirror
 
-_Divination (R: Short, D: Concentration—10 minutes)_  
+_Divination (R: Short, D: 10 minutes)_  
 The caster creates a mirror-like surface on any solid object. The caster can see
 and hear through the mirror as if they were in the location reflected. The
 mirror can be moved up to 60 ft away from the caster.
@@ -1418,19 +1417,22 @@ mirror can be moved up to 60 ft away from the caster.
 #### Minor Globe of Invulnerability
 
 _Abjuration (R: Self, D: 10 minutes)_  
-The caster is immune to all spells of 3rd rank or lower.
+The caster is immune to all spells of 3rd Rank or lower. Dispel Magic can be
+cast at the globe and affects it normally.
 
 #### Mnemonic Enhancer
 
 _Evocation (R: Self, D: Instant)_  
-The caster instantly recalls one spell they have previously cast.
+The caster instantly recalls one spell of Rank 3 or lower they have previously
+cast.
 
 #### Overlook
 
 _Enchantment (R: Short, D: 1 hour)_  
-Save: Willpower 14. One subject becomes oblivious to the caster and their
-allies. The subject will ignore the caster and their allies unless attacked, in
-which case the spell ends.
+Save: Willpower 14. Any intelligent creature wishing to make a direct spell or
+weapon attack on the caster must make a save: failure means that they pick the
+next logical enemy target instead. If there are no other targets, the creature
+can take some other action, but can’t attack that round.
 
 #### Polymorph
 
@@ -1458,18 +1460,18 @@ intelligence. The duration is permanent.
 #### Programmed Illusion
 
 _Illusion (R: Long, D: Permanent)_  
-Save: Perception 14. This spell creates a visual illusion, plus one other
-sensory effect, of any object, creature, or force. The illusion can be
-programmed to react to a set of conditions, and can be up to 20 ft in any
-dimension. If a trigger condition occurs, the illusion acts in the programmed
-manner.
+Save: Perception 17. This spell creates a preset, fixed Spectral Force up to
+40-ft radius (16 × 16) and up to 5 minutes long that activates upon a
+caster-specified trigger condition. Damage cannot be dealt by this illusion.
+Once complete, it vanishes, but after 10 minutes it can be triggered again.
 
 #### Sanctum
 
 _Abjuration (R: Touch, D: 1 day)_  
-AoE: Up to 40-ft radius / 16 × 16. This spell creates a zone of peace and quiet.
-No sound can be created within the area of effect, and no creature can attack
-another while inside it.
+This spell wards a cubic area up to 100 ft per side, blocking any or all of the
+following from penetrating into it: sight, smell, hearing, divination,
+teleportation, planar travelling. No creature can attack another while inside
+it.
 
 #### Sending
 
@@ -1481,11 +1483,11 @@ is understood by the recipient, irrespective of language.
 
 #### Speak with Dead
 
-_Necromancy (R: Short, D: 10 minutes)_  
-The caster can converse with a corpse. The corpse must still have a mouth and
-must not have been dead for more than one week. The corpse knows only what it
-knew in life, including the languages it spoke. Answers are usually brief,
-cryptic, or repetitive.
+_Necromancy (R: Touch, D: 10 minutes)_  
+The caster can ask a corpse one question. Its spirit must answer and will be
+understood, but knows only what it knew in life. If the spirit recognizes the
+caster as hostile to the agenda it had in life, it will answer as literally as
+it can. A corpse can only be the target of this spell once per fortnight.
 
 #### Telekinesis
 
@@ -1502,16 +1504,18 @@ spell.
 
 #### Transmute Rock to Mud (R)
 
-_Transmutation (R: Short, D: 10 minutes)_  
-Save: Arcana 14. AoE: Up to 20-ft radius / 8 × 8. The spell turns stone into
-mud. The mud is 2 ft deep, and difficult terrain. Creatures in the area when the
-spell is cast must save or fall prone. The reverse, Mud to Rock, turns mud into
-stone.
+_Transmutation (R: Short, D: 1 hour)_  
+Save: Arcana 14. AoE: Up to 40-ft radius / 16 × 16. This spell turns a patch of
+non-magical rock and/or earth into mud 5 ft deep. Combat speed through the mud
+is 5 ft per round. Creatures in the area when the spell is cast must save or
+fall prone. If cast on a stone golem or the like, it must make a Constitution 17
+save or be slain. The Transmute Mud to Rock reverse permanently hardens normal
+mud into soft stone (sandstone or similar).
 
 #### Wingbind
 
-_Evocation (R: Medium, D: 1 hour)_  
-Save: Arcana 14. One flying creature has its wings bound and cannot fly. If the
+_Evocation (R: Medium, D: 10 minutes)_  
+Save: Arcana 17. One flying creature has its wings bound and cannot fly. If the
 creature fails its save, it crashes to the ground, taking damage as appropriate.
 
 #### Woodland Veil
@@ -1527,11 +1531,11 @@ may dismiss the illusion in its entirety at any time.
 
 #### Advanced Illusion
 
-_Illusion (R: Long, D: Concentration—2 hours)_  
-Save: Perception 14. This spell creates a visual illusion, plus any other
-sensory effect, of any object, creature, or force. The illusion can be up to 40
-ft in any dimension. The illusion can be programmed to react to a set of
-conditions, and can include speech.
+_Illusion (R: Long, D: Concentration + 10 minutes)_  
+Save: Perception 17. This spell creates a Spectral Force, but the maximum size
+is Gargantuan (20 × 20), plus 5 ft AoE per name level, and if a combatant it has
+an AC of 25. The illusion lasts for 10 minutes after the caster ceases to
+concentrate upon it.
 
 #### Air Sphere
 
@@ -1543,13 +1547,17 @@ caster. Swimming is not enhanced or affected.
 #### Anticipation
 
 _Divination (R: Self, D: 1 round)_  
-The caster can sense danger before it occurs. The caster gains advantage on
-surprise rolls and saving throws.
+AoE: 50-ft radius / 20 × 20. The caster knows what actions all within the area
+of effect will attempt on the following round: moves; precise spells, weapons,
+or items to be used; intended targets, etc. The spell reveals the presence (but
+not the location) of invisible or ethereal beings in this way.
 
 #### Antimagic Shell
 
-_Abjuration (R: Self, D: 10 minutes)_  
-The caster is immune to all spells and magical effects.
+_Abjuration (R: Self, D: Concentration--1 hour)_  
+An invisible barrier surrounds and moves with the caster. The caster is
+impervious to all magical effects, but the spell also prevents the functioning
+of magic items or spells within its confines. It cannot be dispelled.
 
 #### Banish Supernatural
 
@@ -1562,27 +1570,33 @@ creatures back to their home plane.
 _Evocation (R: Medium, D: 1 minute)_  
 AoE: 100 ft long, 20 ft high, 5 ft thick. A vertical wall of whirling blades
 appears. Any creature passing through the barrier takes 1d6 damage per level of
-the caster, maximum 10d6.
+the caster, maximum 10d6; a Morale check is required to even attempt it.
+
+#### Clenched Fist
+
+_Evocation (R: Short, D: Concentration)_  
+The spell evokes a magical fist as large as a giant’s that strikes one creature
+per round, never missing. Roll 1D6 each round to determine its damage for the
+round: 1-3 = 1D6 damage; 4 = 2D6 damage, 5 = 3D6 damage and the opponent is
+helpless for one round, and 6 = 4D6 damage and the opponent is helpless for 3
+rounds. The hand cannot be attacked.
 
 #### Cloudkill
 
 _Conjuration (R: Medium, D: 10 minutes)_  
 Save: Constitution 14. AoE: 20-ft radius / 8 × 8. A billowing cloud of poisonous
-gas appears. It moves 10 ft away from the caster each round. Creatures in the
-cloud take 1d6 poison damage per round.
-
-#### Clenched Fist
-
-_Evocation (R: Long, D: 1 round)_  
-Save: Arcana 14. The caster creates a giant, spectral fist that strikes at a
-target within range. The fist deals 10d6 bludgeoning damage.
+gas appears, killing any living creature up to Level 6 unless they save. It
+moves 10 ft away from the caster each round. Creatures in the cloud take 2d6
+poison damage per round.
 
 #### Contingency
 
-_Evocation (R: Self, D: Special)_  
-The caster places a spell upon themselves that will trigger under a certain
-condition. The spell must be of 4th rank or lower. The triggering condition must
-be clear and specific.
+_Evocation (R: Self, D: 1 week)_  
+When this spell is cast, the caster must cast another spell immediately
+thereafter, which must have a range of Self and cannot be higher than 4th level.
+That spell is contained by the Contingency spell, and takes effect when the
+precise conditions detailed at the time of casting Contingency occur; it is
+already cast and cannot be disrupted or countered.
 
 #### Conjure Elemental
 
@@ -1612,8 +1626,10 @@ Level 16 AC 21 HP 16d8 (72) Att Blow (+11, 3d8) Speed By type Morale 12 XP 3,050
 
 #### Control Undead
 
-_Necromancy (R: Short, D: 1 minute)_  
-Save: Willpower 14. One undead creature is forced to obey the caster’s commands.
+_Necromancy (R: Self, D: 1d6 x 10 minutes)_  
+Save: Arcana 17. AoE: 50-ft radius / 20 × 20. This spell functions as Turn
+Undead, except that creatures turned or destroyed are controlled instead. Only
+intelligent undead are allowed a save.
 
 #### Cure Critical Wounds
 
@@ -1623,28 +1639,36 @@ subject has.
 
 #### Delayed Blast Fireball
 
-_Evocation (R: Long, D: Special)_  
-Save: Arcana 14. The caster creates a fireball that will detonate at a later
-time after a specified trigger. The fireball deals 1d6 fire damage per level of
-the caster, maximum 15d6.
+_Evocation (R: Medium, D: Instant)_  
+Save: Dexterity 17. AoE: 20-ft radius / 8 × 8. LoS not required. The blast deals
+1d6+1 fire damage per caster level. While it can explode as normal, it can also
+be set to not explode for up to 10 minutes from its original casting, as stated
+by the caster at the time of casting. Combustibles in the AoE are set alight,
+and failed saves force item saves.
 
 #### Feeblemind
 
 _Enchantment (R: Medium, D: Permanent)_  
-Save: Willpower 17. The subject’s intelligence is reduced to semi-intelligent
-level. The subject can only babble incoherently and cannot cast spells or use
-magic items.
+Save: Willpower 17. The subject’s intelligence drops to that of an imbecile. It
+loses all knowledge and memory of any spells, plus the ability to communicate
+and so on, though it can still defend itself in a primitive fashion. Only Dispel
+Magic or Hex Weaving can cancel the effect.
 
 #### Find the Path
 
-_Divination (R: Self, D: Concentration)_  
-The caster knows the shortest, most direct route to a specific location.
+_Divination (R: Self, D: 1 hour)_  
+The caster learns the most practicable and direct physical route to, out of, or
+into a locale (not to creatures / objects within it). If seeking an area inside
+a locale, relatively precise criteria must be specified when the spell is cast
+(e.g. “the throne room”, “the centre”), and cannot be altered afterwards. The
+path revealed may not be the safest route.
 
 #### Fly
 
 _Transmutation (R: Touch, D: 1d6x10 minutes, plus 10 minutes per caster
 level)_  
-The subject can fly at Speed 120.
+The subject grows wings that enable them to fly at Speed 40. Encumbrance speed
+reductions apply. Clothing is torn; worn armour prevents the spell from working.
 
 #### Hold Monster
 
@@ -1656,21 +1680,27 @@ four (separate Arcana 14 saves).
 #### Iron Body
 
 _Transmutation (R: Touch, D: 1 hour)_  
-The subject’s skin becomes as hard as iron, granting +8 AC. The subject’s
-movement speed is halved.
+The subject’s body transforms into living iron, granting +8 AC. Falls do no
+damage, nor do non-weapon crushing/constricting attacks, or anything affecting
+respiration. The subject’s Strength becomes 19 and their combat speed
+becomes 10. The subject cannot cast spells. Things that affect metal function as
+normal, making rust monsters very dangerous.
 
 #### Mass Charm
 
-_Enchantment (R: Medium, D: 1 hour)_  
-Save: Willpower 14. All creatures within a 30-ft radius become friendly to the
-caster.
+_Enchantment (R: Medium, D: 1 day)_  
+Save: Willpower 17. Creatures up to combined Levels of twice the caster’s Level
+within a 30' radius (starting with the lowest-Level creatures) become friendly
+to the caster and come to their defence. The caster can give the subjects
+orders, language permitting. The subjects will not knowingly endanger their
+lives beyond reason. Orders not befitting a friend will grant an extra save.
 
 #### Mass Suggestion
 
-_Enchantment (R: Short, D: 12 hours)_  
-Save: Willpower 14. All intelligent living creatures within a 30-ft radius will
-follow a single spoken course of action (language permitting, and limited to a
-sentence or two), if the caster can phrase it to sound reasonable—even if it
+_Enchantment (R: Medium, D: 1 day)_  
+Save: Willpower 17. This spell makes one living creature per two caster Levels
+follow a suggested course of action (language permitting, limited to a sentence
+or two), so long as the caster can phrase it to sound reasonable—even if it
 isn’t.
 
 #### Oracle
@@ -1696,76 +1726,90 @@ passageway up to 10′ deep.
 
 #### Permanent Illusion
 
-_Illusion (R: Long, D: Permanent)_  
-Save: Perception 14. This spell creates a visual illusion, plus any other
-sensory effect, of any object, creature, or force. The illusion can be up to 40
-ft in any dimension. The illusion can be programmed to react to a set of
-conditions, and can include speech.
+_Illusion (R: As original spell, D: Permanent)_  
+This spell creates a permanent version of any illusion spell of 1st or 2nd level
+with a non-Instant duration. It can still be dispelled, but any Concentration
+requirement is removed. Saves required by the modified spell have a -4 penalty.
 
 #### Raise Dead
 
-_Necromancy (R: Touch, D: Instant)_  
-This spell restores life to a dead creature, provided that it has not been dead
-for longer than one week. The subject is restored to its full normal hit points.
+_Necromancy (R: Touch, D: Permanent)_  
+Save: Willpower\*2 14. The caster restores life to a human or humanoid dead no
+more than 1 day for each level of the caster. The subject must make a save, or
+the resurrection fails. If it succeeds, the subject loses 1 point of
+Constitution permanently, and has heavy fatigue until one day of bedrest passes
+for each day that they were dead. Missing limbs, digits, eyes and other parts
+will still be missing when the subject returns to life.
 
 #### Restoration
 
-_Necromancy (R: Touch, D: Instant)_  
-This spell restores all ability score damage and drain, as well as curing
-blindness, deafness, and any sicknesses or diseases.
+_Necromancy (R: Touch, D: Permanent)_  
+This spell immediately ends any and all of the following adverse conditions
+affecting the target: addiction, blindness, deafness, disease, fatigue,
+insanity, poison, and Feeblemind. It heals all damage. The subject’s severed
+body appendages (digits, hands, feet, limbs, tails, even heads of multi-headed
+creatures), broken bones, and ruined organs grow back.
 
 #### Reverse Gravity
 
-_Transmutation (R: Long, D: 1 round)_  
-AoE: 50-ft radius / 20 × 20. All creatures and objects within the area of effect
-fall upward. At the end of the round, they fall back down.
+_Transmutation (R: Self, D: Instant)_  
+AoE: 30-ft radius (12 × 12). This spell reverses gravity in the area of effect,
+causing all unfixed objects and creatures within it to “fall” upwards 50 feet in
+one round. If some solid object is encountered in this “fall”, the object
+strikes it in the same manner as a normal downward fall. During the movement
+phase of the next round, the affected objects and creatures fall back down.
 
 #### Seeming
 
-_Illusion (R: Long, D: 8 hours)_  
-Save: Perception 17. The appearance of up to one subject per two caster
-levels—including all carried items—is altered. Height can be altered up to one
-full size category shorter or taller; weight can be altered to a similar degree.
-The same basic limb arrangement must be kept. If only one subject is disguised,
-the need for concentration is waived.
+_Illusion (R: Long, D: 12 hours)_  
+Save: Perception 20. The appearance of up to one subject per two caster levels
+is altered. The spell disguises physical appearance as well as worn and carried
+items. Each creature can seem 1 ft shorter or taller and appear thin, fat or in
+between, but the form of each subject must have the same basic limb arrangement.
 
 #### Sensory Deprivation
 
-_Illusion (R: Medium, D: 1 round)_  
-Save: Perception 17. One subject is blinded, deafened, and cannot smell or
-taste.
+_Illusion (R: Medium, D: 1 minute)_  
+Save: Perception 17. This spell surrounds the target in a void only it
+perceives, rendering it deaf and blind but also blocking all olfactory, tactile,
+and taste sensations. Insights via divination or mental links with others are
+unaffected.
 
 #### Spell Turning
 
-_Abjuration (R: Self, D: 1 round)_  
-Any spell targeted at the caster is reflected back at the original caster.
+_Abjuration (R: Self, D: 1 hour)_  
+Spells cast directly at the caster rebound back on the original caster. This
+includes innate spell-like abilities, but not spell effects from devices such as
+wands, or spells with radii unless the caster is the target point. 1d6+6 spell
+Ranks are affected by the turning, the amount rolled in secret by the referee.
+If there are not enough levels remaining to turn a spell, that spell works with
+full effect and the remaining turn Ranks are kept. If both the protected caster
+and original caster have spell turning effects operating, a resonating field is
+created: roll 1d6. On a 1-4 the spell is negated, while on a 5-6 it affects both
+casters with full effect.
 
 #### Teleport
 
 _Conjuration (R: Touch, D: Instant)_  
-The caster or a chosen creature vanishes and reappears at a location of the
-caster’s choosing with all its gear, up to its maximum load. An unwilling
-subject may Save Versus Spell to resist the teleportation. The destination may
-be at any distance, but must be known to the caster. The destination must be an
-open space at ground level. (The caster may not intentionally teleport a subject
-into mid-air or into solid matter.)
+The subject vanishes and reappears at a location of the caster’s choosing with
+all its gear, up to its maximum load. An unwilling subject may make an Arcana 14
+saving throw to resist the teleportation. The caster may not intentionally
+teleport a subject into mid-air or into solid matter.
 
-When teleporting, there is a risk of accidentally arriving above or below ground
-level. The chance of a successful teleportation depends on the caster’s
-knowledge of the destination (see below). Roll d100 and consult the below table.
+Success is automatic if the location is very familiar to the caster. Otherwise,
+the caster must make an Arcana check if the location has been seen casually,
+with a -2 penalty if viewed only once. On a failure, roll d100 and consult the
+below table:
 
-| Knowledge of Dest. | Intended Dest. | Too High | Too Low |
-| :----------------: | :------------: | :------: | :-----: |
-|       Scant        |     01–50      |  51–75   |  76–00  |
-|      Moderate      |     01–80      |  81–90   |  91–00  |
-|       Exact        |     01–95      |  96–99   |   00    |
+| Knowledge of Dest. | Off by 5% | Too High | Too Low |
+| :----------------: | :-------: | :------: | :-----: |
+|  Only viewed once  |   01–50   |  51–75   |  76–00  |
+|   Seen casually    |   01–80   |  81–90   |  91–00  |
 
-- Scant: A location that the caster has visited once or twice, has seen by
-  magical scrying, or has heard of from descriptions.
-- Moderate: A location that the caster has visited often or has studied via
-  scrying for several weeks.
-- Exact: A location that the caster has studied in-person for several weeks,
-  memorising every minute detail.
+- Off by 5%: The subject appears 5% of the distance from the starting location
+  to the destination away on the nearest safe surface in a random lateral
+  direction (e.g., a subject teleporting 1000' might appear 50' to the east of
+  the intended destination).
 - Too high: The subject appears 1d10 × 10′ above the intended destination. If
   this is inside solid matter, the subject dies instantly. Otherwise, they fall
   from a height.
@@ -1775,14 +1819,20 @@ knowledge of the destination (see below). Roll d100 and consult the below table.
 #### True Seeing
 
 _Divination (R: Touch, D: 1 hour)_  
-The subject can see all things as they truly are, ignoring any illusions or
-transmutations.
+This spell grants the ability to see all things as they actually are. The
+subject sees through normal and magical darkness, notices secret doors, sees
+invisible creatures or objects, ignores displacement effects, sees through all
+illusion spells of 5th level or lower unless specified otherwise, and sees the
+true form of shape-changed, polymorphed, possessed, or transmuted things.
 
 #### Wall of Force
 
-_Abjuration (R: Medium, D: Concentration)_  
-The caster creates an invisible wall of force up to 100 ft long, 20 ft high, and
-1 ft thick. The wall is impervious to all forms of attack.
+_Abjuration (R: Medium, D: 1 hour)_  
+AoE: Up to 50-ft radius / 20 × 20. The spell creates an invisible barrier of
+magic energy, in a straight line, a hemisphere, or a sphere—chosen when cast. It
+cannot move, and nothing can damage it or pass through it. It is unaffected by
+any spell (including Dispel Magic) except Disintegrate, which immediately
+destroys it.
 
 ### Rank 6 Spells
 
@@ -1826,7 +1876,8 @@ killing the caster.
 _Evocation (R: Medium, D: Instant)_  
 Save: Arcana 14. The spell targets a single non-magical creature or object. If
 the target fails its save, it is reduced to dust. If the target succeeds, it
-takes 10d6 damage.
+takes 10d6 damage. An Antimagic Shell or Globe of Invulnerability are immune.
+Resurrection from disintegration is impossible.
 
 #### Dweomerfire
 
@@ -1856,7 +1907,7 @@ They may halt to perform other actions and then resume concentration.
 #### Energy Drain
 
 _Necromancy (R: Touch, D: Instant)_  
-Save: Arcana 14. The caster touches a living creature, draining 1d4 levels.
+Save: Arcana 17. The caster touches a living creature, draining 1d4 levels.
 
 #### Finger of Death
 
@@ -1866,9 +1917,10 @@ save, they die.
 
 #### Foresight
 
-_Divination (R: Self, D: 1 hour)_  
-The caster gains a limited form of precognition. The caster cannot be surprised
-and has advantage on attack rolls, saving throws, and ability checks.
+_Divination (R: Self, D: 2 hours)_  
+The caster gains a limited form of precognition. The caster gains +5 AC, cannot
+be surprised, gains a +4 bonus to attack rolls and saving throws, and gains a +1
+to ability checks.
 
 #### Geas/Quest
 
@@ -1882,24 +1934,32 @@ work if the caster is 2 or more Levels higher than the caster of Geas.
 
 #### Glamer
 
-_Enchantment (R: Medium, D: 1 hour)_  
-Save: Perception 17. This spell alters the appearance of one or more creatures
-or objects. The illusion can change size, shape, and color.
+_Enchantment (R: Long, D: Special)_  
+Save: Willpower 17. Up to four intelligent creatures (+1 per caster Name Level)
+can be chosen as targets. Subjects cannot move, drop what they are carrying, and
+become helpless targets. Enraptured targets make another save at the end of each
+round past the first. Further enchantments cast upon those under the effects of
+this spell have a -4 penalty applied to their saving throws.
 
 #### Globe of Invulnerability
 
 _Abjuration (R: Self, D: 10 minutes)_  
-The caster is immune to all spells of 6th rank or lower.
+The caster is immune to all spells of 4th rank or lower. Dispel Magic can be
+cast at the globe and affects it normally.
 
 #### Illusory Kingdom
 
-_Illusion (R: Long, D: Permanent)_  
-Save: Perception 14. This spell creates a vast illusion of a kingdom or other
-large area. The illusion can include buildings, creatures, and terrain.
+_Illusion (R: Long, D: 1 year)_  
+Save: Perception 20. The caster makes natural terrain within a 1-mile radius
+look, sound, smell, and feel different. The general shape of the terrain cannot
+be altered, but minor aberrations can be added (e.g. occasional small
+buildings). Creatures in the area cannot be added or removed, but their
+secondary elements, such as bird calls, can be. True Seeing does not
+automatically pierce this illusion but does grant another save with a +4 bonus.
 
 #### Invisible Stalker
 
-_Conjuration (R: Medium, D: Special)_  
+_Conjuration (R: Short, D: Special)_  
 Summons an invisible, extra-dimensional entity to the caster’s presence,
 magically binding it to perform a mission of the caster’s choosing. The caster
 must be careful with the wording of the mission. Invisible stalkers are
@@ -1916,16 +1976,20 @@ If killed: Returns to dimension of origin.
 
 #### Legend Lore
 
-_Divination (R: Special, D: Special)_  
-The caster learns the history and legends surrounding a person, place, or
-object.
+_Divination (R: Self, D: Instant)_  
+This spell brings to the caster’s mind information about a noteworthy person,
+place, or thing. If the person or thing is at hand, or if the caster is in the
+place in question, the information is gained in 1d6 turns. If detailed
+information on the subject is known, the information is gained in 1 week. If
+only rumours are known, the information is gained in 2d6 weeks. Information
+revealed is often cryptic.
 
-#### Mass Domination
+#### Mass Dominate
 
 _Enchantment (R: Medium, D: Permanent)_  
-Save: Willpower 17. AoE: 50-ft radius (20 × 20). The spell imposes Domination
-(see p. 54) on up to 2 HD / levels of intelligent creatures per caster level.
-Commands are transmitted telepathically, and language and distance are no
+Save: Willpower 17. AoE: 50-ft radius (20 × 20). The spell imposes the effects
+of the Dominate spell on up to 2 Levels of intelligent creatures per caster
+Level. Commands are transmitted telepathically, and language and distance are no
 barrier. The caster can release individuals at will.
 
 #### Meteor Swarm
@@ -1939,7 +2003,7 @@ removed from the spell until no overlap occurs.
 
 #### Move Terrain
 
-_Conjuration (R: Long, D: 1 hour)_  
+_Transmutation (R: Long, D: 1 hour)_  
 The land bulges and warps as a terrain feature moves under the caster’s control.
 A single feature (e.g. a hill, ridge, grove, pool, etc.) contained in a 120′
 square area may be moved. The caster can move terrain at up to 60′ per Turn. Any
@@ -1971,14 +2035,15 @@ _Evocation (R: Short, D: Special)_
 This spell has a casting time of 1. When declared, the caster picks one word of
 power, which determines the spell’s effect.
 
-- Blind — The word affects up to 75 Hit Points of creatures. If 50 or fewer HP
-  are affected, the duration is 1d6 turns; if 51 or more HP are affected, it is
-  1d6 rounds. Blindness can be removed by the usual means, and by Dispel Magic.
-- Kill — The word destroys a creature with up to 50 HP, or multiple creatures
+- **Blind:** The word affects up to 75 Hit Points of creatures. If 50 or fewer
+  HP are affected, the duration is 1d6 turns; if 51 or more HP are affected, it
+  is 1d6 rounds. Blindness can be removed by the usual means, and by Dispel
+  Magic.
+- **Kill:** The word destroys a creature with up to 50 HP, or multiple creatures
   with 10 or fewer HP, up to a maximum of 90 HP.
-- Stun — One target is stunned: unable to act, dropping anything held, and
-  counting as surprised. This lasts a base 10+1d6 rounds, –1 per HD / level of
-  the target.
+- **Stun:** One target is stunned: unable to act, dropping anything held, and
+  counting as surprised. This lasts a base 10+1d6 rounds, –1 per Level of the
+  target.
 
 #### Project Image
 
@@ -1997,14 +2062,15 @@ weapons, but if the image is touched or hit in melee, it disappears.
 
 _Divination (R: Special, D: Concentration—2 hours)_  
 The spell targets one creature; if willing, the target can permit the spell to
-work automatically. Otherwise, to scrye the target is a Hard Task. If the caster
-has a possession of the target (e.g. clothes, jewelry), the difficulty is one
-level lower; if the caster has a body part, lock of hair, etc of the target, it
-is two levels lower. The spell creates an invisible eye about the size of a fist
-within 10 ft of the target. The caster can see and hear through the eye as if
-they were there. The eye moves with the target; True Seeing reveals it.
-Alternatively, the caster can choose a location they have seen before as the
-target. If so, the eye appears at that location and doesn’t move.
+work automatically. Otherwise, to scrye the target requires an Arcana check with
+a -1 penalty. If the caster has a possession of the target (e.g. clothes,
+jewelry), there is no penalty; if the caster has a body part, lock of hair, etc.
+of the target, the caster gains a +1 bonus to the check. The spell creates an
+invisible eye about the size of a fist within 10 ft of the target. The caster
+can see and hear through the eye as if they were there. The eye moves with the
+target; True Seeing reveals it. Alternatively, the caster can choose a location
+they have seen before as the target. If so, the eye appears at that location and
+doesn’t move.
 
 #### Symbol
 
@@ -2020,7 +2086,7 @@ inscribed trigger it, after which it flares brightly, then vanishes.
 - Fear — This operates as an extra-strong Fear spell, with a target of
   Willpower 20.
 - Hopelessness — All creatures are affected and are overcome with dejection
-  unless they make a Very Hard (Arc) save. Those affected will submit to the
+  unless they make a Willpower 17 save. Those affected will submit to the
   demands of any opponent, i.e. get out, surrender, etc. Roll 2d6 for the
   duration in turns, then 1d6: on a 1-2, those affected take no action, while on
   a 3-4 they turn back or retire from battle, as applicable (5-6 no additional
@@ -2045,5 +2111,5 @@ constructs and animated dead are destroyed (Heroic save to prevent), and all
 magically summoned creatures are banished to their place of origin. The spell
 does not affect non-animated undead, or creatures that have been gated or
 otherwise transported to a plane by means other than direct summoning. If a
-spell effect is permanent, and greater than 2nd rank, then it is instead merely
+spell effect is permanent, and greater than 2nd Rank, then it is instead merely
 suppressed for 2d6 hours.

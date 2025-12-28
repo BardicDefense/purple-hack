@@ -24,6 +24,9 @@ or summoned creatures.
 
 **Bless Weapon** adds 1 weapon damage die (instead of dealing an extra 1d6).
 
+**Locate Object**'s apparition disappears when the sought object is within range
+(120').
+
 ## Rank 4 Spells
 
 **Circle of Protection** works against all attacks, not just attacks by Chaotic
