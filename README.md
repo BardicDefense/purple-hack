@@ -55,6 +55,8 @@ Some highlights:
 
 # Character Creation
 
+[Google Sheets Character Sheet](https://docs.google.com/spreadsheets/d/1wOavveRJ8IEVoqvy33bxn12m20Y_7lqOkc9_KuXwJHo/copy)
+
 ## Roll Your Stats
 
 Roll 3d6 down the line for each of the skills below. You can swap one set of
