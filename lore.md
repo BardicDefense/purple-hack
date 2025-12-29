@@ -1,5 +1,9 @@
 # Lore
 
+- [Timeline of History](#timeline-of-history)
+- [Calendar of Saints](#calendar-of-saints)
+- [Places](#places)
+
 ## Timeline of History
 
 _The history of this world is essentially the history of our own, with a few
@@ -416,3 +420,362 @@ Thorcin Recovery League is founded during this time.
 - Dec 21: St. Baldric
 - Dec 27: St. Cantius
 - Dec 29: St Joane
+
+## Places
+
+### Anfa _(Casablanca)_
+
+Population: 3,700. A lean, wind-swept harbour town on the edge of the Atlantic,
+with sun-bleached walls and palm shade. The kasbah (citadel) towers over a
+bustling bazaar where inland caravans trade goods with ships at port. Due to its
+location on the cusp of both Atlantic traffic and inland caravan routes, Anfa is
+known far and wide as an excellent place to find the rarest alchemical and
+magical ingredients.
+
+- _Exports: Fish, copper, animal byproducts, spices_
+- _Imports: Fine textiles, iron tools and weapons_
+
+### Archontos _(Rome)_
+
+Population: 25,000. The original capital city of the Archontean empire. Formerly
+one of the largest cities in the world, it has declined much of late. It's still
+an important central enclave of the Pluritine Church, and culturally
+significant, though its population is less than a tenth of its former glory.
+
+- _Exports: Fine textiles, weapons & tools, olive oil, wine, holy objects_
+- _Imports: Raw metals, cloth, dyes, spices_
+
+### Ashenwilde, Fyrcashire, Tribania _(Liverpool)_
+
+Population: 8,000. During the Great Conspiracy in 367-369, a days-long battle
+erupted between Archontean and Thorcin mages; their fireballs and flame walls
+scorched the earth for miles around the settlements of Portus Setantiorum. After
+the land recovered, the ash proved to be an excellent fertilizer. A city sprang
+up quickly, and the area was renamed; Fyrcashire is known now both for its
+fertile farmlands and the Arcane Collegium in its capital city of Ashenwilde.
+
+- _Exports: Grains & vegetables, animal byproducts, woolen cloth, dyes &
+  chemicals_
+- _Imports: Monster parts, fine textiles, wine, salt, gems_
+
+### Burdock's Valley, Tribania
+
+(aka Burdoc Valley, Vale of Burgheat) The valley in southeastern Tribania in
+which Arden Vul, as well as the town of Newmarket, is located. Known to the
+local Thorcinga as the Vale of Burgheat, the valley is held as a vassal duchy by
+an Archontean aristocrat, Iskander Basileon, who bears the title “Lord Burdock”
+and has sworn an oath of fealty to King William I of Tribania.
+
+### Canary Islands
+
+These volcanic islands featured rugged terrain, stone and cave dwellings, while
+small villages of locals live subsistence lifestyles based on farming, herding,
+and fishing. The islands are a navigational marker and refuge for sailors, but
+have no port or city. Still, they’re a useful stop for water, and it avoids the
+more dangerous coastal waters of northwest Africa.
+
+### Cape Verde Islands
+
+Approximately three days west of Dakar, the Cape Verde Islands are volcanic,
+arid, and sparsely populated with small fishing and pastoral settlements among
+rugged landscapes. They are useful mainly as a refuge and fresh water supply
+before the two-week sail across the deep sea.
+
+### Castle Brackenwold, Brackenwold, Tribania
+
+Population: 8,700. A great, walled town sprawled at the feet of the fortified
+keep, Castle Brackenwold is an ancient place whose oldest parts were used by elf
+lords in ancient times, before the people of Brackenwold migrated to Dolmenwood.
+At the summit of a hill, the ducal keep is the ancestral home to the nobility of
+the Brackenwold line. Alongside the mighty garrison maintained by the duke is
+the great Cathedral of St. Signis, making this fortress-town also the centre of
+the Church’s power in the region. Indeed, the Bishop of Brackenwold holds sway
+over Dolmenwood equal to the duke himself.
+
+- _Exports: Livestock, tools, armor/weapons_
+- _Imports: Beer/ale, wine, gems, fine textiles_
+
+### Chebucto _(Halifax Harbour)_
+
+Population: 1,100. Chebucto is a small Mi’kmaq town on a vast and protected
+harbor surrounded by dense mixed forests and rugged cliffs. The land is rich
+with fresh water springs and abundant wildlife including deer and seabirds.
+Visiting sailors find safe anchorage and fresh supplies of fish and timber. The
+surrounding wilderness offers opportunities for hunting, foraging, and learning
+local survival skills while repairing ships.
+
+- _Exports: Fish, wood, furs & pelts, shellfish, berries and medicinal herbs_
+- _Imports: Iron tools and metal goods, salt, woven cloth, grains and corn_
+
+### Dakar, Takrur
+
+Population: 2,800. Dakar is a modest coastal settlement with fishing and local
+trade. The settlement is growing along with trade across the dangerous Atlantic:
+It’s the last place to resupply before heading across the deep sea. It’s a
+natural deep harbor, and links interior kingdoms to maritime trade routes.
+
+- _Exports: Gold, ivory, animal byproducts, monster parts_
+- _Imports: Salt, iron tools, textiles_
+
+### Gosterwick, Burdock's Valley, Tribania
+
+Population: 2,200. A truly new town, growing at the base of the cliff outside
+Arden Vul, around the Azure Keep. Lady Alexia Basileon is actively recruiting
+merchants, craftsmen, and adventurers to this location. The current population
+bears a high proportion of adventurer-oriented businesses: sellers and buyers of
+curios, general sutlers, trainers, etc.
+
+- _Exports: Monster parts, books_
+- _Imports: Tools, armor/weapons, ale/beer_
+
+### Herjolfsnes, Grœnland _(Greenland)_
+
+Population: 180. At the southern tip of Greenland, Herjolfsnes is a small Wiskin
+settlement of sod-roofed turf houses nestled against rocky, arctic shores with
+towering glaciers inland. Sparse tundra vegetation marks the land, where hardy
+settlers hunt seals and fish. Storms roll in from the icy seas, challenging
+visitors to maintain their ships and supplies. Nearby, the harsh wilderness
+promises encounters with polar bears or the eerie aurora borealis lighting the
+night.
+
+- _Exports: Walrus ivory, polar bear and seal skins, wool, walrus-hide rope,
+  whale products, falcons_
+- _Imports: Ground grain/corn, wood, iron tools & metal goods, salt, fine
+  textiles_
+
+### High-Hankle, Brackenwold, Tribania
+
+Population: 5,300. The seat of administrative power in the barony of the High
+Wold in Brackenwold lies to the south of Dolmenwood, amid a region of windswept
+grasslands and rolling hills. The baron is renowned for his lax attitude to the
+law, more interested in wine and debauchery than in the maintenance of order.
+High-Hankle has thus, in recent years, become a favoured haunt for jaded nobles
+and hedonists of all stripes.
+
+- _Exports: Woolen cloth, animal byproducts, grain & vegetables_
+- _Imports: Ale/beer, fine textiles, fish, salt, silk, spices, wine_
+
+### Kazildor
+
+Kazildor is the subterranean realm of the dwarves, where the dwarven clans
+conduct the age- old Endless War against their doppelganger enemies. The dwarves
+are notoriously reclusive and suspicious, and few humans have been permitted
+entrance to Kazildor. As a result, little is known of its size and structures,
+as those few dwarves who travel under the sun are oathbound to maintain the
+secrets of their people.
+
+### Lankshorn, Brackenwold, Tribania
+
+Population: 1,100. The northernmost settlement in the High Wold barony of
+Brackenwold, the market town of Lankshorn lies within a bowshot of the forest’s
+border, acting as one of the two main “thresholds” into Dolmenwood (the other
+being Castle Brackenwold, in the east). Lankshorn is regarded as a cultural
+oddity by outsiders, as the traditions of the civilized world meld with the
+quaint, superstitious ways of Dolmenwood. The respect Lankshoners hold for the
+longhorn breggle nobles of the wood is an apt example of the cultural melange in
+this border-town. The finest bladesmith in the High Wold--perhaps even all of
+Brackenwold--makes his home in Lankshorn.
+
+- _Exports: Cider, cheeses, horses, hounds, livestock_
+- _Imports: Tools, fine textiles, salt_
+
+### Marajoáca, Chult _(Marajó, Amazon River mouth)_
+
+Population: 6,300. Marajó is a sprawling river island of wetlands, seasonally
+flooded forests, and savannahs. At its center, the walled town of Marajoáca is a
+central gathering place for trade and worship, surrounded by fishponds and
+cultivated fields. The waters of the Amazon provide a natural moat, and jungles
+of Chult lie beyond...
+
+- _Exports: Gold, tropical hardwoods, exotic feathers, palm products, monster
+  parts, and magic items._
+- _Imports: Metals (iron tools especially), finished textiles, and luxury
+  goods._
+
+### Marrakesh, Morroco
+
+Population 3,400. A rapidly growing sunburnt crossroads, Marrakesh is a magnet
+for travelers crossing the Atlas mountains into Takrur. Its market is not as
+well-traveled as Salā's up the coast, but it has less of a military presence,
+ruled instead by a merchantile elite.
+
+- _Exports: Spices, copper goods, animal byproducts, silk_
+- _Imports: Salt, iron tools, fine textiles_
+
+### Newmarket, Burdock's Valley, Tribania
+
+Population: 4,000. The largest community in Burdock’s Valley, Newmarket lies on
+the Swift River. It is a free town, exempt from the lordship of Lord Burdock and
+governed by a mayor and council of aldermen. Although at least three days walk
+from Arden Vul, it is a good site for adventurers to heal, train, resupply, and
+trade. The major Factors and temples all have a presence in Newmarket. The local
+villages sell their surplus in Newmarket, and merchants from Newmarket trade all
+across Tribania and across the Channel to the Continent.
+
+- _Exports: Grain & vegetables, game animals, fish, fruit, salt_
+- _Imports: Silk, precious metals, gems_
+
+### Porto, Portugal
+
+Population: 17,000. Porto (aka “Waterdeep”) is a bustling river port at the
+mouth of the Douro River, surrounded by steep hills and rocky granite outcrops.
+The city thrives on trade, with busy quays, craftsmen’s workshops, and
+fishermen’s boats. Merchant caravans and seafarers mingle in the crowded market
+squares, while the city walls and towers offer defense against pirates and
+Almoravids.
+
+- _Exports: Salt, fish, wine, olive oil, linen cloth_
+- _Imports: Precious metals, ivory, spices, cotton cloth, luxury textiles_
+
+### Prigwort, Brackenwold, Tribania
+
+Population: 2,800. The most populous settlement beneath the eaves of Dolmenwood,
+the town of Prigwort is the centre-point of trade in the region, situated
+halfway along the road that connects Castle Brackenwold and Fort Vulgar.
+Prigwort is especially famed, even in the wider region of Tribania, for its
+breweries and distilleries. Fine Prigwort spirits, flavoured with the wild herbs
+of the forest, are found on the tables of connoisseurs far and wide. Of
+particular interest to adventurers, it is also known that a magician of
+commercial bent makes his home within the town.
+
+- _Exports: Beer, ale, and spirits; medicinal herbs, livestock_
+- _Imports: Tools, armour/weapons, common metals_
+
+### Salā, Morocco _(Rabat)_
+
+Population: 8,000. Salā is a city on the rise, founded by the Umayyad dynasty.
+Built around the impressive Kasbah (citadel) of the Udayas overlooking the
+Atlantic at the mouth of the Bou Regreg River, it serves as a military
+stronghold and staging ground for the Almoravid expansion into the Iberian
+Peninsula.
+
+- _Exports: Leather goods, olive oil, dates, spices (local and imported), and
+  traditional crafts including metalwork and textiles_
+- _Imports: Gold, salt, ivory, iron tools, fine textiles_
+
+### Sandnaes, Grœnland _(Greenland)_
+
+Population: 90. Located not far from Herjolfsnes, Sandnaes is another compact
+Wiskin farmstead amid wind-battered cliffs and ice-strewn coasts. This is a much
+poorer settlement than Herjolfsnes, but an important stop for sailors who want
+to avoid deep waters.
+
+- _Exports: Walrus ivory, polar bear and seal skins, wool, walrus-hide rope,
+  whale products, falcons._
+- _Imports: Ground grain/corn, timber and firewood, iron tools & metal goods,
+  salt, fine textiles, luxury goods._
+
+### Santo Domingo _(Hispaniola)_
+
+Population: 2,500. This island is inhabited by the Taíno people living in large
+villages among rolling hills, fertile valleys, and coastal bays. Their wooden
+houses, plazas, and ceremonial ball courts form vibrant community centers. The
+town of Santo Domingo hosts visitors interacting in lively trade for cassava,
+pottery, and cotton cloth, and a base for exploring tropical forests rich with
+birds, fruits, and rivers.
+
+- _Exports: cassava root, pottery, cotton cloth, tropical fruit._
+- _Imports: Tools and metal goods, spices, luxury goods._
+
+### Seloy _(St. Augustine)_
+
+Population: 1,700. The coastal plains near Seloy are warm and subtropical, with
+dense pine forests and swamplands. The Timucua people have inhabited the area
+since the -2400s in wooden villages surrounded by maize fields, and a small
+settlement of Europeans has sprung up at a natural harbor. The sea breeze
+carries the scent of salt and pine, while the inland terrain offers diverse
+flora and fauna for foragers and hunters.
+
+- _Exports: corn, beans, squash, fish and shellfish, game meat, alligator hides,
+  fruit, medicinal plants._
+- _Imports: iron tools and metal goods, salt, agricultural goods and equipment,
+  luxury goods._
+
+### Brackenwold, Tribania
+
+Home to some of the earliest human settlers of Tribania, the Duchy of
+Brackenwold is at the center of south Tribania. Thick forests and wide river
+plains cradle fortified estates, market towns, abbeys, and cathedrals. The
+former kingdom, now under the vassalage of William I, includes Norwich and the
+Table Downs, Castle Brackenwold and the Tithelands, High-Hankle and the High
+Wold, and has at its heart the weird forest of Dolmenwood.
+
+### Sterling, Sterich, Tribania _(London)_
+
+Population: 15,000. Sterling is a vibrant city on the Thames, its skyline
+dominated by wooden houses, stone churches, and the imposing White Tower. The
+bustling docks are filled with cargo from across Europe and the North Sea.
+Onshore, narrow streets and aromatic markets offer exotic spices, textiles, and
+goods. Nearby marshes, woods, and the Thames itself provide opportunities for
+hunters, fishermen, and woodsmen. The city’s political intrigue and occasional
+unrest make visits here both exciting and risky.
+
+- _Exports: Wool (raw and cloth), tin, lead and silver, leather goods and pelts,
+  ale and beer._
+- _Imports: Fine textiles, wine, salt, spices, honey, wax, sugar, iron, luxury
+  goods._
+
+### Þingvellir, Garðarshólmi _(Iceland)_
+
+Population: 750. A dramatic rift valley of volcanic plateaus and crystal-clear
+rivers, Þingvellir is both a stunning natural amphitheater and the site of the
+Wiskin parliament. Snow-capped peaks rise in the distance, while nearby hot
+springs release steam. Wiskin traders, farmers, and chieftains gather here to
+trade goods, settle disputes, and share stories around campfires.
+
+- _Exports: Dried cod, wool & tightly woven vadmál cloth (coarse woolen fabric),
+  animal skins & fleeces, sulfur, walrus tusks, trained falcons._
+- _Imports: Ground grain/corn, beer and ale, metal goods & tools, fine textiles,
+  salt, luxury goods._
+
+### Takrur, Kingdom
+
+The kingdom of Takrur sits along the lower Senegal River in Africa, a realm of
+open savanna, river plains, and caravan paths that tie the Atlantic fringe to
+the gold lands of the interior. Takrur recently officially embraced Sayfian
+theology, and its rulers struggle to balance older local traditions with the new
+philosophy. Caravans laden with gold, salt, and cloth pass through its markets,
+newly enhanced via the close connection to the newly discovered Hesperia, and
+the sounds of chanted verse float from temples, as the kingdom begins to expand
+its cultural, economical, and possibly political horizons.
+
+### Tiwaniku _(Bolivia)_
+
+Population: 20,000. Tiwaniku rises like a stone mirage, its pale temples and
+carved monoliths stark against the thin blue air of the high Andes mountains.
+Tiwaniku's place as the the ritual and cultural center of Hesperia for the past
+millenium has diminished somewhat over the last century, fueled by power
+struggles and exacerbated by disagreements over what to do with the incursion of
+Europeans to the continent. Most welcome new trade opportunities, but a cabal of
+influential elves has led a campaign of aggressive isolation; the city
+officially no longer welcomes outsiders, but smuggling is alive and well.
+
+- _Exports: Gold, tropical hardwoods, exotic feathers, palm products, monster
+  parts, and magic items._
+- _Imports: Metals (iron tools especially), finished textiles, and luxury
+  goods._
+
+### Tórshavn, Færeyjar _(Faroe Islands)_
+
+Population: 240. A remote cluster of windswept islands covered in grassy cliffs
+and rugged coastlines. Small farming settlements cluster near sheltered bays,
+surrounded by steep hillsides and seabird colonies. Life is harsh and bold;
+fishing, sheep herding, and boat repair dominate daily life. Visitors will
+encounter puffins, shaggy horses, and hardy farmers who shelter from storms,
+offering hospitality to ocean-weary sailors.
+
+- _Exports: Dried & salted fish (esp. cod), wool, sheepskin, peat._
+- _Imports: Salt, iron tools & metal goods, fine textiles, luxury goods._
+
+### Vinvik, Vinland _(L'Anse aux Meadows, Newfoundland)_
+
+Population: 60. This coastal outpost is a bustling Wiskin base camp surrounded
+by thick boreal forest, rolling hills, and rocky shores. Timber and game are
+plentiful, and the site hums with the activity of ship repair, and trade with
+the skraelings. Nearby dense woods hide bears and moose, providing both danger
+and bounty.
+
+- _Exports: furs and pelts, fish (incl. salmon), timber, berries and medicinal
+  plants._
+- _Imports: Iron tools & smithing supplies, wool textiles, metal goods, grain,
+  salt, luxury goods._
