@@ -102,6 +102,8 @@ denizens of the Halls below the city.
 **43**: Aulus Plautius leads an army of forty thousand to invade the rest of
 Tribania; Emperor Claudius makes Tribania a part of the Archontean Empire.
 
+**44**: City of Camoldun founded.
+
 **49**: City of Sterling founded.
 
 **96-180**: The Archontean Golden Age
@@ -476,6 +478,18 @@ local Thorcinga as the Vale of Burgheat, the valley is held as a vassal duchy by
 an Archontean aristocrat, Iskander Basileon, who bears the title “Lord Burdock”
 and has sworn an oath of fealty to King William I of Tribania.
 
+### Camoldun, Sterich, Tribania
+
+Population: 2,400. A major city in Archontean days and the first capital of
+Tribania, Camoldun lost much of its population when the capital shifted to
+Sterling several hundred years ago. Now, the borderlands town serves as \a
+halfway stop between Sterling and Venta, and the seat of the baron of Camoldun.
+Camoldun Castle itself is built directly atop the vaults of the old Archontean
+temple, and rumors abound as to the riches below the town.
+
+- _Exports: Grain & vegetables, animal byproducts_
+- _Imports: Fine textiles, iron tools, wine_
+
 ### Canary Islands
 
 These volcanic islands featured rugged terrain, stone and cave dwellings, while
@@ -528,6 +542,17 @@ routes.
 - _Exports: Gold, ivory, animal byproducts, monster parts_
 - _Imports: Salt, iron tools, textiles_
 
+### Faysting, Fyrcashire, Tribania
+
+Population: 4,500. Located at the base of the Spine mountains and but a few
+days' journey from Ashenwilde, Faysting is a common base for adventurers
+exploring the nearby famed Stonehell dungeons. Backed by the famed Guild of
+Hamu, the sprawling town has everything a budding adventurer needs to get
+themselves into trouble in the ancient prison.
+
+- _Exports: Monster parts, books_
+- _Imports: Tools, armour/weapons, ale/beer, medicinal herbs_
+
 ### Gosterwick, Burdock's Valley, Tribania
 
 Population: 2,200. A truly new town, growing at the base of the cliff outside
@@ -537,7 +562,7 @@ bears a high proportion of adventurer-oriented businesses: sellers and buyers of
 curios, general sutlers, trainers, etc.
 
 - _Exports: Monster parts, books_
-- _Imports: Tools, armor/weapons, ale/beer_
+- _Imports: Tools, armor/weapons, ale/beer, medicinal herbs_
 
 ### Herjolfsnes, Grœnland _(Greenland)_
 
