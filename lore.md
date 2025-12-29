@@ -482,7 +482,7 @@ and has sworn an oath of fealty to King William I of Tribania.
 
 Population: 2,400. A major city in Archontean days and the first capital of
 Tribania, Camoldun lost much of its population when the capital shifted to
-Sterling several hundred years ago. Now, the borderlands town serves as \a
+Sterling several hundred years ago. Now, the borderlands town serves as a
 halfway stop between Sterling and Venta, and the seat of the baron of Camoldun.
 Camoldun Castle itself is built directly atop the vaults of the old Archontean
 temple, and rumors abound as to the riches below the town.
