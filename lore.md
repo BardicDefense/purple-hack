@@ -546,9 +546,9 @@ routes.
 
 Population: 4,500. Located at the base of the Spine mountains and but a few
 days' journey from Ashenwilde, Faysting is a common base for adventurers
-exploring the nearby famed Stonehell dungeons. Backed by the famed Guild of
-Hamu, the sprawling town has everything a budding adventurer needs to get
-themselves into trouble in the ancient prison.
+exploring the nearby famed Stonehell dungeons or the abandoned Castle Malévol.
+Backed by the famed Guild of Hamu, the sprawling town has everything a budding
+adventurer needs to get themselves into trouble in the ancient prison.
 
 - _Exports: Monster parts, books_
 - _Imports: Tools, armour/weapons, ale/beer, medicinal herbs_
