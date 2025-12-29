@@ -478,7 +478,7 @@ local Thorcinga as the Vale of Burgheat, the valley is held as a vassal duchy by
 an Archontean aristocrat, Iskander Basileon, who bears the title “Lord Burdock”
 and has sworn an oath of fealty to King William I of Tribania.
 
-### Camoldun, Sterich, Tribania
+### Camoldun, Sterich, Tribania _(Colchester)_
 
 Population: 2,400. A major city in Archontean days and the first capital of
 Tribania, Camoldun lost much of its population when the capital shifted to
