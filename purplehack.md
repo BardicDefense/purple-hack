@@ -58,20 +58,20 @@ the character and start again.
 
 ## Note Ability Score Modifiers
 
-|  Ability Score | Modifier |
-| :------------: | :------: |
-|      2-3       |    -3    |
-|      4-5       |    -2    |
-|      6-8       |    -1    |
-|      9-12      |    0     |
-|     13-15      |    +1    |
-|     16-17      |    +2    |
-|     18-19      |    +3    |
+| Ability Score | Modifier |
+| :-----------: | :------: |
+|      2-3      |    -3    |
+|      4-5      |    -2    |
+|      6-8      |    -1    |
+|     9-12      |    0     |
+|     13-15     |    +1    |
+|     16-17     |    +2    |
+|     18-19     |    +3    |
 
-## Determine Initial Background
+## Note Your Saving Throw Bonus
 
-Using the [character background generator](background.md), determine your
-character’s height, weight, family upbringing, and progenitor.
+**Save Bonus:** Starts at 0. Characters gain a +1 save bonus for every 2 full
+Hit Dice they have.
 
 ## Choose Your Class & Note Hit Die
 
@@ -144,15 +144,11 @@ their choice from their specialty school. Mages can prepare a limited number of
 spells each day, and gain further spell slots as they gain Levels (see
 [Magic & Spells](#magic--spells)).
 
-## Determine Formative Institution
+## Determine Background
 
-Using the [character background generator](/background.md#institution),
-determine formative institution.
-
-## Note Your Saving Throw Bonus
-
-**Save Bonus:** Starts at 0. Characters gain a +1 save bonus for every 2 full
-Hit Dice they have.
+Using the [character background generator](background.md), determine your
+character’s height, weight, family upbringing, and progenitor, and formative
+institution.
 
 ## Choose Languages
 
@@ -184,9 +180,10 @@ but will provide no ability score increase.
   3. Drive them directly back 5 feet, if the space is available to do so. You
      may follow up immediately with a free 5-foot move of your own, even if you
      have already made your full move this turn or are otherwise locked in
-     combat.  
-     If none of those are possible or desired, then instead you bash them for an
-     additional 1d4 damage (+2 per Name Level).
+     combat.
+
+  If none of those are possible or desired, then instead you bash them for an
+  additional 1d4 damage (+2 per Name Level).
 
 - **Captain**: Some are born to command. Add a +1 attack bonus to all other
   party members and associated NPCs, raised to +2 at Level 10 or higher (this
@@ -428,10 +425,6 @@ a short sentence. Examples:
 
 - Help others
 
-- Instill chaos
-
-</div>
-
 # Armour, Weapons, and Equipment
 
 ## Item Slots
@@ -602,8 +595,6 @@ sufficient to map all but the largest areas.
 of 11 each round in order to make a melee attack against someone decorated with
 sprigs of wolfsbane.
 
-</div>
-
 ## Quick Packs
 
 - **The Gygax** (10 slots, 25d. cost): Hempen rope 50’ (L), 10’ pole (L), Iron
@@ -693,17 +684,17 @@ ammunition is readily at hand (except for crossbows, which require an action to
 load). All missile weapons have three range brackets (Short, Medium, Far).
 Attacks made against targets at a given range apply the attack penalty listed.
 
-|         Weapon        | Size & Damage | Cost | Hands | S:0 | M:-4 | F:-8 |
-| :-------------------: | :-----------: | :--: | :---: | :-: | :--: | :--: |
-|   Arrows/bolts x20    |       M       | 20d. |  \-   | \-  |  \-  |  \-  |
-|      Bow, short       |       M       | 35d. |   2   | 45’ | 90’  | 180’ |
-| Bow, long (req 9 Str) |       M       | 60d. |   2   | 90’ | 180’ | 360’ |
-|    Crossbow, light    |       M       | 50d. |   2   | 45’ | 90’  | 180’ |
-|    Crossbow, heavy    |       L       | 75d. |   2   | 90’ | 180’ | 360’ |
-|      Holy Water       |    \*\*\*     | 25d. |   1   | 10’ | 20’  | 30’  |
-|     Javelin/Spear     |       M       | 16d. |   1   | 20’ | 40’  | 60’  |
-|         Sling         |       S       | 1d.  |   1   | 45’ | 90’  | 180’ |
-|  Small thrown weapon  |       S       | 12d. |   1   | 10’ | 20’  | 30’  |
+|          Weapon         | Size & Damage | Cost | Hands | S:0 | M:-4 | F:-8 |
+| :---------------------: | :-----------: | :--: | :---: | :-: | :--: | :--: |
+|    Arrows/bolts x20     |       M       | 20d. |  \-   | \-  |  \-  |  \-  |
+|      Bow, short\*       |       M       | 35d. |   2   | 45’ | 90’  | 180’ |
+| Bow, long\* (req 9 Str) |       M       | 60d. |   2   | 90’ | 180’ | 360’ |
+|   Crossbow, light\*\*   |       M       | 50d. |   2   | 45’ | 90’  | 180’ |
+|   Crossbow, heavy\*\*   |       L       | 75d. |   2   | 90’ | 180’ | 360’ |
+|       Holy Water        |    \*\*\*     | 25d. |   1   | 10’ | 20’  | 30’  |
+|      Javelin/Spear      |      M†       | 16d. |   1   | 20’ | 40’  | 60’  |
+|          Sling          |       S       | 1d.  |   1   | 45’ | 90’  | 180’ |
+|   Small thrown weapon   |      S†       | 12d. |   1   | 10’ | 20’  | 30’  |
 
 \*If fired indoors, halve all ranges.
 
@@ -715,7 +706,7 @@ Attacks made against targets at a given range apply the attack penalty listed.
 
 ## Animals & Mounts
 
-|     Animal    | Cost  | Size | Combat Speed | Item Slot Limit |
+|    Animal     | Cost  | Size | Combat Speed | Item Slot Limit |
 | :-----------: | :---: | :--: | :----------: | :-------------: |
 |  Donkey/Pony  | 70d.  |  L   |      50      |       20        |
 | Dog, hunting  | 35d.  |  M   |      50      |       \-        |
@@ -751,8 +742,6 @@ its owner must make a saving throw against a target of 14 to keep it from
 fleeing or tossing its rider.
 
 _For water vehicles, see [ships](#ships)._
-
-</div>
 
 # Checks & Saves
 
@@ -846,8 +835,6 @@ rerolling Hostile results if the creatures are Good:
 | 9-11 |                  Unthreatening                  |
 |  12  | Actively helpful (unintelligent: Unthreatening) |
 
-</div>
-
 ## Attacking
 
 To attack, the attacker rolls 1d20 and adds their attack bonus and all
@@ -892,7 +879,7 @@ the attacker could only hit by rolling a natural 20. Melee and short-range
 missile attacks against sleeping, paralyzed, willing, and similar targets always
 hit and deal maximum damage. Such targets include PCs at 0hp.
 
-#### Damage
+### Damage
 
 An attacker’s Strength modifier is applied to melee and thrown weapon attack
 damage. Modifiers cannot drop a successful attack below 1 point of damage. A
@@ -1154,20 +1141,6 @@ for their entire party. Apply any relevant modifiers. If only some of the PCs
 have modifiers, only those PCs apply them, giving them a result different from
 their base party result.
 
-| Fleeing Side                          | Modifier                         |
-| :------------------------------------ | :------------------------------- |
-| Is faster                             | +1 per 5’ of combat speed faster |
-| Is invisible                          | Auto escape                      |
-| Drops caltrops or flaming oil         | +4                               |
-| Drops desirable items (food/treasure) | +2 or +4                         |
-| Is lightly fatigued                   |                                  |
-
-|    Pursuing Side    |             Modifier             |
-| :-----------------: | :------------------------------: |
-|      Is faster      | +1 per 5’ of combat speed faster |
-| Has senses hindered |                -4                |
-| Is lightly fatigued |                -2                |
-
 **Faster Side** assumes that side can use their full speed, which isn’t a given.
 **Hindered Senses** usually involves difficulties using one’s primary tracking
 sense. Hunting dogs compensate for some of these instances.
@@ -1185,6 +1158,20 @@ However, neither mapping nor spellcasting can occur.
 - **Missile Attacks**: After each pursuit check, if the pursuit is not over,
   then missile attacks can be made by those who have not used their action.
   Assume a range of 20’.
+
+|             Fleeing Side              |             Modifier             |
+| :-----------------------------------: | :------------------------------: |
+|               Is faster               | +1 per 5’ of combat speed faster |
+|             Is invisible              |           Auto escape            |
+|     Drops caltrops or flaming oil     |                +4                |
+| Drops desirable items (food/treasure) |             +2 or +4             |
+|          Is lightly fatigued          |                -2                |
+
+|    Pursuing Side    |             Modifier             |
+| :-----------------: | :------------------------------: |
+|      Is faster      | +1 per 5’ of combat speed faster |
+| Has senses hindered |                -4                |
+| Is lightly fatigued |                -2                |
 
 ### Ending Pursuit
 
@@ -1232,8 +1219,6 @@ appropriate equipment–a rope and grapnel, or pitons and a hammer–will add a 
 bonus to the ability check.
 
 ## Doors
-
-Along with puddles, the bane of adventurers’ existence.
 
 ### Listening at Doors
 
@@ -1438,11 +1423,11 @@ ft cause 3d6 damage, falls of up to 30 ft cause 6d6, 40 ft is 10d6, 50 ft is
 
 Fatigue represents a serious depletion of body, mind, or spirit.
 
-| Fatigue Level | Effect                                                     |
-| :------------ | :--------------------------------------------------------- |
-| Light         | to attacks, checks, and Morale checks                      |
-| Heavy         | to attacks, checks, and Morale checks, -10 Speed           |
-| Exhaustion    | to attacks, checks, and Morale checks, halve HP, -20 Speed |
+| Fatigue Level |                            Effect                             |
+| :-----------: | :-----------------------------------------------------------: |
+|     Light     |           -1 to attacks, checks, and Morale checks            |
+|     Heavy     |      -2 to attacks, checks, and Morale checks, -10 Speed      |
+|  Exhaustion   | -4 to attacks, checks, and Morale checks, halve HP, -20 Speed |
 
 Possession four or more levels of fatigue results in death. Fatigue levels from
 different sources stack.
@@ -1537,12 +1522,6 @@ required.
 **Modifiers**: +1 if the character has the Jumping skill, -1 if wearing Medium
 armour, -2 if wearing Heavy armour.
 
-## Lifting
-
-The [encumbrance rules](#item-slots) are the standard way to measure how much a
-PC can carry around. However, to quickly calculate the maximum a character can
-lift or push, use their Strength × 15 in pounds.
-
 ## Light & Vision
 
 Wise characters carry illumination–magical or mundane–when exploring at night or
@@ -1585,252 +1564,6 @@ A successful lockpicking attempt disarms all detected traps in addition to
 opening the lock, but undetected traps will be set off automatically before any
 lockpicking roll is made, unless specified otherwise.
 
-## Magic & Spells
-
-See full [arcane spell list here](/spells.md), and the full
-[holy spell list here](/holyspells.md).
-
-### Arcane Spell Slot Progression Table
-
-This shows the number of spells of a given spell Rank that a caster can
-[prepare](#casting--preparing) per day (also known as their spell slots). Mages
-are the first number, Arcanist Warriors are the number in parentheses. If the
-mage is a specialist, they add one to each Rank’s spell slot total if they can
-cast spells of that Rank. If a spell is Rank-adjusted through feats, that spell
-is treated in all ways as a spell of the Rank to which it has been modified.
-
-| Character Level |  1   |  2   |  3   |  4   |  5   |  6   |
-| :-------------: | :--: | :--: | :--: | :--: | :--: | :--: |
-|                 | 1(1) |      |      |      |      |      |
-|        2        | 2(1) |      |      |      |      |      |
-|        3        | 2(1) | 1(1) |      |      |      |      |
-|        4        | 2(1) | 2(1) |      |      |      |      |
-|        5        | 3(1) | 2(1) | 1(1) |      |      |      |
-|        6        | 3(1) | 2(1) | 2(1) |      |      |      |
-|        7        | 3(1) | 2(1) | 2(1) | 1(1) |      |      |
-|        8        | 3(1) | 3(1) | 2(1) | 2(1) |      |      |
-|        9        | 4(2) | 3(1) | 2(1) | 2(1) | 1(1) |      |
-|       10        | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) |      |
-|       11        | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) | 1(1) |
-|       12        | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) |
-|       13        | 5(2) | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) |
-|       14        | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) |
-|       15        | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) |
-|       16        | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) |
-|       17        | 6(3) | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) |
-|       18        | 6(3) | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) |
-|       19        | 6(3) | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) |
-|       20        | 6(3) | 6(3) | 5(2) | 5(2) | 4(2) | 4(2) |
-
-### Holy Spell Slot Progression Table
-
-This shows the number of holy spells of a given spell Rank that a caster with
-the Anointed can prepare per day (also known as their spell slots). Anointed
-Mages are the first number, Anointed Arcanist Warriors are the number in
-parentheses. If the mage is a specialist, they add one to each Rank’s spell slot
-total if they can cast spells of that Rank.
-
-| Character Level |  1   |  2   |  3   |  4   |  5   |
-| :-------------: | :--: | :--: | :--: | :--: | :--: |
-|                 | 1(0) |      |      |      |      |
-|        2        | 2(1) |      |      |      |      |
-|        3        | 2(1) | 1(0) |      |      |      |
-|        4        | 2(1) | 2(1) |      |      |      |
-|        5        | 3(1) | 2(1) | 1(0) |      |      |
-|        6        | 3(1) | 2(1) | 2(1) |      |      |
-|        7        | 3(1) | 3(1) | 2(1) | 1(0) |      |
-|        8        | 3(1) | 3(1) | 2(1) | 2(1) |      |
-|        9        | 4(2) | 3(1) | 3(1) | 2(1) | 1(0) |
-|       10        | 4(2) | 4(2) | 3(1) | 2(1) | 2(1) |
-|       11        | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) |
-|       12        | 5(2) | 4(2) | 4(2) | 3(1) | 2(1) |
-|       13        | 5(2) | 5(2) | 4(2) | 3(1) | 3(1) |
-|       14        | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) |
-|       15        | 6(3) | 5(2) | 5(2) | 4(2) | 3(1) |
-|       16        | 6(3) | 6(3) | 5(2) | 4(2) | 4(2) |
-|       17        | 6(3) | 6(3) | 5(2) | 5(2) | 4(2) |
-|       18        | 6(3) | 6(3) | 6(3) | 5(2) | 4(2) |
-|       19        | 6(3) | 6(3) | 6(3) | 5(2) | 5(2) |
-|       20        | 6(3) | 6(3) | 6(3) | 6(3) | 5(2) |
-
-### Casting & Preparing
-
-**Preparing Spells:** Once a spell is mentally in place, it remains until either
-intentionally dismantled or the caster uses the spell. If a spell is unused, it
-remains in the caster’s mind, even though sleep has occurred.
-
-To reconstruct spells (called “memorizing” or “preparing” them), a caster must
-first have a night’s rest (at least 4 hours of uninterrupted sleep) and no
-fatigue levels from exhaustion or lack of sleep, to regain the clarity and focus
-needed. The time required to prepare a spell is 10 minutes per spell Rank of
-uninterrupted concentration. For example, a 3rd-Rank spell would require 30
-minutes to prepare. A caster can prepare no more than two uses of the same
-spell.
-
-Note that [holy magic](#holy-magic) operates under slightly different rules than
-arcane magic for spell preparation.
-
-**Casting Spells**: Spells take two hands to cast, and include a vocal
-component; a caster who is bound or gagged or otherwise restrained or silenced
-cannot cast spells.
-
-**Spell Disruption**: If, between declaring a spell and casting it, the caster
-is hit by an attack or the like (even if no damage is dealt), or fails a saving
-throw, the spell is disrupted: it fails and its spell slot is emptied with no
-other effect. Note that only spells being cast can be disrupted. Spell effects
-from a rod, staff, wand, etc. and spell-like innate creature abilities are
-immune to disruption.
-
-### Gaining New Spells
-
-Mages learn one random spell each time they gain a Level from a random school
-they can access (plus another spell if a specialist). If the caster has just
-gained access to a new spell Rank, the spell(s) are from that Rank. Mages also
-gain access to a new school of their choice at each Name Level. When this
-happens, the mage learns random spells of that school, one at each spell Rank
-the mage can cast.
-
-They can also gain access to new spells via the following methods. These methods
-are the only way in which an Arcanist Warrior can gain new spells.
-
-- **Binding**: Anyone that can read Mithric can read a spellbook or scroll to
-  see what it is, but you cannot prepare and thus cast a spell until you have
-  bound it to you. Only spells from schools you can access can be bound. Binding
-  a spell takes 1 day + 100d. per Rank of the spell, and a successful Arcana
-  ability check, applying the ability modifier twice, rolled at the end of the
-  binding period; apply +1 if a specialist is binding a spell from their
-  specialist school. Failure means the spell is permanently erased from the
-  source scroll or spellbook (for this reason, it is the rare mage that will
-  allow another to copy from their spellbook). Success means that the spell has
-  been copied to your spellbook, and that a permanent bond between the caster
-  and spell has been created: you can always write the spell into a spellbook or
-  scroll, even if you don’t have another written copy on hand to reference or
-  have the spell prepared for casting.
-
-- **Research**: Casters can research and create brand new spells. Only spells
-  from schools the caster can access can be researched, and any given spell can
-  only be attempted once per Level. Researching a new spell requires, on average
-  and per Rank of the spell, 100d. in materials and 1 week of time.
-
-Note that [holy magic](#holy-magic) operates under different rules than arcane
-magic for spell acquisition.
-
-### Holy Magic
-
-Holy spells take the form of blessings bestowed upon characters by the grace of
-their patrons, usually saints of the Pluritine Church.
-
-A holy spellcaster may pray to the saints once per day, receiving their
-blessings in the form of spells. Once bestowed, a blessing remains with the
-character until the spell is cast. A character can only pray for spells
-following a night’s rest, and it takes one hour of quiet prayer. Characters
-capable of casting more than one spell of a given Rank may pray for up to two
-copies of the same spell.
-
-A bestowed prayer may be cast by reciting a prayer in the Mithric tongue. When a
-spell is cast, the blessing expires until it is bestowed again. The character
-must be able to speak. A holy spellcaster cannot cast spells if gagged or in an
-area of magical silence.
-
-#### Praying at Shrines
-
-Shrines and churches dedicated to specific saints or aspects of divinity are
-scattered throughout the world. A holy spellcaster who prays for one hour at
-such a shrine earns the blessing of the saint in the form of an additional
-specific spell. Once bestowed, this blessing remains with the character until
-the spell is cast. A character may only have the blessing of a single saint at
-any one time. Praying at a shrine dedicated to a different saint causes the
-spell bestowed by the new saint to replace that bestowed by the previous saint.
-The spell may be of higher Rank than what the character is usually able to cast,
-but subsequent blessings from the same shrine are bestowed only if the spell is
-of a Rank that the character can normally memorize and if at least one day has
-passed.
-
-Characters who can not normally cast holy spells can also pray at shrines and
-receive blessings. The character must be of 3rd Level or higher, have performed
-worthy deeds in service of the saint or the church associated with the blessing,
-and can receive the blessing of each saint only one time ever.
-
-### Lost Spellbooks
-
-In the event of disaster, a spellcaster who uses a spellbook and has lost it can
-rewrite spells they have learned into a blank spellbook. This requires 1 day and
-100d. per Rank of spell to be written.
-
-### Magic Item Crafting
-
-Potions are created by alchemists, with the more powerful potions usually
-requiring the help of a Magic-User. A Magic-User seeking to create potions must
-employ an alchemist. A Magic-User must be 9th Level to create potions on their
-own, and 11th Level to create other magic items.
-
-### Potion Creation
-
-Potions can be crafted by any mage of 5th Level or above, with the aid of an
-alchemist, and only one potion may be made at any one time.
-
-Potion brewing requires a stocked laboratory of at least 500d. in value. A mage
-can only brew potions they have drank or own the recipe for, and each potion
-costs additional silver pence per dose to brew; the referee will have these
-costs.
-
-### The Schools of Magic
-
-All spells belong to one of eight schools of magic. A caster can only learn
-spells from schools to which they have access. A caster gains access to a new
-school of their choice at every Name Level, learning random spells belonging to
-that school, one at each Rank they can cast. The schools are:
-
-- **Abjuration**: Spells protective in nature. These frequently ward against
-  damage or hostile effects, like gas, poison, possession, etc.
-
-- **Conjuration**: Spells that summon creatures or objects, from a simple fog to
-  extraplanar entities that serve your every whim.
-
-- **Divination**: Spells that reveal information, from hidden traps and chambers
-  to items and fell secrets.
-
-- **Enchantment**: Spells that affect the minds of others and bend life to your
-  will–men, monsters, and even plants–making them angry or ambivalent, docile or
-  dependent.
-
-- **Evocation**: Spells that shape raw magic itself. Most purely offensive
-  spells (like _Ioun Stone_, _Fireball_, etc.) belong to this school, making it
-  nearly mandatory for any aspiring battle wizard.
-
-- **Illusion**: Spells that deceive; imaginary sounds, smells, objects,
-  creatures, and even entire environments are possible.
-
-- **Necromancy**: Spells manipulating the energies of life and death, covering
-  both healing the living and interactions with the dead (and undead).
-
-- **Transmutation**: Spells that alter the properties of a creature, object, or
-  environment. One can fly, breathe underwater, or gain great strength, alter
-  the size of a creature or object, or transmute one type of material into
-  another. Sometimes called “Alteration.”
-
-### Scrolls
-
-Spells can be bound to scrolls; each holds one spell. Holding it with both hands
-and reading from it aloud casts its spell, disintegrating the scroll.
-
-A spell on a scroll is not a prepared spell and can be cast even if the caster
-does not own the spell or isn’t able to cast spells at that spell’s Rank. The
-caster must still have access to the school to which the spell belongs, however
-(or be a holy caster to cast holy spells from scrolls). Spells on scrolls can’t
-be modified through feats, though a caster can scribe a modified spell, and
-spells cannot be prepared from scrolls.
-
-For the purposes of range and so on, a scroll spell is treated as if the reader
-is casting it normally or is the minimum Level required to cast it normally,
-whichever is higher.
-
-Scrolls may be scribed by anyone who has the ability to both read scrolls and to
-cast the spell being scribed. It costs 250d. and two days per Rank of the spell,
-which can be broken up into multiple sessions. This requires a successful Arcana
-ability check, applying the ability modifier twice, rolled at the end of the
-scribing time.
-
 ## Moving Silently
 
 Anyone can attempt to sneak. A roll is called for when attempting movement that
@@ -1852,25 +1585,6 @@ Skill Check to remain undetected.
   both the Surprise and the Stealth rolls.
 
 - **Surprise**: Moving silently can be used to set up surprise attacks.
-
-## NPC Spellcasting
-
-Non-player characters may be hired to cast spells or perform other services. As
-a general guideline, spells cost _roughly_ the following, and will be subject to
-a host of in-the-fiction considerations:
-
-| Spell Rank | Cost per Casting |
-| :--------: | :--------------: |
-|    1st     |       50d.       |
-|    2nd     |      100d.       |
-|    3rd     |      250d.       |
-|    4th     |      500d.       |
-|    5th     |     1,250d.      |
-|    6th     |     2,500d.+     |
-
-Sages or alchemists not employed by a PC will often charge around 50d. to
-identify a potion (which takes an hour or so), or 100d.+ to identify a magical
-item (which can take upwards of a week).
 
 ## Perception Checks
 
@@ -2001,14 +1715,15 @@ description, or lavish or miserly rates of pay if desired:
 
 | 2d6  |  Reaction to Offer   |
 | :--: | :------------------: |
-|      | Hostilely declines\* |
+|  2   | Hostilely declines\* |
 | 3-5  |       Declines       |
 | 6-11 |       Accepts        |
 |  12  | Eagerly accepts\*\*  |
 
 \* The reaction is so bad that the applicant spreads negative rumors about the
 PC and/or party, resulting in a -2 on further hiring rolls on this table if the
-PC and/or party attempt further recruitment in this area.  
+PC and/or party attempt further recruitment in this area.
+
 \*\* Permanent +1 bonus to the retainer’s Loyalty.
 
 Loyalty is checked with a Morale roll after each adventure, if the retainer is
@@ -2141,7 +1856,7 @@ Usually ¼ of the profits of a given voyage go to the captain, from which he pay
 the crew and any outstanding expenses. The rest goes to the owner and any
 partners he may have. Many merchant captains own their own ship.
 
-#### Ship Expenses
+### Ship Expenses
 
 Some basic running costs:
 
@@ -2178,11 +1893,11 @@ availability. Roll once for each column a maximum of once per week. The
 cargo/passengers will be heading for the ship’s next destination (which must be
 stated beforehand).
 
-| Type of Port        | Deck Passengers | Cabin Passengers | Contracted Cargoes |
-| :------------------ | :-------------- | :--------------- | :----------------- |
-| Minor (V and below) | 1d6-1           | 1d6-5            | 1d6-3              |
-| Medium (III-IV)     | 2d6-1d6         | 1d6-3            | 1d6-1              |
-| Major (I-II)        | 3d6-1d6         | 1d6-1            | 1d6+2              |
+|    Type of Port     | Deck Passengers | Cabin Passengers | Contracted Cargoes |
+| :-----------------: | :-------------: | :--------------: | :----------------: |
+| Minor (V and below) |      1d6-1      |      1d6-5       |       1d6-3        |
+|   Medium (III-IV)   |     2d6-1d6     |      1d6-3       |       1d6-1        |
+|    Major (I-II)     |     3d6-1d6     |      1d6-1       |       1d6+2        |
 
 **Cargo**: The captain chooses either a small (1d6 cwt), medium (1d6x5 cwt) or
 large (2d6x10 cwt) cargo, as fits the size of his ship. The payment for shipping
@@ -2237,22 +1952,23 @@ officials, and for battle. They have rams at the bow, and raised platforms fore
 and aft from which marines can shoot at opposing ships. Artillery pieces are
 fitted as standard, and the crews are trained to fight. Most include cabins.
 
-| Ship Type              | Passengers (cabin/deck) | Capacity (cwt\*) | Crew                            | Strength | Cost   |
-| :--------------------- | :---------------------- | :--------------- | :------------------------------ | :------- | :----- |
-| Sailing ship, small    | /2                      |                  | sailors                         |          | ,000d. |
-| Sailing ship, large    | /5                      |                  | sailors                         |          | ,000d. |
-| Sailing ship, great    | /10                     |                  | sailors                         |          | ,000d. |
-| Coastal trader, small  | /2                      |                  | sailors                         |          | ,000d. |
-| Coastal trader, large  | /4                      |                  | sailors                         |          | ,000d. |
-| Merchant galley, small | /4                      |                  | sailors, 20 rowers              |          | ,000d. |
-| Merchant galley, large | /8                      |                  | sailors, 50 rowers              |          | ,000d. |
-| War galley, large      | /15\*\*                 |                  | sailors, 144 rowers, 15 marines |          | ,000d. |
-| War galley, great      | /40\*\*                 |                  | sailors, 270 rowers, 40 marines |          | ,000d. |
-| War galley, colossal   | /60\*\*                 |                  | sailors, 572 rowers, 60 marines |          | ,000d. |
+|       Ship Type        | Passengers (cabin/deck) | Capacity (cwt\*) |                Crew                | Strength |   Cost    |
+| :--------------------: | :---------------------: | :--------------: | :--------------------------------: | :------: | :-------: |
+|  Sailing ship, small   |           0/2           |        70        |             8 sailors              |    4     |  8,000d.  |
+|  Sailing ship, large   |           1/5           |       250        |             12 sailors             |    5     | 20,000d.  |
+|  Sailing ship, great   |          3/10           |       500        |             24 sailors             |    6     | 30,000d.  |
+| Coastal trader, small  |           0/2           |        10        |             6 sailors              |    3     |  4,000d.  |
+| Coastal trader, large  |           0/4           |        20        |             10 sailors             |    4     |  6,000d.  |
+| Merchant galley, small |           0/4           |       100        |        4 sailors, 20 rowers        |    3     | 10,000d.  |
+| Merchant galley, large |           1/8           |       300        |        4 sailors, 50 rowers        |    4     | 30,000d.  |
+|   War galley, large    |        2/15\*\*         |        4         | 10 sailors, 144 rowers, 15 marines |    4     | 40,000d.  |
+|   War galley, great    |        4/40\*\*         |        6         | 20 sailors, 270 rowers, 40 marines |    5     | 60,000d.  |
+|  War galley, colossal  |        6/60\*\*         |        10        | 30 sailors, 572 rowers, 60 marines |    6     | 100,000d. |
 
-\* A hundredweight (cwt) for shipping purposes is equal to 10 stone (i.e. 10
-slots)  
-\*\* usually the shipboard marines
+\*A hundredweight (cwt) for shipping purposes is equal to 10 stone (i.e. 10
+slots)
+
+\*\*usually the shipboard marines
 
 ### Naval Combat
 
@@ -2260,7 +1976,7 @@ When ships encounter one another, they may end up in a confrontation depending
 on the situation. This ruleset assumes two sides, with each comprised of one or
 more vessels.
 
-#### Damage and Repair
+### Damage and Repair
 
 All ships have a hull strength rating. When a vessel is in danger of suffering
 damage, either from a reef, sandbank, squall, storm, shipboard artillery, or
@@ -2326,7 +2042,7 @@ addition, a successful Navigation (Nautical) Skill Check increases speed by 1
 range band that turn. Galleys can ignore an unfavorable wind by lowering the
 sails and rowing; oars will move galleys at 2 range bands per turn.
 
-#### Ship Combat
+### Ship Combat
 
 **Personal weaponry**: At Long range or shorter, missile combat can begin
 between the crews of the two ships. Long range applies a -8 modifier to hit,
@@ -2396,7 +2112,7 @@ before being re-rolled.
 
 | 2d10 | Price Modifier |
 | :--: | :------------: |
-|      |      -9%       |
+|  2   |      -9%       |
 |  3   |      -8%       |
 |  4   |      -7%       |
 |  5   |      -6%       |
@@ -2484,6 +2200,271 @@ traps, but not trapped doors) are area traps. During cautious exploration, a
 separate group check is automatically made for each area trap trigger within 10
 feet.
 
+# Magic & Spells
+
+See full [arcane spell list here](/spells.md), and the full
+[holy spell list here](/holyspells.md).
+
+## Arcane Spell Slot Progression Table
+
+This shows the number of spells of a given spell Rank that a caster can
+[prepare](#casting--preparing) per day (also known as their spell slots). Mages
+are the first number, Arcanist Warriors are the number in parentheses. If the
+mage is a specialist, they add one to each Rank’s spell slot total if they can
+cast spells of that Rank. If a spell is Rank-adjusted through feats, that spell
+is treated in all ways as a spell of the Rank to which it has been modified.
+
+| Character Level |  1   |  2   |  3   |  4   |  5   |  6   |
+| :-------------: | :--: | :--: | :--: | :--: | :--: | :--: |
+|        1        | 1(1) |      |      |      |      |      |
+|        2        | 2(1) |      |      |      |      |      |
+|        3        | 2(1) | 1(1) |      |      |      |      |
+|        4        | 2(1) | 2(1) |      |      |      |      |
+|        5        | 3(1) | 2(1) | 1(1) |      |      |      |
+|        6        | 3(1) | 2(1) | 2(1) |      |      |      |
+|        7        | 3(1) | 2(1) | 2(1) | 1(1) |      |      |
+|        8        | 3(1) | 3(1) | 2(1) | 2(1) |      |      |
+|        9        | 4(2) | 3(1) | 2(1) | 2(1) | 1(1) |      |
+|       10        | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) |      |
+|       11        | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) | 1(1) |
+|       12        | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) |
+|       13        | 5(2) | 4(2) | 3(1) | 3(1) | 2(1) | 2(1) |
+|       14        | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) |
+|       15        | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) |
+|       16        | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) |
+|       17        | 6(3) | 5(2) | 4(2) | 4(2) | 3(1) | 3(1) |
+|       18        | 6(3) | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) |
+|       19        | 6(3) | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) |
+|       20        | 6(3) | 6(3) | 5(2) | 5(2) | 4(2) | 4(2) |
+
+## Holy Spell Slot Progression Table
+
+This shows the number of holy spells of a given spell Rank that a caster with
+the Anointed can prepare per day (also known as their spell slots). Anointed
+Mages are the first number, Anointed Arcanist Warriors are the number in
+parentheses. If the mage is a specialist, they add one to each Rank’s spell slot
+total if they can cast spells of that Rank.
+
+| Character Level |  1   |  2   |  3   |  4   |  5   |
+| :-------------: | :--: | :--: | :--: | :--: | :--: |
+|                 | 1(0) |      |      |      |      |
+|        2        | 2(1) |      |      |      |      |
+|        3        | 2(1) | 1(0) |      |      |      |
+|        4        | 2(1) | 2(1) |      |      |      |
+|        5        | 3(1) | 2(1) | 1(0) |      |      |
+|        6        | 3(1) | 2(1) | 2(1) |      |      |
+|        7        | 3(1) | 3(1) | 2(1) | 1(0) |      |
+|        8        | 3(1) | 3(1) | 2(1) | 2(1) |      |
+|        9        | 4(2) | 3(1) | 3(1) | 2(1) | 1(0) |
+|       10        | 4(2) | 4(2) | 3(1) | 2(1) | 2(1) |
+|       11        | 4(2) | 4(2) | 3(1) | 3(1) | 2(1) |
+|       12        | 5(2) | 4(2) | 4(2) | 3(1) | 2(1) |
+|       13        | 5(2) | 5(2) | 4(2) | 3(1) | 3(1) |
+|       14        | 5(2) | 5(2) | 4(2) | 4(2) | 3(1) |
+|       15        | 6(3) | 5(2) | 5(2) | 4(2) | 3(1) |
+|       16        | 6(3) | 6(3) | 5(2) | 4(2) | 4(2) |
+|       17        | 6(3) | 6(3) | 5(2) | 5(2) | 4(2) |
+|       18        | 6(3) | 6(3) | 6(3) | 5(2) | 4(2) |
+|       19        | 6(3) | 6(3) | 6(3) | 5(2) | 5(2) |
+|       20        | 6(3) | 6(3) | 6(3) | 6(3) | 5(2) |
+
+## Casting & Preparing
+
+**Preparing Spells:** Once a spell is mentally in place, it remains until either
+intentionally dismantled or the caster uses the spell. If a spell is unused, it
+remains in the caster’s mind, even though sleep has occurred.
+
+To reconstruct spells (called “memorizing” or “preparing” them), a caster must
+first have a night’s rest (at least 4 hours of uninterrupted sleep) and no
+fatigue levels from exhaustion or lack of sleep, to regain the clarity and focus
+needed. The time required to prepare a spell is 10 minutes per spell Rank of
+uninterrupted concentration. For example, a 3rd-Rank spell would require 30
+minutes to prepare. A caster can prepare no more than two uses of the same
+spell.
+
+Note that [holy magic](#holy-magic) operates under slightly different rules than
+arcane magic for spell preparation.
+
+**Casting Spells**: Spells take two hands to cast, and include a vocal
+component; a caster who is bound or gagged or otherwise restrained or silenced
+cannot cast spells.
+
+**Spell Disruption**: If, between declaring a spell and casting it, the caster
+is hit by an attack or the like (even if no damage is dealt), or fails a saving
+throw, the spell is disrupted: it fails and its spell slot is emptied with no
+other effect. Note that only spells being cast can be disrupted. Spell effects
+from a rod, staff, wand, etc. and spell-like innate creature abilities are
+immune to disruption.
+
+## Gaining New Spells
+
+Mages learn one random spell each time they gain a Level from a random school
+they can access (plus another spell if a specialist). If the caster has just
+gained access to a new spell Rank, the spell(s) are from that Rank. Mages also
+gain access to a new school of their choice at each Name Level. When this
+happens, the mage learns random spells of that school, one at each spell Rank
+the mage can cast.
+
+They can also gain access to new spells via the following methods. These methods
+are the only way in which an Arcanist Warrior can gain new spells.
+
+- **Binding**: Anyone that can read Mithric can read a spellbook or scroll to
+  see what it is, but you cannot prepare and thus cast a spell until you have
+  bound it to you. Only spells from schools you can access can be bound. Binding
+  a spell takes 1 day + 100d. per Rank of the spell, and a successful Arcana
+  ability check, applying the ability modifier twice, rolled at the end of the
+  binding period; apply +1 if a specialist is binding a spell from their
+  specialist school. Failure means the spell is permanently erased from the
+  source scroll or spellbook (for this reason, it is the rare mage that will
+  allow another to copy from their spellbook). Success means that the spell has
+  been copied to your spellbook, and that a permanent bond between the caster
+  and spell has been created: you can always write the spell into a spellbook or
+  scroll, even if you don’t have another written copy on hand to reference or
+  have the spell prepared for casting.
+
+- **Research**: Casters can research and create brand new spells. Only spells
+  from schools the caster can access can be researched, and any given spell can
+  only be attempted once per Level. Researching a new spell requires, on average
+  and per Rank of the spell, 100d. in materials and 1 week of time.
+
+Note that [holy magic](#holy-magic) operates under different rules than arcane
+magic for spell acquisition.
+
+## Holy Magic
+
+Holy spells take the form of blessings bestowed upon characters by the grace of
+their patrons, usually saints of the Pluritine Church.
+
+A holy spellcaster may pray to the saints once per day, receiving their
+blessings in the form of spells. Once bestowed, a blessing remains with the
+character until the spell is cast. A character can only pray for spells
+following a night’s rest, and it takes one hour of quiet prayer. Characters
+capable of casting more than one spell of a given Rank may pray for up to two
+copies of the same spell.
+
+A bestowed prayer may be cast by reciting a prayer in the Mithric tongue. When a
+spell is cast, the blessing expires until it is bestowed again. The character
+must be able to speak. A holy spellcaster cannot cast spells if gagged or in an
+area of magical silence.
+
+### Praying at Shrines
+
+Shrines and churches dedicated to specific saints or aspects of divinity are
+scattered throughout the world. A holy spellcaster who prays for one hour at
+such a shrine earns the blessing of the saint in the form of an additional
+specific spell. Once bestowed, this blessing remains with the character until
+the spell is cast. A character may only have the blessing of a single saint at
+any one time. Praying at a shrine dedicated to a different saint causes the
+spell bestowed by the new saint to replace that bestowed by the previous saint.
+The spell may be of higher Rank than what the character is usually able to cast,
+but subsequent blessings from the same shrine are bestowed only if the spell is
+of a Rank that the character can normally memorize and if at least one day has
+passed.
+
+Characters who can not normally cast holy spells can also pray at shrines and
+receive blessings. The character must be of 3rd Level or higher, have performed
+worthy deeds in service of the saint or the church associated with the blessing,
+and can receive the blessing of each saint only one time ever.
+
+## Lost Spellbooks
+
+In the event of disaster, a spellcaster who uses a spellbook and has lost it can
+rewrite spells they have learned into a blank spellbook. This requires 1 day and
+100d. per Rank of spell to be written.
+
+## Magic Item Crafting
+
+Potions are created by alchemists, with the more powerful potions usually
+requiring the help of a Magic-User. A Magic-User seeking to create potions must
+employ an alchemist. A Magic-User must be 9th Level to create potions on their
+own, and 11th Level to create other magic items.
+
+## NPC Spellcasting
+
+Non-player characters may be hired to cast spells or perform other services. As
+a general guideline, spells cost _roughly_ the following, and will be subject to
+a host of in-the-fiction considerations:
+
+| Spell Rank | Cost per Casting |
+| :--------: | :--------------: |
+|    1st     |       50d.       |
+|    2nd     |      100d.       |
+|    3rd     |      250d.       |
+|    4th     |      500d.       |
+|    5th     |     1,250d.      |
+|    6th     |     2,500d.+     |
+
+Sages or alchemists not employed by a PC will often charge around 50d. to
+identify a potion (which takes an hour or so), or 100d.+ to identify a magical
+item (which can take upwards of a week).
+
+## Potion Creation
+
+Potions can be crafted by any mage of 5th Level or above, with the aid of an
+alchemist, and only one potion may be made at any one time.
+
+Potion brewing requires a stocked laboratory of at least 500d. in value. A mage
+can only brew potions they have drank or own the recipe for, and each potion
+costs additional silver pence per dose to brew; the referee will have these
+costs.
+
+## The Schools of Magic
+
+All spells belong to one of eight schools of magic. A caster can only learn
+spells from schools to which they have access. A caster gains access to a new
+school of their choice at every Name Level, learning random spells belonging to
+that school, one at each Rank they can cast. The schools are:
+
+- **Abjuration**: Spells protective in nature. These frequently ward against
+  damage or hostile effects, like gas, poison, possession, etc.
+
+- **Conjuration**: Spells that summon creatures or objects, from a simple fog to
+  extraplanar entities that serve your every whim.
+
+- **Divination**: Spells that reveal information, from hidden traps and chambers
+  to items and fell secrets.
+
+- **Enchantment**: Spells that affect the minds of others and bend life to your
+  will–men, monsters, and even plants–making them angry or ambivalent, docile or
+  dependent.
+
+- **Evocation**: Spells that shape raw magic itself. Most purely offensive
+  spells (like _Ioun Stone_, _Fireball_, etc.) belong to this school, making it
+  nearly mandatory for any aspiring battle wizard.
+
+- **Illusion**: Spells that deceive; imaginary sounds, smells, objects,
+  creatures, and even entire environments are possible.
+
+- **Necromancy**: Spells manipulating the energies of life and death, covering
+  both healing the living and interactions with the dead (and undead).
+
+- **Transmutation**: Spells that alter the properties of a creature, object, or
+  environment. One can fly, breathe underwater, or gain great strength, alter
+  the size of a creature or object, or transmute one type of material into
+  another. Sometimes called “Alteration.”
+
+## Scrolls
+
+Spells can be bound to scrolls; each holds one spell. Holding it with both hands
+and reading from it aloud casts its spell, disintegrating the scroll.
+
+A spell on a scroll is not a prepared spell and can be cast even if the caster
+does not own the spell or isn’t able to cast spells at that spell’s Rank. The
+caster must still have access to the school to which the spell belongs, however
+(or be a holy caster to cast holy spells from scrolls). Spells on scrolls can’t
+be modified through feats, though a caster can scribe a modified spell, and
+spells cannot be prepared from scrolls.
+
+For the purposes of range and so on, a scroll spell is treated as if the reader
+is casting it normally or is the minimum Level required to cast it normally,
+whichever is higher.
+
+Scrolls may be scribed by anyone who has the ability to both read scrolls and to
+cast the spell being scribed. It costs 250d. and two days per Rank of the spell,
+which can be broken up into multiple sessions. This requires a successful Arcana
+ability check, applying the ability modifier twice, rolled at the end of the
+scribing time.
+
 # Upgrading Armour and Weapons
 
 ## Upgrading Basics
@@ -2548,20 +2529,6 @@ upgrades are incompatible, such as the breathable and insulated tags, while
 others have specific requirements. Certain types of armour upgrade tags may be
 removable or temporary; when in doubt, consult with your referee.
 
-## Armour Upgrades
-
-| **Tag**                       | **Cost (d.)** | **Prerequisite**                                               | **Properties**                                                                                                                                                                                                                     |
-| :---------------------------- | :------------ | :------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Armour proofing: 1st tier** | 1000d.        | Light, medium, or heavy armour                                 | While wearing this armour, if you would take 3 or less nonmagical slashing damage before resistance is applied, you take none of that damage instead.                                                                              |
-| **Armour proofing: 2nd tier** | 2000d.        | Medium or heavy armour with the _1st tier armour proofing_ tag | While wearing this armour, if you would take 4 or less nonmagical slashing or piercing damage before resistance is applied, you take none of that damage instead.                                                                  |
-| **Armour proofing: 3rd tier** | 3000d.        | Heavy armour with the _2nd tier armour proofing_ tag           | While wearing this armour, if you would take 5 or less non- magical slashing, piercing, or bludgeoning damage before resistance is applied, you take none of that damage instead.                                                  |
-| **Breathable**                | 100d.         | Light or medium armour. Incompatible with _insulated_.         | While wearing this armour, you have a +2 bonus on saving throws against fatigue due to extreme heat.                                                                                                                               |
-| **Climbing harness**          | 100d.         | Light, medium, or heavy armour                                 | This armour has been modified with a climbing harness around the midriff, comprising leather straps and quick- draws. While wearing it, you gain a +1 bonus to checks to scale vertical surfaces when using a rope or similar aid. |
-| **Decorated**                 | 50d.          | Medium or heavy armour and shields                             | This armour or shield is adorned with a holy symbol and allows its bearer to cast _Turn Undead_ without holding a holy symbol.                                                                                                     |
-| **Insulated**                 | 100d.         | Incompatible with _breathable_.                                | This armour counts as cold weather gear in conditions of extreme cold.                                                                                                                                                             |
-| **Quick-release clasps**      | 200d.         | Light, medium, or heavy armour                                 | You can doff this light armour as an action, medium armour in 1 minute, and heavy armour in 5 minutes.                                                                                                                             |
-| **Spiked**                    | 250d.         | Medium or heavy armour                                         | This armour has been modified with spikes, barbs, or another similar feature, and deals 1d4 piercing damage to creatures who hit its wearer with unarmed strikes or natural weapons that aren’t magical.                           |
-
 ## Upgrading Weapons
 
 Upgrading weapons follows a branching path system, with available options split
@@ -2597,22 +2564,39 @@ partially serrated in order to improve its effectiveness when slicing and
 cutting—adding the superior tag—it would cost 1,000d. (the 2nd tier base cost)
 provided that the dagger doesn’t already possess any other 2nd tier tags.
 
-| **Tag**                    | **Prerequisite**                                                       | **Properties**                                                                                                                                                                                                                                                |
-| :------------------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|                            |                                                                        | _1st Tier (base cost: 100d.)_                                                                                                                                                                                                                                 |
-| **Balanced**               | \-                                                                     | You gain a +1 bonus to attack rolls made with this weapon.                                                                                                                                                                                                    |
-| **Critical: Sharpened**    | Melee weapons that deal piercing or slashing damage only               | Attacks with this weapon score a critical hit on a roll of one lower than normal.                                                                                                                                                                             |
-| **Critical: Sight pin**    | Bows and crossbows only                                                | Attacks with this weapon score a critical hit on a roll of one lower than normal.                                                                                                                                                                             |
-| **Critical: Spiked**       | Melee weapons that deal bludgeoning damage only                        | Attacks with this weapon score a critical hit on a roll of one lower than normal.                                                                                                                                                                             |
-| **Silvered**               | \-                                                                     | Attacks with this weapon count as silvered for the purposes of overcoming resistance and immunity to nonmagical attacks and damage                                                                                                                            |
-| **Wounding: Keen**         | Melee weapons only                                                     | You gain a +1 bonus to damage rolls made with this weapon.                                                                                                                                                                                                    |
-| **Wounding: Oiled string** | Bows and crossbows only                                                | You gain a +1 bonus to damage rolls made with this weapon.                                                                                                                                                                                                    |
-|                            |                                                                        | _2nd Tier (base cost: 1,000d.)_                                                                                                                                                                                                                               |
-| **Brutal**                 | _Sharpened_ or _Spiked_ tag                                            | When you attack with this weapon and roll the maximum result for the weapon’s damage dice, you can roll those dice again and add the new roll to the damage of the attack. If you roll the maximum amount again, you can repeat this process until you don’t. |
-| **Enchanted**              | _Silvered_ tag. Can only be applied by a mage of 11th Level or higher. | Attacks with this weapon count as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage, and features such as the black pudding’s corrosive form.                                                                   |
-| **Superior**               | _Balanced_ and _keen_ or _oiled string_ tag.                           | The damage die of this weapon is increased by one size (for example, 1d4 becomes 1d6, 1d6 becomes 1d8, and 1d8 becomes 1d10).                                                                                                                                 |
-|                            |                                                                        | _3rd Tier (base cost: 10,000d.)_                                                                                                                                                                                                                              |
-| **Masterwork**             | _Brutal_ or _superior_ tag                                             | You gain an additional +1 bonus to attack and damage rolls made with this weapon.                                                                                                                                                                             |
+## Armour Upgrades
+
+| Tag                           | Cost (d.) | Prerequisite                                                   | Properties                                                                                                                                                                                                                         |
+| :---------------------------- | :-------: | :------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Armour proofing: 1st tier** |  1000d.   | Light, medium, or heavy armour                                 | While wearing this armour, if you would take 3 or less nonmagical slashing damage before resistance is applied, you take none of that damage instead.                                                                              |
+| **Armour proofing: 2nd tier** |  2000d.   | Medium or heavy armour with the _1st tier armour proofing_ tag | While wearing this armour, if you would take 4 or less nonmagical slashing or piercing damage before resistance is applied, you take none of that damage instead.                                                                  |
+| **Armour proofing: 3rd tier** |  3000d.   | Heavy armour with the _2nd tier armour proofing_ tag           | While wearing this armour, if you would take 5 or less non- magical slashing, piercing, or bludgeoning damage before resistance is applied, you take none of that damage instead.                                                  |
+| **Breathable**                |   100d.   | Light or medium armour. Incompatible with _insulated_.         | While wearing this armour, you have a +2 bonus on saving throws against fatigue due to extreme heat.                                                                                                                               |
+| **Climbing harness**          |   100d.   | Light, medium, or heavy armour                                 | This armour has been modified with a climbing harness around the midriff, comprising leather straps and quick- draws. While wearing it, you gain a +1 bonus to checks to scale vertical surfaces when using a rope or similar aid. |
+| **Decorated**                 |   50d.    | Medium or heavy armour and shields                             | This armour or shield is adorned with a holy symbol and allows its bearer to cast _Turn Undead_ without holding a holy symbol.                                                                                                     |
+| **Insulated**                 |   100d.   | Incompatible with _breathable_.                                | This armour counts as cold weather gear in conditions of extreme cold.                                                                                                                                                             |
+| **Quick-release clasps**      |   200d.   | Light, medium, or heavy armour                                 | You can doff this light armour as an action, medium armour in 1 minute, and heavy armour in 5 minutes.                                                                                                                             |
+| **Spiked**                    |   250d.   | Medium or heavy armour                                         | This armour has been modified with spikes, barbs, or another similar feature, and deals 1d4 piercing damage to creatures who hit its wearer with unarmed strikes or natural weapons that aren’t magical.                           |
+|                               |           |                                                                |                                                                                                                                                                                                                                    |
+
+## Weapon Upgrades
+
+| Tag                              | Prerequisite                                                           | Properties                                                                                                                                                                                                                                                    |
+| :------------------------------- | :--------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| _1st Tier (base cost: 100d.)_    |                                                                        |                                                                                                                                                                                                                                                               |
+| **Balanced**                     | \-                                                                     | You gain a +1 bonus to attack rolls made with this weapon.                                                                                                                                                                                                    |
+| **Critical: Sharpened**          | Melee weapons that deal piercing or slashing damage only               | Attacks with this weapon score a critical hit on a roll of one lower than normal.                                                                                                                                                                             |
+| **Critical: Sight pin**          | Bows and crossbows only                                                | Attacks with this weapon score a critical hit on a roll of one lower than normal.                                                                                                                                                                             |
+| **Critical: Spiked**             | Melee weapons that deal bludgeoning damage only                        | Attacks with this weapon score a critical hit on a roll of one lower than normal.                                                                                                                                                                             |
+| **Silvered**                     | \-                                                                     | Attacks with this weapon count as silvered for the purposes of overcoming resistance and immunity to nonmagical attacks and damage                                                                                                                            |
+| **Wounding: Keen**               | Melee weapons only                                                     | You gain a +1 bonus to damage rolls made with this weapon.                                                                                                                                                                                                    |
+| **Wounding: Oiled string**       | Bows and crossbows only                                                | You gain a +1 bonus to damage rolls made with this weapon.                                                                                                                                                                                                    |
+| _2nd Tier (base cost: 1,000d.)_  |                                                                        |                                                                                                                                                                                                                                                               |
+| **Brutal**                       | _Sharpened_ or _Spiked_ tag                                            | When you attack with this weapon and roll the maximum result for the weapon’s damage dice, you can roll those dice again and add the new roll to the damage of the attack. If you roll the maximum amount again, you can repeat this process until you don’t. |
+| **Enchanted**                    | _Silvered_ tag. Can only be applied by a mage of 11th Level or higher. | Attacks with this weapon count as magical for the purposes of overcoming resistance and immunity to nonmagical attacks and damage, and features such as the black pudding’s corrosive form.                                                                   |
+| **Superior**                     | _Balanced_ and _keen_ or _oiled string_ tag.                           | The damage die of this weapon is increased by one size (for example, 1d4 becomes 1d6, 1d6 becomes 1d8, and 1d8 becomes 1d10).                                                                                                                                 |
+| _3rd Tier (base cost: 10,000d.)_ |                                                                        |                                                                                                                                                                                                                                                               |
+| **Masterwork**                   | _Brutal_ or _superior_ tag                                             | You gain an additional +1 bonus to attack and damage rolls made with this weapon.                                                                                                                                                                             |
 
 # Wilderness Exploration
 
@@ -2630,11 +2614,11 @@ The base cost in travel points to enter a hex depends on its terrain type.
 Unlisted terrain features like great rivers, canyons, etc. can further raise the
 cost.
 
-| Terrain Type                | Entry/Search Cost | Lost/Encounters | Mounts & Vehicles               |
-| :-------------------------- | :---------------- | :-------------- | :------------------------------ |
-| Plains, steppe, farmland    |                   | in 6            | May enter                       |
-| Hills, woods, desert, rough |                   | in 6            | Mounts must be led, no vehicles |
-| Mountains, jungle, swamps   |                   | in 6            | No mounts or vehicles           |
+|        Terrain Type         | Entry/Search Cost | Lost/Encounters |        Mounts & Vehicles        |
+| :-------------------------: | :---------------: | :-------------: | :-----------------------------: |
+|  Plains, steppe, farmland   |         2         |     1 in 6      |            May enter            |
+| Hills, woods, desert, rough |         3         |     2 in 6      | Mounts must be led, no vehicles |
+|  Mountains, jungle, swamps  |         4         |     3 in 6      |      No mounts or vehicles      |
 
 If the party is travelling on a road and does not leave, a hex costs 2 travel
 points to enter; Some roads are marked with mile markers; on these roads, it
@@ -2702,6 +2686,36 @@ to enter the hex, and, like entering a hex, is only complete when the full hex
 point cost is paid. Such a search will reveal any hidden features present in a
 hex. Once a hidden feature has been located, it can be found again without
 searching.
+
+## Finding Food in the Wild
+
+When on a journey, a party may try to find food in the wilds rather than rely on
+rations purchased in a settlement. The party may choose to fish, forage, or
+hunt.
+
+If the party attempts to find food as they travel, make a Survival check. If the
+characters devote a whole day exclusively to finding food, without travel or
+rest, they gain a +2 bonus to the check. A single check is made for the entire
+party.
+
+### Fishing
+
+Using a fishing pole, hook, and something for bait, fishing is possible in any
+hex which contains a lake or river. Successful fishing provides 1d10 rations.
+
+### Foraging
+
+Plants and mushrooms can be found in many hexes. Successful foraging provides
+1d6 fresh poor-quality rations (1d4 in winter, 1d8 in autumn). Rare and magical
+herbs may also turn up in the harvest.
+
+### Hunting
+
+Successful hunting means that the party has crept up on game animals, and must
+then attempt to kill them. The party has surprise and beginning combat 1d4 x 30’
+away from the quarry. A successful hunt yields fresh common-quality rations
+based on the HP of game animals killed: 1 ration per HP for small animals, 2
+rations per HP for medium, and 4 rations per HP for large.
 
 ## Camping in the Wilds
 
@@ -2775,14 +2789,14 @@ warmth (whether they have a fire burning), and the season. Non-ideal
 circumstances require PCs to make a Constitution check, with the difficulty
 listed below.
 
-| Fire | Bed             | Winter       | Spring    | Summer    | Autumn    |
-| :--- | :-------------- | :----------- | :-------- | :-------- | :-------- |
-| N    | No bedding      | Auto failure | Difficult | Moderate  | Difficult |
-| N    | Bedroll or tent | Auto failure | Moderate  | Good rest | Moderate  |
-| N    | Bedroll & tent  | Difficult    | Moderate  | Good rest | Moderate  |
-| Y    | No bedding      | Auto failure | Difficult | Moderate  | Difficult |
-| Y    | Bedroll or tent | Difficult    | Good rest | Good rest | Good rest |
-| Y    | Bedroll & tent  | Moderate     | Good rest | Good rest | Good rest |
+| Fire |       Bed       |    Winter    |  Spring   |  Summer   |  Autumn   |
+| :--: | :-------------: | :----------: | :-------: | :-------: | :-------: |
+|  N   |   No bedding    | Auto failure | Difficult | Moderate  | Difficult |
+|  N   | Bedroll or tent | Auto failure | Moderate  | Good rest | Moderate  |
+|  N   | Bedroll & tent  |  Difficult   | Moderate  | Good rest | Moderate  |
+|  Y   |   No bedding    | Auto failure | Difficult | Moderate  | Difficult |
+|  Y   | Bedroll or tent |  Difficult   | Good rest | Good rest | Good rest |
+|  Y   | Bedroll & tent  |   Moderate   | Good rest | Good rest | Good rest |
 
 **Moderate:** The character must make a Constitution check to get a good night’s
 rest.
@@ -2799,36 +2813,6 @@ suffers one level of fatigue due to lack of sleep. For each spell the character
 attempts to prepare, there is a 1-in-6 chance of failure. If the roll fails, the
 attempt to prepare the spell fails - the spell slot remains empty and unusable
 this day.
-
-## Finding Food in the Wild
-
-When on a journey, a party may try to find food in the wilds rather than rely on
-rations purchased in a settlement. The party may choose to fish, forage, or
-hunt.
-
-If the party attempts to find food as they travel, make a Survival check. If the
-characters devote a whole day exclusively to finding food, without travel or
-rest, they gain a +2 bonus to the check. A single check is made for the entire
-party.
-
-### Fishing
-
-Using a fishing pole, hook, and something for bait, fishing is possible in any
-hex which contains a lake or river. Successful fishing provides 1d10 rations.
-
-### Foraging
-
-Plants and mushrooms can be found in many hexes. Successful foraging provides
-1d6 fresh poor-quality rations (1d4 in winter, 1d8 in autumn). Rare and magical
-herbs may also turn up in the harvest.
-
-### Hunting
-
-Successful hunting means that the party has crept up on game animals, and must
-then attempt to kill them. The party has surprise and beginning combat 1d4 x 30’
-away from the quarry. A successful hunt yields fresh common-quality rations
-based on the HP of game animals killed: 1 ration per HP for small animals, 2
-rations per HP for medium, and 4 rations per HP for large.
 
 ## Weather
 
@@ -2950,25 +2934,23 @@ servitors typically involves the expenditure of considerable time and resources.
 While it is possible to retain such hirelings for short periods, few will agree
 to a term of less than a month and most expect to serve considerably longer.
 
-| Specialist                 | Monthly Wage |
-| :------------------------- | :----------- |
-| Alchemist                  | 500d.\*      |
-| Animal Trainer             | 250d.        |
-| Armourer                   | 250d.\*      |
-| Blacksmith                 | 110d.        |
-| Engineer (Architect)       | 250d.\*      |
-| Engineer (Artillerist)     | 150d.        |
-| Engineer (Miner or Sapper) | 150d.        |
-| Jeweler/Gemcutter          | 100d.\*      |
-| Sage                       | Special      |
-| Scribe                     | 100d.        |
-| Ship Crew                  | 60d.         |
-| Ship Captain               | 250d.        |
-| Spy                        | Special      |
-| Steward/Castellan          | Special      |
-| Weaponsmith                | 150d.\*      |
-
-_\*Cost does not include all remuneration or special fees._
+|         Specialist         | Monthly Wage |
+| :------------------------: | :----------: |
+|         Alchemist          |   500d.\*    |
+|       Animal Trainer       |    250d.     |
+|          Armourer          |   250d.\*    |
+|         Blacksmith         |    110d.     |
+|    Engineer (Architect)    |   250d.\*    |
+|   Engineer (Artillerist)   |    150d.     |
+| Engineer (Miner or Sapper) |    150d.     |
+|     Jeweler/Gemcutter      |   100d.\*    |
+|            Sage            |   Special    |
+|           Scribe           |    100d.     |
+|         Ship Crew          |     60d.     |
+|        Ship Captain        |    250d.     |
+|            Spy             |   Special    |
+|     Steward/Castellan      |   Special    |
+|        Weaponsmith         |   150d.\*    |
 
 **Alchemist**: Identify potions and substances. Based on a sample or recipe, an
 alchemist can produce a potion at twice the normal speed and for half the normal
@@ -3028,19 +3010,21 @@ responsible for damage. Dwarven jeweler/gemcutters add 20% to skill level
 determination rolls, but cost twice as much to employ.
 
 | Jeweler Skill Level |                                                   |
-| :------------------ | :------------------------------------------------ |
-| -20                 | Fair—10% increase 90% likely                      |
-| -50                 | Good—20% increase 50% likely, +10% otherwise      |
-| -75                 | Superior—30% increase 60% likely, +10% otherwise  |
-| -90                 | Excellent—40% increase 70% likely, +10% otherwise |
-| -00                 | Masterful—40% increase 60% likely, +20% otherwise |
+| :-----------------: | :-----------------------------------------------: |
+|        01-20        |           Fair—10% increase 90% likely            |
+|        21-50        |   Good—20% increase 50% likely, +10% otherwise    |
+|        51-75        | Superior—30% increase 60% likely, +10% otherwise  |
+|        76-90        | Excellent—40% increase 70% likely, +10% otherwise |
+|        91-00        | Masterful—40% increase 60% likely, +20% otherwise |
+|                     |                                                   |
 
 | Gemcutter Skill Level |                                                    |
-| :-------------------- | :------------------------------------------------- |
-| -30                   | Shaky—d12, one roll, 1 improves, 10-12 ruins stone |
-| -60                   | Fair—d12, one roll, 1-2 improves, 12 ruins         |
-| -90                   | Good—d12, one roll, 1-3 improves, 12 ruins         |
-| -00                   | Superb—d20, 1-5 improves, 20 ruins stone           |
+| :-------------------: | :------------------------------------------------: |
+|         01-30         | Shaky—d12, one roll, 1 improves, 10-12 ruins stone |
+|         31-60         |     Fair—d12, one roll, 1-2 improves, 12 ruins     |
+|         61-90         |     Good—d12, one roll, 1-3 improves, 12 ruins     |
+|         91-00         |      Superb—d20, 1-5 improves, 20 ruins stone      |
+|                       |                                                    |
 
 **Sage**: A person with a degree of knowledge on just about everything, a lot of
 knowledge in a few specific fields, and authoritative knowledge in his or her
@@ -3051,9 +3035,9 @@ nothing save thinking ability and knowledge, an offer of employment must
 consider the following:
 
 |                              |                   |
-| :--------------------------- | :---------------- |
-| Support & Salary per Month   | 100 to 300d.      |
-| Research Grants per Month    | 100 to 300d.      |
+| :--------------------------: | :---------------: |
+|  Support & Salary per Month  |   100 to 300d.    |
+|  Research Grants per Month   |   100 to 300d.    |
 | Initial Material Expenditure | 5,000d. minimum\* |
 
 _\*A 5,000d. expenditure will allow the sage to operate at 50% of normal
@@ -3105,5 +3089,3 @@ available. Each must be provided with a workroom, forge, and assistants at an
 additional cost (~100d.). A weaponsmith can use spare time (prorated based on
 number of supported troops) to make additional weapons at a rate of five weapons
 per month at 25% of their usual cost.
-
-</div>

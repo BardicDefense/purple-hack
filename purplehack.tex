@@ -1,0 +1,4166 @@
+\documentclass{article}
+\usepackage{geometry, booktabs, tabularx, threeparttable, float}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{multicol}
+\usepackage[export]{adjustbox}
+\usepackage{wrapfig2}
+\usepackage[raggedrightboxes]{ragged2e}
+
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+ 
+\setcounter{tocdepth}{2}
+
+
+
+\title{Purple Hack}
+\author{Maximilian Hart}
+\date{December 2025}
+
+\begin{document}
+
+\maketitle
+\newpage
+
+%\begin{multicols}{2}
+\tableofcontents
+%\end{multicols}
+
+\vfill
+
+The following are ``house rules'' and clarifications, a mish-mash of D\&D Basic/Expert a la \emph{Old-School Essentials}, \emph{Dolmenwood}, and a fantastic ruleset called \emph{\href{https://osrsimulacrum.blogspot.com/2021/06/simulacrum-beta-release.html}{Simulacrum}}. Rampant stealing has occurred below, and is intended only for use in my own home games.
+
+Links: \href{https://docs.google.com/spreadsheets/d/1wOavveRJ8IEVoqvy33bxn12m20Y_7lqOkc9_KuXwJHo/copy}{Google Sheets Character Sheet} • \href{https://monogr.ph/694bf3d97da4a20a582eec2c}{Patch Notes}
+
+\newpage
+
+
+
+\section{Character Creation}\label{character-creation}
+
+%\begin{multicols}{2}
+
+\subsection*{Roll Your Stats}\label{roll-your-stats}
+
+Roll 3d6 down the line for each of the skills below. You can swap one
+set of stats. If your total ability score modifiers equal -3 or lower,
+you may discard the character and start again.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Strength} measures physical might. It affects your lifting,
+  carrying, and grappling. Any Str modifier is applied to your melee and
+  thrown weapon attack damage.
+\item
+  \textbf{Dexterity} measures agility, reflexes, and hand-eye
+  coordination. Any Dex mod is applied to your Armour Class, as long as
+  you can move freely.
+\item
+  \textbf{Constitution} measures endurance and vitality. Any Con mod is
+  applied to your Hit Point total at the start of the game and each time
+  you go up a Level.
+\item
+  \textbf{Perception} measures your observational acuity. Any Per mod
+  affects your ability to see through illusions, and to spot traps,
+  secret doors, and ambushes.
+\item
+  \textbf{Willpower} measures discipline and mental endurance. Any Will
+  mod affects your ability to resist enchantment, fear, mind control,
+  possession, and other mental attacks.
+\item
+  \textbf{Arcana} measures your connection to magical forces. Any Arc
+  mod is applied to chances to learn spells and to saving throws to
+  resist spell damage.
+\end{itemize}
+
+\subsection*{Choose a Character Race \& Make Any
+Adjustments}\label{choose-a-character-race-make-any-adjustments}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Humans}: The most flexible \& common. +1 to one stat of your
+  choice.
+\item
+  \textbf{Dwarf}: +1 Con, -1 Dex. Add Con mod to saves vs poison. Cannot
+  wield large weapons.
+\item
+  \textbf{Elf}: +1 Per, -1 Str. Add Arc mod to saves vs magic. 90\%
+  resistance to sleep and charm spells. Immune to ghoul paralysis.
+\item
+  \textbf{Half-Elf}: 30\% resistance to sleep and charm spells.
+\item
+  \textbf{Halfling}: -1 Str, +1 Dex. +1 bonus to missile weapon attacks.
+  +2 AC vs large enemies. Cannot wield large weapons.
+\item
+  \textbf{Breggle}: +1 AC if wearing no or light armour; natural horn
+  attack that deals Level/2 damage, rounded down.
+\end{itemize}
+
+\subsection*{Note Ability Score Modifiers}\label{note-ability-score-modifiers}
+
+\begin{multicols}{2}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{cc}
+\toprule\
+Ability Score & Modifier \\
+\midrule
+    2-3 & -3 \\
+    4-5 & -2 \\
+    6-8 & -1 \\
+    9-12 & 0 \\
+    13-15 & +1 \\
+    16-17 & +2 \\
+    18-19 & +3 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\columnbreak
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\columnwidth]{img/dice.jpg}
+	\label{fig:dice}
+\end{figure}
+
+\end{multicols}
+
+\newpage
+
+\subsection*{Note Your Saving Throw
+	Bonus}\label{note-your-saving-throw-bonus}
+
+\textbf{Save Bonus:} Starts at 0. Characters gain a +1 save bonus for
+every 2 full Hit Dice they have.
+
+\begin{wrapfigure}[11]{l}{0.4\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{img/dwarfarmour.jpg}
+	\label{fig:dwarf}
+\end{wrapfigure}
+
+\paragraph{}
+
+\subsection*{Choose Your Class \& Note Hit
+Die}\label{choose-your-class-note-hit-die}
+
+\subsubsection*{Warrior}\label{warrior}
+
+1d8 Hit Die (8hp+Con mod at 1st Level). Receive attack bonus of +1 every
+Level, starting at Level 1, stopping at +15 at Level 15. Can use any
+weapon or armour, so long as they meet its strength minimum, if any (see
+\hyperref[armour-weapons-and-equipment]{equipment}). Every Name Level,
+warriors add an extra weapon die of damage to their armed combat attacks
+and an additional feat. At 1st Level, warriors select one style,
+reflecting their preferred manner of fighting:
+
+\paragraph{}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Arcanist}: You can read Mithric and gain access to two schools
+  of magic of your choice. You can cast spells in armour and if damaged
+  while casting can make a Constitution 14 saving throw to avoid the
+  spell being lost. You cannot create or cast from scrolls, though you
+  can copy spells from them. You have half the spell slots of a mage of
+  your same Level (rounded down, to a minimum of 1 slot). You start with
+  a spellbook and spells the same way a mage does, but no schools or
+  spells are automatically acquired through gaining Levels.
+\item
+  \textbf{Hordeslayer}: If you kill an opponent with an attack, you can
+  immediately make a bonus attack of the same kind (melee or ranged).
+  You can make a maximum number of melee bonus attacks per round equal
+  to your Level, and a maximum number of missile bonus attacks equal to
+  your number of name Levels plus 1.
+\item
+  \textbf{Smiter}: Once per combat encounter, you can declare a smite
+  after you score a hit, melee or ranged, which doubles the number of
+  damage dice rolled. If a smite was announced on a critical hit, the
+  extra weapon dice do not automatically deal maximum damage.
+\item
+  \textbf{Knight}: You swear fealty to a noble house; your knighthood
+  may be revoked if you displease or dishonour your liege (it may be
+  possible to regain said favour and knighthood status by performing a
+  special quest). You follow a code of chivalry (honour, service, glory,
+  protecting the weak, and uphold the hierarchy). You gain a +1 Attack
+  bonus when mounted and a +2 to Saving Throws against magic and effects
+  that cause fear. You are a ``squire'' until 3rd Level, whereupon you
+  are knighted. Once knighted, you and companions for whom you vouch
+  earn rights of hospitality and aid from nobles and friendly knights
+  (you are also expected to extend such hospitality in kind), and you
+  gain a +2 bonus to Attack and Damage rolls against Large creatures.
+\end{itemize}
+
+\newpage
+
+\begin{wrapfigure}[12]{r}{0.4\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{img/elfmage.jpg}
+	\label{fig:elfmage}
+\end{wrapfigure}
+
+\paragraph{}
+
+
+\subsubsection*{Mage}\label{mage}
+
+1d6 Hit Die (6hp+Con mod at 1st Level). Can cast one spell per round.
+Can use any weapon or armour, so long as they meet its strength minimum,
+if any, but they can't normally cast spells in armour. Receive attack
+bonus of +1 every two Levels, starting at Level 2. All spells are
+divided into eight schools (see \hyperref[magic--spells]{Magic \&
+Spells}). By default, mages have access to four schools (one chosen, and
+three rolled randomly). After rolling, a mage can trade away access to
+one school (up to two maximum) in exchange for one of the following
+special abilities (each can be chosen only once, and only at character
+creation):
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Battlemage}: You can cast spells while wearing light armour,
+  and your class attack bonus improves to +1 every Level, starting at
+  Level 1, stopping at +15.
+\item
+  \textbf{Focused}: Select one additional mage feat.
+\item
+  \textbf{Innate}: While you can still use them, you need not own a
+  spellbook or consult one to prepare your spells.
+\item
+  \textbf{Specialist}: You have one additional spell slot at each spell
+  Rank. Choose one school you can already access; when you gain a Level,
+  you learn one extra random new spell from this school. Spells from
+  this school are easier to bind.
+\end{itemize}
+
+\textbf{Starting Spells}: Mages start with one random 1st-Rank spell
+from each school to which they have access. Specialists then select one
+extra 1st-Rank spell of their choice from their specialty school. Mages
+can prepare a limited number of spells each day, and gain further spell
+slots as they gain Levels (see \hyperref[magic--spells]{Magic \&
+Spells}).
+
+\subsection*{Determine Background}\label{determine-background}
+
+Using the \href{background.md}{character background generator},
+determine your character's height, weight, family upbringing, and
+progenitor, and formative institution.
+
+\subsection*{Choose Languages}\label{choose-languages}
+
+You start play knowing your native language(s). Additionally, roll 1d6.
+On a 5, you gain one more language. On a 6, you gain two more languages.
+Mages automatically know Mithric (the language of magic).
+
+\subsection*{Choose Feat(s)}\label{choose-feats}
+
+All characters receive one feat at 1st Level, and another feat at each
+Name Level. A feat can only be taken once, unless noted otherwise. No
+ability score can be raised above 19 through feats; a feat that would do
+so may still be taken but will provide no ability score increase.
+
+\subsubsection*{Warrior feats}\label{warrior-feats}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Battle Rage}: When in melee, the warrior can choose to enter a
+  berserk rage that last until the end of combat. While in the rage, the
+  warrior gains a +2 bonus to Attack and Damage rolls, but suffers a -4
+  penalty to Armour Class and is unable to flee.
+\item
+  \textbf{Brawler}: If your melee opponent is no more than one size
+  Level larger than you, and your attack roll against them is a natural
+  18 or 19, then in addition to your regular damage you can either:
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    Disarm them
+  \item
+    Trip them (they become prone; two-legged creatures only)
+  \item
+    Drive them directly back 5 feet, if the space is available to do so.
+    You may follow up immediately with a free 5-foot move of your own,
+    even if you have already made your full move this turn or are
+    otherwise locked in combat.
+  \end{enumerate}
+  If none of those are possible or desired, then instead you bash them
+  for an additional 1d4 damage (+2 per Name Level).
+\item
+  \textbf{Captain}: Some are born to command. Add a +1 attack bonus to
+  all other party members and associated NPCs, raised to +2 at Level 10
+  or higher (this does not benefit yourself). Apply +1 to friendly
+  Morale checks. These bonuses apply only as long as your orders can be
+  understood and the individuals benefiting are willing to be led by
+  you. Multiple captains in a group do not stack these benefits.
+\item
+  \textbf{Defender}: If you decide that none will pass, then \emph{none
+  will pass}. You ignore all magical commands to move aside, flee,
+  surrender and the like, and are immune to all fear-based effects,
+  magical or not. You gain a 4-point modifier in your favor when
+  resisting any other effect that would result in you being
+  involuntarily moved. Also, in combat, you can always choose to receive
+  the effects of having taken the Guard action, even if taking another
+  action. If you actually choose the Guard action, you impart a +4 bonus
+  to AC instead of +2.
+\item
+  \textbf{Great-Weapon Fighter}: When attacking with a two-handed melee
+  weapon, your critical hit range improves by 1, plus 1 per Name Level
+  (e.g.~you score critical hits on a natural to-hit roll of 19-20 at
+  Level 1, 18-20 at Level 5, etc.).
+\item
+  \textbf{Marksman}: You can fire into melee without penalty. Your
+  ranged to-hit penalties are reduced by 2 points, plus 2 per Name
+  Level. Your rate of fire with small thrown weapons increases from 1 to
+  2.
+\item
+  \textbf{Read Scrolls}: You can read Mithric, as well as cast from
+  scrolls containing spells from four schools of your choice; if an
+  Arcanist, two of these schools must be the two schools you already
+  know. This does not grant the ability to create scrolls.
+\item
+  \textbf{True Grit}: You may reroll failed death saves.
+\item
+  \textbf{Whirlwind}: +2 AC (and a further +1 AC per Name Level). Your
+  melee attacks happen first before all other simultaneous attacks in
+  the melee phase. You are not locked in melee combat unless in melee
+  with at least three opponents. To gain these benefits, you must be
+  able to move freely at at least Speed 30, not wearing medium or heavy
+  armour, and not be fatigued.
+\end{itemize}
+
+\subsubsection*{Mage Feats}\label{mage-feats}
+
+A mage can combine multiple feats on a spell. The spell adjustments from
+these stack (e.g.~a \emph{Silent Undeniable Magic Missile} spell would
+in all ways be treated as a 3rd-Rank spell). A feat cannot take a spell
+over 6th Rank.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Arcane Antipathy}: You dedicate yourself to rooting out
+  practitioners of dark magic. You gain a +2 bonus to Saving Throws
+  against magic, and spellcasters suffer a -2 penalty to Saving Throws
+  against spells cast by you.
+\item
+  \textbf{Detect Magic}: You gain a ``Detect Magic'' skill with a
+  starting Skill Target of 6 that allows you to touch an object, place,
+  or creature for 1 Turn to see if it is magical. On a success, you know
+  if the object, place, or creature is magical--i.e., enchanted,
+  consecrated, affected by a spell, or possessed of innate magic of some
+  kind. You can repeat the attempt as many times as you like, each time
+  taking 1 Turn. The Skill Target lowers by 1 every Name Level.
+\item
+  \textbf{Dextrous}: You can cast 1st-Rank spells using only one hand
+  (i.e.~with a shield or weapon or lantern in the other hand). For each
+  Name Level you have, the Rank of spells that can be cast in this way
+  increase by one.
+\item
+  \textbf{Familiar}: You acquire a magical connection to a Tiny or Small
+  mundane creature appropriate to the area that obeys your commands. You
+  can see through its eyes up to a mile away, and gain a small power
+  appropriate to the creature while doing so (e.g.~+2 visual Perception
+  for a bird). Regardless of its normal statblock, the creature has 2
+  Hit Dice. Its death applies one level of fatigue to you for the next
+  week, after which you may take a new familiar.
+\item
+  \textbf{Metamagic}: You can craft your spells at the time of
+  memorization to require either no vocal component (``Silent'') or no
+  somatic component (``Stilled''). Memorizing a Metamagic spell uses up
+  a spell slot one Rank higher than the spell's normal Rank. This feat
+  may be taken three times. The second time removes either vocal or
+  somatic components from your all spells permanently (must be chosen at
+  the time of choosing the feat), with no Rank adjustment to them
+  required. A spell may not be both Silent and Stilled until the feat is
+  taken a third time, which allows this combination.
+\item
+  \textbf{Quickcast}: Casting times of your spells are reduced by 1 (see
+  \hyperref[combat-phases]{magic phase}). This can take them to 0 or
+  below. This feat may be taken up to twice.
+\item
+  \textbf{Undeniable}: Once an Undeniable spell is declared, loss of
+  concentration does not disrupt it (unless you are killed or otherwise
+  rendered incapable of casting). All other restrictions apply.
+  Preparing an Undeniable spell uses up a spell slot one Rank higher
+  than the spell's normal Rank.
+\end{itemize}
+
+\subsubsection*{Unrestricted Feats}\label{unrestricted-feats}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Animal Companion}: You may attempt to forge a bond with a
+  single wild or domestic ordinary animal. If the animal companion dies
+  or is dismissed, you may attempt to forge a connection with a new
+  animal. An animal companion may not exceed your Level and does not
+  level in any way. To establish a connection, you must approach the
+  animal and interact in a peaceful manner for 1 Turn. On a successful
+  Animal Handling check with a default Skill Target of 4, the animal
+  becomes your companion. Once a connection is established, the
+  companion follows you everywhere, understands basic commands, and
+  fights to the death to defend you.
+\item
+  \textbf{Anointed}: \emph{Note: A Warrior can only take this if they
+  are an Arcanist.} You are zealous for your God and a saint whose
+  particular patronage you choose. Spells or effects that would target
+  supernatural creatures aligned with your patron also affect you.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    You lose access to the usual arcane spell list and instead gain
+    access to the holy spell list. You do not need a spellbook, and
+    instead pray daily for spells, choosing from all the spells
+    available to you each day. You must carry a holy symbol and hold it
+    to cast your spells.
+  \item
+    Gain access to the Turn Undead spell, but as a once-per-Turn ability
+    that does not consume any spell slots.
+  \item
+    Gain the ``Laying on Hands'' ability, a healing touch once per day
+    that heals HP equal to your Level.
+  \end{itemize}
+\item
+  \textbf{Conditioning}: Gain +2 to a chosen ability score. This feat
+  can be taken only once for a given ability score.
+\item
+  \textbf{Fieldcraft}: Gain +1 Constitution. Pick two broad terrain
+  types (forest, hills, plains, desert, swamps, jungle, tundra,
+  mountains, etc.). In these terrain types, you gain a +1 on tasks such
+  as stealth, perception, tracking, and concealing tracks, and you:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Heal at least 2 HP per night if you get a good night's sleep, and
+    still heal even if marching in terrain that normally prevents such.
+  \item
+    Lower your Survival and Tracking Skill Targets by 1.
+  \item
+    You're less likely to be surprised in your chosen terrain
+  \end{itemize}
+\item
+  \textbf{Lockpicking}: Gain +1 Dexterity. You have the tools and
+  expertise to pick locks; add -2 to the Lockpicking Skill Target (or
+  start at 4 if the Skill is not already acquired), and add a +1 to your
+  Perception checks to notice trapped locks.
+\item
+  \textbf{Tough}: Your hit die is one die higher (i.e.~a warrior will
+  use a d10, and a mage will use a d8). If you take this feat later than
+  1st Level, reroll your current hit dice with the new hit die size, and
+  take whichever maximum hit point total is higher.
+\item
+  \textbf{Undead Slayer}: Gain a +1 Attack bonus and +1 weapon die of
+  damage against undead monsters. Your attacks harm undead monsters that
+  can normally only be harmed by magical or silver weapons, even when
+  not wielding a weapon of the appropriate type.
+\end{itemize}
+
+\subsection*{Determine Starting Age \& Choose
+Skills}\label{determine-starting-age-choose-skills}
+
+Using the \href{background.md\#starting-age}{character background
+generator}, determine your character's starting age. Then, select
+appropriate skills.
+
+Skills represent specialized knowledge of or training in a particular
+field. All characters select one to three skills at 1st Level, depending
+on starting age, and two more at each Name Level.
+
+All characters start with innumerable general adventuring skills (like
+Survival, Climbing, or Stealth) at a Skill Target of 6. In general, each
+time a character selects a skill, the Skill Target of that skill is
+reduced by 1. A Skill Target cannot be reduced below 2. (See
+\hyperref[checks--saves]{checks \& saves}.)
+
+Other skills are more specialized or non-intuitive (like reading lips or
+lockpicking), and reflect special training, deep knowledge, or intense
+\& focused practice in that particular narrow area. These skills must be
+selected in order to even be attempted by a character. Which skills are
+general skills and which are specialized which is up to the referee.
+
+\begin{quote}
+Note: Broad interaction (e.g.~Conversation), social skills that achieve
+a result otherwise possible only through roleplay (e.g.~Deception or
+Intimidation), skills that boil down a non-linear non-standard task down
+to a simple roll (e.g.~Dungeoneering or Investigation) or skills that
+allow for ready identification of magical items cannot be taken.
+\textbf{Skills are largely meant to measure a proficiency over and above
+what one could reasonably be expected to have, NOT to define what is
+possible!}
+\end{quote}
+
+Concretely, skills might, depending on the circumstances, allow you to:
+
+\begin{itemize}
+\tightlist
+\item
+  Avoid what might otherwise involve a roll.
+\item
+  Lessen the consequences of failure.
+\item
+  Gain information not obvious to the average observer.
+\end{itemize}
+
+Sample general skills include: Acrobatics, Alertness, Climbing,
+Disguise, Etiquette, First Aid, Gambling, Herbalism, Jumping, Language
+(\emph{choose one}), Lore (\emph{specific subject}), Navigation
+(Nautical), Performance, Riding, Running, Shadowing, Ship Piloting,
+Stealth, Survival, Swimming, Tracking, Wrestling.
+
+Sample specialized skills include: Alertness, Blindfighting, Decipher
+Document, Herbalism, Lockpicking, Pick Pockets, Read Lips.
+
+Examples of some skills that impart concrete mechanical benefits other
+than a simple -1 to a Skill Target:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Alertness}: Make an Alertness check to act normally if
+  surprised.
+\item
+  \textbf{Acrobatics}: Move at full speed through allies' spaces.
+\item
+  \textbf{Blindfighting}: Removes penalty for fighting while blinded.
+\item
+  \textbf{Herbalism}: A single dose of a medicinal herb is sufficient
+  for two subjects.
+\item
+  \textbf{Tracking}: Find tracks left by creatures in a 30' square area.
+  Takes 1 Turn to search, with only one attempt allowed. Some modifiers
+  may apply, and it can only be done in the wild.
+\item
+  \textbf{Wrestling}: Grants a +2 on grappling attack rolls.
+\end{itemize}
+
+
+
+\subsection*{Buy Equipment}\label{buy-equipment}
+
+Roll 6d6 and multiply the number by 10. That's your starting silver
+pieces (d.). See the \hyperref[armour-weapons-and-equipment]{equipment}
+list for things to buy (don't forget armour!) or choose a
+\hyperref[quick-packs]{quick pack}.
+
+If you plan to cast Turn Undead, be sure to buy a holy symbol! If you're
+a thief, you'll want lockpicks. A magic-user needs a book to use as a
+spellbook.
+
+\subsection*{Note a Motivation or
+Motto}\label{note-a-motivation-or-motto}
+
+\begin{wrapfigure}[10]{l}{0.3\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{img/portalthief.jpg}
+	\label{fig:portalthief}
+\end{wrapfigure}
+
+Why is your character risking their life for adventure? This can
+be one word, or a short sentence. Examples:
+
+\begin{itemize}
+\tightlist
+\item
+  Rejected from his clan, Gorend is on a mission to prove himself.
+\item
+  Percival always has to be the hero.
+\item
+  Cedric can't resist a good story.
+\item
+  Spread the faith
+\item
+  Earn glory
+\item
+  Amass wealth
+\item
+  Take revenge
+\item
+  Master a skill
+\item
+  Obey duty
+\item
+  Discover truth
+\item
+  Do good
+\item
+  Help others
+\end{itemize}
+%\end{multicols}
+
+\newpage
+
+\section{Armour, Weapons, and
+Equipment}\label{armour-weapons-and-equipment}
+
+
+\subsection*{Item Slots}\label{item-slots}
+
+We're using container-based ``item slot'' encumbrance, measuring both
+weight and awkwardness.
+
+You can carry 10 + Str mod slots of equipped items (anything you're
+wearing, holding, actively using, ready to use at short notice). You can
+carry 16 + Str mod slots of stowed items. Your encumbrance--which
+determines your speed in combat and exploration, and your travel points
+available--is based on how many slots you have occupied:
+
+\begin{table}[ht]
+\centering
+\begin{adjustbox}{width=1\textwidth,center=\textwidth}
+\begin{tabular}{cccccc}
+\toprule
+    Equipped Slots & Stowed Slots &
+    Combat Speed & Exploration Speed &
+    Normal Travel & Forced March \\
+    \midrule
+    0-3 & 0-10 & 40' & 120' & 8 pts & 12 pts \\
+    4-5 & 11-12 & 30' & 90' & 6 pts & 9 pts \\
+    6-7 & 13-14 & 20' & 60' & 4 pts & 6 pts \\
+    8-10 + Str mod & 15-16 + Str mod & 10' & 30' & 2 pts & 3 pts \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+For ease of communication, each of these tiers of encumbrance are
+referred to by their associated combat speed. For example, moving at
+``Speed 20'' means you have 4 travel points, or 6 if you force march.
+
+A backpack can only carry 12 stowed slots of items; more than that, and
+you must use a sack. 13-14 slots of items means you're carrying the sack
+with one hand, and 15 or more slots requires two hands to carry.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Small} (S) items (like chalk or potions) fit four to a slot.
+\item
+  \textbf{Medium} (M) items (most things) are 1 slot.
+\item
+  \textbf{Large} (L) items like 2h weapons and medium armour are 2
+  slots.
+\item
+  \textbf{Heavy armour} takes 3 slots (as do all items listed as L+) and
+  adds a level of encumbrance.
+\end{itemize}
+
+Coins \& gems stack 500 to a slot. A typical body (willing or
+unconscious) fills 9 slots, before gear, and adds a level of
+encumbrance.
+
+
+
+\subsection*{Starting Gear}\label{starting-gear}
+
+\begin{wrapfigure}[9]{r}{0.3\textwidth}
+	\centering
+	\includegraphics[width=1\linewidth]{img/backpack.jpg}
+	\label{fig:backpack}
+\end{wrapfigure}
+
+\paragraph{}
+
+The following base gear is automatically added to your character for
+free:
+
+\begin{itemize}
+\tightlist
+\item
+  One weapon of your choice (+ 20 arrows/bolts if missile weapon) with a
+  scabbard/sheathe/quiver if needed, (number of slots depends on size)
+\item
+  Backpack (10 + Str mod slots) (worn clothing \& in-use containers do
+  not count toward your slots), waterskin (M), tinderbox (S) (for
+  lighting torches or small fires)
+\item
+  Miscellaneous tiny items (within reason); worn items/clothing
+\end{itemize}
+
+\newpage
+
+After this, you can have whatever basic gear you wish (within reason, as
+determined by the referee). Some common basic adventuring items include
+but are not limited to (size listed after each):
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Bedroll (M)}: A blanket that can double as a sleeping bag.
+  Helps protect against the cold when
+  \hyperref[camping-in-the-wilds]{camping in the wilds}.
+\item
+  \textbf{Caltrops, bag (M)}: Small metal spikes sufficient to cover a
+  5' × 5' area. Creatures moving through have a 2-in-6 chance of
+  treading on a spike for a 50\% penalty to movement rate for 24 hours
+  (or until magically healed). Intelligent creatures can move cautiously
+  through areas with known caltrops, which requires their entire
+  Movement Phase to travel 5', but eliminates any risk of impalement.
+\item
+  \textbf{Candle (S)}: Dimly illuminates a 5' radius, and burns for 4
+  hours.
+\item
+  \textbf{Chalk (S)}: Useful for marking trails in dungeons.
+\item
+  \textbf{Crowbar (M)}: Makes it easier to force open doors, and doubles
+  as an improvised medium weapon.
+\item
+  \textbf{Food, fresh, poor} (M): Poor-quality fresh food, 1 day's
+  worth. Won't win awards, but it'll keep you fed.
+\item
+  \textbf{Food, trail} (M): Preserved and packaged food, 1 day's worth.
+  Won't go bad.
+\item
+  \textbf{Grappling Hook (S)}: Steel, 1'x8'', four prongs
+\item
+  \textbf{Hammer (S)}: Doubles as an improvised small weapon.
+\item
+  \textbf{Sack, canvas (M)}: In case your backpack overflows with
+  treasure.
+\item
+  \textbf{Spike, iron x4 (S)}: One of these can be hammered in to block
+  one typical door.
+\item
+  \textbf{Lantern (M)}: A lantern can be closed to hide its light, burns
+  one flask of lamp oil every 4 hours, and illuminates a 20' radius.
+\item
+  \textbf{Oil flask (M)}: Fuels lantern 4 hours. Poured on ground and
+  lit burns for 1 turn. Thrown on monster (roll to hit) \& set on fire
+  does 1d6 damage each round for two rounds.
+\item
+  \textbf{Pick, mining (M)}: This excavating tool doubles as an
+  improvised medium weapon.
+\item
+  \textbf{Pole, 10' (L)}: Often used to prod potential dangers at a safe
+  distance. When wielded during cautious exploration, has a 2-in-6
+  chance of setting off most traps.
+\item
+  \textbf{Rope, hemp, 3/8'' (L)}: Holds 250lbs, 50' length.
+\item
+  \textbf{Scroll case, leather (M)}: Each holds up to 10 spell Ranks in
+  spell scrolls.
+\item
+  \textbf{Shovel (L)}: Excavating tool doubles as an improvised medium
+  weapon.
+\item
+  \textbf{Sledgehammer (L)}: Excavating tool doubles as an improvised
+  medium weapon.
+\item
+  \textbf{Torch, wax (S)}: Burns for 1 hour, illuminating a 40' radius.
+  Will remain lit if dropped to the ground or thrown. Can be used as a
+  small weapon without dousing it; some targets take further damage due
+  to the fire. Also useful to burn away rot grubs, green slime, and
+  webs.
+\item
+  \textbf{Twine, hemp, 1/8'' (S)}: Ball, holds 10lbs, 100' length.
+\item
+  \textbf{Vial, glass (S)}: 4oz, 1.4'' dia, 5'' high, cork stopper.
+\end{itemize}
+
+Finally, you can add ``costed'' items, which do cost money at character
+creation.
+
+\begin{quote}
+\emph{\textbf{Note}: After character creation, all items you buy in the
+world are ``costed items,'' even if they appear on the free list above;
+their prices may differ from the prices below.}
+\end{quote}
+
+\newpage
+
+\subsubsection*{Costed Items}\label{costed-items}
+\begin{multicols}{2}
+\vspace{5mm}
+\begin{quote}
+    \emph{40 copper farthings (f.) = 10 silver pence (d.) = 1 gold noble
+(g.)}
+\end{quote}
+\begin{table}[H]
+\begin{adjustbox}{width=0.9\columnwidth,center=\columnwidth}
+\begin{tabular}{cccc}
+\toprule
+Item & Cost \\
+\midrule
+Acid, vial (S) & 50d. \\
+Arrow or light bolt, silver, single & 5d. \\
+Book, leatherbound, 24pgs (M) & 30d. \\
+Chain, iron, 1'' links, 10' (L) & 40d. \\
+Holy symbol, iron & 5d. \\
+Holy symbol, silver & 50d. \\
+Holy symbol, wooden & 1d. \\
+Holy water vial (S) & 25d. \\
+Mapping kit (M) & 10d. \\
+Mirror, small, bronze (S) & 2d. \\
+Rope, silk, 3/8'' (M) & 75d. \\
+Tent, single (L) & 20d. \\
+Thieves' picks \& tools (M) & 12d. \\
+Wolfsbane sprig (S) & 1d. \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\linewidth]{img/helmsword.jpg}
+    \label{fig:helmsword}
+\end{figure}
+
+\columnbreak
+
+\textbf{Acid, vial}: Can splash contents on a target within 5' or hurl
+it as a small thrown weapon; it shatters on impact. A hit deals 1d6+1
+acid damage. A vial can also be used to open most mundane locks in 1
+turn.
+
+\textbf{Holy symbols}: Wooden symbols incur -1 penalty to Turn Undead
+2d6 dice roll; silver symbols receive +1 bonus.
+
+\textbf{Holy water}: Can splash contents onto an undead creature within
+5' or hurl it as a small thrown weapon; it shatters on impact. Causes
+2d4 damage when thrown on most undead.
+
+\textbf{Mapping kit}: A cased roll of parchment plus quills and vials of
+ink, sufficient to map all but the largest areas.
+
+\textbf{Rope, silk}: Lighter and stronger than hemp, can hold 500lbs.
+50' length.
+
+\textbf{Tent}: Protects against adverse weather when adventuring in the
+wilds. See \hyperref[camping-in-the-wilds]{camping in the wilds}.
+
+\textbf{Wolfsbane}: A werewolf must make a successful saving throw
+against a target of 11 each round in order to make a melee attack
+against someone decorated with sprigs of wolfsbane.
+\end{multicols}
+
+\subsection*{Quick Packs}\label{quick-packs}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{The Gygax} (10 slots, 25d. cost): Hempen rope 50' (L), 10'
+  pole (L), Iron spikes x4 (S) x2, Hammer (S), Lantern (M), Oil flask
+  (M) x2, Holy water vial (S, 25sp), Trail food (M) x2.
+\item
+  \textbf{The Generalist} (6 slots, 10d. cost): Candle (S), Chalk (S),
+  Hammer (S), Iron spike x4 (S), Crowbar (M), Trail food (M), Oil flask
+  (M), Lantern (M), Mapping kit (M, 10d.).
+\item
+  \textbf{The Cautious} (7 slots): Candle, pillar (S) x4, Chalk (S),
+  Hammer (S), Iron spikes x4 (S), Wolfsbane (S), Caltrops (M), Trail
+  food (M) x2, 10' pole (L).
+\item
+  \textbf{The Delver} (6 slots): Candle, pillar (S) x3, Hammer (S), Beef
+  jerky (S) x2, Cheese (S), Dried fruit (S), Pickaxe (L) or Shovel (L)
+  or Sledgehammer (L), Hempen rope (L).
+\item
+  \textbf{The Scholar} (6 slots, 10d. cost): Chalk (S), Vial (S) x3,
+  Trail food (M), Oil flask (M), Lantern (M), Mapping kit (M, 10d.),
+  Scrollcase (M).
+\item
+  \textbf{The Torchbearer} (6 slots): Trail food (M) x2, Oil flask (M)
+  x2, Torches (S) x8
+\end{itemize}
+
+\subsection*{Armour}\label{armour}
+
+An unarmoured character has a base Armour Class of 10.
+
+\begin{table}[ht]
+\centering
+    \begin{tabular}{cccc}
+    \toprule
+    Armour & AC & Cost & Time to Don/Doff \\
+    \midrule
+    Small Shield (M) & +1 & 25d. & 1 action \\
+    Large Shield (L) & +2 & 60d. & 1 action \\
+    Leather or Furs (light armour) (M) & 12 & 80d. & 1 min \\
+    Ring (med. armour) (L) & 13 & 130d. & 5 min \\
+    Scale/Lamellar (med. armour) (L) & 14 & 180d. & 5 min \\
+    Chainmail (med. armour) (L) & 15 & 280d. & 5 min \\
+    Splint (heavy armour) (L+) & 16 & 580d. & 10 min \\
+    Plate (heavy armour) (L+) & 17 & 850d. & 10 min \\
+    \bottomrule
+    \end{tabular}
+\end{table}
+
+Heavy armour (L+ = 3 slot) and Large Shields require minimum 9 Str to equip. Heavy armour adds a level of encumbrance. A Shield also provides a save bonus vs non-gaseous breath weapons equal to its AC bonus.
+
+\subsection*{Weapons}\label{weapons}
+
+\subsubsection*{Melee Weapons}\label{melee-weapons}
+
+
+Weapons are divided into three basic damage categories: small, medium,
+and large.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Small} weapons deal 1d4 damage (plus the user's Str modifier),
+  are one-handed, and include knives, daggers, and small handaxes. Can
+  be dual-wielded for +1 to hit (doesn't grant additional attacks) and
+  can often be thrown as missile weapons. Average cost: 12d.
+\item
+  \textbf{Medium} weapons deal 1d6+1 damage (plus the user's Str
+  modifier), are one-handed, and include most swords, spears, maces,
+  flails, and battle axes. Can be wielded two-handed, which adds +1
+  damage. Average cost: 20d.
+\item
+  \textbf{Large} weapons deal 1d8+3 damage (plus the user's Str
+  modifier), are two-handed, and include polearms and pikes, as well as
+  large swords, spears, axes, and maces. A minimum Str of 9 is required
+  to wield large weapons. Average cost: 75d.
+\end{itemize}
+
+\paragraph{Weapons of Special Metals}\label{weapons-of-special-metals}
+
+Adventurers sometimes seek out weapons made of cold iron or silver, as
+these are harmful to fey or certain undead monsters. Cold iron and
+silver weapons must be crafted to special order, incurring a delay of
+2d6 days.
+
+\textbf{Cold Iron Weapons} are made of pure iron, forged in flames of
+ancient yew wood, and doused in water infused with mandrake root. They
+cost double the weapon's normal price. They gain a +1 damage bonus
+against fey and demi-fey, but suffer a -1 damage penalty against other
+creatures.
+
+\textbf{Silver Weapons} are made of pure silver. They inflict +1 damage
+against undead, and normal damage against other foes, and certain foes
+can \emph{only} be harmed by silver (or magic) weapons. They don't hold
+an edge well, and are prone to wear and tear, making all item
+degradation checks with disadvantage (rolling twice and taking the lower
+die). For cost, see \hyperref[upgrading-weapons]{Upgrading Weapons}.
+
+\subsubsection*{Missile Weapons}\label{missile-weapons}
+
+Missile weapons have a rate of fire of 1 shot per attack (except for
+small thrown weapons with the marksman feat). Loading does not require
+an action if ammunition is readily at hand (except for crossbows, which
+require an action to load). All missile weapons have three range
+brackets (Short, Medium, Far). Attacks made against targets at a given
+range apply the attack penalty listed.
+
+\begin{table}[ht]
+\centering
+    \begin{threeparttable}[b]
+        \begin{tabular}{ccccccc}
+            \toprule\
+                Weapon &  Size \& Damage & Cost & Hands
+                & S:0 & M:-4 & F:-8 \\
+            \midrule
+                Arrows/bolts x20 & M & 20d. & - & - & - & - \\
+                Bow, short\tnote{*} & M & 35d. & 2 & 45' & 90' & 180' \\
+                Bow, long\tnote{*} (req 9 Str) & M & 60d. & 2 & 90' & 180' & 360' \\
+                Crossbow, light\tnote{**} & M & 50d. & 2 & 45' & 90' & 180' \\
+                Crossbow, heavy\tnote{**} & L & 75d. & 2 & 90' & 180' & 360' \\
+                Holy Water & *** & 25d. & 1 & 10' & 20' & 30' \\
+                Javelin/Spear & M\tnote{†} & 16d. & 1 & 20' & 40' & 60' \\
+                Sling & S & 1d. & 1 & 45' & 90' & 180' \\
+                Small thrown weapon & S\tnote{†} & 12d. & 1 & 10' & 20' & 30' \\
+            \bottomrule
+        \end{tabular}
+        \begin{tablenotes}
+           \item [*] \footnotesize {If fired indoors, halve all ranges.}
+           \item [**] \footnotesize {+2 attack bonus, reload requires action.}
+           \item [***] \footnotesize {See costed equipment list above for details.}
+           \item [†] \footnotesize {Plus user's Str modifier.}
+        \end{tablenotes}
+    \end{threeparttable}
+\end{table}
+
+\subsection*{Animals \& Mounts}\label{animals-mounts}
+
+\begin{table}[ht]
+    \begin{minipage}{.5\linewidth}
+        \centering
+        \begin{tabular}{ccccc}
+            \toprule
+                Animal & Cost & Size & Combat Speed & Item Slot Limit \\
+            \midrule
+                Donkey/Pony & 70d. & L & 50 & 20 \\
+                Dog, hunting & 35d. & M & 50 & - \\
+                Dog, war & 65d. & M & 50 & - \\
+                Hawk & 40d. & S & 80 & - \\
+                Horse, draft & 150d. & L & 50 & 30 \\
+                Horse, riding & 100d. & L & 80 & 20 \\
+                Horse, war & 300d. & L & 65 & 25 \\
+                Mule & 90d. & L & 65 & 25 \\
+                Ox & 120d. & L & 50 & 35 \\
+            \bottomrule
+        \end{tabular}
+    \end{minipage}%
+    \begin{minipage}{.5\linewidth}
+        \flushright
+        \begin{tabular}{cc}
+            \toprule
+                Item & Cost \\
+            \midrule
+                Cart & 60d. \\
+                Feed, per day & 1d. \\
+                Wagon & 800d. \\
+            \bottomrule
+        \end{tabular}
+    \end{minipage}
+\end{table}
+
+\begin{multicols}{2}
+
+\footnotesize{
+	\textbf{Cart}: Open, road-bound, two-wheeled vehicle. Pulled by 1-2
+	beasts of burden. Capacity: 2x of the animals drawing it.
+	
+	\textbf{Encumbrance}: A rider counts against a mount's item slot limit
+	at a rate of 3 slots per the rider's size level, starting at Tiny (so 9
+	slots for a Medium rider), plus the rider's own carried slots, if any. A
+	mount can carry no more than two typical riders. An animal, cart, or
+	wagon 1 point over its item limit gains one encumbrance level. Every 3
+	slots past that adds another (or every 8 points past for a cart or
+	wagon).
+	
+	\textbf{Wagon}: Open, four-wheeled, road-bound vehicle for heavy loads.
+	Pulled by 4-6 beasts of burden. Capacity: 2x of the animals drawing it.
+	
+	\textbf{War}: An animal not trained for combat may panic in battle. If
+	it's wounded, its owner must make a saving throw against a target of 14
+	to keep it from fleeing or tossing its rider.
+	
+	\emph{For water vehicles, see \hyperref[ships]{ships}.}
+}
+
+\end{multicols}
+
+\newpage
+
+\section{Checks \& Saves}\label{checks-saves}
+
+\textbf{Checks} are a single roll against a target number, used to
+resolve situations with interesting stakes that would either be too
+tedious or difficult to describe, or involve a strong element of chance.
+Even if it comes down to a die roll, players will be rewarded for
+thinking the action through, and sometimes penalized for not. For
+example, if a player thinks to first apply some lamp oil to the chain
+and gearing responsible for raising a stuck gate, this would reduce the
+difficulty. Some checks are made in secret by the referee in cases where
+success or failure is not obvious to the character (like Listen, Search,
+or Stealth).
+
+\bigskip
+
+For \textbf{Ability Checks}, the player rolls 1d6 and adds the modifier
+of the ability being tested, along with any situational modifiers. If
+the result equals or exceeds a target number of 4, the check succeeds. A
+roll of a natural 1 always fails, and a roll of a natural 6 always
+succeeds, irrespective of modifiers.
+
+\bigskip
+
+For \textbf{Skill Checks}, the player rolls 1d6 and adds any situational
+modifiers. If the result equals or exceeds the character's Skill Target
+for the skill being tested, the check succeeds. Skills default to a
+target of 6, unless the character has a Skill improvement that indicates
+a lower target. A roll of natural 1 always fails, and a roll of a
+natural 6 always succeeds, irrespective of modifiers.
+
+\bigskip
+
+\textbf{Saving throws} or \textbf{saves} represent an attempt to resist
+a notable threat, such as magic, poison, or disease. A creature can
+always choose to fail a saving throw. The player rolls 1d20 and adds the
+modifier of any relevant ability score or situational modifiers. On a 14
+or higher, the save succeeds; the exception is saves for instant-death
+effects (known as ``death saves''); their default save is 11. A natural
+20 always saves, and a natural 1 always fails. See also
+\hyperref[item-saving-throws]{item saving throws}.
+
+\bigskip
+
+\textbf{Save Bonuses}: Characters gain a +1 save bonus for every 2 full
+Hit Dice they have.
+
+\vfill
+
+\begin{figure}[b]
+	\centering
+	\includegraphics[width=1\linewidth]{img/adventurers.jpg}
+	\label{fig:adventurers}
+\end{figure}
+
+\newpage
+
+\section{Combat}\label{combat}
+
+
+\subsection*{Surprise}\label{surprise}
+
+Each party unaware of the other's presence rolls to see if they're
+surprised. One player rolls for the party as a whole, and the referee
+rolls for each other side.
+
+The default chance of surprise is 4 in 12 (i.e., on a die roll of 4 or
+lower). Each roll applies to all the individuals on each side of a
+conflict; individuals may, however, adjust the die roll in their favor.
+
+If one side is hidden or has set up an ambush, the other side has a 6 in
+12 chance of being surprised.
+
+A character with a Perception modifier subtracts that modifier from the
+surprise threshold (i.e., a character with a +1 Per mod is surprised on
+a 3 or lower; a character with a -1 Per mod is surprised on a 5 or
+lower, etc.). A character with the Fieldcraft feat has a default chance
+of being surprised of 2 in 12 while in their chosen terrain. The minimum
+chance of being surprised is 1 in 12.
+
+For example, the player party's die roll is a ``3,'' indicating the
+party is surprised. However, the surprise occurs in a forest, a terrain
+for which one character has a Fieldcraft feat. That character is not
+surprised; while the rest of the party would be unable to act in the
+first round of combat, that character can act normally.
+
+\subsubsection*{Effects of Surprise}\label{effects-of-surprise}
+
+Surprise lasts one round. In that round, those that are surprised cannot
+take any actions. Attacks against surprised targets from behind also
+ignore any shield modifiers and raise the range for a critical hit by 4.
+Killing surprised foes might force a Morale check.
+
+\subsection*{Reactions}\label{reactions}
+
+Some encounters are essentially pre-determined due to the nature of the
+creatures or the encounter itself, and will end up in combat no matter
+what (e.g., intelligent undead and sentinels like golems will almost
+always attack).
+
+However, when any creatures are encountered, if their nature or the
+circumstances don't automatically dictate their behavior, the referee
+\emph{always} rolls to see how they react to the players \emph{before}
+actions are taken.
+
+If the players do not immediately attack, the referee rolls on the
+Reaction Table, applying -2 to the roll if the creatures encountered are
+Evil, and rerolling Hostile results if the creatures are Good:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{cc}
+    \toprule
+        2d6 & Behavior \\
+    \midrule
+        2 & Hostile \\
+        3-6 & Unfriendly (unintelligent: Hostile) \\
+        7-8 & Neutral/uncertain \\
+        9-11 & Unthreatening \\
+        12 & Actively helpful (unintelligent: Unthreatening) \\
+    \bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{Attacking}\label{attacking}
+
+To attack, the attacker rolls 1d20 and adds their attack bonus and all
+applicable modifiers. If the result equals or exceeds the target's
+Armour Class (AC), the attack hits. The most common attack modifiers
+are:
+
+\begin{itemize}
+\tightlist
+\item
+  Missile:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Dexterity modifier (does not apply to damage)
+  \item
+    Range: Short: no modifier, Medium: -1, Long: -2. Beyond Long range:
+    impossible.
+  \item
+    Target is prone: -2
+  \item
+    Low visibility (gloom, smoke, fog, etc.): -2
+  \item
+    Target has cover: -2 (half cover) or -4 (heavy cover)
+  \item
+    Firing from a moving or unsteady position: -4
+  \end{itemize}
+\item
+  Melee
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Strength modifier (also applies to damage)
+  \item
+    Dual wielding: +1
+  \item
+    Target is prone: +2
+  \end{itemize}
+\item
+  Attacker is striking from the rear: +2 and no shield bonus to AC
+\item
+  Target is surprised or attacker is invisible: +4 (replaces above)
+\item
+  Attacker is on a mount, target is upright: +1
+\item
+  Attacker cannot see target: -4
+\item
+  Attacker is fatigued: -2 (light) or -4 (heavy)
+\item
+  Attacker is using improvised weapon: -2
+\end{itemize}
+
+For PCs, a natural 20 is always a hit. The attack is also a critical
+hit, unless the attacker could only hit by rolling a natural 20. Melee
+and short-range missile attacks against sleeping, paralyzed, willing,
+and similar targets always hit and deal maximum damage. Such targets
+include PCs at 0hp.
+
+\paragraph{Damage}\label{damage}
+
+An attacker's Strength modifier is applied to melee and thrown weapon
+attack damage. Modifiers cannot drop a successful attack below 1 point
+of damage. A successful charge or set vs.~charge adds one weapon die to
+the attack. Attacks against helpless targets automatically deal maximum
+damage.
+
+A character who takes more than 11 hit points of damage in a single
+attack is dealt a serious \textbf{wound}, and will bleed an additional
+1hp of damage per round at the end of each melee phase. This scales
+linearly: 22 damage taken at once will bleed 2hp per round, etc. A bleed
+can be stopped with magical healing or using an action to bandage the
+wound (which requires bandages).
+
+An \textbf{unarmed strike} deals 1d2 damage (a critical hit does 4
+damage), plus the attacker's Strength modifier. Weapon dice do not
+apply.
+
+If a PC rolls a natural 20 on an attack, a \textbf{critical hit} is
+scored: the attack's weapon dice are treated as having rolled their
+maximum possible damage. However, you cannot score a critical hit if you
+can only hit by rolling a 20. The critical hit range is increased by 4
+for all attacks from behind against a surprised target.
+
+\subsection*{Combat Phases}\label{combat-phases}
+
+Each combat round is 10 seconds and has eight steps, taken in the
+following order:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Declarations:} Dodging/parrying \& guarding. Declaring spells,
+  charging \& fleeing.
+\item
+  \textbf{Missile:} Combatants with equipped missile weapons can attack.
+\item
+  \textbf{Initiative:} 1d6 is rolled by the referee: On a 1-3 the
+  monsters' side moves first. On a 4-6 the players' side moves first.
+  Only governs the movement phase; other phases happen simultaneously.
+\item
+  \textbf{Movement:} Characters not locked in melee can move.
+\item
+  \textbf{Melee:} Melee attacks and other actions
+\item
+  \textbf{Defensive Movement:} Characters locked in melee who haven't
+  yet moved can move.
+\item
+  \textbf{Magic:} Spells go off in order of spell Rank.
+\item
+  \textbf{Morale:} 2d6 for NPCs and monsters
+\end{itemize}
+
+A character can move and take one action. Any action can be delayed
+until the end of the combat round. One Medium or Large weapon can be
+freely drawn or stowed each round; a character can draw two Small
+weapons simultaneously.
+
+\subsubsection*{Declaration Phase}\label{declaration-phase}
+
+A character charging or fleeing must declare their intent to do so at
+this time, and a character casting a spell must pick the exact spell at
+this time. A fleeing character may take no actions.
+
+After declarations, certain actions can be taken this phase:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Parry/Dodge:} Gain +1 AC or +Str mod AC or +Dex mod AC,
+  whichever is higher.
+\item
+  \textbf{Guard:} Defend an adjacent ally, granting them +2 AC. A
+  character cannot benefit from multiple Guards. Ends if either
+  character moves away from the other, though both characters can move
+  together.
+\item
+  \textbf{Brace vs.~Charge:} Only possible with a pike, spiked polearm,
+  or spear, and if not prone or engaged in melee. A set combatant
+  attacks first against the first charge made against them and adds one
+  weapon die if the attack hits.
+\end{itemize}
+
+\subsubsection*{Missile Phase}\label{missile-phase}
+
+Missile attacks can be made if you are not locked in melee.
+
+Actions that can be taken this phase:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Attack:} Attack with a missile weapon. A second attack this
+  round can only be made if both attacks are made with small weapons,
+  and it incurs a -4 penalty to hit. A Marksman character can ignore
+  this penalty.
+\item
+  \textbf{Reload:} Reload a crossbow.
+\end{itemize}
+
+Other considerations:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Crossbows} can be loosed while kneeling or prone.
+\item
+  \textbf{Firing into Melee}: The attack roll is penalized by -2 for
+  each combatant in melee with the intended target (to a maximum penalty
+  of -6). A character with the Marksman feat ignores this penalty. On a
+  natural 1 attack roll, the missile hits a randomly determined
+  combatant in melee with the intended target, inflicting damage.
+\item
+  \textbf{Poor Conditions}: If in very windy conditions, or if the
+  target is above the attacker, long-range missile attacks cannot be
+  made. If both, medium-range missile attacks also cannot be made.
+\item
+  A \textbf{splash weapon} may be thrown on a hard surface instead of at
+  a creature; this is considered a missile attack vs AC 10. On a
+  success, all creatures within 5' of the targeted surface are splashed
+  with the liquid and, if it's harmful to them, suffer 1/4 normal damage
+  (rounded up).
+\item
+  When a \textbf{splash weapon misses}, the container smashes 10' from
+  the intended target in a random direction. Creatures within 5' of this
+  point are splashed with the liquid and, if it is harmful to them,
+  suffer 1/4 normal damage (rounded up).
+\end{itemize}
+
+\subsubsection*{Initiative Phase}\label{initiative-phase}
+
+1d6 is rolled by the referee: On a 1-3 the monsters' side moves first.
+On a 4-6 the players' side moves first.
+
+\subsubsection*{Movement Phase}\label{movement-phase}
+
+\begin{wrapfigure}[18]{r}{0.33\textwidth}
+	\flushright
+	\includegraphics[width=1\linewidth]{img/assassin.jpg}
+	\label{fig:assassin}
+\end{wrapfigure}
+
+Each combatant not locked in melee can move up to its combat speed,
+starting with the side that won initiative.
+
+Actions that can be taken this phase:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Charge:} Move at least 20' in a straight line and attack,
+  gaining +1 to hit and one additional damage die on a hit, but a -1 to
+  AC for the round. This uses both your action and movement for the
+  round.
+\item
+  \textbf{Drop Prone/Stand Up}
+\item
+  \textbf{Take Cover:} Hunker down behind cover for ``half cover'' (-2
+  penalty on incoming missile attacks). If this action is taken again
+  and it makes sense, ``full cover'' is granted (-4 penalty on incoming
+  missile attacks).
+\item
+  \textbf{Hide:} Use cover or concealment to become hidden. Requires a
+  successful Stealth check with a target of 6. Feats and abilities may
+  lower this target.
+\item
+  \textbf{Something cool:} Take a movement-related action of some sort
+  not on the list.
+\end{itemize}
+
+Other considerations:
+
+\begin{itemize}
+\tightlist
+\item
+  A character can \textbf{move through creatures} at that allow it and
+  aren't in a tight formation. This costs 10' of movement per 5' of
+  creatures moved through.
+\item
+  \textbf{Difficult Terrain} applies a x2 movement cost penalty.
+\item
+  \textbf{Holding Movement}: A combatant on the side that won initiative
+  can choose to move after the enemy in the round.
+\item
+  A combatant can move half speed while dragging a \textbf{grappled}
+  opponent or while \textbf{sneaking} to remain hidden.
+\item
+  A combatant can move 5' per round \textbf{crawling} while prone.
+\item
+  A character can \textbf{jump} up to 5' wide with a 10' run-up. For
+  longer jumps of up to 10', a Daunting (11+) Strength check is
+  required. This ends the combatant's movement for the round.
+\end{itemize}
+
+\paragraph{Locked in Melee}\label{locked-in-melee}
+
+A creature within 5 feet of one or more enemies (three or more if it has
+the Whirlwind feat) is \textbf{locked} in melee with those enemies.
+Combatants locked in melee cannot use missile weapons or leave their
+location until the defensive movement phase.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Blind} creatures can only lock opponents in melee if
+  surrounding them.
+\item
+  \textbf{Flight and Teleportation} allow one to leave melee without
+  penalty, even if surrounded.
+\item
+  \textbf{Invisible} creatures are not locked unless their melee
+  opponents can see them or otherwise fully ignore invisibility, or are
+  surrounding them.
+\item
+  \textbf{Prone} creatures cannot lock opponents in melee.
+\item
+  \textbf{Size}: A creature more than two sizes large than any of their
+  melee opponents is not locked, even if surrounded.
+\end{itemize}
+
+\subsubsection*{Melee Phase}\label{melee-phase}
+
+Actions that can be taken this phase:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Attack:} Strike with a weapon, making an attack roll to hit.
+\item
+  \textbf{Trip/Grapple/Push/Escape:} The attacker makes a melee attack
+  roll with a -4 penalty. If successful, the defender must succeed on a
+  saving throw. If the save fails, the defender is knocked prone, held
+  by the attacker (who must have a free hand to do so), or pushed 5',
+  respectively. Escape as an action allows for a saving throw to escape
+  being grappled or immobilized. Special attacks like these happen
+  before regular weapon attacks.
+\item
+  \textbf{Use Item:} Use a magic item, drink a potion, etc.
+\item
+  \textbf{First Aid:} Attempt to bind a wound or stabilize a dying
+  companion.
+\item
+  \textbf{Something cool:} Take an action of some sort not on the list.
+\end{itemize}
+
+\begin{wrapfigure}[12]{l}{0.30\textwidth}
+	\flushleft
+	\includegraphics[width=1\linewidth]{img/warriors.jpg}
+	\label{fig:warriors}
+\end{wrapfigure}
+
+\paragraph{}
+
+Other considerations:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Polearms} (spears, pikes, etc.) in the second rank of a battle
+  formation can melee attack by reaching through the first rank.
+\item
+  \textbf{Spacing \& the Second Rank:} Only daggers, shortswords,
+  spears, and polearms can be used three-abreast in a 10' area. All
+  other one-handed weapons require five feet of room (two-abreast in a
+  10' area), and non-thrusting two-handed weapons require a full 10'
+  space to wield.
+\item
+  \textbf{Attacks vs Fleeing Enemies} gain a +2 bonus to hit and ignore
+  the defender's shield bonus to AC.
+\end{itemize}
+
+
+
+\subsubsection*{Defensive Movement}\label{defensive-movement}
+
+Each combatant that is locked in melee and has not yet moved this round
+can move up to half its movement speed, starting with the side that won
+initiative. A character that declared its intent to flee must do so now,
+moving its full movement speed.
+
+\newpage
+
+\subsubsection*{Magic Phase}\label{magic-phase}
+
+If a caster wants to cancel a spell they're casting that hasn't been
+disrupted by having been attacked or otherwise interrupted, they must do
+so before any spells are resolved. The spell is not lost.
+
+After spells are canceled, spells still being cast are revealed and cast
+in the order of their \textbf{casting time}, which is equal to their
+spell Rank, unless stated otherwise. Spells with the same casting time
+are cast simultaneously, unless stated otherwise. For each instance of
+the Quickcast feat that they have, a mage reduces their spells' casting
+times by 1. Other feats raise a spell's Rank, raising its casting time
+to match. Spells cast from scrolls add 2 to their casting time.
+
+\subsubsection*{Morale Phase}\label{morale-phase}
+
+If a battle is going against them, combatants may decide to retreat,
+flee, or surrender. Players always make this decision for their
+characters, but the referee may roll to determine if monsters or other
+NPCs break morale.
+
+\textbf{Morale Checks:} Roll 2d6 for a given side. If the result exceeds
+the combatant's Morale, their morale breaks and they try to flee or
+surrender in the next round. Otherwise, they keep fighting.
+
+\textbf{When to check:}
+
+\begin{itemize}
+\tightlist
+\item
+  The first time a combatant on that side has been killed, and when half
+  the side has been killed.
+\item
+  For a creature encountered alone, when first harmed and when at 1/4 or
+  less of its full Hit Point total.
+\end{itemize}
+
+If a side makes two successful Morale checks in an encounter, they will
+fight to the death, with no further checks necessary.
+
+\textbf{Modifiers:} Light fatigue gives -1 to Morale checks; heavy
+fatigue gives -2. Other situational modifiers may apply.
+
+\subsection*{Escaping an Encounter}\label{escaping-an-encounter}
+
+If a side has none of its members locked in melee after the movement of
+that side in either movement phase has been resolved (whether or not the
+other side has moved yet), that side can choose to try to escape the
+encounter.
+
+If the enemy follows, \textbf{pursuit checks} are made. The referee
+rolls 1d12 for each group of enemies with a different combat speed,
+while the players roll 1d12 for their entire party. Apply any relevant
+modifiers. If only some of the PCs have modifiers, only those PCs apply
+them, giving them a result different from their base party result.
+
+
+
+
+\textbf{Faster Side} assumes that side can use their full speed, which
+isn't a given. \textbf{Hindered Senses} usually involves difficulties
+using one's primary tracking sense. Hunting dogs compensate for some of
+these instances.
+
+Each individual in a pursuit has one \textbf{pursuit action} each
+pursuit round. However, neither mapping nor spellcasting can occur.
+
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Dropping Items}: Any pursued as their action can drop items to
+  apply a bonus to their side's pursuit check. Dropping desirable items
+  like food or treasure can be effective, but this depends on how the
+  pursuers view what is dropped, how much is dropped, and how many
+  pursuers there are compared to what is dropped; the referee must
+  arbitrate this. If enough food is dropped \& desired, durable food
+  (+2) is always less effective than fresh food (+4).
+\item
+  \textbf{Missile Attacks}: After each pursuit check, if the pursuit is
+  not over, then missile attacks can be made by those who have not used
+  their action. Assume a range of 20'.
+\end{itemize}
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+		Fleeing Side & Modifier \\
+		\midrule
+		Is faster & +1 per 5' of combat speed faster \\
+		Is invisible & Auto escape \\
+		Drops caltrops or flaming oil & +4 \\
+		Drops desirable items (food/treasure) & +2 or +4 \\
+		Is lightly fatigued & -2 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+		Pursuing Side & Modifier \\
+		\midrule
+		Is faster & +1 per 5' of combat speed faster \\
+		Has senses hindered & -4 \\
+		Is lightly fatigued & -2 \\	
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+
+
+\subsubsection*{Ending Pursuit}\label{ending-pursuit}
+
+A side automatically wins if they are either six points of modifiers or
+more ahead of all their opponents, or score a higher result than the
+other side twice in a row.
+
+If the pursuers catch the fleeing side, a new combat round begins in the
+Melee Phase, with the two sides locked in melee, positioning and so on
+to be determined by the referee.
+
+
+
+\subsection*{Death}\label{death}
+
+\begin{wrapfigure}[17]{r}{0.39\textwidth}
+	\flushright
+	\includegraphics[width=1\linewidth]{img/deadwarrior.jpg}
+	\label{fig:deadwarrior}
+\end{wrapfigure}
+
+When a player character's hit points reach 0, the character is
+unconscious and must make a Constitution 11 saving throw. On a failure,
+the character dies. On a success, the character will die in 1d4 rounds,
+rolled in secret by the referee, unless magically healed or aided by
+another player character. Each PC may attempt to aid once, requiring a
+successful First Aid skill check (default Skill Target of 6); if the
+aiding PC uses proper bandages, the check's target is lowered by 1.
+Other modifiers may apply.
+
+Even after returning to 1 or more hp, the character will remain in a
+coma for 1d6 turns and must rest for a minimum of one week before
+resuming any sort of strenuous activity, mental or physical. Magical
+healing that returns characters to consciousness does not incur these
+penalties.
+
+Characters who are slain may be raised from the dead if a Mage of
+sufficient Level is available to perform the casting. Each time a
+character is brought back from the dead, their Constitution score is
+reduced by one point.
+
+
+
+\newpage
+
+\section{General Adventuring}\label{general-adventuring}
+
+\subsection*{Climbing}\label{climbing}
+
+
+No roll is required for simple climbs, like a basic rope or tree. A more
+difficult climb might require a Dexterity ability check. If the check
+fails, the character falls at the halfway point (see
+\hyperref[falling]{falling}).
+
+\begin{wrapfigure}[5]{r}{0.2\textwidth}
+	\includegraphics[width=1\linewidth]{img/grapplinghook.jpg}
+	\label{fig:deadwarrior}
+\end{wrapfigure}
+
+Base climbing speed is 5' per round. Add 5' if the climber has the
+Climbing skill or is using rope (not cumulative).
+
+The following each add a -1 penalty to the ability check: high winds,
+extreme cold, smooth surfaces, slippery surfaces, each encumbrance
+level. The aid of appropriate equipment--a rope and grapnel, or pitons
+and a hammer--will add a +1 bonus to the ability check.
+
+\subsection*{Doors}\label{doors}
+
+\subsubsection*{Listening at Doors}\label{listening-at-doors}
+
+Most doors do not block obvious, loud noises, but characters may attempt
+to detect the presence of monsters waiting quietly beyond a closed door
+by pressing an ear against it to listen. The referee then rolls a secret
+Perception check.
+
+Each listening attempt takes 1 Turn. Up to two characters can
+simultaneously listen at a typical door, and a check is made for each.
+Characters can listen at the same door as often as they wish, each
+attempt requiring an additional Turn.
+
+\subsubsection*{Spotting Secret Doors}\label{spotting-secret-doors}
+
+Requires a Perception ability check, with the difficulty based on how
+well-concealed the door is. During cautious exploration, this is a group
+check made automatically by the referee in secret with a -2 penalty for
+each secret door within 10'.
+
+A character can also actively search a 10' square area for secret doors.
+This takes one turn; more than one person cannot search the same area at
+the same time.
+
+Finding a secret door does not necessarily reveal how it opens.
+Describing narratively how one is searching might bypass the Perception
+check if the searching technique would logically reveal the door.
+
+\subsubsection*{Stuck Doors}\label{stuck-doors}
+
+Upon discovering that a door is stuck, a character may attempt a
+Strength check to pull the door open as swiftly and quietly as possible.
+Only the strongest character in the party may attempt (representing the
+party's best efforts). On a failure, the party may decide to work with
+crowbars or other tools to wrench the door open anyway. This takes a
+Turn and will trigger a wandering monster check.
+
+Locked doors need keys, thieves' tools and someone trained in
+lockpicking, or a battering ram (or axes). Any failed attempt to open a
+stuck or locked door will alert any creature(s) on the other side of the
+door to the party's presence.
+
+You should also know: Doors tend to close on their own. Iron spikes are
+invaluable for keeping doors open or closed (it takes a round and some
+noise to hammer a spike in).
+
+\newpage
+
+\subsection*{Dungeon Random Encounters}\label{dungeon-random-encounters}
+
+Random encounters occur in almost all dungeon areas. These are typically
+monsters inclined to hostility (you're in their home) and with no
+treasure (it's back in their bedroom). To make a check, the referee
+rolls 1d6 at the end of the appropriate turn: on a 1, an encounter
+occurs.
+
+If an area doesn't have a preset encounter rate, how often the referee
+checks to see if a random encounter occurs varies, based on the nature
+of the area being explored:
+
+\begin{itemize}
+\tightlist
+\item
+  Organized defenders, alert sounded: every turn
+\item
+  Organized defenders, no alert sounded: every 2 turns
+\item
+  No organized defenders: every 3 turns
+\end{itemize}
+
+Even if players hide somewhere (e.g.~a disused storeroom), the encounter
+roll is still made. Only if the hiding place is exceptional are
+encounter checks avoided.
+
+\textbf{Noisy}: If the party makes an unusual amount of noise while
+exploring (yelling, spiking a door; combats do not count), their next
+encounter check is made at -4, and the party cannot surprise creatures
+so encountered except via unusual means.
+
+\subsection*{Equipment Wear \& Tear}\label{equipment-wear-tear}
+
+Equipment can be worn down! Every object has five levels of decay: new,
+used, worn, shabby, and ruined. (You can indicate this simply by adding
+a (n) next to new items when you first acquire them, erasing and
+replacing as things change.) Used, worn, and shabby items still function
+just as well as their new counterparts; they're just more prone to
+breaking at the most inopportune moments.
+
+Objects are subject to a decay roll after:
+
+\begin{itemize}
+\tightlist
+\item
+  One month of normal use, in normal conditions
+\item
+  Three days of wilderness use
+\item
+  One day of dungeon use
+\item
+  Armour: Receiving a natural-20 hit
+\item
+  Weapons: Rolling a natural 1 to hit
+\item
+  Food: Every day, fresh food decays one level automatically, and then
+  roll as usual.
+\end{itemize}
+
+Objects that are expressly protected (e.g., a scroll in a scrollcase, or
+a spellbook in a metal box, etc.) are exempt. Thoughtful storage can
+reduce wear \& tear!
+
+Objects degrade as follows:
+
+\begin{itemize}
+\tightlist
+\item
+  A new object becomes used if a 1 in 4 is rolled. Under stress, a new
+  object breaks on a 1 in 100.
+\item
+  A used object becomes worn on a 1 in 20. Under stress, it breaks on a
+  1 in 50.
+\item
+  A worn object becomes shabby on a 1 in 12. Under stress, it breaks on
+  a 1 in 20.
+\item
+  A shabby object becomes ruined on a 1 in 8. Under stress, it braks on
+  a 1 in 6.
+\end{itemize}
+
+Magical items and ``sturdy'' items roll two of the appropriate dice,
+only degrading if two 1s are rolled.
+
+You can purchase objects that aren't necessarily new for less money. New
+items cost 100\% of list price, used cost 80\% of list price, worn cost
+60\%, and shabby cost 40\%. Likewise, you can sell such objects to
+merchants for half that price: 50\% new, 40\% used, 30\% worn, and 20\%
+shabby.
+
+\subsubsection*{Repairing Items}\label{repairing-items}
+
+Weapons and armour can be repaired by an appropriate craftsman, costing
+10\% of the item's original base price to bring it from worn to used,
+and 20\% of its original base price to bring it from shabby to worn
+(i.e., 30\% to go from shabby to used), plus 1d6 days per step of
+repair.
+
+\subsubsection*{Alternative System}\label{alternative-system}
+
+Simply track when something breaks, without tracking the intermediate
+steps. At the above intervals, instead of making a regular decay roll,
+roll 2d6. If two 1s are rolled, the item is ruined or broken, and must
+be replaced. Magic items and ``sturdy'' items roll 1d100 + 1d6, and
+break if a 1 is showing on both dice (i.e. a 00, 1, and 1). Using this
+alternative system is simpler, but tracking more minutely has the
+benefit of knowing when things are getting close to breaking, plus a
+slight mathematical edge (tracking intervals gives you on average 44
+checks until breakage, vs 36 simplified, or 624 vs 600 checks on a magic
+or sturdy item).
+
+\subsection*{Experience \& Leveling}\label{experience-leveling}
+
+You gain experience in three ways:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  You gain experience primarily through recovering treasure: 1f.
+  recovered = 1XP (so 4XP per 1d. recovered).
+\item
+  You gain experience for killing monsters.
+\item
+  You gain experience by performing Feats of Exploration.
+\end{enumerate}
+
+Experience gained from treasure and killing monsters is divided equally
+among all characters of the party, including retainers (who then apply a
+50\% penalty before adding it to their totals). Experience gained from
+Feats of Exploration is divided equally among player characters only.
+
+\subsubsection*{Feats of Exploration}\label{feats-of-exploration}
+
+Each feat performed grants 2\% of the Total XP Needed by the party to
+advance from the start of their current Level to the start of their next
+Level. For example, the Total XP Needed of a party of four 2nd-Level
+characters is 8,000 (4,000 for 3rd Level minus 2,000 for 2nd Level,
+times four); each Feat performed will grant 160 XP to the party.
+
+Feats include:
+
+\begin{itemize}
+\tightlist
+\item
+  Complete a quest
+\item
+  Enter and rest in a new settlement
+\item
+  Enter an unexplored hex for the first time
+\item
+  Explore and map five rooms of a dungeon
+\item
+  Discover and interact with all features of a single hex (grants double
+  reward)
+\end{itemize}
+
+\newpage
+
+\subsubsection*{XP Advancement Table}\label{xp-advancement-table}
+
+The table below indicates what a character's XP total needs to reach to
+advance to each Level:
+
+\begin{longtable}[]{@{}cccc@{}}
+\toprule\noalign{}
+Level & Total XP & Warrior Hit Dice & Mage Hit Dice \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & 0 & 1d8 & 1d6 \\
+2 & 2,000 & 2d8 & 2d6 \\
+3 & 4,000 & 3d8 & 3d6 \\
+4 & 8,000 & 4d8 & 4d6 \\
+5 & 16,000 & 5d8 & 5d6 \\
+6 & 32,000 & 6d8 & 6d6 \\
+7 & 64,000 & 7d8 & 7d6 \\
+8 & 128,000 & 8d8 & 8d6 \\
+9 & 260,000 & 9d8 & 9d6 \\
+10 & 380,000 & 9d8+2 & 9d6+2 \\
+\end{longtable}
+
+Each Level beyond 10 requires an additional 120,000 XP and adds only a
+flat 2HP per Level, with no Con modifier being applied.
+
+\subsection*{Falling}\label{falling}
+
+Damage from falling is determined as follows: Falls of less than 5 ft do
+no damage in game terms, falls of up to 10 ft cause 1d6 damage, falls of
+up to 20 ft cause 3d6 damage, falls of up to 30 ft cause 6d6, 40 ft is
+10d6, 50 ft is 15d6, and falls of over 50 ft cause 20d6 points of
+damage.
+
+\subsection*{Fatigue}\label{fatigue}
+
+Fatigue represents a serious depletion of body, mind, or spirit.
+
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+			Fatigue Level & Effect \\
+		\midrule
+			Light & -1 to attacks, checks, and Morale checks \\
+			Heavy & -2 to attacks, checks, and Morale checks, -10 Speed \\
+			Exhaustion & -4 to attacks, checks, and Morale checks, halve HP, -20
+			Speed \\
+			\bottomrule
+	\end{tabular}
+\end{table}
+
+Possession four or more levels of fatigue results in death. Fatigue
+levels from different sources stack.
+
+A character exposed to any of the causes of fatigue below gains one
+fatigue level at the increments listed next to each cause (e.g.~every
+full day without water applies one level).
+
+\begin{longtable}[]{@{}cc@{}}
+\toprule\noalign{}
+Cause of Fatigue & Fatigue Level Increments \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Lack of water & Days 1/2/3/4 \\
+Lack of sleep & Days 1/4/8/--* \\
+Lack of food & Days 2/10/20/30 \\
+\end{longtable}
+
+*A lack of sleep can only apply up to three fatigue levels, i.e.~it
+cannot kill you alone.
+
+Per positive Con modifier point, a character can ignore one day of a
+lack of water, sleep, and/or food.
+
+If total exposure to a cause of fatigue is avoided (e.g.~a bit of water
+drank, a fitful nap here or there), the current fatigue level increment
+is doubled.
+
+A character can remove one level of fatigue for every good night's rest
+obtained, assuming all other causes of fatigue are also resolved.
+
+\subsection*{Healing}\label{healing}
+
+A character will recover 1 HP by resting overnight in a safe and
+comfortable location, assuming a meal of poor quality or trail food has
+been eaten. A character who dines on common food will recover 2 HP
+overnight, and a character who dines on fancy food will recover 3 HP
+overnight. A character will heal HP equal to their Level per day of
+uninterrupted rest. Even while adventuring, a character might get a
+comfortable night's rest (see \hyperref[rest-checks]{Wilderness
+Exploration \textgreater{} Rest Checks}) and naturally heal HP. 30 days
+of rest will return any character to full HP.
+
+\subsection*{Item Saving Throws}\label{item-saving-throws}
+
+Generally, only creatures make saving throws. However, some items are
+especially fragile, and some rare effects (like area-effect attacks or
+puddings/oozes) specifically target objects. A failed item save results
+in the item's destruction, while a successful save results in no damage
+or effect. If a creature must make a saving throw and it passes, no item
+carried by that creature needs to make a save unless the effect
+specifies otherwise.
+
+\textbf{Fragile items} can be almost anything (not including weapons,
+armour, or typical adventuring gear), but most notably include potions,
+scrolls, and wands that are equipped (kept close at hand, so that
+they're usable in combat without requiring an action to draw). The price
+of having such useful items at hand for immediate use is that they're
+vulnerable to destruction. For example, a potion in a backpack is not
+available for drinking in combat without spending a round to rummage
+around for it, but at the same time, if its owner is hit by a fireball,
+the potion is safe. Fragile items are the exception rather than the
+rule, and tend to be consumable, creating a risk to their use.
+
+The following are examples of times when an item saving throw may be
+required. The items use the character's Save Target to survive unless
+specified otherwise:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Area-effect Attacks}: Affect any item that's both fragile and
+  equipped.
+\item
+  \textbf{Bashing Containers}: Potions in a container have a Save Target
+  of 14, while scrolls, wands, and gemstones have a Save Target of 11.
+\item
+  \textbf{Disintegration}: Affects all equipped items, fragile or not.
+  Save Target of 17, or 14 if the item is magical.
+\item
+  \textbf{Falls}: Affect carried potions (equipped or not), requires a
+  fall of at least 20' onto a hard surface. -1 penalty to the roll for
+  each additional full 10' fallen over 20'.
+\item
+  \textbf{Magic Items}: Any that provide magic attack, save, or AC
+  bonuses apply this modifier to any save such items are forced to make.
+\item
+  \textbf{Shields}: If used to provide a save bonus against a breath
+  weapon attack, and the shield's wielder fails their save, the shield
+  must save as well.
+\item
+  \textbf{Water}: Affects paper and parchment. Save Target 20. Standard
+  spellbooks (with vellum pages and magical inks) and scrolls in scroll
+  cases always pass their save.
+\end{itemize}
+
+\subsection*{Jumping}\label{jumping}
+
+\textbf{Long jumps}: Characters can jump across a stream, chasm, or pit
+of up to 5' wide with a 10' run-up--no roll is required. For longer
+jumps of up to 10', a Strength check is required. In combat, a jump ends
+your move.
+
+\textbf{High jumps}: Characters can jump over obstacles of up to 3' high
+with a 10' run-up--no roll is required. For higher jumps of up to 5', a
+Strength check is required.
+
+\textbf{Modifiers}: +1 if the character has the Jumping skill, -1 if
+wearing Medium armour, -2 if wearing Heavy armour.
+
+\subsection*{Light \& Vision}\label{light-vision}
+
+Wise characters carry illumination--magical or mundane--when exploring
+at night or underground. Typical light sources enable normal vision
+within a particular radius. A party needs one light source for
+approximately every three members of the party.
+
+Note that light sources can be seen from much further away than the
+illumination they shed for those holding them. Approaching light will
+warn intelligent creatures of the approach of surface-dwellers, perhaps
+giving them a chance to prepare; creatures around a corner can see a
+light source whose radius projects around that corner, while two corners
+between prevent its detection.
+
+\textbf{Low light}: In low light conditions (e.g.~at night without a
+light source, or if a party has insufficient light sources), characters
+suffer a -2 penalty to attack rolls and move at half speed.
+
+\begin{wrapfigure}[11]{r}{0.3\textwidth}
+	\includegraphics[width=1\linewidth]{img/pickinglock.jpg}
+	\label{fig:pickinglock}
+\end{wrapfigure}
+
+\textbf{Pitch darkness or blindness}: Characters in pitch darkness or
+blindness suffer a -4 penalty to attack rolls, armor class, and saving
+throws, and have Speed 10. A character with the Blindfighting skill
+would not suffer the penalties while in combat.
+
+\subsection*{Lockpicking}\label{lockpicking}
+
+Characters with the proper tools and either the Lockpicking Skill or
+Feat can attempt to pick locks.
+
+A lockpicking attempt requires 1 Turn. If a character fails, they can
+try again, but after two failed attempts, the character cannot try that
+lock again until they gain a Level.
+
+\subsubsection*{Trapped Locks}\label{trapped-locks}
+
+Noticing a trap on a lock requires a successful Perception ability check
+(having the Lockpicking Feat adds +1 to the check). Only an active
+search for traps can reveal such traps without triggering them. In the
+case of multiple traps on a single lock, the referee will roll a
+separate Perception check for each trap.
+
+A successful lockpicking attempt disarms all detected traps in addition
+to opening the lock, but undetected traps will be set off automatically
+before any lockpicking roll is made, unless specified otherwise.
+
+\newpage
+
+
+
+\subsection*{Moving Silently}\label{moving-silently}
+
+Anyone can attempt to sneak. A roll is called for when attempting
+movement that normally attracts attention, such as slipping past a
+guard, or maneuvering behind a target for a surprise attack.
+
+When attempting to sneak up on or past a creature, a Surprise Roll is
+made each round, adding the sneaking party's Dexterity modifier. If the
+roll indicates Surprise, the sneaking party may move for 1 Round without
+being detected. Otherwise, the sneaking party is spotted. If the
+Surprise Roll indicates that the sneaking character has been detected,
+that character may make a Stealth Skill Check to remain undetected.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Alert Enemies}: The attention of most intelligent undead
+  (e.g., skeletons, zombies) and constructs (e.g.~golems) never wavers.
+  As such, sneaking checks against them incur a -1 penalty on both the
+  Surprise and the Stealth rolls.
+\item
+  \textbf{Armour}: Wearing non-magical medium or heavy armour incurs a
+  -1 penalty on both the Surprise and the Stealth rolls.
+\item
+  \textbf{Surprise}: Moving silently can be used to set up surprise
+  attacks.
+\end{itemize}
+
+\subsection*{Perception Checks}\label{perception-checks}
+
+Perception checks are Ability Checks always made in secret by the
+referee. There's no requirement for players to constantly state that
+they're doing basic investigative tasks that are repetitive and/or
+obvious, like ``I'm looking at the floor'' or ``I'm listening for
+noises.'' The slow pace of cautious exploration accounts for these.
+
+However, sometimes a scenario involves something unusually subtle or a
+creature has the abilities or has taken the effort to evade typical
+scrutiny, and calling out a specific action might be required (e.g.,
+searching a lock for poison needles before attempting to pick it, or
+searching a section of wall for a secret door).
+
+Overall, checks aren't made just to use one's eyes or ears or otherwise
+notice the obvious. A Perception check only occurs when the rules call
+for one (e.g. looking for traps or secret doors), or if the referee
+decides one is needed.
+
+For a group Perception check, the referee applies the group's average
+Per modifier, if any, rounding normally.
+
+\subsection*{Player Roles}\label{player-roles}
+
+To ensure the game runs smoothly, it can be helpful to assign certain
+important roles to individual players. Player roles may be assigned on a
+permanent basis, if players wish, or may be rotated between sessions.
+
+\subsubsection*{Caller}\label{caller}
+
+The Caller serves as group spokesperson, responsible for informing the
+referee about the actions and movements of the party as a whole.
+Delegating this role to one player--rather than having each player
+informing the referee about their PC's individual actions--can speed up
+play, especially with large groups.
+
+\textbf{Party leader}: The caller's character usually takes on the role
+of party leader.
+
+\textbf{Switching caller}: The designation of caller can change during
+player. For example, the character addressing monsters in an encounter
+may become the \emph{de facto} caller for that encounter.
+
+\subsubsection*{Chronicler}\label{chronicler}
+
+The Chronicler makes notes on the party's adventures, including monsters
+and NPCs encountered, battles fought, clues discovered, and mysteries to
+be unravelled. The chronicle is an invaluable tool for recalling
+previous events, especially when some time has passed between sessions.
+In longer campaigns, chroniclers record the collective memory of the
+party's epic adventures.
+\begin{wrapfigure}[14]{l}{0.3\textwidth}
+	\includegraphics[width=1\linewidth]{img/cartography.jpg}
+	\label{fig:cartography}
+\end{wrapfigure}
+
+\subsubsection*{Mapper}\label{mapper}
+
+The party Mapper creates maps of the areas explored based on the
+referee's descriptions. Details such as monsters or traps encountered,
+clues to puzzles, or interesting unexplored areas to which the party
+wishes to return may be noted on the map as it is drawn.
+
+Maps are usually best made simply: boxes and lines are usually
+sufficient to keep you from getting lost.
+
+\textbf{Lost maps}: Maps are treated as in-game items, created by and in
+the possession of a specific character (who must have a quill, ink, and
+paper). Maps must be treated with great care, in order to prevent loss
+or damage in case harm should come to the character carrying them; a map
+actively being made is a fragile item (see
+\hyperref[item-saving-throws]{item saving throws}).
+
+\subsubsection*{Quartermaster}\label{quartermaster}
+
+The Quartermaster keeps track of the party's accounts, tracking shared
+provisions, light sources, retainers, animals, and treasure.
+
+\subsection*{Retainers}\label{retainers}
+
+\begin{multicols}{2}
+
+A party can hire a number of retainers equal to 4 + (the highest-Level
+party member's Level divided by 2). For example, a party with a
+3rd-Level character could hire 5 retainers, but a party with a 4th-Level
+character could hire 6 retainers.
+
+Potential retainers may be located by frequenting inns and pubs or by
+paying to post notices of help wanted.
+
+\textbf{Frequenting inns and pubs:} Spending a night buying rounds and
+greasing palms in drinking establishments costs 50d; . Per attempt,
+there is a 3-in-6 chance of successfully locating applicants.
+
+\textbf{Posting notices of help wanted:} Spending a day posting notices
+in public places costs 25d, this cost can be doubled to request a
+certain class or abilities. Per attempt, there is a 2-in-6 chance of
+successfully locating applicants, who apply at the specified location
+1d4 days later.
+
+\textbf{Specific Requests}: Requesting a certain class or ability
+increases the cost of recruitment in both time and money. Each
+additional class, ability, known spell, or skill requested doubles the
+recruitment cost and time taken to find applicants. For example, to post
+a help wanted notice for an adventurer who can cast Cure Light Wounds
+and pick locks would cost 100d., and it would take 4d4 days before an
+applicant shows up who fits the requirements.
+
+When a general search succeeds, roll on the following table:
+
+\begin{longtable}[]{@{}ccc@{}}
+\toprule\noalign{}
+Settlement Size & Townsfolk & Adventurers \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Hamlet & 1d2 & -- \\
+Village (VI) & 1d4 & 1 \\
+Small Town (IV-V) & 1d6 & 1d3 \\
+Large Town (III) & 2d4 & 1d4 \\
+City (I-II) & 2d6 & 1d6 \\
+\end{longtable}
+
+Townsfolk are everyday folk without a Class willing to join an
+adventuring party. Usually used as torchbearers or porters, they come
+with no equipment and have 1d4 HP and a Loyalty of 6.
+
+Adventurers are individual adventurers of a specific Class willing to
+join an adventuring party. They will be Level 1d3, but cannot be higher
+than the hiring PC's Level. They start at a Loyalty of 7 and come with
+the same basic adventuring gear as PCs, but no starting silver.
+Equipment purchased by the hiring PC is kept by the PC. No skills are
+included unless paid for as part of the recruitment cost (but can be
+chosen if a player ends up playing the retainer as a replacement for a
+lost PC, for example).
+
+Once an applicant has been located, the hiring PC must explain what the
+job entails and offer a certain wage. Townsfolk expect a daily rate of
+pay, depending on the job being done (see
+\hyperref[hirelings]{hirelings}) while adventurers ask for a share of
+any treasure recovered, usually a half share.
+
+The applicant's reaction to the offer is determined by rolling on the
+Offer Reaction Table below--applying modifiers based on party
+reputation, the mission description, or lavish or miserly rates of pay
+if desired:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.5\columnwidth]{img/knifefighter.jpg}
+	\label{fig:knifefighter}
+\end{figure}
+
+
+\newcolumn
+
+\begin{table}[H]
+	\centering
+		\begin{tabular}{cc}
+			\toprule
+				2d6 & Reaction to Offer \\
+			\midrule
+				2 & Hostilely declines* \\
+				3-5 & Declines \\
+				6-11 & Accepts \\
+				12 & Eagerly accepts** \\
+			\bottomrule
+		\end{tabular}
+\end{table}
+
+\footnotesize{* The reaction is so bad that the applicant spreads negative rumors about the PC and/or party, resulting in a -2 on further hiring rolls on this table if the PC and/or party attempt further recruitment in this
+area.
+
+** Permanent +1 bonus to the retainer's Loyalty.}
+
+\paragraph{}
+
+\normalsize Loyalty is checked with a Morale roll after each adventure, if the
+retainer is reduced to 1/4 or less of its full HP total, or if their
+loyalty is severely tested. If a success is rolled, the retainer's
+Morale increases by one to a maximum of 10 (though a retainer who
+eagerly accepted employment can go up to Loyalty 11). On a failure, the
+retainer departs. If a retainer dies while in your service, your
+character is expected to pay the retainer's family a weregild of 100d.
+or its equivalent.
+
+Starting armour is based on class. Mages start with no armour;
+battlemages start with Leather armour; Warriors roll 1d6:
+
+\begin{itemize}
+\tightlist
+\item
+  1-2=Leather (AC 12)
+\item
+  3-4=Ring (AC 13)
+\item
+  5=Scale (AC 14)
+\item
+  6=Chainmail (AC 15)
+\end{itemize}
+
+Roll 1d4 to determine the retainer's starting weapon:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  One medium melee weapon \& a shield
+\item
+  One large weapon
+\item
+  Two small one-handed weapons (+1 to hit)
+\item
+  One medium melee weapon \& one ranged weapon (plus ammo)
+\end{enumerate}
+
+Roll 1d6 on the list of \hyperref[quick-packs]{quick packs} to determine
+the retainer's starting equipment.
+
+\end{multicols}
+
+\newpage
+
+\subsection*{Sailing}\label{sailing}
+
+Sea travel usually involves an individually owned vessel or a charter.
+Scheduled services are rarely available. Passengers must make inquiries
+at harborside, and pay for passage on a ship heading to their intended
+destination, or perhaps to some port along the way.
+
+For game purposes, most trade occurs between important ports, separated
+by one week of sailing time. Ships typically spend one week in port
+off-loading and on-loading cargo, finding passengers, and perhaps
+engaging in a little recreation. Sailing to an intended destination is
+called a \emph{voyage}, and each trip to a port on the way is called a
+\emph{leg}. A voyage may have only one leg, or it may have several.
+
+\textbf{Passengers}: While cargo is another matter entirely, there are
+two types of passengers: deck passengers and cabin passengers.
+
+\emph{Deck passengers} pay a 20d. fee per leg to sleep on the deck with
+the rest of the crew. They provide their own food, or buy it from the
+crew. The wealthy can travel as \emph{cabin passengers} for 200d. per
+leg, and take a cabin. Most ships have one or perhaps two cabins, for
+the captain and the windcaster. Larger ships may have additional cabins
+for the owner and their family to use if aboard, and cabin passengers
+usually use these extra cabins for their accommodation. They also must
+provide their own food. \emph{Working passage} can be secured if the
+captain has a crew shortage; instead of paying wages, the captain
+provides passage. This usually does not continue for more than three
+legs of a voyage, or the individual is considered to be hired for
+standard salary.
+
+\textbf{Ship Crew}: A merchant ship will have both an owner and a
+captain (who may or may not be the same person), a helmsman, navigator,
+merchants on board, sailors, and rowers. Many positions can be taken by
+the same person.
+
+\textbf{Navigation}: Compasses and astrolabes help sailors find their
+way, but advanced tools like sextants do not exist. Navigators try to
+keep the coast in sight at all times, looking out for landmarks along
+the route. At night, the ship pulls up on a beach or into a bay where it
+can shelter for the night, the crew camping on the beach. When storms
+threaten, ships likewise head for the safety of land. Some of the larger
+ports have lighthouses, guiding ships toward them rather than warning of
+dangerous reefs. Crossing the deep sea is a dangerous thing--here be
+monsters, and the tales are all true.
+
+Once a ship has left port, it will be at sea for usually a week. The
+navigator makes a roll to successfully chart a safe course for the
+vessel, creating a dice result that the helmsman may have to then
+overcome with his pilot skill.
+
+Navigator's Result: 1d6 + navigator's Navigation (Nautical) Skill Target
+
+Next, the referee rolls 1d6 for that leg of the journey to determine any
+potential hazard. If a hazard occurs, the helmsman must avoid the hazard
+by rolling equal to or over the navigator's result on 2d6. He may add (6
+- his Ship Piloting Skill Target) as a positive modifier.
+
+\begin{longtable}[]{@{}cl@{}}
+\toprule\noalign{}
+Die & Type of Hazard \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+1 & \textbf{Reef}. Roll for damage +1. \\
+2 & \textbf{Prone to Storm}. Roll for damage. Immediate landfall. \\
+3 & \textbf{Sandbank}. Roll for damage. \\
+4 & \textbf{Prone to Squall}. Roll for damage -1. \\
+5-6 & No hazard. \\
+\end{longtable}
+
+\textbf{Encounters at Sea}: During the ship's time at sea, it may
+encounter another ship or perhaps wreckage. The referee rolls at least
+once once per leg, with the rolled encounter occurring during a point in
+the journey decided by the referee. If a dash is shown, then no
+encounter occurs. The encounter may be routine, or it may involve
+interaction, or even combat.
+
+\begin{multicols}{2}
+
+\begin{longtable}[]{@{}cl@{}}
+\toprule\noalign{}
+Dice & Coastal Encounters \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+2 & Vessel in trouble \\
+3 & Pirate/marauder ship \\
+4 & Wreckage \\
+5 & Vessel with secret \\
+6 & Merchant ship \\
+7-8 & -- \\
+9 & Military patrol \\
+10 & Royal courier ship \\
+11 & Familiar vessel \\
+12 & Monster \\
+\end{longtable}
+
+\begin{longtable}[]{@{}cl@{}}
+\toprule\noalign{}
+Dice & Deep Sea Encounters \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+2 & Vessel in trouble \\
+3 & Merchant ship \\
+4 & Wreckage \\
+5 & Pirate/marauder ship \\
+6 & Monster \\
+7-8 & -- \\
+9 & Monster \\
+10 & Pirate/marauder ship \\
+11 & Merchant ship \\
+12 & Military patrol \\
+\end{longtable}
+
+\end{multicols}
+
+
+
+\subsubsection*{Maritime Trade}\label{maritime-trade}
+
+Usually ¼ of the profits of a given voyage go to the captain, from which
+he pays the crew and any outstanding expenses. The rest goes to the
+owner and any partners he may have. Many merchant captains own their own
+ship.
+
+\subsubsection*{Ship Expenses}\label{ship-expenses}
+
+\begin{multicols}{2}
+
+Some basic running costs:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Supplies}: Food and water for each crewman, costing 4d./week.
+  Passengers bring their own supplies.
+\item
+  \textbf{Wages}: Crew wages are paid every four weeks, typically at a
+  port.
+\item
+  \textbf{Cargo Handling}: Ports charge every ship a fee for taking up
+  space on the quayside, and for unloading cargos. The cost is usually
+  4d./week. Merchant ships who shift their own cargo pay half this fee.
+\item
+  \textbf{Repairs}: Each ship strength point repaired takes one week and
+  costs 20d. in materials.
+\item
+  \textbf{Taxes}: Vary, but usually 2\% of the flat cost of cargo or
+  trade goods. A captain does not pay the tax on a contracted cargo, the
+  recipient awaiting delivery does that.
+\end{enumerate}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Position & Monthly Pay \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Captain & 250d. \\
+Navigator & 175d. \\
+Helmsman & 150d. \\
+Windcaster & 100d. \\
+Senior Crew & 60d. \\
+Crew & 40d. \\
+\end{longtable}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\columnwidth]{img/kraken.jpg}
+	\label{fig:kraken}
+\end{figure}
+
+
+\end{multicols}
+
+
+\newpage
+
+\paragraph{Revenue}\label{revenue}
+
+Ships generate revenue transporting cargo and passengers from one port
+to another. The captain must inquire at the port for a week to determine
+availability. Roll once for each column a maximum of once per week. The
+cargo/passengers will be heading for the ship's next destination (which
+must be stated beforehand).
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{cccc}
+		\toprule
+		Type of Port & Deck Passengers 
+		& Cabin Passengers & Contracted Cargoes \\
+		\midrule
+			Minor (V and below) & 1d6-1 & 1d6-5 & 1d6-3 \\
+			Medium (III-IV) & 2d6-1d6 & 1d6-3 & 1d6-1 \\
+			Major (I-II) & 3d6-1d6 & 1d6-1 & 1d6+2 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\textbf{Cargo}: The captain chooses either a small (1d6 cwt), medium
+(1d6x5 cwt) or large (2d6x10 cwt) cargo, as fits the size of his ship.
+The payment for shipping this cargo is received at the destination, at
+the rate of 50d. per cwt. Any losses must be made up by the
+captain/owner, and the recipient at the destination unloads the cargo
+and pays the tax. Most cargos will be low cost high bulk, such as grain
+or wool, oil or timber. Contractors usually prefer to use well-known and
+reliable vessels to transport more costly items.
+
+\textbf{Passengers}: Cabin passengers pay well (200d. per leg) but
+require a cabin for their journey. They are the captain's guests and eat
+with him. Deck passengers camp out on deck and bring along or buy their
+own food, paying 20d. per leg.
+
+\textbf{Private Messages:} Ship crews are routinely approached by
+civilians to carry private messages, sometimes verbally, but more often
+in the form of a letter. These messages will need delivering to an
+actual address or location at the destination port. On a 9 or higher on
+a 2d6 roll, a crew member will be approached in this way. Small payment
+may be offered, from 5d. to 25d. Rendering such service is a good way to
+make friends and contacts, and perhaps find patrons.
+
+\textbf{Speculative Trade Goods}: A designated crew member, usually a
+merchant, can buy a cargo in hope of selling it for profit somewhere
+else. It requires some money up front, and of course success (and
+therefore profit) is not guaranteed.
+
+\subsubsection*{Ships}\label{ships}
+
+\textbf{Sailing Ships} (\emph{knarr}): Tubby merchantmen (50'-70' long,
+10'-15' wide) who stow their cargo directly on the keel and ship's
+frame. There's a deck, used by the crew for working and cooking and
+sleeping. A large hatch allows cargo to be lowered down below deck.
+There are a pair of steering oars at the stern, and larger vessels have
+one or more cabins below the stern deck as a refuge for the captain,
+owner, windcaster, and perhaps a passenger. Each has a mast, maybe two.
+
+\textbf{Merchant Galleys} (\emph{dromond}): Long (90'-130') and narrow
+(20'-30'), fast and maneuverable. Sometimes used as warships. Helmsmen
+of merchant galleys receive a +1 bonus to their skill rolls. The galley
+is rowed, with benches down either side and a gangway for movement.
+There is no `below decks'; cargo is stacked up in the bow, at the stern,
+and tied against the single mast. The advantage of the galley is its
+ability to row through calm weather. Galleys have rams and can attempt
+to sink opposing ships.
+
+\textbf{Coastal Trader} (\emph{karve}): With low sides and a flat
+bottom, this ship (30'-50' long, 10'-15' wide) is ideal for coastal work
+and travel up rivers. It has a single mast forward, with a square sail
+and a hatch for cargo. Additional cargo can be tied down to the deck.
+
+\textbf{War Galleys} (\emph{longship}): Long (70'-100') and narrow
+(10'-15' wide) war galleys are used for royal courier duties,
+patrolling, transport of important officials, and for battle. They have
+rams at the bow, and raised platforms fore and aft from which marines
+can shoot at opposing ships. Artillery pieces are fitted as standard,
+and the crews are trained to fight. Most include cabins.
+
+\begin{table}[h]
+	\begin{adjustbox}{width=1\textwidth,center=\textwidth}
+	\begin{threeparttable}
+	\begin{tabular}{cccccc}
+		\toprule\noalign{}
+			Ship Type & 
+			Passengers (cabin/deck) & 
+			Capacity (cwt*) & Crew & 
+			Strength & Cost \\
+		\midrule\noalign{}
+			Sailing ship, small & 0/2 & 70 & 8 sailors & 4 & 8,000d. \\
+			Sailing ship, large & 1/5 & 250 & 12 sailors & 5 & 20,000d. \\
+			Sailing ship, great & 3/10 & 500 & 24 sailors & 6 & 30,000d. \\
+			Coastal trader, small & 0/2 & 10 & 6 sailors & 3 & 4,000d. \\
+			Coastal trader, large & 0/4 & 20 & 10 sailors & 4 & 6,000d. \\
+			Merchant galley, small & 0/4 & 100 & 4 sailors, 20 rowers & 3 &
+			10,000d. \\
+			Merchant galley, large & 1/8 & 300 & 4 sailors, 50 rowers & 4 &
+			30,000d. \\
+			War galley, large & 2/15** & 4 & 10 sailors, 144 rowers, 15 marines & 4
+			& 40,000d. \\
+			War galley, great & 4/40** & 6 & 20 sailors, 270 rowers, 40 marines & 5
+			& 60,000d. \\
+			War galley, colossal & 6/60** & 10 & 30 sailors, 572 rowers, 60 marines
+			& 6 & 100,000d. \\
+		\bottomrule\noalign{}
+	\end{tabular}
+	\begin{tablenotes}
+		\item [*] A hundredweight (cwt) for shipping purposes is equal to 10 stone (i.e.~10 slots)
+		\item [**] usually the shipboard marines
+	\end{tablenotes}
+	\end{threeparttable}
+	\end{adjustbox}
+\end{table}
+
+\subsubsection*{Naval Combat}\label{naval-combat}
+
+When ships encounter one another, they may end up in a confrontation
+depending on the situation. This ruleset assumes two sides, with each
+comprised of one or more vessels.
+
+\subsubsection*{Damage and Repair}\label{damage-and-repair}
+
+All ships have a hull strength rating. When a vessel is in danger of
+suffering damage, either from a reef, sandbank, squall, storm, shipboard
+artillery, or monster of the deep, roll 1d6. If the result is equal to
+or greater than the ship's hull strength, lower ship strength by 1. When
+a ship only has a strength of 2, it is taking on water or has damaged
+rigging or sails, and now travels at ½ normal movement. When a ship's
+strength is reduced to 0, it founders at sea and is lost, taking 2d6
+turns to sink. If half the crew works to save the vessel, it might (50\%
+chance) avoid this fate. This takes 1d6 turns and cannot be done if
+under attack. All crew and passengers able to jump clear must roll a
+Strength saving throw and hit or beat their AC to find debris which will
+help them make it to shore. On a failure, usual
+\hyperref[swimming]{swimming rules} apply.
+
+Hull strength can be repaired, though the ship must be brought ashore.
+It costs 100d. of spare parts, plus timbers felled from shore, to patch
+the hull and bring its strength to full. The ship's carpenter must make
+a Carpentry skill check with a target of 4 to finish the work in a week;
+failure indicates that another week and another skill check will be
+required to complete the work. The crew cannot carry out any more
+repairs until those spare parts are replaced at a port.
+
+\textbf{Fire}: When a vessel is struck by a flaming missile (or suffers
+an incendiary mishap), the referee rolls 2d6. On a 5 or higher, the ship
+catches fire with no immediate effect. Every turn after, he rolls again,
+and each roll of 5+ results in lowering the vessel's hull strength by 1.
+The crew can try to put out the fire, but it gets more difficult each
+turn: on a 2d6, roll 7+ before the first fire damage roll, 8+ before the
+second fire damage roll, etc. until the ship sinks or the fire is
+extinguished. The difficulty is modified by -1 if all sailors are trying
+to put it out, -2 if it's a galley and has stopped to allow large
+numbers of rowers to help, and -1 if marines are trying to put it out.
+
+\textbf{Pursuit \& Evasion}: To track the distance between ships (or
+forces if each side has allies), a range band is used with counters
+representing the two ships moving forwards and backwards along the range
+band. Range band correspond to certain real-life ranges measured in
+yards:
+
+\begin{itemize}
+\tightlist
+\item
+  Short: 0 bands -- 1-5 yards
+\item
+  Medium: 1-2 bands -- 6-50 yards
+\item
+  Long: 3-5 bands -- 51-250 yards
+\item
+  Very Long: 6-10 bands -- 251-500 yards
+\item
+  Distant: 11+ bands -- 500+ yards
+\end{itemize}
+
+\textbf{Encounter Distance}: Under usual circumstances, combatants see
+each other at Distant range (1d6+10 range bands). If the ships are ever
+separated by 20 range bands or more, then contact between them is lost.
+
+\textbf{Time Unit}: Each turn of pursuit, evasion, or combat takes 1
+minute. This is a ship turn.
+
+\textbf{Favorable Winds}: One or other of the ships will have the winds
+in their favor. A ship lying in ambush around a headland will always
+begin combat with favorable winds; otherwise, each ship rolls a
+contested 1d6 at the start of each turn to determine who has the
+favorable wind.
+
+\textbf{Movement}: A ship will move a variable number of range bands
+depending on whether the wind is favorable to it, or unfavorable. On a
+favorable wind, a ship will move 3 bands; on an unfavorable wind, a ship
+will move 1 range band. In addition, a successful Navigation (Nautical)
+Skill Check increases speed by 1 range band that turn. Galleys can
+ignore an unfavorable wind by lowering the sails and rowing; oars will
+move galleys at 2 range bands per turn.
+
+\subsubsection*{Ship Combat}\label{ship-combat}
+
+\textbf{Personal weaponry}: At Long range or shorter, missile combat can
+begin between the crews of the two ships. Long range applies a -8
+modifier to hit, Medium range applies a -4 modifier.
+
+\textbf{Artillery}: Artillery weapons are ship-mounted weapons designed
+to destroy sails, masts, and rigging, and to smash hull planking to sink
+the enemy ship. Large ships may carry 1 artillery piece, great ships may
+carry 2, and colossal ships may carry 4; their weight counts against the
+ship's capacity.
+
+\begin{itemize}
+\tightlist
+\item
+  Catapults (60 cwt., 4 crew, 600d., 1 attack per turn) have an arm
+  under tension, flinging its stone or incendiary missile in a high arc.
+  Roll 2d6 and hit 8+, -4 at Very Long range, -2 at Medium range. Cannot
+  fire at Short range.
+\item
+  Ballista (20 cwt., 3 crew, 1000d., 2 attacks per turn) is a
+  high-tension metal-framed crossbow throwing spherical stones or
+  grappling hooks (up to Medium range). Roll 2d6 and hit 8+, -4 at Very
+  Long range, -2 at Long range. Cannot fire at Short range.
+\end{itemize}
+
+\textbf{Ramming}: Getting into Short range is not enough, the captain
+must also roll 8+ on 2d6. Success indicates a ram attack, with a 1d6+2
+test vs.~the opponent's hull strength. If the test is successful, the
+target's hull strength lowers immediately to 0, and the two ships are
+locked together. Failure indicates a mild collision, with the boats
+pushing past one another. To `unhook,' a ramming galley can back-oar
+with a roll of 7+, and pull away from a target vessel, allowing it to
+sink.
+
+\textbf{Oar-Shearing}: Rather than ram their ship into another, some
+captains prefer to shear oars, smashing through the oars of opposing
+ships to immobilize them. Once in Short range, the ship's pilot must
+make a 9+ roll on 2d6. A success disables any oar-powered craft until it
+can raise its mast (typically taking all available sailors 1d6+6 ship
+turns).
+
+\textbf{Grappling}: If an aggressor does not ram, it can choose to
+grapple with ropes and hooks, in an attempt to pull it closer for
+boarding. This requires a successful roll of 6+ on 2d6. If the roll
+fails, the defending ship may attempt to open range and flee if desired,
+moving one range band. The defending ship can also cut the ropes, and
+will be successful on an 8+ roll on 2d6.
+
+\textbf{Boarding}: A ship that has rammed another (successfully or
+unsuccessfully) or that has pulled its target closer with grappling
+hooks can send across a boarding party. Likewise, a ship that has been
+rammed or grappled can send out fighting men to defend itself. Anyone
+attacking from a ship that has rammed gets a single combat round of
+surprise. When hand-to-hand combat is initiated, the ship turn is
+dropped in favor of usual combat rounds.
+
+\textbf{Using Fire}: Incendiaries can be shot from catapults, and each
+catapult is capable of firing incendiaries up to three times in a single
+battle.
+
+\subsection*{Speculative Trade}\label{speculative-trade}
+
+Characters can engage in speculative trade from one settlement to
+another. Profits are far from guaranteed, however, and getting cargo
+safely to its destination can be its own source of adventure.
+
+Each major settlement will have categories of goods in surplus that it
+exports (and which thus are bought and sold for a price lower than
+average) and goods in demand that it imports (and which are thus bought
+and sold for a price higher than average).
+
+Local prices are determined by a 2d10 roll, and comparing the result to
+the following table, adding 10\% to the resulting modifier if the goods
+are in demand, and subtracting 10\% if the goods are in surplus, before
+applying the final modifier to the goods' base price. The rolled price
+modifier represents the characters' best attempts to negotiate a deal,
+and are good for one week before being re-rolled.
+
+\begin{multicols}{2}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+			2d10 & Price Modifier \\
+		\midrule
+			2 & -9\% \\
+			3 & -8\% \\
+			4 & -7\% \\
+			5 & -6\% \\
+			6 & -5\% \\
+			7 & -4\% \\
+			8 & -3\% \\
+			9 & -2\% \\
+			10 & -1\% \\
+			11 & 0\% \\
+			12 & +1\% \\
+			13 & +2\% \\
+			14 & +3\% \\
+			15 & +4\% \\
+			16 & +5\% \\
+			17 & +6\% \\
+			18 & +7\% \\
+			19 & +8\% \\
+			20 & +9\% \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+Player characters may purchase bulk goods by hundredweight (cwt), where
+1 hundredweight is 10 slots, up to their carrying capacity (or the
+carrying capacity of any pack animals, carts or wagons, or ships they
+may own).
+
+\subsubsection*{Bulk Trade Loads
+Available}\label{bulk-trade-loads-available}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+			Market Class & Loads Available \\
+		\midrule
+			Class I-II & 1d6+2 \\
+			Class III-IV & 1d6-1 \\
+			Class V & 1d6-2 \\
+			Class VI-below & 1d6-3 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\columnwidth]{img/cart.jpg}
+	\label{fig:kraken}
+\end{figure}
+
+\end{multicols}
+
+\subsection*{Strongholds \& Domains}\label{strongholds-domains}
+
+Strongholds and domains are as in OSE Advanced, with clarifications and
+detailed procedures as in
+\href{https://alexmooney.github.io/ACKS_SRD/Chapter07.html\#strongholds-and-domains}{ACKS}.
+
+\subsection*{Suffocation}\label{suffocation}
+
+A character can survive for up to 1 round (10 seconds) per point of
+Constitution before suffocating to death. For example, a character with
+Constitution 12 can survive without breath for at most 2 minutes. After
+this time limit, the character is knocked unconscious and must make a
+saving throw as per the rules about \hyperref[death]{Death}.
+
+\subsection*{Swimming}\label{swimming}
+
+All characters can swim, barring an unusual background. Assuming no
+current, a land-dweller swims at half their combat speed, and can do so
+for hours equal to 1/4 their Con score (3/4 speed and 1/2 Con with the
+Swimming skill); round down.
+
+Attempting to swim while wearing encumbered or wearing armour is
+extremely dangerous. Characters must make a Strength check to avoid
+going under, modified as follows:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Light armour} or \textbf{Speed 30 due to encumbrance}: No
+  modifier.
+\item
+  \textbf{Medium armour} or \textbf{Speed 20 due to encumbrance}: -2
+  penalty
+\item
+  \textbf{Heavy armour} or \textbf{Speed 10 due to encumbrance}: -4
+  penalty
+\item
+  \textbf{Rough waters}: -1 or -2 penalty, as judged by the referee.
+\end{itemize}
+
+This check is repeated every hour.
+
+\subsection*{Trap Detection}\label{trap-detection}
+
+Spotting a trap requires a successful Perception check, usually rolled
+in secret by the referee. A character can actively search a 10' square
+for traps. This takes 1 turn; only one person can search a given square
+at any one time. Subtle but ultimately visible traps and triggers (such
+as tripwires) should be automatically detected by this; a failed search
+usually does not trigger traps.
+
+\begin{wrapfigure}[15]{l}{0.5\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{img/pittrap.jpg}
+	\label{fig:pittrap}
+\end{wrapfigure}
+
+How well a trap is concealed determines the difficulty. The average
+concealed trap has a -2 penalty to the Perception check during cautious
+exploration, or no modifier if actively being searched for.
+
+
+\textbf{10-foot Poles}: Prodding ahead with one or more of these and
+using cautious exploration gives a 2-in-6 chance of triggering area
+traps (safely, unless the trap specifies otherwise).
+
+\textbf{Area Traps}: Traps that are triggered by moving into a map
+square (e.g.~pit traps, but not trapped doors) are area traps. During
+cautious exploration, a separate group check is automatically made for
+each area trap trigger within 10 feet.
+
+\newpage
+
+\section*{Magic \& Spells}\label{magic-spells}
+
+See full \href{/spells.md}{arcane spell list here}, and the full
+\href{/holyspells.md}{holy spell list here}.
+
+\subsection*{Arcane Spell Slot Progression
+	Table}\label{arcane-spell-slot-progression-table}
+
+This shows the number of spells of a given spell Rank that a caster can
+\hyperref[casting--preparing]{prepare} per day (also known as their
+spell slots). Mages are the first number, Arcanist Warriors are the
+number in parentheses. If the mage is a specialist, they add one to each
+Rank's spell slot total if they can cast spells of that Rank. If a spell
+is Rank-adjusted through feats, that spell is treated in all ways as a
+spell of the Rank to which it has been modified.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{ccccccc}
+		\toprule
+			Character Level & 1 & 2 & 3 & 4 & 5 & 6 \\
+		\midrule
+			1 & 1(1) & & & & & \\
+			2 & 2(1) & & & & & \\
+			3 & 2(1) & 1(1) & & & & \\
+			4 & 2(1) & 2(1) & & & & \\
+			5 & 3(1) & 2(1) & 1(1) & & & \\
+			6 & 3(1) & 2(1) & 2(1) & & & \\
+			7 & 3(1) & 2(1) & 2(1) & 1(1) & & \\
+			8 & 3(1) & 3(1) & 2(1) & 2(1) & & \\
+			9 & 4(2) & 3(1) & 2(1) & 2(1) & 1(1) & \\
+			10 & 4(2) & 3(1) & 3(1) & 2(1) & 2(1) & \\
+			11 & 4(2) & 3(1) & 3(1) & 2(1) & 2(1) & 1(1) \\
+			12 & 4(2) & 4(2) & 3(1) & 3(1) & 2(1) & 2(1) \\
+			13 & 5(2) & 4(2) & 3(1) & 3(1) & 2(1) & 2(1) \\
+			14 & 5(2) & 4(2) & 4(2) & 3(1) & 3(1) & 2(1) \\
+			15 & 5(2) & 4(2) & 4(2) & 3(1) & 3(1) & 2(1) \\
+			16 & 5(2) & 5(2) & 4(2) & 4(2) & 3(1) & 3(1) \\
+			17 & 6(3) & 5(2) & 4(2) & 4(2) & 3(1) & 3(1) \\
+			18 & 6(3) & 5(2) & 5(2) & 4(2) & 4(2) & 3(1) \\
+			19 & 6(3) & 5(2) & 5(2) & 4(2) & 4(2) & 3(1) \\
+			20 & 6(3) & 6(3) & 5(2) & 5(2) & 4(2) & 4(2) \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.3\linewidth]{img/magicmissile.jpg}
+	\label{fig:magicbook}
+\end{figure}
+
+\newpage
+
+\subsection*{Holy Spell Slot Progression
+	Table}\label{holy-spell-slot-progression-table}
+
+This shows the number of holy spells of a given spell Rank that a caster
+with the Anointed can prepare per day (also known as their spell slots).
+Anointed Mages are the first number, Anointed Arcanist Warriors are the
+number in parentheses. If the mage is a specialist, they add one to each
+Rank's spell slot total if they can cast spells of that Rank.
+
+
+\begin{longtable}[]{@{}cccccc@{}}
+	\toprule\noalign{}
+	Character Level & 1 & 2 & 3 & 4 & 5 \\
+	\midrule\noalign{}
+	\endhead
+	\bottomrule\noalign{}
+	\endlastfoot
+	1 & 1(0) & & & & \\
+	2 & 2(1) & & & & \\
+	3 & 2(1) & 1(0) & & & \\
+	4 & 2(1) & 2(1) & & & \\
+	5 & 3(1) & 2(1) & 1(0) & & \\
+	6 & 3(1) & 2(1) & 2(1) & & \\
+	7 & 3(1) & 3(1) & 2(1) & 1(0) & \\
+	8 & 3(1) & 3(1) & 2(1) & 2(1) & \\
+	9 & 4(2) & 3(1) & 3(1) & 2(1) & 1(0) \\
+	10 & 4(2) & 4(2) & 3(1) & 2(1) & 2(1) \\
+	11 & 4(2) & 4(2) & 3(1) & 3(1) & 2(1) \\
+	12 & 5(2) & 4(2) & 4(2) & 3(1) & 2(1) \\
+	13 & 5(2) & 5(2) & 4(2) & 3(1) & 3(1) \\
+	14 & 5(2) & 5(2) & 4(2) & 4(2) & 3(1) \\
+	15 & 6(3) & 5(2) & 5(2) & 4(2) & 3(1) \\
+	16 & 6(3) & 6(3) & 5(2) & 4(2) & 4(2) \\
+	17 & 6(3) & 6(3) & 5(2) & 5(2) & 4(2) \\
+	18 & 6(3) & 6(3) & 6(3) & 5(2) & 4(2) \\
+	19 & 6(3) & 6(3) & 6(3) & 5(2) & 5(2) \\
+	20 & 6(3) & 6(3) & 6(3) & 6(3) & 5(2) \\
+\end{longtable}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.4\linewidth]{img/cleric.jpg}
+	\label{fig:cleric}
+\end{figure}
+
+\subsection*{Casting \& Preparing}\label{casting-preparing}
+
+\textbf{Preparing Spells:} Once a spell is mentally in place, it remains
+until either intentionally dismantled or the caster uses the spell. If a
+spell is unused, it remains in the caster's mind, even though sleep has
+occurred.
+
+To reconstruct spells (called ``memorizing'' or ``preparing'' them), a
+caster must first have a night's rest (at least 4 hours of uninterrupted
+sleep) and no fatigue levels from exhaustion or lack of sleep, to regain
+the clarity and focus needed. The time required to prepare a spell is 10
+minutes per spell Rank of uninterrupted concentration. For example, a
+3rd-Rank spell would require 30 minutes to prepare. A caster can prepare
+no more than two uses of the same spell.
+
+Note that \hyperref[holy-magic]{holy magic} operates under slightly
+different rules than arcane magic for spell preparation.
+
+\textbf{Casting Spells}: Spells take two hands to cast, and include a
+vocal component; a caster who is bound or gagged or otherwise restrained
+or silenced cannot cast spells.
+
+\textbf{Spell Disruption}: If, between declaring a spell and casting it,
+the caster is hit by an attack or the like (even if no damage is dealt),
+or fails a saving throw, the spell is disrupted: it fails and its spell
+slot is emptied with no other effect. Note that only spells being cast
+can be disrupted. Spell effects from a rod, staff, wand, etc. and
+spell-like innate creature abilities are immune to disruption.
+
+\subsection*{Gaining New Spells}\label{gaining-new-spells}
+
+Mages learn one random spell each time they gain a Level from a random
+school they can access (plus another spell if a specialist). If the
+caster has just gained access to a new spell Rank, the spell(s) are from
+that Rank. Mages also gain access to a new school of their choice at
+each Name Level. When this happens, the mage learns random spells of
+that school, one at each spell Rank the mage can cast.
+
+They can also gain access to new spells via the following methods. These
+methods are the only way in which an Arcanist Warrior can gain new
+spells.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Binding}: Anyone that can read Mithric can read a spellbook or
+	scroll to see what it is, but you cannot prepare and thus cast a spell
+	until you have bound it to you. Only spells from schools you can
+	access can be bound. Binding a spell takes 1 day + 100d. per Rank of
+	the spell, and a successful Arcana ability check, applying the ability
+	modifier twice, rolled at the end of the binding period; apply +1 if a
+	specialist is binding a spell from their specialist school. Failure
+	means the spell is permanently erased from the source scroll or
+	spellbook (for this reason, it is the rare mage that will allow
+	another to copy from their spellbook). Success means that the spell
+	has been copied to your spellbook, and that a permanent bond between
+	the caster and spell has been created: you can always write the spell
+	into a spellbook or scroll, even if you don't have another written
+	copy on hand to reference or have the spell prepared for casting.
+	\item
+	\textbf{Research}: Casters can research and create brand new spells.
+	Only spells from schools the caster can access can be researched, and
+	any given spell can only be attempted once per Level. Researching a
+	new spell requires, on average and per Rank of the spell, 100d. in
+	materials and 1 week of time.
+\end{itemize}
+
+Note that \hyperref[holy-magic]{holy magic} operates under different
+rules than arcane magic for spell acquisition.
+
+
+\subsection*{Holy Magic}\label{holy-magic}
+
+
+
+
+Holy spells take the form of blessings bestowed upon characters by the
+grace of their patrons, usually saints of the Pluritine Church.
+
+A holy spellcaster may pray to the saints once per day, receiving their
+blessings in the form of spells. Once bestowed, a blessing remains with
+the character until the spell is cast. A character can only pray for
+spells following a night's rest, and it takes one hour of quiet prayer.
+Characters capable of casting more than one spell of a given Rank may
+pray for up to two copies of the same spell.
+
+A bestowed prayer may be cast by reciting a prayer in the Mithric
+tongue. When a spell is cast, the blessing expires until it is bestowed
+again. The character must be able to speak. A holy spellcaster cannot
+cast spells if gagged or in an area of magical silence.
+
+\paragraph{Praying at Shrines}\label{praying-at-shrines}
+
+Shrines and churches dedicated to specific saints or aspects of divinity
+are scattered throughout the world. A holy spellcaster who prays for one
+hour at such a shrine earns the blessing of the saint in the form of an
+additional specific spell. Once bestowed, this blessing remains with the
+character until the spell is cast. A character may only have the
+blessing of a single saint at any one time. Praying at a shrine
+dedicated to a different saint causes the spell bestowed by the new
+saint to replace that bestowed by the previous saint. The spell may be
+of higher Rank than what the character is usually able to cast, but
+subsequent blessings from the same shrine are bestowed only if the spell
+is of a Rank that the character can normally memorize and if at least
+one day has passed.
+
+\begin{wrapfigure}[16]{r}{0.5\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{img/runestone.jpg}
+	\label{fig:runestone}
+\end{wrapfigure}
+
+Characters who can not normally cast holy spells can also pray at
+shrines and receive blessings. The character must be of 3rd Level or
+higher, have performed worthy deeds in service of the saint or the
+church associated with the blessing, and can receive the blessing of
+each saint only one time ever.
+
+\subsection*{Lost Spellbooks}\label{lost-spellbooks}
+
+In the event of disaster, a spellcaster who uses a spellbook and has
+lost it can rewrite spells they have learned into a blank spellbook.
+This requires 1 day and 100d. per Rank of spell to be written.
+
+\subsection*{Magic Item Crafting}\label{magic-item-crafting}
+
+Potions are created by alchemists, with the more powerful potions
+usually requiring the help of a Magic-User. A Magic-User seeking to
+create potions must employ an alchemist. A Magic-User must be 9th Level
+to create potions on their own, and 11th Level to create other magic
+items.
+
+\newpage
+
+\subsection*{NPC Spellcasting}\label{npc-spellcasting}
+
+Non-player characters may be hired to cast spells or perform other
+services. As a general guideline, spells cost \emph{roughly} the
+following, and will be subject to a host of in-the-fiction
+considerations:
+
+\begin{longtable}[]{@{}cc@{}}
+	\toprule\noalign{}
+	Spell Rank & Cost per Casting \\
+	\midrule\noalign{}
+	\endhead
+	\bottomrule\noalign{}
+	\endlastfoot
+	1st & 50d. \\
+	2nd & 100d. \\
+	3rd & 250d. \\
+	4th & 500d. \\
+	5th & 1,250d. \\
+	6th & 2,500d.+ \\
+\end{longtable}
+
+Sages or alchemists not employed by a PC will often charge around 50d.
+to identify a potion (which takes an hour or so), or 100d.+ to identify
+a magical item (which can take upwards of a week).
+
+
+\subsection*{Potion Creation}\label{potion-creation}
+
+\begin{wrapfigure}[17]{l}{0.5\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{img/potions.jpg}
+	\label{fig:potions}
+\end{wrapfigure}
+
+
+Potions can be crafted by any mage of 5th Level or above, with the aid
+of an alchemist, and only one potion may be made at any one time.
+
+Potion brewing requires a stocked laboratory of at least 500d. in value.
+A mage can only brew potions they have drank or own the recipe for, and
+each potion costs additional silver pence per dose to brew; the referee
+will have these costs.
+
+\subsection*{The Schools of Magic}\label{the-schools-of-magic}
+
+All spells belong to one of eight schools of magic. A caster can only
+learn spells from schools to which they have access. A caster gains
+access to a new school of their choice at every Name Level, learning
+random spells belonging to that school, one at each Rank they can cast.
+The schools are:
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Abjuration}: Spells protective in nature. These frequently
+	ward against damage or hostile effects, like gas, poison, possession,
+	etc.
+	\item
+	\textbf{Conjuration}: Spells that summon creatures or objects, from a
+	simple fog to extraplanar entities that serve your every whim.
+	\item
+	\textbf{Divination}: Spells that reveal information, from hidden traps
+	and chambers to items and fell secrets.
+	\item
+	\textbf{Enchantment}: Spells that affect the minds of others and bend
+	life to your will--men, monsters, and even plants--making them angry
+	or ambivalent, docile or dependent.
+	\item
+	\textbf{Evocation}: Spells that shape raw magic itself. Most purely
+	offensive spells (like \emph{Ioun Stone}, \emph{Fireball}, etc.)
+	belong to this school, making it nearly mandatory for any aspiring
+	battle wizard.
+	\item
+	\textbf{Illusion}: Spells that deceive; imaginary sounds, smells,
+	objects, creatures, and even entire environments are possible.
+	\item
+	\textbf{Necromancy}: Spells manipulating the energies of life and
+	death, covering both healing the living and interactions with the dead
+	(and undead).
+	\item
+	\textbf{Transmutation}: Spells that alter the properties of a
+	creature, object, or environment. One can fly, breathe underwater, or
+	gain great strength, alter the size of a creature or object, or
+	transmute one type of material into another. Sometimes called
+	``Alteration.''
+\end{itemize}
+
+\subsection*{Scrolls}\label{scrolls}
+
+Spells can be bound to scrolls; each holds one spell. Holding it with
+both hands and reading from it aloud casts its spell, disintegrating the
+scroll.
+
+A spell on a scroll is not a prepared spell and can be cast even if the
+caster does not own the spell or isn't able to cast spells at that
+spell's Rank. The caster must still have access to the school to which
+the spell belongs, however (or be a holy caster to cast holy spells from
+scrolls). Spells on scrolls can't be modified through feats, though a
+caster can scribe a modified spell, and spells cannot be prepared from
+scrolls.
+
+For the purposes of range and so on, a scroll spell is treated as if the
+reader is casting it normally or is the minimum Level required to cast
+it normally, whichever is higher.
+
+Scrolls may be scribed by anyone who has the ability to both read
+scrolls and to cast the spell being scribed. It costs 250d. and two days
+per Rank of the spell, which can be broken up into multiple sessions.
+This requires a successful Arcana ability check, applying the ability
+modifier twice, rolled at the end of the scribing time.
+
+\begin{figure}[hb]
+	\centering
+	\includegraphics[width=.4\linewidth]{img/scroll.jpg}
+	\label{fig:scroll}
+\end{figure}
+
+\newpage
+
+\section*{Upgrading Armour and
+Weapons}\label{upgrading-armour-and-weapons}
+
+\subsection*{Upgrading Basics}\label{upgrading-basics}
+
+The process of upgrading a piece of equipment always has a number of
+basic requirements regardless of its type. The following general rules
+apply:
+
+\begin{itemize}
+\tightlist
+\item
+  Upgrades take the form of tags. Tags add new properties to equipment.
+\item
+  Each tag is unique and can only be applied to a piece of equipment
+  once.
+\item
+  Upgrading a piece of equipment with a new tag can only be performed by
+  a dedicated nonplayer craftsperson of the appropriate discipline in a
+  workshop environment.
+\item
+  Upgrading a piece of equipment with a new tag is a skilled endeavor,
+  taking anywhere from an hour to more than a week depending on the
+  task.
+\item
+  On your adventures, you may come across equipment already possessing
+  tags; either for sale, offered as rewards, or available through other
+  means.
+\end{itemize}
+
+Due to their extraordinary artisanship and magical reinforcement, magic
+items can't be modified using normal artisinal methods. As such, the
+upgrades presented here can't be applied to magic items. Furthermore,
+none of the upgrades presented in this supplement confer ``magic item''
+status to a piece of equipment, though certain upgrades may result in a
+piece of equipment being considered magical under certain circumstances.
+
+
+
+\subsection*{Upgrading Armour}\label{upgrading-armour}
+
+There are a number of options available to a character to upgrade their
+armour, from high-cost armour proofing, to useful additions like
+insulation suitable for cold weather environments. A complete list of
+these options, as well as cost and any additional requirements, are
+shown in the Armour Upgrades table below. In addition to the basic rules
+for upgrading, the following rules apply when upgrading a suit of armour
+or a shield with a new tag:
+
+\begin{itemize}
+\tightlist
+\item
+  Any prerequisite conditions must be satisfied to apply a new tag, as
+  shown in the Armour Upgrades table.
+\item
+  Typically, it takes an artisan a full day of work (minimum 8 hours) to
+  upgrade a suit of armour or a shield with a new tag.
+\item
+  The armour proofing process normally requires a full workweek (5 days)
+  and can only be undertaken by a master artisan. Once added, armour
+  proofing tags can't be removed from a suit of armour.
+\end{itemize}
+
+\subsubsection*{Armour Proofing}\label{armour-proofing}
+
+The primary method of upgrading armour, proofing is the process of
+testing and improving a suit of armour's ability to withstand blows of
+various types below a certain threshold, being certified as proof
+against swords, arrows, and warhammers. While all types of armour can be
+proofed against slashing damage, only medium and heavy armours can be
+proofed against piercing damage, and only heavy armour can be proofed
+against bludgeoning attacks.
+
+\subsubsection*{Other Upgrades}\label{other-upgrades}
+
+In addition to proofing, various other upgrades are available to armours
+meeting the prerequisites for each, as shown in the Armour Upgrades
+table. Certain upgrades are incompatible, such as the breathable and
+insulated tags, while others have specific requirements. Certain types
+of armour upgrade tags may be removable or temporary; when in doubt,
+consult with your referee.
+
+\subsection*{Upgrading Weapons}\label{upgrading-weapons}
+
+Upgrading weapons follows a branching path system, with available
+options split into multiple tiers. At first, a weapon can only be
+upgraded with a limited selection of 1st tier tags depending on its
+type, each of which ``unlocks'' one or more options from the next tier.
+The following additional rules apply when upgrading a weapon with a new
+tag:
+
+\begin{itemize}
+	\tightlist
+	\item
+	All prerequisite conditions must be satisfied to apply a new tag, as
+	shown in the Weapon Upgrades table.
+	\item
+	2nd tier upgrades can only be applied by a trained craftsman, with 3rd
+	tier upgrades requiring the skills of a master artisan.
+	\item
+	Typically, it takes an artisan a full day of work (minimum 8 hours) to
+	upgrade a weapon with a new tag.
+	\item
+	Once added, a tag can't be removed from a weapon.
+\end{itemize}
+
+\subsubsection*{Weapon Upgrade Cost
+	Structure}\label{weapon-upgrade-cost-structure}
+\begin{wrapfigure}[19]{r}{0.5\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{img/armourmerchant.jpg}
+	\label{fig:armourmerchant}
+\end{wrapfigure}
+
+Upgrading a weapon has a base cost associated with each tier, with
+subsequent upgrades of that tier costing twice the previous amount for
+that tier. For example, Erik decides to pay a visit to a local
+blacksmith in order to have a customized pommel attached to his
+dagger---adding the balanced tag---for the tier 1 base cost of 100d..
+Later, he returns to have the blade honed---adding the sharpened
+tag---this time costing 200d., with the next 1st tier upgrade costing
+400d., and so on.
+
+
+
+Upgrades are grouped by tier for the purposes of this cost scaling:
+continuing with the above example, if Erik then wishes to have the blade
+of his dagger partially serrated in order to improve its effectiveness
+when slicing and cutting---adding the superior tag---it would cost
+1,000d. (the 2nd tier base cost) provided that the dagger doesn't
+already possess any other 2nd tier tags.
+
+
+
+\newpage
+
+\subsection*{Armour Upgrades}\label{armour-upgrades}
+
+	\begin{tabular}{p{1.5in} c p{1.3in} p{2.2in} }
+		\toprule
+			Tag & Cost (d.) & Prerequisite & Properties \\
+		\midrule
+			\textbf{Armour proofing: 1st tier} & 1000d. & Light, medium, or heavy
+			armour & While wearing this armour, if you would take 3 or less
+			nonmagical slashing damage before resistance is applied, you take none
+			of that damage instead. \\
+			\textbf{Armour proofing: 2nd tier} & 2000d. & Medium or heavy armour
+			with the \emph{1st tier armour proofing} tag & While wearing this
+			armour, if you would take 4 or less nonmagical slashing or piercing
+			damage before resistance is applied, you take none of that damage
+			instead. \\
+			\textbf{Armour proofing: 3rd tier} & 3000d. & Heavy armour with the
+			\emph{2nd tier armour proofing} tag & While wearing this armour, if you
+			would take 5 or less non- magical slashing, piercing, or bludgeoning
+			damage before resistance is applied, you take none of that damage
+			instead. \\
+			\textbf{Breathable} & 100d. & Light or medium armour. Incompatible with
+			\emph{insulated}. & While wearing this armour, you have a +2 bonus on
+			saving throws against fatigue due to extreme heat. \\
+			\textbf{Climbing harness} & 100d. & Light, medium, or heavy armour &
+			This armour has been modified with a climbing harness around the
+			midriff, comprising leather straps and quick- draws. While wearing it,
+			you gain a +1 bonus to checks to scale vertical surfaces when using a
+			rope or similar aid. \\
+			\textbf{Decorated} & 50d. & Medium or heavy armour and shields & This
+			armour or shield is adorned with a holy symbol and allows its bearer to
+			cast \emph{Turn Undead} without holding a holy symbol. \\
+			\textbf{Insulated} & 100d. & Incompatible with \emph{breathable}. & This
+			armour counts as cold weather gear in conditions of extreme cold. \\
+			\textbf{Quick-release clasps} & 200d. & Light, medium, or heavy armour &
+			You can doff this light armour as an action, medium armour in 1 minute,
+			and heavy armour in 5 minutes. \\
+			\textbf{Spiked} & 250d. & Medium or heavy armour & This armour has been
+			modified with spikes, barbs, or another similar feature, and deals 1d4
+			piercing damage to creatures who hit its wearer with unarmed strikes or
+			natural weapons that aren't magical. \\
+		\bottomrule\noalign{}
+	\end{tabular}
+
+\subsection*{Weapon Upgrades}\label{weapon-upgrades}
+
+\begin{tabular}{p{1.9in} p{1.3in} p{2.7in} }
+	\toprule
+		Tag & Prerequisite & Properties \\
+	\midrule
+		\emph{1st Tier (base cost: 100d.)} & &  \\
+		\textbf{Balanced} & - & You gain a +1 bonus to attack rolls made with
+		this weapon. \\
+		\textbf{Critical: Sharpened} & Melee weapons that deal piercing or
+		slashing damage only & Attacks with this weapon score a critical hit on
+		a roll of one lower than normal. \\
+		\textbf{Critical: Sight pin} & Bows and crossbows only & Attacks with
+		this weapon score a critical hit on a roll of one lower than normal. \\
+		\textbf{Critical: Spiked} & Melee weapons that deal bludgeoning damage
+		only & Attacks with this weapon score a critical hit on a roll of one
+		lower than normal. \\
+		\textbf{Silvered} & - & Attacks with this weapon count as silvered for
+		the purposes of overcoming resistance and immunity to nonmagical attacks
+		and damage \\
+		\textbf{Wounding: Keen} & Melee weapons only & You gain a +1 bonus to
+		damage rolls made with this weapon. \\
+		\textbf{Wounding: Oiled string} & Bows and crossbows only & You gain a
+		+1 bonus to damage rolls made with this weapon. \\
+		\emph{2nd Tier (base cost: 1,000d.)} & & \\
+		\textbf{Brutal} & \emph{Sharpened} or \emph{Spiked} tag & When you
+		attack with this weapon and roll the maximum result for the weapon's
+		damage dice, you can roll those dice again and add the new roll to the
+		damage of the attack. If you roll the maximum amount again, you can
+		repeat this process until you don't. \\
+		\textbf{Enchanted} & \emph{Silvered} tag. Can only be applied by a mage
+		of 11th Level or higher. & Attacks with this weapon count as magical for
+		the purposes of overcoming resistance and immunity to nonmagical attacks
+		and damage, and features such as the black pudding's corrosive form. \\
+		\textbf{Superior} & \emph{Balanced} and \emph{keen} or \emph{oiled
+		string} tag. & The damage die of this weapon is increased by one size
+		(for example, 1d4 becomes 1d6, 1d6 becomes 1d8, and 1d8 becomes
+		1d10). \\
+		\emph{3rd Tier (base cost: 10,000d.)} & & \\
+		\textbf{Masterwork} & \emph{Brutal} or \emph{superior} tag & You gain an
+		additional +1 bonus to attack and damage rolls made with this weapon. \\
+	\bottomrule
+\end{tabular}
+
+\newpage
+
+\section{Wilderness Exploration}\label{wilderness-exploration}
+
+In a campaign where the journey is as important as the destination (or
+where there isn't even necessarily a main destination \emph{per se}),
+overland movement comes into play.
+
+Travel overland is measured in 6-mile hexes. \textbf{Travel points} are
+spent to enter a hex; player characters have travel points based on
+their \hyperref[item-slots]{encumbrance}. A mounted party has speed 40
+(8 travel points per day), and a party travelling with a cart or wagon
+has speed 30 (6 travel points per day).
+
+The base cost in travel points to enter a hex depends on its terrain
+type. Unlisted terrain features like great rivers, canyons, etc. can
+further raise the cost.
+
+\begin{table}[ht]
+	\centering
+	\begin{adjustbox}{width=1\textwidth,center=\textwidth}
+	\begin{tabular}{cccc}
+		\toprule
+		Terrain Type & 
+		Entry/Search Cost & 
+		Lost/Encounters & 
+		Mounts \& Vehicles \\
+		\midrule
+		Plains, steppe, farmland & 2 & 1 in 6 & May enter \\
+		Hills, woods, desert, rough & 3 & 2 in 6 & Mounts must be led, no
+		vehicles \\
+		Mountains, jungle, swamps & 4 & 3 in 6 & No mounts or vehicles \\
+		\bottomrule
+	\end{tabular}
+	\end{adjustbox}
+\end{table}
+
+If the party is travelling on a road and does not leave, a hex costs 2
+travel points to enter; Some roads are marked with mile markers; on
+these roads, it costs 2 travel points per 6 miles traveled. Only
+roadside features will be explored while travelling on a road; features
+further from the road are missed.
+
+Travel may be impeded by poor weather, reducing the party's travel
+points by 2. If this reduces the party's travel points to 0 or below,
+they can only progress by forced marching.
+
+A party may choose one of two optional march types each day, reflecting
+its priorities: either caution or speed.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Cautious March}: Decrease travel points by one, apply a +1
+  bonus to all rolls for overland random encounters, and the party has a
+  better chance of tactically favorable encounters.
+\item
+  \textbf{Forced March}: Gain a 50\% increase in travel points, but gain
+  one fatigue level at day's end. Can be kept up until a marcher is
+  heavily fatigued. A day of full rest is required to remove one level
+  of forced march fatigue from most creatures.
+\end{itemize}
+
+\subsection*{Entering a Hex}\label{entering-a-hex}
+
+If a party wants to enter a hex, but lacks some of the points needed,
+they points they do have are spent towards entering it, but the party
+ends the day in their current hex. The party only enters the new hex
+once its full travel point cost is paid.
+
+\subsubsection*{Navigation and Getting
+Lost}\label{navigation-and-getting-lost}
+
+If the party enters a hex they have not fully searched, the party makes
+a \textbf{navigation check} by rolling 1d6. The chance of getting lost
+depends on the terrain being explored (see table above).
+
+There is no chance of getting lost if the party is following a road, and
+there is only a 1-in-6 chance of getting lost if the party is following
+a trail or track.
+
+In conditions of reduced visibility, like a thick fog or blizzard, the
+chance of getting lost increases by 1 (e.g., 2-in-6 becomes 3-in-6), and
+in darkness by 2.
+
+If the party has a member with the Fieldcraft feat for that hex's
+terrain type, the chance of getting lost decreases by 1.
+
+This check is skipped if the party has a respectable map or
+knowledgeable guide, or if there is a road, trail, coastline, or river
+in the current hex they can logically follow to their next hex.
+
+If the check fails, the party is lost. To leave the hex, the party must
+spend travel points equal to the amount they spent to enter it
+originally, and then make a new navigation check. Failure means that the
+party is still lost.
+
+\subsubsection*{Searching}\label{searching}
+
+Entering a hex allows a party to determine its features. There are two
+types: \textbf{overt} and \textbf{hidden}.
+
+Overt features require no special effort to find. Hidden features may or
+may not exist, but can only be found if the party searches the hex,
+moving off the beaten path to seek out points of interest there. A hex
+may have both types.
+
+Searching a hex requires spending the same number of travel points that
+it cost to enter the hex, and, like entering a hex, is only complete
+when the full hex point cost is paid. Such a search will reveal any
+hidden features present in a hex. Once a hidden feature has been
+located, it can be found again without searching.
+
+\subsection*{Finding Food in the Wild}\label{finding-food-in-the-wild}
+
+When on a journey, a party may try to find food in the wilds rather than
+rely on rations purchased in a settlement. The party may choose to fish,
+forage, or hunt.
+
+If the party attempts to find food as they travel, make a Survival
+check. If the characters devote a whole day exclusively to finding food,
+without travel or rest, they gain a +2 bonus to the check. A single
+check is made for the entire party.
+
+\subsubsection*{Fishing}\label{fishing}
+
+Using a fishing pole, hook, and something for bait, fishing is possible
+in any hex which contains a lake or river. Successful fishing provides
+1d10 rations.
+
+\begin{wrapfigure}[14]{l}{0.4\linewidth}
+	\centering
+	\includegraphics[width=1\linewidth]{img/foraging.jpg}
+	\label{fig:foraging}
+\end{wrapfigure}
+
+\paragraph{}
+
+\subsubsection*{Foraging}\label{foraging}
+
+Plants and mushrooms can be found in many hexes. Successful foraging
+provides 1d6 fresh poor-quality rations (1d4 in winter, 1d8 in autumn).
+Rare and magical herbs may also turn up in the harvest.
+
+\subsubsection*{Hunting}\label{hunting}
+
+Successful hunting means that the party has crept up on game animals,
+and must then attempt to kill them. The party has surprise and beginning
+combat 1d4 x 30' away from the quarry. A successful hunt yields fresh
+common-quality rations based on the HP of game animals killed: 1 ration
+per HP for small animals, 2 rations per HP for medium, and 4 rations per
+HP for large.
+
+\newpage
+
+\subsection*{Camping in the Wilds}\label{camping-in-the-wilds}
+
+\subsubsection*{Setting up Camp}\label{setting-up-camp}
+
+\textbf{Preparing the Campsite:} At least one character must remain at
+the campsite to clear away branches and rocks, set up tents and
+bedrolls, prepare a fire pit, and so forth.
+
+\textbf{Fetching Firewood:} Each character who goes fetching wood can
+collect enough to keep a campfire burning for 1d6 hours. Situational
+modifiers for the amount of wood found may be applied, for example: -1
+for damp conditions, -2 in snow, -4 in heavy rain.
+
+\subsubsection*{Fetching Water}\label{fetching-water}
+
+Finding water to drink is assumed to have happened naturally while
+traveling, except in an exceptionally dry environment, when it is only
+found on a 2-in-6 chance per hex.
+
+\subsubsection*{Building a Fire}\label{building-a-fire}
+
+Given a means of producing flame (e.g.~a tinderbox, magic) and a stash
+of wood (either gathered from the forest or carried in packs), a
+character may attempt to build a fire.
+
+\begin{wrapfigure}[11]{r}{0.3\textwidth}
+	\includegraphics[width=1\linewidth]{img/campfire.jpg}
+	\label{fig:campfire}
+\end{wrapfigure}
+
+\textbf{Good conditions:} In favorable conditions, with decent wood and
+a relatively dry campsite, fire-building automatically succeeds.
+
+\textbf{Bad conditions:} In more troublesome circumstances, getting a
+fire going may require a Survival check with a +2 bonus, though
+``Dwarves can make a fire almost anywhere out of almost anything, wind
+or no wind'' and will automatically succeed. The referee may reduce the
+chance of success to account for extreme cold or damp.
+
+\subsubsection*{Cooking}\label{cooking}
+
+Given a fire, cooking pots, and ingredients (e.g., foraged food, fresh
+rations, hunted game), someone may cook a meal. The cook must make a
+Survival Skill Check.
+
+\textbf{If the check succeeds:} An especially tasty dish is produced.
+All who eat the meal gain a bonus to any Con checks required to rest: +1
+for meals made with common ingredients, and +2 for meals made with fancy
+ingredients. (Eating trail food or food made with poor quality fresh
+ingredients does not give any bonuses to Con checks required to rest.)
+
+\textbf{If the check fails:} A palatable but not exemplary dish is
+produced. On a natural 1, the cook must make a saving throw against a
+target of 11 or produce a ruined and utterly inedible meal, wasting the
+ingredients used.
+
+\subsubsection*{Camaraderie}\label{camaraderie}
+
+Time spent around the fireside with one's companions may lift the
+spirits and induce restful sleep. A character may attempt to entertain
+with music, song, stirring tales, jokes, and so forth. The entertainer
+should make a Performance Skill Check.
+
+\textbf{If the check succeeds:} All characters gain a +1 bonus to any
+Con checks required to rest.
+
+\textbf{If the check fails:} The attempt to entertain falls flat. On a
+natural 1, the entertainer must make a saving throw against a Target of
+11 or incur ridicule and discord, incurring a -1 penalty to any Con
+checks required to rest.
+
+\subsubsection*{Rest Checks}\label{rest-checks}
+
+When camping in the wild, characters' ability to get a good night's rest
+is determined by their equipment (whether they have a bedroll and/or
+tent), their warmth (whether they have a fire burning), and the season.
+Non-ideal circumstances require PCs to make a Constitution check, with
+the difficulty listed below.
+
+\begin{table}[ht]
+	\centering
+
+		\begin{tabular}{cccccc}
+			\toprule
+				Fire & Bed & Winter & Spring & Summer & Autumn \\
+			\midrule
+				N & No bedding & Auto failure & Difficult & Moderate & Difficult \\
+				N & Bedroll or tent & Auto failure & Moderate & Good rest & Moderate \\
+				N & Bedroll \& tent & Difficult & Moderate & Good rest & Moderate \\
+				Y & No bedding & Auto failure & Difficult & Moderate & Difficult \\
+				Y & Bedroll or tent & Difficult & Good rest & Good rest & Good rest \\
+				Y & Bedroll \& tent & Moderate & Good rest & Good rest & Good rest \\
+			\bottomrule
+		\end{tabular}
+
+\end{table}
+
+\textbf{Moderate:} The character must make a Constitution check to get a
+good night's rest.
+
+\textbf{Difficult:} The character must make a Constitution check with a
+-2 penalty to get a good night's rest.
+
+\textbf{If the check succeeds:} The character gets a good night's sleep
+and regains 1 HP overnight if they ate a poor meal or trail food, 2 HP
+if they ate a common meal, and 3 HP if they ate a fancy meal.
+
+\textbf{If the check fails:} The character fails to get a good night's
+sleep and suffers one level of fatigue due to lack of sleep. For each
+spell the character attempts to prepare, there is a 1-in-6 chance of
+failure. If the roll fails, the attempt to prepare the spell fails - the
+spell slot remains empty and unusable this day.
+
+
+
+\subsection*{Weather}\label{weather}
+
+At the start of each day, the referee rolls 2d6 on a seasonal weather
+table. Some weather impedes travel (reducing the party's travel points
+by 2), while other weather brings poor visibility (halving the outdoor
+encounter distance and increases the chance of getting lost while
+travelling off-road) or wet conditions (making it harder to start a
+campfire).
+
+\subsection*{Wilderness Random
+Encounters}\label{wilderness-random-encounters}
+
+One check for wandering monsters is made each day. The chance of an
+encounter depends on the type of terrain being traversed. If a party has
+one or more members with Fieldcraft for that hex's terrain type, add 1
+to the roll. Wandering monsters are encountered 2d6 x 30' away. If both
+sides are surprised, this is reduced to 1d4 x 30'.
+
+If the party spends the night in the wilderness, an additional random
+encounter check is made. If an encounter occurs, the referee randomly
+rolls to see on whose watch (if any) the encounter takes place.
+
+\section{Hirelings}\label{hirelings}
+
+\subsection*{Standard Hirelings}\label{standard-hirelings}
+
+Short-term services of simple craftsmen and laborers are relatively
+easily procured, but it is harder to find individuals willing to take
+service for longer than a few days, especially if considerable travel is
+involved.
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule\noalign{}
+Hireling & Daily Rate & Monthly Rate \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Groom, Laborer, Linkboy, Pack Handler & 1d. & 24d. \\
+Cook, Servant & 1d. 2f. & 30d. \\
+Limner & 2d. & 50d. \\
+Teamster & 3d. & 72d. \\
+Carpenter, Mason, Leatherer, Tailor & 4d. & 100d. \\
+Guide & 5d. & 130d. \\
+\end{longtable}
+
+\textbf{Carpenter}: Skilled in the working of wood, a carpenter might be
+retained to construct anything from a table to a palisade. Their
+expertise is also invaluable for the manufacturing of shields and
+similar items.
+
+\textbf{Cook}: Familiar with the preparation of various types of food,
+and sometimes also knows a little herblore.
+
+\textbf{Groom}: Proficient in the care of horses, an attentive groom can
+usually tell a good mount from a bad; also known as an ostler or stable
+hand.
+
+\textbf{Guide}: Knows the local landmarks within their specialist region
+(determined by the referee) and can lead the PCs to and from these
+landmarks without the risk of getting lost. If the party does get lost
+with a guide, there's a 4-in-6 chance that the guide is able to find the
+path again quickly. Guides sometimes enter dangerous regions, but they
+charge double for doing so.
+
+\textbf{Laborer}: Essentially unskilled, laborers are suitable for only
+the most menial sorts of work; this category includes bearers and
+porters, each of which is able to carry up to 12 slots of items, or
+twice that if a pole or other contrivance is utilized.
+
+\textbf{Leatherer}: Capable of producing a wide range of leather goods,
+such as packs, belts or riding gear; a leatherer is indispensable for
+the making of scabbards, sheathes, shields and the other leather
+components of arms and armour.
+
+\textbf{Limner}: Adept in the painting of signs and the illumination of
+heraldic devices, among other similar tasks.
+
+\textbf{Linkboy}: Usually hired to bear a lantern or torch, a linkboy is
+typically (but not always) a youth.
+
+\textbf{Mason}: Expert in the working of stone or plaster, masons are
+essential for the construction of many significant buildings and
+fortifications.
+
+\textbf{Pack Handler:} Practiced in the burdening, handling and
+unburdening of various pack animals.
+
+\textbf{Servant}: Typically serving as valets, butlers, maids,
+messengers or simple lackeys, servants are expected to look to the needs
+of their master.
+
+\textbf{Tailor}: Accomplished in the repair and making of clothes or
+other cloth items; the services of a tailor are also required for the
+production of various types of textile based armour and coverings.
+
+\textbf{Teamster}: Experienced drivers of carts and wagons, teamsters
+are usually experts at loading and unloading their vehicles, as well as
+handling the animals with which they are familiar.
+
+\subsection*{Mercenaries/Men-at-Arms}\label{mercenariesmen-at-arms}
+
+Mercenaries are as on pgs. 112-113 of \emph{OSE Advanced.} The majority
+of regular men-at-arms are zero-Level characters with 1d4+3 hit points.
+The following additional mercenaries are available (and in some cases
+required):
+
+\textbf{Captain}: Equivalent to a 5th- to 8th-Level warrior (1-4=5th,
+5-7=6th, 8-9=7th, 0=8th). A captain may lead 20 men at arms and one
+lieutenant per Level of experience, plus any necessary sergeants; the
+monthly wage demanded by a captain is equal to his Level x 100d..
+
+\textbf{Lieutenant}: Equivalent to a 2nd- (1-7) or 3rd- (8-0) Level
+warrior. A lieutenant may lead ten men at arms per Level of experience,
+plus any necessary sergeants. A lieutenant serving under a captain
+extends the number of troops the captain can effectively command and
+control. The monthly wage demanded by a lieutenant is equal to his Level
+x 100d..
+
+\textbf{Sergeant}: Equivalent to a 1st-Level warrior. A sergeant can
+lead up to ten men independently or in service to a lieutenant or
+captain. In any given company, there must be one sergeant for every five
+to ten men at arms. The monthly wage required by a sergeant is ten times
+that of the troop type he leads.
+
+A player character warrior of the appropriate Level may serve as a
+sergeant, lieutenant or captain, as might an allied non-player character
+fighter or retainer.
+
+\subsection*{Expert
+Hirelings/Specialists}\label{expert-hirelingsspecialists}
+
+Obtaining the services of very skilled craftsmen and other professional
+servitors typically involves the expenditure of considerable time and
+resources. While it is possible to retain such hirelings for short
+periods, few will agree to a term of less than a month and most expect
+to serve considerably longer.
+
+\begin{table}[ht]
+	\centering
+	\begin{threeparttable}
+	
+		\begin{tabular}{cc}
+			\toprule
+				Specialist & Monthly Wage \\
+			\midrule
+			Alchemist & 500d.{*} \\
+			Animal Trainer & 250d. \\
+			Armourer & 250d.{*} \\
+			Blacksmith & 110d. \\
+			Engineer (Architect) & 250d.{*} \\
+			Engineer (Artillerist) & 150d. \\
+			Engineer (Miner or Sapper) & 150d. \\
+			Jeweler/Gemcutter & 100d.{*} \\
+			Sage & Special \\
+			Scribe & 100d. \\
+			Ship Crew & 60d. \\
+			Ship Captain & 250d. \\
+			Spy & Special \\
+			Steward/Castellan & Special \\
+			Weaponsmith & 150d.{*} \\
+			\bottomrule
+		\end{tabular}
+		\begin{tablenotes}
+			\item [*] Cost does not include all remuneration or special fees.
+		\end{tablenotes}
+	\end{threeparttable}
+\end{table}
+
+\newpage
+
+\textbf{Alchemist}: Identify potions and substances. Based on a sample
+or recipe, an alchemist can produce a potion at twice the normal speed
+and for half the normal cost (see \emph{OSE Advanced, Magical Research,
+p126}). An alchemist may also research new or unknown potions, but this
+takes twice as long and costs twice as much as normal.
+
+\textbf{Animal Trainer}: Specialized trainers are required for exotic
+animals or larger numbers of normal animals. A trainer can have up to
+six animals under their care at a time. It will take a minimum of one
+uninterrupted month to teach an animal the first new behavior or trick.
+After this first month, an animal has become accustomed to the trainer
+and can be taught additional behaviors at twice the rate (two weeks per
+behavior).
+
+\textbf{Armourer}: Required for the production and maintenance of armour
+and shields; for every 60 men at arms or barded warhorses present, there
+must be at least one armourer available. Each must be provided with a
+workroom, forge, and assistants at an additional cost
+(\textasciitilde100d.). An armourer can use spare time (prorated based
+on number of supported troops) to make additional armour, helmets, or
+shields at 25\% of their usual cost. Per month, an armourer can make
+three shields or one suit of armour.
+
+\begin{wrapfigure}[13]{l}{0.3\textwidth}
+	\includegraphics[width=1\linewidth]{img/tinker.jpg}
+	\label{fig:tinker}
+\end{wrapfigure}
+
+\textbf{Blacksmith:} Essential for the basic maintenance of a stronghold
+and any resident soldiery; for every blacksmith retained the needs of up
+to one hundred and twenty men or horses can be met, but there must be at
+least one in every stronghold and a workroom and forge must be provided
+for each (\textasciitilde100d.). Besides the usual duties (horseshoes,
+nails, hinges, etc.) a hired smith can turn out some basic weaponry each
+month: 30 arrowheads or quarrel tips, or 10 spear heads, or 5
+morningstars, or 2 flails or polearm heads.
+
+\textbf{Engineer (Architect)}: Necessary for the successful construction
+of any but the most simple of surface structures. An architect requires
+payment by the month, even for short projects, and expects to receive an
+additional sum equal to 10\% of the total building costs. Unless the
+construction site was approved by an architect, there is a 75\% chance
+that any structure will collapse in 1d100 months.
+
+\textbf{Engineer (Artillerist)}: Mandatory for the construction and
+correct operation of siege weapons, such as the trebuchet or ballista.
+No such engines can be made or properly used without the services of
+such an individual. If employment is for short term only, say a few
+months or less, then rates of pay and costs will be increased from 10\%
+to 60\%.
+
+\textbf{Engineer (Miner or Sapper)}: Indispensable for the overseeing of
+any mining operations, underground construction, or siege and counter
+siege works that involve trenches, fortifications, assault towers and
+other similar siege devices.
+
+\textbf{Jeweler/Gemcutter}: Able to speedily and accurately appraise the
+value of most gems, jewelry and other precious objects, a jeweler is
+also capable of repairing, enhancing or newly creating ornamented items
+and jewelry. The total value of the materials can be increased by from
+10\% to 40\%, depending on the skill of the jeweler. Likewise, a
+gemcutter might well increase the value of a rough or poorly cut stone
+(those under 5,000d. base value), or the stone might be ruined in the
+process. Note that jeweler/gemcutters cannot be held responsible for
+damage. Dwarven jeweler/gemcutters add 20\% to skill level determination
+rolls, but cost twice as much to employ.
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+			Jeweler Skill Level & \\
+		\midrule\noalign{}
+			01-20 & Fair---10\% increase 90\% likely \\
+			21-50 & Good---20\% increase 50\% likely, +10\% otherwise \\
+			51-75 & Superior---30\% increase 60\% likely, +10\% otherwise \\
+			76-90 & Excellent---40\% increase 70\% likely, +10\% otherwise \\
+			91-00 & Masterful---40\% increase 60\% likely, +20\% otherwise \\
+		\bottomrule\noalign{}
+	\end{tabular}
+\end{table}
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+			Gemcutter Skill Level & \\
+		\midrule
+			01-30 & Shaky---d12, one roll, 1 improves, 10-12 ruins stone \\
+			31-60 & Fair---d12, one roll, 1-2 improves, 12 ruins \\
+			61-90 & Good---d12, one roll, 1-3 improves, 12 ruins \\
+			91-00 & Superb---d20, 1-5 improves, 20 ruins stone \\
+		\bottomrule\noalign{}
+\end{tabular}
+\end{table}
+
+\newpage
+
+\textbf{Sage}: A person with a degree of knowledge on just about
+everything, a lot of knowledge in a few specific fields, and
+authoritative knowledge in his or her special fields of study. Each sage
+specializes in one or more minor fields of study, and a handful of
+special categories within a major field of study. A sage will only
+accept service on a permanent, lifetime basis. As a sage will bring
+nothing save thinking ability and knowledge, an offer of employment must
+consider the following:
+
+\begin{table}[ht]
+	\centering
+	\begin{tabular}{cc}
+		\toprule
+			Support \& Salary per Month & 100 to 300d. \\
+			Research Grants per Month & 100 to 300d. \\
+			Initial Material Expenditure & 5,000d. minimum* \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\emph{*A 5,000d. expenditure will allow the sage to operate at 50\% of
+normal efficiency, and for each additional 250d. thereafter, the sage
+will add 1\% to efficiency until 90\% is reached (upon expenditure of
+15,000d.). After 90\%, to achieve 100\% efficiency the cost per 1\% is
+1,000d. (for the obviously erudite and rare tomes, special supplies and
+equipment, etc. - assuming such are available, of course). All told,
+expenditures must be 25,000d. for 100\% sage efficiency in specific and
+exacting question areas.}
+
+A sage can translate any language associated with their specialist
+field, costing 50d. per inscription or per page of text. A sage can also
+identify items and answer basic questions relating to their specialist
+field, costing 100d. per consultation. These fees count toward the
+sage's monthly support \& salary, but if the salary has been ``capped
+out,'' the fee must still be paid for each task.
+
+Characters can inquire occasionally of a sage for individual or one-off
+jobs, but longer employment requires a full commitment from a player
+character and full hiring as noted above.
+
+\textbf{Scribe}: Practiced in the art of writing, a typical scribe is
+expected to keep records, write letters and copy documents. Others may
+possess additional skills, such as cartography, counterfeiting,
+cryptography, illuminating or the ability to write, read or otherwise
+comprehend more than one language. Such accomplished individuals might
+command up to ten times the standard wage.
+
+\textbf{Ship Crew}: Skilled workers who can handle a ship. Sailors can
+fight to defend their ship, typically being equipped with a sword,
+shield, and leather armour.
+
+\textbf{Ship's Captain}: A captain is required for any large ship, is
+skilled like a sailor, and has an intimate knowledge of the particular
+coasts they frequent.
+
+\textbf{Spy}: Recruited to secretly watch the actions of others and
+gather information, fees may vary wildly, from perhaps a mere hundred
+silver pieces to many thousands, depending on the individual and the
+difficulty of what is asked.
+
+\textbf{Steward/Castellan}: Responsible for the administration of a
+stronghold in the absence or inability of a player character, a steward
+holds a position of great prestige and trust. Whilst serving within the
+stronghold, a steward is capable of leading forty men at arms and two
+lieutenants for every Level of experience he possesses, as well as the
+necessary number of sergeants. The monthly wage due to a steward is
+equal to his Level x 100d.. A retainer of an appropriate class and Level
+could be appointed as steward.
+
+\textbf{Weaponsmith}: Required for the production and maintenance of
+weaponry; for every sixty men at arms present, there must be at least
+one weaponsmith available. Each must be provided with a workroom, forge,
+and assistants at an additional cost (\textasciitilde100d.). A
+weaponsmith can use spare time (prorated based on number of supported
+troops) to make additional weapons at a rate of five weapons per month
+at 25\% of their usual cost.
+
+\bigskip
+
+\begin{figure}[hb]
+	\centering
+	\includegraphics[width=.4\linewidth]{img/candle.jpg}
+	\label{fig:candle}
+\end{figure}
+
+\end{document}
