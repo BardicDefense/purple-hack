@@ -11,10 +11,6 @@ Links:
 
 # Character Creation
 
-<div class="multicols">
-
-2
-
 ## Roll Your Stats
 
 Roll 3d6 down the line for each of the skills below. You can swap one set of
@@ -186,11 +182,11 @@ but will provide no ability score increase.
   2. Trip them (they become prone; two-legged creatures only)
 
   3. Drive them directly back 5 feet, if the space is available to do so. You
-      may follow up immediately with a free 5-foot move of your own, even if you
-      have already made your full move this turn or are otherwise locked in
-      combat.  
-      If none of those are possible or desired, then instead you bash them for
-      an additional 1d4 damage (+2 per Name Level).
+     may follow up immediately with a free 5-foot move of your own, even if you
+     have already made your full move this turn or are otherwise locked in
+     combat.  
+     If none of those are possible or desired, then instead you bash them for an
+     additional 1d4 damage (+2 per Name Level).
 
 - **Captain**: Some are born to command. Add a +1 attack bonus to all other
   party members and associated NPCs, raised to +2 at Level 10 or higher (this
@@ -449,18 +445,12 @@ mod slots of stowed items. Your encumbrance–which determines your speed in
 combat and exploration, and your travel points available–is based on how many
 slots you have occupied:
 
-<div class="adjustbox">
-
-width=1,center=
-
 | Equipped Slots |  Stowed Slots   | Combat Speed | Exploration Speed | Normal Travel | Forced March |
 | :------------: | :-------------: | :----------: | :---------------: | :-----------: | :----------: |
 |      0-3       |      0-10       |     40’      |       120’        |     8 pts     |    12 pts    |
 |      4-5       |      11-12      |     30’      |        90’        |     6 pts     |    9 pts     |
 |      6-7       |      13-14      |     20’      |        60’        |     4 pts     |    6 pts     |
 | 8-10 + Str mod | 15-16 + Str mod |     10’      |        30’        |     2 pts     |    3 pts     |
-
-</div>
 
 For ease of communication, each of these tiers of encumbrance are referred to by
 their associated combat speed. For example, moving at “Speed 20” means you have
@@ -570,15 +560,7 @@ Finally, you can add “costed” items, which do cost money at character creati
 
 ### Costed Items
 
-<div class="multicols">
-
-2
-
 > _40 copper farthings (f.) = 10 silver pence (d.) = 1 gold noble (g.)_
-
-<div class="adjustbox">
-
-width=0.9,center=
 
 |                Item                 | Cost |     |     |
 | :---------------------------------: | :--: | :-: | :-: |
@@ -596,13 +578,6 @@ width=0.9,center=
 |          Tent, single (L)           | 20d. |     |     |
 |     Thieves’ picks & tools (M)      | 12d. |     |     |
 |         Wolfsbane sprig (S)         | 1d.  |     |     |
-
-</div>
-
-<figure id="fig:coins">
-<p><img src="img/coins.jpg" style="width:30.0%" alt="image" /> <span
-id="fig:coins" data-label="fig:coins"></span></p>
-</figure>
 
 **Acid, vial**: Can splash contents on a target within 5’ or hurl it as a small
 thrown weapon; it shatters on impact. A hit deals 1d6+1 acid damage. A vial can
@@ -718,8 +693,6 @@ ammunition is readily at hand (except for crossbows, which require an action to
 load). All missile weapons have three range brackets (Short, Medium, Far).
 Attacks made against targets at a given range apply the attack penalty listed.
 
-<div class="threeparttable">
-
 |         Weapon        | Size & Damage | Cost | Hands | S:0 | M:-4 | F:-8 |
 | :-------------------: | :-----------: | :--: | :---: | :-: | :--: | :--: |
 |   Arrows/bolts x20    |       M       | 20d. |  \-   | \-  |  \-  |  \-  |
@@ -732,19 +705,13 @@ Attacks made against targets at a given range apply the attack penalty listed.
 |         Sling         |       S       | 1d.  |   1   | 45’ | 90’  | 180’ |
 |  Small thrown weapon  |       S       | 12d. |   1   | 10’ | 20’  | 30’  |
 
-<div class="tablenotes">
+\*If fired indoors, halve all ranges.
 
-If fired indoors, halve all ranges.
+\*\*+2 attack bonus, reload requires action.
 
-+2 attack bonus, reload requires action.
+\*\*\*See costed equipment list above for details.
 
-See costed equipment list above for details.
-
-Plus user’s Str modifier.
-
-</div>
-
-</div>
+†Plus user’s Str modifier.
 
 ## Animals & Mounts
 
@@ -765,10 +732,6 @@ Plus user’s Str modifier.
 |     Cart      | 60d.  |
 | Feed, per day |  1d.  |
 |     Wagon     | 800d. |
-
-<div class="multicols">
-
-2
 
 **Cart**: Open, road-bound, two-wheeled vehicle. Pulled by 1-2 beasts of burden.
 Capacity: 2x of the animals drawing it.
@@ -829,10 +792,6 @@ have.
 
 # Combat
 
-<div class="multicols">
-
-2
-
 ## Surprise
 
 Each party unaware of the other’s presence rolls to see if they’re surprised.
@@ -878,10 +837,6 @@ rolls to see how they react to the players _before_ actions are taken.
 If the players do not immediately attack, the referee rolls on the Reaction
 Table, applying -2 to the roll if the creatures encountered are Evil, and
 rerolling Hostile results if the creatures are Good:
-
-<div class="adjustbox">
-
-width=1,center=
 
 | 2d6  |                    Behavior                     |
 | :--: | :---------------------------------------------: |
@@ -1260,12 +1215,6 @@ Characters who are slain may be raised from the dead if a Mage of sufficient
 Level is available to perform the casting. Each time a character is brought back
 from the dead, their Constitution score is reduced by one point.
 
-<div class="center">
-
----
-
-</div>
-
 # General Adventuring
 
 ## Climbing
@@ -1426,7 +1375,7 @@ sturdy item).
 You gain experience in three ways:
 
 1. You gain experience primarily through recovering treasure: 1f. recovered =
-    1XP (so 4XP per 1d. recovered).
+   1XP (so 4XP per 1d. recovered).
 
 2. You gain experience for killing monsters.
 
@@ -2197,20 +2146,20 @@ partners he may have. Many merchant captains own their own ship.
 Some basic running costs:
 
 1. **Supplies**: Food and water for each crewman, costing 4d./week. Passengers
-    bring their own supplies.
+   bring their own supplies.
 
 2. **Wages**: Crew wages are paid every four weeks, typically at a port.
 
 3. **Cargo Handling**: Ports charge every ship a fee for taking up space on the
-    quayside, and for unloading cargos. The cost is usually 4d./week. Merchant
-    ships who shift their own cargo pay half this fee.
+   quayside, and for unloading cargos. The cost is usually 4d./week. Merchant
+   ships who shift their own cargo pay half this fee.
 
 4. **Repairs**: Each ship strength point repaired takes one week and costs 20d.
-    in materials.
+   in materials.
 
 5. **Taxes**: Vary, but usually 2% of the flat cost of cargo or trade goods. A
-    captain does not pay the tax on a contracted cargo, the recipient awaiting
-    delivery does that.
+   captain does not pay the tax on a contracted cargo, the recipient awaiting
+   delivery does that.
 
 | Position    | Monthly Pay |
 | :---------- | :---------- |
@@ -2664,12 +2613,6 @@ provided that the dagger doesn’t already possess any other 2nd tier tags.
 | **Superior**               | _Balanced_ and _keen_ or _oiled string_ tag.                           | The damage die of this weapon is increased by one size (for example, 1d4 becomes 1d6, 1d6 becomes 1d8, and 1d8 becomes 1d10).                                                                                                                                 |
 |                            |                                                                        | _3rd Tier (base cost: 10,000d.)_                                                                                                                                                                                                                              |
 | **Masterwork**             | _Brutal_ or _superior_ tag                                             | You gain an additional +1 bonus to attack and damage rolls made with this weapon.                                                                                                                                                                             |
-
-<div class="center">
-
----
-
-</div>
 
 # Wilderness Exploration
 
