@@ -1,5 +1,5 @@
 \documentclass{article}
-\usepackage{geometry, booktabs, tabularx, threeparttable, float}
+\usepackage{geometry, booktabs, tabularx, threeparttable, float, changepage}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{hyperref}
 \usepackage{longtable}
@@ -219,7 +219,7 @@ reflecting their preferred manner of fighting:
 Can use any weapon or armour, so long as they meet its strength minimum,
 if any, but they can't normally cast spells in armour. Receive attack
 bonus of +1 every two Levels, starting at Level 2. All spells are
-divided into eight schools (see \hyperref[magic--spells]{Magic \&
+divided into eight schools (see \hyperref[magic-spells]{Magic \&
 Spells}). By default, mages have access to four schools (one chosen, and
 three rolled randomly). After rolling, a mage can trade away access to
 one school (up to two maximum) in exchange for one of the following
@@ -248,7 +248,7 @@ creation):
 from each school to which they have access. Specialists then select one
 extra 1st-Rank spell of their choice from their specialty school. Mages
 can prepare a limited number of spells each day, and gain further spell
-slots as they gain Levels (see \hyperref[magic--spells]{Magic \&
+slots as they gain Levels (see \hyperref[magic-spells]{Magic \&
 Spells}).
 
 \subsection*{Determine Background}\label{determine-background}
@@ -486,7 +486,7 @@ All characters start with innumerable general adventuring skills (like
 Survival, Climbing, or Stealth) at a Skill Target of 6. In general, each
 time a character selects a skill, the Skill Target of that skill is
 reduced by 1. A Skill Target cannot be reduced below 2. (See
-\hyperref[checks--saves]{checks \& saves}.)
+\hyperref[checks-saves]{checks \& saves}.)
 
 Other skills are more specialized or non-intuitive (like reading lips or
 lockpicking), and reflect special training, deep knowledge, or intense
@@ -792,7 +792,7 @@ their prices may differ from the prices below.}
 \end{quote}
 \begin{table}[H]
 \begin{adjustbox}{width=0.9\columnwidth,center=\columnwidth}
-\begin{tabular}{cccc}
+\begin{tabular}{ll}
 \toprule
 Item & Cost \\
 \midrule
@@ -884,7 +884,7 @@ An unarmoured character has a base Armour Class of 10.
 
 \begin{table}[ht]
 \centering
-    \begin{tabular}{cccc}
+    \begin{tabular}{lccc}
     \toprule
     Armour & AC & Cost & Time to Don/Doff \\
     \midrule
@@ -961,7 +961,7 @@ range apply the attack penalty listed.
 \begin{table}[ht]
 \centering
     \begin{threeparttable}[b]
-        \begin{tabular}{ccccccc}
+        \begin{tabular}{lcccccc}
             \toprule\
                 Weapon &  Size \& Damage & Cost & Hands
                 & S:0 & M:-4 & F:-8 \\
@@ -991,7 +991,7 @@ range apply the attack penalty listed.
 \begin{table}[ht]
     \begin{minipage}{.5\linewidth}
         \centering
-        \begin{tabular}{ccccc}
+        \begin{tabular}{lcccc}
             \toprule
                 Animal & Cost & Size & Combat Speed & Item Slot Limit \\
             \midrule
@@ -1009,7 +1009,7 @@ range apply the attack penalty listed.
     \end{minipage}%
     \begin{minipage}{.5\linewidth}
         \flushright
-        \begin{tabular}{cc}
+        \begin{tabular}{lc}
             \toprule
                 Item & Cost \\
             \midrule
@@ -1601,7 +1601,7 @@ pursuit round. However, neither mapping nor spellcasting can occur.
 
 \begin{table}[ht]
 	\centering
-	\begin{tabular}{cc}
+	\begin{tabular}{lc}
 		\toprule
 		Fleeing Side & Modifier \\
 		\midrule
@@ -1616,7 +1616,7 @@ pursuit round. However, neither mapping nor spellcasting can occur.
 
 \begin{table}[ht]
 	\centering
-	\begin{tabular}{cc}
+	\begin{tabular}{lc}
 		\toprule
 		Pursuing Side & Modifier \\
 		\midrule
@@ -1685,7 +1685,7 @@ fails, the character falls at the halfway point (see
 
 \begin{wrapfigure}[5]{r}{0.2\textwidth}
 	\includegraphics[width=1\linewidth]{img/grapplinghook.jpg}
-	\label{fig:deadwarrior}
+	\label{fig:grapplinghook}
 \end{wrapfigure}
 
 Base climbing speed is 5' per round. Add 5' if the climber has the
@@ -2260,19 +2260,22 @@ applicant shows up who fits the requirements.
 
 When a general search succeeds, roll on the following table:
 
-\begin{longtable}[]{@{}ccc@{}}
-\toprule\noalign{}
-Settlement Size & Townsfolk & Adventurers \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-Hamlet & 1d2 & -- \\
-Village (VI) & 1d4 & 1 \\
-Small Town (IV-V) & 1d6 & 1d3 \\
-Large Town (III) & 2d4 & 1d4 \\
-City (I-II) & 2d6 & 1d6 \\
-\end{longtable}
+\paragraph{}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}[]{@{}lcc@{}}
+		\toprule\noalign{}
+			Settlement Size & Townsfolk & Adventurers \\
+		\midrule\noalign{}
+			Hamlet & 1d2 & -- \\
+			Village (VI) & 1d4 & 1 \\
+			Small Town (IV-V) & 1d6 & 1d3 \\
+			Large Town (III) & 2d4 & 1d4 \\
+			City (I-II) & 2d6 & 1d6 \\
+		\bottomrule\noalign{}
+	\end{tabular}
+\end{table}
 
 Townsfolk are everyday folk without a Class willing to join an
 adventuring party. Usually used as torchbearers or porters, they come
@@ -2454,43 +2457,45 @@ interaction, or even combat.
 
 \begin{multicols}{2}
 
-\begin{longtable}[]{@{}cl@{}}
-\toprule\noalign{}
-Dice & Coastal Encounters \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-2 & Vessel in trouble \\
-3 & Pirate/marauder ship \\
-4 & Wreckage \\
-5 & Vessel with secret \\
-6 & Merchant ship \\
-7-8 & -- \\
-9 & Military patrol \\
-10 & Royal courier ship \\
-11 & Familiar vessel \\
-12 & Monster \\
-\end{longtable}
+\begin{table}[H]
+	\centering
+	\begin{tabular}[]{@{}cl@{}}
+		\toprule\noalign{}
+			Dice & Coastal Encounters \\
+		\midrule\noalign{}
+			2 & Vessel in trouble \\
+			3 & Pirate/marauder ship \\
+			4 & Wreckage \\
+			5 & Vessel with secret \\
+			6 & Merchant ship \\
+			7-8 & -- \\
+			9 & Military patrol \\
+			10 & Royal courier ship \\
+			11 & Familiar vessel \\
+			12 & Monster \\
+		\bottomrule\noalign{}
+	\end{tabular}
+\end{table}
 
-\begin{longtable}[]{@{}cl@{}}
-\toprule\noalign{}
-Dice & Deep Sea Encounters \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-2 & Vessel in trouble \\
-3 & Merchant ship \\
-4 & Wreckage \\
-5 & Pirate/marauder ship \\
-6 & Monster \\
-7-8 & -- \\
-9 & Monster \\
-10 & Pirate/marauder ship \\
-11 & Merchant ship \\
-12 & Military patrol \\
-\end{longtable}
+\begin{table}[H]
+	\centering
+	\begin{tabular}[]{@{}cl@{}}
+		\toprule\noalign{}
+			Dice & Deep Sea Encounters \\
+		\midrule\noalign{}
+			2 & Vessel in trouble \\
+			3 & Merchant ship \\
+			4 & Wreckage \\
+			5 & Pirate/marauder ship \\
+			6 & Monster \\
+			7-8 & -- \\
+			9 & Monster \\
+			10 & Pirate/marauder ship \\
+			11 & Merchant ship \\
+			12 & Military patrol \\
+		\bottomrule\noalign{}
+	\end{tabular}
+\end{table}
 
 \end{multicols}
 
@@ -2531,20 +2536,21 @@ Some basic running costs:
   recipient awaiting delivery does that.
 \end{enumerate}
 
-\begin{longtable}[]{@{}ll@{}}
-\toprule\noalign{}
-Position & Monthly Pay \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-Captain & 250d. \\
-Navigator & 175d. \\
-Helmsman & 150d. \\
-Windcaster & 100d. \\
-Senior Crew & 60d. \\
-Crew & 40d. \\
-\end{longtable}
+\begin{table}[H]
+	\centering
+	\begin{tabular}[]{@{}lc@{}}
+		\toprule\noalign{}
+			Position & Monthly Pay \\
+		\midrule\noalign{}
+			Captain & 250d. \\
+			Navigator & 175d. \\
+			Helmsman & 150d. \\
+			Windcaster & 100d. \\
+			Senior Crew & 60d. \\
+			Crew & 40d. \\
+		\bottomrule\noalign{}
+	\end{tabular}
+\end{table}
 
 \begin{figure}[H]
 	\centering
@@ -2568,7 +2574,7 @@ must be stated beforehand).
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{cccc}
+	\begin{tabular}{lccc}
 		\toprule
 		Type of Port & Deck Passengers 
 		& Cabin Passengers & Contracted Cargoes \\
@@ -2641,7 +2647,7 @@ and the crews are trained to fight. Most include cabins.
 \begin{table}[h]
 	\begin{adjustbox}{width=1\textwidth,center=\textwidth}
 	\begin{threeparttable}
-	\begin{tabular}{cccccc}
+	\begin{tabular}{lccccc}
 		\toprule\noalign{}
 			Ship Type & 
 			Passengers (cabin/deck) & 
@@ -2875,7 +2881,7 @@ Available}\label{bulk-trade-loads-available}
 
 \begin{table}[H]
 	\centering
-	\begin{tabular}{cc}
+	\begin{tabular}{lc}
 		\toprule
 			Market Class & Loads Available \\
 		\midrule
@@ -2890,7 +2896,7 @@ Available}\label{bulk-trade-loads-available}
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=.6\columnwidth]{img/cart.jpg}
-	\label{fig:kraken}
+	\label{fig:cart}
 \end{figure}
 
 \end{multicols}
@@ -2977,7 +2983,7 @@ See full \href{/spells.md}{arcane spell list here}, and the full
 	Table}\label{arcane-spell-slot-progression-table}
 
 This shows the number of spells of a given spell Rank that a caster can
-\hyperref[casting--preparing]{prepare} per day (also known as their
+\hyperref[casting-preparing]{prepare} per day (also known as their
 spell slots). Mages are the first number, Arcanist Warriors are the
 number in parentheses. If the mage is a specialist, they add one to each
 Rank's spell slot total if they can cast spells of that Rank. If a spell
@@ -3565,7 +3571,7 @@ further raise the cost.
 \begin{table}[ht]
 	\centering
 	\begin{adjustbox}{width=1\textwidth,center=\textwidth}
-	\begin{tabular}{cccc}
+	\begin{tabular}{lccc}
 		\toprule
 		Terrain Type & 
 		Entry/Search Cost & 
@@ -3956,7 +3962,7 @@ to serve considerably longer.
 	\centering
 	\begin{threeparttable}
 	
-		\begin{tabular}{cc}
+		\begin{tabular}{lc}
 			\toprule
 				Specialist & Monthly Wage \\
 			\midrule
@@ -4094,7 +4100,7 @@ consider the following:
 
 \begin{table}[ht]
 	\centering
-	\begin{tabular}{cc}
+	\begin{tabular}{lc}
 		\toprule
 			Support \& Salary per Month & 100 to 300d. \\
 			Research Grants per Month & 100 to 300d. \\
@@ -4160,12 +4166,3032 @@ weaponsmith can use spare time (prorated based on number of supported
 troops) to make additional weapons at a rate of five weapons per month
 at 25\% of their usual cost.
 
-\bigskip
+\vfill
 
 \begin{figure}[hb]
 	\centering
 	\includegraphics[width=.4\linewidth]{img/candle.jpg}
 	\label{fig:candle}
 \end{figure}
+
+\newpage
+
+\section{Arcane Spells}\label{arcane-spells}
+\begin{multicols}{4}
+	
+\subsubsection*{Abjuration Spells}\label{abjuration-spells}
+\begin{table}[H]
+	\begin{adjustbox}{width=1\columnwidth,center=\columnwidth}
+		\begin{tabular}{cl}
+			\toprule\noalign{}
+				Rank & Spell \\
+			\midrule\noalign{}
+				1 & Alarm \\
+				1 & Arcane Ward \\
+				1 & Endure Heat \& Cold \\
+				1 & Shield \\
+				2 & Counterspell \\
+				2 & Mind Shield \\
+				2 & Protection from Missiles \\
+				2 & Protection from Poison \\
+				3 & Dispel Magic \\
+				3 & Nondetection \\
+				3 & Protection from Undead \\
+				3 & Protection from Unnatural \\
+				4 & Free Action \\
+				4 & Hex Weaving \\
+				4 & Minor Globe of Invulnerability \\
+				4 & Sanctum \\
+				5 & Antimagic Shell \\
+				5 & Banish Supernatural \\
+				5 & Spell Turning \\
+				5 & Wall of Force \\
+				6 & Globe of Invulnerability \\
+				6 & Symbol \\
+				6 & Unbinding \\
+			\bottomrule
+		\end{tabular}
+	\end{adjustbox}
+\end{table}
+	
+\vfill
+
+\subsubsection*{Evocation Spells}\label{evocation-spells}
+
+\begin{table}[H]
+	\begin{adjustbox}{width=1\columnwidth,center=\columnwidth}
+		\begin{tabular}{cl}
+			\toprule
+			Rank & Spell \\
+			\midrule
+			1 & Crystal Resonance \\
+			1 & Firelight \\
+			1 & Floating Disc \\
+			1 & Ioun Shard \\
+			2 & Arcane Lock \\
+			2 & Burning Hands \\
+			2 & Shocking Strike \\
+			2 & Silence \\
+			3 & Chromatic Orb \\
+			3 & Fireball \\
+			3 & Lightning Bolt \\
+			3 & Serpent Glyph \\
+			4 & Mnemonic Enhancer \\
+			4 & Sending \\
+			4 & Telekinesis \\
+			4 & Wingbind \\
+			5 & Blade Barrier \\
+			5 & Clenched Fist \\
+			5 & Contingency \\
+			5 & Delayed Blast Fireball \\
+			6 & Disintegrate \\
+			6 & Earthquake \\
+			6 & Power Word \\
+			\bottomrule
+		\end{tabular}
+	\end{adjustbox}
+\end{table}
+
+\subsubsection*{Conjuration Spells}\label{conjuration-spells}
+\begin{table}[H]
+	\begin{adjustbox}{width=1\columnwidth,center=\columnwidth}
+		\begin{tabular}{cl}
+			\toprule\noalign{}
+				Rank & Spell \\
+			\midrule\noalign{}
+				1 & Curse \\
+				1 & Fog \\
+				1 & Grease \\
+				1 & Unseen Servant \\
+				2 & Gust of Wind \\
+				2 & Phantom Steed \\
+				2 & Stinking Cloud \\
+				2 & Web \\
+				3 & Black Tentacles \\
+				3 & Conjure Animals \\
+				3 & Rope Trick \\
+				3 & Solvent \\
+				4 & Banishment \\
+				4 & Dimension Door \\
+				4 & Duplicate \\
+				4 & Elemental Wall \\
+				5 & Air Sphere \\
+				5 & Cloudkill \\
+				5 & Conjure Elemental \\
+				5 & Teleport \\
+				6 & Dweomerfire \\
+				6 & Invisible Stalker \\
+				6 & Meteor Swarm \\
+			\bottomrule\noalign{}
+		\end{tabular}
+	\end{adjustbox}
+\end{table}
+
+\vfill
+\subsubsection*{Illusion Spells}\label{illusion-spells}
+
+\begin{table}[H]
+	\begin{adjustbox}{width=1\columnwidth,center=\columnwidth}
+		\begin{tabular}{cl}
+			\toprule
+			Rank & Spell \\
+			\midrule
+			1 & Blur \\
+			1 & Faerie Fire \\
+			1 & Minor Illusion \\
+			1 & Ventriloquism \\
+			2 & Change Self \\
+			2 & Invisibility \\
+			2 & Mirror Image \\
+			2 & Phantasmal Force \\
+			3 & Blindness \\
+			3 & Disguise \\
+			3 & Invisibility Sphere \\
+			3 & Spectral Force \\
+			4 & Hallucinatory Terrain \\
+			4 & Improved Invisibility \\
+			4 & Programmed Illusion \\
+			4 & Woodland Veil \\
+			5 & Advanced Illusion \\
+			5 & Permanent Illusion \\
+			5 & Seeming \\
+			5 & Sensory Deprivation \\
+			6 & Illusory Kingdom \\
+			6 & Phantasmal Slayer \\
+			6 & Project Image \\
+			\bottomrule
+		\end{tabular}
+	\end{adjustbox}
+\end{table}
+
+\columnbreak
+	
+	\subsubsection*{Divination Spells}\label{divination-spells}
+	
+\begin{table}[H]
+	\begin{adjustbox}{width=1\columnwidth,center=\columnwidth}
+		\begin{tabular}{cl}
+			\toprule
+				Rank & Spell \\
+			\midrule
+				1 & Comprehend Languages \\
+				1 & Detect Illusion \\
+				1 & Detect Magic \\
+				1 & Detect Portals \& Passages \\
+				2 & Detect Traps \\
+				2 & Guide \\
+				2 & Mind Crystal \\
+				2 & Perceive the Invisible \\
+				3 & Crystal Vision \\
+				3 & Locate Object \\
+				3 & Tongues \\
+				3 & Wizard Eye \\
+				4 & Clairvoyance \\
+				4 & Divination \\
+				4 & Know Weakness \\
+				4 & Magic Mirror \\
+				5 & Anticipation \\
+				5 & Find the Path \\
+				5 & Oracle \\
+				5 & True Seeing \\
+				6 & Foresight \\
+				6 & Legend Lore \\
+				6 & Scrye \\
+			\bottomrule
+		\end{tabular}
+	\end{adjustbox}
+\end{table}
+	
+\vfill
+\subsubsection*{Necromancy Spells}\label{necromancy-spells}
+
+\begin{table}[H]
+	\begin{adjustbox}{width=1\columnwidth,center=\columnwidth}
+		\begin{tabular}{cl}
+			\toprule
+			Rank & Spell \\
+			\midrule
+			1 & Chill Touch \\
+			1 & Cure Light Wounds \\
+			1 & Grave Shroud \\
+			1 & Turn Undead \\
+			2 & Assist \\
+			2 & Unflagging Endurance \\
+			2 & Ray of Fatigue \\
+			2 & Transfer \\
+			3 & Cloak of the Void \\
+			3 & Cure Sickness \\
+			3 & Cure Serious Wounds \\
+			3 & Vampiric Touch \\
+			4 & Animate Dead \\
+			4 & Blight \\
+			4 & Destroy Undead \\
+			4 & Speak with Dead \\
+			5 & Control Undead \\
+			5 & Cure Critical Wounds \\
+			5 & Raise Dead \\
+			5 & Restoration \\
+			6 & Deathshroud \\
+			6 & Energy Drain \\
+			6 & Finger of Death \\
+			\bottomrule
+		\end{tabular}
+	\end{adjustbox}
+\end{table}
+
+\columnbreak
+
+\subsubsection*{Enchantment Spells}\label{enchantment-spells}
+	
+\begin{table}[H]
+	\begin{adjustbox}{width=1\columnwidth,center=\columnwidth}
+		\begin{tabular}{cl}
+			\toprule
+			Rank & Spell \\
+			\midrule
+				1 & Animal Friendship \\
+				1 & Command \\
+				1 & Friends \\
+				1 & Sleep \\
+				2 & Charm \\
+				2 & Enrage \\
+				2 & Forget \\
+				2 & Pacify \\
+				3 & Fear \\
+				3 & Hold Person \\
+				3 & Hypnotic Pattern \\
+				3 & Suggestion \\
+				4 & Confusion \\
+				4 & Dominate \\
+				4 & Fumble \\
+				4 & Overlook \\
+				5 & Feeblemind \\
+				5 & Hold Monster \\
+				5 & Mass Charm \\
+				5 & Mass Suggestion \\
+				6 & Geas/Quest \\
+				6 & Glamer \\
+				6 & Mass Domination \\
+			\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+		
+\vfill
+
+\subsubsection*{Transmutation Spells}\label{transmutation-spells}
+
+\begin{table}[H]
+	\begin{adjustbox}{width=1\columnwidth,center=\columnwidth}
+		\begin{tabular}{cl}
+			\toprule
+			Rank & Spell \\
+			\midrule
+	1 & Enlarge (R) \\
+	1 & Feather Fall \\
+	1 & Nullify Poison \\
+	1 & Pass Without Trace \\
+	2 & Arcane Cipher \\
+	2 & Knock \\
+	2 & Spider Climb \\
+	4 & Enhance \\
+	4 & Fabricate \\
+	4 & Polymorph Self \\
+	4 & Transmute Rock to Mud (R) \\
+	5 & Fly \\
+	5 & Iron Body \\
+	5 & Passwall \\
+	5 & Reverse Gravity \\
+	6 & Control Water \\
+	6 & Control Weather \\
+	6 & Move Terrain \\
+	6 & Shape Change \\
+			\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\end{multicols}
+\newpage
+
+\subsection*{Spell Details}\label{spell-details}
+
+Each spell has a spell rank, range, and duration.
+
+\subsubsection*{Range}\label{range}
+
+Range is the maximum distance of the spell's target, not its area of
+effect (though sometimes these are the same). Ranged spells must obey
+the normal rules on line of sight and blocked targets, but do not suffer
+range modifiers. Spells typically have one of five ranges:
+
+\begin{itemize}
+	\tightlist
+	\item
+	Self: The spell can only target the caster. However, if the range is
+	``Self'' followed by an area, the effect emits from the caster and
+	covers the area specified.
+	\item
+	Touch: The spell requires the caster to touch the target creature or
+	object to affect it, which means that the caster must be within 5 feet
+	of the target at the start of the Magic Phase (when the spell
+	resolves). The target can be the caster: if so, the ``touch'' is
+	automatic. A normal attack roll is required if the target is hostile.
+	\item
+	Short: The spell reaches up to 40 feet. This range increases by 5 feet
+	for every two caster levels.
+	\item
+	Medium: Up to 100 feet, plus 10 feet per two caster levels.
+	\item
+	Long: Up to 400 feet, plus 20 feet per two caster levels.
+\end{itemize}
+
+\subsubsection*{Duration}\label{duration}
+
+This is the amount of time the spell is in effect. A caster can dispel
+their own non-Instant spell effect at will, as a free action.
+
+\begin{itemize}
+	\tightlist
+	\item
+	Instant: The spell effect comes and goes the moment the spell is cast,
+	though the consequences (such as damage) might last beyond this.
+	\item
+	Timed: Unless dispelled by the caster, the spell lasts until its
+	listed time has passed. If a spell's duration is variable, the
+	duration is rolled secretly by the GM (i.e.~the caster doesn't know
+	how long their spell will last).
+	\item
+	Concentration: The spell requires that the caster concentrate on it to
+	keep its effect active. This prevents the casting of another spell and
+	other actions, but movement is still allowed. Anything that would
+	disrupt a spell's casting also breaks a caster's concentration while
+	maintaining one, thus ending the spell.
+	\item
+	Permanent: Unless dispelled by the caster, the effect is permanent.
+	The effect may still be vulnerable to Dispel Magic or other means of
+	destruction; if so, this will be specified in the spell description.
+\end{itemize}
+
+\subsubsection*{Area of Effect}\label{area-of-effect}
+
+For spells with an area of effect, the caster selects a point within
+range to centre the effect area, but cannot control what a spell affects
+within that area unless the spell states otherwise. If using a grid map,
+a spell's centre point must be at a grid-line intersection, not a
+square.
+
+The area of effect listed for spells (AoE) may have two values. If so,
+the first is radius, while the second is the full area of effect in
+5-foot squares, if using a grid map. The latter can lead to
+counterintuitive results (e.g.~square fireballs), but is an ease-of-use
+abstraction to avoid annoyances with diagonals.
+
+\subsubsection*{Reversible Spells (R)}\label{reversible-spells-r}
+
+Some spells are reversible: this will be noted in the spell's title and
+description. When one gains a reversible spell both forms are learned,
+but each is a different spell for the purposes of preparing spells. For
+example, Haste and Slow would occupy separate spell slots (and each
+could be prepared up to twice).
+
+\subsubsection*{Saving Throws}\label{saving-throws}
+
+Spells that allow a save have this noted in their description, with the
+relevant Ability modifier to add along with the target needed to
+succeed. If the spell does damage, a successful save reduces the damage
+to that subject by half (round normally); for all other spells a save
+nullifies the effect on that subject unless stated otherwise. If a spell
+indicates an Ability*2, this means to add the target's Ability Score
+modifier twice to their saving throw roll.
+
+\paragraph{Saving Throws \& Illusions}\label{saving-throws-illusions}
+
+Illusions only affect intelligent creatures. A creature is not granted
+an extra save to recognize an illusion unless they carefully study it,
+directly interact with it (a touch or attack usually counts), make a
+deliberate effort to disbelieve it (this requires an action if in
+combat), or see a result contravening established reality (e.g.~falling
+through an illusionary ``floor'' covering a pit). A save is granted up
+to once per round in such circumstances, made in secret by the GM.
+
+A failed save does not dictate one's chosen actions; it only means that
+the creature believes in the illusory reality. This also does not make
+that reality in any way real. For example, one might choose to cross an
+illusory bridge if they fail their save, and if so would of course fall
+through it. However, chosen actions will unconsciously adjust to match
+perceived reality. For example, if a victim believes they are in a
+swamp, they will unknowingly slow their movement to normal swamp speeds.
+
+Passing a save against an illusion does not dispel it, but reveals it to
+be false for that person. Any who know an illusion to be false can use
+an action to try and convince others of this; those told can reroll
+their next failed save against that illusion.
+
+\subsubsection*{Stacking Spell Effects}\label{stacking-spell-effects}
+
+Regardless of the source, the same spell (or equivalent effect from
+another source) cannot be stacked on a single target unless specified
+otherwise. For example, two Shield spells on one target does not provide
+a cumulative effect, and neither does a Shield spell and a Shield effect
+from a magical item.
+
+\newpage
+\begin{adjustwidth}{-40pt}{-40pt}
+	
+\begin{multicols}{2}
+\subsection*{Rank 1 Spells}\label{rank-1-spells}
+\small
+\paragraph{Alarm}\label{alarm}
+\emph{Abjuration (R: Short, D: 1 day)}\\
+AoE: 60-ft radius. Whenever a creature of size level Small and up
+touches or enters the warded area, a mental alarm goes off. The caster
+must be within one mile of the warded area to receive this alarm; if
+sleeping, they are automatically woken. The caster can designate
+specific individuals, creatures, or creature types that won't trip
+the alarm.
+
+\paragraph{Animal Friendship}\label{animal-friendship}
+\emph{Enchantment (R: Short, D: 1 hour)}\\
+This spell makes a normal animal regard the caster as a trusted friend
+and ally. If the animal is currently being threatened by the caster or
+its allies, it is allowed a Willpower Saving Throw to resist the spell.
+
+\paragraph{Arcane Ward}\label{arcane-ward}
+\emph{Abjuration (R: Short, D: 1 hour)}\\
+AoE: 50-ft radius / 20 × 20. All chosen subjects apply a +1 AC bonus.
+
+\paragraph{Blur}\label{blur}
+\emph{Illusion (R: Self, D: 1 hour)}\\
+The caster's form appears to constantly shift and waver. Attacks
+directly targeting the caster that rely on sight must reroll hits scored
+on the caster. If successful, the illusion is dispelled.
+
+\paragraph{Chill Touch}\label{chill-touch}
+\emph{Necromancy (R: Touch, D: 1 minute)}\\
+Save: Arcana 14. This spell deals 1d6+2 necrotic damage. If the target
+is living, it cannot be healed for the spell's duration; undead
+creatures instead must reroll any hits scored against the caster.
+
+\paragraph{Command}\label{command}
+\emph{Enchantment (R: Medium, D: 1 round)}\\
+Save: Willpower 17. The caster issues a one-word command to the target,
+which it must obey on its next set of actions. The command must be
+unequivocal, and something the target can accomplish (e.g.~back, halt,
+flee, fall, approach, kneel, dance; ``die'' or ``suicide'' do not
+qualify).
+
+\paragraph{Comprehend Languages}\label{comprehend-languages}
+\emph{Divination (R: Self, D: 1 hour)}\\
+AoE: Up to 40-ft radius / 16 × 16. Up to five creatures (+5 per caster
+name level) can comprehend (but not communicate using) unknown text or
+speech. Codes / ciphers are not broken; nor are references explained.
+More esoteric communications, such as pheromones, are not understood.
+
+\paragraph{Crystal Resonance}\label{crystal-resonance}
+\emph{Evocation (R: Short, D: Special)}\\
+Either Imprint or Release a crystal worth at least 50d..
+
+Imprint: Hold the crystal or gem aloft for 1 Turn, imprinting a single
+type of energy upon it from the surroundings and replacing any
+previously absorbed energy. There is a 1-in-20 chance of the crystal
+shattering and becoming useless.
+
+Release: Reproduce the stored energy of a previously imprinted gem or
+crystal in the environment it now occupies (the area within range).
+Released energies only reproduce normal ambient conditions and cannot
+cause damage, blindness, deafness, or other special effects.
+
+Types of Energies:
+
+\begin{itemize}
+	\tightlist
+	\item
+	Light: The lighting qualities of an environment may be absorbed and
+	reproduced, causing an area of light, gloom, shadow, and so forth to
+	be emitted from the crystal for 1 Turn per Level of the caster.
+	\item
+	Images: A static snapshot of the crystal's environment can be absorbed
+	for later examination. The image is reproduced for 1 Turn.
+	\item
+	Sound: Any sound emitted during the 1 Turn absorption time is recorded
+	and may be reproduced.
+	\item
+	Temperature: Warmth or cold may be absorbed into the crystal and
+	re-emitted for 1 Turn per Level of the caster.
+\end{itemize}
+
+\paragraph{Cure Light Wounds}\label{cure-light-wounds}
+\emph{Necromancy (R: Touch, D: Instant)}\\
+This spell heals the subject of 1d6+2 damage. Add 1d6 damage for each
+name level the subject (not the caster) has.
+
+\paragraph{Curse}\label{curse}
+\emph{Conjuration (R: Short, D: 1 hour)}\\
+Save: Arcana 14. AoE: 50-ft radius / 20 × 20. All chosen targets receive
+a --2 attack penalty, as well as --1 to Morale checks.
+
+\paragraph{Detect Illusion}\label{detect-illusion}
+\emph{Divination (R: Touch, D: 10 minutes)}\\
+All illusions within view are revealed as such to the subject.
+
+\paragraph{Detect Magic}\label{detect-magic}
+\emph{Divination (R: Self, D: 10 minutes)}\\
+AoE: 60-ft radius. All magical emanations glow softly. The caster knows
+the magic's strength (faint, moderate, strong, overwhelming) and the
+school(s) associated with that magic. The imprinted energy patterns of
+memorised arcane spells glow, surrounding arcane spell-casters' heads
+with a halo of rainbow hues.
+
+\paragraph{Detect Portals \& Passages}\label{detect-portals-passages}
+\emph{Divination (R: Short, D: 10 minutes)}\\
+AoE: 60-ft radius. All hidden doors, compartments, and passages within
+range glow softly (unless invisible). Obstructions may obscure the glow.
+
+\paragraph{Endure Heat \& Cold}\label{endure-heat-cold}
+\emph{Abjuration (R: Touch, D: 12 hours)}\\
+Up to one subject per two caster levels is immune to environmental
+temperature effects within most natural bounds (more extreme forms like
+magma flows, as well as fire- and cold-based attacks, are not affected).
+
+\paragraph{Enlarge (R)}\label{enlarge-r}
+\emph{Transmutation (R: Short, D: 1 hour)}\\
+Save: Arcana 14. This spell causes instant growth of one creature and
+its carried/worn items, or one object, in both size and weight.
+Creatures gain one size level---two at level 10. Objects increase 10\%
+per level of the caster (max. 100\%), to a limit of 5 cubic feet per
+caster level. If insufficient space is available to fully grow, the
+creature/object attains the maximum possible size, bursting weak
+enclosures but constrained without harm by stronger materials---the
+spell cannot crush something by growth. The reverse, Reduce, either
+negates Enlarge or makes a creature or object smaller in the same ratios
+as Enlarge. Unwilling victims of either spell are entitled to a saving
+throw. In all cases, ability scores, damage, HP, and AC are all
+unaffected.
+
+\paragraph{Faerie Fire}\label{faerie-fire}
+\emph{Illusion (R: Short, D: 10 minutes)}\\
+LoS not required. One creature or object per caster level can be
+wreathed in a pale glowing light visible out to 80 ft; even invisible
+things can be chosen as targets (this does not make them visible).
+Against those targets this applies a +2 attack bonus, but the fire is
+concealed by Darkness.
+
+\paragraph{Feather Fall}\label{feather-fall}
+\emph{Transmutation (R: Medium, D: 10 minutes)}\\
+Up to five falling (or about-to-fall) creatures within range have their
+rate of descent slow to 60 ft per round (occurring in the Movement
+Phase). A subject that lands before the spell ends takes no falling
+damage and can land on its feet, and the spell ends for that creature.
+
+\paragraph{Firelight}\label{firelight}
+\emph{Evocation (R: Self, D: 1 hour plus 10 minutes per level)}\\
+Conjures a ball of flickering flame around the caster's hand, floating
+above their shoulder, or around object held. The flame sheds light in a
+15' radius, sufficient for reading, but not as bright as daylight. The
+conjured flame does not produce heat and cannot be used to ignite
+objects or cause damage.
+
+With a magic word, the caster may command the flame to flare suddenly.
+All within 30' who see the flare must make a Saving Throw or be dazzled,
+suffering a --2 penalty to Attack Rolls for 1d4 Rounds. The caster is
+not affected by the flare, but allies may be unless warned to close
+their eyes. After flaring, the flame disappears and the spell ends.
+
+\paragraph{Floating Disc}\label{floating-disc}
+\emph{Evocation (R: Self, D: 4 hours)}\\
+This spell creates a circular, horizontal disc in an empty space within
+5 ft of its caster. The disc is 3 ft in diameter and 1 inch thick, and
+floats 3 ft above the surface beneath it. It can support up to 500
+pounds (about 20 item slots). The disc follows 5 ft behind its caster.
+It cannot be ridden by the caster, and cannot cross abrupt elevation
+changes of over 10 ft.
+
+\paragraph{Fog}\label{fog}
+
+\emph{Conjuration (R: Long, D: 1 hour)}\\
+AoE: Up to 50-ft radius / 20 × 20. The caster summons a wall of thick
+fog that reduces vision (including infravision) to 5 ft. A wind of at
+least 20 miles per hour disperses it.
+
+\paragraph{Friends}\label{friends}
+
+\emph{Enchantment (R: Self, D: 1 hour)}\\
+Save: Willpower 14. AoE: 200-ft radius. Intelligent creatures that fail
+their save ignore the fact that the caster just cast a spell and instead
+tend towards being impressed with the caster, providing +4 to the
+caster's party reaction roll.
+
+\paragraph{Grave Shroud}\label{grave-shroud}
+\emph{Necromancy (R: Short, D: 1 hour)}\\
+Undead creatures perceive up to six subjects (+5 per caster name level)
+as undead. Mindless undead thus ignore the subjects, unless specifically
+commanded to attack them directly, while intelligent undead do not
+instinctively know them to be alive, but will likely wonder at their
+actions or appearance. If a subject attacks an undead creature, the
+spell ends for them.
+
+\paragraph{Grease}\label{grease}
+\emph{Conjuration (R: Medium, D: 10 minutes)}\\
+Save: Dexterity 14. AoE: Up to 40-ft radius / 16 × 16. Slick,
+non-flammable grease covers the ground. Creatures in the area when the
+grease appears or who move into a greased space (even if already in one)
+must save or fall prone (limit of one such save per round). For those
+who make their save, the greased area is still treated as difficult
+terrain.
+
+\paragraph{Ioun Shard}\label{ioun-shard}
+\emph{Evocation (R: Medium, D: 2 Turns)}\\
+Conjures a glowing shard of vividly coloured crystal that slowly orbits
+the caster's head at a distance of 1'. At the time of casting or at any
+point in the spell's duration, the caster may choose to fire the shard
+at a visible target within range, automatically striking the target for
+1d6+1 damage. Once fired, the shard is destroyed. Higher-Level casters
+may conjure one additional shard per 3 Levels: two at Level 4, three at
+Level 7, four at Level 10, etc. Multiple shards may be fired
+simultaneously and may be directed at a single target. Unlike standard
+spell targeting, if something can be seen it can be targeted, even if
+normal spellcasting line of sight is blocked.
+
+\paragraph{Minor Illusion}\label{minor-illusion}
+\emph{Illusion (R: Medium, D: 1 hour)}\\
+Save: Perception 14. This spell creates an illusionary sound, scent, or
+image (only one). If a sound, its volume can range from a whisper to a
+scream, and vary in pitch and tempo as desired. If an image, it is
+silent and immobile, and no larger than a 5-ft cube (2 × 2 × 2).
+
+\paragraph{Nullify Poison}\label{nullify-poison}
+\emph{Transmutation (R: Short, D: Instant)}\\
+AoE: Up to 10-ft radius / 4 × 4. This spell nullifies all non-magical
+poison applied to items (e.g.~coated blades and needles; poison in gas
+capsules, food, or vials). Creatures naturally using their own poison
+are unaffected.
+
+\paragraph{Pass Without Trace}\label{pass-without-trace}
+\emph{Transmutation (R: Short, D: 1 hour)}\\
+AoE: Up to 40-ft radius / 16 × 16. Up to five subjects (+5 per caster
+name level) can move through any terrain --- mud, snow, dust, etc. ---
+and leave neither footprint nor scent, making tracking by these means
+impossible. However, areas radiate a dweomer for 6d6 turns after an
+affected creature passes through them.
+
+\paragraph{Shield}\label{shield}
+\emph{Abjuration (R: Self, D: 10 minutes)}\\
+This spell invisibly wards the caster, providing +5 AC and negating any
+Magic Missiles cast at them.
+
+\paragraph{Sleep}\label{sleep}
+\emph{Enchantment (R: Short, D: 4d4 x 10 minutes)}\\
+Save: Willpower*2 14. AoE: 30-ft radius / 12 × 12. The caster rolls 2d6
+and adds their level to the result: that many Hit Dice of living enemies
+are put into a comatose slumber. Targets with the fewest HD are affected
+first, and only creatures with 4 HD or less are affected. Shaking and
+slapping a victim as an action gives them an extra save; mere noise does
+not.
+
+\paragraph{Turn Undead}\label{turn-undead}
+\emph{Necromancy (R: Self, D: 1d6 × 10 minutes)}\\
+Save: None. AoE: 30-ft radius / 12 × 12. The caster rolls 2d6 to
+determine the result:
+
+\begin{itemize}
+	\tightlist
+	\item
+	4 or lower: The undead are unaffected
+	\item
+	5-6: 2d4 undead are stunned for 1 Round, unable to act.
+	\item
+	7-12: 2d4 undead flee from the caster for 1 Turn.
+	\item
+	13 or higher: 2d4 undead are permanently destroyed.
+\end{itemize}
+
+If the caster is a higher level than the targeted undead, add a bonus of
++2 per level, to a maximum of +6. If the caster is a lower level than
+the targeted undead, add a penalty of -2 per level, to a maximum of -6.
+
+Attacking a turned undead creature frees it from the effects of the
+spell at the end of the current combat round.
+
+In a mixed group of undead with multiple Levels, those of lowest Level
+are affected first. On a successful turning roll, the caster may make
+another roll the following Round, affecting the next lowest Level type
+of undead present. This process may be repeated until all types of
+undead have been affected or a turning roll fails.
+
+\paragraph{Unseen Servant}\label{unseen-servant}
+
+\emph{Conjuration (R: Short, D: 2 hours)}\\
+The spell summons an invisible spirit, weightless and Small in size,
+that serves tirelessly and fearlessly without question. The servant must
+remain within 40 feet of its summoner or it is dispelled. It moves as a
+normal PC, but ignores terrain. It can carry up to 1 point of
+encumbrance, and open normal doors, lids, drawers, etc, but perform no
+greater feats of strength. The servant cannot fight or take any other
+action requiring an attack roll. Nor can it block spaces, provide cover,
+or lock opponents in melee. It can be magically dispelled, banished by
+anything that banishes spirits, or eliminated after taking 6 points of
+magical damage.
+
+\paragraph{Ventriloquism}\label{ventriloquism}
+
+\emph{Illusion (R: Short, D: 20 minutes)}\\
+The caster's voice emanates from anywhere within range (e.g.~a statue, a
+tapestry, an animal).
+
+\subsection*{Rank 2 Spells}\label{rank-2-spells}
+
+\paragraph{Arcane Cypher}\label{arcane-cypher}
+
+\emph{Transmutation (R: 5', D: Permanent)}\\
+Script which the caster passes their hand over glows and is transformed
+into arcane sigils incomprehensible to all except the caster. The text
+of a single spell in a spell book may be affected, or up to 1 page of
+normal text per Level of the caster. Magical text cannot be affected.
+The Arcane Cypher is only decoded by magic (e.g.~by the Decipher spell).
+
+\paragraph{Arcane Lock}\label{arcane-lock}
+
+\emph{Evocation (R: Touch, D: Permanent)}\\
+This spell bars the opening mechanism of a door, chest, or the like with
+magical force. A caster ignores their own lock, but otherwise nullifying
+the lock requires force or a successful Dispel Magic spell. The caster
+can optionally set a password for other characters to freely ignore the
+lock. A character 4+ levels higher than the lock's caster can bypass or
+physically force the lock, as can any Knock spell, but in such cases the
+lock is not nullified and reengages after 10 minutes.
+
+\paragraph{Assist}\label{assist}
+
+\emph{Necromancy (R: Touch, D: 1 hour)}\\
+The subject is imbued with a burst of life force, gaining 2d6+2
+temporary Hit Points, plus 2d6 per name level of the caster (not the
+subject). Unlike healing effects, additional HP from Assist can take a
+subject over their limit; if so, such HP are always lost first. HP above
+the caster's maximum cannot be healed. All Assist HP are lost at the end
+of the hour; this might conceivably kill a recipient. A creature can
+only be the subject of one active Assist at any one time.
+
+\paragraph{Burning Hands}\label{burning-hands}
+
+\emph{Evocation (R: Self---30 ft × 10 ft line, D: Instant)}\\
+Save: Dexterity 14. A burst of flame erupts from the caster's hands.
+This deals 2d6 damage, plus 1D6 for every two levels of the caster
+beyond the second (e.g. 3d6 at level 4, 4d6 at level 6, 5d6 at level 8;
+maximum 10d6 at level 16) and sets combustibles alight.
+
+\paragraph{Change Self}\label{change-self}
+
+\emph{Illusion (R: Self, D: 1 hour)}\\
+Save: Perception 17. The subject's appearance---including all personal
+items---is altered. Height can be altered up to 1 ft shorter or taller,
+and weight can be altered to a similar degree along with it. The same
+basic limb arrangement must be kept.
+
+\paragraph{Charm}\label{charm}
+
+\emph{Enchantment (R: Touch, D: 1 day)}\\
+Save: Willpower 14. Enchants a small object with the power to charm a
+living humanoid of Medium size or smaller who willingly accepts it as a
+gift. A single recipient who accepts the enchanted object must succeed
+on the save or regard the caster as a trusted friend and come to their
+defence. The caster can give the subject orders, language permitting.
+The subject will not knowingly endanger its life beyond reason. Orders
+not befitting a friend will grant an extra save. At 10th level, the
+caster can affect any one living creature, language permitting, of up to
+Large size.
+
+\paragraph{Counterspell}\label{counterspell}
+
+\emph{Abjuration (R: Short, D: Instant)}\\
+A caster can always pick this spell (if prepared) as their declared
+spell in response to an enemy casting a spell, replacing any other
+declared spell. In the Magic Phase, before spells are resolved, the
+dispeller and the enemy each make a dispel check: roll 1d6 + caster
+level + rank of the spell being cast (e.g., Counterspell will usually be
+2). The highest result wins; ties go to the dispeller. If the dispeller
+wins, the enemy spell is disrupted.
+
+\paragraph{Detect Traps}\label{detect-traps}
+
+\emph{Divination (R: Short, D: 10 minutes)}\\
+AoE: 60-ft radius. All traps within range glow softly. The spell does
+not detect natural hazards, such as a weakness in a floor or an unstable
+ceiling, and the glow can be obscured by obstructions (e.g.~a trapped
+door hidden behind a bookshelf).
+
+\paragraph{Enrage}\label{enrage}
+
+\emph{Enchantment (R: Short, D: 10 minutes)}\\
+Save: Willpower 17. The subject flies into a berserker rage. Regardless
+of its armament, it always attacks in melee the creature closest to it,
+friend or foe, and will fight as offensively as possible, though it will
+not throw itself over a cliff or the like in order to reach an opponent.
+
+\paragraph{Forget}\label{forget}
+
+\emph{Enchantment (R: Short, D: Permanent)}\\
+Save: Willpower 14. AoE: Up to 20-ft radius / 8 × 8. Chosen subjects
+within the area of effect forget the events of the previous minute. For
+every name level of the caster, another two minutes of past time is
+forgotten. A Restoration will recover the lost memories.
+
+\paragraph{Guide}\label{guide}
+
+\emph{Divination (R: Self, D: 12 hours)}\\
+The caster gains a supernatural knowledge of the paths and perils of
+their surroundings while travelling overland. The caster applies a +1
+bonus that day to their party's navigation checks.
+
+\paragraph{Gust of Wind}\label{gust-of-wind}
+
+\emph{Conjuration (R: Self---60 ft × 10 ft line, D: 1 minute)}\\
+Wind blasts from the caster in the direction faced. Unless braced,
+creatures that start their round in the line must make a Strength check
+or be pushed 5 ft away for each point that they failed the roll by;
+apply a --2 roll modifier to flying creatures. Any creature in the line
+must spend 2 ft of movement for every 1 ft it moves within the line. The
+gust disperses Fog, Stinking Cloud, and Cloudkill spells, smoke, vapour
+etc, and extinguishes small open flames like torches. Protected flames
+such as lanterns have a 50\% chance to be extinguished. The caster can
+change the direction the line travels as an action during their round.
+
+\paragraph{Invisibility}\label{invisibility}
+
+\emph{Illusion (R: Touch, D: Concentration---1 hour per caster level)}\\
+One creature or object of up to one size level larger than the caster
+vanishes from sight. An invisible creature can see itself. Any light
+source carried is invisible, but the light it casts is unaffected;
+dropped personal items become visible. The spell ends if the subject
+attacks, though surprise is very likely. Attacks against invisible
+targets apply a --4 penalty.
+
+\paragraph{Knock}\label{knock}
+
+\emph{Transmutation (R: Touch, D: Instant)}\\
+The caster knocks on a single closed door, gate, lid, or similar portal
+with their hand or a staff. The portal groans, grumbles, and magically
+opens. Locks and bars are unlocked or removed. Arcane Locks are disabled
+for 1 Turn. Shackles or chains are loosened, but the spell will not
+raise a portcullis or the like. Secret doors may be opened, but they
+must be known to the caster.
+
+\paragraph{Mind Crystal}\label{mind-crystal}
+
+\emph{Divination (R: Short, D: 2 hours)}\\
+Attunes a gem or crystal (of at least 250gp value) to the subtly
+radiating energies of living minds, allowing the caster to detect the
+presence of creatures and perceive their thoughts. To pick up thoughts,
+the caster must hold the crystal aloft and focus their concentration in
+a particular direction for 1 Turn without moving. After 1 Turn, the
+crystal projects the thoughts of all creatures within range in the
+chosen direction into the caster's mind. If multiple creatures are
+within range in the direction being focused on, the caster perceives an
+incomprehensible mix of all their thoughts. If the caster focuses for an
+additional Turn, they can isolate a single creature's thoughts. The
+spell can be maintained for the duration only if the caster continues to
+hold the crystal. This spell is blocked by 2' of rock or a thin layer of
+lead.
+
+\paragraph{Mind Shield}\label{mind-shield}
+
+\emph{Abjuration (R: Touch, D: 12 hours)}\\
+The subject cannot be detected by mental scans or have their mind or
+thoughts read, and their saves against mental attacks are one difficulty
+level lower. However, the subject cannot use or receive telepathic
+signals.
+
+\paragraph{Mirror Image}\label{mirror-image}
+
+\emph{Illusion (R: Self, D: 1 hour)}\\
+In a flash of prismatic light, 1d6 illusory duplicates of the caster
+appear. The mirror images look and behave exactly as the caster,
+remaining within 3'. The caster's voice, as well as any subsequent
+spells cast, emanate randomly from one of the mirror images or the
+caster's true form. Attacks on the caster destroy one of the mirror
+images (even if the attack misses).
+
+\paragraph{Pacify}\label{pacify}
+
+\emph{Enchantment (R: Medium, D: 1 hour)}\\
+Save: Willpower 14. AoE: Up to 40-ft radius / 16 × 16. This spell calms
+1d6 living creatures, ending any arguments, combats, or inclinations to
+them. This does not create friendly feelings, however. Creatures with
+the fewest HD are affected first. A pacified creature that takes damage
+or is attacked breaks free of the spell.
+
+\paragraph{Perceive the Invisible}\label{perceive-the-invisible}
+
+\emph{Divination (R: 10' per caster level, D: 1 hour)}\\
+Invisible creatures and objects in range become visible to the caster,
+outlined in glittering gold.
+
+\paragraph{Phantasmal Force}\label{phantasmal-force}
+
+\emph{Illusion (R: Medium, D: Concentration)}\\
+Save: Perception 14. This spell creates the visual or auditory illusion
+of a known object, creature, scene, attack, or force of up to Medium
+size (5' square). The caster can move the image within the spell's
+range. Any ``damage'' dealt directly by the illusion is believed to be
+real (illusory arrows, pit trap, monster, etc), but vanishes when the
+illusion is disbelieved or gone and does no real damage and has no
+permanent effect. A creature reduced to 0 HP in this way falls
+unconscious. Illusory damage and effects last for 1d4 Turns. An illusory
+monster can be of a Level no greater than the caster's. The monster may
+be directed to attack, having all its normal capabilities and attack
+forms. It has AC 10 and vanishes if hit in combat. If the illusion is of
+something the caster has not personally seen, viewers gain a +4 bonus to
+their save.
+
+\paragraph{Phantom Steed}\label{phantom-steed}
+
+\emph{Conjuration (R: Short, D: 12 hours)}\\
+Up to five (+5 per caster name level) ghostly draft or riding
+horses---caster's choice---instantly appear, which serve their riders
+willingly and well. Each behaves as a normal horse, except that it will
+not tire, panic, or otherwise be frightened, and does not need food or
+water.
+
+\paragraph{Protection from Missiles}\label{protection-from-missiles}
+
+\emph{Abjuration (R: Touch, D: 1 hour)}\\
+The subject cannot be damaged by normal missile attacks; these will only
+break a caster's concentration if they hit on a natural 20. Magic or
+non-personal scale missiles (such as a boulder from a giant or a
+catapult) are instead reduced in damage by 1 point per die of damage.
+
+\paragraph{Protection from Poison}\label{protection-from-poison}
+
+\emph{Abjuration (R: Touch, D: 12 hours)}\\
+The subject is immune to poison for the spell's duration (including to
+any afflicting them). If cast on one who has failed a lethal poison save
+within a turn of their being poisoned, the poison is nullified and the
+subject lives.
+
+\paragraph{Ray of Fatigue}\label{ray-of-fatigue}
+
+\emph{Necromancy (R: Short, D: 10 minutes)}\\
+Save: Constitution 14. The subject becomes heavily fatigued. This has no
+effect if the target is already this fatigued or worse, or does not tire
+(e.g.~undead, constructs).
+
+\paragraph{Shocking Strike}\label{shocking-strike}
+
+\emph{Evocation (R: Self, D: 2 hours)}\\
+This spell charges the caster's hand or a weapon they are holding with a
+number of charges equal to the caster's level. While charged, attacks
+made with the hand or weapon deal an additional 1d6 electrical damage.
+For a missile weapon, one charge is dissipated per attack whether or not
+the attack hits, but a melee weapon's charges are dissipated only on a
+hit. The spell adds one damage die per name level of the caster.
+
+\paragraph{Silence}\label{silence}
+
+\emph{Evocation (R: Medium, D: Concentration---10 minutes)}\\
+AoE: Up to 15-ft radius / 6 × 6. This spell creates a void of silence in
+which no sound can be created or pass through. Anything inside the area
+of effect is immune to sonic attacks, and creatures inside it are
+deafened. Casting a spell that includes a verbal component is impossible
+there.
+
+\paragraph{Spider Climb}\label{spider-climb}
+
+\emph{Transmutation (R: Short, D: Concentration---10 minutes)}\\
+So long as its hands are free, a subject can climb and travel on
+vertical surfaces or even traverse ceilings, with a combat speed of 20
+ft per round. Climbing checks are not required for this, but if one is
+somehow forced, the difficulty is one level lower than normal.
+
+\paragraph{Stinking Cloud}\label{stinking-cloud}
+
+\emph{Conjuration (R: Medium, D: 10 minutes)}\\
+Save: Constitution 14. AoE: Up to 15-ft radius / 6 × 6. A mass of
+nauseous vapors is created; any within that fail their save is rendered
+a helpless target for 1d6 rounds. Passing reduces a victim's combat
+speed by half; if in the cloud at the round's end the creature must save
+anew.
+
+\paragraph{Transfer}\label{transfer}
+
+\emph{Necromancy (R: Touch, D: Instant)}\\
+The caster can transfer their life force to one recipient, living or
+undead. Hit Points are transferred to the subject on a 1:1 basis, as
+determined by the caster. There is no limit to the amount of Hit Points
+the caster can transfer, except that the caster cannot go below 1 HP in
+this fashion; this is treated as healing.
+
+\paragraph{Unflagging Endurance}\label{unflagging-endurance}
+
+\emph{Necromancy (R: Short, D: 12 hours)}\\
+Up to one subject per caster level becomes nearly immune to exhaustion.
+Subjects can force-march that day with no ill effect, ignore the first
+burden level from encumbrance, and gain a +4 on saves vs.~fatigue,
+sleep, weakness, or enfeeblement.
+
+\paragraph{Water Breathing}\label{water-breathing}
+
+\emph{Transmutation (R: Short, D: 1 day)}\\
+Up to one subject per caster level can breathe water freely.
+
+\paragraph{Web}\label{web}
+
+\emph{Conjuration (R: Short, D: 20 minutes per caster Level)}\\
+Conjures a volume of sticky webbing, blocking a 10' cube area. Must be
+anchored on at least two opposite sides to solid points. Any creature of
+size Large or smaller that moves into the web or is in its area when it
+is cast is stuck and cannot move. Characters with Strength below 13
+cannot break free. Those with Strength 13 or above can break free in 1d4
+Turns. Large creatures of greater than human Strength can break free in
+1d4 Rounds. The web can be destroyed by fire in 2 Rounds. Creatures
+caught within flaming webs suffer 1d6 damage.
+
+\subsection*{Rank 3 Spells}\label{rank-3-spells}
+
+\paragraph{Black Tentacles}\label{black-tentacles}
+
+\emph{Conjuration (R: Medium, D: 10 minutes)}\\
+Save: Dexterity 14. AoE: 20-ft radius / 8 × 8. Flailing ebony tentacles
+erupt from the ground. The area becomes difficult terrain. A creature
+size Large or smaller that starts its round in or enters the area must
+save or take 3d6 crushing damage and become immobile. Those restrained
+save at the start of each round to free themselves; failure means the
+damage is dealt again.
+
+\paragraph{Blindness}\label{blindness}
+
+\emph{Illusion (R: Short, D: Permanent)}\\
+Save: Arcana 14. One target sees only an impenetrable grey mist (--4
+attack penalty, no ranged casting possible unless LoS is not required by
+the spell). A blinded creature can still deliver gaze attacks. Only
+Dispel Magic, Hex Weaving, or the caster dismissing the spell ends the
+effect.
+
+\paragraph{Chromatic Orb}\label{chromatic-orb}
+
+\emph{Evocation (R: Medium, D: Instant)}\\
+The spell hurls an orb of energy with a total attack bonus equal to the
+caster's level. When cast, the caster chooses one of acid, cold,
+electrical, fire, or poison: on a hit, the target takes 4d6 damage of
+the chosen type. If the same number is rolled on two or more of the
+damage dice, the orb can leap to a new target of the caster's choice
+within 30 feet of the original target (a new attack is rolled). This can
+only occur once per orb cast.
+
+\paragraph{Cloak of the Void}\label{cloak-of-the-void}
+
+\emph{Necromancy (R: Self, D: 10 minutes)}\\
+The caster is wreathed in black flames of negative energy. Any living
+creature touching the caster with its body or handheld weapons takes 2d6
+necrotic damage, +1d6 per caster name level. However, undead touching
+the caster are healed for the same amount. This effect is not applied if
+the caster strikes a target, only if they are struck.
+
+\paragraph{Conjure Animals}\label{conjure-animals}
+
+\emph{Conjuration (R: Short, D: 1 hour)}\\
+This spell calls local wild animal spirits of the caster's choice, which
+manifest as living examples of those creatures. Hit Dice equal to twice
+the caster's level are summoned, in any combination desired. No single
+creature can be above Level 10; none can be intelligent or magical. The
+creatures serve without question, but if abused by the caster the
+spirits will refuse future calls.
+
+\paragraph{Crystal Vision}\label{crystal-vision}
+
+\emph{Divination (R: Short, D: 2 hours)}\\
+Attunes a gem or crystal (of at least 500gp value) to pick up the visual
+impressions of living creatures, allowing the caster to see through
+others' eyes. To establish a connection with a creature, the caster must
+gaze into the crystal and focus their concentration in a particular
+direction for 1 Turn without moving. After 1 Turn, facets of the crystal
+reflect silent images of the current visual perceptions of one creature
+within range. If multiple creatures are within range in the direction
+being focused on, the crystal connects with the closest. Once a
+connection is established, the caster may choose to maintain it or to
+change to another subject. This spell is blocked by 2' of rock or a thin
+layer of lead.
+
+\paragraph{Cure Sickness}\label{cure-sickness}
+
+\emph{Necromancy (R: Short, D: Permanent)}\\
+This spell cures the subject of artificial or magical blindness and
+deafness (assuming the subject still has its eyes/ears) and all
+sicknesses and diseases, including mummy rot, green slime infection, and
+lycanthropy.
+
+\paragraph{Cure Serious Wounds}\label{cure-serious-wounds}
+
+\emph{Necromancy (R: Touch, D: Instant)}\\
+This spell heals the subject of 2d6+2 damage. Add 2d6 for each name
+level the subject has.
+
+\paragraph{Darkvision}\label{darkvision}
+
+\emph{Transmutation (R: Touch, D: 1 day)}\\
+The subject gains the ability to see normally in darkness up to 60'.
+
+\paragraph{Disguise}\label{disguise}
+
+\emph{Illusion (R: Long, D: Concentration---2 hours)}\\
+Save: Perception 17. The appearance of up to one willing subject per two
+caster levels---including all carried items---is altered. Height can be
+altered up to one full size category shorter or taller; weight can be
+altered to a similar degree. The same basic limb arrangement must be
+kept. If only one subject is disguised, the need for concentration is
+waived.
+
+\paragraph{Dispel Magic}\label{dispel-magic}
+
+\emph{Abjuration (R: Short, D: Instant)}\\
+All spell effects within range are unravelled, disintegrating in coils
+of coloured energy. Magic items are unaffected. Curses incurred by a
+spell are affected; those incurred by a magic item are not. Effects
+created by lower Level casters are automatically dispelled. If the
+effect is created by a higher-level spellcaster, each caster involved
+makes a dispel check: roll 1d6 + caster level, with the higher result
+winning (ties go to the dispeller).
+
+\paragraph{Fear}\label{fear}
+
+\emph{Enchantment (R: Medium, D: 1 minute)}\\
+Save: Willpower 17. AoE: 30-ft radius / 12 × 12. Chosen enemies in the
+area of effect that fail their save drop anything held and flee from the
+caster by the quickest safe route; if cornered, they cower. Targets must
+be able to feel fear (even instinctually) to be affected.
+
+\paragraph{Fireball}\label{fireball}
+
+\emph{Evocation (R: Medium, D: Instant)}\\
+Save: Dexterity 14. AoE: 20-ft radius / 8 × 8. LoS not required. The
+blast deals 1d6 fire damage per caster level (max 12d6). Combustibles in
+the AoE are set alight, and failed saves force item saves.
+
+\paragraph{Gaseous Form}\label{gaseous-form}
+
+\emph{Transmutation (R: Touch, D: 1 hour)}\\
+A willing subject and its carried items become a floating, misty cloud.
+The subject has the same size, flies with a combat speed of 10 (though
+wind will propel it at the wind's speed), and can enter any space not
+airtight. While gaseous, the subject cannot talk, manipulate objects,
+attack, or cast spells, and can only be harmed by magic. The spell ends
+if the subject drops to 0 or fewer Hit Points.
+
+\paragraph{Haste (R)}\label{haste-r}
+
+\emph{Transmutation (R: Medium, D: 30 minutes)}\\
+Save: Arcana 14. Up to one creature per caster level has their Speed
+doubled and can take two actions each combat round. The number of spells
+a subject may cast per round is not doubled, nor is the use of magic
+items such as wands. The reverse, Slow, instead forces targets to act
+last in the Melee Phase, and their combat speed is halved. One of these
+spells can negate its reverse; such a use has no other effect.
+
+\paragraph{Hold Person}\label{hold-person}
+
+\emph{Enchantment (R: Medium, D: 1 minute)}\\
+Save: Arcana 17. One living intelligent creature of up to size Medium is
+hypnotised and becomes helpless. Damage does not break the affected
+creature out of its hold, but the death or unconsciousness of the caster
+does.
+
+\paragraph{Hypnotic Pattern}\label{hypnotic-pattern}
+
+\emph{Enchantment (R: Short, D: 10 minutes)}\\
+Save: Willpower 14. AoE: 20-ft radius / 12 × 12. A twisting pattern of
+colours is created. On a failed save, intelligent enemies viewing this
+can no longer act: they do not move and become helpless targets. The
+spell ends for an affected creature if it takes any damage.
+
+\paragraph{Invisibility Sphere}\label{invisibility-sphere}
+
+\emph{Illusion (R: Short, D: Concentration---1 hour per caster level)}\\
+A selected creature and all creatures within 10' of it shimmer and
+disappear from sight. The spell's effect moves with the chosen creature.
+Invisibility ends for anything that leaves the sphere or attacks; this
+does not affect the others. Creatures that move into the area after the
+spell is cast do not become invisible. Any gear a subject is carrying is
+also rendered invisible (this includes clothing and armour). Items
+subsequently put down become visible. Carried light sources become
+invisible, but the emitted light does not.
+
+\paragraph{Lightning Bolt}\label{lightning-bolt}
+
+\emph{Evocation (R: Medium, D: Instant)}\\
+Save: Dexterity 14. AoE: 80 ft long \& 5 ft wide or 40 ft long \& 10 ft
+wide; doubled in water. LoS not required. This bolt deals 1d6 electrical
+damage per caster level (max 12D6). Failed saves force item saves (see
+p.~21).
+
+\paragraph{Locate Object}\label{locate-object}
+
+\emph{Divination (R: Self, D: 30 minutes)}\\
+The caster senses the direction of an object on this plane. There is no
+range limit, but distance is only indicated vaguely (close, far, etc).
+The caster can search for a general item category well known to them
+(e.g.~``sword'', ``jewel''), in which case the nearest one (if any) is
+located. Trying to locate a specific item requires an accurate mental
+image of that item.
+
+\paragraph{Nondetection}\label{nondetection}
+
+\emph{Abjuration (R: Short, D: 4 hours)}\\
+Up to one subject per caster level are invisible to all forms of magical
+location, scrying, and divination, including Wizard Eye.
+
+\paragraph{Plant Growth}\label{plant-growth}
+
+\emph{Transmutation (R: Long, D: 1 day)}\\
+AoE: Up to 50-ft radius / 20 × 20. This spell causes normal vegetation
+to thicken and grow. Within the area of effect, combat speed drops to 5
+for creatures up to Medium size (10 for creatures Large and greater).
+Line of sight drops to 10 ft; anything in sight in the growth has heavy
+cover. The area must already have at least living brush in it for this
+spell to function.
+
+\paragraph{Protection from Undead}\label{protection-from-undead}
+
+\emph{Abjuration (R: Short, D: 1 hour)}\\
+Up to one subject per caster level gains a +4 bonus to saving throws
+against Necromantic spells, and are immune to ability score and level
+draining by undead. This does not protect against other drain types.
+
+\paragraph{Protection from Unnatural}\label{protection-from-unnatural}
+
+\emph{Abjuration (R: Short, D: 1 hour)}\\
+All chosen creatures within range are warded. Undead, constructs, and
+supernatural creatures cannot charm, frighten, or possess the warded
+creatures, and must reroll any hits scored against them.
+
+\paragraph{Rope Trick}\label{rope-trick}
+
+\emph{Conjuration (R: Short, D: 2 hours)}\\
+This spell creates a glowing rope hanging in midair which can be climbed
+to an empty extradimensional chamber. When the rope is pulled up behind
+a climber, anything inside is hidden from all senses, even magic. The
+chamber holds up to 32 points in creatures---a Medium creature occupies
+4 points, a Small creature 2, and a Tiny creature 1---along with
+sufficient air to breathe. Anything inside is expelled when the spell
+ends.
+
+\paragraph{Serpent Glyph}\label{serpent-glyph}
+
+\emph{Evocation (R: Touch, D: Permanent until triggered)}\\
+The caster traces a magical, serpent-shaped warding glyph upon a page of
+text or a surface, followed by a sprinkling of powdered amber (100gp
+value). Cast on a text, the glyph quickly mingles into the script. It
+can only be detected by magic. Reading the page triggers the warding
+magic. Cast on a surface, the glyph remains visible, glowing pale
+yellow. Touching the surface triggers the warding magic. When triggered,
+a glowing, serpent-like form leaps from the glyph and makes a single
+attack against the nearest creature. Its Attack is equal to the caster's
+Level. If the attack hits, the victim is frozen in a glittering amber
+bubble of time distortion for 1d4 days (or until dispelled or released
+by the caster). While trapped, the victim is in temporal stasis and
+cannot move, perceive, think, or act. Likewise, the bubble cannot be
+moved or penetrated. If the attack misses, the serpent dissipates with a
+flash, a bang, and a puff of smoke.
+
+\paragraph{Solvent}\label{solvent}
+
+\emph{Conjuration (R: Short, D: 1 hour)}\\
+Save: Arcana 14. This spell conjures acid covering up to 1-ft area per
+caster level. The acid eats through 6'' of wood, leather, or bone, 4''
+of stone, or 1'' of metal, per round for three rounds. Creatures made of
+such, take 1d6 acid damage per caster level in the first round, half
+that (round up) in the second. Other creatures only take the damage for
+one round. Saves are made each round. The target must make one set of
+item saving throws, even if they save against the solvent damage.
+
+\paragraph{Spectral Force}\label{spectral-force}
+
+\emph{Illusion (R: Medium, D: Concentration)}\\
+Save: Perception 14. This spell creates the visual illusion of a known
+object, creature, or force of up to a 20' cube area, plus 10' per
+caster's name level. The illusion can also have auditory, olfactory and
+temperature components, and can be moved within the spell's range. Any
+``damage'' dealt directly by the illusion is believed to be real, but
+vanishes when the illusion is disbelieved or gone and does no real
+damage and has no permanent effect. A creature reduced to 0 HP in this
+way falls unconscious. Illusory damage and effects last for 1d4 Turns.
+The illusion has AC 18 and vanishes if hit in combat. If the illusion is
+of something the caster has not personally seen, viewers gain a +4 bonus
+to their save.
+
+\paragraph{Suggestion}\label{suggestion}
+
+\emph{Enchantment (R: Short, D: 12 hours)}\\
+Save: Willpower 14. One intelligent living creature will follow a single
+spoken course of action (language permitting, and limited to a sentence
+or two), if the caster can phrase it to sound reasonable---even if it
+isn't.
+
+\paragraph{Tongues}\label{tongues}
+
+\emph{Divination (R: Touch, D: 4 hours)}\\
+AoE: Up to 40-ft radius / 16 × 16. Up to one subject per caster level
+can understand and speak with almost all living beings. This includes
+animals, but not plants. Intelligent creatures fall under no compulsion.
+Most others will provide information about nearby locations, including
+what they know of the past day. Animals may be convinced to perform a
+small favour.
+
+\paragraph{Vampiric Touch}\label{vampiric-touch}
+
+\emph{Necromancy (R: Touch, D: 1 hour)}\\
+The first touch the caster makes on a living target deal 1d6 damage for
+every two caster levels, to a maximum drain of 6d6. The damage is added
+to the caster's total; any Hit Points over the caster's normal total
+treated as temporary. Such additional HP can take a subject over their
+limit, are always lost first, and cannot be healed or otherwise
+restored; HP above the caster's maximum are lost at the end of the hour.
+
+\paragraph{Wizard Eye}\label{wizard-eye}
+
+\emph{Divination (R: Short, D: Concentration---1 hour)}\\
+The caster creates an invisible, magical eye through which they can see
+up to 60' even in complete darkness. The eye can travel up to 240 ft
+from the caster, at a rate of 120 ft per turn. Though invisible, the eye
+is tangible (as big as a normal human eye). It cannot pass through solid
+barriers. If a caster moves, it cannot move the eye that same turn /
+round.
+
+\subsection*{Rank 4 Spells}\label{rank-4-spells}
+
+\paragraph{Animate Dead}\label{animate-dead}
+
+\emph{Necromancy (R: Short, D: 1 day)}\\
+Up to 1 medium humanoid corpses or skeletons of the caster's choosing
+per Level of the caster rise as undead under the caster's command.
+Whatever their capabilities during life, all created undead use the
+stats below. They are unable to use any special traits or powers
+(including spell casting) possessed in life. The dead are animated until
+destroyed, a Dispel Magic spell is cast upon them, or the duration
+expires. The caster can make the duration permanent by consuming 100 sp
+per Hit Die of the creature(s) animated in ritual components when the
+spell is cast.
+
+\textbf{Medium Undead}\\
+Level 1 AC 12 HP 1d8 (4) Att Weapon (+0) Speed 20 Morale 12 XP 10\\
+Undead: Silent before attacking. Immune to biological effects
+(e.g.~disease, poison) and mind-affecting spells.
+
+\paragraph{Banishment}\label{banishment}
+
+\emph{Conjuration (R: Medium, D: 1 minute)}\\
+Save: Arcana 14. This spell banishes one creature to another plane of
+existence. It remains there until the spell ends, then reappears in the
+nearest unoccupied space to its point of banishment. If the subject is
+native to the plane of existence the caster is on, the subject is
+instead sent to a harmless demiplane. If native to a different plane of
+existence than the one the caster is on, the subject is banished to its
+home plane and must find another way to return.
+
+\paragraph{Blight}\label{blight}
+
+\emph{Necromancy (R: Medium, D: Instant)}\\
+Save: Arcana 14. The subject, which must be living, takes 8d6 necrotic
+damage. If the caster targets a plant creature or a magical plant, the
+target's saving throw is Arcana 17 instead, and the spell deals double
+damage. If a non-magical plant that isn't a creature is targeted, such
+as a tree or shrub, it withers and dies without a save.
+
+\paragraph{Clairvoyance}\label{clairvoyance}
+
+\emph{Divination (R: Self, D: 10 minutes)}\\
+This spell enables the caster to concentrate upon a familiar locale, no
+matter how far away, to see and hear as if the caster were there. Lead
+blocks this effect; the caster knows that this has occurred.
+
+\paragraph{Confusion}\label{confusion}
+
+\emph{Enchantment (R: Medium, D: 1 minute)}\\
+Save: Willpower 14. AoE: 30-ft radius/12 x 12. This spell causes
+creatures to behave unpredictably. It affects 1d6 Levels of enemy
+creatures per caster level (up to 15d6). Roll 1d6 to determine the
+affected group's actions each round: 1-2 act normally, 3-4 do nothing,
+5-6 attack friends. Only creatures of Level 8 or lower are affected;
+creatures with the lowest Level are affected first.
+
+\paragraph{Destroy Undead}\label{destroy-undead}
+
+\emph{Necromancy (R: Short, D: Instant)}\\
+Save: Arcana 14. This spell disintegrates corporeal undead of equal
+Level or lower than the caster's own. Undead of Level 3 or less are
+automatically destroyed. Undead of Level 3+1 to 7 can save to avoid
+destruction, but suffer 3d6 damage even if they succeed. Undead of
+higher than Level 7 instead suffer 1d6x10 damage (2d6 damage if they
+succeed). Non-corporeal undead (e.g.~banshees, wraiths, spectres,
+shadows, ghosts) are not affected.
+
+\paragraph{Dimension Door}\label{dimension-door}
+
+\emph{Conjuration (R: 10'/360', D: 1 Round)}\\
+A pair of glowing, door-shaped rifts in the fabric of space open up for
+a moment--one within 10' of the caster and the other at a chosen
+destination location; the target location can be known, or the caster
+can just state a direction and distance. A single creature may step
+through the nearby door and instantly exit the destination door.
+Transfer in the other direction is impossible. The caster may forcibly
+transport an unwilling creature within 10' by manifesting the nearby
+door beside them. The target must make a Strength 14 saving throw or be
+sucked through the dimensional door. The subject arrives on a safe and
+stable surface as close as possible to the target; this may be the
+starting point; the spell has no effect if the destination is occupied
+by a solid object.
+
+\paragraph{Divination}\label{divination}
+
+\emph{Divination (R: Self, D: Instant)}\\
+This spell places the caster in contact with a planar power. The caster
+may ask one question concerning a specific goal or event to occur within
+seven days. The reply might be short or cryptic, but will be truthful.
+However, the future is as yet unwritten and so events may render the
+reply inaccurate.
+
+\paragraph{Dominate}\label{dominate}
+
+\emph{Enchantment (R: Medium, D: Permanent until broken)}\\
+Save: Willpower 14. The spell affects one intelligent subject, who
+becomes powerless to resist the caster. Commands can be given verbally
+or mentally, as a free action, as long as the subject is within range.
+The subject can be forced to use their powers and abilities, assuming
+the caster knows of them (a victim's secrets are not automatically
+revealed). If the victim is ordered to do something they would find
+abhorrent, they are first granted another saving throw.
+
+\paragraph{Duplicate}\label{duplicate}
+
+\emph{Conjuration (R: Medium, D: 8 hours)}\\
+This spell creates an exact copy of any single non-magical item the
+caster touches. The item to be copied must be able to fit inside a
+20-foot cube. The duplicated item is identical to the original in every
+way, but Detect Magic reveals its true nature. At the duration's end, or
+if a Dispel Magic is cast on the item, the item vanishes.
+
+\paragraph{Elemental Wall}\label{elemental-wall}
+
+\emph{Conjuration (R: Medium, D: Concentration or permanent)}\\
+The caster creates a wall of fire, ice, stone, or wind up to 1,000 cubic
+feet of volume (e.g.~2' thick, 50' long, and 10' high). The caster must
+choose the wall's element at the time of memorizing the spell. If the
+wall is made of fire, ice, or wind, creatures of Level 3 or lower cannot
+pass through the wall; creatures of Level 4 or higher can pass through
+the wall, but take 3d6 damage of the chosen element per 10' traveled. A
+wall of stone is permanent and must be supported (e.g.~by the ground)
+and cannot be created in an area occupied by objects.
+
+\paragraph{Enhance}\label{enhance}
+
+\emph{Transmutation (R: Touch, D: 1 hour)}\\
+One chosen Ability score doubles for the subject.
+
+\paragraph{Fabricate}\label{fabricate}
+
+\emph{Transmutation (R: Short, D: Permanent)}\\
+Disassembles raw, inanimate materials within range and weaves them into
+objects of the caster's choosing. Any simple object typically
+constructed from the raw materials may be fabricated. For example, a
+door could be made from trees, clothing from wool, etc. The object's
+size may be up to 1 cubic yard per Level of the caster. Objects
+fabricated from minerals may be up to 1 cubic foot per Level of the
+caster.
+
+\paragraph{Free Action}\label{free-action}
+
+\emph{Abjuration (R: Touch, D: 1 hour)}\\
+The subject is not slowed by difficult terrain or affected by spells
+(such as Web or Black Tentacles) or other effects that are physically
+restrictive in nature (as opposed to mind-control effects like Hold
+Person). They cannot be Slowed. The subject automatically escapes all
+non-magical restraints, including grappling. Finally, being in or
+underwater imposes no movement or Dex penalties (though this does not
+allow one to breathe water).
+
+\paragraph{Fumble}\label{fumble}
+
+\emph{Enchantment (R: Medium, D: 1 hour)}\\
+Save: Willpower 14. One subject becomes clumsy and awkward. Running
+creatures will trip and fall, and those reaching for an item or wielding
+a weapon will drop it. While affected, recovery from a fall or of a
+fumbled object requires a full round (no movement possible). If the
+victim makes their save, they are still affected as per a Slow spell
+(see Haste).
+
+\paragraph{Hallucinatory Terrain}\label{hallucinatory-terrain}
+
+\emph{Illusion (R: 1 mile, D: 1 day)}\\
+Save: Perception 14. This spell makes natural terrain within a 1-mile
+radius look, sound, smell, and feel different. The general shape of the
+terrain cannot be altered, but minor aberrations can be added
+(e.g.~occasional small buildings). Creatures in the area cannot be added
+or removed, but their secondary elements, such as bird calls, can be.
+True Seeing does not automatically pierce this illusion but does grant
+another save with a +4 bonus. If an intelligent being touches the
+illusion, that being can see through the illusion.
+
+\paragraph{Hex Weaving}\label{hex-weaving}
+
+\emph{Abjuration (R:Touch, D: Instant or permanent)}\\
+Weaving the threads of fate surrounding the subject, this spell
+manifests one of the following effects when cast:
+
+Removing a curse: The subject is permanently cured of the affliction of
+a single curse. This spell may be used to enable a character to discard
+a cursed magic item. The duration is instant.
+
+Placing a curse: The subject must Save Versus Spell or suffer from a
+deleterious effect of the caster's choosing. Maximum possible effects
+include: a --2 Saving Throw penalty, a --4 Attack Roll penalty, halving
+an Ability Score. The duration is permanent.
+
+Multiple curses: So long as each has a unique effect, multiple curses
+may afflict the same creature.
+
+\paragraph{Improved Invisibility}\label{improved-invisibility}
+
+\emph{Illusion (R: Touch, D: 1 turn, +1 per name level)}\\
+This spell renders the subject invisible, but they are able to attack or
+cast their own spells without automatically nullifying the spell. The
+invisible creature can attacked with the usual --4 penalty applied to
+invisible targets, but in addition its saves are one difficulty level
+lower.
+
+\paragraph{Know Weakness}\label{know-weakness}
+
+\emph{Divination (R: Short, D: Instant)}\\
+The caster learns the target's current weaknesses and resistances. This
+includes anything that causes the target more than the normal amount of
+damage, and effects that reduce or negate damage.
+
+\paragraph{Magic Mirror}\label{magic-mirror}
+
+\emph{Divination (R: Short, D: 10 minutes)}\\
+The caster creates a mirror-like surface on any solid object. The caster
+can see and hear through the mirror as if they were in the location
+reflected. The mirror can be moved up to 60 ft away from the caster.
+
+\paragraph{Minor Globe of
+	Invulnerability}\label{minor-globe-of-invulnerability}
+
+\emph{Abjuration (R: Self, D: 10 minutes)}\\
+The caster is immune to all spells of 3rd Rank or lower. Dispel Magic
+can be cast at the globe and affects it normally.
+
+\paragraph{Mnemonic Enhancer}\label{mnemonic-enhancer}
+
+\emph{Evocation (R: Self, D: Instant)}\\
+The caster instantly recalls one spell of Rank 3 or lower they have
+previously cast.
+
+\paragraph{Overlook}\label{overlook}
+
+\emph{Enchantment (R: Short, D: 1 hour)}\\
+Save: Willpower 14. Any intelligent creature wishing to make a direct
+spell or weapon attack on the caster must make a save: failure means
+that they pick the next logical enemy target instead. If there are no
+other targets, the creature can take some other action, but can't attack
+that round.
+
+\paragraph{Polymorph}\label{polymorph}
+
+\emph{Transmutation (R: Short, D: 1d6x10 + 10 minutes or permanent)}\\
+Transforms the caster or another living subject into another type of
+living creature of the same size, as chosen by the caster. The spell
+cannot be used to duplicate a specific individual. If the subject dies
+while polymorphed, they return to their original form. An unwilling
+subject may make a Dexterity 14 saving throw to resist being
+transformed.
+
+\textbf{Cast on self:} The transformation fails if the new form's Level
+is greater than the caster's. The transformation does not alter the
+caster's Hit Points, Saving Throw bonus, Attack, or intelligence.
+Physical capabilities of the new form (e.g.~strength, physical attack
+forms, modes of movement) are acquired. Non-physical special traits or
+powers (e.g.~immunities, breath weapons, spell casting) are not
+acquired. While polymorphed, the caster is unable to cast spells. The
+duration is 1d6 Turns + 1 Turn per Level.
+
+\textbf{Cast on another:} The transformation fails if the new form's
+Level is greater than double the caster's. The transformation does not
+alter the subject's Hit Points, but the subject otherwise truly becomes
+the new form: all special traits and powers are acquired, along with
+behavioural patterns, tendencies, and intelligence. The duration is
+permanent.
+
+\paragraph{Programmed Illusion}\label{programmed-illusion}
+
+\emph{Illusion (R: Long, D: Permanent)}\\
+Save: Perception 17. This spell creates a preset, fixed Spectral Force
+up to 40-ft radius (16 × 16) and up to 5 minutes long that activates
+upon a caster-specified trigger condition. Damage cannot be dealt by
+this illusion. Once complete, it vanishes, but after 10 minutes it can
+be triggered again.
+
+\paragraph{Sanctum}\label{sanctum}
+
+\emph{Abjuration (R: Touch, D: 1 day)}\\
+This spell wards a cubic area up to 100 ft per side, blocking any or all
+of the following from penetrating into it: sight, smell, hearing,
+divination, teleportation, planar travelling. No creature can attack
+another while inside it.
+
+\paragraph{Sending}\label{sending}
+
+\emph{Evocation (R: Unlimited, D: Instant)}\\
+The caster sends a mental message to another creature. The caster must
+be familiar with the recipient, including their name and appearance. The
+recipient must be of at least Animal Intelligence. The message may be up
+to 25 words. It is understood by the recipient, irrespective of
+language.
+
+\paragraph{Speak with Dead}\label{speak-with-dead}
+
+\emph{Necromancy (R: Touch, D: 10 minutes)}\\
+The caster can ask a corpse one question. Its spirit must answer and
+will be understood, but knows only what it knew in life. If the spirit
+recognizes the caster as hostile to the agenda it had in life, it will
+answer as literally as it can. A corpse can only be the target of this
+spell once per fortnight.
+
+\paragraph{Telekinesis}\label{telekinesis}
+
+\emph{Evocation (R: Long, D: Concentration)}\\
+The caster can move objects with their mind. The maximum weight that can
+be moved is 20 pounds per caster level. The caster may move the target
+up to 20' per Round in any direction desired (including vertically), but
+can also hurl the object, dealing 1d6 damage per 20 pounds and ending
+the spell. If the caster is harmed, moves, or takes any other action,
+the spell ends.
+
+If a creature is targeted, it may make a Strength 14 to resist the
+spell. If a held object is targeted, the owner may likewise make a
+Strength 14 to resist the spell.
+
+\paragraph{Transmute Rock to Mud (R)}\label{transmute-rock-to-mud-r}
+
+\emph{Transmutation (R: Short, D: 1 hour)}\\
+Save: Arcana 14. AoE: Up to 40-ft radius / 16 × 16. This spell turns a
+patch of non-magical rock and/or earth into mud 5 ft deep. Combat speed
+through the mud is 5 ft per round. Creatures in the area when the spell
+is cast must save or fall prone. If cast on a stone golem or the like,
+it must make a Constitution 17 save or be slain. The Transmute Mud to
+Rock reverse permanently hardens normal mud into soft stone (sandstone
+or similar).
+
+\paragraph{Wingbind}\label{wingbind}
+
+\emph{Evocation (R: Medium, D: 10 minutes)}\\
+Save: Arcana 17. One flying creature has its wings bound and cannot fly.
+If the creature fails its save, it crashes to the ground, taking damage
+as appropriate.
+
+\paragraph{Woodland Veil}\label{woodland-veil}
+
+\emph{Illusion (R: Medium, D: Permanent)}\\
+Up to 100 Small or Medium creatures (chosen by the caster) within range
+are veiled by illusion, appearing as a copse of trees or an orchard.
+Once the illusion is in place, even creatures moving among the veiled
+subjects are deceived. Subjects who leave the affected area cease to be
+veiled. The caster may dismiss the illusion in its entirety at any time.
+
+\subsection*{Rank 5 Spells}\label{rank-5-spells}
+
+\paragraph{Advanced Illusion}\label{advanced-illusion}
+
+\emph{Illusion (R: Long, D: Concentration + 10 minutes)}\\
+Save: Perception 17. This spell creates a Spectral Force, but the
+maximum size is Gargantuan (20 × 20), plus 5 ft AoE per name level, and
+if a combatant it has an AC of 25. The illusion lasts for 10 minutes
+after the caster ceases to concentrate upon it.
+
+\paragraph{Air Sphere}\label{air-sphere}
+
+\emph{Conjuration (R: Self, D: 10 minutes per Level)}\\
+When immersed in water, the caster is surrounded by a 10' radius sphere
+of breathable air. The 10' radius sphere of the spell's effect moves
+with the caster. Swimming is not enhanced or affected.
+
+\paragraph{Anticipation}\label{anticipation}
+
+\emph{Divination (R: Self, D: 1 round)}\\
+AoE: 50-ft radius / 20 × 20. The caster knows what actions all within
+the area of effect will attempt on the following round: moves; precise
+spells, weapons, or items to be used; intended targets, etc. The spell
+reveals the presence (but not the location) of invisible or ethereal
+beings in this way.
+
+\paragraph{Antimagic Shell}\label{antimagic-shell}
+
+\emph{Abjuration (R: Self, D: Concentration--1 hour)}\\
+An invisible barrier surrounds and moves with the caster. The caster is
+impervious to all magical effects, but the spell also prevents the
+functioning of magic items or spells within its confines. It cannot be
+dispelled.
+
+\paragraph{Banish Supernatural}\label{banish-supernatural}
+
+\emph{Abjuration (R: Medium, D: 1 minute)}\\
+Save: Arcana 14. This spell banishes up to 20 HD worth of chosen
+supernatural creatures back to their home plane.
+
+\paragraph{Blade Barrier}\label{blade-barrier}
+
+\emph{Evocation (R: Medium, D: 1 minute)}\\
+AoE: 100 ft long, 20 ft high, 5 ft thick. A vertical wall of whirling
+blades appears. Any creature passing through the barrier takes 1d6
+damage per level of the caster, maximum 10d6; a Morale check is required
+to even attempt it.
+
+\paragraph{Clenched Fist}\label{clenched-fist}
+
+\emph{Evocation (R: Short, D: Concentration)}\\
+The spell evokes a magical fist as large as a giant's that strikes one
+creature per round, never missing. Roll 1D6 each round to determine its
+damage for the round: 1-3 = 1D6 damage; 4 = 2D6 damage, 5 = 3D6 damage
+and the opponent is helpless for one round, and 6 = 4D6 damage and the
+opponent is helpless for 3 rounds. The hand cannot be attacked.
+
+\paragraph{Cloudkill}\label{cloudkill}
+
+\emph{Conjuration (R: Medium, D: 10 minutes)}\\
+Save: Constitution 14. AoE: 20-ft radius / 8 × 8. A billowing cloud of
+poisonous gas appears, killing any living creature up to Level 6 unless
+they save. It moves 10 ft away from the caster each round. Creatures in
+the cloud take 2d6 poison damage per round.
+
+\paragraph{Contingency}\label{contingency}
+
+\emph{Evocation (R: Self, D: 1 week)}\\
+When this spell is cast, the caster must cast another spell immediately
+thereafter, which must have a range of Self and cannot be higher than
+4th level. That spell is contained by the Contingency spell, and takes
+effect when the precise conditions detailed at the time of casting
+Contingency occur; it is already cast and cannot be disrupted or
+countered.
+
+\paragraph{Conjure Elemental}\label{conjure-elemental}
+
+\emph{Conjuration (R: Medium, D: Permanent until dismissed or slain)}\\
+Conjures a giant being formed of pure elemental matter (air, earth,
+fire, or water) to do the caster's bidding. The spell requires a large
+volume of the appropriate element. If the caster is harmed, moves at
+greater than half Speed, or takes any other action, their command over
+the elemental ends. An elemental unchained from a caster's control
+immediately attempts to murder its creator and any who get in its way.
+While control over the elemental is maintained, the caster may dismiss
+it at any time, returning it to inert matter.
+
+\textbf{Elemental} Large Construct---Mindless---Neutral\\
+Level 16 AC 21 HP 16d8 (72) Att Blow (+11, 3d8) Speed By type Morale 12
+XP 3,050
+
+\begin{itemize}
+	\tightlist
+	\item
+	Construct: Immune to biological effects (e.g.~disease, poison) and
+	mind-affecting spells (e.g.~Vapours of Dream, Paralysation, Dominate).
+	\item
+	Immunities: Only harmed by magic or magic weapons.
+	\item
+	Air: 32' high, 8' wide vortex of whirling air. +1d8 damage against
+	flying creatures. Speed 120.
+	\item
+	Earth: 16' high humanoid figure of earth or stone. Cannot cross water
+	wider than 16'. +1d8 damage against creatures on the ground. Speed 20.
+	\item
+	Fire: 16' high, 16' wide column of whirling fire. Cannot cross water
+	wider than 16'. +1d8 damage against cold-based creatures. Speed 40.
+	\item
+	Water: 8' high, 32' wide wave of water. Must remain within 60' of
+	water. +1d8 damage against creatures in water. Speed 20 (swimming 60).
+\end{itemize}
+
+\paragraph{Control Undead}\label{control-undead}
+
+\emph{Necromancy (R: Self, D: 1d6 x 10 minutes)}\\
+Save: Arcana 17. AoE: 50-ft radius / 20 × 20. This spell functions as
+Turn Undead, except that creatures turned or destroyed are controlled
+instead. Only intelligent undead are allowed a save.
+
+\paragraph{Cure Critical Wounds}\label{cure-critical-wounds}
+
+\emph{Necromancy (R: Touch, D: Instant)}\\
+This spell heals the subject of 3d6+3 damage. Add 3d6 for each name
+level the subject has.
+
+\paragraph{Delayed Blast Fireball}\label{delayed-blast-fireball}
+
+\emph{Evocation (R: Medium, D: Instant)}\\
+Save: Dexterity 17. AoE: 20-ft radius / 8 × 8. LoS not required. The
+blast deals 1d6+1 fire damage per caster level. While it can explode as
+normal, it can also be set to not explode for up to 10 minutes from its
+original casting, as stated by the caster at the time of casting.
+Combustibles in the AoE are set alight, and failed saves force item
+saves.
+
+\paragraph{Feeblemind}\label{feeblemind}
+
+\emph{Enchantment (R: Medium, D: Permanent)}\\
+Save: Willpower 17. The subject's intelligence drops to that of an
+imbecile. It loses all knowledge and memory of any spells, plus the
+ability to communicate and so on, though it can still defend itself in a
+primitive fashion. Only Dispel Magic or Hex Weaving can cancel the
+effect.
+
+\paragraph{Find the Path}\label{find-the-path}
+
+\emph{Divination (R: Self, D: 1 hour)}\\
+The caster learns the most practicable and direct physical route to, out
+of, or into a locale (not to creatures / objects within it). If seeking
+an area inside a locale, relatively precise criteria must be specified
+when the spell is cast (e.g.~``the throne room'', ``the centre''), and
+cannot be altered afterwards. The path revealed may not be the safest
+route.
+
+\paragraph{Fly}\label{fly}
+
+\emph{Transmutation (R: Touch, D: 1d6x10 minutes, plus 10 minutes per
+	caster level)}\\
+The subject grows wings that enable them to fly at Speed 40. Encumbrance
+speed reductions apply. Clothing is torn; worn armour prevents the spell
+from working.
+
+\paragraph{Hold Monster}\label{hold-monster}
+
+\emph{Enchantment (R: Medium, D: 1 minute)}\\
+Save: Special (Arcana). One or more living creatures of any size are
+hypnotised and become helpless. The caster can choose one target (Arcana
+17 save), or up to four (separate Arcana 14 saves).
+
+\paragraph{Iron Body}\label{iron-body}
+
+\emph{Transmutation (R: Touch, D: 1 hour)}\\
+The subject's body transforms into living iron, granting +8 AC. Falls do
+no damage, nor do non-weapon crushing/constricting attacks, or anything
+affecting respiration. The subject's Strength becomes 19 and their
+combat speed becomes 10. The subject cannot cast spells. Things that
+affect metal function as normal, making rust monsters very dangerous.
+
+\paragraph{Mass Charm}\label{mass-charm}
+
+\emph{Enchantment (R: Medium, D: 1 day)}\\
+Save: Willpower 17. Creatures up to combined Levels of twice the
+caster's Level within a 30' radius (starting with the lowest-Level
+creatures) become friendly to the caster and come to their defence. The
+caster can give the subjects orders, language permitting. The subjects
+will not knowingly endanger their lives beyond reason. Orders not
+befitting a friend will grant an extra save.
+
+\paragraph{Mass Suggestion}\label{mass-suggestion}
+
+\emph{Enchantment (R: Medium, D: 1 day)}\\
+Save: Willpower 17. This spell makes one living creature per two caster
+Levels follow a suggested course of action (language permitting, limited
+to a sentence or two), so long as the caster can phrase it to sound
+reasonable---even if it isn't.
+
+\paragraph{Oracle}\label{oracle}
+
+\emph{Divination (R: Special, D: Special)}\\
+Cast while burning 1,000d. of rare dust, the caster attempts to contact
+a being on another plane of existence. The caster must make a Arcana
+check to succeed. If successful, the caster can ask up to three
+questions. The questions must relate to a specific subject---an object,
+place, or creature. The caster must be in the presence of the subject or
+a closely related item (e.g.~the tombstone of a deceased person, the
+sheath of a lost sword). Questions receive a brief, cryptic answer. Each
+answer has a 1-in-6 chance of being false or misleading. Each casting of
+this spell takes 1d6 Turns. The spell may be cast at most once per week.
+Contact with powerful extra-dimensional beings can shatter the caster's
+mind. The caster must make an Arcana 12 saving throw or enter a coma for
+1d6 weeks.
+
+\paragraph{Passwall}\label{passwall}
+
+\emph{Transmutation (R: Touch, Duration: 1 hour)}\\
+A 5' diameter hole is temporarily opened in solid rock or stone, forming
+a passageway up to 10' deep.
+
+\paragraph{Permanent Illusion}\label{permanent-illusion}
+
+\emph{Illusion (R: As original spell, D: Permanent)}\\
+This spell creates a permanent version of any illusion spell of 1st or
+2nd level with a non-Instant duration. It can still be dispelled, but
+any Concentration requirement is removed. Saves required by the modified
+spell have a -4 penalty.
+
+\paragraph{Raise Dead}\label{raise-dead}
+
+\emph{Necromancy (R: Touch, D: Permanent)}\\
+Save: Willpower*2 14. The caster restores life to a human or humanoid
+dead no more than 1 day for each level of the caster. The subject must
+make a save, or the resurrection fails. If it succeeds, the subject
+loses 1 point of Constitution permanently, and has heavy fatigue until
+one day of bedrest passes for each day that they were dead. Missing
+limbs, digits, eyes and other parts will still be missing when the
+subject returns to life.
+
+\paragraph{Restoration}\label{restoration}
+
+\emph{Necromancy (R: Touch, D: Permanent)}\\
+This spell immediately ends any and all of the following adverse
+conditions affecting the target: addiction, blindness, deafness,
+disease, fatigue, insanity, poison, and Feeblemind. It heals all damage.
+The subject's severed body appendages (digits, hands, feet, limbs,
+tails, even heads of multi-headed creatures), broken bones, and ruined
+organs grow back.
+
+\paragraph{Reverse Gravity}\label{reverse-gravity}
+
+\emph{Transmutation (R: Self, D: Instant)}\\
+AoE: 30-ft radius (12 × 12). This spell reverses gravity in the area of
+effect, causing all unfixed objects and creatures within it to ``fall''
+upwards 50 feet in one round. If some solid object is encountered in
+this ``fall'', the object strikes it in the same manner as a normal
+downward fall. During the movement phase of the next round, the affected
+objects and creatures fall back down.
+
+\paragraph{Seeming}\label{seeming}
+
+\emph{Illusion (R: Long, D: 12 hours)}\\
+Save: Perception 20. The appearance of up to one subject per two caster
+levels is altered. The spell disguises physical appearance as well as
+worn and carried items. Each creature can seem 1 ft shorter or taller
+and appear thin, fat or in between, but the form of each subject must
+have the same basic limb arrangement.
+
+\paragraph{Sensory Deprivation}\label{sensory-deprivation}
+
+\emph{Illusion (R: Medium, D: 1 minute)}\\
+Save: Perception 17. This spell surrounds the target in a void only it
+perceives, rendering it deaf and blind but also blocking all olfactory,
+tactile, and taste sensations. Insights via divination or mental links
+with others are unaffected.
+
+\paragraph{Spell Turning}\label{spell-turning}
+
+\emph{Abjuration (R: Self, D: 1 hour)}\\
+Spells cast directly at the caster rebound back on the original caster.
+This includes innate spell-like abilities, but not spell effects from
+devices such as wands, or spells with radii unless the caster is the
+target point. 1d6+6 spell Ranks are affected by the turning, the amount
+rolled in secret by the referee. If there are not enough levels
+remaining to turn a spell, that spell works with full effect and the
+remaining turn Ranks are kept. If both the protected caster and original
+caster have spell turning effects operating, a resonating field is
+created: roll 1d6. On a 1-4 the spell is negated, while on a 5-6 it
+affects both casters with full effect.
+
+\paragraph{Teleport}\label{teleport}
+
+\emph{Conjuration (R: Touch, D: Instant)}\\
+The subject vanishes and reappears at a location of the caster's
+choosing with all its gear, up to its maximum load. An unwilling subject
+may make an Arcana 14 saving throw to resist the teleportation. The
+caster may not intentionally teleport a subject into mid-air or into
+solid matter.
+
+Success is automatic if the location is very familiar to the caster.
+Otherwise, the caster must make an Arcana check if the location has been
+seen casually, with a -2 penalty if viewed only once. On a failure, roll
+d100 and consult the below table:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}[]{@{}lccc@{}}
+		\toprule\noalign{}
+			Knowledge of Dest. & Off by 5\% & Too High & Too Low \\
+		\midrule\noalign{}
+			Only viewed once & 01--50 & 51--75 & 76--00 \\
+			Seen casually & 01--80 & 81--90 & 91--00 \\
+		\bottomrule\noalign{}
+	\end{tabular}
+\end{table}
+
+\begin{itemize}
+	\tightlist
+	\item
+	Off by 5\%: The subject appears 5\% of the distance from the starting
+	location to the destination away on the nearest safe surface in a
+	random lateral direction (e.g., a subject teleporting 1000' might
+	appear 50' to the east of the intended destination).
+	\item
+	Too high: The subject appears 1d10 × 10' above the intended
+	destination. If this is inside solid matter, the subject dies
+	instantly. Otherwise, they fall from a height.
+	\item
+	Too low: The subject appears 1d10 × 10' below the intended
+	destination. If this is inside solid matter, the subject dies
+	instantly.
+\end{itemize}
+
+\paragraph{True Seeing}\label{true-seeing}
+
+\emph{Divination (R: Touch, D: 1 hour)}\\
+This spell grants the ability to see all things as they actually are.
+The subject sees through normal and magical darkness, notices secret
+doors, sees invisible creatures or objects, ignores displacement
+effects, sees through all illusion spells of 5th level or lower unless
+specified otherwise, and sees the true form of shape-changed,
+polymorphed, possessed, or transmuted things.
+
+\paragraph{Wall of Force}\label{wall-of-force}
+
+\emph{Abjuration (R: Medium, D: 1 hour)}\\
+AoE: Up to 50-ft radius / 20 × 20. The spell creates an invisible
+barrier of magic energy, in a straight line, a hemisphere, or a
+sphere---chosen when cast. It cannot move, and nothing can damage it or
+pass through it. It is unaffected by any spell (including Dispel Magic)
+except Disintegrate, which immediately destroys it.
+
+\subsection*{Rank 6 Spells}\label{rank-6-spells}
+
+\paragraph{Control Weather}\label{control-weather}
+
+\emph{Transmutation (R: Self, 3-mi radius, D: Concentration)}\\
+Weather conditions of the caster's choosing manifest in the local area
+(see list of common conditions below). If the caster is harmed, moves,
+or takes any other action, the spell ends. This spell only functions
+outdoors.
+
+The following are common weather conditions. Others may be possible, at
+the Referee's discretion.
+
+\begin{itemize}
+	\tightlist
+	\item
+	Calm: Clears bad weather (though side-effects---e.g.~mud after
+	rain---remain).
+	\item
+	Extreme heat: Dries up snow or mud (including the Mire spell).
+	Creatures in the area move at half Speed.
+	\item
+	Fog: Visibility drops to 20'. Creatures in the area move at half Speed
+	and, at the Referee's option, may also have a chance of getting lost.
+	\item
+	High winds: Creatures in the area move at half Speed. Missile fire and
+	flight are impossible. High winds may be used to increase the sailing
+	speed of ships by 50\%. In sandy areas, high winds cause sandstorms,
+	reducing visibility to 20'.
+	\item
+	Rain: --2 penalty to Attack Rolls with missile weapons. Mud forms
+	after 3 Turns, halving Speed.
+	\item
+	Snow: Visibility drops to 20'. Creatures in the area move at half
+	Speed. Bodies of water begin to freeze. After the snow thaws, mud
+	remains and impedes movement.
+\end{itemize}
+
+\paragraph{Deathshroud}\label{deathshroud}
+
+\emph{Necromancy (R: Self, D: 10 minutes)}\\
+Save: Arcana 17. A living creature touched by the caster has a black
+haze form around it, draining 20\% of its current Hit Points. At the end
+of every round thereafter, the same loss is taken. A living creature
+that touches or strikes the caster must also save, but at with a +4
+bonus. The spell can be ended by casting Dispel Magic, Restoration, or
+Cure Critical Wounds on the target, or killing the caster.
+
+\paragraph{Disintegrate}\label{disintegrate}
+
+\emph{Evocation (R: Medium, D: Instant)}\\
+Save: Arcana 14. The spell targets a single non-magical creature or
+object. If the target fails its save, it is reduced to dust. If the
+target succeeds, it takes 10d6 damage. An Antimagic Shell or Globe of
+Invulnerability are immune. Resurrection from disintegration is
+impossible.
+
+\paragraph{Dweomerfire}\label{dweomerfire}
+
+\emph{Conjuration (R: Short, D: 1 Round)}\\
+The caster conjures a magical, prismatic flame that briefly engulfs any
+magical energy in a selected 20' cube within range. Objects, areas, or
+creatures under the influence of magic are wreathed in flame. Creatures
+in contact suffer 1d6 damage. The imprinted energy patterns of memorised
+arcane spells burn the mind. Arcane spell-casters must make an Arcana 14
+saving throw or suffer 1 damage per memorised spell. Spells cast by
+affected creatures this round and next explode in a conflagration of
+vivid energy. Creatures casting a spell must succeed on an Arcana 14
+saving throw or suffer 3d6 damage, rendering the cast spell ineffective.
+
+\paragraph{Earthquake Wave}\label{earthquake-wave}
+
+\emph{Evocation (R: Special, D: 1 round per 2 Levels of the caster)}\\
+A repulsive earthquake 10' wide and 60' long emanates from the caster's
+outstretched hands, pushing other creatures away and knocking them
+prone. The caster may turn to affect a new path each Round. All
+creatures in the path are pushed directly away from the caster at 30'
+per Round and must make a Dexterity 14 saving throw or fall prone.
+Creatures attempting to move towards the caster are repelled at their
+Speed, if it is greater than 30. The caster must concentrate (no
+movement or other actions allowed) while repelling creatures. They may
+halt to perform other actions and then resume concentration.
+
+\paragraph{Energy Drain}\label{energy-drain}
+
+\emph{Necromancy (R: Touch, D: Instant)}\\
+Save: Arcana 17. The caster touches a living creature, draining 1d4
+levels.
+
+\paragraph{Finger of Death}\label{finger-of-death}
+
+\emph{Necromancy (R: Medium, D: Instant)}\\
+Save: Arcana 17. The caster points at one living target; if they fail
+their save, they die.
+
+\paragraph{Foresight}\label{foresight}
+
+\emph{Divination (R: Self, D: 2 hours)}\\
+The caster gains a limited form of precognition. The caster gains +5 AC,
+cannot be surprised, gains a +4 bonus to attack rolls and saving throws,
+and gains a +1 to ability checks.
+
+\paragraph{Geas/Quest}\label{geasquest}
+
+\emph{Enchantment (R: Touch, D: Special)}\\
+Save: Willpower 17. This spell places a magical command on a creature to
+perform--or avoid performing--a certain action. The subject must follow
+the command to the best of its ability. If the subject fails to follow
+the command, it takes 1d6 damage per day per name level and suffers a
+level of fatigue. Dispel Magic is ineffective against a geas. Remove
+Curse and Hex Weaving only work if the caster is 2 or more Levels higher
+than the caster of Geas.
+
+\paragraph{Glamer}\label{glamer}
+
+\emph{Enchantment (R: Long, D: Special)}\\
+Save: Willpower 17. Up to four intelligent creatures (+1 per caster Name
+Level) can be chosen as targets. Subjects cannot move, drop what they
+are carrying, and become helpless targets. Enraptured targets make
+another save at the end of each round past the first. Further
+enchantments cast upon those under the effects of this spell have a -4
+penalty applied to their saving throws.
+
+\paragraph{Globe of Invulnerability}\label{globe-of-invulnerability}
+
+\emph{Abjuration (R: Self, D: 10 minutes)}\\
+The caster is immune to all spells of 4th rank or lower. Dispel Magic
+can be cast at the globe and affects it normally.
+
+\paragraph{Illusory Kingdom}\label{illusory-kingdom}
+
+\emph{Illusion (R: Long, D: 1 year)}\\
+Save: Perception 20. The caster makes natural terrain within a 1-mile
+radius look, sound, smell, and feel different. The general shape of the
+terrain cannot be altered, but minor aberrations can be added
+(e.g.~occasional small buildings). Creatures in the area cannot be added
+or removed, but their secondary elements, such as bird calls, can be.
+True Seeing does not automatically pierce this illusion but does grant
+another save with a +4 bonus.
+
+\paragraph{Invisible Stalker}\label{invisible-stalker}
+
+\emph{Conjuration (R: Short, D: Special)}\\
+Summons an invisible, extra-dimensional entity to the caster's presence,
+magically binding it to perform a mission of the caster's choosing. The
+caster must be careful with the wording of the mission. Invisible
+stalkers are intelligent and treacherous. Unless the assigned mission
+can be easily and quickly accomplished, the stalker follows the letter
+of the command while twisting the intent. The creature is bound to
+attempt the mission until it succeeds or is destroyed.
+
+\textbf{Invisible Stalker} Medium Monstrosity---Sentient---Neutral\\
+Level 8 AC 16 HP 8d8 (36) Att Crush (+7, 4d4) Speed 40 Morale 12 XP
+1,040\\
+Tracking: Without fault.\\
+Surprise: 5-in-6, unless target can detect invisibility.\\
+If killed: Returns to dimension of origin.
+
+\paragraph{Legend Lore}\label{legend-lore}
+
+\emph{Divination (R: Self, D: Instant)}\\
+This spell brings to the caster's mind information about a noteworthy
+person, place, or thing. If the person or thing is at hand, or if the
+caster is in the place in question, the information is gained in 1d6
+turns. If detailed information on the subject is known, the information
+is gained in 1 week. If only rumours are known, the information is
+gained in 2d6 weeks. Information revealed is often cryptic.
+
+\paragraph{Mass Dominate}\label{mass-dominate}
+
+\emph{Enchantment (R: Medium, D: Permanent)}\\
+Save: Willpower 17. AoE: 50-ft radius (20 × 20). The spell imposes the
+effects of the Dominate spell on up to 2 Levels of intelligent creatures
+per caster Level. Commands are transmitted telepathically, and language
+and distance are no barrier. The caster can release individuals at will.
+
+\paragraph{Meteor Swarm}\label{meteor-swarm}
+
+\emph{Conjuration (R: Long, D: Instant)}\\
+Save: Arcana 17. AoE: 10-ft radius / 4 × 4 per meteor. Blazing orbs of
+fire plummet to the ground at up to four different visible points. Each
+creature in a meteor's takes 6d6 bludgeoning damage and 6d6 fire damage.
+The areas of effect cannot overlap; if the target area is too small to
+allow this, meteors are removed from the spell until no overlap occurs.
+
+\paragraph{Move Terrain}\label{move-terrain}
+
+\emph{Transmutation (R: Long, D: 1 hour)}\\
+The land bulges and warps as a terrain feature moves under the caster's
+control. A single feature (e.g.~a hill, ridge, grove, pool, etc.)
+contained in a 120' square area may be moved. The caster can move
+terrain at up to 60' per Turn. Any buildings or creatures present move
+with the terrain feature. The caster must concentrate (no movement or
+other actions allowed) while moving terrain. They may halt to perform
+other actions and then resume concentration.
+
+\paragraph{Petrification}\label{petrification}
+
+\emph{Transmutation (R: Medium, D: Permanent or instant)}\\
+Manifests one of the following effects when cast:
+
+\begin{itemize}
+	\tightlist
+	\item
+	Flesh to stone: Permanently transforms a living creature (including
+	equipment) into stone. The victim may make a Constitution 14 to
+	resist.
+	\item
+	Stone to flesh: Restores a magically petrified creature (and its
+	equipment) to life.
+\end{itemize}
+
+\paragraph{Phantasmal Slayer}\label{phantasmal-slayer}
+
+\emph{Illusion (R: Short, D: 1 minute)}\\
+Save: Perception 17. This spell creates an illusory manifestation of a
+target's worst fears. Mindless creatures are immune, as are those immune
+to fear. The slayer attacks as a Level 10 monster; on a hit, if the
+target fails their save, they die. On a successful save, the spell ends.
+
+\paragraph{Power Word}\label{power-word}
+
+\emph{Evocation (R: Short, D: Special)}\\
+This spell has a casting time of 1. When declared, the caster picks one
+word of power, which determines the spell's effect.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Blind:} The word affects up to 75 Hit Points of creatures. If
+	50 or fewer HP are affected, the duration is 1d6 turns; if 51 or more
+	HP are affected, it is 1d6 rounds. Blindness can be removed by the
+	usual means, and by Dispel Magic.
+	\item
+	\textbf{Kill:} The word destroys a creature with up to 50 HP, or
+	multiple creatures with 10 or fewer HP, up to a maximum of 90 HP.
+	\item
+	\textbf{Stun:} One target is stunned: unable to act, dropping anything
+	held, and counting as surprised. This lasts a base 10+1d6 rounds, --1
+	per Level of the target.
+\end{itemize}
+
+\paragraph{Project Image}\label{project-image}
+
+\emph{Illusion (R: Long, D: 1 hour)}\\
+Save: Perception 20. The caster creates an illusory duplicate that
+looks, sounds, and smells like the caster. It reacts naturally to the
+environment (e.g. its clothes will move in a draft). The illusion mimics
+the caster's actions, including speech, unless the caster makes it act
+differently; if the caster chooses such, then while doing so the spell
+is a concentration spell. The caster can replace their own sensory input
+with that of the illusion's, thus seeing, smelling and so on only what
+the illusion would; if so, the caster's spells can originate from the
+image. The image appears unaffected by spells or missile weapons, but if
+the image is touched or hit in melee, it disappears.
+
+\paragraph{Scrye}\label{scrye}
+
+\emph{Divination (R: Special, D: Concentration---2 hours)}\\
+The spell targets one creature; if willing, the target can permit the
+spell to work automatically. Otherwise, to scrye the target requires an
+Arcana check with a -1 penalty. If the caster has a possession of the
+target (e.g.~clothes, jewelry), there is no penalty; if the caster has a
+body part, lock of hair, etc. of the target, the caster gains a +1 bonus
+to the check. The spell creates an invisible eye about the size of a
+fist within 10 ft of the target. The caster can see and hear through the
+eye as if they were there. The eye moves with the target; True Seeing
+reveals it. Alternatively, the caster can choose a location they have
+seen before as the target. If so, the eye appears at that location and
+doesn't move.
+
+\paragraph{Symbol}\label{symbol}
+
+\emph{Abjuration (R: Touch, D: Special)}\\
+The caster inscribes one of the following symbols on a surface.
+Creatures that pass over, touch, read, or pass through a portal upon
+which the symbol is inscribed trigger it, after which it flares
+brightly, then vanishes.
+
+\begin{itemize}
+	\tightlist
+	\item
+	Death --- Creatures totalling no more than 60 Hit Points are slain.
+	\item
+	Discord --- All creatures are affected and immediately fall to loud
+	bickering. There is a 50\% chance that creatures in different groups
+	attack one other. The bickering lasts 3d6+2 rounds; any fighting 1d6+1
+	rounds.
+	\item
+	Fear --- This operates as an extra-strong Fear spell, with a target of
+	Willpower 20.
+	\item
+	Hopelessness --- All creatures are affected and are overcome with
+	dejection unless they make a Willpower 17 save. Those affected will
+	submit to the demands of any opponent, i.e.~get out, surrender, etc.
+	Roll 2d6 for the duration in turns, then 1d6: on a 1-2, those affected
+	take no action, while on a 3-4 they turn back or retire from battle,
+	as applicable (5-6 no additional effect).
+	\item
+	Insanity --- Creatures totalling no more than 90 Hit Points act as if
+	a Confusion spell had been placed upon them until a Restoration spell
+	removes the madness.
+	\item
+	Pain --- All creatures are affected. Wracking pains shoot through
+	their bodies, inflicting a --4 attack penalty for 3d6+2 turns.
+	\item
+	Persuasion --- All creatures are affected, becoming friendly to the
+	caster for 3d6+2 turns unless they make an Arcana 17 save.
+	\item
+	Sleep --- All creatures under Level 8+1 fall into a catatonic slumber.
+	They cannot be awakened for 2d6+4 turns.
+	\item
+	Stunning --- Creatures totalling no more than 120 Hit Points are
+	stunned for 2d6 rounds: they are unable to act, drop anything held,
+	and count as surprised.
+\end{itemize}
+
+\paragraph{Unbinding}\label{unbinding}
+
+\emph{Abjuration (R: Medium, D: Instant)}\\
+AoE: 40-ft radius / 16 × 16. All spell effects present are ended, all
+magic constructs and animated dead are destroyed (Heroic save to
+prevent), and all magically summoned creatures are banished to their
+place of origin. The spell does not affect non-animated undead, or
+creatures that have been gated or otherwise transported to a plane by
+means other than direct summoning. If a spell effect is permanent, and
+greater than 2nd Rank, then it is instead merely suppressed for 2d6
+hours.
+
+\newpage
+
+\section{Holy Spells}\label{holy-spells}
+
+Holy Spells are taken directly from
+\emph{\href{https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=holy_magic}{Dolmenwood}},
+with a few edits and exceptions. Our version is as follows:
+
+\subsection*{Rank 1 Spells}\label{rank-1-holy}
+
+\paragraph{Detect Evil (St.~Whittery's
+	Vision)}\label{detect-evil-st.-whitterys-vision}\mbox{}\\
+\emph{(R: 120', D: 6 Turns)}\\
+The caster perceives a faint halo of wicked, grinning spirits flickering
+around objects under an evil enchantment and living beings with evil
+intentions.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Intent only}: The caster cannot read the thoughts of creatures
+	with evil intent.
+	\item
+	\textbf{Definition of evil}: The Referee must judge what is classified
+	as evil. Beings of Chaotic Alignment do not always have evil intent.
+	Traps and poisons, while potentially harmful, are not evil.
+\end{itemize}
+
+\paragraph{Detect Magic (Wisdom of
+	St.~Thorm)}\label{detect-magic-wisdom-of-st.-thorm}\mbox{}\\
+\emph{(R: 60', D: 2 Turns)}\\
+Enchanted objects, areas, or creatures within range of the caster are
+wreathed in a shimmering, golden glow. Both permanent and temporary
+enchantments are revealed.
+
+\paragraph{Frost Ward (St.~Abthius'
+	Rebuke)}\label{frost-ward-st.-abthius-rebuke}\mbox{}\\
+\emph{(R: 30', D: 6 Turns)}\\
+A soothing warmth comes upon all allies within range, rebuking the
+malicious effects of cold and frost.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Normal cold}: Subjects are untroubled by non-magical freezing
+	temperatures.
+	\item
+	\textbf{Save bonus}: Subjects gain a +2 bonus to Saving Throws versus
+	cold-based effects (e.g.~magic or breath attacks).
+	\item
+	\textbf{Cold-based damage}: Reduce cold damage by 1 per damage die
+	rolled. (For example, 4d6 damage is reduced by 4.)
+\end{itemize}
+
+\paragraph{Lesser Healing (Breath of
+	St.~Lillibeth)}\label{lesser-healing-breath-of-st.-lillibeth}\mbox{}\\
+\emph{(R: Touch, D: Instant)}\\
+The fluttering of doves' wings and the sweet scent of blossom manifest
+as the caster recites this prayer. A living subject receives one of the
+following ministrations:
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Healing}: Restores 1d6+1 Hit Points. This cannot raise the
+	subject's Hit Points above the normal maximum.
+	\item
+	\textbf{Curing paralysis}: Paralysing effects are negated.''
+\end{itemize}
+
+\paragraph{Light (St.~Foggarty's
+	Benediction)}\label{light-st.-foggartys-benediction}\mbox{}\\
+\emph{(R: 120', D: 12 Turns)}\\
+A bobbing wisp of light floats from the caster's palm and manifests one
+of the following effects:
+
+\begin{enumerate}
+	\def\labelenumi{\arabic{enumi}.}
+	\tightlist
+	\item
+	\textbf{Golden radiance}: Casts holy light in a 15' radius. The light
+	is sufficient for reading, but is not as bright as daylight. The spell
+	may be cast upon an object, in which case the golden light moves with
+	the object.
+	\item
+	\textbf{Blinding a creature}: A flash of divine light blinds a
+	creature for the duration. The target may make a Willpower 14 save to
+	resist.
+	\item
+	\textbf{Cancelling magical darkness}: St Foggarty's Benediction may
+	cancel a 15' radius area of magical darkness.
+\end{enumerate}
+
+\paragraph{Mantle of Protection (St.~Benester's
+	Word)}\label{mantle-of-protection-st.-benesters-word}\mbox{}\\
+\emph{(R: Self, D: 12 Turns)}\\
+Invoking the name of an archangel, the caster is warded from attacks.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{AC and Saving Throw bonus}: The caster gains a +1 Armour Class
+	and Saving Throw bonus against attacks and special powers.
+	\item
+	\textbf{Magically created or summoned creatures}: The prayer
+	additionally prevents such creatures from making melee attacks against
+	the caster, though they may still make ranged attacks. If the caster
+	engages such a creature in melee, this protection is broken (though
+	the caster still gains the Armour Class and Saving Throw bonuses
+	mentioned above).
+\end{itemize}
+
+\paragraph{Purify Food and Drink (St.~Gretchen's
+	Sublimation)}\label{purify-food-and-drink-st.-gretchens-sublimation}
+\emph{(R: Touch, D: Permanent)}\\
+The sound of distant goat bells echoes and a quantity of poisoned,
+rotten, spoiled, or contaminated food and drink is purified.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Quantity}: Up to 12 portions of food and drink, in any
+	combination. 1 ration counts as a portion of food and 1 pint counts as
+	a portion of drink.
+\end{itemize}
+
+\paragraph{Rally (St.~Jorrael's
+	Counsel)}\label{rally-st.-jorraels-counsel}\mbox{}\\
+\emph{(R: Touch, D: 2 Turns)}\\
+The emboldening words of this prayer reverberate in the subject's mind,
+calming them and purging them of fear.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Magically induced fear}: Make a Willpower 14 saving throw with
+	a +1 bonus per Level of the caster to counter magical terror. This
+	applies to effects active when Rally is cast and subsequent effects
+	during the duration.
+\end{itemize}
+
+\subsection*{Rank 2 Spells}\label{rank-2-holy}
+
+\paragraph{Bless (Righteousness of
+	St.~Gondyw)}\label{bless-righteousness-of-st.-gondyw}\mbox{}\\
+\emph{(R: 60', D: 6 Turns)}\\
+Accompanied by the triumphant blaring of trumpets, a surge of divine
+righteousness bolsters the morale of allies within a 20' × 20' area.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Bonuses}: Subjects gain a +1 bonus to Attack and Damage Rolls.
+	\item
+	\textbf{Retainers}: Also gain a +1 bonus to Loyalty.
+\end{itemize}
+
+\paragraph{Charm Serpents (St.~Dank's
+	Plea)}\label{charm-serpents-st.-danks-plea}\mbox{}\\
+\emph{(R: 60', D: 1d4 Rounds or 1d4 Turns)}\\
+This prayer hypnotises snakes; the serpents rear upright and sway to and
+fro, but they never attack while charmed. Number of snakes affected:
+Snakes whose Levels total up to twice the caster's Level. For example, a
+Level 3 caster could affect three Level 2 snakes, two Level 3 snakes,
+etc. The caster selects which individuals are affected. Duration: When
+cast on snakes that are already attacking, the effect lasts for 1d4
+Rounds. Otherwise, it lasts for 1d4 Turns.
+
+\paragraph{Find Traps (Path of
+	St.~Gripe)}\label{find-traps-path-of-st.-gripe}\mbox{}\\
+\emph{(R: 30', D: 2 Turns)}\\
+Trapped objects and areas within range of the caster are wreathed in an
+apparition of faint, flickering flames.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Magical and mechanical traps}: All are revealed.
+	\item
+	\textbf{No disarm}: The spell provides no assistance bypassing or
+	deactivating traps, only revealing their locations.
+\end{itemize}
+
+\paragraph{Flame Ward (Boldness of
+	St.~Hollyhock)}\label{flame-ward-boldness-of-st.-hollyhock}\mbox{}\\
+\emph{(R: 30', D: 2 Turns)}\\
+A puff of flour and the aroma of freshly baked bread manifest around a
+single creature of the caster's choosing, which is bestowed with
+supernatural resistance to fire.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Normal heat}: The subject is unharmed by non-magical heat or
+	fire.
+	\item
+	\textbf{Save bonus}: The subject gains a +2 bonus to Saving Throws
+	versus fire-based effects (e.g.~magic or breath attacks). Fire-based
+	damage: Reduce fire damage by 1 per damage die rolled. (For example,
+	4d6 damage is reduced by 4.)
+\end{itemize}
+
+\paragraph{Hold Person (St.~Waylaine's
+	Reproof)}\label{hold-person-st.-waylaines-reproof}\mbox{}\\
+\emph{(R: 180', D: 9 Turns)}\\
+The caster castigates one or more mortals, fairies, or demi-fey for
+their misdeeds, causing them to halt in their tracks if they fail a
+Willpower 14 saving throw. The spell may be used in two ways:
+
+\begin{enumerate}
+	\def\labelenumi{\arabic{enumi}.}
+	\tightlist
+	\item
+	\textbf{Against an individual}: The target's Saving Throw is penalised
+	by --2.
+	\item
+	\textbf{Against a group}: 1d4 individuals in the group are targeted.
+	The individuals are selected by the caster.
+\end{enumerate}
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Restrictions}: Large creatures are immune.
+	\item
+	\textbf{Paralysis}: Affected targets are aware but cannot move their
+	limbs. They may, at the caster's option, speak.
+	\item
+	\textbf{Freeing}: The caster may free paralysed targets with a word.
+\end{itemize}
+
+\paragraph{Reveal Alignment (St.~Willofrith's
+	Warning)}\label{reveal-alignment-st.-willofriths-warning}\mbox{}\\
+\emph{(R: 30', D: Instant)}\\
+An angelic voice whispers in the caster's mind, revealing the Alignment
+of a selected character, monster, object, or area within range. (Most
+objects and areas do not have an Alignment, but magic items or holy
+places may.)
+
+\paragraph{Silence (Abjuration of
+	St.~Signis)}\label{silence-abjuration-of-st.-signis}\mbox{}\\
+\emph{(R: 180', D: 12 Turns)}\\
+Raising a finger to their lips, the caster whispers a hushed prayer to
+St Signis the Silent. A 15' radius area within range is shrouded in holy
+silence.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Within the area}: All sound is prevented. Conversation and
+	spell casting are impossible.
+	\item
+	\textbf{Noise from outside}: Those within the area of silence can only
+	hear sounds from outside it.
+	\item
+	\textbf{Casting upon a creature}: Silence may be cast upon a creature,
+	which must make an Arcana 14 saving throw. If the Saving Throw fails,
+	the shrouded 15' radius area of silence moves with the target. If the
+	Saving Throw succeeds, the spell has no effect.
+\end{itemize}
+
+\paragraph{Speak With Animals (Speech of
+	St.~Hamfast)}\label{speak-with-animals-speech-of-st.-hamfast}\mbox{}\\
+\emph{(R: Self, D: 6 Turns)}\\
+Animals of one selected species prick up their ears to the lilting words
+of this prayer. The caster can speak with all animals of that type for
+the duration.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Type of animal}: The spell translates for one species of
+	normal or giant animals at a time. Intelligent animals and fantastic
+	monsters are not affected.
+	\item
+	\textbf{Services}: Animals which are friendly towards the caster may
+	be persuaded to perform a service. The service must be within an
+	animal's comprehension and capabilities.
+\end{itemize}
+
+\subsection*{Rank 3 Spells}\label{rank-3-holy}
+
+\paragraph{Animal Growth (Mercy of
+	St.~Vinicus)}\label{animal-growth-mercy-of-st.-vinicus}\mbox{}\\
+\emph{(R: 120', D: 12 Turns)}\\
+A single animal is briefly haloed with glimmering Mithric script (the
+text of this prayer), turns its eyes toward the heavens, and doubles in
+size.
+
+\begin{itemize}
+	\tightlist
+	\item
+	Damage: Double the damage of the animal's melee attacks.
+	\item
+	Load: Double the maximum weight the animal can carry.
+	\item
+	Restrictions: This spell may be used on normal or giant animals, but
+	intelligent animals, magical animals, and fantastic monsters are
+	unaffected.
+\end{itemize}
+
+\paragraph{Bless Weapon (Courage of
+	St.~Sedge)}\label{bless-weapon-courage-of-st.-sedge}\mbox{}\\
+\emph{(R: 30', D: 1 Turn)}\\
+Silver light arcs from the caster's hand and wreathes a single weapon,
+enchanting it with holy power.
+
+\begin{itemize}
+	\tightlist
+	\item
+	Damage: The weapon deals an additional damage die.
+	\item
+	Treated as magical: The weapon now harms monsters which can only be
+	harmed by magic.
+\end{itemize}
+
+\paragraph{Cure Affliction (St.~Pastery's
+	Blessing)}\label{cure-affliction-st.-pasterys-blessing}\mbox{}\\
+\emph{(R: 30', D: Instant)}\\
+The lowing of cattle can be heard as the caster recites this prayer. A
+living subject receives one of the following ministrations:
+
+\begin{enumerate}
+	\def\labelenumi{\arabic{enumi}.}
+	\tightlist
+	\item
+	\textbf{Cure disease}: The subject is purged of a single disease of
+	mundane or magical origin.
+	\item
+	\textbf{Cure blindness or deafness}: The subject's sight or hearing
+	are restored, nullifying any disease, curse, or enchantment that
+	veiled them.
+\end{enumerate}
+
+\paragraph{Holy Light (Devotion of
+	St.~Eggort)}\label{holy-light-devotion-of-st.-eggort}\mbox{}\\
+\emph{(R: 120', D: Permanent or 6 Turns)}\\
+A ray of white light beams from the caster's raised hand and manifests
+one of the following effects:
+
+\begin{enumerate}
+	\def\labelenumi{\arabic{enumi}.}
+	\tightlist
+	\item
+	\textbf{Eternal radiance}: Casts holy light in a 30' radius. The light
+	is as bright as full daylight (creatures that suffer penalties in
+	daylight are affected). The prayer may only be cast upon a fixed
+	location within range---the eternal radiance does not move. The
+	duration is permanent.
+	\item
+	\textbf{Beacon of sanctity}: White light radiates in a 15' radius
+	around a chosen object. Undead creatures suffer a --2 penalty to
+	Attack Rolls and Saving Throws while within the radius of light. The
+	duration is 6 Turns.
+	\item
+	\textbf{Cancelling magical darkness}: Devotion of St Eggort may cancel
+	a 30' radius area of magical darkness.
+\end{enumerate}
+
+\paragraph{Locate Object (St.~Keye's
+	Revelation)}\label{locate-object-st.-keyes-revelation}\mbox{}\\
+\emph{(R: 120', D: 6 Turns)}\\
+A cherub-like apparition of the infant St Keye points in the direction
+of a sought object, adjusting the indicated direction as the caster
+moves. The cherub disappears when the sought object is within range. One
+of two types of objects may be located:
+
+\begin{enumerate}
+	\def\labelenumi{\arabic{enumi}.}
+	\tightlist
+	\item
+	\textbf{General class}: An object of a general class (e.g.~a stairway,
+	an altar, etc.). In this case, the nearest object of that type is
+	located.
+	\item
+	\textbf{Specific object}: A specific object which the caster can
+	clearly visualise in all aspects. Restrictions: This spell cannot be
+	used to locate creatures.
+\end{enumerate}
+
+\paragraph{Remove Curse (St.~Primula's
+	Grace)}\label{remove-curse-st.-primulas-grace}\mbox{}\\
+\emph{(R: Touch, D: Instant)}\\
+Milk drips from the caster's hand as they recite this prayer. The
+subject, doused in holy milk, is permanently cured of the affliction of
+a single curse.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Cursed items}: Use of this spell enables a character to
+	discard a cursed magic item.
+\end{itemize}
+
+\subsection*{Rank 4 Spells}\label{rank-4-holy}
+
+\paragraph{Circle of Protection (St.~Faxis'
+	Abjuration)}\label{circle-of-protection-st.-faxis-abjuration}\mbox{}\\
+\emph{(R: 10' around the caster, D: 12 Turns)}\\
+A sword of glowing light manifests and inscribes a 10' radius circle
+around the caster, leaving a shimmering ring of light which moves with
+the caster. The caster and all allies within the circle come under the
+effect of a Mantle of Protection, warded against attacks.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{AC and Saving Throw bonus}: Those warded gain a +1 Armour
+	Class and Saving Throw bonus against attacks and special powers.
+	\item
+	\textbf{Magically created or summoned creatures}: The prayer
+	additionally prevents such creatures from making melee attacks against
+	those warded, though they may still make ranged attacks. If any of the
+	warded party engages such a creature in melee, this protection is
+	broken (those warded still gain the Armour Class and Saving Throw
+	bonuses mentioned above).
+\end{itemize}
+
+\paragraph{Create Water (St.~Quister's
+	Defence)}\label{create-water-st.-quisters-defence}\mbox{}\\
+\emph{(R: Touch, D: Permanent)}\\
+A magical fount of wine-red water springs forth from the ground or a
+wall. The liquid looks and tastes like a sweet, refreshing wine, but it
+is actually pure water.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Volume}: The fount produces enough to sustain 12 people and 12
+	mounts for one day (approximately 50 gallons).
+	\item
+	\textbf{Higher Level casters}: If the caster is higher than Level 9,
+	water sufficient for an additional 12 people and mounts is produced
+	for each Level beyond 9.
+\end{itemize}
+
+\paragraph{Greater Healing (Steadfastness of
+	St.~Wick)}\label{greater-healing-steadfastness-of-st.-wick}\mbox{}\\
+\emph{(R: Touch, D: Instant)}\\
+The rustic voice of St Wick manifests, whispering a parable as the
+caster touches a living subject.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Healing}: The prayer restores 2d6+2 Hit Points to the subject.
+	This cannot raise the subject's Hit Points above the normal maximum.
+\end{itemize}
+
+\paragraph{Remove Poison (St.~Torphia's
+	Respite)}\label{remove-poison-st.-torphias-respite}\mbox{}\\
+\emph{(R: Touch, D: Instant)}\\
+The rattling of manacles echoes as a warm light envelops the caster's
+hand. The light neutralises poison in one touched creature or object.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Living creature}: Neutralise the effects of poison on a living
+	subject. A subject that has died from poisoning can be revived
+	(restored to 1 Hit Point) if Remove Poison is cast within 10 Rounds.
+	\item
+	\textbf{Object or substance}: Remove poison from an item, food, or
+	liquid.
+\end{itemize}
+
+\paragraph{Speak With Plants (Salvation of
+	St.~Wort)}\label{speak-with-plants-salvation-of-st.-wort}\mbox{}\\
+\emph{(R: Self, D: 3 Turns)}\\
+A vision of a great yew tree briefly manifests behind the caster, its
+limbs arching protectively overhead. The caster gains the miraculous
+ability to communicate with plants.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Normal plants}: Flora informs the caster of creatures that
+	have recently passed or performs simple favours. For example, plants
+	may clear a passageway for the caster's party to pass through or
+	writhe and tangle into an impassable thicket to hinder pursuers.
+	\item
+	\textbf{Monstrous plants}: The caster can communicate with plant-like
+	or plant-based monsters.
+\end{itemize}
+
+\paragraph{Serpent Transformation (St.~Horace's
+	Requital)}\label{serpent-transformation-st.-horaces-requital}\mbox{}\\
+\emph{(R: 120', D: 6 Turns)}\\
+Accompanied by the merry laughter of St Horace and the waft of freshly
+unearthed mushrooms, 2d8 normal sticks leap to attention and
+miraculously transform into adders.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Commands}: The snakes follow the caster's orders for the
+	duration of the spell.
+	\item
+	\textbf{Reversion}: When the spell ends or a snake is killed, the
+	serpent reverts back to a normal stick.
+\end{itemize}
+
+\textbf{Adder} Small Animal---Animal Intelligence---Neutral\\
+Level 1 AC 13 HP 1d8 (4) Att Bite (+0, 1d3 + poison) Speed 30 Morale 7
+XP 15\\
+Poison: Con 11 saving throw or suffer 1 damage per Round for the next
+1d6 Rounds.\\
+When killed: The snake reverts back to a normal stick.
+
+\subsection*{Rank 5 Spells}\label{rank-5-holy}
+
+\paragraph{Communion (St.~Elsa's
+	Visitation)}\label{communion-st.-elsas-visitation}\mbox{}\\
+\emph{(R: Self, D: 3 Turns)}\\
+This prayer allows the caster to enter into communion with one of the
+ascended saints, asking questions and receiving answers relaying the
+divine wisdom of the One True God. The spell must be cast upon the
+saint's feast day.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Trance}: For the duration of the spell, the caster is in a
+	spiritual trance, unaware of the world around them.
+	\item
+	\textbf{Questions}: The caster may ask 3 questions of the saint.
+	\item
+	\textbf{Answers}: Each question receives a simple ``yes'' or ``no''
+	answer. The answers are guaranteed to be true.
+	\item
+	\textbf{Usage limit}: Communion may be cast once per week. The Referee
+	can limit it to once per month if overused.
+	\item
+	\textbf{St Clewyd}: For theologically unclear reasons, St Clewyd does
+	not respond to this spell.
+\end{itemize}
+
+\paragraph{Create Food (St.~Ponch's
+	Feast)}\label{create-food-st.-ponchs-feast}\mbox{}\\
+\emph{(R: Appears in the caster's presence, D: Permanent)}\\
+Barrels and hampers of fresh food wash up on a foaming swell of
+seawater. The brine disappears instantly, but the food remains.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Volume}: Food sufficient for 12 people and 12 mounts is
+	conjured---enough to last one day.
+	\item
+	\textbf{Higher Level casters}: If the caster is higher than Level 9,
+	food sufficient for an additional 12 people and mounts is produced for
+	each Level beyond 9.
+\end{itemize}
+
+\paragraph{Holy Fire (St.~Goodenough's
+	Rebuke)}\label{holy-fire-st.-goodenoughs-rebuke}
+
+\emph{(R: 30' or Self or Touch, D: Concentration up to 1 Turn or
+	Instant)}\\
+A column of holy fire surrounds the caster, channelling divine grace for
+one of three purposes:
+
+\begin{enumerate}
+	\def\labelenumi{\arabic{enumi}.}
+	\tightlist
+	\item
+	\textbf{Circle of warding}: By concentrating and remaining stationary,
+	the caster creates a ward against undead and creatures created or
+	summoned by magic. Any such creature that comes within 30' must make a
+	Willpower 14 saving throw or be destroyed or banished to its place of
+	origin. If a monster's save succeeds, it flees the warded area.
+	\item
+	\textbf{Target single monster}: Instantly banish or destroy a single
+	magically-summoned, created, or undead creature within range. The
+	monster may make a Willpower 14 saving throw (with a --2 penalty) to
+	avoid banishment or destruction. If the monster's save succeeds, it
+	flees the affected area.
+	\item
+	\textbf{Restoration}: Touching a subject instantly removes a curse,
+	disease, or other affliction.
+\end{enumerate}
+
+\paragraph{Holy Quest (Righteousness of
+	St.~Galaunt)}\label{holy-quest-righteousness-of-st.-galaunt}\mbox{}\\
+\emph{(R: 30', D: Until quest is completed)}\\
+Accompanied by a clap of thunder and a ray of holy light, the caster
+commands a single subject to perform a specific quest or task.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Example quests}: Rescuing a prisoner, killing a specific
+	monster, bringing a magic item to the caster, going on a journey to a
+	holy site.
+	\item
+	\textbf{Suicidal quests}: The prescribed quest must not be obviously
+	suicidal.
+	\item
+	\textbf{Refusal}: The subject must undertake the quest or suffer a --2
+	penalty to Attack Rolls and Saving Throws.
+	\item
+	\textbf{Completion}: Once the task is completed, the spell ends.
+	\item
+	\textbf{Saving throw}: The subject may make a Willpower 14 saving
+	throw to resist the holy compulsion, negating the effects of the
+	spell.
+\end{itemize}
+
+\paragraph{Insect Plague (Amity of
+	St.~Cornice)}\label{insect-plague-amity-of-st.-cornice}\mbox{}\\
+\emph{(R: 360', D: 1 Turn per Level)}\\
+A writhing, 60' diameter swarm of biting insects manifests at a location
+within range.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Movement}: The swarm does not move from the area it is
+	summoned in.
+	\item
+	\textbf{Inside the swarm}: Vision is limited to 30'. Biting insects
+	inflict 1 damage per Round on all creatures.
+	\item
+	\textbf{Creatures of Level 1--2}: Low-level creatures caught within
+	the swarm flee in horror and only stop when at least 240' away.
+\end{itemize}
+
+\paragraph{Raise Dead (Mercy of
+	St.~Clewyd)}\label{raise-dead-mercy-of-st.-clewyd}\mbox{}\\
+\emph{(R: 120', D: Instant)}\\
+The ultimate miracle---by the grace of God, a deceased person may be
+returned to life.
+
+\begin{itemize}
+	\tightlist
+	\item
+	\textbf{Restrictions}: Mortals may be raised. Fairies and demi-fey may
+	not, the fate of their souls being outside of the purview of the
+	Pluritine Church.
+	\item
+	\textbf{Ritual}: Raise Dead requires a grandiose ritual in a cathedral
+	(e.g.~in Castle Brackenwold), the participation of a dozen priests,
+	and the burning of rare incenses to the value of 2,000gp. Despite its
+	title, the ritual makes no reference to St Clewyd.
+	\item
+	\textbf{Time limit}: A person deceased for no longer than 2 days per
+	Level of the caster can be raised. (e.g.~a Level 10 caster can revive
+	someone who has been dead up to 20 days.)
+	\item
+	\textbf{Weakness}: Returning from death is an ordeal. Until the
+	subject gets 2 full weeks of bed rest, they have 1 Hit Point, move at
+	half Speed, cannot carry heavy items, and cannot attack, cast spells,
+	make Skill Checks, or use other Class capabilities. Recovery from this
+	weakness cannot be hastened by magic of any kind.
+\end{itemize}
+
+\end{multicols}
+
+\end{adjustwidth}
+
 
 \end{document}
