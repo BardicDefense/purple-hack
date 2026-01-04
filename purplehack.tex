@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass{book}
 \usepackage{geometry, booktabs, tabularx, threeparttable, float, changepage}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{hyperref}
@@ -7,6 +7,8 @@
 \usepackage[export]{adjustbox}
 \usepackage{wrapfig2}
 \usepackage[raggedrightboxes]{ragged2e}
+\usepackage{fancyhdr}
+\usepackage{atbegshi}
 
 \providecommand{\tightlist}{%
 \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
@@ -23,13 +25,26 @@
 \renewcommand\maketitlehooka{\null\mbox{}\vfill}
 \renewcommand\maketitlehookd{\vfill\null}
 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO, LE]{\rightmark}
+\fancyfoot[RO, LE]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\hoffset = 0pt
+\oddsidemargin = 25pt
+\evensidemargin = 0pt
+
 \begin{document}
 
 \begin{titlingpage}
 \maketitle
 \end{titlingpage}
-
 \newpage
+
+\setcounter{page}{2}
+
+\AtBeginShipoutNext{\AtBeginShipoutDiscard}% Discard next blank page
+
 
 \tableofcontents
 
@@ -39,11 +54,14 @@ The following are ``house rules'' and clarifications, a mish-mash of D\&D Basic/
 
 Links: \href{https://docs.google.com/spreadsheets/d/1wOavveRJ8IEVoqvy33bxn12m20Y_7lqOkc9_KuXwJHo/copy}{Google Sheets Character Sheet} • \href{https://monogr.ph/694bf3d97da4a20a582eec2c}{Patch Notes}
 
+\setcounter{page}{3}
+
 \newpage
 
 
-
-\section{Character Creation}\label{character-creation}
+\section*{1. Character Creation}\label{character-creation}
+\markright{\textsc{Character Creation}}
+\addcontentsline{toc}{section}{1. Character Creation}
 
 %\begin{multicols}{2}
 
@@ -264,6 +282,7 @@ On a 5, you gain one more language. On a 6, you gain two more languages.
 Mages automatically know Mithric (the language of magic).
 
 \subsection*{Choose Feat(s)}\label{choose-feats}
+\addcontentsline{toc}{subsection}{Feats}
 
 All characters receive one feat at 1st Level, and another feat at each
 Name Level. A feat can only be taken once, unless noted otherwise. No
@@ -280,8 +299,8 @@ so may still be taken but will provide no ability score increase.
   warrior gains a +2 bonus to Attack and Damage rolls, but suffers a -4
   penalty to Armour Class and is unable to flee.
 \item
-  \textbf{Brawler}: If your melee opponent is no more than one size
-  Level larger than you, and your attack roll against them is a natural
+  \textbf{Brawler}: If a melee opponent is no more than one size
+  level larger than you, and your attack roll against them is a natural
   18 or 19, then in addition to your regular damage you can either:
 
   \begin{enumerate}
@@ -505,6 +524,8 @@ what one could reasonably be expected to have, NOT to define what is
 possible!}
 \end{quote}
 
+\newpage
+
 Concretely, skills might, depending on the circumstances, allow you to:
 
 \begin{itemize}
@@ -565,7 +586,7 @@ spellbook.
 \subsection*{Note a Motivation or
 Motto}\label{note-a-motivation-or-motto}
 
-\begin{wrapfigure}[10]{l}{0.3\linewidth}
+\begin{wrapfigure}[10]{r}{0.3\linewidth}
 	\centering
 	\includegraphics[width=1\linewidth]{img/portalthief.jpg}
 	\label{fig:portalthief}
@@ -605,9 +626,10 @@ be one word, or a short sentence. Examples:
 
 \newpage
 
-\section{Armour, Weapons, and
+\addcontentsline{toc}{section}{2. Armour, Weapons, and Equipment}
+\section*{2. Armour, Weapons, and
 Equipment}\label{armour-weapons-and-equipment}
-
+\markright{\textsc{Armour, Weapons, and Equipment}}
 
 \subsection*{Item Slots}\label{item-slots}
 
@@ -879,6 +901,7 @@ against someone decorated with sprigs of wolfsbane.
 \end{itemize}
 
 \subsection*{Armour}\label{armour}
+\addcontentsline{toc}{subsection}{Armour \& Weapons}
 
 An unarmoured character has a base Armour Class of 10.
 
@@ -900,7 +923,7 @@ An unarmoured character has a base Armour Class of 10.
     \end{tabular}
 \end{table}
 
-Heavy armour (L+ = 3 slot) and Large Shields require minimum 9 Str to equip. Heavy armour adds a level of encumbrance. A Shield also provides a save bonus vs non-gaseous breath weapons equal to its AC bonus.
+Heavy armour (L+ = 3 slot) and Large Shields require minimum 9 Str to equip. A Shield also provides a save bonus vs non-gaseous breath weapons equal to its AC bonus.
 
 \subsection*{Weapons}\label{weapons}
 
@@ -1049,7 +1072,9 @@ range apply the attack penalty listed.
 
 \newpage
 
-\section{Checks \& Saves}\label{checks-saves}
+\section*{3. Checks \& Saves}\label{checks-saves}
+\markright{\textsc{Checks \& Saves}}
+\addcontentsline{toc}{section}{3. Checks \& Saves}
 
 \textbf{Checks} are a single roll against a target number, used to
 resolve situations with interesting stakes that would either be too
@@ -1105,8 +1130,9 @@ Hit Dice they have.
 
 \newpage
 
-\section{Combat}\label{combat}
-
+\section*{4. Combat}\label{combat}
+\markright{\textsc{Combat}}
+\addcontentsline{toc}{section}{4. Combat}
 
 \subsection*{Surprise}\label{surprise}
 
@@ -1173,6 +1199,7 @@ Evil, and rerolling Hostile results if the creatures are Good:
 \end{table}
 
 \subsection*{Attacking}\label{attacking}
+\addcontentsline{toc}{subsection}{Attacking}
 
 To attack, the attacker rolls 1d20 and adds their attack bonus and all
 applicable modifiers. If the result equals or exceeds the target's
@@ -1258,6 +1285,7 @@ can only hit by rolling a 20. The critical hit range is increased by 4
 for all attacks from behind against a surprised target.
 
 \subsection*{Combat Phases}\label{combat-phases}
+\addcontentsline{toc}{subsection}{Combat Phases}
 
 Each combat round is 10 seconds and has eight steps, taken in the
 following order:
@@ -1673,9 +1701,12 @@ reduced by one point.
 
 \newpage
 
-\section{General Adventuring}\label{general-adventuring}
+\section*{5. General Adventuring}\label{general-adventuring}
+\markright{\textsc{General Adventuring}}
+\addcontentsline{toc}{section}{5. General Adventuring}
 
 \subsection*{Climbing}\label{climbing}
+\addcontentsline{toc}{subsection}{Climbing}
 
 
 No roll is required for simple climbs, like a basic rope or tree. A more
@@ -1697,6 +1728,7 @@ level. The aid of appropriate equipment--a rope and grapnel, or pitons
 and a hammer--will add a +1 bonus to the ability check.
 
 \subsection*{Doors}\label{doors}
+\addcontentsline{toc}{subsection}{Doors}
 
 \subsubsection*{Listening at Doors}\label{listening-at-doors}
 
@@ -1746,6 +1778,7 @@ noise to hammer a spike in).
 \newpage
 
 \subsection*{Dungeon Random Encounters}\label{dungeon-random-encounters}
+\addcontentsline{toc}{subsection}{Dungeon Random Encounters}
 
 Random encounters occur in almost all dungeon areas. These are typically
 monsters inclined to hostility (you're in their home) and with no
@@ -1777,6 +1810,7 @@ encounter check is made at -4, and the party cannot surprise creatures
 so encountered except via unusual means.
 
 \subsection*{Equipment Wear \& Tear}\label{equipment-wear-tear}
+\addcontentsline{toc}{subsection}{Equipment Wear \& Tear}
 
 Equipment can be worn down! Every object has five levels of decay: new,
 used, worn, shabby, and ruined. (You can indicate this simply by adding
@@ -1857,52 +1891,81 @@ checks until breakage, vs 36 simplified, or 624 vs 600 checks on a magic
 or sturdy item).
 
 \subsection*{Experience \& Leveling}\label{experience-leveling}
+\addcontentsline{toc}{subsection}{Experience \& Leveling}
 
-You gain experience in three ways:
+You gain experience by:
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  You gain experience primarily through recovering treasure: 1f.
+  \textbf{Recovering treasure}: 1f.
   recovered = 1XP (so 4XP per 1d. recovered).
 \item
-  You gain experience for killing monsters.
+  \textbf{Killing monsters}.
 \item
-  You gain experience by performing Feats of Exploration.
+  Performing \textbf{Feats of Exploration}: 
+  Each feat performed grants 2\% of the Total XP Needed by the party to
+  advance from the start of their current Level to the start of their next
+  Level.
+  
+  Feats include:
+  
+  \begin{itemize}
+  	\tightlist
+  	\item
+  	Complete a quest
+  	\item
+  	Enter and rest in a new settlement
+  	\item
+  	Enter an unexplored hex for the first time
+  	\item
+  	Explore and map five rooms of a dungeon
+  	\item
+  	Discover and interact with all features of a single hex (grants double
+  	reward)
+  \end{itemize}
+\item
+	\textbf{Carousing}: Spend 1d6 x (5\% of Total XP Needed by the character to advance to the next level) silver pence. Gain 1 XP per 1d. spent. Roll a Constitution check. On a failure, a complication occurs (the referee has a table for an additional roll - they're usually not good). If you spend more money than you have, you are in debt to an NPC.
+\item
+	\textbf{Philanthropy}: Spend at least the minimum expenditure needed for a settlement in philanthropy and charity. Gain 1 XP per 2d. spent.
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{ll}
+			\toprule
+			Settlement Size & Minimum Expenditure \\
+			\midrule
+			Hamlet & 100d.\\
+			Village & 300d.\\
+			Small Town & 600d.\\
+			Large Town & 1,000d.\\
+			City & 1,500d.\\
+			\bottomrule
+		\end{tabular}
+	\end{table}
+	
+	If the amount spent is more than double the minimum expenditure listed for a given settlement size, there is a chance that the populace either resents or appreciates the PC’s generosity. Roll on the table below.
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{p{.25in}p{5in}}
+			\toprule
+				1d6 & Result\\
+			\midrule
+				1 & The populace resents your wealth and condescending manner of spending it. -2 to social rolls in the settlement, and you may never practice philanthropy here again.\\
+				2 & The populace appreciates the generosity, but thinks your motives are self-serving. -2 to social rolls in the settlement.\\
+				3-4 & The populace knows you by name in this settlement.\\
+				5 & Your generosity is lauded by the populace. +2 to social rolls in this settlement.\\
+				6 & Your name is recognized by everyone within 3 hexes. +2 to social rolls within this area, and mundane goods are 10\% cheaper.\\
+		\end{tabular}
+	\end{table}
 \end{enumerate}
 
 Experience gained from treasure and killing monsters is divided equally
 among all characters of the party, including retainers (who then apply a
 50\% penalty before adding it to their totals). Experience gained from
-Feats of Exploration is divided equally among player characters only.
-
-\subsubsection*{Feats of Exploration}\label{feats-of-exploration}
-
-Each feat performed grants 2\% of the Total XP Needed by the party to
-advance from the start of their current Level to the start of their next
-Level. For example, the Total XP Needed of a party of four 2nd-Level
-characters is 8,000 (4,000 for 3rd Level minus 2,000 for 2nd Level,
-times four); each Feat performed will grant 160 XP to the party.
-
-Feats include:
-
-\begin{itemize}
-\tightlist
-\item
-  Complete a quest
-\item
-  Enter and rest in a new settlement
-\item
-  Enter an unexplored hex for the first time
-\item
-  Explore and map five rooms of a dungeon
-\item
-  Discover and interact with all features of a single hex (grants double
-  reward)
-\end{itemize}
-
-\newpage
+Feats of Exploration is divided equally among player characters only. Experience gained from carousing and philanthropy applies only to the character who engaged in the activity.
 
 \subsubsection*{XP Advancement Table}\label{xp-advancement-table}
 
@@ -1932,6 +1995,7 @@ Each Level beyond 10 requires an additional 120,000 XP and adds only a
 flat 2HP per Level, with no Con modifier being applied.
 
 \subsection*{Falling}\label{falling}
+\addcontentsline{toc}{subsection}{Falling}
 
 Damage from falling is determined as follows: Falls of less than 5 ft do
 no damage in game terms, falls of up to 10 ft cause 1d6 damage, falls of
@@ -1939,7 +2003,10 @@ up to 20 ft cause 3d6 damage, falls of up to 30 ft cause 6d6, 40 ft is
 10d6, 50 ft is 15d6, and falls of over 50 ft cause 20d6 points of
 damage.
 
+\newpage
+
 \subsection*{Fatigue}\label{fatigue}
+\addcontentsline{toc}{subsection}{Fatigue}
 
 Fatigue represents a serious depletion of body, mind, or spirit.
 
@@ -1958,8 +2025,7 @@ Fatigue represents a serious depletion of body, mind, or spirit.
 	\end{tabular}
 \end{table}
 
-Possession four or more levels of fatigue results in death. Fatigue
-levels from different sources stack.
+Possession four or more levels of fatigue results in death. Fatigue levels from different sources stack.
 
 A character exposed to any of the causes of fatigue below gains one
 fatigue level at the increments listed next to each cause (e.g.~every
@@ -1990,7 +2056,17 @@ is doubled.
 A character can remove one level of fatigue for every good night's rest
 obtained, assuming all other causes of fatigue are also resolved.
 
+\subsection*{Harvesting Monsters}\label{harvesting-monsters}
+\addcontentsline{toc}{subsection}{Harvesting Monsters}
+
+Parts of some monsters are alchemical and magical reagents, sought by sages and enchanters the world over to a greater or lesser degree, depending on the creature in question. After defeating a monster, the party can make an Arcana check to identify and harvest useful monster parts. 
+
+\textbf{Amount:} On a success, a Small creature yields 1 slot of parts, a Medium creature yields 1d2, Large yields 1d3, and greater than Large yields 1d4. 
+
+\textbf{Value:} Each slot of parts is worth 5\% of the monster’s listed XP, in silver pence. This counts as treasure for XP purposes. 
+
 \subsection*{Healing}\label{healing}
+\addcontentsline{toc}{subsection}{Healing}
 
 A character will recover 1 HP by resting overnight in a safe and
 comfortable location, assuming a meal of poor quality or trail food has
@@ -2003,6 +2079,7 @@ Exploration \textgreater{} Rest Checks}) and naturally heal HP. 30 days
 of rest will return any character to full HP.
 
 \subsection*{Item Saving Throws}\label{item-saving-throws}
+\addcontentsline{toc}{subsection}{Item Saving Throws}
 
 Generally, only creatures make saving throws. However, some items are
 especially fragile, and some rare effects (like area-effect attacks or
@@ -2056,6 +2133,7 @@ specified otherwise:
 \end{itemize}
 
 \subsection*{Jumping}\label{jumping}
+\addcontentsline{toc}{subsection}{Jumping}
 
 \textbf{Long jumps}: Characters can jump across a stream, chasm, or pit
 of up to 5' wide with a 10' run-up--no roll is required. For longer
@@ -2070,6 +2148,7 @@ Strength check is required.
 wearing Medium armour, -2 if wearing Heavy armour.
 
 \subsection*{Light \& Vision}\label{light-vision}
+\addcontentsline{toc}{subsection}{Light \& Vision}
 
 Wise characters carry illumination--magical or mundane--when exploring
 at night or underground. Typical light sources enable normal vision
@@ -2098,6 +2177,7 @@ throws, and have Speed 10. A character with the Blindfighting skill
 would not suffer the penalties while in combat.
 
 \subsection*{Lockpicking}\label{lockpicking}
+\addcontentsline{toc}{subsection}{Lockpicking}
 
 Characters with the proper tools and either the Lockpicking Skill or
 Feat can attempt to pick locks.
@@ -2118,11 +2198,8 @@ A successful lockpicking attempt disarms all detected traps in addition
 to opening the lock, but undetected traps will be set off automatically
 before any lockpicking roll is made, unless specified otherwise.
 
-\newpage
-
-
-
 \subsection*{Moving Silently}\label{moving-silently}
+\addcontentsline{toc}{subsection}{Moving Silently}
 
 Anyone can attempt to sneak. A roll is called for when attempting
 movement that normally attracts attention, such as slipping past a
@@ -2151,6 +2228,7 @@ that character may make a Stealth Skill Check to remain undetected.
 \end{itemize}
 
 \subsection*{Perception Checks}\label{perception-checks}
+\addcontentsline{toc}{subsection}{Perception Checks}
 
 Perception checks are Ability Checks always made in secret by the
 referee. There's no requirement for players to constantly state that
@@ -2173,6 +2251,7 @@ For a group Perception check, the referee applies the group's average
 Per modifier, if any, rounding normally.
 
 \subsection*{Player Roles}\label{player-roles}
+\addcontentsline{toc}{subsection}{Player Roles}
 
 To ensure the game runs smoothly, it can be helpful to assign certain
 important roles to individual players. Player roles may be assigned on a
@@ -2201,7 +2280,7 @@ be unravelled. The chronicle is an invaluable tool for recalling
 previous events, especially when some time has passed between sessions.
 In longer campaigns, chroniclers record the collective memory of the
 party's epic adventures.
-\begin{wrapfigure}[14]{l}{0.3\textwidth}
+\begin{wrapfigure}[8]{l}{0.3\textwidth}
 	\includegraphics[width=1\linewidth]{img/cartography.jpg}
 	\label{fig:cartography}
 \end{wrapfigure}
@@ -2229,6 +2308,7 @@ The Quartermaster keeps track of the party's accounts, tracking shared
 provisions, light sources, retainers, animals, and treasure.
 
 \subsection*{Retainers}\label{retainers}
+\addcontentsline{toc}{subsection}{Retainers}
 
 \begin{multicols}{2}
 
@@ -2303,12 +2383,9 @@ if desired:
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=.5\columnwidth]{img/knifefighter.jpg}
+	\includegraphics[width=.7\columnwidth]{img/knifefighter.jpg}
 	\label{fig:knifefighter}
 \end{figure}
-
-
-\newcolumn
 
 \begin{table}[H]
 	\centering
@@ -2378,6 +2455,7 @@ the retainer's starting equipment.
 \newpage
 
 \subsection*{Sailing}\label{sailing}
+\addcontentsline{toc}{subsection}{Sailing}
 
 Sea travel usually involves an individually owned vessel or a charter.
 Scheduled services are rarely available. Passengers must make inquiries
@@ -2823,6 +2901,7 @@ catapult is capable of firing incendiaries up to three times in a single
 battle.
 
 \subsection*{Speculative Trade}\label{speculative-trade}
+\addcontentsline{toc}{subsection}{Speculative Trade}
 
 Characters can engage in speculative trade from one settlement to
 another. Profits are far from guaranteed, however, and getting cargo
@@ -2902,12 +2981,14 @@ Available}\label{bulk-trade-loads-available}
 \end{multicols}
 
 \subsection*{Strongholds \& Domains}\label{strongholds-domains}
+\addcontentsline{toc}{subsection}{Strongholds \& Domains}
 
 Strongholds and domains are as in OSE Advanced, with clarifications and
 detailed procedures as in
 \href{https://alexmooney.github.io/ACKS_SRD/Chapter07.html\#strongholds-and-domains}{ACKS}.
 
 \subsection*{Suffocation}\label{suffocation}
+\addcontentsline{toc}{subsection}{Suffocation}
 
 A character can survive for up to 1 round (10 seconds) per point of
 Constitution before suffocating to death. For example, a character with
@@ -2916,6 +2997,7 @@ this time limit, the character is knocked unconscious and must make a
 saving throw as per the rules about \hyperref[death]{Death}.
 
 \subsection*{Swimming}\label{swimming}
+\addcontentsline{toc}{subsection}{Swimming}
 
 All characters can swim, barring an unusual background. Assuming no
 current, a land-dweller swims at half their combat speed, and can do so
@@ -2944,6 +3026,7 @@ going under, modified as follows:
 This check is repeated every hour.
 
 \subsection*{Trap Detection}\label{trap-detection}
+\addcontentsline{toc}{subsection}{Trap Detection}
 
 Spotting a trap requires a successful Perception check, usually rolled
 in secret by the referee. A character can actively search a 10' square
@@ -2974,13 +3057,16 @@ each area trap trigger within 10 feet.
 
 \newpage
 
-\section*{Magic \& Spells}\label{magic-spells}
+\section*{6. Magic \& Spells}\label{magic-spells}
+\markright{\textsc{Magic \& Spells}}
+\addcontentsline{toc}{section}{6. Magic \& Spells}
 
-See full \href{/spells.md}{arcane spell list here}, and the full
-\href{/holyspells.md}{holy spell list here}.
+See full \hyperref[arcane-spells]{arcane spell list here}, and the full
+\hyperref[holy-spells]{holy spell list here}.
 
 \subsection*{Arcane Spell Slot Progression
 	Table}\label{arcane-spell-slot-progression-table}
+	\addcontentsline{toc}{subsection}{Arcane Spell Slot Progression}
 
 This shows the number of spells of a given spell Rank that a caster can
 \hyperref[casting-preparing]{prepare} per day (also known as their
@@ -3030,6 +3116,7 @@ spell of the Rank to which it has been modified.
 
 \subsection*{Holy Spell Slot Progression
 	Table}\label{holy-spell-slot-progression-table}
+\addcontentsline{toc}{subsection}{Holy Spell Slot Progression}
 
 This shows the number of holy spells of a given spell Rank that a caster
 with the Anointed can prepare per day (also known as their spell slots).
@@ -3074,6 +3161,7 @@ Rank's spell slot total if they can cast spells of that Rank.
 \end{figure}
 
 \subsection*{Casting \& Preparing}\label{casting-preparing}
+\addcontentsline{toc}{subsection}{Casting \& Preparing}
 
 \textbf{Preparing Spells:} Once a spell is mentally in place, it remains
 until either intentionally dismantled or the caster uses the spell. If a
@@ -3103,6 +3191,7 @@ can be disrupted. Spell effects from a rod, staff, wand, etc. and
 spell-like innate creature abilities are immune to disruption.
 
 \subsection*{Gaining New Spells}\label{gaining-new-spells}
+\addcontentsline{toc}{subsection}{Gaining New Spells}
 
 Mages learn one random spell each time they gain a Level from a random
 school they can access (plus another spell if a specialist). If the
@@ -3145,9 +3234,7 @@ rules than arcane magic for spell acquisition.
 
 
 \subsection*{Holy Magic}\label{holy-magic}
-
-
-
+\addcontentsline{toc}{subsection}{Holy Magic}
 
 Holy spells take the form of blessings bestowed upon characters by the
 grace of their patrons, usually saints of the Pluritine Church.
@@ -3192,12 +3279,14 @@ church associated with the blessing, and can receive the blessing of
 each saint only one time ever.
 
 \subsection*{Lost Spellbooks}\label{lost-spellbooks}
+\addcontentsline{toc}{subsection}{Lost Spellbooks}
 
 In the event of disaster, a spellcaster who uses a spellbook and has
 lost it can rewrite spells they have learned into a blank spellbook.
 This requires 1 day and 100d. per Rank of spell to be written.
 
 \subsection*{Magic Item Crafting}\label{magic-item-crafting}
+\addcontentsline{toc}{subsection}{Magic Item Crafting}
 
 Potions are created by alchemists, with the more powerful potions
 usually requiring the help of a Magic-User. A Magic-User seeking to
@@ -3208,6 +3297,7 @@ items.
 \newpage
 
 \subsection*{NPC Spellcasting}\label{npc-spellcasting}
+\addcontentsline{toc}{subsection}{NPC Spellcasting}
 
 Non-player characters may be hired to cast spells or perform other
 services. As a general guideline, spells cost \emph{roughly} the
@@ -3235,6 +3325,7 @@ a magical item (which can take upwards of a week).
 
 
 \subsection*{Potion Creation}\label{potion-creation}
+\addcontentsline{toc}{subsection}{Potion Creation}
 
 \begin{wrapfigure}[17]{l}{0.5\linewidth}
 	\centering
@@ -3252,6 +3343,7 @@ each potion costs additional silver pence per dose to brew; the referee
 will have these costs.
 
 \subsection*{The Schools of Magic}\label{the-schools-of-magic}
+\addcontentsline{toc}{subsection}{The Schools of Magic}
 
 All spells belong to one of eight schools of magic. A caster can only
 learn spells from schools to which they have access. A caster gains
@@ -3296,6 +3388,7 @@ The schools are:
 \end{itemize}
 
 \subsection*{Scrolls}\label{scrolls}
+\addcontentsline{toc}{subsection}{Scrolls}
 
 Spells can be bound to scrolls; each holds one spell. Holding it with
 both hands and reading from it aloud casts its spell, disintegrating the
@@ -3327,10 +3420,13 @@ modifier twice, rolled at the end of the scribing time.
 
 \newpage
 
-\section*{Upgrading Armour and
+\section*{7. Upgrading Armour and
 Weapons}\label{upgrading-armour-and-weapons}
+\markright{\textsc{Upgrading Armour and Weapons}}
+\addcontentsline{toc}{section}{7. Upgrading Armour and Weapons}
 
 \subsection*{Upgrading Basics}\label{upgrading-basics}
+\addcontentsline{toc}{subsection}{Upgrading Basics}
 
 The process of upgrading a piece of equipment always has a number of
 basic requirements regardless of its type. The following general rules
@@ -3367,6 +3463,7 @@ piece of equipment being considered magical under certain circumstances.
 
 
 \subsection*{Upgrading Armour}\label{upgrading-armour}
+\addcontentsline{toc}{subsection}{Upgrading Armour}
 
 There are a number of options available to a character to upgrade their
 armour, from high-cost armour proofing, to useful additions like
@@ -3410,6 +3507,7 @@ of armour upgrade tags may be removable or temporary; when in doubt,
 consult with your referee.
 
 \subsection*{Upgrading Weapons}\label{upgrading-weapons}
+\addcontentsline{toc}{subsection}{Upgrading Weapons}
 
 Upgrading weapons follows a branching path system, with available
 options split into multiple tiers. At first, a weapon can only be
@@ -3464,6 +3562,7 @@ already possess any other 2nd tier tags.
 \newpage
 
 \subsection*{Armour Upgrades}\label{armour-upgrades}
+\addcontentsline{toc}{subsection}{Armour Upgrades}
 
 	\begin{tabular}{p{1.5in} c p{1.3in} p{2.2in} }
 		\toprule
@@ -3507,6 +3606,7 @@ already possess any other 2nd tier tags.
 	\end{tabular}
 
 \subsection*{Weapon Upgrades}\label{weapon-upgrades}
+\addcontentsline{toc}{subsection}{Weapon Upgrades}
 
 \begin{tabular}{p{1.9in} p{1.3in} p{2.7in} }
 	\toprule
@@ -3552,7 +3652,9 @@ already possess any other 2nd tier tags.
 
 \newpage
 
-\section{Wilderness Exploration}\label{wilderness-exploration}
+\section*{8. Wilderness Exploration}\label{wilderness-exploration}
+\markright{\textsc{Wilderness Exploration}}
+\addcontentsline{toc}{section}{8. Wilderness Exploration}
 
 In a campaign where the journey is as important as the destination (or
 where there isn't even necessarily a main destination \emph{per se}),
@@ -3614,6 +3716,7 @@ its priorities: either caution or speed.
 \end{itemize}
 
 \subsection*{Entering a Hex}\label{entering-a-hex}
+\addcontentsline{toc}{subsection}{Entering a Hex}
 
 If a party wants to enter a hex, but lacks some of the points needed,
 they points they do have are spent towards entering it, but the party
@@ -3664,6 +3767,7 @@ hidden features present in a hex. Once a hidden feature has been
 located, it can be found again without searching.
 
 \subsection*{Finding Food in the Wild}\label{finding-food-in-the-wild}
+\addcontentsline{toc}{subsection}{Finding Food in the Wild}
 
 When on a journey, a party may try to find food in the wilds rather than
 rely on rations purchased in a settlement. The party may choose to fish,
@@ -3705,7 +3809,8 @@ HP for large.
 
 \newpage
 
-\subsection*{Camping in the Wilds}\label{camping-in-the-wilds}
+\subsection*{Camping in the Wild}\label{camping-in-the-wild}
+\addcontentsline{toc}{subsection}{Camping in the Wild}
 
 \subsubsection*{Setting up Camp}\label{setting-up-camp}
 
@@ -3821,6 +3926,7 @@ spell slot remains empty and unusable this day.
 
 
 \subsection*{Weather}\label{weather}
+\addcontentsline{toc}{subsection}{Weather}
 
 At the start of each day, the referee rolls 2d6 on a seasonal weather
 table. Some weather impedes travel (reducing the party's travel points
@@ -3831,6 +3937,7 @@ campfire).
 
 \subsection*{Wilderness Random
 Encounters}\label{wilderness-random-encounters}
+\addcontentsline{toc}{subsection}{Wilderness Random Encounters}
 
 One check for wandering monsters is made each day. The chance of an
 encounter depends on the type of terrain being traversed. If a party has
@@ -3842,9 +3949,12 @@ If the party spends the night in the wilderness, an additional random
 encounter check is made. If an encounter occurs, the referee randomly
 rolls to see on whose watch (if any) the encounter takes place.
 
-\section{Hirelings}\label{hirelings}
+\section*{9. Hirelings}\label{hirelings}
+\markright{\textsc{Hirelings}}
+\addcontentsline{toc}{section}{9. Hirelings}
 
 \subsection*{Standard Hirelings}\label{standard-hirelings}
+\addcontentsline{toc}{subsection}{Standard Hirelings}
 
 Short-term services of simple craftsmen and laborers are relatively
 easily procured, but it is harder to find individuals willing to take
@@ -3921,6 +4031,7 @@ are usually experts at loading and unloading their vehicles, as well as
 handling the animals with which they are familiar.
 
 \subsection*{Mercenaries/Men-at-Arms}\label{mercenariesmen-at-arms}
+\addcontentsline{toc}{subsection}{Mercenaries/Men-at-Arms}
 
 Mercenaries are as on pgs. 112-113 of \emph{OSE Advanced.} The majority
 of regular men-at-arms are zero-Level characters with 1d4+3 hit points.
@@ -3951,6 +4062,7 @@ fighter or retainer.
 
 \subsection*{Expert
 Hirelings/Specialists}\label{expert-hirelingsspecialists}
+\addcontentsline{toc}{subsection}{Expert Hirelings/Specialists}
 
 Obtaining the services of very skilled craftsmen and other professional
 servitors typically involves the expenditure of considerable time and
@@ -3962,7 +4074,7 @@ to serve considerably longer.
 	\centering
 	\begin{threeparttable}
 	
-		\begin{tabular}{lc}
+		\begin{tabular}{ll}
 			\toprule
 				Specialist & Monthly Wage \\
 			\midrule
@@ -4176,7 +4288,10 @@ at 25\% of their usual cost.
 
 \newpage
 
-\section{Arcane Spells}\label{arcane-spells}
+\section*{10. Arcane Spells}\label{arcane-spells}
+\markright{\textsc{Arcane Spells}}
+\addcontentsline{toc}{section}{10. Arcane Spells}
+
 \begin{multicols}{4}
 	
 \subsubsection*{Abjuration Spells}\label{abjuration-spells}
@@ -6534,9 +6649,13 @@ greater than 2nd Rank, then it is instead merely suppressed for 2d6
 hours.
 
 \newpage
+\end{multicols}
 
-\section{Holy Spells}\label{holy-spells}
+\section*{11. Holy Spells}\label{holy-spells}
+\markright{\textsc{Holy Spells}}
+\addcontentsline{toc}{section}{11. Holy Spells}
 
+\begin{multicols}{2}
 Holy Spells are taken directly from
 \emph{\href{https://www.dolmenwood.necroticgnome.com/rules/doku.php?id=holy_magic}{Dolmenwood}},
 with a few edits and exceptions. Our version is as follows:
