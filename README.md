@@ -1439,13 +1439,13 @@ If the amount spent is more than double the minimum expenditure listed for a
 given settlement size, there is a chance that the populace either resents or
 appreciates the PC’s generosity. Roll on the table below.
 
-|                   1d6                    | Result                                                                                                                                                              |
-| :--------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | ------------------------------------------------------------------------------------------------------------------------ |
-|                    1                     | The populace resents your wealth and condescending manner of spending it. -2 to social rolls in the settlement, and you may never practice philanthropy here again. |     | 2   | The populace appreciates the generosity, but thinks your motives are self-serving. -2 to social rolls in the settlement. |
-|                   3-4                    | The populace knows you by name in this settlement.                                                                                                                  |
-|                    5                     | Your generosity is lauded by the populace. +2 to social rolls in this settlement.                                                                                   |
-|                    6                     | Your name is recognized by everyone within 3 hexes. +2 to social rolls within this                                                                                  |
-| area, and mundane goods are 10% cheaper. |
+| 1d6 | Result                                                                                                                                                              |
+| :-: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  1  | The populace resents your wealth and condescending manner of spending it. -2 to social rolls in the settlement, and you may never practice philanthropy here again. |
+|  2  | The populace appreciates the generosity, but thinks your motives are self-serving. -2 to social rolls in the settlement.                                            |
+| 3-4 | The populace knows you by name in this settlement.                                                                                                                  |
+|  5  | Your generosity is lauded by the populace. +2 to social rolls in this settlement.                                                                                   |
+|  6  | Your name is recognized by everyone within 3 hexes. +2 to social rolls within this area, and mundane goods are 10% cheaper.                                         |
 
 Experience gained from treasure and killing monsters is divided equally among
 all characters of the party, including retainers (who then apply a 50% penalty
