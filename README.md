@@ -1405,19 +1405,56 @@ sturdy item).
 
 ## Experience & Leveling
 
-You gain experience in three ways:
+You gain experience by:
 
-1. You gain experience primarily through recovering treasure: 1f. recovered =
-   1XP (so 4XP per 1d. recovered).
+1. Recovering treasure: 1f. recovered = 1XP (so 4XP per 1d. recovered).
+2. Killing monsters.
+3. Performing Feats of Exploration: Each feat performed grants 2% of the Total
+   XP Needed by the party to advance from the start of their current Level to
+   the start of their next Level. Feats include:
 
-2. You gain experience for killing monsters.
+- Complete a quest
+- Enter and rest in a new settlement
+- Enter an unexplored hex for the first time
+- Explore and map five rooms of a dungeon
+- Discover and interact with all features of a single hex (grants double reward)
 
-3. You gain experience by performing Feats of Exploration.
+4. Carousing: Spend 1d6 x (5% of Total XP Needed by the character to advance to
+   the next level) silver pence. Gain 1 XP per 1d. spent. Roll a Constitution
+   check. On a failure, a complication occurs (the referee has a table for an
+   additional roll - they’re usually not good). If you spend more money than you
+   have, you are in debt to an NPC.
+5. Philanthropy: Spend at least the minimum expenditure needed for a settlement
+   in philanthropy and charity. Gain 1 XP per 2d. spent.
+
+| Settlement Size | Minimum Expenditure |
+| --------------- | ------------------- |
+| Hamlet          | 100d.               |
+| Village         | 300d.               |
+| Small Town      | 600d.               |
+| Large Town      | 1,000d.             |
+| City            | 1,500d.             |
+
+If the amount spent is more than double the minimum expenditure listed for a
+given settlement size, there is a chance that the populace either resents or
+appreciates the PC’s generosity. Roll on the table below.
+
+|                                         1d6                                         | Result                                                                                                                   |
+| :---------------------------------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------ |
+|                                          1                                          | The populace resents your wealth and condescending manner of spending it. -2 to                                          |
+| social rolls in the settlement, and you may never practice philanthropy here again. |
+|                                          2                                          | The populace appreciates the generosity, but thinks your motives are self-serving. -2 to social rolls in the settlement. |
+|                                         3-4                                         | The populace knows you by name in this settlement.                                                                       |
+|                                          5                                          | Your generosity is lauded by the populace. +2 to social rolls in this settlement.                                        |
+|                                          6                                          | Your name is recognized by everyone within 3 hexes. +2 to social rolls within this                                       |
+|                      area, and mundane goods are 10% cheaper.                       |
 
 Experience gained from treasure and killing monsters is divided equally among
 all characters of the party, including retainers (who then apply a 50% penalty
 before adding it to their totals). Experience gained from Feats of Exploration
-is divided equally among player characters only.
+is divided equally among player characters only. Experience gained from
+carousing and philanthropy applies only to the character who engaged in the
+activity.
 
 ### Feats of Exploration
 
