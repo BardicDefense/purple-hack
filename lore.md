@@ -425,7 +425,7 @@ Thorcin Recovery League is founded during this time.
 
 ## Places
 
-### Anfa _(Casablanca)_
+### Anfa, Africa _(Casablanca)_
 
 Population: 3,700. Anfa is a lean, wind-swept harbour town on the edge of the
 Atlantic, with sun-bleached walls and palm shade. The kasbah (citadel) towers
@@ -519,7 +519,7 @@ over the Duchy nearly equal to the duke himself.
 - _Exports: Livestock, tools, armor/weapons_
 - _Imports: Beer/ale, wine, gems, fine textiles_
 
-### Chebucto _(Halifax Harbour)_
+### Chebucto, Vinland _(Halifax Harbour)_
 
 Population: 1,100. Chebucto is a small Mi’kmaq town on a vast and protected
 harbor surrounded by dense mixed forests and rugged cliffs. The land is rich
@@ -531,7 +531,7 @@ repairing ships.
 - _Exports: Fish, wood, furs & pelts, shellfish, berries and medicinal herbs_
 - _Imports: Iron tools and metal goods, salt, woven cloth, grains and corn_
 
-### Dakar, Kingdom of Takrur
+### Dakar, Kingdom of Takrur, Africa
 
 Population: 2,800. Dakar is a modest coastal settlement with fishing and local
 trade. The settlement is growing rapidly along with trade across the dangerous
@@ -629,7 +629,7 @@ real dangers.
 - _Imports: Metals (iron tools especially), finished textiles, and luxury
   goods._
 
-### Marrakesh, Morroco
+### Marrakesh, Morroco, Africa
 
 Population 3,400. A rapidly growing sunburnt crossroads of a town, Marrakesh is
 a magnet for travelers crossing the Atlas mountains into Takrur. Its market is
@@ -651,6 +651,20 @@ across Tribania and across the Channel to the Continent.
 
 - _Exports: Grain & vegetables, game animals, fish, fruit, salt_
 - _Imports: Silk, precious metals, gems_
+
+### Piooc, Vinland _(Chesapeake Bay)_
+
+Population: 280. A sprawling estuary with numerous rivers and wetlands, Piooc is
+lush with forests, marshes, and abundant shellfish beds. A cluster of Algonquian
+villages dot the banks, where fishing and farming sustain the population.
+Sailors visit to barter for furs and food, learn about local waterways, and
+perhaps explore deep river channels or navigate narrow creeks by canoe for fresh
+goods.
+
+- _Exports: furs and pelts, grain & vegetables, fish (esp. shellfish), medicinal
+  plants._
+- _Imports: tools and metal goods, salt, spices, agricultural goods and
+  equipment, luxury goods._
 
 ### Porto, Portugal
 
