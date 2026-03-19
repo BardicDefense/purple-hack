@@ -2110,13 +2110,13 @@ certain real-life ranges measured in yards:
 Distant range (1d6+10 range bands). If the ships are ever separated by 20 range
 bands or more, then contact between them is lost.
 
-**Time Unit**: Each turn of pursuit, evasion, or combat takes 1 minute. This is
+**Time Unit**: Each turn of pursuit, evasion, or combat takes 5 minutes. This is
 a ship turn.
 
 **Favorable Winds**: One or other of the ships will have the winds in their
 favor. A ship lying in ambush around a headland will always begin combat with
-favorable winds; otherwise, each ship rolls a contested 1d6 at the start of each
-turn to determine who has the favorable wind.
+favorable winds; otherwise, each ship rolls a contested 1d6 at the start of
+every three turns to determine who has the favorable wind.
 
 **Movement**: A ship will move a variable number of range bands depending on
 whether the wind is favorable to it, or unfavorable. On a favorable wind, a ship
