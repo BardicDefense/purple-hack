@@ -1447,6 +1447,27 @@ appreciates the PC’s generosity. Roll on the table below.
 |  5  | Your generosity is lauded by the populace. +2 to social rolls in this settlement.                                                                                   |
 |  6  | Your name is recognized by everyone within 3 hexes. +2 to social rolls within this area, and mundane goods are 10% cheaper.                                         |
 
+6. Monster Harvesting: Parts of some monsters are alchemical and magical
+   reagents, sought by sages and enchanters the world over to a greater or
+   lesser degree, depending on the creature in question. After defeating a
+   monster, the party can make an Arcana check to identify and harvest useful
+   monster parts. On a success, roll 1d6 to determine the number of slots of
+   parts harvestable from the monster. The roll is capped by the monster's Level
+   (i.e. a Level 4 monster will not provide more than 4 slots of parts). For
+   each level a monster has above Level 6, the minimum number of slots of parts
+   goes up by one, up to the die cap (i.e. a Level 11 monster will always yield
+   6 slots of parts). Each slot of parts is worth silver pence (d.) equal to 2%
+   of the XP value of the monster.
+
+Example 1: The party kills a Level 4 gargoyle worth 75XP, succeeds on its
+Survival check, and rolls a 5 on their 1d6 harvesting roll. The cap is 4, so
+they harvest 4 slots of monster parts worth 1d. 2f. (and 6XP) each, a 32% boost.
+
+Example 2: The party brings down a Level 10 red dragon worth 2300XP and succeeds
+on its Survival check. The possible range of their harvesting roll is 5-6. They
+roll 1d6 and get a 4, so they harvest 5 slots of monster parts worth 46d. (and
+184XP) each, a 40% boost.
+
 Experience gained from treasure and killing monsters is divided equally among
 all characters of the party, including retainers (who then apply a 50% penalty
 before adding it to their totals). Experience gained from Feats of Exploration
