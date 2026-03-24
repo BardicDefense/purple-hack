@@ -1459,12 +1459,12 @@ appreciates the PC’s generosity. Roll on the table below.
    6 slots of parts). Each slot of parts is worth silver pence (d.) equal to 2%
    of the XP value of the monster.
 
-Example 1: The party kills a Level 4 gargoyle worth 75XP, succeeds on its
-Survival check, and rolls a 5 on their 1d6 harvesting roll. The cap is 4, so
-they harvest 4 slots of monster parts worth 1d. 2f. (and 6XP) each, a 32% boost.
+Example 1: The party kills a Level 4 gargoyle worth 75XP, succeeds on its Arcana
+check, and rolls a 5 on their 1d6 harvesting roll. The cap is 4, so they harvest
+4 slots of monster parts worth 1d. 2f. (and 6XP) each, a 32% boost.
 
 Example 2: The party brings down a Level 10 red dragon worth 2300XP and succeeds
-on its Survival check. The possible range of their harvesting roll is 5-6. They
+on its Arcana check. The possible range of their harvesting roll is 5-6. They
 roll 1d6 and get a 4, so they harvest 5 slots of monster parts worth 46d. (and
 184XP) each, a 40% boost.
 
