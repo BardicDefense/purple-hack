@@ -9,7 +9,7 @@ games.
 
 Links:
 [Google Sheets Character Sheet](https://docs.google.com/spreadsheets/d/1wOavveRJ8IEVoqvy33bxn12m20Y_7lqOkc9_KuXwJHo/copy)
-• [Patch Notes](https://monogr.ph/694bf3d97da4a20a582eec2c)
+• [Patch Notes](https://hartrpg.com/patch-notes)
 
 # Table of Contents
 
