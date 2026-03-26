@@ -1,13 +1,14 @@
 # Purple Hack Patch Notes
 
 _If you want to see every single change, you can check out the
-_[_GitHub commit history_](https://github.com/BardicDefense/purple-hack/commits/main/ "GitHub commit history")_.
+[GitHub commit history](https://github.com/BardicDefense/purple-hack/commits/main/ "GitHub
+commit history").
 Here’s a summary of the major recent changes. You can access the full Purple
-Hack ruleset _[_here_](https://hartrpg.com "here")_._
+Hack ruleset [\_here_](https://hartrpg.com "here").\_
 
 # 2026\.03.23: Monster Harvesting
 
-[More XP](https://hartrpg.com/#experience--leveling)! In a nutshell, you can
+**[More XP](https://hartrpg.com/#experience--leveling)**! In a nutshell, you can
 harvest monster parts off monsters you kill and haul them home for XP like any
 other treasure. The more dangerous the monster, the more valuable their parts.
 
@@ -25,23 +26,23 @@ There are now two
 # 2025\.12.27: Dolmenwood
 
 _Just for the curious, I’ll add a (D) after each entry that’s from or heavily
-inspired by _Dolmenwood_._
+inspired by \_Dolmenwood_.\_
 
 ## Characters
 
 - **Changed to a d6
-  **[**Ability Check**](https://hartrpg.com/#checks--saves "Ability Check")**
-  system (instead of d20).** Roll a d6, add your ability score modifier and any
-  other situational modifiers, beat a 4. Easy._(D)_
+  [Ability Check](https://hartrpg.com/#checks--saves "Ability Check") system
+  (instead of d20).** Roll a d6, add your ability score modifier and any other
+  situational modifiers, beat a 4. Easy. _(D)_
 
 - **Added
-  **[**Feats of Exploration**](https://hartrpg.com/#feats-of-exploration "Feats of Exploration")**
+  [Feats of Exploration](https://hartrpg.com/#feats-of-exploration "Feats of Exploration")
   for new ways to gain XP.**
 
-- Added a Knight fighting style for the warrior class*(D)*
+- Added a Knight fighting style for the warrior class _(D)_
 
 - Added a Breggle (goatfolk) race for if you ever meet one and then have a
-  character die and then want to make one. 'Til then, they're locked 😉*(D)*
+  character die and then want to make one. 'Til then, they're locked 😉 _(D)_
 
 - Updated Dwarf and Elf racial bonuses
 
@@ -57,19 +58,18 @@ inspired by _Dolmenwood_._
 
 ## [Feats](https://hartrpg.com/#choose-feats "Feats")
 
-- **New
-  **[**warrior feat**](https://hartrpg.com/#warrior-feats "warrior feat")**:
-  Battle Rage\*** (D)\*
+- **New [warrior feat](https://hartrpg.com/#warrior-feats "warrior feat"):
+  Battle Rage** _(D)_
 
-- **New **[**mage feats**](https://hartrpg.com/#mage-feats "mage feats")**:
-  Arcane Antipathy, Detect Magic\*** (D)\*
+- **New [mage feats](https://hartrpg.com/#mage-feats "mage feats"): Arcane
+  Antipathy, Detect Magic** _(D)_
 
 - **New
-  **[**unrestricted feats**](https://hartrpg.com/#unrestricted-feats "unrestricted feats")**:
-  Animal Companion, Undead Slayer\*** (D)\*
+  [unrestricted feats](https://hartrpg.com/#unrestricted-feats "unrestricted feats"):
+  Animal Companion, Undead Slayer** _(D)_
 
 - **Characters with the Anointed feat now pull spells from the holy spell list
-  instead of the regular arcane spell list.\*** (D)\*
+  instead of the regular arcane spell list.** _(D)_
 
 - Updated Defender and Whirlwind to reflect combat changes
 
@@ -84,8 +84,8 @@ inspired by _Dolmenwood_._
 ## Skills
 
 - **Converted to a
-  **[**d6 skill system**](https://hartrpg.com/#determine-starting-age--choose-skills "d6 skill system")**.
-  **Roll a d6, and if you hit your Skill Target you succeed. Skills are either
+  [d6 skill system](https://hartrpg.com/#determine-starting-age--choose-skills "d6 skill system")**.
+  Roll a d6, and if you hit your Skill Target you succeed. Skills are either
   general (where everyone starts with a Skill Target of 6), or specialized
   (where you can’t even attempt without having taken the skill). Each time you
   take a Skill, it lowers the Skill Target of that skill by 1. Skills can be
@@ -93,19 +93,19 @@ inspired by _Dolmenwood_._
   example, someone could take the Stealth skill twice to have a Skill Target
   of 4. Or make a grizzled wilderness survivalist and start with an old
   character to take three skills and do Survival x3 for a Survival Skill Target
-  of 3 right out of the gate. You get the idea._(D)_
+  of 3 right out of the gate. You get the idea. _(D)_
 
 ## Combat
 
 - **Removed stances at the beginning of a round in favor of a
-  **[**clear list of options each phase**](https://hartrpg.com/#combat-phases "clear list of options each phase")**.
-  **(This, besides the d6 Ability & Skill system, is the most significant change
+  [clear list of options each phase](https://hartrpg.com/#combat-phases "clear list of options each phase")**.
+  (This, besides the d6 Ability & Skill system, is the most significant change
   and the one that’ll take the most getting used to. I’ll have cheat sheets,
   don’t worry.)
 
 - Clarified
-  [how splash weapons work](https://hartrpg.com/#missile-phase "how splash weapons work")_
-  (D)_
+  [how splash weapons work](https://hartrpg.com/#missile-phase "how splash weapons work")
+  _(D)_
 
 - Added a
   “[defensive movement](https://hartrpg.com/#defensive-movement "defensive movement")”
@@ -114,7 +114,7 @@ inspired by _Dolmenwood_._
 ## Exploration
 
 - [**Reworked encumbrance & item slots**](https://hartrpg.com/#item-slots "Reworked encumbrance & item slots").
-  Removed items being “readied” and simplified to equipped vs stored._(D)_
+  Removed items being “readied” and simplified to equipped vs stored. _(D)_
 
 - Updated food rules: eating better-quality meals simply lets you
   [heal more overnight](https://hartrpg.com/#healing "heal more overnight").
@@ -125,11 +125,11 @@ inspired by _Dolmenwood_._
 ## Magic
 
 - **The number of spells slots each caster has at each level has been
-  **[**slightly adjusted**](https://hartrpg.com/#magic--spells "slightly adjusted")**.\***
-  (D)\*
+  [slightly adjusted](https://hartrpg.com/#magic--spells "slightly adjusted")**.
+  _(D)_
 - Spell levels are now called spell Ranks to avoid confusion with character
   levels. Thanks, _Dolmenwood_. (And also duh why hasn't anyone else thought of
-  that before?!)_(D)_
+  that before?!) _(D)_
 
 - Additional clarification added around binding and researching
   [new spells](https://hartrpg.com/#gaining-new-spells), and the time
@@ -142,7 +142,7 @@ inspired by _Dolmenwood_._
 
 - **Multiple arcane spells were updated or replaced.** The spells replaced are
   replaced with (I think) more interesting options, and updated spells are
-  either rebalanced or made clearer. Full details below._(D)_
+  either rebalanced or made clearer. Full details below. _(D)_
 - You can see the current arcane spell list
   [here](https://hartrpg.com/spells.html "here").
 - Added information on [Holy Magic](https://hartrpg.com/#holy-magic) for
@@ -150,18 +150,18 @@ inspired by _Dolmenwood_._
   [here](https://hartrpg.com/holyspells "here").
 
 - Added info about [Praying at Shrines](https://hartrpg.com/#praying-at-shrines)
-  (note that second paragraph!)._(D)_
+  (note that second paragraph!). _(D)_
 
 ### Rank 1
 
-- **New evocation spell: Crystal Resonance\*** (D)\*
-- **New illusion spell: Ventriloquism\*** (D)\*
+- **New evocation spell: Crystal Resonance** _(D)_
+- **New illusion spell: Ventriloquism** _(D)_
 
 - Bless renamed to Arcane Ward (to distinguish it from the classic holy spell)
   and its bonus is rebalanced down to +1.
-- Light renamed to Firelight, and flare ability added*(D)*
-- Magic Missile replaced with Ioun Shard cause it’s cooler*(D)*
-- **The Turn Undead spell has significant changes in how it works\*** (D)\*
+- Light renamed to Firelight, and flare ability added _(D)_
+- Magic Missile replaced with Ioun Shard cause it’s cooler _(D)_
+- **The Turn Undead spell has significant changes in how it works** _(D)_
 - Detect Magic has additional functionality
 
 - Shocking Grasp has been buffed and renamed to Shocking Strike, and is now a
@@ -170,8 +170,8 @@ inspired by _Dolmenwood_._
 
 ### Rank 2
 
-- **New transmutation spell: Arcane Cypher\*** (D)\*
-- **New divination spell: Mind Crystal\*** (D)\*
+- **New transmutation spell: Arcane Cypher** _(D)_
+- **New divination spell: Mind Crystal** _(D)_
 
 - **Removed Acid Arrow, Augury, Bolster & Fool’s Gold**
 - Updated Knock, Mirror Image, Guide, Phantasmal Force, and Web
@@ -179,15 +179,15 @@ inspired by _Dolmenwood_._
 - Increased duration for Mind Shield and Protection from Poison
 
 - Detect Invisible replaced with Perceive the Invisible for pedantic flavor
-  reasons*(D)*
+  reasons _(D)_
 
 ### Rank 3
 
-- **New divination spell: Crystal Vision\*** (D)\*
+- **New divination spell: Crystal Vision** _(D)_
 
-- **New transmutation spell: Darkvision\*** (D)\*
+- **New transmutation spell: Darkvision** _(D)_
 
-- **New evocation spell: Serpent Glyph\*** (D)\*
+- **New evocation spell: Serpent Glyph** _(D)_
 
 - **Removed Blink, Dig, and ESP**
 
@@ -199,9 +199,9 @@ inspired by _Dolmenwood_._
 
 ### Rank 4
 
-- **New evocation spell: Sending\*** (D)\*
+- **New evocation spell: Sending** _(D)_
 
-- **New transmutation spell: Fabricate\*** (D)\*
+- **New transmutation spell: Fabricate** _(D)_
 
 - **Removed Ice Storm, Stone to Flesh, Thunderclap**
 
@@ -209,15 +209,15 @@ inspired by _Dolmenwood_._
 
 - Replaced Polymorph Self with Polymorph (which allows polymorphing others)
 
-- Replaced Domination with Dominate*(D)*
+- Replaced Domination with Dominate _(D)_
 
 - Upgraded Strength and renamed it to Enhance
 
 ### Rank 5
 
-- **New conjuration spells: Air Sphere, Conjure Elemental\*** (D)\*
+- **New conjuration spells: Air Sphere, Conjure Elemental** _(D)_
 
-- **New transmutation spell: Passwall\*** (D)\*
+- **New transmutation spell: Passwall** _(D)_
 
 - **Removed Limited Wish, Shape Earth**
 
@@ -229,9 +229,9 @@ inspired by _Dolmenwood_._
 
 ### Rank 6
 
-- **New conjuration spell: Dweomerfire\*** (D)\*
+- **New conjuration spell: Dweomerfire** _(D)_
 
-- **New transmutation spells: Move Terrain, Petrification\*** (D)\*
+- **New transmutation spells: Move Terrain, Petrification** _(D)_
 
 - **Remove Control Water, Shape Change, Wish**
 
