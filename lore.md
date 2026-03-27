@@ -3,7 +3,7 @@
 - [Overview](#overview)
 - [Religion](#religion)
 - [Timeline of History](#timeline-of-history)
-- [Calendar of Saints](#calendar-of-saints)
+- [Pluritine Calendar of Saints](#pluritine-calendar-of-saints)
 - [Places](#places)
 
 ## Overview
