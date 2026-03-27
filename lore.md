@@ -1,8 +1,58 @@
 # Lore
 
+- [Overview](#overview)
+- [Religion](#religion)
 - [Timeline of History](#timeline-of-history)
 - [Calendar of Saints](#calendar-of-saints)
 - [Places](#places)
+
+## Overview
+
+Earth, 1086AD. Almost.
+
+200 years ago, the first contact was made between the Old World and the New.
+While many were surprised, the elves were not, as they remembered in their
+stories the lands across the deep sea.
+
+**Europe**: The remains of the Archontean Empire stretch across Europe. William
+I has conquered Tribania, and pushed out the old empire's remaining foothold,
+though he retained Archontean leaders and language there after extracting an
+oath of fealty. Meanwhile, Leon, Castile, and Portugal push the Almohad
+Caliphate south in the Iberian peninsula, and hundreds of smaller kingdoms draw
+lines across Europe. Ancient Archontean ruins dot the landscape, yielding their
+riches and magic to those adventurers canny enough to survive.
+
+**Africa**: Much of the northwestern coast is ruled by the Almohad Caliphate,
+which fiercely defends the interior from intrusion. What is known comes through
+whispers and rumors: the oldest magic, the rarest monsters, and riches beyond
+imagining.
+
+**North America**: The native and elven tribes east of the Mississippi ~ what
+the elves call “Beleriand" ~ live in a peaceful union of independent tribal
+lands. The more aggressive peoples, like the Iroquois or the Lakota, are
+contained or pacified by elvish philosophy and culture. North America is a
+fortress ... but one that is benign, willing to allow easterners to settle on
+the coastal lands in exchange for trade and the mutual sharing of knowledge.
+
+**South America**: Here, the old magics of civilizations long lost have seeped
+into the land itself, and the rainforests of Chult loathe intrusion beyond the
+first few miles of coastline. The few who brave the expedition and survive
+return with wealth and magical artifacts. Those who fail are swallowed by the
+jungle.
+
+## Religion
+
+“The beginning was rather a long time ago, and a lot has happened since. Here’s
+what matters to know: The Pluritine Church is the dominant religion in our part
+of the world. Some worship other gods quietly, though. There are loads of gods,
+and saints, and saints who became gods, and beings of chaos powerful enough to
+grant spells so they might as well be gods, and elemental nature spirits, and
+more. Even monotheists don’t deny the existence and powers of other beings …
+they just call them demons. Or, if they call them saints, they say the power
+comes through their one god anyhow. In any case, you’d do best to just assume
+they’re all Very Real and Very Powerful.”
+
+- Keeper Yewande
 
 ## Timeline of History
 
@@ -307,7 +357,7 @@ Thorcin Recovery League is founded during this time.
 
 **Current Year**: 1086
 
-## Calendar of Saints
+## Pluritine Calendar of Saints
 
 - Jan 2: St. Waylord
 - Jan 3: St. Gondyw
