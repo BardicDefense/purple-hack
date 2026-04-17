@@ -1788,13 +1788,13 @@ days before an applicant shows up who fits the requirements.
 
 When a general search succeeds, roll on the following table:
 
-|  Settlement Size  | Townsfolk | Adventurers |
-| :---------------: | :-------: | :---------: |
-|      Hamlet       |    1d2    |      –      |
-|   Village (VI)    |    1d4    |      1      |
-| Small Town (IV-V) |    1d6    |     1d3     |
-| Large Town (III)  |    2d4    |     1d4     |
-|    City (I-II)    |    2d6    |     1d6     |
+| Settlement Size | Townsfolk | Adventurers |
+| :-------------: | :-------: | :---------: |
+|     Hamlet      |    1d2    |      –      |
+|     Village     |    1d4    |      1      |
+|   Small Town    |    1d6    |     1d3     |
+|   Large Town    |    2d4    |     1d4     |
+|      City       |    2d6    |     1d6     |
 
 Townsfolk are everyday folk without a Class willing to join an adventuring
 party. Usually used as torchbearers or porters, they come with no equipment and
@@ -1997,11 +1997,11 @@ availability. Roll once for each column a maximum of once per week. The
 cargo/passengers will be heading for the ship’s next destination (which must be
 stated beforehand).
 
-|    Type of Port     | Deck Passengers | Cabin Passengers | Contracted Cargoes |
-| :-----------------: | :-------------: | :--------------: | :----------------: |
-| Minor (V and below) |      1d6-1      |      1d6-5       |       1d6-3        |
-|   Medium (III-IV)   |     2d6-1d6     |      1d6-3       |       1d6-1        |
-|    Major (I-II)     |     3d6-1d6     |      1d6-1       |       1d6+2        |
+|       Type of Port       | Deck Passengers | Cabin Passengers | Contracted Cargoes |
+| :----------------------: | :-------------: | :--------------: | :----------------: |
+| Minor (Village or below) |      1d6-1      |      1d6-5       |       1d6-3        |
+|      Medium (Town)       |     2d6-1d6     |      1d6-3       |       1d6-1        |
+|       Major (City)       |     3d6-1d6     |      1d6-1       |       1d6+2        |
 
 **Cargo**: The captain chooses either a small (1d6 cwt), medium (1d6x5 cwt) or
 large (2d6x10 cwt) cargo, as fits the size of his ship. The payment for shipping
@@ -2242,12 +2242,13 @@ capacity of any pack animals, carts or wagons, or ships they may own).
 
 ### Bulk Trade Loads Available
 
-|  Market Class  | Loads Available |
-| :------------: | :-------------: |
-|   Class I-II   |      1d6+2      |
-|  Class III-IV  |      1d6-1      |
-|    Class V     |      1d6-2      |
-| Class VI-below |      1d6-3      |
+|    Market Class    | Loads Available |
+| :----------------: | :-------------: |
+|  City or greater   |      1d6+2      |
+|     Large Town     |       1d6       |
+|     Small Town     |      1d6-1      |
+|      Village       |      1d6-2      |
+| Hamlets or smaller |      1d6-3      |
 
 ## Strongholds & Domains
 
